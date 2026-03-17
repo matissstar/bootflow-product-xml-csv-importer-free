@@ -1,0 +1,5029 @@
+# Translation file for Bootflow Product Importer - العربية
+# Copyright (C) 2026 Bootflow
+# This file is distributed under the same license as the Bootflow Product Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootflow Product Importer 0.9.2\n"
+"Report-Msgid-Bugs-To: support@bootflow.io\n"
+"POT-Creation-Date: 2026-03-04 19:52+0200\n"
+"PO-Revision-Date: 2026-03-04 23:10+0000\n"
+"Last-Translator: Bootflow Auto-Translate\n"
+"Language-Team: العربية\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+#: includes/admin/partials/step-2-mapping.php:3033
+msgid "$value * 1.21"
+msgstr "$value * 1.21"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1173
+#, php-format
+msgid "%1$d of %2$d products processed"
+msgstr "تمت معالجة %1$d من أصل %2$d منتج"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2394
+#, php-format
+msgid "%d attribute found."
+msgstr "تم العثور على %d سمة."
+
+#: includes/admin/partials/import-edit.php:127
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:611
+#, php-format
+msgid "%d days ago"
+msgstr "منذ %d أيام"
+
+#: includes/admin/partials/import-edit.php:121
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:605
+#, php-format
+msgid "%d min ago"
+msgstr "منذ %d دقيقة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:535
+#, php-format
+msgid "%d products deleted successfully."
+msgstr "تم حذف %d منتج بنجاح."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1176
+#, php-format
+msgid "%d products remaining"
+msgstr "متبقي %d منتج"
+
+#: includes/admin/partials/import-edit.php:125
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:609
+#, php-format
+msgid "%dh %dm ago"
+msgstr "منذ %d ساعة %d دقيقة"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:505
+#, php-format
+msgid "%s API connection successful."
+msgstr "اتصال %s API ناجح."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:513
+#, php-format
+msgid "%s API test failed: %s"
+msgstr "فشل اختبار %s API: %s"
+
+#: includes/admin/partials/step-2-mapping.php:739
+#: includes/admin/partials/step-2-mapping.php:1101
+msgid "(First matching rule wins)"
+msgstr "(القاعدة الأولى المطابقة تفوز)"
+
+#: includes/admin/partials/step-2-mapping.php:2541
+msgid "(all conditions must match)"
+msgstr "(يجب تطابق جميع الشروط)"
+
+#: includes/admin/partials/step-2-mapping.php:2545
+msgid "(any condition can match)"
+msgstr "(أي شرط يمكن أن يتطابق)"
+
+#: includes/admin/partials/step-2-mapping.php:772
+#: includes/admin/partials/step-2-mapping.php:948
+msgid "+ Fixed €"
+msgstr "+ ثابت €"
+
+#: includes/admin/partials/step-2-mapping.php:902
+#: includes/admin/partials/step-2-mapping.php:1247
+msgid "-- Field --"
+msgstr "-- حقل --"
+
+#: includes/admin/partials/step-2-mapping.php:1131
+#: includes/admin/partials/step-2-mapping.php:1290
+msgid "-- No shipping class --"
+msgstr "-- بدون فئة شحن --"
+
+#: includes/admin/partials/step-2-mapping.php:1537
+msgid "-- Select Column (optional) --"
+msgstr "-- اختر العمود (اختياري) --"
+
+#: includes/admin/partials/step-2-mapping.php:1531
+msgid "-- Select Column --"
+msgstr "-- اختر العمود --"
+
+#: includes/admin/partials/step-2-mapping.php:2645
+#: includes/admin/partials/step-2-mapping.php:2998
+#: includes/admin/partials/step-2-mapping.php:3072
+#: includes/admin/partials/step-2-mapping.php:3095
+#: includes/admin/partials/step-2-mapping.php:3119
+#: includes/admin/partials/step-2-mapping.php:3138
+#: includes/admin/partials/step-2-mapping.php:3231
+#: includes/admin/partials/step-2-mapping.php:3244
+#: includes/admin/partials/step-2-mapping.php:3250
+#: includes/admin/partials/step-2-mapping.php:3256
+#: includes/admin/partials/step-2-mapping.php:3280
+#: includes/admin/partials/step-2-mapping.php:3291
+#: includes/admin/partials/import-edit.php:579
+#: includes/admin/partials/import-edit.php:1184
+msgid "-- Select Field --"
+msgstr "-- اختر الحقل --"
+
+#: includes/admin/partials/step-2-mapping.php:3266
+msgid "-- Select Image Field --"
+msgstr "-- اختر حقل الصورة --"
+
+#: includes/admin/partials/import-edit.php:697
+#: includes/admin/partials/import-edit.php:1111
+msgid "-- Select Source --"
+msgstr "-- اختر المصدر --"
+
+#: includes/admin/partials/step-2-mapping.php:2252
+#: includes/admin/partials/step-2-mapping.php:2302
+#: includes/admin/partials/step-2-mapping.php:2698
+#: includes/admin/partials/step-2-mapping.php:2877
+#: includes/admin/partials/step-2-mapping.php:2917
+msgid "-- Select Source Field --"
+msgstr "-- اختر حقل المصدر --"
+
+#: includes/admin/partials/step-2-mapping.php:2069
+#: includes/admin/partials/step-2-mapping.php:2103
+#: includes/admin/partials/step-2-mapping.php:2138
+#: includes/admin/partials/step-2-mapping.php:2170
+#: includes/admin/partials/step-2-mapping.php:2209
+#: includes/admin/partials/step-2-mapping.php:2242
+msgid "-- Select XML Field --"
+msgstr "-- اختر حقل XML --"
+
+#: includes/admin/partials/step-2-mapping.php:713
+msgid "-- Select XML field with base price --"
+msgstr "-- اختر حقل XML بالسعر الأساسي --"
+
+#: includes/admin/partials/step-2-mapping.php:542
+msgid "-- Select template --"
+msgstr "-- اختر القالب --"
+
+#: includes/admin/partials/step-2-mapping.php:789
+msgid ".95"
+msgstr ".95"
+
+#: includes/admin/partials/step-2-mapping.php:788
+msgid ".99"
+msgstr ".99"
+
+#: includes/admin/partials/step-2-mapping.php:783
+msgid "0.01"
+msgstr "0.01"
+
+#: includes/admin/partials/step-2-mapping.php:784
+msgid "0.05"
+msgstr "0.05"
+
+#: includes/admin/partials/step-2-mapping.php:785
+msgid "0.10"
+msgstr "0.10"
+
+#: includes/admin/partials/step-2-mapping.php:786
+msgid "0.50"
+msgstr "0.50"
+
+#: includes/admin/partials/step-2-mapping.php:787
+msgid "1.00"
+msgstr "1.00"
+
+#: includes/admin/partials/settings-page.php:720
+msgid "100% reliable, does not depend on website traffic."
+msgstr "موثوق 100٪، لا يعتمد على حركة المرور على الموقع."
+
+#: includes/admin/partials/step-2-mapping.php:2854
+msgid "<strong>Required for Map mode!</strong> The XML element name inside &lt;attributes&gt;."
+msgstr "<strong>مطلوب لوضع Map!</strong> اسم عنصر XML داخل &lt;attributes&gt;."
+
+#: includes/admin/partials/step-2-mapping.php:603
+msgid "AI Auto-Map"
+msgstr "الذكاء الاصطناعي تعيين تلقائي"
+
+#: includes/admin/partials/step-2-mapping.php:590
+#: includes/admin/partials/step-2-mapping.php:3419
+#: includes/admin/partials/step-2-mapping.php:3592
+msgid "AI Auto-Mapping"
+msgstr "الذكاء الاصطناعي التعيين التلقائي"
+
+#: includes/admin/partials/step-2-mapping.php:2360
+#: includes/admin/partials/step-2-mapping.php:2707
+#: includes/admin/partials/step-2-mapping.php:2883
+#: includes/admin/partials/step-2-mapping.php:2923
+#: includes/admin/partials/step-2-mapping.php:3004
+#: includes/admin/partials/step-2-mapping.php:3297
+#: includes/admin/partials/step-2-mapping.php:3622
+#: includes/admin/partials/import-edit.php:457
+#: includes/admin/partials/import-edit.php:714
+#: includes/admin/partials/import-edit.php:1128
+msgid "AI Processing"
+msgstr "معالجة الذكاء الاصطناعي"
+
+#: includes/admin/partials/import-edit.php:516
+msgid "AI Prompt (applied to PHP result):"
+msgstr "موجه الذكاء الاصطناعي (مطبق على نتيجة PHP):"
+
+#: includes/admin/partials/step-2-mapping.php:2433
+msgid "AI Prompt (executed first):"
+msgstr "موجه الذكاء الاصطناعي (يُنفذ أولاً):"
+
+#: includes/admin/partials/step-2-mapping.php:2903
+#: includes/admin/partials/step-2-mapping.php:2943
+msgid "AI Prompt (runs after):"
+msgstr "موجه الذكاء الاصطناعي (يعمل بعد):"
+
+#: includes/admin/partials/step-2-mapping.php:2421
+#: includes/admin/partials/step-2-mapping.php:2739
+#: includes/admin/partials/step-2-mapping.php:2779
+#: includes/admin/partials/step-2-mapping.php:2897
+#: includes/admin/partials/step-2-mapping.php:2937
+#: includes/admin/partials/step-2-mapping.php:3037
+#: includes/admin/partials/step-2-mapping.php:3329
+#: includes/admin/partials/import-edit.php:495
+#: includes/admin/partials/import-edit.php:740
+#: includes/admin/partials/import-edit.php:1154
+msgid "AI Prompt:"
+msgstr "موجه الذكاء الاصطناعي:"
+
+#: includes/admin/partials/settings-page.php:391
+msgid "AI Provider Configuration"
+msgstr "تكوين مزود الذكاء الاصطناعي"
+
+#: includes/admin/partials/step-2-mapping.php:2411
+#: includes/admin/partials/step-2-mapping.php:2439
+#: includes/admin/partials/step-2-mapping.php:2729
+#: includes/admin/partials/step-2-mapping.php:2769
+#: includes/admin/partials/import-edit.php:485
+#: includes/admin/partials/import-edit.php:522
+#: includes/admin/partials/import-edit.php:734
+#: includes/admin/partials/import-edit.php:1148
+msgid "AI Provider:"
+msgstr "مزود الذكاء الاصطناعي:"
+
+#: includes/admin/partials/settings-page.php:117
+msgid "AI Providers"
+msgstr "مزودو الذكاء الاصطناعي"
+
+#: includes/admin/partials/step-2-mapping.php:621
+msgid "AI analyzing fields..."
+msgstr "الذكاء الاصطناعي يحلل الحقول..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2339
+msgid "AI auto-mapping is a PRO feature."
+msgstr "التعيين التلقائي بالذكاء الاصطناعي هو ميزة PRO."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2312
+msgid "AI auto-mapping requires an AI API key. Please configure one in Settings."
+msgstr "يتطلب التعيين التلقائي بالذكاء الاصطناعي مفتاح API. يرجى تكوينه في الإعدادات."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2365
+#, php-format
+msgid "AI mapped %1$d fields, auto-filled %2$d fields. Total: %3$d of %4$d fields mapped."
+msgstr "قام الذكاء الاصطناعي بتعيين %1$d حقل، وملء %2$d حقل تلقائيًا. الإجمالي: %3$d من %4$d حقل تم تعيينها."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2502
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2561
+msgid "AI processing is a PRO feature."
+msgstr "معالجة الذكاء الاصطناعي هي ميزة PRO."
+
+#: includes/admin/partials/step-2-mapping.php:2451
+msgid "AI result will be passed to PHP formula"
+msgstr "سيتم تمرير نتيجة الذكاء الاصطناعي إلى صيغة PHP"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2570
+msgid "AI test completed successfully."
+msgstr "اكتمل اختبار الذكاء الاصطناعي بنجاح."
+
+#: includes/admin/partials/settings-page.php:356
+msgid "AI-assisted mapping & transformation"
+msgstr "التعيين والتحويل بمساعدة الذكاء الاصطناعي"
+
+#: includes/admin/partials/step-2-mapping.php:844
+#: includes/admin/partials/step-2-mapping.php:1179
+msgid "ALL conditions match"
+msgstr "جميع الشروط متطابقة"
+
+#: includes/admin/partials/step-2-mapping.php:845
+#: includes/admin/partials/step-2-mapping.php:1180
+msgid "ANY condition matches"
+msgstr "أي شرط يتطابق"
+
+#: includes/admin/partials/settings-page.php:400
+#: includes/admin/partials/settings-page.php:419
+#: includes/admin/partials/settings-page.php:438
+#: includes/admin/partials/settings-page.php:457
+#: includes/admin/partials/settings-page.php:475
+msgid "API Key:"
+msgstr "مفتاح API:"
+
+#: includes/admin/partials/settings-page.php:514
+msgid "API Timeout (seconds):"
+msgstr "مهلة API (ثواني):"
+
+#: includes/admin/partials/step-1-upload.php:83
+#, php-format
+msgid "Accepted formats: XML, CSV | Max size: %dMB"
+msgstr "الصيغ المقبولة: XML, CSV | الحجم الأقصى: %dMB"
+
+#: includes/admin/partials/step-2-mapping.php:2722
+msgid "Access product data: <code>$product['field']</code> or <code>$value</code> for source field"
+msgstr "الوصول إلى بيانات المنتج: <code>$product['field']</code> أو <code>$value</code> لحقل المصدر"
+
+#: includes/admin/partials/settings-page.php:700
+#: includes/admin/partials/step-2-mapping.php:452
+#: includes/admin/partials/import-edit.php:799
+msgid "Action Scheduler"
+msgstr "مُجدول الإجراءات"
+
+#: includes/admin/partials/import-edit.php:869
+msgid "Action Scheduler or Server Cron support"
+msgstr "دعم مجدول الإجراءات أو Cron الخادم"
+
+#: includes/admin/partials/step-1-upload.php:223
+#: includes/admin/partials/import-edit.php:224
+msgid "Action for missing products:"
+msgstr "إجراء للمنتجات المفقودة:"
+
+#: includes/admin/partials/import-edit.php:241
+msgid "Action will only affect products last updated by THIS import."
+msgstr "سيؤثر الإجراء فقط على المنتجات التي تم تحديثها آخر مرة بواسطة هذا الاستيراد."
+
+#: includes/admin/partials/step-1-upload.php:242
+msgid "Action will only affect products that were last updated by THIS import. Products updated by other imports will not be affected."
+msgstr "سيؤثر الإجراء فقط على المنتجات التي تم تحديثها آخر مرة بواسطة هذا الاستيراد. لن تتأثر المنتجات المحدثة بواسطة استيرادات أخرى."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:565
+msgid "Actions"
+msgstr "إجراءات"
+
+#: includes/admin/partials/settings-page.php:219
+msgid "Activate"
+msgstr "تفعيل"
+
+#: includes/admin/partials/settings-page.php:198
+#: includes/class-bfi-license-admin.php:44
+msgid "Activate License"
+msgstr "تفعيل الترخيص"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:424
+msgid "Activate your license key in Settings → License to unlock PRO features."
+msgstr "قم بتفعيل مفتاح الترخيص في الإعدادات → الترخيص لفتح ميزات PRO."
+
+#: includes/class-bfi-license-admin.php:46
+msgid "Active"
+msgstr "نشط"
+
+#: includes/admin/partials/step-2-mapping.php:1566
+#: includes/admin/partials/step-2-mapping.php:1778
+msgid "Add 2 attributes:"
+msgstr "أضف سمتين:"
+
+#: includes/admin/partials/step-2-mapping.php:1451
+#: includes/admin/partials/step-2-mapping.php:1554
+#: includes/admin/partials/step-2-mapping.php:1770
+msgid "Add Attribute"
+msgstr "إضافة خاصية"
+
+#: includes/admin/partials/step-2-mapping.php:933
+#: includes/admin/partials/step-2-mapping.php:1278
+msgid "Add Condition"
+msgstr "إضافة شرط"
+
+#: includes/admin/partials/step-2-mapping.php:2601
+#: includes/admin/partials/import-edit.php:674
+msgid "Add Custom Field"
+msgstr "إضافة حقل مخصص"
+
+#: includes/admin/partials/step-2-mapping.php:2521
+#: includes/admin/partials/import-edit.php:559
+msgid "Add Filter"
+msgstr "إضافة فلتر"
+
+#: includes/admin/partials/step-2-mapping.php:1475
+msgid "Add Key-Value Pair"
+msgstr "إضافة زوج مفتاح-قيمة"
+
+#: includes/admin/partials/step-2-mapping.php:1677
+#: includes/admin/partials/step-2-mapping.php:1944
+msgid "Add Meta Field"
+msgstr "إضافة حقل ميتا"
+
+#: includes/admin/partials/step-2-mapping.php:744
+#: includes/admin/partials/step-2-mapping.php:1106
+msgid "Add Rule"
+msgstr "إضافة قاعدة"
+
+#: includes/admin/partials/step-3-progress.php:189
+msgid "Add a new Cron Job with:"
+msgstr "أضف مهمة Cron جديدة مع:"
+
+#: includes/admin/partials/step-2-mapping.php:1417
+msgid "Add attributes that will be shown on product pages. These are informational only."
+msgstr "أضف سمات ستظهر على صفحات المنتج. هذه للمعلومات فقط."
+
+#: includes/admin/partials/step-2-mapping.php:1374
+msgid "Add display attributes like Material, Brand, Color"
+msgstr "أضف سمات العرض مثل المادة والعلامة التجارية واللون"
+
+#: includes/admin/partials/settings-page.php:740
+msgid "Add this cron job to your server"
+msgstr "أضف مهمة cron هذه إلى خادمك"
+
+#: includes/admin/partials/settings-page.php:738
+msgid "Add this cron job to your server to trigger scheduled imports. The import will process ALL products until complete in one request."
+msgstr "أضف مهمة cron هذه إلى خادمك لتشغيل الاستيرادات المجدولة. سيعالج الاستيراد جميع المنتجات حتى الاكتمال في طلب واحد."
+
+#: includes/admin/partials/step-2-mapping.php:3115
+msgid "Added to parent SKU"
+msgstr "تمت الإضافة إلى SKU الأصلي"
+
+#: includes/admin/partials/step-2-mapping.php:3148
+msgid "Advanced (Status, Shipping, Dimensions)"
+msgstr "متقدم (الحالة، الشحن، الأبعاد)"
+
+#: includes/admin/partials/step-2-mapping.php:287
+msgid "Advanced Fields"
+msgstr "حقول متقدمة"
+
+#: includes/admin/partials/step-2-mapping.php:3424
+#: includes/admin/partials/step-2-mapping.php:3627
+msgid "Advanced Formulas"
+msgstr "صيغ متقدمة"
+
+#: includes/admin/partials/step-1-upload.php:167
+msgid "Advanced Options"
+msgstr "خيارات متقدمة"
+
+#: includes/admin/partials/settings-page.php:336
+msgid "Advanced update rules"
+msgstr "قواعد التحديث المتقدمة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:124
+#, php-format
+msgid "All %d products deleted successfully!"
+msgstr "تم حذف جميع المنتجات %d بنجاح!"
+
+#: includes/admin/partials/settings-page.php:165
+msgid "All features unlocked including AI Auto-Mapping, templates, and scheduled imports!"
+msgstr "تم فتح جميع الميزات بما في ذلك التعيين التلقائي بالذكاء الاصطناعي والقوالب والاستيرادات المجدولة!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4316
+msgid "All products deleted successfully"
+msgstr "تم حذف جميع المنتجات بنجاح"
+
+#: includes/admin/partials/step-2-mapping.php:189
+#: includes/admin/partials/step-2-mapping.php:1855
+msgid "Allow"
+msgstr "السماح"
+
+#: includes/admin/partials/step-1-upload.php:227
+#: includes/admin/partials/import-edit.php:228
+msgid "Allow Backorder (stock=0)"
+msgstr "السماح بالطلب المسبق (المخزون=0)"
+
+#: includes/admin/partials/step-2-mapping.php:183
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1094
+msgid "Allow Backorders"
+msgstr "السماح بالطلبات المسبقة"
+
+#: includes/admin/partials/step-2-mapping.php:188
+msgid "Allow, but notify customer"
+msgstr "السماح، ولكن إخطار العميل"
+
+#: includes/admin/partials/step-2-mapping.php:1854
+msgid "Allow, notify"
+msgstr "السماح، إخطار"
+
+#: includes/admin/partials/settings-page.php:824
+msgid "Allowed File Types:"
+msgstr "أنواع الملفات المسموح بها:"
+
+#: includes/admin/partials/settings-page.php:918
+msgid "Allowed PHP Functions:"
+msgstr "وظائف PHP المسموح بها:"
+
+#: includes/admin/partials/step-1-upload.php:236
+#: includes/admin/partials/import-edit.php:236
+msgid "Also process variations when parent product is missing"
+msgstr "معالجة التنويعات أيضًا عند غياب المنتج الأصلي"
+
+#: includes/admin/partials/settings-page.php:760
+msgid "Alternative: WP-CLI"
+msgstr "بديل: WP-CLI"
+
+#: includes/admin/partials/step-2-mapping.php:758
+#: includes/admin/partials/step-2-mapping.php:1120
+msgid "Always applies if no other rule matches"
+msgstr "يُطبق دائمًا إذا لم تتطابق أي قاعدة أخرى"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:100
+msgid "An error occurred:"
+msgstr "حدث خطأ:"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:248
+msgid "Anthropic Claude API key not configured."
+msgstr "لم يتم تكوين مفتاح API لـ Anthropic Claude."
+
+#: includes/admin/partials/settings-page.php:435
+msgid "Anthropic Claude Settings"
+msgstr "إعدادات Anthropic Claude"
+
+#: includes/admin/partials/step-2-mapping.php:841
+#: includes/admin/partials/step-2-mapping.php:1176
+msgid "Apply when:"
+msgstr "تطبيق عندما:"
+
+#: includes/admin/partials/import-edit.php:1253
+msgid "Are you sure you want to clear all field mappings?"
+msgstr "هل أنت متأكد أنك تريد مسح جميع تعيينات الحقول؟"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:119
+msgid "Are you sure you want to delete all products from this import?"
+msgstr "هل أنت متأكد أنك تريد حذف جميع المنتجات من هذا الاستيراد؟"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Are you sure you want to delete this import and its file?"
+msgstr "هل أنت متأكد أنك تريد حذف هذا الاستيراد وملفه؟"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:101
+msgid "Are you sure you want to start the import?"
+msgstr "هل أنت متأكد أنك تريد بدء الاستيراد؟"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1196
+msgid "Are you sure? This will reset progress and start from the beginning."
+msgstr "هل أنت متأكد؟ سيؤدي هذا إلى إعادة تعيين التقدم والبدء من البداية."
+
+#: includes/admin/partials/step-2-mapping.php:1127
+#: includes/admin/partials/step-2-mapping.php:1286
+msgid "Assign Shipping Class:"
+msgstr "تعيين فئة الشحن:"
+
+#: includes/admin/partials/step-2-mapping.php:2913
+msgid "Attribute Image (optional):"
+msgstr "صورة السمة (اختياري):"
+
+#: includes/admin/partials/step-2-mapping.php:1425
+msgid "Attribute Input Mode:"
+msgstr "وضع إدخال السمة:"
+
+#: includes/admin/partials/step-2-mapping.php:2833
+msgid "Attribute Name (WooCommerce):"
+msgstr "اسم السمة (WooCommerce):"
+
+#: includes/admin/partials/step-2-mapping.php:1457
+msgid "Attribute Name: \"Material\" → Source: select the XML/CSV field containing material values"
+msgstr "اسم السمة: \"Material\" → المصدر: حدد حقل XML/CSV الذي يحتوي على قيم المادة"
+
+#: includes/admin/partials/step-2-mapping.php:2873
+msgid "Attribute Values (optional override):"
+msgstr "قيم السمة (تجاوز اختياري):"
+
+#: includes/admin/partials/step-2-mapping.php:304
+msgid "Attributes & Variations"
+msgstr "السمات والتنويعات"
+
+#: includes/admin/partials/settings-page.php:284
+msgid "Attributes & variations"
+msgstr "السمات والتنويعات"
+
+#: includes/admin/partials/step-2-mapping.php:1744
+msgid "Attributes path:"
+msgstr "مسار السمات:"
+
+#: includes/admin/partials/step-2-mapping.php:1977
+msgid "Auto Shipping Class Formula"
+msgstr "صيغة فئة الشحن التلقائية"
+
+#: includes/admin/partials/step-2-mapping.php:1068
+msgid "Auto-assign shipping classes based on product weight, category, price, or any XML field"
+msgstr "تعيين فئات الشحن تلقائيًا بناءً على وزن المنتج أو الفئة أو السعر أو أي حقل XML"
+
+#: includes/admin/partials/step-1-upload.php:188
+msgid "Auto-create Categories"
+msgstr "إنشاء الفئات تلقائيًا"
+
+#: includes/admin/partials/settings-page.php:847
+msgid "Auto-delete Old Files"
+msgstr "حذف الملفات القديمة تلقائيًا"
+
+#: includes/admin/partials/step-2-mapping.php:1732
+msgid "Auto-detect"
+msgstr "كشف تلقائي"
+
+#: includes/admin/partials/step-1-upload.php:118
+msgid "Auto-detect (from extension or content)"
+msgstr "كشف تلقائي (من الامتداد أو المحتوى)"
+
+#: includes/admin/partials/step-2-mapping.php:1741
+msgid "Auto-detect Settings"
+msgstr "إعدادات الكشف التلقائي"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4174
+#, php-format
+msgid "Auto-detected %1$d of %2$d fields"
+msgstr "تم الكشف التلقائي عن %1$d من %2$d حقل"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2008
+#, php-format
+msgid "Auto-detected External product type for \"%s\" (has external_url field)"
+msgstr "تم الكشف التلقائي عن نوع المنتج الخارجي لـ \"%s\" (يحتوي على حقل external_url)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2002
+#, php-format
+msgid "Auto-detected Grouped product type for \"%s\" (has grouped_products field)"
+msgstr "تم الكشف التلقائي عن نوع المنتج المجمع لـ \"%s\" (يحتوي على حقل grouped_products)"
+
+#: includes/admin/partials/step-2-mapping.php:2585
+msgid "Auto-draft products that no longer match filters"
+msgstr "مسودة تلقائية للمنتجات التي لم تعد تتطابق مع الفلاتر"
+
+#: includes/admin/partials/step-2-mapping.php:2295
+msgid "Auto-generate"
+msgstr "إنشاء تلقائي"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3444
+msgid "Auto-refresh (5s)"
+msgstr "تحديث تلقائي (5 ثوانٍ)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3600
+msgid "Auto-refresh for live monitoring"
+msgstr "تحديث تلقائي للمراقبة المباشرة"
+
+#: includes/admin/partials/step-3-progress.php:361
+msgid "Auto-scroll"
+msgstr "تمرير تلقائي"
+
+#: includes/admin/partials/settings-page.php:795
+msgid "Automate your imports with scheduled cron jobs. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "أتمت استيراداتك باستخدام مهام cron المجدولة. قم بتشغيل الاستيرادات تلقائيًا كل 15 دقيقة أو كل ساعة أو يوميًا أو أسبوعيًا."
+
+#: includes/admin/partials/import-edit.php:777
+#: includes/admin/partials/import-edit.php:860
+msgid "Automated Schedule"
+msgstr "الجدول الآلي"
+
+#: includes/admin/partials/step-2-mapping.php:432
+msgid "Automated scheduled imports are available in the PRO version."
+msgstr "الاستيرادات المجدولة التلقائية متاحة في إصدار PRO."
+
+#: includes/admin/partials/step-1-upload.php:160
+msgid "Automated scheduled imports are available in the PRO version. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "الاستيرادات المجدولة التلقائية متاحة في إصدار PRO. قم بتشغيل الاستيرادات كل 15 دقيقة أو كل ساعة أو يوميًا أو أسبوعيًا."
+
+#: includes/admin/partials/settings-page.php:321
+msgid "Automatic field mapping"
+msgstr "تعيين الحقول التلقائي"
+
+#: includes/admin/partials/import-edit.php:868
+msgid "Automatic product updates"
+msgstr "تحديثات المنتج التلقائية"
+
+#: includes/admin/partials/step-2-mapping.php:455
+msgid "Automatically continues until complete. No server cron needed."
+msgstr "يستمر تلقائيًا حتى الاكتمال. لا حاجة لـ cron الخادم."
+
+#: includes/admin/partials/import-edit.php:802
+msgid "Automatically continues until complete. No server cron needed. Requires website traffic."
+msgstr "يستمر تلقائيًا حتى الاكتمال. لا حاجة لـ cron الخادم. يتطلب حركة مرور الموقع."
+
+#: includes/admin/partials/step-1-upload.php:190
+msgid "Automatically create product categories if they don't exist."
+msgstr "إنشاء فئات المنتجات تلقائيًا إذا لم تكن موجودة."
+
+#: includes/admin/partials/step-2-mapping.php:3593
+msgid "Automatically map XML/CSV fields to WooCommerce product fields using artificial intelligence. Save hours of manual mapping work."
+msgstr "قم بتعيين حقول XML/CSV إلى حقول منتجات WooCommerce تلقائيًا باستخدام الذكاء الاصطناعي. وفر ساعات من العمل اليدوي."
+
+#: includes/admin/partials/step-2-mapping.php:424
+msgid "Automatically re-import from URL on a schedule. Requires server cron to be configured."
+msgstr "إعادة الاستيراد تلقائيًا من URL وفقًا لجدول زمني. يتطلب تكوين cron الخادم."
+
+#: includes/admin/partials/settings-page.php:948
+msgid "Automatically sanitize imported data to prevent XSS and other security issues."
+msgstr "تنظيف البيانات المستوردة تلقائيًا لمنع XSS ومشاكل الأمان الأخرى."
+
+#: includes/admin/partials/step-2-mapping.php:2000
+#: includes/admin/partials/import-edit.php:389
+msgid "Available Shipping Classes:"
+msgstr "فئات الشحن المتاحة:"
+
+#: includes/admin/partials/step-2-mapping.php:1997
+#: includes/admin/partials/import-edit.php:386
+msgid "Available Variables:"
+msgstr "المتغيرات المتاحة:"
+
+#: includes/admin/partials/step-2-mapping.php:1311
+msgid "Available WooCommerce Shipping Classes:"
+msgstr "فئات شحن WooCommerce المتاحة:"
+
+#: includes/admin/partials/step-2-mapping.php:2318
+msgid "Available placeholders:"
+msgstr "العناصر النائبة المتاحة:"
+
+#: includes/admin/partials/import-edit.php:84
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3621
+msgid "Back to Import History"
+msgstr "العودة إلى سجل الاستيراد"
+
+#: includes/admin/partials/step-2-mapping.php:2616
+msgid "Back to Upload"
+msgstr "العودة إلى التحميل"
+
+#: includes/admin/partials/settings-page.php:575
+msgid "Background Batch Size:"
+msgstr "حجم الدفعة في الخلفية:"
+
+#: includes/admin/partials/settings-page.php:578
+msgid "Background Interval (seconds):"
+msgstr "فاصل الخلفية (ثوانٍ):"
+
+#: includes/admin/partials/settings-page.php:567
+msgid "Background Processing"
+msgstr "المعالجة في الخلفية"
+
+#: includes/admin/partials/step-2-mapping.php:1848
+msgid "Backorders:"
+msgstr "الطلبات المسبقة:"
+
+#: includes/admin/partials/step-2-mapping.php:710
+msgid "Base Price Source (from XML):"
+msgstr "مصدر السعر الأساسي (من XML):"
+
+#: includes/admin/partials/step-2-mapping.php:98
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1070
+msgid "Basic Product Fields"
+msgstr "حقول المنتج الأساسية"
+
+#: includes/admin/partials/step-1-upload.php:201
+#: includes/admin/partials/step-2-mapping.php:483
+#: includes/admin/partials/import-edit.php:159
+#: includes/admin/partials/import-edit.php:275
+msgid "Batch Size"
+msgstr "حجم الدفعة"
+
+#: includes/admin/partials/settings-page.php:544
+msgid "Batch Size:"
+msgstr "حجم الدفعة:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:171
+msgid "Bootflow Import"
+msgstr "Bootflow استيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:170
+msgid "Bootflow Importer"
+msgstr "Bootflow مستورد"
+
+#: includes/class-bfi-license-admin.php:33
+msgid "Bootflow PRO License"
+msgstr "ترخيص Bootflow PRO"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:255
+msgid "Bootflow – WooCommerce XML & CSV Importer"
+msgstr "Bootflow – مستورد WooCommerce XML & CSV"
+
+#: includes/admin/partials/step-2-mapping.php:226
+#: includes/admin/partials/step-2-mapping.php:1192
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1127
+msgid "Brand"
+msgstr "علامة تجارية"
+
+#: includes/admin/partials/step-2-mapping.php:887
+#: includes/admin/partials/step-2-mapping.php:1241
+msgid "Brand name"
+msgstr "اسم العلامة التجارية"
+
+#: includes/admin/partials/step-1-upload.php:76
+msgid "Browse Files"
+msgstr "تصفح الملفات"
+
+#: includes/admin/partials/step-2-mapping.php:291
+msgid "Button Text"
+msgstr "نص الزر"
+
+#: includes/admin/partials/step-2-mapping.php:1524
+msgid "CSV Grouping Fields"
+msgstr "حقول تجميع CSV"
+
+#: includes/admin/partials/step-2-mapping.php:1515
+msgid "CSV Variable Products"
+msgstr "منتجات CSV المتغيرة"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:372
+msgid "CSV file appears to be empty."
+msgstr "يبدو أن ملف CSV فارغ."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:437
+msgid "CSV file has no headers."
+msgstr "ملف CSV لا يحتوي على رؤوس."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:390
+#, php-format
+msgid "CSV file is valid with %d columns."
+msgstr "ملف CSV صالح مع %d عمود."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:31
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:122
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:420
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:490
+msgid "CSV file not found."
+msgstr "لم يتم العثور على ملف CSV."
+
+#: includes/admin/partials/settings-page.php:525
+msgid "Cache TTL (seconds):"
+msgstr "مدة صلاحية التخزين المؤقت (ثوانٍ):"
+
+#: includes/admin/partials/step-2-mapping.php:2982
+#: includes/admin/partials/step-2-mapping.php:3056
+#: includes/admin/partials/step-2-mapping.php:3217
+msgid "Calculate"
+msgstr "حساب"
+
+#: includes/admin/partials/step-2-mapping.php:683
+msgid "Calculate final prices by applying markup rules to the base price from XML"
+msgstr "حساب الأسعار النهائية بتطبيق قواعد هامش الربح على السعر الأساسي من XML"
+
+#: includes/admin/partials/step-3-progress.php:437
+#: includes/admin/partials/step-3-progress.php:458
+msgid "Calculating..."
+msgstr "جاري الحساب..."
+
+#: includes/admin/partials/import-edit.php:883
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:117
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: includes/admin/partials/step-2-mapping.php:222
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1123
+msgid "Categories & Tags"
+msgstr "التصنيفات والوسوم"
+
+#: includes/admin/partials/step-2-mapping.php:1191
+msgid "Category"
+msgstr "تصنيف"
+
+#: includes/admin/partials/step-2-mapping.php:1231
+msgid "Category name"
+msgstr "اسم الفئة"
+
+#: includes/admin/partials/step-2-mapping.php:877
+msgid "Category name or slug"
+msgstr "اسم أو رابط الفئة"
+
+#: includes/admin/partials/step-2-mapping.php:2690
+msgid "Checkbox"
+msgstr "مربع اختيار"
+
+#: includes/admin/partials/settings-page.php:695
+msgid "Choose Method"
+msgstr "اختر الطريقة"
+
+#: includes/admin/partials/step-1-upload.php:148
+msgid "Choose how often this import should run automatically. Manual imports can be run at any time."
+msgstr "اختر عدد مرات تشغيل هذا الاستيراد تلقائيًا. يمكن تشغيل الاستيرادات اليدوية في أي وقت."
+
+#: includes/admin/partials/step-2-mapping.php:644
+#: includes/admin/partials/import-edit.php:332
+msgid "Clear All"
+msgstr "مسح الكل"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3449
+msgid "Clear Log"
+msgstr "مسح السجل"
+
+#: includes/admin/partials/step-2-mapping.php:2497
+#: includes/admin/partials/import-edit.php:540
+msgid "Clear Mapping"
+msgstr "مسح التعيين"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3448
+msgid "Clear debug log file?"
+msgstr "مسح ملف سجل التصحيح؟"
+
+#: includes/admin/partials/import-edit.php:1369
+msgid "Clear this field mapping?"
+msgstr "مسح تعيين هذا الحقل؟"
+
+#: includes/admin/partials/step-2-mapping.php:3411
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:118
+msgid "Close"
+msgstr "إغلاق"
+
+#: includes/admin/partials/step-2-mapping.php:2584
+msgid "Combine multiple filters with AND/OR logic"
+msgstr "ادمج فلاتر متعددة بمنطق AND/OR"
+
+#: includes/admin/partials/step-3-progress.php:193
+msgid "Command:"
+msgstr "الأمر:"
+
+#: includes/admin/partials/step-2-mapping.php:2669
+#: includes/admin/partials/import-edit.php:604
+#: includes/admin/partials/import-edit.php:1209
+msgid "Comparison value"
+msgstr "قيمة المقارنة"
+
+#: includes/admin/partials/import-edit.php:609
+msgid "Condition"
+msgstr "الشرط"
+
+#: includes/admin/partials/settings-page.php:341
+msgid "Conditional logic"
+msgstr "المنطق الشرطي"
+
+#: includes/admin/partials/import-edit.php:325
+msgid "Configuration Required:"
+msgstr "التكوين مطلوب:"
+
+#: includes/admin/partials/step-2-mapping.php:611
+msgid "Configure AI provider in Settings to enable auto-mapping"
+msgstr "قم بتكوين مزود الذكاء الاصطناعي في الإعدادات لتمكين التعيين التلقائي"
+
+#: includes/admin/partials/settings-page.php:392
+msgid "Configure API keys and settings for AI providers used in smart field processing."
+msgstr "قم بتكوين مفاتيح API والإعدادات لمزودي الذكاء الاصطناعي المستخدمين في المعالجة الذكية للحقول."
+
+#: includes/admin/partials/step-2-mapping.php:2494
+#: includes/admin/partials/import-edit.php:537
+msgid "Configure Processing"
+msgstr "تكوين المعالجة"
+
+#: includes/admin/partials/settings-page.php:589
+msgid "Configure default settings for product imports and data handling."
+msgstr "تكوين الإعدادات الافتراضية لاستيراد المنتجات ومعالجة البيانات."
+
+#: includes/admin/partials/settings-page.php:814
+msgid "Configure file upload, storage, and management settings."
+msgstr "تكوين إعدادات تحميل الملفات والتخزين والإدارة."
+
+#: includes/admin/partials/step-2-mapping.php:1502
+msgid "Configure how variations are structured in your file."
+msgstr "تكوين كيفية هيكلة التنويعات في ملفك."
+
+#: includes/admin/partials/settings-page.php:862
+msgid "Configure logging levels and notification settings."
+msgstr "تكوين مستويات التسجيل وإعدادات الإشعارات."
+
+#: includes/admin/partials/settings-page.php:537
+msgid "Configure performance-related settings to optimize import speed and memory usage."
+msgstr "تكوين الإعدادات المتعلقة بالأداء لتحسين سرعة الاستيراد واستخدام الذاكرة."
+
+#: includes/admin/partials/settings-page.php:911
+msgid "Configure security settings for PHP formula execution and data validation."
+msgstr "تكوين إعدادات الأمان لتنفيذ صيغ PHP والتحقق من صحة البيانات."
+
+#: includes/admin/partials/settings-page.php:710
+#: includes/admin/partials/settings-page.php:722
+msgid "Cons:"
+msgstr "السلبيات:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1188
+msgid "Continue Import"
+msgstr "متابعة الاستيراد"
+
+#: includes/admin/partials/import-edit.php:830
+#: includes/admin/partials/import-edit.php:844
+msgid "Copied!"
+msgstr "تم النسخ!"
+
+#: includes/admin/partials/import-edit.php:831
+msgid "Copy"
+msgstr "نسخ"
+
+#: includes/admin/partials/settings-page.php:750
+#: includes/admin/partials/import-edit.php:845
+msgid "Copy Command"
+msgstr "نسخ الأمر"
+
+#: includes/admin/partials/step-2-mapping.php:473
+msgid "Copy URL"
+msgstr "نسخ الرابط"
+
+#: includes/admin/partials/settings-page.php:741
+msgid "Copy and paste this command into your server's crontab (via SSH or your hosting control panel):"
+msgstr "انسخ والصق هذا الأمر في crontab الخادم الخاص بك (عبر SSH أو لوحة تحكم الاستضافة):"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:475
+msgid "Could not connect to the license server. Please check your internet connection and try again."
+msgstr "تعذر الاتصال بخادم التراخيص. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6805
+#, php-format
+msgid "Could not find product with SKU: %s"
+msgstr "تعذر العثور على المنتج بالرمز: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6634
+#, php-format
+msgid "Could not resolve children for grouped product ID %1$d (SKUs: %2$s)"
+msgstr "تعذر حل العناصر الفرعية للمنتج المجمع ID %1$d (الرموز: %2$s)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:120
+msgid "Counting products..."
+msgstr "جاري حساب المنتجات..."
+
+#: includes/admin/partials/settings-page.php:647
+msgid "Create Missing Categories"
+msgstr "إنشاء الفئات المفقودة"
+
+#: includes/admin/partials/settings-page.php:652
+msgid "Create Missing Tags"
+msgstr "إنشاء العلامات المفقودة"
+
+#: includes/admin/partials/step-2-mapping.php:1755
+msgid "Create WooCommerce attributes if they don't exist"
+msgstr "إنشاء سمات WooCommerce إذا لم تكن موجودة"
+
+#: includes/admin/partials/step-2-mapping.php:3628
+msgid "Create complex field transformation formulas. String manipulation, conditionals, and more."
+msgstr "إنشاء صيغ تحويل الحقول المعقدة. معالجة النصوص والشروط والمزيد."
+
+#: includes/admin/partials/import-edit.php:108
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:563
+msgid "Created"
+msgstr "تم الإنشاء"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:801
+#, php-format
+msgid "Created product: %1$s (ID: %2$d)"
+msgstr "تم إنشاء المنتج: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/settings-page.php:768
+msgid "Cron Secret Key"
+msgstr "المفتاح السري لـ Cron"
+
+#: includes/admin/partials/settings-page.php:778
+#: includes/admin/partials/import-edit.php:827
+msgid "Cron URL"
+msgstr "رابط Cron"
+
+#: includes/admin/partials/step-2-mapping.php:470
+msgid "Cron URL:"
+msgstr "رابط Cron:"
+
+#: includes/admin/partials/step-2-mapping.php:280
+msgid "Cross-sell Product IDs"
+msgstr "معرفات منتجات البيع المتقاطع"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1169
+msgid "Current Progress:"
+msgstr "التقدم الحالي:"
+
+#: includes/admin/partials/settings-page.php:366
+msgid "Custom AI prompts per field"
+msgstr "موجهات ذكاء اصطناعي مخصصة لكل حقل"
+
+#: includes/admin/partials/step-2-mapping.php:2685
+msgid "Custom Field Name"
+msgstr "اسم الحقل المخصص"
+
+#: includes/admin/partials/step-2-mapping.php:2598
+#: includes/admin/partials/import-edit.php:671
+msgid "Custom Fields"
+msgstr "حقول مخصصة"
+
+#: includes/admin/partials/step-2-mapping.php:1673
+#: includes/admin/partials/step-2-mapping.php:1940
+msgid "Custom Meta Fields (EAN, GTIN, UPC, etc.)"
+msgstr "حقول ميتا مخصصة (EAN, GTIN, UPC, إلخ)"
+
+#: includes/admin/partials/import-edit.php:787
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:583
+msgid "Daily"
+msgstr "يومي"
+
+#: includes/admin/partials/step-1-upload.php:144
+#: includes/admin/partials/step-2-mapping.php:419
+msgid "Daily Import"
+msgstr "استيراد يومي"
+
+#: includes/admin/partials/settings-page.php:941
+msgid "Data Sanitization"
+msgstr "تنظيف البيانات"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2796
+msgid "Database error: "
+msgstr "خطأ في قاعدة البيانات: "
+
+#: includes/admin/partials/step-2-mapping.php:2691
+msgid "Date"
+msgstr "تاريخ"
+
+#: includes/admin/partials/settings-page.php:224
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: includes/class-bfi-license-admin.php:55
+msgid "Deactivate License"
+msgstr "إلغاء تفعيل الترخيص"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3592
+msgid "Debug file viewer for troubleshooting"
+msgstr "عارض ملفات التصحيح لاستكشاف الأخطاء"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3459
+msgid "Debug log cleared."
+msgstr "تم مسح سجل التصحيح."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3483
+msgid "Debug log file not found."
+msgstr "لم يتم العثور على ملف سجل التصحيح."
+
+#: includes/admin/partials/step-1-upload.php:193
+msgid "Default Product Status"
+msgstr "حالة المنتج الافتراضية"
+
+#: includes/admin/partials/settings-page.php:596
+msgid "Default Product Status:"
+msgstr "حالة المنتج الافتراضية:"
+
+#: includes/admin/partials/settings-page.php:493
+msgid "Default Provider:"
+msgstr "المزود الافتراضي:"
+
+#: includes/admin/partials/step-2-mapping.php:1002
+#: includes/admin/partials/step-2-mapping.php:1022
+msgid "Default Rule"
+msgstr "القاعدة الافتراضية"
+
+#: includes/admin/partials/step-2-mapping.php:756
+#: includes/admin/partials/step-2-mapping.php:1118
+msgid "Default Rule (Fallback)"
+msgstr "القاعدة الافتراضية (احتياطية)"
+
+#: includes/admin/partials/step-2-mapping.php:1719
+msgid "Define attributes used for variations (e.g., Size, Color). Each unique combination creates a product variation."
+msgstr "حدد السمات المستخدمة للتنويعات (مثل الحجم واللون). كل مجموعة فريدة تنشئ تنويعة منتج."
+
+#: includes/admin/partials/step-2-mapping.php:1728
+msgid "Define each attribute manually"
+msgstr "حدد كل سمة يدويًا"
+
+#: includes/admin/partials/step-2-mapping.php:548
+msgid "Delete Template"
+msgstr "حذف القالب"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Delete import"
+msgstr "حذف الاستيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:659
+msgid "Delete products"
+msgstr "حذف المنتجات"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4318
+#, php-format
+msgid "Deleted %1$d products, %2$d remaining..."
+msgstr "تم حذف %1$d منتج، متبقي %2$d..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:115
+msgid "Deleting Products"
+msgstr "جاري حذف المنتجات"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:121
+msgid "Deleting..."
+msgstr "جاري الحذف..."
+
+#: includes/admin/partials/step-2-mapping.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1074
+msgid "Description"
+msgstr "وصف"
+
+#: includes/admin/partials/step-2-mapping.php:1644
+#: includes/admin/partials/step-2-mapping.php:1890
+#: includes/admin/partials/step-2-mapping.php:3288
+msgid "Description:"
+msgstr "الوصف:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3588
+msgid "Detailed error messages with context"
+msgstr "رسائل خطأ مفصلة مع السياق"
+
+#: includes/admin/partials/step-2-mapping.php:3239
+msgid "Dimensions (L×W×H):"
+msgstr "الأبعاد (ط×ع×ا):"
+
+#: includes/admin/partials/step-2-mapping.php:2881
+#: includes/admin/partials/step-2-mapping.php:2921
+#: includes/admin/partials/import-edit.php:712
+#: includes/admin/partials/import-edit.php:1126
+msgid "Direct"
+msgstr "مباشر"
+
+#: includes/admin/partials/step-2-mapping.php:2358
+#: includes/admin/partials/step-2-mapping.php:2705
+#: includes/admin/partials/step-2-mapping.php:3002
+#: includes/admin/partials/step-2-mapping.php:3295
+#: includes/admin/partials/import-edit.php:455
+msgid "Direct Mapping"
+msgstr "التعيين المباشر"
+
+#: includes/admin/partials/settings-page.php:836
+msgid "Directory name within wp-content/uploads/"
+msgstr "اسم المجلد داخل wp-content/uploads/"
+
+#: includes/admin/partials/import-edit.php:783
+msgid "Disabled"
+msgstr "معطل"
+
+#: includes/admin/partials/step-2-mapping.php:1415
+msgid "Display Attributes"
+msgstr "سمات العرض"
+
+#: includes/admin/partials/step-2-mapping.php:2840
+msgid "Display name in WooCommerce (any language). Auto-adds pa_ prefix."
+msgstr "اسم العرض في WooCommerce (أي لغة). يضيف تلقائيًا البادئة pa_."
+
+#: includes/admin/partials/step-2-mapping.php:187
+msgid "Do not allow"
+msgstr "عدم السماح"
+
+#: includes/admin/partials/step-2-mapping.php:263
+msgid "Download Expiry (days)"
+msgstr "انتهاء صلاحية التنزيل (أيام)"
+
+#: includes/admin/partials/step-2-mapping.php:1906
+msgid "Download Expiry (days):"
+msgstr "انتهاء صلاحية التنزيل (أيام):"
+
+#: includes/admin/partials/step-2-mapping.php:1910
+msgid "Download Files:"
+msgstr "ملفات التنزيل:"
+
+#: includes/admin/partials/settings-page.php:624
+msgid "Download Images from URLs"
+msgstr "تنزيل الصور من الروابط"
+
+#: includes/admin/partials/step-2-mapping.php:262
+msgid "Download Limit"
+msgstr "حد التنزيل"
+
+#: includes/admin/partials/step-2-mapping.php:1902
+msgid "Download Limit:"
+msgstr "حد التنزيل:"
+
+#: includes/admin/partials/step-3-progress.php:505
+msgid "Download Report"
+msgstr "تنزيل التقرير"
+
+#: includes/admin/partials/step-2-mapping.php:260
+msgid "Download Settings"
+msgstr "إعدادات التنزيل"
+
+#: includes/admin/partials/step-2-mapping.php:243
+msgid "Downloadable"
+msgstr "قابل للتنزيل"
+
+#: includes/admin/partials/step-2-mapping.php:3184
+msgid "Downloadable products give access to files after purchase (e.g., ebooks, software)"
+msgstr "المنتجات القابلة للتنزيل تتيح الوصول إلى الملفات بعد الشراء (مثل الكتب الإلكترونية والبرامج)"
+
+#: includes/admin/partials/step-2-mapping.php:1652
+#: includes/admin/partials/step-2-mapping.php:1898
+#: includes/admin/partials/step-2-mapping.php:3185
+msgid "Downloadable:"
+msgstr "قابل للتنزيل:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1654
+msgid "Downloaded file is empty or failed to save."
+msgstr "الملف الذي تم تنزيله فارغ أو فشل في الحفظ."
+
+#: includes/admin/partials/step-1-upload.php:196
+#: includes/admin/partials/step-2-mapping.php:127
+msgid "Draft"
+msgstr "مسودة"
+
+#: includes/admin/partials/step-1-upload.php:73
+msgid "Drag & drop your file here"
+msgstr "اسحب وأفلت ملفك هنا"
+
+#: includes/admin/partials/settings-page.php:608
+msgid "Duplicate Handling:"
+msgstr "معالجة التكرار:"
+
+#: includes/admin/partials/step-2-mapping.php:269
+msgid "EAN"
+msgstr "EAN"
+
+#: includes/admin/partials/step-3-progress.php:338
+msgid "ETA"
+msgstr "الوقت المتوقع"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:641
+msgid "Edit"
+msgstr "تعديل"
+
+#: includes/admin/partials/settings-page.php:162
+#: includes/admin/partials/settings-page.php:169
+#: includes/admin/partials/settings-page.php:176
+msgid "Edition"
+msgstr "الإصدار"
+
+#: includes/admin/partials/settings-page.php:892
+msgid "Email Notifications"
+msgstr "إشعارات البريد الإلكتروني"
+
+#: includes/admin/partials/settings-page.php:522
+msgid "Enable AI Response Caching"
+msgstr "تمكين تخزين استجابات الذكاء الاصطناعي مؤقتًا"
+
+#: includes/admin/partials/settings-page.php:946
+msgid "Enable Advanced Data Sanitization"
+msgstr "تمكين تنظيف البيانات المتقدم"
+
+#: includes/admin/partials/settings-page.php:572
+msgid "Enable Background Processing (WP-Cron)"
+msgstr "تمكين المعالجة في الخلفية (WP-Cron)"
+
+#: includes/admin/partials/settings-page.php:897
+msgid "Enable Email Notifications"
+msgstr "تمكين إشعارات البريد الإلكتروني"
+
+#: includes/admin/partials/settings-page.php:931
+msgid "Enable Formula Validation"
+msgstr "تمكين التحقق من صحة الصيغ"
+
+#: includes/admin/partials/settings-page.php:871
+msgid "Enable Logging"
+msgstr "تمكين التسجيل"
+
+#: includes/admin/partials/step-2-mapping.php:681
+msgid "Enable Price Markup"
+msgstr "تمكين هامش الربح"
+
+#: includes/admin/partials/settings-page.php:642
+msgid "Enable Product Variations Import"
+msgstr "تمكين استيراد تنويعات المنتج"
+
+#: includes/admin/partials/settings-page.php:511
+msgid "Enable Provider Fallback"
+msgstr "تمكين الاحتياطي للمزود"
+
+#: includes/admin/partials/step-2-mapping.php:1066
+msgid "Enable Shipping Class Rules"
+msgstr "تمكين قواعد فئة الشحن"
+
+#: includes/admin/partials/step-2-mapping.php:1335
+msgid "Enable Shipping Class Rules above to automatically assign shipping classes based on product data"
+msgstr "قم بتمكين قواعد فئة الشحن أعلاه لتعيين فئات الشحن تلقائيًا بناءً على بيانات المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:3198
+msgid "Enable stock management at variation level (track inventory for each variation separately)"
+msgstr "تمكين إدارة المخزون على مستوى التنويعة (تتبع المخزون لكل تنويعة بشكل منفصل)"
+
+#: includes/admin/partials/step-2-mapping.php:1034
+msgid "Enable the Price Markup above to configure automatic price calculations"
+msgstr "قم بتمكين هامش الربح أعلاه لتكوين حسابات الأسعار التلقائية"
+
+#: includes/admin/partials/step-2-mapping.php:828
+#: includes/admin/partials/step-2-mapping.php:1163
+msgid "Enabled"
+msgstr "مفعل"
+
+#: includes/admin/partials/step-2-mapping.php:3157
+msgid "Enabled:"
+msgstr "مُفعّل:"
+
+#: includes/admin/partials/step-2-mapping.php:216
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1117
+msgid "Enter image URLs or use placeholders: {image} = first image, {image[1]} = first, {image[2]} = second, {image*} = all images. Separate multiple values with commas."
+msgstr "أدخل روابط الصور أو استخدم العناصر النائبة: {image} = الصورة الأولى, {image[1]} = الأولى, {image[2]} = الثانية, {image*} = جميع الصور. افصل القيم المتعددة بفواصل."
+
+#: includes/admin/partials/step-2-mapping.php:526
+msgid "Enter template name..."
+msgstr "أدخل اسم القالب..."
+
+#: includes/admin/partials/step-1-upload.php:107
+msgid "Enter the direct URL to your XML or CSV file."
+msgstr "أدخل الرابط المباشر لملف XML أو CSV الخاص بك."
+
+#: includes/admin/partials/settings-page.php:212
+msgid "Enter your license key"
+msgstr "أدخل مفتاح الترخيص الخاص بك"
+
+#: includes/admin/partials/settings-page.php:172
+msgid "Enter your license key below to activate PRO features. Without a license, the plugin runs in free mode."
+msgstr "أدخل مفتاح الترخيص أدناه لتفعيل ميزات PRO. بدون ترخيص، يعمل الإضافة في الوضع المجاني."
+
+#: includes/admin/partials/settings-page.php:202
+msgid "Enter your license key to unlock PRO features. Purchase a license at"
+msgstr "أدخل مفتاح الترخيص لفتح ميزات PRO. اشترِ ترخيصًا من"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:890
+#, php-format
+msgid "Error importing product: %s"
+msgstr "خطأ في استيراد المنتج: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6977
+#, php-format
+msgid "Error processing missing product ID %1$d: %2$s"
+msgstr "خطأ في معالجة المنتج المفقود ID %1$d: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6639
+#, php-format
+msgid "Error resolving grouped product ID %1$d: %2$s"
+msgstr "خطأ في حل المنتج المجمع ID %1$d: %2$s"
+
+#: includes/admin/partials/step-3-progress.php:443
+msgid "Estimated Time Remaining"
+msgstr "الوقت المتبقي المقدر"
+
+#: includes/admin/partials/step-1-upload.php:141
+#: includes/admin/partials/step-2-mapping.php:416
+#: includes/class-wc-xml-csv-ai-import.php:103
+msgid "Every 15 Minutes"
+msgstr "كل 15 دقيقة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:580
+msgid "Every 15 min"
+msgstr "كل 15 دقيقة"
+
+#: includes/admin/partials/import-edit.php:784
+msgid "Every 15 minutes"
+msgstr "كل 15 دقيقة"
+
+#: includes/admin/partials/import-edit.php:867
+msgid "Every 15 minutes, hourly, daily, weekly, or monthly"
+msgstr "كل 15 دقيقة، كل ساعة، يوميًا، أسبوعيًا أو شهريًا"
+
+#: includes/admin/partials/step-1-upload.php:143
+#: includes/admin/partials/step-2-mapping.php:418
+#: includes/class-wc-xml-csv-ai-import.php:109
+msgid "Every 6 Hours"
+msgstr "كل 6 ساعات"
+
+#: includes/admin/partials/import-edit.php:786
+msgid "Every 6 hours"
+msgstr "كل 6 ساعات"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:582
+msgid "Every 6h"
+msgstr "كل 6 ساعات"
+
+#: includes/admin/partials/step-1-upload.php:142
+#: includes/admin/partials/step-2-mapping.php:417
+msgid "Every Hour"
+msgstr "كل ساعة"
+
+#: includes/admin/partials/step-2-mapping.php:1479
+msgid "Example for BigBuy XML:"
+msgstr "مثال لـ BigBuy XML:"
+
+#: includes/admin/partials/step-2-mapping.php:1562
+msgid "Example for CSV structure:"
+msgstr "مثال لهيكل CSV:"
+
+#: includes/admin/partials/step-2-mapping.php:1774
+msgid "Example for your XML structure:"
+msgstr "مثال لهيكل XML الخاص بك:"
+
+#: includes/admin/partials/step-2-mapping.php:1455
+msgid "Example:"
+msgstr "مثال:"
+
+#: includes/admin/partials/import-edit.php:474
+msgid "Example: $value * 1.2 (adds 20% markup)"
+msgstr "مثال: $value * 1.2 (يضيف 20٪ هامش ربح)"
+
+#: includes/admin/partials/step-2-mapping.php:2855
+msgid "Example: if XML has <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → enter <code>size</code>"
+msgstr "مثال: إذا كان XML يحتوي على <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → أدخل <code>size</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2173
+msgid "Expected values: taxable, shipping, none"
+msgstr "القيم المتوقعة: taxable, shipping, none"
+
+#: includes/admin/partials/step-2-mapping.php:292
+msgid "External URL"
+msgstr "رابط خارجي"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2035
+#, php-format
+msgid "External products require PRO license. Importing \"%s\" as Simple product."
+msgstr "المنتجات الخارجية تتطلب ترخيص PRO. استيراد \"%s\" كمنتج بسيط."
+
+#: includes/admin/partials/step-2-mapping.php:115
+msgid "External/Affiliate"
+msgstr "خارجي/تابع"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:195
+msgid "Failed to create import record: "
+msgstr "فشل في إنشاء سجل الاستيراد: "
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2230
+msgid "Failed to create product."
+msgstr "فشل في إنشاء المنتج."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1622
+msgid "Failed to create temporary file."
+msgstr "فشل في إنشاء ملف مؤقت."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:500
+msgid "Failed to delete import."
+msgstr "فشل في حذف الاستيراد."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1647
+msgid "Failed to download file from URL. HTTP Status: "
+msgstr "فشل في تنزيل الملف من الرابط. حالة HTTP: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1639
+msgid "Failed to download file from URL: "
+msgstr "فشل في تنزيل الملف من الرابط: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3685
+msgid "Failed to update URL in database."
+msgstr "فشل في تحديث الرابط في قاعدة البيانات."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:182
+msgid "Failed to update import record: "
+msgstr "فشل في تحديث سجل الاستيراد: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1582
+msgid "Failed to upload file."
+msgstr "فشل في تحميل الملف."
+
+#: includes/admin/partials/settings-page.php:261
+msgid "Feature"
+msgstr "ميزة"
+
+#: includes/admin/partials/settings-page.php:255
+msgid "Feature Comparison"
+msgstr "مقارنة الميزات"
+
+#: includes/admin/partials/step-2-mapping.php:218
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1119
+msgid "Featured Image"
+msgstr "الصورة المميزة"
+
+#: includes/admin/partials/step-2-mapping.php:233
+msgid "Featured Product"
+msgstr "المنتج المميز"
+
+#: includes/admin/partials/step-2-mapping.php:2643
+#: includes/admin/partials/import-edit.php:577
+#: includes/admin/partials/import-edit.php:1182
+msgid "Field"
+msgstr "حقل"
+
+#: includes/admin/partials/import-edit.php:320
+msgid "Field Mappings"
+msgstr "تعيينات الحقول"
+
+#: includes/admin/partials/import-edit.php:693
+#: includes/admin/partials/import-edit.php:1107
+msgid "Field Name"
+msgstr "اسم الحقل"
+
+#: includes/admin/partials/step-2-mapping.php:331
+msgid "File"
+msgstr "ملف"
+
+#: includes/admin/partials/settings-page.php:559
+msgid "File Chunk Size:"
+msgstr "حجم قطعة الملف:"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:160
+msgid "File MIME type does not match extension."
+msgstr "نوع MIME للملف لا يطابق الامتداد."
+
+#: includes/admin/partials/settings-page.php:813
+msgid "File Management Settings"
+msgstr "إعدادات إدارة الملفات"
+
+#: includes/admin/partials/settings-page.php:842
+msgid "File Retention"
+msgstr "الاحتفاظ بالملفات"
+
+#: includes/admin/partials/settings-page.php:850
+msgid "File Retention (days):"
+msgstr "الاحتفاظ بالملفات (أيام):"
+
+#: includes/admin/partials/step-2-mapping.php:326
+#: includes/admin/partials/import-edit.php:288
+msgid "File Structure"
+msgstr "هيكل الملف"
+
+#: includes/admin/partials/step-1-upload.php:116
+#: includes/admin/partials/import-edit.php:96
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:559
+msgid "File Type"
+msgstr "نوع الملف"
+
+#: includes/admin/partials/step-3-progress.php:255
+msgid "File Type:"
+msgstr "نوع الملف:"
+
+#: includes/admin/partials/step-1-upload.php:104
+#: includes/admin/partials/import-edit.php:164
+msgid "File URL"
+msgstr "رابط الملف"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1590
+msgid "File URL is required."
+msgstr "رابط الملف مطلوب."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:166
+msgid "File contains potentially malicious content."
+msgstr "يحتوي الملف على محتوى قد يكون ضارًا."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:660
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:351
+msgid "File does not exist."
+msgstr "الملف غير موجود."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1708
+msgid "File is empty."
+msgstr "الملف فارغ."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1860
+msgid "File is not ready yet. Please refresh the page and try again."
+msgstr "الملف ليس جاهزًا بعد. يرجى تحديث الصفحة والمحاولة مرة أخرى."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:113
+msgid "File is too large."
+msgstr "الملف كبير جدًا."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:148
+msgid "File is too large. Maximum size is 100MB."
+msgstr "الملف كبير جدًا. الحد الأقصى 100 ميغابايت."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:668
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:360
+#, php-format
+msgid "File size exceeds maximum limit of %dMB."
+msgstr "حجم الملف يتجاوز الحد الأقصى %d ميغابايت."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7038
+msgid "File type must be XML or CSV."
+msgstr "يجب أن يكون نوع الملف XML أو CSV."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:141
+msgid "File type not allowed. Only XML and CSV files are supported."
+msgstr "نوع الملف غير مسموح. يدعم فقط ملفات XML و CSV."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1550
+msgid "File upload error."
+msgstr "خطأ في تحميل الملف."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1701
+msgid "File upload failed - file does not exist."
+msgstr "فشل تحميل الملف - الملف غير موجود."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:116
+msgid "File upload was incomplete."
+msgstr "تحميل الملف لم يكتمل."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1782
+msgid "File uploaded successfully."
+msgstr "تم تحميل الملف بنجاح."
+
+#: includes/admin/partials/import-edit.php:290
+msgid "File:"
+msgstr "ملف:"
+
+#: includes/admin/partials/settings-page.php:122
+msgid "Files"
+msgstr "ملفات"
+
+#: includes/admin/partials/settings-page.php:852
+msgid "Files older than this will be automatically deleted."
+msgstr "سيتم حذف الملفات الأقدم من هذا تلقائيًا."
+
+#: includes/admin/partials/step-2-mapping.php:2553
+#: includes/admin/partials/import-edit.php:645
+msgid "Filter Behavior"
+msgstr "سلوك الفلتر"
+
+#: includes/admin/partials/step-2-mapping.php:2537
+msgid "Filter Logic:"
+msgstr "منطق الفلتر:"
+
+#: includes/admin/partials/step-2-mapping.php:2582
+msgid "Filter by price, stock, category, or any field"
+msgstr "تصفية حسب السعر أو المخزون أو الفئة أو أي حقل"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3596
+msgid "Filter logs by import and log level"
+msgstr "تصفية السجلات حسب الاستيراد ومستوى السجل"
+
+#: includes/admin/partials/step-2-mapping.php:3613
+msgid "Filter products during import based on field values, price ranges, stock status, and more."
+msgstr "تصفية المنتجات أثناء الاستيراد بناءً على قيم الحقول ونطاقات الأسعار وحالة المخزون والمزيد."
+
+#: includes/admin/partials/step-2-mapping.php:2579
+msgid "Filter products during import based on field values, regex patterns, and conditional logic. Only import products that match your criteria."
+msgstr "تصفية المنتجات أثناء الاستيراد بناءً على قيم الحقول وأنماط التعبيرات العادية والمنطق الشرطي. استيراد المنتجات المطابقة لمعاييرك فقط."
+
+#: includes/admin/partials/step-2-mapping.php:2525
+#: includes/admin/partials/import-edit.php:563
+msgid "Filter which products to import based on field values. Products that don't match will be skipped."
+msgstr "تصفية المنتجات المراد استيرادها بناءً على قيم الحقول. سيتم تخطي المنتجات غير المطابقة."
+
+#: includes/admin/partials/step-2-mapping.php:2556
+msgid "Filters will be applied during import. Products that don't match will be skipped."
+msgstr "سيتم تطبيق الفلاتر أثناء الاستيراد. سيتم تخطي المنتجات غير المطابقة."
+
+#: includes/admin/partials/step-2-mapping.php:1015
+msgid "Final Price:"
+msgstr "السعر النهائي:"
+
+#: includes/admin/partials/step-2-mapping.php:2460
+#: includes/admin/partials/step-2-mapping.php:2463
+msgid "Final technical adjustments (trim, lowercase, etc)"
+msgstr "التعديلات الفنية النهائية (القص، الأحرف الصغيرة، إلخ)"
+
+#: includes/admin/partials/step-2-mapping.php:1432
+msgid "Fixed name + dynamic value"
+msgstr "اسم ثابت + قيمة ديناميكية"
+
+#: includes/admin/partials/step-2-mapping.php:3057
+#: includes/admin/partials/step-2-mapping.php:3087
+msgid "Fixed value"
+msgstr "قيمة ثابتة"
+
+#: includes/admin/partials/step-2-mapping.php:1517
+msgid "For CSV files, variable products require Parent SKU and Type columns to link variations to parent products."
+msgstr "بالنسبة لملفات CSV، تتطلب المنتجات المتغيرة أعمدة Parent SKU و Type لربط التنويعات بالمنتجات الأصلية."
+
+#: includes/admin/partials/step-2-mapping.php:1467
+msgid "For XML files where attribute name and value are in separate fields (e.g., BigBuy format with attribute1/value1, attribute2/value2)."
+msgstr "لملفات XML حيث يكون اسم السمة والقيمة في حقول منفصلة (مثل تنسيق BigBuy مع attribute1/value1, attribute2/value2)."
+
+#: includes/admin/partials/step-2-mapping.php:1760
+msgid "For XML like:"
+msgstr "لـ XML مثل:"
+
+#: includes/admin/partials/settings-page.php:754
+msgid "For better reliability, add this to your wp-config.php file:"
+msgstr "لمزيد من الموثوقية، أضف هذا إلى ملف wp-config.php:"
+
+#: includes/admin/partials/step-1-upload.php:120
+msgid "Force CSV"
+msgstr "فرض CSV"
+
+#: includes/admin/partials/step-1-upload.php:119
+msgid "Force XML"
+msgstr "فرض XML"
+
+#: includes/admin/partials/step-2-mapping.php:1914
+msgid "Format: Name|URL or just URL. Multiple: Name1|URL1,Name2|URL2"
+msgstr "الصيغة: الاسم|الرابط أو الرابط فقط. متعدد: الاسم1|الرابط1,الاسم2|الرابط2"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:309
+msgid "Formula contains disallowed constructs."
+msgstr "تحتوي الصيغة على تراكيب غير مسموح بها."
+
+#: includes/admin/partials/step-1-upload.php:56
+msgid "From URL"
+msgstr "من الرابط"
+
+#: includes/admin/partials/step-2-mapping.php:1852
+msgid "From source"
+msgstr "من المصدر"
+
+#: includes/admin/partials/settings-page.php:179
+msgid "Full manual import tool. Upgrade to PRO for automation, templates, and AI features!"
+msgstr "أداة استيراد يدوية كاملة. قم بالترقية إلى PRO للأتمتة والقوالب وميزات الذكاء الاصطناعي!"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:324
+#, php-format
+msgid "Function \"%s\" is not allowed."
+msgstr "الوظيفة \"%s\" غير مسموح بها."
+
+#: includes/admin/partials/step-2-mapping.php:273
+msgid "GTIN"
+msgstr "GTIN"
+
+#: includes/admin/partials/step-2-mapping.php:1590
+#: includes/admin/partials/step-2-mapping.php:1812
+msgid "GTIN/EAN/UPC/ISBN:"
+msgstr "GTIN/EAN/UPC/ISBN:"
+
+#: includes/admin/partials/step-2-mapping.php:3129
+msgid "GTIN/UPC/EAN/ISBN:"
+msgstr "GTIN/UPC/EAN/ISBN:"
+
+#: includes/admin/partials/settings-page.php:490
+msgid "General AI Settings"
+msgstr "إعدادات الذكاء الاصطناعي العامة"
+
+#: includes/admin/partials/settings-page.php:246
+msgid "Get PRO Version"
+msgstr "احصل على إصدار PRO"
+
+#: includes/admin/partials/settings-page.php:243
+msgid "Get scheduled imports, AI auto-mapping, advanced formulas, selective field updates, and more."
+msgstr "احصل على الاستيرادات المجدولة والتعيين التلقائي بالذكاء الاصطناعي والصيغ المتقدمة وتحديثات الحقول الانتقائية والمزيد."
+
+#: includes/admin/partials/settings-page.php:472
+msgid "GitHub Copilot Settings"
+msgstr "إعدادات GitHub Copilot"
+
+#: includes/admin/partials/step-1-upload.php:39
+msgid "Give this import a descriptive name for easy identification."
+msgstr "أعطِ هذا الاستيراد اسمًا وصفيًا لسهولة التعرف عليه."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:191
+msgid "Google Gemini API key not configured."
+msgstr "لم يتم تكوين مفتاح API لـ Google Gemini."
+
+#: includes/admin/partials/settings-page.php:416
+msgid "Google Gemini Settings"
+msgstr "إعدادات Google Gemini"
+
+#: includes/admin/partials/step-2-mapping.php:114
+msgid "Grouped"
+msgstr "مجمع"
+
+#: includes/admin/partials/step-2-mapping.php:281
+msgid "Grouped Products"
+msgstr "المنتجات المجمعة"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2306
+#, php-format
+msgid "Grouped product \"%1$s\" - stored pending children SKUs: %2$s"
+msgstr "المنتج المجمع \"%1$s\" - تم حفظ رموز SKU الفرعية المعلقة: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2022
+#, php-format
+msgid "Grouped products require PRO license. Importing \"%s\" as Simple product."
+msgstr "المنتجات المجمعة تتطلب ترخيص PRO. استيراد \"%s\" كمنتج بسيط."
+
+#: includes/admin/partials/import-edit.php:210
+msgid "Handle Missing Products"
+msgstr "التعامل مع المنتجات المفقودة"
+
+#: includes/admin/partials/step-1-upload.php:209
+msgid "Handle Products No Longer in Feed"
+msgstr "التعامل مع المنتجات التي لم تعد في المصدر"
+
+#: includes/admin/partials/step-2-mapping.php:3193
+msgid "Has file downloads"
+msgstr "يحتوي على تنزيلات ملفات"
+
+#: includes/admin/partials/step-2-mapping.php:200
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1103
+msgid "Height"
+msgstr "ارتفاع"
+
+#: includes/admin/partials/step-2-mapping.php:1636
+#: includes/admin/partials/step-2-mapping.php:1882
+#: includes/admin/partials/step-2-mapping.php:3254
+msgid "Height:"
+msgstr "الارتفاع:"
+
+#: includes/admin/partials/settings-page.php:980
+msgid "Hide"
+msgstr "إخفاء"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:192
+msgid "History"
+msgstr "سجل"
+
+#: includes/admin/partials/import-edit.php:785
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:581
+msgid "Hourly"
+msgstr "كل ساعة"
+
+#: includes/admin/partials/step-2-mapping.php:697
+#: includes/admin/partials/step-2-mapping.php:1082
+#: includes/admin/partials/step-2-mapping.php:1759
+msgid "How it works:"
+msgstr "كيف يعمل:"
+
+#: includes/admin/partials/step-2-mapping.php:2884
+#: includes/admin/partials/step-2-mapping.php:2924
+#: includes/admin/partials/step-2-mapping.php:3005
+#: includes/admin/partials/step-2-mapping.php:3298
+msgid "Hybrid"
+msgstr "هجين"
+
+#: includes/admin/partials/step-2-mapping.php:2361
+#: includes/admin/partials/step-2-mapping.php:2708
+#: includes/admin/partials/import-edit.php:458
+msgid "Hybrid (PHP + AI)"
+msgstr "هجين (PHP + AI)"
+
+#: includes/admin/partials/step-2-mapping.php:271
+msgid "ISBN"
+msgstr "ISBN"
+
+#: includes/admin/partials/step-2-mapping.php:2563
+msgid "If re-running import, existing products that no longer match filters will be set to Draft status."
+msgstr "عند إعادة تشغيل الاستيراد، سيتم تعيين المنتجات الحالية التي لم تعد تتطابق مع الفلاتر إلى حالة مسودة."
+
+#: includes/admin/partials/step-2-mapping.php:1564
+msgid "If your CSV has columns:"
+msgstr "إذا كان CSV يحتوي على أعمدة:"
+
+#: includes/admin/partials/step-2-mapping.php:1776
+msgid "If your XML has:"
+msgstr "إذا كان XML يحتوي على:"
+
+#: includes/admin/partials/settings-page.php:627
+msgid "Image Download Timeout (seconds):"
+msgstr "مهلة تنزيل الصور (ثوانٍ):"
+
+#: includes/admin/partials/step-2-mapping.php:2948
+msgid "Image URL for this attribute (e.g., color swatch, size chart). For variations, use variation image mapping below."
+msgstr "رابط صورة لهذه السمة (مثل عينة اللون، جدول المقاسات). للتنويعات، استخدم تعيين صور التنويعات أدناه."
+
+#: includes/admin/partials/step-2-mapping.php:1640
+#: includes/admin/partials/step-2-mapping.php:1886
+msgid "Image URL:"
+msgstr "رابط الصورة:"
+
+#: includes/admin/partials/settings-page.php:120
+#: includes/admin/partials/step-2-mapping.php:342
+#: bootflow-product-importer.php:152
+msgid "Import"
+msgstr "استيراد"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:207
+#, php-format
+msgid "Import \"%1$s\" started with %2$d products."
+msgstr "بدأ الاستيراد \"%1$s\" مع %2$d منتج."
+
+#: includes/admin/partials/step-2-mapping.php:372
+#: includes/admin/partials/import-edit.php:179
+msgid "Import Behavior"
+msgstr "سلوك الاستيراد"
+
+#: includes/admin/partials/step-3-progress.php:214
+#: includes/admin/partials/step-3-progress.php:486
+#: includes/admin/partials/step-3-progress.php:790
+msgid "Import Completed Successfully!"
+msgstr "اكتمل الاستيراد بنجاح!"
+
+#: includes/admin/partials/import-edit.php:80
+msgid "Import Details:"
+msgstr "تفاصيل الاستيراد:"
+
+#: includes/admin/partials/step-3-progress.php:217
+#: includes/admin/partials/step-3-progress.php:522
+#: includes/admin/partials/step-3-progress.php:793
+msgid "Import Failed"
+msgstr "فشل الاستيراد"
+
+#: includes/admin/partials/step-2-mapping.php:2517
+#: includes/admin/partials/step-2-mapping.php:2574
+#: includes/admin/partials/step-2-mapping.php:3422
+#: includes/admin/partials/step-2-mapping.php:3612
+#: includes/admin/partials/import-edit.php:556
+msgid "Import Filters"
+msgstr "فلاتر الاستيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:191
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:543
+msgid "Import History"
+msgstr "سجل الاستيراد"
+
+#: includes/admin/partials/import-edit.php:89
+msgid "Import Information"
+msgstr "معلومات الاستيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:209
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3388
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3563
+msgid "Import Logs"
+msgstr "سجلات الاستيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3572
+msgid "Import Logs & Debugging"
+msgstr "سجلات الاستيراد والتصحيح"
+
+#: includes/admin/partials/step-1-upload.php:34
+msgid "Import Name"
+msgstr "اسم الاستيراد"
+
+#: includes/admin/partials/step-3-progress.php:251
+msgid "Import Name:"
+msgstr "اسم الاستيراد:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:685
+msgid "Import Not Found"
+msgstr "الاستيراد غير موجود"
+
+#: includes/admin/partials/step-3-progress.php:172
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:288
+msgid "Import Progress"
+msgstr "تقدم الاستيراد"
+
+#: includes/admin/partials/settings-page.php:588
+#: includes/admin/partials/import-edit.php:272
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:200
+msgid "Import Settings"
+msgstr "إعدادات الاستيراد"
+
+#: includes/admin/partials/settings-page.php:269
+msgid "Import XML & CSV feeds"
+msgstr "استيراد موجزات XML و CSV"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2023
+msgid "Import already completed."
+msgstr "الاستيراد مكتمل بالفعل."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2036
+msgid "Import already in progress."
+msgstr "الاستيراد قيد التقدم بالفعل."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:498
+msgid "Import and file deleted successfully."
+msgstr "تم حذف الاستيراد والملف بنجاح."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:99
+msgid "Import complete!"
+msgstr "اكتمل الاستيراد!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3174
+msgid "Import completed successfully"
+msgstr "اكتمل الاستيراد بنجاح"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:616
+#, php-format
+msgid "Import completed successfully. Processed %d products."
+msgstr "اكتمل الاستيراد بنجاح. تمت معالجة %d منتج."
+
+#: includes/admin/partials/step-2-mapping.php:3633
+msgid "Import directly from remote URLs. Perfect for supplier feeds that are hosted online."
+msgstr "استيراد مباشرة من الروابط البعيدة. مثالي لموجزات الموردين المستضافة عبر الإنترنت."
+
+#: includes/admin/partials/step-1-upload.php:61
+msgid "Import from external URL or FTP server"
+msgstr "استيراد من رابط خارجي أو خادم FTP"
+
+#: includes/admin/partials/settings-page.php:331
+#: includes/admin/partials/settings-page.php:799
+msgid "Import from remote URLs"
+msgstr "استيراد من الروابط البعيدة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1535
+#: includes/class-wc-xml-csv-ai-import-importer.php:7030
+msgid "Import name is required."
+msgstr "اسم الاستيراد مطلوب."
+
+#: includes/admin/partials/step-3-progress.php:31
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1231
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2016
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2238
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3664
+#: includes/class-wc-xml-csv-ai-import-importer.php:236
+msgid "Import not found."
+msgstr "الاستيراد غير موجود."
+
+#: includes/admin/partials/step-2-mapping.php:46
+msgid "Import not found. Please start over."
+msgstr "الاستيراد غير موجود. يرجى البدء من جديد."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2061
+msgid "Import processing started."
+msgstr "بدأت معالجة الاستيراد."
+
+#: includes/admin/partials/step-2-mapping.php:3598
+msgid "Import products with variations - sizes, colors, materials, and more. Full support for WooCommerce variable product structure."
+msgstr "استيراد المنتجات مع التنويعات - الأحجام والألوان والمواد والمزيد. دعم كامل لهيكل المنتج المتغير في WooCommerce."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1971
+msgid "Import started successfully."
+msgstr "بدأ الاستيراد بنجاح."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:470
+msgid "Import stopped successfully."
+msgstr "تم إيقاف الاستيراد بنجاح."
+
+#: includes/admin/partials/settings-page.php:346
+msgid "Import templates"
+msgstr "قوالب الاستيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:970
+msgid "Import updated successfully."
+msgstr "تم تحديث الاستيراد بنجاح."
+
+#: includes/admin/partials/import-edit.php:292
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3427
+msgid "Import:"
+msgstr "الاستيراد:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1216
+#, php-format
+msgid "Imported variable product: %1$s with %2$d variations"
+msgstr "تم استيراد المنتج المتغير: %1$s مع %2$d تنويعة"
+
+#: includes/admin/partials/step-3-progress.php:175
+#, php-format
+msgid "Importing \"%s\" - Please keep this page open until the import is complete."
+msgstr "جاري استيراد \"%s\" - يرجى إبقاء هذه الصفحة مفتوحة حتى اكتمال الاستيراد."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:98
+msgid "Importing products..."
+msgstr "جاري استيراد المنتجات..."
+
+#: includes/admin/partials/step-2-mapping.php:3331
+msgid "Improve and make unique"
+msgstr "تحسين وجعله فريدًا"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:594
+#, php-format
+msgid "In database: %1$d, Processed: %2$d, In file: %3$d"
+msgstr "في قاعدة البيانات: %1$d، تمت المعالجة: %2$d، في الملف: %3$d"
+
+#: includes/admin/partials/step-2-mapping.php:177
+msgid "In stock"
+msgstr "متوفر"
+
+#: includes/class-bfi-license-admin.php:48
+msgid "Inactive/Invalid"
+msgstr "غير نشط/غير صالح"
+
+#: includes/admin/partials/step-2-mapping.php:1875
+msgid "Inherit L/W/H from parent"
+msgstr "وراثة الطول/العرض/الارتفاع من المنتج الأصلي"
+
+#: includes/admin/partials/step-2-mapping.php:1865
+msgid "Inherit from parent"
+msgstr "وراثة من المنتج الأصلي"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1968
+#, php-format
+msgid "Invalid SKU format: %s"
+msgstr "تنسيق SKU غير صالح: %s"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:496
+msgid "Invalid URL format."
+msgstr "تنسيق الرابط غير صالح."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:674
+msgid "Invalid XML file or unable to open file."
+msgstr "ملف XML غير صالح أو لا يمكن فتح الملف."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:132
+msgid "Invalid file name."
+msgstr "اسم ملف غير صالح."
+
+#: includes/admin/partials/step-2-mapping.php:91
+msgid "Invalid file path. Please start over."
+msgstr "مسار الملف غير صالح. يرجى البدء من جديد."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1557
+msgid "Invalid file type. Only XML and CSV files are allowed."
+msgstr "نوع ملف غير صالح. يُسمح فقط بملفات XML و CSV."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:4304
+msgid "Invalid image file type."
+msgstr "نوع ملف الصورة غير صالح."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4204
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4235
+msgid "Invalid import ID"
+msgstr "معرف استيراد غير صالح"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3650
+msgid "Invalid import ID or URL."
+msgstr "معرف استيراد أو رابط غير صالح."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2686
+msgid "Invalid import ID or mapping data."
+msgstr "معرف استيراد أو بيانات تعيين غير صالحة."
+
+#: includes/admin/partials/step-3-progress.php:19
+msgid "Invalid import ID. Please start a new import."
+msgstr "معرف استيراد غير صالح. يرجى بدء استيراد جديد."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:485
+msgid "Invalid license key."
+msgstr "مفتاح الترخيص غير صالح."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1346
+#: includes/class-wc-xml-csv-ai-import-importer.php:1355
+#, php-format
+msgid "Invalid regex pattern: %s"
+msgstr "نمط تعبير عادي غير صالح: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1974
+#, php-format
+msgid "Invalid regular price: %s"
+msgstr "سعر عادي غير صالح: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1979
+#, php-format
+msgid "Invalid sale price: %s"
+msgstr "سعر التخفيض غير صالح: %s"
+
+#: includes/admin/partials/step-2-mapping.php:164
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1089
+msgid "Inventory Fields"
+msgstr "حقول المخزون"
+
+#: includes/admin/partials/settings-page.php:800
+msgid "Keep products always up-to-date"
+msgstr "حافظ على تحديث المنتجات دائمًا"
+
+#: includes/admin/partials/step-2-mapping.php:1465
+msgid "Key-Value Pair Mode"
+msgstr "وضع أزواج المفتاح والقيمة"
+
+#: includes/admin/partials/step-2-mapping.php:1438
+msgid "Key-Value Pairs"
+msgstr "أزواج المفتاح والقيمة"
+
+#: includes/admin/partials/step-3-progress.php:264
+msgid "Last Activity:"
+msgstr "آخر نشاط:"
+
+#: includes/admin/partials/import-edit.php:112
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:564
+msgid "Last Run"
+msgstr "آخر تشغيل"
+
+#: includes/admin/partials/step-2-mapping.php:2908
+msgid "Leave empty for XML &lt;attributes&gt; auto-mapping, or select field for direct mapping"
+msgstr "اتركه فارغًا للتعيين التلقائي لـ XML &lt;attributes&gt;، أو حدد حقلًا للتعيين المباشر"
+
+#: includes/admin/partials/import-edit.php:404
+msgid "Leave empty to skip automatic shipping class assignment."
+msgstr "اترك فارغًا لتخطي التعيين التلقائي لفئة الشحن."
+
+#: includes/admin/partials/step-2-mapping.php:198
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1101
+msgid "Length"
+msgstr "طول"
+
+#: includes/admin/partials/step-2-mapping.php:1630
+#: includes/admin/partials/step-2-mapping.php:1870
+#: includes/admin/partials/step-2-mapping.php:3242
+msgid "Length:"
+msgstr "الطول:"
+
+#: includes/admin/partials/step-2-mapping.php:593
+msgid "Let AI automatically match your file columns to WooCommerce fields."
+msgstr "دع الذكاء الاصطناعي يطابق أعمدة ملفك تلقائيًا مع حقول WooCommerce."
+
+#: includes/admin/partials/step-2-mapping.php:3623
+msgid "Let AI handle complex field transformations. Describe what you want in plain language."
+msgstr "دع الذكاء الاصطناعي يتعامل مع تحويلات الحقول المعقدة. صف ما تريد بلغة بسيطة."
+
+#: includes/admin/partials/settings-page.php:115
+msgid "License"
+msgstr "ترخيص"
+
+#: includes/admin/partials/settings-page.php:186
+msgid "License Active"
+msgstr "الترخيص نشط"
+
+#: includes/class-bfi-license-admin.php:39
+msgid "License Key"
+msgstr "مفتاح الترخيص"
+
+#: includes/admin/partials/settings-page.php:132
+msgid "License Management"
+msgstr "إدارة التراخيص"
+
+#: includes/admin/partials/settings-page.php:169
+msgid "License Required"
+msgstr "الترخيص مطلوب"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:518
+msgid "License activated successfully! PRO features are now unlocked."
+msgstr "تم تفعيل الترخيص بنجاح! ميزات PRO متاحة الآن."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:557
+msgid "License deactivated. PRO features are now locked."
+msgstr "تم إلغاء تفعيل الترخيص. ميزات PRO مقفلة الآن."
+
+#: includes/admin/partials/settings-page.php:231
+msgid "License key is invalid or expired. Please enter a valid license key."
+msgstr "مفتاح الترخيص غير صالح أو منتهي الصلاحية. يرجى إدخال مفتاح ترخيص صالح."
+
+#: includes/admin/partials/step-2-mapping.php:277
+msgid "Linked Products"
+msgstr "المنتجات المرتبطة"
+
+#: includes/admin/partials/step-2-mapping.php:994
+msgid "Live Preview"
+msgstr "معاينة مباشرة"
+
+#: includes/admin/partials/step-2-mapping.php:546
+msgid "Load"
+msgstr "تحميل"
+
+#: includes/admin/partials/step-2-mapping.php:544
+msgid "Load Template"
+msgstr "تحميل القالب"
+
+#: includes/admin/partials/step-2-mapping.php:538
+msgid "Load saved template:"
+msgstr "تحميل القالب المحفوظ:"
+
+#: includes/admin/partials/step-2-mapping.php:359
+#: includes/admin/partials/import-edit.php:297
+msgid "Loading file structure..."
+msgstr "جاري تحميل هيكل الملف..."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:520
+msgid "Local domain URLs are not allowed."
+msgstr "روابط النطاقات المحلية غير مسموح بها."
+
+#: includes/admin/partials/settings-page.php:299
+msgid "Local file uploads"
+msgstr "تحميل الملفات المحلية"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:515
+msgid "Localhost URLs are not allowed."
+msgstr "روابط Localhost غير مسموح بها."
+
+#: includes/admin/partials/settings-page.php:874
+msgid "Log Level:"
+msgstr "مستوى السجل:"
+
+#: includes/admin/partials/settings-page.php:885
+msgid "Log Retention (days):"
+msgstr "الاحتفاظ بالسجلات (أيام):"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3465
+msgid "Log file is empty."
+msgstr "ملف السجل فارغ."
+
+#: includes/admin/partials/settings-page.php:123
+msgid "Logging"
+msgstr "التسجيل"
+
+#: includes/admin/partials/settings-page.php:861
+msgid "Logging & Notifications"
+msgstr "التسجيل والإشعارات"
+
+#: includes/admin/partials/settings-page.php:866
+msgid "Logging Configuration"
+msgstr "تكوين التسجيل"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:210
+msgid "Logs"
+msgstr "السجلات"
+
+#: includes/admin/partials/settings-page.php:351
+msgid "Logs & error reporting"
+msgstr "السجلات وتقارير الأخطاء"
+
+#: includes/admin/partials/step-2-mapping.php:1622
+#: includes/admin/partials/step-2-mapping.php:1844
+msgid "Low Stock Threshold:"
+msgstr "حد المخزون المنخفض:"
+
+#: includes/admin/partials/step-2-mapping.php:2323
+msgid "MD5 hash from name+row (8 chars)"
+msgstr "تجزئة MD5 من الاسم+الصف (8 أحرف)"
+
+#: includes/admin/partials/step-2-mapping.php:272
+msgid "MPN"
+msgstr "MPN"
+
+#: includes/admin/partials/step-3-progress.php:512
+msgid "Manage Scheduled Import"
+msgstr "إدارة الاستيراد المجدول"
+
+#: includes/admin/partials/step-2-mapping.php:167
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1091
+msgid "Manage Stock"
+msgstr "إدارة المخزون"
+
+#: includes/admin/partials/step-2-mapping.php:1618
+#: includes/admin/partials/step-2-mapping.php:1840
+#: includes/admin/partials/step-2-mapping.php:3199
+msgid "Manage Stock:"
+msgstr "إدارة المخزون:"
+
+#: includes/admin/partials/step-2-mapping.php:1727
+msgid "Manual"
+msgstr "يدوي"
+
+#: includes/admin/partials/step-1-upload.php:140
+#: includes/admin/partials/step-1-upload.php:157
+#: includes/admin/partials/step-2-mapping.php:415
+#: includes/admin/partials/step-2-mapping.php:429
+msgid "Manual Import Only"
+msgstr "الاستيراد اليدوي فقط"
+
+#: includes/admin/partials/settings-page.php:274
+msgid "Manual field mapping"
+msgstr "تعيين الحقول يدويًا"
+
+#: includes/admin/partials/settings-page.php:289
+msgid "Manual imports"
+msgstr "الاستيرادات اليدوية"
+
+#: includes/admin/partials/step-2-mapping.php:2064
+msgid "Map"
+msgstr "تعيين"
+
+#: includes/admin/partials/step-2-mapping.php:1558
+msgid "Map CSV columns that contain attribute values (e.g., \"Attribute:Color\", \"Attribute:Size\")."
+msgstr "قم بتعيين أعمدة CSV التي تحتوي على قيم السمات (مثل \"Attribute:Color\"، \"Attribute:Size\")."
+
+#: includes/admin/partials/step-2-mapping.php:1580
+msgid "Map CSV columns to WooCommerce variation fields. These are read from variation rows."
+msgstr "قم بتعيين أعمدة CSV إلى حقول تنويعات WooCommerce. يتم قراءتها من صفوف التنويعات."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:287
+msgid "Map Fields"
+msgstr "تعيين الحقول"
+
+#: includes/admin/partials/step-2-mapping.php:2983
+#: includes/admin/partials/step-2-mapping.php:3058
+#: includes/admin/partials/step-2-mapping.php:3088
+#: includes/admin/partials/step-2-mapping.php:3111
+#: includes/admin/partials/step-2-mapping.php:3134
+#: includes/admin/partials/step-2-mapping.php:3218
+#: includes/admin/partials/step-2-mapping.php:3276
+msgid "Map field"
+msgstr "تعيين الحقل"
+
+#: includes/admin/partials/step-2-mapping.php:1793
+msgid "Map fields from your source file to WooCommerce variation fields."
+msgstr "قم بتعيين الحقول من ملفك المصدر إلى حقول تنويعات WooCommerce."
+
+#: includes/admin/partials/step-2-mapping.php:2099
+#: includes/admin/partials/step-2-mapping.php:2134
+#: includes/admin/partials/step-2-mapping.php:2166
+#: includes/admin/partials/step-2-mapping.php:2205
+#: includes/admin/partials/step-2-mapping.php:2238
+msgid "Map from XML:"
+msgstr "من XML:"
+
+#: includes/admin/partials/step-2-mapping.php:2288
+msgid "Map from file"
+msgstr "من الملف"
+
+#: includes/admin/partials/step-2-mapping.php:495
+#: includes/admin/partials/import-edit.php:321
+msgid "Map your file fields to WooCommerce product fields and configure processing modes."
+msgstr "قم بتعيين حقول ملفك إلى حقول منتجات WooCommerce وتكوين أوضاع المعالجة."
+
+#: includes/admin/partials/step-2-mapping.php:514
+#: includes/admin/partials/step-2-mapping.php:563
+#: includes/admin/partials/step-2-mapping.php:3423
+#: includes/admin/partials/step-2-mapping.php:3607
+msgid "Mapping Templates"
+msgstr "قوالب التعيين"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2801
+msgid "Mapping configuration saved successfully."
+msgstr "تم حفظ تكوين التعيين بنجاح."
+
+#: includes/admin/partials/step-1-upload.php:226
+#: includes/admin/partials/import-edit.php:227
+msgid "Mark as Out of Stock"
+msgstr "وضع علامة غير متوفر"
+
+#: includes/admin/partials/step-2-mapping.php:765
+#: includes/admin/partials/step-2-mapping.php:941
+msgid "Markup %"
+msgstr "هامش الربح %"
+
+#: includes/admin/partials/settings-page.php:556
+msgid "Max Execution Time (seconds):"
+msgstr "أقصى وقت تنفيذ (ثوانٍ):"
+
+#: includes/admin/partials/settings-page.php:821
+msgid "Max File Size (MB):"
+msgstr "أقصى حجم ملف (ميغابايت):"
+
+#: includes/admin/partials/settings-page.php:934
+msgid "Max Formula Length:"
+msgstr "أقصى طول للصيغة:"
+
+#: includes/admin/partials/settings-page.php:630
+msgid "Max Image Size (MB):"
+msgstr "أقصى حجم صورة (ميغابايت):"
+
+#: includes/admin/partials/settings-page.php:882
+msgid "Max Log Entries:"
+msgstr "أقصى إدخالات السجل:"
+
+#: includes/admin/partials/step-2-mapping.php:801
+msgid "Max Price €"
+msgstr "أقصى سعر €"
+
+#: includes/admin/partials/settings-page.php:517
+msgid "Max Retries:"
+msgstr "أقصى محاولات إعادة:"
+
+#: includes/admin/partials/step-2-mapping.php:978
+msgid "Max €"
+msgstr "الأقصى €"
+
+#: includes/admin/partials/settings-page.php:619
+msgid "Media & Images"
+msgstr "الوسائط والصور"
+
+#: includes/admin/partials/step-2-mapping.php:210
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1111
+msgid "Media Fields"
+msgstr "حقول الوسائط"
+
+#: includes/admin/partials/settings-page.php:541
+msgid "Memory & Processing"
+msgstr "الذاكرة والمعالجة"
+
+#: includes/admin/partials/settings-page.php:548
+msgid "Memory Limit:"
+msgstr "حد الذاكرة:"
+
+#: includes/admin/partials/step-2-mapping.php:290
+msgid "Menu Order"
+msgstr "ترتيب القائمة"
+
+#: includes/admin/partials/step-2-mapping.php:1664
+#: includes/admin/partials/step-2-mapping.php:1931
+msgid "Menu Order:"
+msgstr "ترتيب القائمة:"
+
+#: includes/admin/partials/step-2-mapping.php:299
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1134
+msgid "Meta Description"
+msgstr "الوصف التعريفي"
+
+#: includes/admin/partials/step-2-mapping.php:300
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1135
+msgid "Meta Keywords"
+msgstr "الكلمات المفتاحية التعريفية"
+
+#: includes/admin/partials/step-2-mapping.php:298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1133
+msgid "Meta Title"
+msgstr "العنوان التعريفي"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:363
+msgid "Microsoft Copilot API key or endpoint not configured."
+msgstr "لم يتم تكوين مفتاح API أو نقطة نهاية Microsoft Copilot."
+
+#: includes/admin/partials/step-2-mapping.php:794
+msgid "Min Price €"
+msgstr "أدنى سعر €"
+
+#: includes/admin/partials/step-2-mapping.php:971
+msgid "Min €"
+msgstr "الأدنى €"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6982
+#, php-format
+msgid "Missing products cleanup completed: %1$d processed, %2$d errors."
+msgstr "اكتمل تنظيف المنتجات المفقودة: %1$d تمت معالجتها، %2$d أخطاء."
+
+#: includes/admin/partials/settings-page.php:404
+#: includes/admin/partials/settings-page.php:423
+#: includes/admin/partials/settings-page.php:442
+#: includes/admin/partials/settings-page.php:461
+#: includes/admin/partials/settings-page.php:479
+msgid "Model:"
+msgstr "النموذج:"
+
+#: includes/admin/partials/import-edit.php:789
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:585
+msgid "Monthly"
+msgstr "شهري"
+
+#: includes/admin/partials/step-1-upload.php:146
+#: includes/admin/partials/step-2-mapping.php:421
+msgid "Monthly Import"
+msgstr "الاستيراد الشهري"
+
+#: includes/admin/partials/step-2-mapping.php:2560
+#: includes/admin/partials/import-edit.php:652
+msgid "Move non-matching products to Draft"
+msgstr "نقل المنتجات غير المطابقة إلى المسودة"
+
+#: includes/admin/partials/step-1-upload.php:225
+#: includes/admin/partials/import-edit.php:226
+msgid "Move to Draft (Recommended)"
+msgstr "نقل إلى المسودة (موصى به)"
+
+#: includes/admin/partials/step-1-upload.php:228
+#: includes/admin/partials/import-edit.php:229
+msgid "Move to Trash (auto-delete after 30 days)"
+msgstr "نقل إلى سلة المحذوفات (حذف تلقائي بعد 30 يومًا)"
+
+#: includes/admin/partials/step-3-progress.php:461
+msgid "N/A"
+msgstr "غير متاح"
+
+#: includes/admin/partials/import-edit.php:92
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:558
+msgid "Name"
+msgstr "اسم"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Name Field:"
+msgstr "حقل الاسم:"
+
+#: includes/admin/partials/import-edit.php:154
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:635
+msgid "Never"
+msgstr "أبداً"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:182
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:183
+msgid "New Import"
+msgstr "استيراد جديد"
+
+#: includes/admin/partials/step-2-mapping.php:1137
+#: includes/admin/partials/step-2-mapping.php:1296
+msgid "New class name"
+msgstr "اسم الفئة الجديدة"
+
+#: includes/admin/partials/import-edit.php:306
+msgid "Next"
+msgstr "التالي"
+
+#: includes/admin/partials/step-2-mapping.php:1853
+#: includes/admin/partials/step-2-mapping.php:2057
+#: includes/admin/partials/step-2-mapping.php:3163
+#: includes/admin/partials/step-2-mapping.php:3177
+#: includes/admin/partials/step-2-mapping.php:3191
+#: includes/admin/partials/step-2-mapping.php:3205
+msgid "No"
+msgstr "لا"
+
+#: includes/admin/partials/step-2-mapping.php:1402
+msgid "No additional configuration needed. Products will be imported as simple products."
+msgstr "لا حاجة لتكوين إضافي. سيتم استيراد المنتجات كمنتجات بسيطة."
+
+#: includes/admin/partials/step-2-mapping.php:2981
+#: includes/admin/partials/step-2-mapping.php:3055
+#: includes/admin/partials/step-2-mapping.php:3086
+#: includes/admin/partials/step-2-mapping.php:3109
+#: includes/admin/partials/step-2-mapping.php:3133
+#: includes/admin/partials/step-2-mapping.php:3161
+#: includes/admin/partials/step-2-mapping.php:3175
+#: includes/admin/partials/step-2-mapping.php:3189
+#: includes/admin/partials/step-2-mapping.php:3203
+#: includes/admin/partials/step-2-mapping.php:3216
+#: includes/admin/partials/step-2-mapping.php:3275
+msgid "No change"
+msgstr "بدون تغيير"
+
+#: includes/admin/partials/step-2-mapping.php:2607
+#: includes/admin/partials/import-edit.php:758
+msgid "No custom fields added yet. Click \"Add Custom Field\" to create one."
+msgstr "لم تتم إضافة حقول مخصصة بعد. انقر \"إضافة حقل مخصص\" لإنشاء واحد."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1696
+msgid "No file provided."
+msgstr "لم يتم توفير ملف."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:104
+msgid "No file uploaded."
+msgstr "لم يتم رفع ملف."
+
+#: includes/admin/partials/step-2-mapping.php:2531
+#: includes/admin/partials/import-edit.php:635
+#: includes/admin/partials/import-edit.php:1248
+msgid "No filters added. All products will be imported."
+msgstr "لم تتم إضافة فلاتر. سيتم استيراد جميع المنتجات."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:553
+msgid "No imports found."
+msgstr "لم يتم العثور على استيرادات."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3488
+msgid "No logs found for this import."
+msgstr "لم يتم العثور على سجلات لهذا الاستيراد."
+
+#: includes/admin/partials/settings-page.php:801
+msgid "No manual intervention required"
+msgstr "لا يتطلب تدخل يدوي"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6871
+msgid "No missing products found."
+msgstr "لم يتم العثور على منتجات مفقودة."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:537
+msgid "No products found to delete."
+msgstr "لم يتم العثور على منتجات للحذف."
+
+#: includes/admin/partials/step-2-mapping.php:782
+#: includes/admin/partials/step-2-mapping.php:959
+msgid "No rounding"
+msgstr "بدون تقريب"
+
+#: includes/admin/partials/settings-page.php:708
+msgid "No server configuration needed, self-healing, processes full import automatically."
+msgstr "لا حاجة لتكوين الخادم، ذاتي الإصلاح، يعالج الاستيراد الكامل تلقائيًا."
+
+#: includes/admin/partials/step-2-mapping.php:2011
+msgid "No shipping classes found. Create them in WooCommerce → Settings → Shipping"
+msgstr "لم يتم العثور على فئات شحن. أنشئها في WooCommerce → الإعدادات → الشحن"
+
+#: includes/admin/partials/import-edit.php:400
+msgid "No shipping classes found. Please create them in WooCommerce → Settings → Shipping → Shipping classes"
+msgstr "لم يتم العثور على فئات شحن. أنشئها في WooCommerce → الإعدادات → الشحن → فئات الشحن"
+
+#: includes/admin/partials/step-2-mapping.php:1323
+msgid "No shipping classes found. They will be created automatically during import, or create them in WooCommerce → Settings → Shipping → Shipping Classes."
+msgstr "لم يتم العثور على فئات شحن. سيتم إنشاؤها تلقائيًا أثناء الاستيراد، أو أنشئها في WooCommerce → الإعدادات → الشحن → فئات الشحن."
+
+#: includes/admin/partials/step-2-mapping.php:3179
+msgid "No shipping needed"
+msgstr "لا حاجة للشحن"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4045
+msgid "No source fields provided"
+msgstr "لم يتم توفير حقول المصدر"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2324
+msgid "No source fields provided."
+msgstr "لم يتم توفير حقول المصدر."
+
+#: includes/admin/partials/step-2-mapping.php:153
+msgid "None"
+msgstr "لا شيء"
+
+#: includes/admin/partials/settings-page.php:703
+msgid "Not Available"
+msgstr "غير متاح"
+
+#: includes/admin/partials/step-2-mapping.php:1085
+msgid "Note: If you have a direct shipping_class field mapped above, it takes priority over these rules."
+msgstr "ملاحظة: إذا كان لديك حقل shipping_class معين مباشرة أعلاه، فإنه يأخذ الأولوية على هذه القواعد."
+
+#: includes/admin/partials/settings-page.php:746
+msgid "Note: We recommend running every minute. The plugin will only process imports when their scheduled interval has passed."
+msgstr "ملاحظة: نوصي بالتشغيل كل دقيقة. سيعالج البرنامج المساعد الاستيرادات فقط عندما ينقضي الفاصل الزمني المجدول."
+
+#: includes/admin/partials/settings-page.php:900
+msgid "Notification Email:"
+msgstr "البريد الإلكتروني للإشعارات:"
+
+#: includes/admin/partials/step-2-mapping.php:2688
+#: includes/admin/partials/import-edit.php:706
+#: includes/admin/partials/import-edit.php:1120
+msgid "Number"
+msgstr "رقم"
+
+#: includes/admin/partials/settings-page.php:561
+msgid "Number of lines to read from file at once."
+msgstr "عدد الأسطر المراد قراءتها من الملف دفعة واحدة."
+
+#: includes/admin/partials/step-1-upload.php:203
+msgid "Number of products to process at once."
+msgstr "عدد المنتجات المراد معالجتها دفعة واحدة."
+
+#: includes/admin/partials/settings-page.php:546
+msgid "Number of products to process in each batch."
+msgstr "عدد المنتجات المراد معالجتها في كل دفعة."
+
+#: includes/admin/partials/step-2-mapping.php:636
+msgid "OK"
+msgstr "موافق"
+
+#: includes/admin/partials/step-2-mapping.php:179
+msgid "On backorder"
+msgstr "طلب مسبق"
+
+#: includes/admin/partials/step-3-progress.php:196
+msgid "Once configured, imports will continue automatically even if you close this page."
+msgstr "بمجرد التكوين، ستستمر الاستيرادات تلقائيًا حتى لو أغلقت هذه الصفحة."
+
+#: includes/admin/partials/step-2-mapping.php:2868
+msgid "Only for XML with &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt; structure"
+msgstr "فقط لـ XML بهيكل &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt;"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:117
+msgid "OpenAI API key not configured."
+msgstr "لم يتم تكوين مفتاح API لـ OpenAI."
+
+#: includes/admin/partials/settings-page.php:397
+msgid "OpenAI Settings"
+msgstr "إعدادات OpenAI"
+
+#: includes/admin/partials/step-2-mapping.php:2650
+#: includes/admin/partials/import-edit.php:587
+#: includes/admin/partials/import-edit.php:1192
+msgid "Operator"
+msgstr "العامل"
+
+#: includes/admin/partials/step-2-mapping.php:1979
+msgid "Optional: Calculate shipping class based on dimensions/weight when no direct mapping is set."
+msgstr "اختياري: حساب فئة الشحن بناءً على الأبعاد/الوزن عند عدم تعيين تعيين مباشر."
+
+#: includes/admin/partials/step-2-mapping.php:1803
+msgid "Optional: Link variation to parent by SKU"
+msgstr "اختياري: ربط التنويعة بالمنتج الأصلي عبر SKU"
+
+#: includes/admin/partials/step-2-mapping.php:178
+msgid "Out of stock"
+msgstr "غير متوفر"
+
+#: includes/admin/partials/step-2-mapping.php:2359
+#: includes/admin/partials/step-2-mapping.php:2706
+#: includes/admin/partials/step-2-mapping.php:2882
+#: includes/admin/partials/step-2-mapping.php:2922
+#: includes/admin/partials/step-2-mapping.php:3003
+#: includes/admin/partials/step-2-mapping.php:3296
+#: includes/admin/partials/import-edit.php:456
+#: includes/admin/partials/import-edit.php:713
+#: includes/admin/partials/import-edit.php:1127
+msgid "PHP Formula"
+msgstr "صيغة PHP"
+
+#: includes/admin/partials/step-2-mapping.php:2454
+msgid "PHP Formula (applied to AI result):"
+msgstr "صيغة PHP (مطبقة على نتيجة الذكاء الاصطناعي):"
+
+#: includes/admin/partials/import-edit.php:507
+msgid "PHP Formula (executed first):"
+msgstr "صيغة PHP (تنفذ أولاً):"
+
+#: includes/admin/partials/step-2-mapping.php:1983
+#: includes/admin/partials/import-edit.php:372
+msgid "PHP Formula (return shipping class slug):"
+msgstr "صيغة PHP (إرجاع اسم فئة الشحن المختصر):"
+
+#: includes/admin/partials/step-2-mapping.php:2901
+#: includes/admin/partials/step-2-mapping.php:2941
+msgid "PHP Formula (runs first):"
+msgstr "صيغة PHP (تعمل أولاً):"
+
+#: includes/admin/partials/settings-page.php:915
+msgid "PHP Formula Security"
+msgstr "أمان صيغة PHP"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2600
+msgid "PHP Formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "معالجة صيغة PHP هي ميزة PRO. يرجى الترقية لاستخدام هذه الوظيفة."
+
+#: includes/admin/partials/step-2-mapping.php:2393
+#: includes/admin/partials/step-2-mapping.php:2717
+#: includes/admin/partials/step-2-mapping.php:2753
+#: includes/admin/partials/step-2-mapping.php:2781
+#: includes/admin/partials/step-2-mapping.php:2893
+#: includes/admin/partials/step-2-mapping.php:2933
+#: includes/admin/partials/import-edit.php:466
+#: includes/admin/partials/import-edit.php:727
+#: includes/admin/partials/import-edit.php:1141
+msgid "PHP Formula:"
+msgstr "صيغة PHP:"
+
+#: includes/admin/partials/step-2-mapping.php:3031
+#: includes/admin/partials/step-2-mapping.php:3323
+msgid "PHP Pre-processing:"
+msgstr "المعالجة المسبقة PHP:"
+
+#: includes/admin/partials/step-2-mapping.php:3617
+msgid "PHP Processing"
+msgstr "معالجة PHP"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2645
+msgid "PHP formula test completed successfully."
+msgstr "تم إكمال اختبار صيغة PHP بنجاح."
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:272
+msgid "PHP formulas are disabled in settings."
+msgstr "صيغ PHP معطلة في الإعدادات."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:418
+msgid "PRO Feature"
+msgstr "ميزة PRO"
+
+#: includes/class-bfi-license-admin.php:17
+#: includes/class-bfi-license-admin.php:18
+msgid "PRO License"
+msgstr "ترخيص PRO"
+
+#: includes/admin/partials/step-2-mapping.php:2375
+msgid "PRO: Transform fields with PHP/AI"
+msgstr "PRO: تحويل الحقول باستخدام PHP/AI"
+
+#: includes/admin/partials/step-2-mapping.php:282
+msgid "Parent Product ID"
+msgstr "معرف المنتج الأصلي"
+
+#: includes/admin/partials/step-2-mapping.php:1529
+msgid "Parent SKU Column:"
+msgstr "عمود SKU الأصلي:"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:513
+#, php-format
+msgid "Parent SKU column \"%s\" not found in CSV."
+msgstr "عمود SKU الأصلي \"%s\" غير موجود في CSV."
+
+#: includes/admin/partials/step-2-mapping.php:1542
+msgid "Parent SKU links variations to parent. Type column (values: \"variable\" or \"variation\") helps identify row types."
+msgstr "SKU الأصلي يربط التنويعات بالمنتج الأصلي. عمود النوع (القيم: \"variable\" أو \"variation\") يساعد في تحديد أنواع الصفوف."
+
+#: includes/admin/partials/step-2-mapping.php:1799
+msgid "Parent SKU:"
+msgstr "SKU الأصلي:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:97
+msgid "Parsing file structure..."
+msgstr "جاري تحليل هيكل الملف..."
+
+#: includes/admin/partials/step-2-mapping.php:1748
+msgid "Path to attributes container in each variation (without { })"
+msgstr "مسار حاوية السمات في كل تنويعة (بدون { })"
+
+#: includes/admin/partials/step-2-mapping.php:1704
+msgid "Path to variation/attribute container. Examples:"
+msgstr "مسار حاوية التنويعات/السمات. أمثلة:"
+
+#: includes/admin/partials/step-2-mapping.php:924
+#: includes/admin/partials/step-2-mapping.php:1269
+msgid "Pattern"
+msgstr "نمط"
+
+#: includes/admin/partials/step-3-progress.php:280
+msgid "Pause Import"
+msgstr "إيقاف الاستيراد مؤقتًا"
+
+#: includes/admin/partials/step-2-mapping.php:128
+msgid "Pending Review"
+msgstr "قيد المراجعة"
+
+#: includes/admin/partials/settings-page.php:119
+msgid "Performance"
+msgstr "الأداء"
+
+#: includes/admin/partials/step-3-progress.php:425
+msgid "Performance Metrics"
+msgstr "مقاييس الأداء"
+
+#: includes/admin/partials/settings-page.php:536
+msgid "Performance Settings"
+msgstr "إعدادات الأداء"
+
+#: includes/admin/partials/step-1-upload.php:229
+#: includes/admin/partials/import-edit.php:230
+msgid "Permanently Delete (⚠️ DANGEROUS)"
+msgstr "حذف نهائي (⚠️ خطير)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3887
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3980
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4196
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4252
+msgid "Permission denied"
+msgstr "تم رفض الإذن"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6711
+#, php-format
+msgid "Phase 2 completed: %1$d relationships resolved, %2$d errors"
+msgstr "المرحلة 2 مكتملة: %1$d علاقة تم حلها، %2$d خطأ"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6777
+#, php-format
+msgid "Phase 3 completed: %d variable products stock status synced"
+msgstr "المرحلة 3 مكتملة: %d حالة مخزون للمنتجات المتغيرة تمت مزامنتها"
+
+#: includes/admin/partials/step-2-mapping.php:195
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1098
+msgid "Physical Properties"
+msgstr "الخصائص الفيزيائية"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2430
+#: includes/class-wc-xml-csv-ai-import-license.php:452
+msgid "Please enter a license key."
+msgstr "الرجاء إدخال مفتاح الترخيص."
+
+#: includes/admin/partials/step-2-mapping.php:633
+msgid "Please verify mapped fields before importing."
+msgstr "يرجى التحقق من الحقول المعينة قبل الاستيراد."
+
+#: includes/admin/partials/step-2-mapping.php:1761
+msgid "Plugin will automatically create attributes: pa_size=L, pa_color=Black"
+msgstr "سيقوم البرنامج المساعد بإنشاء السمات تلقائيًا: pa_size=L, pa_color=Black"
+
+#: includes/admin/partials/step-2-mapping.php:2902
+#: includes/admin/partials/step-2-mapping.php:2942
+msgid "Pre-process with PHP"
+msgstr "المعالجة المسبقة باستخدام PHP"
+
+#: includes/admin/partials/step-3-progress.php:208
+#: includes/admin/partials/step-3-progress.php:784
+msgid "Preparing Import..."
+msgstr "جاري إعداد الاستيراد..."
+
+#: includes/admin/partials/settings-page.php:657
+msgid "Preserve HTML in Descriptions"
+msgstr "الحفاظ على HTML في الأوصاف"
+
+#: includes/admin/partials/step-2-mapping.php:2326
+msgid "Preview:"
+msgstr "معاينة:"
+
+#: includes/admin/partials/import-edit.php:301
+msgid "Previous"
+msgstr "السابق"
+
+#: includes/admin/partials/step-2-mapping.php:2977
+msgid "Price Adjustment:"
+msgstr "تعديل السعر:"
+
+#: includes/admin/partials/step-2-mapping.php:135
+msgid "Price Markup"
+msgstr "هامش ربح السعر"
+
+#: includes/admin/partials/step-2-mapping.php:853
+#: includes/admin/partials/step-2-mapping.php:1189
+msgid "Price Range"
+msgstr "نطاق السعر"
+
+#: includes/admin/partials/step-2-mapping.php:140
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1080
+msgid "Pricing Fields"
+msgstr "حقول التسعير"
+
+#: includes/admin/partials/step-2-mapping.php:737
+msgid "Pricing Rules"
+msgstr "قواعد التسعير"
+
+#: includes/admin/partials/settings-page.php:371
+msgid "Priority support"
+msgstr "الدعم ذو الأولوية"
+
+#: includes/admin/partials/step-1-upload.php:197
+#: includes/admin/partials/step-2-mapping.php:129
+msgid "Private"
+msgstr "خاص"
+
+#: includes/admin/partials/step-2-mapping.php:3640
+msgid "Pro Feature"
+msgstr "ميزة Pro"
+
+#: includes/admin/partials/step-2-mapping.php:3417
+msgid "Pro includes:"
+msgstr "Pro يشمل:"
+
+#: includes/admin/partials/step-1-upload.php:252
+#: includes/admin/partials/step-1-upload.php:449
+#: includes/admin/partials/step-1-upload.php:458
+msgid "Proceed to Field Mapping"
+msgstr "المتابعة إلى تعيين الحقول"
+
+#: includes/admin/partials/import-edit.php:215
+msgid "Process products no longer in feed"
+msgstr "معالجة المنتجات التي لم تعد في المصدر"
+
+#: includes/admin/partials/step-1-upload.php:217
+msgid "Process products that are no longer in feed"
+msgstr "معالجة المنتجات التي لم تعد في المصدر"
+
+#: includes/admin/partials/step-3-progress.php:239
+#: includes/admin/partials/step-3-progress.php:326
+msgid "Processed"
+msgstr "تمت المعالجة"
+
+#: includes/admin/partials/import-edit.php:810
+msgid "Processes entire import in one request. 100% reliable but requires server cron setup."
+msgstr "يعالج الاستيراد بالكامل في طلب واحد. موثوق 100% ولكن يتطلب إعداد cron للخادم."
+
+#: includes/admin/partials/step-2-mapping.php:463
+msgid "Processes entire import in one request. Requires server cron setup."
+msgstr "يعالج الاستيراد بالكامل في طلب واحد. يتطلب إعداد cron للخادم."
+
+#: includes/admin/partials/step-3-progress.php:211
+#: includes/admin/partials/step-3-progress.php:787
+msgid "Processing Products..."
+msgstr "جاري معالجة المنتجات..."
+
+#: includes/admin/partials/step-3-progress.php:429
+msgid "Processing Speed"
+msgstr "سرعة المعالجة"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6825
+#, php-format
+msgid "Processing missing products with action: %s"
+msgstr "معالجة المنتجات المفقودة بالإجراء: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6914
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) marked as out of stock - no longer in feed."
+msgstr "المنتج \"%1$s\" (SKU: %2$s) تم وضع علامة غير متوفر - لم يعد في المصدر."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6904
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to draft - no longer in feed."
+msgstr "المنتج \"%1$s\" (SKU: %2$s) تم نقله إلى المسودة - لم يعد في المصدر."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6932
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to trash - no longer in feed."
+msgstr "المنتج \"%1$s\" (SKU: %2$s) تم نقله إلى سلة المحذوفات - لم يعد في المصدر."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6939
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) permanently deleted - no longer in feed."
+msgstr "المنتج \"%1$s\" (SKU: %2$s) تم حذفه نهائيًا - لم يعد في المصدر."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6925
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) set to backorder - no longer in feed."
+msgstr "المنتج \"%1$s\" (SKU: %2$s) تم تعيينه كطلب مسبق - لم يعد في المصدر."
+
+#: includes/admin/partials/step-3-progress.php:356
+msgid "Product Activity Log"
+msgstr "سجل نشاط المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1125
+msgid "Product Categories"
+msgstr "فئات المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:101
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1072
+msgid "Product Code (SKU)"
+msgstr "رمز المنتج (SKU)"
+
+#: includes/admin/partials/settings-page.php:593
+msgid "Product Defaults"
+msgstr "الإعدادات الافتراضية للمنتج"
+
+#: includes/admin/partials/settings-page.php:637
+msgid "Product Features"
+msgstr "ميزات المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:267
+msgid "Product Identifiers"
+msgstr "معرفات المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:213
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1114
+msgid "Product Images"
+msgstr "صور المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:106
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1073
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:230
+msgid "Product Options"
+msgstr "خيارات المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1076
+msgid "Product Status"
+msgstr "حالة المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:225
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1126
+msgid "Product Tags"
+msgstr "علامات المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:108
+msgid "Product Type"
+msgstr "نوع المنتج"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:697
+#, php-format
+msgid "Product does not match filters - will be imported as Draft (SKU: %s)"
+msgstr "المنتج لا يتطابق مع الفلاتر - سيتم استيراده كمسودة (SKU: %s)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:711
+#, php-format
+msgid "Product matches filters - will be imported as Published (SKU: %s)"
+msgstr "المنتج يتطابق مع الفلاتر - سيتم استيراده كمنشور (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:2322
+msgid "Product name slug (first 20 chars)"
+msgstr "الاسم المختصر للمنتج (أول 20 حرف)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:701
+#, php-format
+msgid "Product skipped by import filters (SKU: %s)"
+msgstr "تم تخطي المنتج بواسطة فلاتر الاستيراد (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:117
+msgid "Product type. Auto-detected if grouped_products or external_url is mapped."
+msgstr "نوع المنتج. يتم اكتشافه تلقائيًا إذا تم تعيين grouped_products أو external_url."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2784
+#, php-format
+msgid "Product with ID %d not found."
+msgstr "المنتج بالمعرف %d غير موجود."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:770
+#: includes/class-wc-xml-csv-ai-import-importer.php:960
+#, php-format
+msgid "Product with SKU \"%s\" already exists and update is disabled."
+msgstr "المنتج بالـ SKU \"%s\" موجود بالفعل والتحديث معطل."
+
+#: includes/admin/partials/step-2-mapping.php:348
+#: includes/admin/partials/import-edit.php:104
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:560
+msgid "Products"
+msgstr "منتجات"
+
+#: includes/admin/partials/step-2-mapping.php:487
+msgid "Products per chunk (1-500). Higher = faster, but more memory."
+msgstr "المنتجات لكل جزء (1-500). أعلى = أسرع، لكن ذاكرة أكثر."
+
+#: includes/admin/partials/import-edit.php:278
+msgid "Products to process per chunk (1-500). Higher = faster, but more memory. Recommended: 50-200 for updates."
+msgstr "المنتجات المراد معالجتها لكل جزء (1-500). أعلى = أسرع، لكن ذاكرة أكثر. الموصى به: 50-200 للتحديثات."
+
+#: includes/admin/partials/step-2-mapping.php:1386
+msgid "Products with variations like Size, Color"
+msgstr "المنتجات ذات التنويعات مثل الحجم واللون"
+
+#: includes/admin/partials/step-3-progress.php:314
+msgid "Progress"
+msgstr "تقدم"
+
+#: includes/admin/partials/settings-page.php:708
+#: includes/admin/partials/settings-page.php:720
+msgid "Pros:"
+msgstr "المزايا:"
+
+#: includes/admin/partials/step-1-upload.php:195
+#: includes/admin/partials/step-2-mapping.php:126
+msgid "Published"
+msgstr "منشور"
+
+#: includes/admin/partials/step-2-mapping.php:289
+msgid "Purchase Note"
+msgstr "ملاحظة الشراء"
+
+#: includes/admin/partials/step-2-mapping.php:1951
+msgid "Quick Add Common Fields:"
+msgstr "إضافة سريعة للحقول الشائعة:"
+
+#: includes/admin/partials/step-2-mapping.php:2321
+msgid "Random 6-char string"
+msgstr "سلسلة عشوائية من 6 أحرف"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:91
+msgid "Rate limit exceeded. Please wait before making another request."
+msgstr "تم تجاوز حد الطلبات. يرجى الانتظار قبل إجراء طلب آخر."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:649
+msgid "Re-run"
+msgstr "إعادة التشغيل"
+
+#: includes/admin/partials/step-2-mapping.php:1733
+msgid "Read all attributes from XML automatically"
+msgstr "قراءة جميع السمات من XML تلقائيًا"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3584
+msgid "Real-time import progress tracking"
+msgstr "تتبع تقدم الاستيراد في الوقت الفعلي"
+
+#: includes/admin/partials/step-3-progress.php:533
+msgid "Recent Errors:"
+msgstr "الأخطاء الأخيرة:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3958
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3986
+msgid "Recipe ID is required"
+msgstr "معرف الوصفة مطلوب"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3997
+msgid "Recipe deleted successfully"
+msgstr "تم حذف الوصفة بنجاح"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3969
+msgid "Recipe loaded successfully"
+msgstr "تم تحميل الوصفة بنجاح"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3895
+msgid "Recipe name is required"
+msgstr "اسم الوصفة مطلوب"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3964
+msgid "Recipe not found"
+msgstr "الوصفة غير موجودة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3939
+msgid "Recipe saved successfully"
+msgstr "تم حفظ الوصفة بنجاح"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3938
+msgid "Recipe updated successfully"
+msgstr "تم تحديث الوصفة بنجاح"
+
+#: includes/admin/partials/settings-page.php:701
+#: includes/admin/partials/step-2-mapping.php:453
+#: includes/admin/partials/import-edit.php:800
+msgid "Recommended"
+msgstr "موصى به"
+
+#: includes/admin/partials/step-2-mapping.php:396
+#: includes/admin/partials/import-edit.php:203
+msgid "Reduces import time by skipping products that haven't changed."
+msgstr "يقلل وقت الاستيراد بتخطي المنتجات التي لم تتغير."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3439
+msgid "Refresh"
+msgstr "تحديث"
+
+#: includes/admin/partials/settings-page.php:772
+msgid "Regenerate"
+msgstr "إعادة إنشاء"
+
+#: includes/admin/partials/step-2-mapping.php:142
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1082
+msgid "Regular Price"
+msgstr "السعر العادي"
+
+#: includes/admin/partials/step-2-mapping.php:1594
+#: includes/admin/partials/step-2-mapping.php:1816
+msgid "Regular Price:"
+msgstr "السعر العادي:"
+
+#: includes/admin/partials/step-2-mapping.php:1362
+msgid "Regular products without variations or attributes"
+msgstr "المنتجات العادية بدون تنويعات أو سمات"
+
+#: includes/admin/partials/step-3-progress.php:243
+msgid "Remaining"
+msgstr "المتبقي"
+
+#: includes/admin/partials/step-2-mapping.php:3632
+msgid "Remote URL Import"
+msgstr "استيراد من رابط بعيد"
+
+#: includes/admin/partials/import-edit.php:718
+#: includes/admin/partials/import-edit.php:1132
+msgid "Remove"
+msgstr "إزالة"
+
+#: includes/admin/partials/step-2-mapping.php:2819
+msgid "Remove Custom Field"
+msgstr "إزالة الحقل المخصص"
+
+#: includes/admin/partials/step-2-mapping.php:2674
+msgid "Remove Filter"
+msgstr "إزالة الفلتر"
+
+#: includes/admin/partials/step-2-mapping.php:927
+#: includes/admin/partials/step-2-mapping.php:1272
+msgid "Remove condition"
+msgstr "إزالة الشرط"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1961
+#, php-format
+msgid "Required field \"%s\" is missing or empty."
+msgstr "الحقل المطلوب \"%s\" مفقود أو فارغ."
+
+#: includes/admin/partials/settings-page.php:722
+msgid "Requires server access to configure crontab."
+msgstr "يتطلب الوصول إلى الخادم لتكوين crontab."
+
+#: includes/admin/partials/settings-page.php:710
+msgid "Requires some website traffic to trigger (or WP-Cron)."
+msgstr "يتطلب بعض حركة المرور على الموقع للتشغيل (أو WP-Cron)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1200
+msgid "Reset and import all products"
+msgstr "إعادة تعيين واستيراد جميع المنتجات"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6630
+#, php-format
+msgid "Resolved grouped product ID %1$d with %2$d children"
+msgstr "تم حل المنتج المجمع ID %1$d مع %2$d فرعي"
+
+#: includes/admin/partials/import-edit.php:513
+msgid "Result will be passed to AI"
+msgstr "سيتم تمرير النتيجة إلى الذكاء الاصطناعي"
+
+#: includes/admin/partials/step-2-mapping.php:1483
+msgid "Result: Attribute \"Colour\" with value \"Blue\""
+msgstr "النتيجة: السمة \"Colour\" بالقيمة \"Blue\""
+
+#: includes/admin/partials/step-3-progress.php:289
+msgid "Resume Import"
+msgstr "استئناف الاستيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1162
+msgid "Resume Import?"
+msgstr "استئناف الاستيراد؟"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1190
+#, php-format
+msgid "Resume from product %d"
+msgstr "استئناف من المنتج %d"
+
+#: includes/admin/partials/step-3-progress.php:298
+#: includes/admin/partials/step-3-progress.php:549
+msgid "Retry Import"
+msgstr "إعادة محاولة الاستيراد"
+
+#: includes/admin/partials/step-2-mapping.php:253
+msgid "Reviews Allowed"
+msgstr "المراجعات مسموحة"
+
+#: includes/admin/partials/step-2-mapping.php:779
+#: includes/admin/partials/step-2-mapping.php:955
+msgid "Round to"
+msgstr "تقريب إلى"
+
+#: includes/admin/partials/step-2-mapping.php:3039
+msgid "Round to nearest .99"
+msgstr "تقريب إلى أقرب .99"
+
+#: includes/admin/partials/step-2-mapping.php:2319
+msgid "Row number (1, 2, 3...)"
+msgstr "رقم الصف (1، 2، 3...)"
+
+#: includes/admin/partials/step-2-mapping.php:729
+msgid "Rule Priority:"
+msgstr "أولوية القاعدة:"
+
+#: includes/admin/partials/step-2-mapping.php:1157
+msgid "Rule name (e.g., Heavy items)"
+msgstr "اسم القاعدة (مثل، العناصر الثقيلة)"
+
+#: includes/admin/partials/step-2-mapping.php:822
+msgid "Rule name (optional)"
+msgstr "اسم القاعدة (اختياري)"
+
+#: includes/admin/partials/step-2-mapping.php:700
+msgid "Rules are evaluated from top to bottom. First matching rule wins (or use \"Apply All\" mode)."
+msgstr "يتم تقييم القواعد من أعلى إلى أسفل. القاعدة الأولى المطابقة تفوز (أو استخدم وضع \"تطبيق الكل\")."
+
+#: includes/admin/partials/step-2-mapping.php:1084
+msgid "Rules are evaluated from top to bottom. First matching rule wins. The assigned shipping class will be created automatically if it doesn't exist."
+msgstr "يتم تقييم القواعد من أعلى إلى أسفل. القاعدة الأولى المطابقة تفوز. سيتم إنشاء فئة الشحن المعينة تلقائيًا إذا لم تكن موجودة."
+
+#: includes/admin/partials/step-2-mapping.php:730
+msgid "Rules are evaluated top to bottom. First matching rule applies. Avoid overlapping conditions."
+msgstr "يتم تقييم القواعد من أعلى إلى أسفل. القاعدة الأولى المطابقة تُطبق. تجنب الشروط المتداخلة."
+
+#: includes/admin/partials/step-2-mapping.php:296
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1131
+msgid "SEO Fields"
+msgstr "حقول SEO"
+
+#: includes/admin/partials/step-2-mapping.php:1194
+msgid "SKU Pattern"
+msgstr "نمط SKU"
+
+#: includes/admin/partials/step-2-mapping.php:2309
+msgid "SKU Pattern:"
+msgstr "نمط SKU:"
+
+#: includes/admin/partials/step-2-mapping.php:3105
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/admin/partials/step-2-mapping.php:1602
+#: includes/admin/partials/step-2-mapping.php:1824
+msgid "Sale Date From:"
+msgstr "تاريخ بداية التخفيض:"
+
+#: includes/admin/partials/step-2-mapping.php:1606
+#: includes/admin/partials/step-2-mapping.php:1828
+msgid "Sale Date To:"
+msgstr "تاريخ نهاية التخفيض:"
+
+#: includes/admin/partials/step-2-mapping.php:143
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1083
+msgid "Sale Price"
+msgstr "سعر التخفيض"
+
+#: includes/admin/partials/step-2-mapping.php:144
+msgid "Sale Price From Date"
+msgstr "تاريخ بداية سعر التخفيض"
+
+#: includes/admin/partials/step-2-mapping.php:145
+msgid "Sale Price To Date"
+msgstr "تاريخ نهاية سعر التخفيض"
+
+#: includes/admin/partials/step-2-mapping.php:1598
+#: includes/admin/partials/step-2-mapping.php:1820
+#: includes/admin/partials/step-2-mapping.php:3082
+msgid "Sale Price:"
+msgstr "سعر التخفيض:"
+
+#: includes/admin/partials/import-edit.php:310
+msgid "Sample Data"
+msgstr "بيانات العينة"
+
+#: includes/admin/partials/import-edit.php:312
+msgid "Sample product data will appear here after loading the file structure."
+msgstr "ستظهر بيانات المنتج النموذجية هنا بعد تحميل هيكل الملف."
+
+#: includes/admin/partials/step-2-mapping.php:530
+#: includes/admin/partials/step-2-mapping.php:2621
+msgid "Save"
+msgstr "حفظ"
+
+#: includes/admin/partials/import-edit.php:878
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: includes/admin/partials/step-2-mapping.php:528
+msgid "Save Template"
+msgstr "حفظ القالب"
+
+#: includes/admin/partials/step-2-mapping.php:567
+msgid "Save and reuse mapping configurations across imports. Available in PRO version."
+msgstr "احفظ وأعد استخدام تكوينات التعيين عبر الاستيرادات. متاح في إصدار PRO."
+
+#: includes/admin/partials/step-2-mapping.php:521
+msgid "Save current mapping as template:"
+msgstr "حفظ التعيين الحالي كقالب:"
+
+#: includes/admin/partials/step-2-mapping.php:3608
+msgid "Save your field mappings as reusable templates. Perfect for recurring imports from the same source."
+msgstr "احفظ تعيينات الحقول كقوالب قابلة لإعادة الاستخدام. مثالي للاستيرادات المتكررة من نفس المصدر."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:562
+msgid "Schedule"
+msgstr "الجدولة"
+
+#: includes/admin/partials/import-edit.php:780
+msgid "Schedule Interval"
+msgstr "فاصل الجدولة"
+
+#: includes/admin/partials/step-2-mapping.php:441
+#: includes/admin/partials/import-edit.php:794
+msgid "Schedule Method"
+msgstr "طريقة الجدولة"
+
+#: includes/admin/partials/step-1-upload.php:138
+#: includes/admin/partials/step-1-upload.php:153
+msgid "Schedule Type"
+msgstr "نوع الجدولة"
+
+#: includes/admin/partials/import-edit.php:864
+msgid "Schedule automatic imports to run at regular intervals. Keep your products always up-to-date without manual intervention."
+msgstr "جدولة الاستيرادات التلقائية للتشغيل على فترات منتظمة. حافظ على تحديث منتجاتك دائمًا دون تدخل يدوي."
+
+#: includes/admin/partials/step-3-progress.php:269
+msgid "Schedule:"
+msgstr "الجدولة:"
+
+#: includes/admin/partials/step-3-progress.php:191
+msgid "Schedule: Every minute"
+msgstr "الجدولة: كل دقيقة"
+
+#: includes/admin/partials/step-2-mapping.php:407
+msgid "Scheduled Import"
+msgstr "الاستيراد المجدول"
+
+#: includes/admin/partials/settings-page.php:791
+#: includes/admin/partials/step-2-mapping.php:3421
+#: includes/admin/partials/step-2-mapping.php:3602
+msgid "Scheduled Imports"
+msgstr "الاستيرادات المجدولة"
+
+#: includes/admin/partials/settings-page.php:667
+msgid "Scheduled Imports (Cron)"
+msgstr "الاستيرادات المجدولة (Cron)"
+
+#: includes/admin/partials/settings-page.php:326
+msgid "Scheduled imports (cron)"
+msgstr "الاستيرادات المجدولة (cron)"
+
+#: includes/admin/partials/settings-page.php:121
+msgid "Scheduling"
+msgstr "الجدولة"
+
+#: includes/admin/partials/settings-page.php:690
+msgid "Scheduling Method"
+msgstr "طريقة الجدولة"
+
+#: includes/admin/partials/settings-page.php:124
+msgid "Security"
+msgstr "أمان"
+
+#: includes/admin/partials/settings-page.php:910
+msgid "Security Settings"
+msgstr "إعدادات الأمان"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4190
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4246
+msgid "Security check failed"
+msgstr "فشل فحص الأمان"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1509
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1806
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1901
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1994
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2155
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2219
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2293
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2418
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2457
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2488
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2588
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2671
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2820
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3637
+#: includes/class-wc-xml-csv-ai-import-security.php:82
+msgid "Security check failed."
+msgstr "فشل فحص الأمان."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:729
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:755
+msgid "Security check failed. Please try again."
+msgstr "فشل فحص الأمان. يرجى المحاولة مرة أخرى."
+
+#: includes/admin/partials/step-1-upload.php:68
+msgid "Select File"
+msgstr "اختيار الملف"
+
+#: includes/admin/partials/step-1-upload.php:122
+msgid "Select file type manually for URLs without file extension (e.g., API feeds)."
+msgstr "حدد نوع الملف يدويًا للروابط بدون امتداد ملف (مثل، موجزات API)."
+
+#: includes/admin/partials/step-2-mapping.php:716
+msgid "Select the XML field that contains the supplier/wholesale price"
+msgstr "حدد حقل XML الذي يحتوي على سعر المورد/الجملة"
+
+#: includes/admin/partials/settings-page.php:311
+msgid "Select which fields to update"
+msgstr "حدد الحقول المراد تحديثها"
+
+#: includes/admin/partials/step-2-mapping.php:461
+#: includes/admin/partials/import-edit.php:808
+msgid "Server Cron"
+msgstr "كرون الخادم"
+
+#: includes/admin/partials/settings-page.php:716
+msgid "Server Cron (URL Trigger)"
+msgstr "كرون الخادم (مشغل URL)"
+
+#: includes/admin/partials/import-edit.php:822
+msgid "Server Cron Setup"
+msgstr "إعداد كرون الخادم"
+
+#: includes/admin/partials/settings-page.php:735
+msgid "Server Cron Setup Instructions"
+msgstr "تعليمات إعداد كرون الخادم"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:120
+msgid "Server error during upload."
+msgstr "خطأ في الخادم أثناء الرفع."
+
+#: includes/admin/partials/step-3-progress.php:183
+msgid "Set up a cron job to continue imports in the background, even when the browser is closed."
+msgstr "قم بإعداد وظيفة cron لمتابعة الاستيرادات في الخلفية، حتى عند إغلاق المتصفح."
+
+#: includes/admin/partials/settings-page.php:798
+msgid "Set up automatic import schedules"
+msgstr "إعداد جداول الاستيراد التلقائي"
+
+#: includes/admin/partials/step-2-mapping.php:3603
+msgid "Set up automatic imports on a schedule. Keep your products updated from supplier feeds without manual intervention."
+msgstr "إعداد الاستيرادات التلقائية وفقًا لجدول زمني. حافظ على تحديث منتجاتك من موجزات الموردين دون تدخل يدوي."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:201
+#: bootflow-product-importer.php:153
+msgid "Settings"
+msgstr "إعدادات"
+
+#: includes/admin/partials/settings-page.php:98
+msgid "Settings saved successfully!"
+msgstr "تم حفظ الإعدادات بنجاح!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1494
+msgid "Settings saved successfully."
+msgstr "تم حفظ الإعدادات بنجاح."
+
+#: includes/admin/partials/step-2-mapping.php:201
+msgid "Shipping Class"
+msgstr "فئة الشحن"
+
+#: includes/admin/partials/import-edit.php:366
+msgid "Shipping Class Assignment"
+msgstr "تعيين فئة الشحن"
+
+#: includes/admin/partials/step-2-mapping.php:205
+#: includes/admin/partials/step-2-mapping.php:1099
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1107
+msgid "Shipping Class Rules"
+msgstr "قواعد فئة الشحن"
+
+#: includes/admin/partials/step-2-mapping.php:1656
+#: includes/admin/partials/step-2-mapping.php:1923
+#: includes/admin/partials/step-2-mapping.php:3272
+msgid "Shipping Class:"
+msgstr "فئة الشحن:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2832
+msgid "Shipping formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "معالجة صيغة الشحن هي ميزة PRO. يرجى الترقية."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2858
+msgid "Shipping formula test completed successfully."
+msgstr "تم إكمال اختبار صيغة الشحن بنجاح."
+
+#: includes/admin/partials/step-2-mapping.php:152
+msgid "Shipping only"
+msgstr "الشحن فقط"
+
+#: includes/admin/partials/step-2-mapping.php:120
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1075
+msgid "Short Description"
+msgstr "الوصف المختصر"
+
+#: includes/admin/partials/settings-page.php:402
+#: includes/admin/partials/settings-page.php:421
+#: includes/admin/partials/settings-page.php:440
+#: includes/admin/partials/settings-page.php:459
+#: includes/admin/partials/settings-page.php:477
+#: includes/admin/partials/settings-page.php:980
+msgid "Show"
+msgstr "عرض"
+
+#: includes/admin/partials/step-3-progress.php:186
+msgid "Show cron setup instructions"
+msgstr "إظهار تعليمات إعداد cron"
+
+#: includes/admin/partials/step-2-mapping.php:3165
+msgid "Show on frontend"
+msgstr "إظهار في الواجهة الأمامية"
+
+#: includes/admin/partials/step-2-mapping.php:112
+msgid "Simple"
+msgstr "بسيط"
+
+#: includes/admin/partials/settings-page.php:279
+msgid "Simple & variable products"
+msgstr "المنتجات البسيطة والمتغيرة"
+
+#: includes/admin/partials/step-2-mapping.php:1360
+msgid "Simple Products"
+msgstr "المنتجات البسيطة"
+
+#: includes/admin/partials/step-2-mapping.php:1400
+msgid "Simple Products Mode"
+msgstr "وضع المنتجات البسيطة"
+
+#: includes/admin/partials/step-2-mapping.php:389
+#: includes/admin/partials/import-edit.php:196
+msgid "Skip Unchanged Products"
+msgstr "تخطي المنتجات غير المتغيرة"
+
+#: includes/admin/partials/step-1-upload.php:181
+#: includes/admin/partials/step-2-mapping.php:394
+#: includes/admin/partials/import-edit.php:201
+msgid "Skip products if data unchanged"
+msgstr "تخطي المنتجات إذا لم تتغير البيانات"
+
+#: includes/admin/partials/step-1-upload.php:183
+msgid "Skip updating products if mapped data hasn't changed."
+msgstr "تخطي تحديث المنتجات إذا لم تتغير البيانات المعينة."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:785
+#, php-format
+msgid "Skipped product (unchanged): %1$s (ID: %2$d)"
+msgstr "تم تخطي المنتج (بدون تغيير): %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:248
+msgid "Sold Individually"
+msgstr "يُباع فرديًا"
+
+#: includes/admin/partials/step-2-mapping.php:1431
+#: includes/admin/partials/step-2-mapping.php:2189
+msgid "Standard"
+msgstr "قياسي"
+
+#: includes/admin/partials/step-2-mapping.php:2625
+msgid "Start Import"
+msgstr "بدء الاستيراد"
+
+#: includes/admin/partials/step-3-progress.php:499
+msgid "Start New Import"
+msgstr "بدء استيراد جديد"
+
+#: includes/admin/partials/step-3-progress.php:554
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1199
+msgid "Start Over"
+msgstr "البدء من جديد"
+
+#: includes/admin/partials/step-3-progress.php:259
+msgid "Started:"
+msgstr "بدأ:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6593
+msgid "Starting Phase 2: Resolving product relationships..."
+msgstr "بدء المرحلة 2: حل علاقات المنتجات..."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6725
+msgid "Starting Phase 3: Syncing variable products stock status..."
+msgstr "بدء المرحلة 3: مزامنة حالة مخزون المنتجات المتغيرة..."
+
+#: includes/admin/partials/import-edit.php:100
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:561
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/admin/partials/step-2-mapping.php:1660
+#: includes/admin/partials/step-2-mapping.php:1927
+msgid "Status:"
+msgstr "الحالة:"
+
+#: includes/admin/partials/step-1-upload.php:25
+msgid "Step 1: Upload File"
+msgstr "الخطوة 1: رفع الملف"
+
+#: includes/admin/partials/settings-page.php:753
+msgid "Step 2 (Optional): Disable WP-Cron"
+msgstr "الخطوة 2 (اختياري): تعطيل WP-Cron"
+
+#: includes/admin/partials/step-2-mapping.php:494
+msgid "Step 2: Field Mapping & Processing"
+msgstr "الخطوة 2: تعيين الحقول والمعالجة"
+
+#: includes/admin/partials/step-2-mapping.php:3051
+msgid "Stock Adjustment:"
+msgstr "تعديل المخزون:"
+
+#: includes/admin/partials/step-2-mapping.php:171
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1092
+msgid "Stock Quantity"
+msgstr "كمية المخزون"
+
+#: includes/admin/partials/step-2-mapping.php:1610
+#: includes/admin/partials/step-2-mapping.php:1832
+msgid "Stock Quantity:"
+msgstr "كمية المخزون:"
+
+#: includes/admin/partials/step-2-mapping.php:173
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1093
+msgid "Stock Status"
+msgstr "حالة المخزون"
+
+#: includes/admin/partials/step-2-mapping.php:1614
+#: includes/admin/partials/step-2-mapping.php:1836
+msgid "Stock Status:"
+msgstr "حالة المخزون:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:645
+msgid "Stop"
+msgstr "إيقاف"
+
+#: includes/admin/partials/step-3-progress.php:284
+#: includes/admin/partials/step-3-progress.php:293
+msgid "Stop Import"
+msgstr "إيقاف الاستيراد"
+
+#: includes/admin/partials/step-3-progress.php:467
+msgid "Success Rate"
+msgstr "معدل النجاح"
+
+#: includes/admin/partials/step-3-progress.php:489
+#, php-format
+msgid "Successfully imported %1$d out of %2$d products."
+msgstr "تم استيراد %1$d من أصل %2$d منتج بنجاح."
+
+#: includes/admin/partials/step-2-mapping.php:3110
+msgid "Suffix"
+msgstr "اللاحقة"
+
+#: includes/admin/partials/step-2-mapping.php:896
+msgid "Supplier name"
+msgstr "اسم المورد"
+
+#: includes/admin/partials/step-2-mapping.php:157
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1085
+msgid "Tax Class"
+msgstr "فئة الضريبة"
+
+#: includes/admin/partials/step-2-mapping.php:1919
+msgid "Tax Class:"
+msgstr "فئة الضريبة:"
+
+#: includes/admin/partials/step-2-mapping.php:147
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1084
+msgid "Tax Status"
+msgstr "حالة الضريبة"
+
+#: includes/admin/partials/step-2-mapping.php:151
+msgid "Taxable"
+msgstr "خاضع للضريبة"
+
+#: includes/admin/partials/step-2-mapping.php:2427
+#: includes/admin/partials/step-2-mapping.php:2745
+#: includes/admin/partials/import-edit.php:501
+msgid "Test AI"
+msgstr "اختبار الذكاء الاصطناعي"
+
+#: includes/admin/partials/step-2-mapping.php:1007
+msgid "Test Base Price:"
+msgstr "سعر الأساس للاختبار:"
+
+#: includes/admin/partials/settings-page.php:504
+msgid "Test Connection"
+msgstr "اختبار الاتصال"
+
+#: includes/admin/partials/step-2-mapping.php:2785
+msgid "Test Hybrid"
+msgstr "اختبار هجين"
+
+#: includes/admin/partials/step-2-mapping.php:647
+#: includes/admin/partials/import-edit.php:335
+msgid "Test Mapping"
+msgstr "اختبار التعيين"
+
+#: includes/admin/partials/step-2-mapping.php:2760
+msgid "Test PHP"
+msgstr "اختبار PHP"
+
+#: includes/admin/partials/step-2-mapping.php:2404
+#: includes/admin/partials/import-edit.php:478
+msgid "Test PHP Formula"
+msgstr "اختبار صيغة PHP"
+
+#: includes/admin/partials/step-2-mapping.php:1993
+#: includes/admin/partials/import-edit.php:382
+msgid "Test Shipping Formula"
+msgstr "اختبار صيغة الشحن"
+
+#: includes/admin/partials/step-1-upload.php:109
+msgid "Test URL"
+msgstr "اختبار الرابط"
+
+#: includes/admin/partials/step-2-mapping.php:999
+msgid "Test with Rule:"
+msgstr "اختبار مع القاعدة:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:102
+msgid "Testing AI provider..."
+msgstr "اختبار مزود الذكاء الاصطناعي..."
+
+#: includes/admin/partials/step-2-mapping.php:2687
+#: includes/admin/partials/import-edit.php:705
+#: includes/admin/partials/import-edit.php:1119
+msgid "Text"
+msgstr "نص"
+
+#: includes/admin/partials/step-2-mapping.php:2689
+#: includes/admin/partials/import-edit.php:707
+#: includes/admin/partials/import-edit.php:1121
+msgid "Textarea"
+msgstr "منطقة نص"
+
+#: includes/admin/partials/step-1-upload.php:132
+msgid "The XML element name that contains individual product data (e.g., \"product\", \"item\", \"goods\"). Leave as \"product\" for CSV files."
+msgstr "اسم عنصر XML الذي يحتوي على بيانات المنتج الفردي (مثل \"product\"، \"item\"، \"goods\"). اتركه كـ \"product\" لملفات CSV."
+
+#: includes/admin/partials/step-3-progress.php:523
+msgid "The import process encountered an error and could not be completed. Please check the logs below for more details."
+msgstr "واجهت عملية الاستيراد خطأ ولم يمكن إكمالها. يرجى التحقق من السجلات أدناه لمزيد من التفاصيل."
+
+#: includes/admin/partials/step-2-mapping.php:2904
+#: includes/admin/partials/step-2-mapping.php:2944
+msgid "Then process with AI"
+msgstr "ثم المعالجة بالذكاء الاصطناعي"
+
+#: includes/admin/partials/step-2-mapping.php:2970
+msgid "These settings apply to ALL variations created from this attribute. Leave as \"No change\" to use parent product values."
+msgstr "تنطبق هذه الإعدادات على جميع التنويعات المنشأة من هذه السمة. اتركها كـ \"بدون تغيير\" لاستخدام قيم المنتج الأصلي."
+
+#: includes/admin/partials/step-2-mapping.php:3641
+msgid "This feature is available in the Pro version. Upgrade to unlock all advanced features."
+msgstr "هذه الميزة متاحة في إصدار Pro. قم بالترقية لفتح جميع الميزات المتقدمة."
+
+#: includes/admin/partials/step-2-mapping.php:2015
+msgid "This formula is used only when no direct mapping is set above. Leave empty to skip."
+msgstr "تُستخدم هذه الصيغة فقط عندما لا يتم تعيين تعيين مباشر أعلاه. اتركه فارغًا للتخطي."
+
+#: includes/admin/partials/import-edit.php:325
+msgid "This import needs to be configured. Please select source fields from the dropdowns below, configure processing modes, and click \"Save Changes\" to activate this import."
+msgstr "يحتاج هذا الاستيراد إلى تكوين. حدد حقول المصدر من القوائم المنسدلة، وقم بتكوين أوضاع المعالجة، وانقر \"حفظ التغييرات\" للتفعيل."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1179
+msgid "This import was previously started. Would you like to:"
+msgstr "تم بدء هذا الاستيراد سابقًا. هل تريد:"
+
+#: includes/admin/partials/settings-page.php:781
+msgid "This is the URL that the cron job will call to trigger scheduled imports."
+msgstr "هذا هو الرابط الذي ستستدعيه وظيفة cron لتشغيل الاستيرادات المجدولة."
+
+#: includes/class-wc-xml-csv-ai-import-activator.php:29
+msgid "This plugin requires WooCommerce to be installed and active."
+msgstr "يتطلب هذا البرنامج المساعد تثبيت WooCommerce وتفعيله."
+
+#: includes/admin/partials/settings-page.php:774
+msgid "This secret key protects your cron endpoint from unauthorized access."
+msgstr "يحمي هذا المفتاح السري نقطة نهاية cron الخاصة بك من الوصول غير المصرح به."
+
+#: includes/admin/partials/step-3-progress.php:330
+msgid "Total"
+msgstr "المجموع"
+
+#: includes/admin/partials/step-3-progress.php:235
+msgid "Total Products"
+msgstr "إجمالي المنتجات"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3576
+msgid "Track every import in detail. Monitor progress, debug issues, and ensure data quality with comprehensive logging."
+msgstr "تتبع كل استيراد بالتفصيل. راقب التقدم، وأصلح المشاكل، وتأكد من جودة البيانات مع التسجيل الشامل."
+
+#: includes/admin/partials/step-2-mapping.php:3207
+msgid "Track inventory"
+msgstr "تتبع المخزون"
+
+#: includes/admin/partials/step-2-mapping.php:2377
+msgid "Transform or translate ANY field value during import using PHP formulas, AI processing, or Hybrid mode."
+msgstr "تحويل أو ترجمة أي قيمة حقل أثناء الاستيراد باستخدام صيغ PHP أو معالجة الذكاء الاصطناعي أو الوضع الهجين."
+
+#: includes/admin/partials/settings-page.php:361
+msgid "Translate product data with AI"
+msgstr "ترجمة بيانات المنتج بالذكاء الاصطناعي"
+
+#: includes/admin/partials/step-2-mapping.php:338
+msgid "Type"
+msgstr "نوع"
+
+#: includes/admin/partials/step-2-mapping.php:1535
+msgid "Type Column:"
+msgstr "عمود النوع:"
+
+#: includes/admin/partials/step-2-mapping.php:1587
+#: includes/admin/partials/step-2-mapping.php:1591
+#: includes/admin/partials/step-2-mapping.php:1595
+#: includes/admin/partials/step-2-mapping.php:1599
+#: includes/admin/partials/step-2-mapping.php:1603
+#: includes/admin/partials/step-2-mapping.php:1607
+#: includes/admin/partials/step-2-mapping.php:1611
+#: includes/admin/partials/step-2-mapping.php:1615
+#: includes/admin/partials/step-2-mapping.php:1619
+#: includes/admin/partials/step-2-mapping.php:1623
+#: includes/admin/partials/step-2-mapping.php:1627
+#: includes/admin/partials/step-2-mapping.php:1631
+#: includes/admin/partials/step-2-mapping.php:1634
+#: includes/admin/partials/step-2-mapping.php:1637
+#: includes/admin/partials/step-2-mapping.php:1641
+#: includes/admin/partials/step-2-mapping.php:1645
+#: includes/admin/partials/step-2-mapping.php:1649
+#: includes/admin/partials/step-2-mapping.php:1653
+#: includes/admin/partials/step-2-mapping.php:1657
+#: includes/admin/partials/step-2-mapping.php:1661
+#: includes/admin/partials/step-2-mapping.php:1665
+msgid "Type { to see columns"
+msgstr "اكتب { لعرض الأعمدة"
+
+#: includes/admin/partials/step-2-mapping.php:1801
+#: includes/admin/partials/step-2-mapping.php:1809
+#: includes/admin/partials/step-2-mapping.php:1813
+#: includes/admin/partials/step-2-mapping.php:1817
+#: includes/admin/partials/step-2-mapping.php:1821
+#: includes/admin/partials/step-2-mapping.php:1825
+#: includes/admin/partials/step-2-mapping.php:1829
+#: includes/admin/partials/step-2-mapping.php:1833
+#: includes/admin/partials/step-2-mapping.php:1837
+#: includes/admin/partials/step-2-mapping.php:1841
+#: includes/admin/partials/step-2-mapping.php:1845
+#: includes/admin/partials/step-2-mapping.php:1850
+#: includes/admin/partials/step-2-mapping.php:1862
+#: includes/admin/partials/step-2-mapping.php:1872
+#: includes/admin/partials/step-2-mapping.php:1880
+#: includes/admin/partials/step-2-mapping.php:1883
+#: includes/admin/partials/step-2-mapping.php:1887
+#: includes/admin/partials/step-2-mapping.php:1891
+#: includes/admin/partials/step-2-mapping.php:1895
+#: includes/admin/partials/step-2-mapping.php:1899
+#: includes/admin/partials/step-2-mapping.php:1903
+#: includes/admin/partials/step-2-mapping.php:1907
+#: includes/admin/partials/step-2-mapping.php:1912
+#: includes/admin/partials/step-2-mapping.php:1920
+#: includes/admin/partials/step-2-mapping.php:1924
+#: includes/admin/partials/step-2-mapping.php:1928
+#: includes/admin/partials/step-2-mapping.php:1932
+msgid "Type { to see fields"
+msgstr "اكتب { لعرض الحقول"
+
+#: includes/admin/partials/step-2-mapping.php:2346
+#: includes/admin/partials/import-edit.php:445
+#, php-format
+msgid "Type { to see fields or drag field here. E.g. {%s}"
+msgstr "اكتب { لعرض الحقول أو اسحب الحقل هنا. مثال {%s}"
+
+#: includes/admin/partials/import-edit.php:291
+msgid "Type:"
+msgstr "النوع:"
+
+#: includes/admin/partials/step-2-mapping.php:270
+msgid "UPC"
+msgstr "UPC"
+
+#: includes/admin/partials/step-2-mapping.php:2692
+msgid "URL"
+msgstr "رابط"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2198
+#, php-format
+msgid "URL is accessible (HTTP %d)."
+msgstr "الرابط قابل للوصول (HTTP %d)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2168
+msgid "URL is required."
+msgstr "الرابط مطلوب."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:507
+msgid "URL must contain a valid host."
+msgstr "يجب أن يحتوي الرابط على مضيف صالح."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:503
+msgid "URL must use HTTP or HTTPS protocol."
+msgstr "يجب أن يستخدم الرابط بروتوكول HTTP أو HTTPS."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2203
+#, php-format
+msgid "URL returned HTTP %d. Expected 200."
+msgstr "أرجع الرابط HTTP %d. المتوقع 200."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3689
+msgid "URL updated successfully. Next import will use the new URL."
+msgstr "تم تحديث الرابط بنجاح. سيستخدم الاستيراد التالي الرابط الجديد."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:528
+msgid "URLs pointing to private or reserved IP ranges are not allowed."
+msgstr "الروابط التي تشير إلى نطاقات IP خاصة أو محجوزة غير مسموح بها."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:40
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:130
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:367
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:426
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:498
+msgid "Unable to open CSV file."
+msgstr "لا يمكن فتح ملف CSV."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:48
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:171
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:731
+msgid "Unable to open XML file."
+msgstr "لا يمكن فتح ملف XML."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:381
+msgid "Unable to parse CSV headers."
+msgstr "لا يمكن تحليل رؤوس CSV."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:46
+msgid "Unable to read CSV headers."
+msgstr "لا يمكن قراءة رؤوس CSV."
+
+#: includes/admin/partials/step-2-mapping.php:2484
+#: includes/admin/partials/step-2-mapping.php:2810
+msgid "Uncheck to prevent this field from being updated when re-importing existing products"
+msgstr "قم بإلغاء التحديد لمنع تحديث هذا الحقل عند إعادة استيراد المنتجات الموجودة"
+
+#: includes/admin/partials/step-2-mapping.php:104
+msgid "Unique product identifier. Can be mapped from file or auto-generated."
+msgstr "معرف المنتج الفريد. يمكن تعيينه من الملف أو إنشاؤه تلقائيًا."
+
+#: includes/admin/partials/step-2-mapping.php:2320
+msgid "Unix timestamp"
+msgstr "طابع زمني Unix"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:84
+#, php-format
+msgid "Unknown AI provider: %s"
+msgstr "مزود ذكاء اصطناعي غير معروف: %s"
+
+#: includes/admin/partials/step-3-progress.php:220
+msgid "Unknown Status"
+msgstr "حالة غير معروفة"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:123
+msgid "Unknown upload error."
+msgstr "خطأ رفع غير معروف."
+
+#: includes/admin/partials/settings-page.php:294
+msgid "Unlimited products"
+msgstr "منتجات غير محدودة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3614
+msgid "Unlock all PRO features including scheduled imports, advanced filters, and AI processing."
+msgstr "افتح جميع ميزات PRO بما في ذلك الاستيرادات المجدولة والفلاتر المتقدمة ومعالجة الذكاء الاصطناعي."
+
+#: includes/admin/partials/settings-page.php:605
+#: includes/admin/partials/step-1-upload.php:174
+#: includes/admin/partials/step-2-mapping.php:375
+#: includes/admin/partials/import-edit.php:182
+msgid "Update Existing Products"
+msgstr "تحديث المنتجات الموجودة"
+
+#: includes/admin/partials/import-edit.php:167
+msgid "Update URL"
+msgstr "تحديث الرابط"
+
+#: includes/admin/partials/settings-page.php:304
+msgid "Update existing products"
+msgstr "تحديث المنتجات الموجودة"
+
+#: includes/admin/partials/settings-page.php:316
+msgid "Update only price and stock"
+msgstr "تحديث السعر والمخزون فقط"
+
+#: includes/admin/partials/step-2-mapping.php:380
+#: includes/admin/partials/import-edit.php:187
+msgid "Update products that already exist (matched by SKU)"
+msgstr "تحديث المنتجات الموجودة بالفعل (مطابقة بـ SKU)"
+
+#: includes/admin/partials/step-1-upload.php:176
+msgid "Update products that already exist (matched by SKU)."
+msgstr "تحديث المنتجات الموجودة بالفعل (مطابقة بـ SKU)."
+
+#: includes/admin/partials/step-2-mapping.php:2480
+#: includes/admin/partials/step-2-mapping.php:2806
+msgid "Update this field on re-import?"
+msgstr "تحديث هذا الحقل عند إعادة الاستيراد؟"
+
+#: includes/admin/partials/import-edit.php:427
+msgid "Update this field?"
+msgstr "تحديث هذا الحقل؟"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:794
+#, php-format
+msgid "Updated product: %1$s (ID: %2$d)"
+msgstr "تم تحديث المنتج: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:2382
+msgid "Upgrade"
+msgstr "ترقية"
+
+#: includes/admin/partials/settings-page.php:381
+#: includes/admin/partials/settings-page.php:805
+#: includes/admin/partials/step-2-mapping.php:2588
+#: includes/admin/partials/import-edit.php:872
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3610
+#: includes/class-wc-xml-csv-ai-import-license.php:432
+msgid "Upgrade to PRO"
+msgstr "الترقية إلى PRO"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:426
+msgid "Upgrade to PRO to unlock this feature and remove all limits."
+msgstr "الترقية إلى PRO لفتح هذه الميزة وإزالة جميع القيود."
+
+#: includes/admin/partials/step-2-mapping.php:3430
+msgid "Upgrade to Pro"
+msgstr "الترقية إلى Pro"
+
+#: includes/admin/partials/settings-page.php:834
+msgid "Upload Directory:"
+msgstr "دليل الرفع:"
+
+#: includes/admin/partials/step-1-upload.php:49
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:286
+msgid "Upload File"
+msgstr "رفع ملف"
+
+#: includes/admin/partials/step-1-upload.php:44
+msgid "Upload Method"
+msgstr "طريقة الرفع"
+
+#: includes/admin/partials/settings-page.php:818
+msgid "Upload Settings"
+msgstr "إعدادات الرفع"
+
+#: includes/admin/partials/step-1-upload.php:50
+msgid "Upload XML/CSV file from your computer"
+msgstr "رفع ملف XML/CSV من جهاز الكمبيوتر"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1539
+msgid "Upload method is required."
+msgstr "طريقة الرفع مطلوبة."
+
+#: includes/admin/partials/step-1-upload.php:26
+msgid "Upload your XML or CSV file, or provide a URL to import products from."
+msgstr "ارفع ملف XML أو CSV الخاص بك، أو قدم رابطًا لاستيراد المنتجات."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:96
+msgid "Uploading file..."
+msgstr "جاري رفع الملف..."
+
+#: includes/admin/partials/step-2-mapping.php:279
+msgid "Upsell Product IDs"
+msgstr "معرفات منتجات البيع الإضافي"
+
+#: includes/admin/partials/step-2-mapping.php:2459
+#: includes/admin/partials/step-2-mapping.php:2462
+#: includes/admin/partials/import-edit.php:512
+msgid "Use $value as input"
+msgstr "استخدم $value كمدخل"
+
+#: includes/admin/partials/step-2-mapping.php:2757
+msgid "Use $value for source field value, $product for full product data"
+msgstr "استخدم $value لقيمة حقل المصدر، $product لبيانات المنتج الكاملة"
+
+#: includes/admin/partials/step-2-mapping.php:3618
+msgid "Use PHP formulas to transform field values during import. Full flexibility for complex transformations."
+msgstr "استخدم صيغ PHP لتحويل قيم الحقول أثناء الاستيراد. مرونة كاملة للتحويلات المعقدة."
+
+#: includes/admin/partials/settings-page.php:718
+msgid "Use an external server cron job to trigger imports via URL. Processes entire import in one request (with loop until complete)."
+msgstr "استخدم وظيفة cron خارجية على الخادم لتشغيل الاستيرادات عبر الرابط. يعالج الاستيراد بالكامل في طلب واحد (مع حلقة حتى الاكتمال)."
+
+#: includes/admin/partials/step-2-mapping.php:2260
+msgid "Use as primary identifier (WC UI)"
+msgstr "استخدم كمعرف أساسي (WC UI)"
+
+#: includes/admin/partials/step-2-mapping.php:958
+msgid "Use default"
+msgstr "استخدم الافتراضي"
+
+#: includes/admin/partials/step-2-mapping.php:2583
+msgid "Use regex patterns for advanced matching"
+msgstr "استخدم أنماط regex للمطابقة المتقدمة"
+
+#: includes/admin/partials/step-2-mapping.php:2450
+msgid "Use {value} as input"
+msgstr "استخدم {value} كمدخل"
+
+#: includes/admin/partials/step-2-mapping.php:2959
+msgid "Used for variations"
+msgstr "يُستخدم للتنويعات"
+
+#: includes/admin/partials/settings-page.php:706
+msgid "Uses WooCommerce Action Scheduler for reliable background processing. Automatically processes all products until complete. Works without server cron configuration."
+msgstr "يستخدم WooCommerce Action Scheduler للمعالجة الخلفية الموثوقة. يعالج تلقائيًا جميع المنتجات حتى الاكتمال. يعمل بدون تكوين cron للخادم."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7034
+msgid "Valid file path is required."
+msgstr "مسار ملف صالح مطلوب."
+
+#: includes/admin/partials/step-2-mapping.php:913
+#: includes/admin/partials/step-2-mapping.php:1258
+#: includes/admin/partials/step-2-mapping.php:2668
+#: includes/admin/partials/import-edit.php:603
+#: includes/admin/partials/import-edit.php:1208
+msgid "Value"
+msgstr "قيمة"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Value Field:"
+msgstr "حقل القيمة:"
+
+#: includes/admin/partials/step-2-mapping.php:2106
+msgid "Values: simple, variable, grouped, external"
+msgstr "القيم: simple, variable, grouped, external"
+
+#: includes/admin/partials/step-2-mapping.php:113
+msgid "Variable"
+msgstr "متغير"
+
+#: includes/admin/partials/step-2-mapping.php:1384
+#: includes/admin/partials/step-2-mapping.php:3420
+#: includes/admin/partials/step-2-mapping.php:3597
+msgid "Variable Products"
+msgstr "المنتجات المتغيرة"
+
+#: includes/admin/partials/step-2-mapping.php:1500
+msgid "Variable Products Configuration"
+msgstr "تكوين المنتجات المتغيرة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2388
+msgid "Variable product structure detected."
+msgstr "تم اكتشاف هيكل منتج متغير."
+
+#: includes/admin/partials/step-2-mapping.php:3312
+msgid "Variables: $value, $parent_description, $sku, $name, etc."
+msgstr "المتغيرات: $value, $parent_description, $sku, $name, إلخ."
+
+#: includes/admin/partials/step-2-mapping.php:3020
+msgid "Variables: $value, $parent_price, $sku, etc."
+msgstr "المتغيرات: $value, $parent_price, $sku, إلخ."
+
+#: includes/admin/partials/step-2-mapping.php:2967
+msgid "Variation Adjustments for this Attribute"
+msgstr "تعديلات التنويعات لهذه السمة"
+
+#: includes/admin/partials/step-2-mapping.php:1715
+msgid "Variation Attributes"
+msgstr "سمات التنويعات"
+
+#: includes/admin/partials/step-2-mapping.php:1550
+msgid "Variation Attributes (CSV Columns)"
+msgstr "سمات التنويعات (أعمدة CSV)"
+
+#: includes/admin/partials/step-2-mapping.php:1694
+msgid "Variation Container Path"
+msgstr "مسار حاوية التنويعات"
+
+#: includes/admin/partials/step-2-mapping.php:1790
+msgid "Variation Field Mapping"
+msgstr "تعيين حقول التنويعات"
+
+#: includes/admin/partials/step-2-mapping.php:1577
+msgid "Variation Field Mapping (CSV Columns)"
+msgstr "تعيين حقول التنويعات (أعمدة CSV)"
+
+#: includes/admin/partials/step-2-mapping.php:3264
+msgid "Variation Image:"
+msgstr "صورة التنويعة:"
+
+#: includes/admin/partials/step-2-mapping.php:1586
+#: includes/admin/partials/step-2-mapping.php:1808
+msgid "Variation SKU:"
+msgstr "رمز تنويعة SKU:"
+
+#: includes/admin/partials/step-3-progress.php:304
+msgid "View Detailed Logs"
+msgstr "عرض السجلات التفصيلية"
+
+#: includes/admin/partials/step-3-progress.php:494
+msgid "View Products"
+msgstr "عرض المنتجات"
+
+#: includes/admin/partials/step-2-mapping.php:425
+msgid "View cron setup instructions"
+msgstr "عرض تعليمات إعداد cron"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3420
+msgid "View:"
+msgstr "العرض:"
+
+#: includes/admin/partials/step-2-mapping.php:238
+msgid "Virtual Product"
+msgstr "منتج افتراضي"
+
+#: includes/admin/partials/step-2-mapping.php:3170
+msgid "Virtual products have no shipping (e.g., services, consultations)"
+msgstr "المنتجات الافتراضية لا تحتاج شحن (مثل الخدمات والاستشارات)"
+
+#: includes/admin/partials/step-2-mapping.php:1648
+#: includes/admin/partials/step-2-mapping.php:1894
+#: includes/admin/partials/step-2-mapping.php:3171
+msgid "Virtual:"
+msgstr "افتراضي:"
+
+#: includes/admin/partials/step-2-mapping.php:2954
+msgid "Visible on product page"
+msgstr "مرئي في صفحة المنتج"
+
+#: includes/admin/partials/step-2-mapping.php:1190
+msgid "Volume (L×W×H)"
+msgstr "الحجم (ط×ع×ا)"
+
+#: includes/admin/partials/step-3-progress.php:413
+msgid "Waiting for product processing..."
+msgstr "في انتظار معالجة المنتجات..."
+
+#: includes/admin/partials/step-3-progress.php:346
+msgid "Waiting for progress..."
+msgstr "في انتظار التقدم..."
+
+#: includes/admin/partials/settings-page.php:241
+msgid "Want PRO features?"
+msgstr "هل تريد ميزات PRO؟"
+
+#: includes/admin/partials/step-3-progress.php:181
+msgid "Want to close this page?"
+msgstr "هل تريد إغلاق هذه الصفحة؟"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2377
+#, php-format
+msgid "Warning: %d fields could not be mapped automatically."
+msgstr "تحذير: لم يمكن تعيين %d حقل تلقائيًا."
+
+#: includes/admin/partials/import-edit.php:852
+msgid "We recommend running cron every minute. The plugin will only process when the scheduled interval has passed."
+msgstr "نوصي بتشغيل cron كل دقيقة. سيعالج البرنامج المساعد فقط عندما ينقضي الفاصل الزمني المحدد."
+
+#: includes/admin/partials/import-edit.php:788
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:584
+msgid "Weekly"
+msgstr "أسبوعي"
+
+#: includes/admin/partials/step-1-upload.php:145
+#: includes/admin/partials/step-2-mapping.php:420
+msgid "Weekly Import"
+msgstr "استيراد أسبوعي"
+
+#: includes/admin/partials/step-2-mapping.php:197
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1100
+msgid "Weight"
+msgstr "وزن"
+
+#: includes/admin/partials/step-2-mapping.php:1188
+msgid "Weight Range"
+msgstr "نطاق الوزن"
+
+#: includes/admin/partials/step-2-mapping.php:1626
+#: includes/admin/partials/step-2-mapping.php:1860
+#: includes/admin/partials/step-2-mapping.php:3213
+msgid "Weight:"
+msgstr "الوزن:"
+
+#: includes/admin/partials/step-1-upload.php:211
+msgid "What to do with products that were imported before but are no longer present in the XML/CSV file."
+msgstr "ماذا تفعل بالمنتجات التي تم استيرادها سابقًا ولكنها لم تعد موجودة في ملف XML/CSV."
+
+#: includes/admin/partials/step-2-mapping.php:382
+#: includes/admin/partials/import-edit.php:189
+msgid "When enabled, existing products with matching SKUs will be updated instead of creating duplicates."
+msgstr "عند التمكين، سيتم تحديث المنتجات الموجودة ذات رموز SKU المطابقة بدلاً من إنشاء نسخ مكررة."
+
+#: includes/admin/partials/import-edit.php:217
+msgid "When enabled, products that were imported before but are no longer in the XML/CSV file will be processed."
+msgstr "عند التمكين، ستتم معالجة المنتجات التي تم استيرادها سابقًا ولكنها لم تعد موجودة في ملف XML/CSV."
+
+#: includes/admin/partials/import-edit.php:655
+msgid "When re-running, products that no longer match filters will be set to Draft status (not deleted)."
+msgstr "عند إعادة التشغيل، سيتم تعيين المنتجات التي لم تعد تتطابق مع الفلاتر إلى حالة المسودة (لن يتم حذفها)."
+
+#: includes/admin/partials/step-2-mapping.php:3156
+msgid "Whether the variation is available for purchase on the frontend"
+msgstr "ما إذا كان التنويع متاحًا للشراء في الواجهة الأمامية"
+
+#: includes/admin/partials/step-2-mapping.php:199
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1102
+msgid "Width"
+msgstr "عرض"
+
+#: includes/admin/partials/step-2-mapping.php:1633
+#: includes/admin/partials/step-2-mapping.php:1879
+#: includes/admin/partials/step-2-mapping.php:3248
+msgid "Width:"
+msgstr "العرض:"
+
+#: includes/admin/partials/step-2-mapping.php:1372
+msgid "With Attributes"
+msgstr "مع السمات"
+
+#: bootflow-product-importer.php:32
+msgid "WooCommerce XML/CSV Smart Import requires WooCommerce to be installed and active."
+msgstr "يتطلب WooCommerce XML/CSV Smart Import تثبيت WooCommerce وتفعيله."
+
+#: includes/admin/partials/import-edit.php:368
+msgid "Write a PHP formula to automatically assign shipping classes based on product dimensions and weight. The formula should return the shipping class slug (e.g., \"S\", \"M\", \"L\", \"Smags\")."
+msgstr "اكتب صيغة PHP لتعيين فئات الشحن تلقائيًا بناءً على أبعاد المنتج ووزنه. يجب أن تُرجع الصيغة slug فئة الشحن (مثل \"S\"، \"M\"، \"L\"، \"Smags\")."
+
+#: includes/admin/partials/step-2-mapping.php:2845
+msgid "XML Attribute Key:"
+msgstr "مفتاح سمة XML:"
+
+#: includes/admin/partials/step-2-mapping.php:2861
+msgid "XML Attribute Name (for name/value structure):"
+msgstr "اسم سمة XML (لهيكل الاسم/القيمة):"
+
+#: includes/admin/partials/step-2-mapping.php:699
+msgid "XML Base Price → Apply Matching Rules → Apply Rounding → Final Price"
+msgstr "سعر XML الأساسي → تطبيق القواعد → تطبيق التقريب → السعر النهائي"
+
+#: includes/admin/partials/step-2-mapping.php:1193
+msgid "XML Field"
+msgstr "حقل XML"
+
+#: includes/admin/partials/step-1-upload.php:128
+msgid "XML Product Element"
+msgstr "عنصر منتج XML"
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:696
+msgid "XML file is valid."
+msgstr "ملف XML صالح."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:42
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:166
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:726
+msgid "XML file not found."
+msgstr "ملف XML غير موجود."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:689
+msgid "XML validation errors: "
+msgstr "أخطاء التحقق من XML: "
+
+#: includes/admin/partials/step-2-mapping.php:2072
+msgid "XML values: yes/no, true/false, 1/0"
+msgstr "قيم XML: yes/no, true/false, 1/0"
+
+#: includes/admin/partials/settings-page.php:111
+msgid "XML/CSV AI Smart Import - Settings"
+msgstr "XML/CSV AI Smart Import - الإعدادات"
+
+#: includes/admin/partials/step-2-mapping.php:2049
+#: includes/admin/partials/step-2-mapping.php:3162
+#: includes/admin/partials/step-2-mapping.php:3176
+#: includes/admin/partials/step-2-mapping.php:3190
+#: includes/admin/partials/step-2-mapping.php:3204
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:70
+msgid "You do not have permission to perform this action."
+msgstr "ليس لديك إذن لتنفيذ هذا الإجراء."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1514
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1811
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1907
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1999
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2493
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2593
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2676
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2825
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3376
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك أذونات كافية للوصول إلى هذه الصفحة."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2160
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2423
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2462
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3642
+msgid "You do not have sufficient permissions."
+msgstr "ليس لديك أذونات كافية."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:65
+msgid "You must be logged in to perform this action."
+msgstr "يجب تسجيل الدخول لتنفيذ هذا الإجراء."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:591
+#, php-format
+msgid "Your PRO license is not activated. Please %1$sactivate your license%2$s to unlock PRO features, or use the free version from WordPress.org."
+msgstr "لم يتم تفعيل ترخيص PRO الخاص بك. يرجى %1$sتفعيل ترخيصك%2$s لفتح ميزات PRO، أو استخدم النسخة المجانية من WordPress.org."
+
+#: includes/admin/partials/step-3-progress.php:188
+msgid "cPanel / Plesk:"
+msgstr "cPanel / Plesk:"
+
+#: includes/admin/partials/import-edit.php:836
+msgid "cPanel Command"
+msgstr "أمر cPanel"
+
+#: includes/admin/partials/step-2-mapping.php:874
+#: includes/admin/partials/step-2-mapping.php:884
+#: includes/admin/partials/step-2-mapping.php:894
+#: includes/admin/partials/step-2-mapping.php:907
+#: includes/admin/partials/step-2-mapping.php:921
+#: includes/admin/partials/step-2-mapping.php:1228
+#: includes/admin/partials/step-2-mapping.php:1238
+#: includes/admin/partials/step-2-mapping.php:1252
+#: includes/admin/partials/step-2-mapping.php:1266
+#: includes/admin/partials/step-2-mapping.php:2658
+#: includes/admin/partials/import-edit.php:595
+#: includes/admin/partials/import-edit.php:1200
+msgid "contains"
+msgstr "يحتوي"
+
+#: includes/admin/partials/step-2-mapping.php:2395
+#: includes/admin/partials/import-edit.php:468
+msgid "e.g., $value * 1.2"
+msgstr "مثال، $value * 1.2"
+
+#: includes/admin/partials/step-2-mapping.php:3018
+msgid "e.g., $value * 1.21"
+msgstr "مثال، $value * 1.21"
+
+#: includes/admin/partials/step-2-mapping.php:3114
+msgid "e.g., -red, -xl"
+msgstr "مثال، -red, -xl"
+
+#: includes/admin/partials/import-edit.php:742
+#: includes/admin/partials/import-edit.php:1156
+msgid "e.g., Add 20 to this number: {value}. Return only the result number."
+msgstr "مثال، أضف 20 إلى هذا الرقم: {value}. أرجع فقط الرقم الناتج."
+
+#: includes/admin/partials/step-2-mapping.php:3025
+msgid "e.g., Convert price and add 21% VAT"
+msgstr "مثال، حول السعر وأضف 21% ضريبة القيمة المضافة"
+
+#: includes/admin/partials/import-edit.php:518
+msgid "e.g., Enhance this processed text for better readability"
+msgstr "مثال، حسّن هذا النص المعالج لتحسين قابلية القراءة"
+
+#: includes/admin/partials/step-2-mapping.php:2435
+msgid "e.g., Enhance this text for better readability"
+msgstr "مثال، حسّن هذا النص لتحسين قابلية القراءة"
+
+#: includes/admin/partials/step-2-mapping.php:2898
+msgid "e.g., Extract color names from this text"
+msgstr "مثال، استخرج أسماء الألوان من هذا النص"
+
+#: includes/admin/partials/step-2-mapping.php:2938
+msgid "e.g., Extract image URL from HTML"
+msgstr "مثال، استخرج رابط الصورة من HTML"
+
+#: includes/admin/partials/step-2-mapping.php:2741
+msgid "e.g., Extract the currency code from this value"
+msgstr "مثال، استخرج رمز العملة من هذه القيمة"
+
+#: includes/admin/partials/step-2-mapping.php:3317
+msgid "e.g., Generate unique variation description"
+msgstr "مثال، أنشئ وصفًا فريدًا للتنويعة"
+
+#: includes/admin/partials/step-2-mapping.php:2838
+msgid "e.g., Izmērs, Krāsa, Material"
+msgstr "مثال، الحجم، اللون، المادة"
+
+#: includes/admin/partials/step-2-mapping.php:2866
+msgid "e.g., Material"
+msgstr "مثال، المادة"
+
+#: includes/admin/partials/step-1-upload.php:38
+msgid "e.g., Summer Collection 2024"
+msgstr "مثال، مجموعة صيف 2024"
+
+#: includes/admin/partials/step-2-mapping.php:2423
+#: includes/admin/partials/import-edit.php:497
+msgid "e.g., Translate this product name to English and make it SEO-friendly"
+msgstr "مثال، ترجم اسم المنتج هذا إلى الإنجليزية واجعله صديقًا لمحركات البحث"
+
+#: includes/admin/partials/step-2-mapping.php:2719
+msgid "e.g., return $product['price']['@attributes']['currency'] ?? 'USD';"
+msgstr "مثال، return $product['price']['@attributes']['currency'] ?? 'USD';"
+
+#: includes/admin/partials/step-2-mapping.php:2755
+msgid "e.g., return $value * 1.21;"
+msgstr "مثال، return $value * 1.21;"
+
+#: includes/admin/partials/import-edit.php:729
+#: includes/admin/partials/import-edit.php:1143
+msgid "e.g., return $value + 20;"
+msgstr "مثال، return $value + 20;"
+
+#: includes/admin/partials/step-2-mapping.php:2851
+msgid "e.g., size, color, material"
+msgstr "مثال، size, color, material"
+
+#: includes/admin/partials/step-2-mapping.php:2456
+#: includes/admin/partials/import-edit.php:509
+msgid "e.g., trim(strtolower($value))"
+msgstr "مثال، trim(strtolower($value))"
+
+#: includes/admin/partials/step-2-mapping.php:1746
+msgid "e.g., variations.variation.attributes"
+msgstr "مثال، variations.variation.attributes"
+
+#: includes/admin/partials/step-2-mapping.php:920
+#: includes/admin/partials/step-2-mapping.php:1265
+msgid "ends with"
+msgstr "ينتهي بـ"
+
+#: includes/admin/partials/step-2-mapping.php:873
+#: includes/admin/partials/step-2-mapping.php:883
+#: includes/admin/partials/step-2-mapping.php:893
+#: includes/admin/partials/step-2-mapping.php:1227
+#: includes/admin/partials/step-2-mapping.php:1237
+msgid "equals"
+msgstr "يساوي"
+
+#: includes/admin/partials/step-2-mapping.php:863
+#: includes/admin/partials/step-2-mapping.php:1199
+#: includes/admin/partials/step-2-mapping.php:1208
+#: includes/admin/partials/step-2-mapping.php:1217
+msgid "from"
+msgstr "من"
+
+#: includes/admin/partials/step-1-upload.php:106
+msgid "https://example.com/products.xml"
+msgstr "https://example.com/products.xml"
+
+#: includes/admin/partials/step-2-mapping.php:2660
+#: includes/admin/partials/import-edit.php:597
+#: includes/admin/partials/import-edit.php:1202
+msgid "is empty"
+msgstr "فارغ"
+
+#: includes/admin/partials/import-edit.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:603
+msgid "just now"
+msgstr "الآن"
+
+#: includes/admin/partials/step-2-mapping.php:922
+#: includes/admin/partials/step-2-mapping.php:1267
+msgid "matches regex"
+msgstr "يطابق التعبير النمطي"
+
+#: includes/admin/partials/step-3-progress.php:451
+msgid "minutes"
+msgstr "دقائق"
+
+#: includes/admin/partials/step-2-mapping.php:2659
+#: includes/admin/partials/import-edit.php:596
+#: includes/admin/partials/import-edit.php:1201
+msgid "not contains"
+msgstr "لا يحتوي على"
+
+#: includes/admin/partials/step-2-mapping.php:2661
+#: includes/admin/partials/import-edit.php:598
+#: includes/admin/partials/import-edit.php:1203
+msgid "not empty"
+msgstr "ليس فارغًا"
+
+#: includes/admin/partials/step-2-mapping.php:875
+#: includes/admin/partials/step-2-mapping.php:885
+#: includes/admin/partials/step-2-mapping.php:1229
+#: includes/admin/partials/step-2-mapping.php:1239
+msgid "not equals"
+msgstr "لا يساوي"
+
+#: includes/admin/partials/step-1-upload.php:74
+msgid "or"
+msgstr "أو"
+
+#: includes/admin/partials/step-2-mapping.php:1136
+#: includes/admin/partials/step-2-mapping.php:1295
+msgid "or type new:"
+msgstr "أو اكتب جديد:"
+
+#: includes/admin/partials/step-3-progress.php:334
+msgid "prod/min"
+msgstr "منتج/دقيقة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:116
+msgid "products deleted"
+msgstr "منتجات محذوفة"
+
+#: includes/admin/partials/import-edit.php:160
+msgid "products per chunk"
+msgstr "منتجات لكل دفعة"
+
+#: includes/admin/partials/step-3-progress.php:435
+msgid "products/min"
+msgstr "منتجات/دقيقة"
+
+#: includes/admin/partials/step-2-mapping.php:2662
+msgid "regex match"
+msgstr "مطابقة التعبير النمطي"
+
+#: includes/admin/partials/step-2-mapping.php:2663
+msgid "regex not match"
+msgstr "التعبير النمطي لا يطابق"
+
+#: includes/admin/partials/step-2-mapping.php:919
+#: includes/admin/partials/step-2-mapping.php:1264
+msgid "starts with"
+msgstr "يبدأ بـ"
+
+#: includes/admin/partials/step-2-mapping.php:865
+#: includes/admin/partials/step-2-mapping.php:1201
+#: includes/admin/partials/step-2-mapping.php:1210
+#: includes/admin/partials/step-2-mapping.php:1219
+msgid "to"
+msgstr "إلى"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:303
+msgid "xAI Grok API key not configured."
+msgstr "مفتاح API لـ xAI Grok غير مُهيأ."
+
+#: includes/admin/partials/settings-page.php:454
+msgid "xAI Grok Settings"
+msgstr "إعدادات xAI Grok"
+
+#: includes/admin/partials/step-2-mapping.php:1439
+msgid "{attribute1}→{value1}"
+msgstr "{attribute1}→{value1}"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1208
+msgid "← Back to Import History"
+msgstr "← العودة إلى سجل الاستيراد"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:625
+msgid "⏳ <1 min"
+msgstr "⏳ <1 دقيقة"
+
+#: includes/admin/partials/import-edit.php:141
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:623
+msgid "⏳ due now"
+msgstr "⏳ الآن"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:627
+#, php-format
+msgid "⏳ in %d min"
+msgstr "⏳ خلال %d دقيقة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:629
+#, php-format
+msgid "⏳ in %dh %dm"
+msgstr "⏳ خلال %dس %dد"
+
+#: includes/admin/partials/import-edit.php:143
+msgid "⏳ in less than 1 min"
+msgstr "⏳ خلال أقل من 1 دقيقة"
+
+#: includes/admin/partials/import-edit.php:145
+#, php-format
+msgid "⏳ next run in %d min"
+msgstr "⏳ التشغيل التالي خلال %d دقيقة"
+
+#: includes/admin/partials/import-edit.php:147
+#, php-format
+msgid "⏳ next run in %dh %dm"
+msgstr "⏳ التشغيل التالي خلال %dس %dد"
+
+#: includes/admin/partials/import-edit.php:880
+msgid "▶ Run Import Now"
+msgstr "▶ تشغيل الاستيراد الآن"
+
+#: includes/admin/partials/import-edit.php:472
+msgid "⚠️ Always use $value as input (not field names like $price or $product_price)"
+msgstr "⚠️ استخدم دائمًا $value كمدخل (وليس أسماء الحقول مثل $price أو $product_price)"
+
+#: includes/admin/partials/import-edit.php:648
+msgid "⚠️ Changing filters will affect future imports. Existing products won't be modified automatically."
+msgstr "⚠️ تغيير الفلاتر سيؤثر على الاستيرادات المستقبلية. لن يتم تعديل المنتجات الموجودة تلقائيًا."
+
+#: includes/admin/partials/import-edit.php:659
+msgid "⚠️ If unchecked: Products not matching filters will be skipped during import, but existing products will remain Published."
+msgstr "⚠️ إذا لم يتم التحديد: سيتم تخطي المنتجات التي لا تتطابق مع الفلاتر أثناء الاستيراد، لكن المنتجات الموجودة ستبقى منشورة."
+
+#: includes/admin/partials/step-2-mapping.php:2400
+msgid "✅ Access any XML field: <code>$value . \" - \" . $brand</code>"
+msgstr "✅ الوصول إلى أي حقل XML: <code>$value . \" - \" . $brand</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2399
+msgid "✅ Complex formulas need return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+msgstr "✅ الصيغ المعقدة تحتاج return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2398
+msgid "✅ Simple formulas work directly: <code>$value * 1.2</code>"
+msgstr "✅ الصيغ البسيطة تعمل مباشرة: <code>$value * 1.2</code>"
+
+#: includes/admin/partials/step-2-mapping.php:856
+msgid "🏭 Supplier"
+msgstr "🏭 المورد"
+
+#: includes/admin/partials/step-2-mapping.php:855
+msgid "🏷️ Brand"
+msgstr "🏷️ العلامة التجارية"
+
+#: includes/admin/partials/step-2-mapping.php:854
+msgid "📁 Category"
+msgstr "📁 الفئة"
+
+#: includes/admin/partials/step-2-mapping.php:857
+msgid "📄 XML Field"
+msgstr "📄 حقل XML"
+
+#: includes/admin/partials/step-2-mapping.php:858
+msgid "🔢 SKU Pattern"
+msgstr "🔢 نمط SKU"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "← Prev"
+msgstr "← السابق"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Next →"
+msgstr "التالي →"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go"
+msgstr "انتقل"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go to product:"
+msgstr "انتقل إلى المنتج:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Product %1$d of %2$d"
+msgstr "المنتج %1$d من %2$d"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Basic Info"
+msgstr "معلومات أساسية"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Pricing"
+msgstr "التسعير"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Inventory"
+msgstr "المخزون"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Shipping"
+msgstr "الشحن"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Identifiers"
+msgstr "المعرفات"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Other Fields"
+msgstr "حقول أخرى"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "items"
+msgstr "عناصر"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click to expand)"
+msgstr "(انقر للتوسيع)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click)"
+msgstr "(انقر)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Object (%d fields)"
+msgstr "كائن (%d حقل)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "All %d items"
+msgstr "جميع العناصر %d"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "+ %d nested/complex fields (attributes, variations, etc.) available in dropdown"
+msgstr "+ %d حقول متداخلة/معقدة (سمات، تنويعات، إلخ) متاحة في القائمة المنسدلة"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Preview:"
+msgstr "معاينة:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Variable Product Detected"
+msgstr "تم اكتشاف منتج متغير"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "$parent_description . \" | \" . $value"
+msgstr "$parent_description . \" | \" . $value"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., \"Size: \" . $value . \" - \" . $parent_description"
+msgstr "مثال، \"Size: \" . $value . \" - \" . $parent_description"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., explode(\",\", $value)"
+msgstr "مثال، explode(\",\", $value)"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., str_replace(\"small\", \"large\", $value)"
+msgstr "مثال، str_replace(\"small\", \"large\", $value)"
+

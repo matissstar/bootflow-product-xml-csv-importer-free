@@ -1,0 +1,5029 @@
+# Translation file for Bootflow Product Importer - Bahasa Indonesia
+# Copyright (C) 2026 Bootflow
+# This file is distributed under the same license as the Bootflow Product Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootflow Product Importer 0.9.2\n"
+"Report-Msgid-Bugs-To: support@bootflow.io\n"
+"POT-Creation-Date: 2026-03-04 19:52+0200\n"
+"PO-Revision-Date: 2026-03-04 23:10+0000\n"
+"Last-Translator: Bootflow Auto-Translate\n"
+"Language-Team: Bahasa Indonesia\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: includes/admin/partials/step-2-mapping.php:3033
+msgid "$value * 1.21"
+msgstr "$value * 1.21"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1173
+#, php-format
+msgid "%1$d of %2$d products processed"
+msgstr "%1$d dari %2$d produk diproses"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2394
+#, php-format
+msgid "%d attribute found."
+msgstr "%d atribut ditemukan."
+
+#: includes/admin/partials/import-edit.php:127
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:611
+#, php-format
+msgid "%d days ago"
+msgstr "%d hari lalu"
+
+#: includes/admin/partials/import-edit.php:121
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:605
+#, php-format
+msgid "%d min ago"
+msgstr "%d menit lalu"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:535
+#, php-format
+msgid "%d products deleted successfully."
+msgstr "%d produk berhasil dihapus."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1176
+#, php-format
+msgid "%d products remaining"
+msgstr "%d produk tersisa"
+
+#: includes/admin/partials/import-edit.php:125
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:609
+#, php-format
+msgid "%dh %dm ago"
+msgstr "%dj %dm lalu"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:505
+#, php-format
+msgid "%s API connection successful."
+msgstr "Koneksi API %s berhasil."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:513
+#, php-format
+msgid "%s API test failed: %s"
+msgstr "Tes API %s gagal: %s"
+
+#: includes/admin/partials/step-2-mapping.php:739
+#: includes/admin/partials/step-2-mapping.php:1101
+msgid "(First matching rule wins)"
+msgstr "(Aturan pertama yang cocok menang)"
+
+#: includes/admin/partials/step-2-mapping.php:2541
+msgid "(all conditions must match)"
+msgstr "(semua kondisi harus cocok)"
+
+#: includes/admin/partials/step-2-mapping.php:2545
+msgid "(any condition can match)"
+msgstr "(kondisi mana pun bisa cocok)"
+
+#: includes/admin/partials/step-2-mapping.php:772
+#: includes/admin/partials/step-2-mapping.php:948
+msgid "+ Fixed €"
+msgstr "+ Tetap €"
+
+#: includes/admin/partials/step-2-mapping.php:902
+#: includes/admin/partials/step-2-mapping.php:1247
+msgid "-- Field --"
+msgstr "-- Bidang --"
+
+#: includes/admin/partials/step-2-mapping.php:1131
+#: includes/admin/partials/step-2-mapping.php:1290
+msgid "-- No shipping class --"
+msgstr "-- Tanpa kelas pengiriman --"
+
+#: includes/admin/partials/step-2-mapping.php:1537
+msgid "-- Select Column (optional) --"
+msgstr "-- Pilih Kolom (opsional) --"
+
+#: includes/admin/partials/step-2-mapping.php:1531
+msgid "-- Select Column --"
+msgstr "-- Pilih Kolom --"
+
+#: includes/admin/partials/step-2-mapping.php:2645
+#: includes/admin/partials/step-2-mapping.php:2998
+#: includes/admin/partials/step-2-mapping.php:3072
+#: includes/admin/partials/step-2-mapping.php:3095
+#: includes/admin/partials/step-2-mapping.php:3119
+#: includes/admin/partials/step-2-mapping.php:3138
+#: includes/admin/partials/step-2-mapping.php:3231
+#: includes/admin/partials/step-2-mapping.php:3244
+#: includes/admin/partials/step-2-mapping.php:3250
+#: includes/admin/partials/step-2-mapping.php:3256
+#: includes/admin/partials/step-2-mapping.php:3280
+#: includes/admin/partials/step-2-mapping.php:3291
+#: includes/admin/partials/import-edit.php:579
+#: includes/admin/partials/import-edit.php:1184
+msgid "-- Select Field --"
+msgstr "-- Pilih Bidang --"
+
+#: includes/admin/partials/step-2-mapping.php:3266
+msgid "-- Select Image Field --"
+msgstr "-- Pilih Bidang Gambar --"
+
+#: includes/admin/partials/import-edit.php:697
+#: includes/admin/partials/import-edit.php:1111
+msgid "-- Select Source --"
+msgstr "-- Pilih Sumber --"
+
+#: includes/admin/partials/step-2-mapping.php:2252
+#: includes/admin/partials/step-2-mapping.php:2302
+#: includes/admin/partials/step-2-mapping.php:2698
+#: includes/admin/partials/step-2-mapping.php:2877
+#: includes/admin/partials/step-2-mapping.php:2917
+msgid "-- Select Source Field --"
+msgstr "-- Pilih Bidang Sumber --"
+
+#: includes/admin/partials/step-2-mapping.php:2069
+#: includes/admin/partials/step-2-mapping.php:2103
+#: includes/admin/partials/step-2-mapping.php:2138
+#: includes/admin/partials/step-2-mapping.php:2170
+#: includes/admin/partials/step-2-mapping.php:2209
+#: includes/admin/partials/step-2-mapping.php:2242
+msgid "-- Select XML Field --"
+msgstr "-- Pilih Bidang XML --"
+
+#: includes/admin/partials/step-2-mapping.php:713
+msgid "-- Select XML field with base price --"
+msgstr "-- Pilih bidang XML dengan harga dasar --"
+
+#: includes/admin/partials/step-2-mapping.php:542
+msgid "-- Select template --"
+msgstr "-- Pilih template --"
+
+#: includes/admin/partials/step-2-mapping.php:789
+msgid ".95"
+msgstr ".95"
+
+#: includes/admin/partials/step-2-mapping.php:788
+msgid ".99"
+msgstr ".99"
+
+#: includes/admin/partials/step-2-mapping.php:783
+msgid "0.01"
+msgstr "0.01"
+
+#: includes/admin/partials/step-2-mapping.php:784
+msgid "0.05"
+msgstr "0.05"
+
+#: includes/admin/partials/step-2-mapping.php:785
+msgid "0.10"
+msgstr "0.10"
+
+#: includes/admin/partials/step-2-mapping.php:786
+msgid "0.50"
+msgstr "0.50"
+
+#: includes/admin/partials/step-2-mapping.php:787
+msgid "1.00"
+msgstr "1.00"
+
+#: includes/admin/partials/settings-page.php:720
+msgid "100% reliable, does not depend on website traffic."
+msgstr "100% andal, tidak bergantung pada lalu lintas situs."
+
+#: includes/admin/partials/step-2-mapping.php:2854
+msgid "<strong>Required for Map mode!</strong> The XML element name inside &lt;attributes&gt;."
+msgstr "<strong>Diperlukan untuk mode Map!</strong> Nama elemen XML di dalam &lt;attributes&gt;."
+
+#: includes/admin/partials/step-2-mapping.php:603
+msgid "AI Auto-Map"
+msgstr "AI Peta-Otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:590
+#: includes/admin/partials/step-2-mapping.php:3419
+#: includes/admin/partials/step-2-mapping.php:3592
+msgid "AI Auto-Mapping"
+msgstr "AI Pemetaan Otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:2360
+#: includes/admin/partials/step-2-mapping.php:2707
+#: includes/admin/partials/step-2-mapping.php:2883
+#: includes/admin/partials/step-2-mapping.php:2923
+#: includes/admin/partials/step-2-mapping.php:3004
+#: includes/admin/partials/step-2-mapping.php:3297
+#: includes/admin/partials/step-2-mapping.php:3622
+#: includes/admin/partials/import-edit.php:457
+#: includes/admin/partials/import-edit.php:714
+#: includes/admin/partials/import-edit.php:1128
+msgid "AI Processing"
+msgstr "Pemrosesan AI"
+
+#: includes/admin/partials/import-edit.php:516
+msgid "AI Prompt (applied to PHP result):"
+msgstr "Prompt AI (diterapkan pada hasil PHP):"
+
+#: includes/admin/partials/step-2-mapping.php:2433
+msgid "AI Prompt (executed first):"
+msgstr "Prompt AI (dijalankan pertama):"
+
+#: includes/admin/partials/step-2-mapping.php:2903
+#: includes/admin/partials/step-2-mapping.php:2943
+msgid "AI Prompt (runs after):"
+msgstr "Prompt AI (dijalankan setelah):"
+
+#: includes/admin/partials/step-2-mapping.php:2421
+#: includes/admin/partials/step-2-mapping.php:2739
+#: includes/admin/partials/step-2-mapping.php:2779
+#: includes/admin/partials/step-2-mapping.php:2897
+#: includes/admin/partials/step-2-mapping.php:2937
+#: includes/admin/partials/step-2-mapping.php:3037
+#: includes/admin/partials/step-2-mapping.php:3329
+#: includes/admin/partials/import-edit.php:495
+#: includes/admin/partials/import-edit.php:740
+#: includes/admin/partials/import-edit.php:1154
+msgid "AI Prompt:"
+msgstr "Prompt AI:"
+
+#: includes/admin/partials/settings-page.php:391
+msgid "AI Provider Configuration"
+msgstr "Konfigurasi Penyedia AI"
+
+#: includes/admin/partials/step-2-mapping.php:2411
+#: includes/admin/partials/step-2-mapping.php:2439
+#: includes/admin/partials/step-2-mapping.php:2729
+#: includes/admin/partials/step-2-mapping.php:2769
+#: includes/admin/partials/import-edit.php:485
+#: includes/admin/partials/import-edit.php:522
+#: includes/admin/partials/import-edit.php:734
+#: includes/admin/partials/import-edit.php:1148
+msgid "AI Provider:"
+msgstr "Penyedia AI:"
+
+#: includes/admin/partials/settings-page.php:117
+msgid "AI Providers"
+msgstr "Penyedia AI"
+
+#: includes/admin/partials/step-2-mapping.php:621
+msgid "AI analyzing fields..."
+msgstr "AI menganalisis bidang..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2339
+msgid "AI auto-mapping is a PRO feature."
+msgstr "AI pemetaan otomatis adalah fitur PRO."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2312
+msgid "AI auto-mapping requires an AI API key. Please configure one in Settings."
+msgstr "AI pemetaan otomatis memerlukan kunci API AI. Silakan konfigurasikan di Pengaturan."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2365
+#, php-format
+msgid "AI mapped %1$d fields, auto-filled %2$d fields. Total: %3$d of %4$d fields mapped."
+msgstr "AI memetakan %1$d bidang, mengisi otomatis %2$d bidang. Total: %3$d dari %4$d bidang dipetakan."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2502
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2561
+msgid "AI processing is a PRO feature."
+msgstr "Pemrosesan AI adalah fitur PRO."
+
+#: includes/admin/partials/step-2-mapping.php:2451
+msgid "AI result will be passed to PHP formula"
+msgstr "Hasil AI akan diteruskan ke formula PHP"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2570
+msgid "AI test completed successfully."
+msgstr "Tes AI berhasil diselesaikan."
+
+#: includes/admin/partials/settings-page.php:356
+msgid "AI-assisted mapping & transformation"
+msgstr "Pemetaan & transformasi berbantuan AI"
+
+#: includes/admin/partials/step-2-mapping.php:844
+#: includes/admin/partials/step-2-mapping.php:1179
+msgid "ALL conditions match"
+msgstr "SEMUA kondisi cocok"
+
+#: includes/admin/partials/step-2-mapping.php:845
+#: includes/admin/partials/step-2-mapping.php:1180
+msgid "ANY condition matches"
+msgstr "KONDISI mana pun cocok"
+
+#: includes/admin/partials/settings-page.php:400
+#: includes/admin/partials/settings-page.php:419
+#: includes/admin/partials/settings-page.php:438
+#: includes/admin/partials/settings-page.php:457
+#: includes/admin/partials/settings-page.php:475
+msgid "API Key:"
+msgstr "Kunci API:"
+
+#: includes/admin/partials/settings-page.php:514
+msgid "API Timeout (seconds):"
+msgstr "Batas Waktu API (detik):"
+
+#: includes/admin/partials/step-1-upload.php:83
+#, php-format
+msgid "Accepted formats: XML, CSV | Max size: %dMB"
+msgstr "Format yang diterima: XML, CSV | Ukuran maks: %dMB"
+
+#: includes/admin/partials/step-2-mapping.php:2722
+msgid "Access product data: <code>$product['field']</code> or <code>$value</code> for source field"
+msgstr "Akses data produk: <code>$product['field']</code> atau <code>$value</code> untuk bidang sumber"
+
+#: includes/admin/partials/settings-page.php:700
+#: includes/admin/partials/step-2-mapping.php:452
+#: includes/admin/partials/import-edit.php:799
+msgid "Action Scheduler"
+msgstr "Penjadwal Tindakan"
+
+#: includes/admin/partials/import-edit.php:869
+msgid "Action Scheduler or Server Cron support"
+msgstr "Dukungan Penjadwal Tindakan atau Server Cron"
+
+#: includes/admin/partials/step-1-upload.php:223
+#: includes/admin/partials/import-edit.php:224
+msgid "Action for missing products:"
+msgstr "Tindakan untuk produk yang hilang:"
+
+#: includes/admin/partials/import-edit.php:241
+msgid "Action will only affect products last updated by THIS import."
+msgstr "Tindakan hanya akan memengaruhi produk yang terakhir diperbarui oleh impor INI."
+
+#: includes/admin/partials/step-1-upload.php:242
+msgid "Action will only affect products that were last updated by THIS import. Products updated by other imports will not be affected."
+msgstr "Tindakan hanya akan memengaruhi produk yang terakhir diperbarui oleh impor INI. Produk yang diperbarui oleh impor lain tidak akan terpengaruh."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:565
+msgid "Actions"
+msgstr "Tindakan"
+
+#: includes/admin/partials/settings-page.php:219
+msgid "Activate"
+msgstr "Aktifkan"
+
+#: includes/admin/partials/settings-page.php:198
+#: includes/class-bfi-license-admin.php:44
+msgid "Activate License"
+msgstr "Aktifkan Lisensi"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:424
+msgid "Activate your license key in Settings → License to unlock PRO features."
+msgstr "Aktifkan kunci lisensi Anda di Pengaturan → Lisensi untuk membuka fitur PRO."
+
+#: includes/class-bfi-license-admin.php:46
+msgid "Active"
+msgstr "Aktif"
+
+#: includes/admin/partials/step-2-mapping.php:1566
+#: includes/admin/partials/step-2-mapping.php:1778
+msgid "Add 2 attributes:"
+msgstr "Tambah 2 atribut:"
+
+#: includes/admin/partials/step-2-mapping.php:1451
+#: includes/admin/partials/step-2-mapping.php:1554
+#: includes/admin/partials/step-2-mapping.php:1770
+msgid "Add Attribute"
+msgstr "Tambah atribut"
+
+#: includes/admin/partials/step-2-mapping.php:933
+#: includes/admin/partials/step-2-mapping.php:1278
+msgid "Add Condition"
+msgstr "Tambah Kondisi"
+
+#: includes/admin/partials/step-2-mapping.php:2601
+#: includes/admin/partials/import-edit.php:674
+msgid "Add Custom Field"
+msgstr "Tambah Field Kustom"
+
+#: includes/admin/partials/step-2-mapping.php:2521
+#: includes/admin/partials/import-edit.php:559
+msgid "Add Filter"
+msgstr "Tambah filter"
+
+#: includes/admin/partials/step-2-mapping.php:1475
+msgid "Add Key-Value Pair"
+msgstr "Tambah Pasangan Kunci-Nilai"
+
+#: includes/admin/partials/step-2-mapping.php:1677
+#: includes/admin/partials/step-2-mapping.php:1944
+msgid "Add Meta Field"
+msgstr "Tambah Field Meta"
+
+#: includes/admin/partials/step-2-mapping.php:744
+#: includes/admin/partials/step-2-mapping.php:1106
+msgid "Add Rule"
+msgstr "Tambah aturan"
+
+#: includes/admin/partials/step-3-progress.php:189
+msgid "Add a new Cron Job with:"
+msgstr "Tambahkan Cron Job baru dengan:"
+
+#: includes/admin/partials/step-2-mapping.php:1417
+msgid "Add attributes that will be shown on product pages. These are informational only."
+msgstr "Tambahkan atribut yang akan ditampilkan di halaman produk. Ini hanya bersifat informasi."
+
+#: includes/admin/partials/step-2-mapping.php:1374
+msgid "Add display attributes like Material, Brand, Color"
+msgstr "Tambahkan atribut tampilan seperti Material, Merek, Warna"
+
+#: includes/admin/partials/settings-page.php:740
+msgid "Add this cron job to your server"
+msgstr "Tambahkan cron job ini ke server Anda"
+
+#: includes/admin/partials/settings-page.php:738
+msgid "Add this cron job to your server to trigger scheduled imports. The import will process ALL products until complete in one request."
+msgstr "Tambahkan cron job ini ke server Anda untuk memicu impor terjadwal. Impor akan memproses SEMUA produk hingga selesai dalam satu permintaan."
+
+#: includes/admin/partials/step-2-mapping.php:3115
+msgid "Added to parent SKU"
+msgstr "Ditambahkan ke SKU induk"
+
+#: includes/admin/partials/step-2-mapping.php:3148
+msgid "Advanced (Status, Shipping, Dimensions)"
+msgstr "Lanjutan (Status, Pengiriman, Dimensi)"
+
+#: includes/admin/partials/step-2-mapping.php:287
+msgid "Advanced Fields"
+msgstr "Bidang Lanjutan"
+
+#: includes/admin/partials/step-2-mapping.php:3424
+#: includes/admin/partials/step-2-mapping.php:3627
+msgid "Advanced Formulas"
+msgstr "Rumus Lanjutan"
+
+#: includes/admin/partials/step-1-upload.php:167
+msgid "Advanced Options"
+msgstr "Opsi lanjutan"
+
+#: includes/admin/partials/settings-page.php:336
+msgid "Advanced update rules"
+msgstr "Aturan pembaruan lanjutan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:124
+#, php-format
+msgid "All %d products deleted successfully!"
+msgstr "Semua %d produk berhasil dihapus!"
+
+#: includes/admin/partials/settings-page.php:165
+msgid "All features unlocked including AI Auto-Mapping, templates, and scheduled imports!"
+msgstr "Semua fitur terbuka termasuk AI Pemetaan Otomatis, template, dan impor terjadwal!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4316
+msgid "All products deleted successfully"
+msgstr "Semua produk berhasil dihapus"
+
+#: includes/admin/partials/step-2-mapping.php:189
+#: includes/admin/partials/step-2-mapping.php:1855
+msgid "Allow"
+msgstr "Izinkan"
+
+#: includes/admin/partials/step-1-upload.php:227
+#: includes/admin/partials/import-edit.php:228
+msgid "Allow Backorder (stock=0)"
+msgstr "Izinkan Pesanan Tertunda (stok=0)"
+
+#: includes/admin/partials/step-2-mapping.php:183
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1094
+msgid "Allow Backorders"
+msgstr "Izinkan Pesanan Tertunda"
+
+#: includes/admin/partials/step-2-mapping.php:188
+msgid "Allow, but notify customer"
+msgstr "Izinkan, tetapi beri tahu pelanggan"
+
+#: includes/admin/partials/step-2-mapping.php:1854
+msgid "Allow, notify"
+msgstr "Izinkan, beri tahu"
+
+#: includes/admin/partials/settings-page.php:824
+msgid "Allowed File Types:"
+msgstr "Jenis File yang Diizinkan:"
+
+#: includes/admin/partials/settings-page.php:918
+msgid "Allowed PHP Functions:"
+msgstr "Fungsi PHP yang Diizinkan:"
+
+#: includes/admin/partials/step-1-upload.php:236
+#: includes/admin/partials/import-edit.php:236
+msgid "Also process variations when parent product is missing"
+msgstr "Proses juga variasi saat produk induk tidak ada"
+
+#: includes/admin/partials/settings-page.php:760
+msgid "Alternative: WP-CLI"
+msgstr "Alternatif: WP-CLI"
+
+#: includes/admin/partials/step-2-mapping.php:758
+#: includes/admin/partials/step-2-mapping.php:1120
+msgid "Always applies if no other rule matches"
+msgstr "Selalu berlaku jika tidak ada aturan lain yang cocok"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:100
+msgid "An error occurred:"
+msgstr "Terjadi kesalahan:"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:248
+msgid "Anthropic Claude API key not configured."
+msgstr "Kunci API Anthropic Claude belum dikonfigurasi."
+
+#: includes/admin/partials/settings-page.php:435
+msgid "Anthropic Claude Settings"
+msgstr "Pengaturan Anthropic Claude"
+
+#: includes/admin/partials/step-2-mapping.php:841
+#: includes/admin/partials/step-2-mapping.php:1176
+msgid "Apply when:"
+msgstr "Terapkan ketika:"
+
+#: includes/admin/partials/import-edit.php:1253
+msgid "Are you sure you want to clear all field mappings?"
+msgstr "Apakah Anda yakin ingin menghapus semua pemetaan bidang?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:119
+msgid "Are you sure you want to delete all products from this import?"
+msgstr "Apakah Anda yakin ingin menghapus semua produk dari impor ini?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Are you sure you want to delete this import and its file?"
+msgstr "Apakah Anda yakin ingin menghapus impor ini dan filenya?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:101
+msgid "Are you sure you want to start the import?"
+msgstr "Apakah Anda yakin ingin memulai impor?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1196
+msgid "Are you sure? This will reset progress and start from the beginning."
+msgstr "Apakah Anda yakin? Ini akan mengatur ulang progres dan mulai dari awal."
+
+#: includes/admin/partials/step-2-mapping.php:1127
+#: includes/admin/partials/step-2-mapping.php:1286
+msgid "Assign Shipping Class:"
+msgstr "Tetapkan Kelas Pengiriman:"
+
+#: includes/admin/partials/step-2-mapping.php:2913
+msgid "Attribute Image (optional):"
+msgstr "Gambar Atribut (opsional):"
+
+#: includes/admin/partials/step-2-mapping.php:1425
+msgid "Attribute Input Mode:"
+msgstr "Mode Input Atribut:"
+
+#: includes/admin/partials/step-2-mapping.php:2833
+msgid "Attribute Name (WooCommerce):"
+msgstr "Nama Atribut (WooCommerce):"
+
+#: includes/admin/partials/step-2-mapping.php:1457
+msgid "Attribute Name: \"Material\" → Source: select the XML/CSV field containing material values"
+msgstr "Nama Atribut: \"Material\" → Sumber: pilih bidang XML/CSV yang berisi nilai material"
+
+#: includes/admin/partials/step-2-mapping.php:2873
+msgid "Attribute Values (optional override):"
+msgstr "Nilai Atribut (penggantian opsional):"
+
+#: includes/admin/partials/step-2-mapping.php:304
+msgid "Attributes & Variations"
+msgstr "Atribut & Variasi"
+
+#: includes/admin/partials/settings-page.php:284
+msgid "Attributes & variations"
+msgstr "Atribut & variasi"
+
+#: includes/admin/partials/step-2-mapping.php:1744
+msgid "Attributes path:"
+msgstr "Path atribut:"
+
+#: includes/admin/partials/step-2-mapping.php:1977
+msgid "Auto Shipping Class Formula"
+msgstr "Rumus Kelas Pengiriman Otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:1068
+msgid "Auto-assign shipping classes based on product weight, category, price, or any XML field"
+msgstr "Tetapkan kelas pengiriman secara otomatis berdasarkan berat, kategori, harga, atau bidang XML apa pun"
+
+#: includes/admin/partials/step-1-upload.php:188
+msgid "Auto-create Categories"
+msgstr "Buat Kategori Otomatis"
+
+#: includes/admin/partials/settings-page.php:847
+msgid "Auto-delete Old Files"
+msgstr "Hapus File Lama Otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:1732
+msgid "Auto-detect"
+msgstr "Deteksi otomatis"
+
+#: includes/admin/partials/step-1-upload.php:118
+msgid "Auto-detect (from extension or content)"
+msgstr "Deteksi otomatis (dari ekstensi atau konten)"
+
+#: includes/admin/partials/step-2-mapping.php:1741
+msgid "Auto-detect Settings"
+msgstr "Pengaturan Deteksi Otomatis"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4174
+#, php-format
+msgid "Auto-detected %1$d of %2$d fields"
+msgstr "Terdeteksi otomatis %1$d dari %2$d bidang"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2008
+#, php-format
+msgid "Auto-detected External product type for \"%s\" (has external_url field)"
+msgstr "Tipe produk Eksternal terdeteksi otomatis untuk \"%s\" (memiliki bidang external_url)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2002
+#, php-format
+msgid "Auto-detected Grouped product type for \"%s\" (has grouped_products field)"
+msgstr "Tipe produk Grup terdeteksi otomatis untuk \"%s\" (memiliki bidang grouped_products)"
+
+#: includes/admin/partials/step-2-mapping.php:2585
+msgid "Auto-draft products that no longer match filters"
+msgstr "Draf otomatis produk yang tidak lagi cocok dengan filter"
+
+#: includes/admin/partials/step-2-mapping.php:2295
+msgid "Auto-generate"
+msgstr "Buat Otomatis"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3444
+msgid "Auto-refresh (5s)"
+msgstr "Segarkan otomatis (5d)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3600
+msgid "Auto-refresh for live monitoring"
+msgstr "Segarkan otomatis untuk pemantauan langsung"
+
+#: includes/admin/partials/step-3-progress.php:361
+msgid "Auto-scroll"
+msgstr "Gulir otomatis"
+
+#: includes/admin/partials/settings-page.php:795
+msgid "Automate your imports with scheduled cron jobs. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "Otomatisasi impor Anda dengan cron job terjadwal. Jalankan impor secara otomatis setiap 15 menit, per jam, harian, atau mingguan."
+
+#: includes/admin/partials/import-edit.php:777
+#: includes/admin/partials/import-edit.php:860
+msgid "Automated Schedule"
+msgstr "Jadwal Otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:432
+msgid "Automated scheduled imports are available in the PRO version."
+msgstr "Impor terjadwal otomatis tersedia di versi PRO."
+
+#: includes/admin/partials/step-1-upload.php:160
+msgid "Automated scheduled imports are available in the PRO version. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "Impor terjadwal otomatis tersedia di versi PRO. Jalankan impor otomatis setiap 15 menit, per jam, harian, atau mingguan."
+
+#: includes/admin/partials/settings-page.php:321
+msgid "Automatic field mapping"
+msgstr "Pemetaan bidang otomatis"
+
+#: includes/admin/partials/import-edit.php:868
+msgid "Automatic product updates"
+msgstr "Pembaruan produk otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:455
+msgid "Automatically continues until complete. No server cron needed."
+msgstr "Berlanjut otomatis hingga selesai. Tidak perlu server cron."
+
+#: includes/admin/partials/import-edit.php:802
+msgid "Automatically continues until complete. No server cron needed. Requires website traffic."
+msgstr "Berlanjut otomatis hingga selesai. Tidak perlu server cron. Membutuhkan lalu lintas situs."
+
+#: includes/admin/partials/step-1-upload.php:190
+msgid "Automatically create product categories if they don't exist."
+msgstr "Buat kategori produk secara otomatis jika belum ada."
+
+#: includes/admin/partials/step-2-mapping.php:3593
+msgid "Automatically map XML/CSV fields to WooCommerce product fields using artificial intelligence. Save hours of manual mapping work."
+msgstr "Petakan bidang XML/CSV ke bidang produk WooCommerce secara otomatis menggunakan kecerdasan buatan. Hemat jam kerja pemetaan manual."
+
+#: includes/admin/partials/step-2-mapping.php:424
+msgid "Automatically re-import from URL on a schedule. Requires server cron to be configured."
+msgstr "Impor ulang secara otomatis dari URL sesuai jadwal. Memerlukan konfigurasi server cron."
+
+#: includes/admin/partials/settings-page.php:948
+msgid "Automatically sanitize imported data to prevent XSS and other security issues."
+msgstr "Sanitasi data yang diimpor secara otomatis untuk mencegah XSS dan masalah keamanan lainnya."
+
+#: includes/admin/partials/step-2-mapping.php:2000
+#: includes/admin/partials/import-edit.php:389
+msgid "Available Shipping Classes:"
+msgstr "Kelas Pengiriman Tersedia:"
+
+#: includes/admin/partials/step-2-mapping.php:1997
+#: includes/admin/partials/import-edit.php:386
+msgid "Available Variables:"
+msgstr "Variabel Tersedia:"
+
+#: includes/admin/partials/step-2-mapping.php:1311
+msgid "Available WooCommerce Shipping Classes:"
+msgstr "Kelas Pengiriman WooCommerce Tersedia:"
+
+#: includes/admin/partials/step-2-mapping.php:2318
+msgid "Available placeholders:"
+msgstr "Placeholder yang tersedia:"
+
+#: includes/admin/partials/import-edit.php:84
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3621
+msgid "Back to Import History"
+msgstr "Kembali ke Riwayat Impor"
+
+#: includes/admin/partials/step-2-mapping.php:2616
+msgid "Back to Upload"
+msgstr "Kembali ke Unggah"
+
+#: includes/admin/partials/settings-page.php:575
+msgid "Background Batch Size:"
+msgstr "Ukuran Batch Latar Belakang:"
+
+#: includes/admin/partials/settings-page.php:578
+msgid "Background Interval (seconds):"
+msgstr "Interval Latar Belakang (detik):"
+
+#: includes/admin/partials/settings-page.php:567
+msgid "Background Processing"
+msgstr "Pemrosesan Latar Belakang"
+
+#: includes/admin/partials/step-2-mapping.php:1848
+msgid "Backorders:"
+msgstr "Pesanan Tertunda:"
+
+#: includes/admin/partials/step-2-mapping.php:710
+msgid "Base Price Source (from XML):"
+msgstr "Sumber Harga Dasar (dari XML):"
+
+#: includes/admin/partials/step-2-mapping.php:98
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1070
+msgid "Basic Product Fields"
+msgstr "Bidang Produk Dasar"
+
+#: includes/admin/partials/step-1-upload.php:201
+#: includes/admin/partials/step-2-mapping.php:483
+#: includes/admin/partials/import-edit.php:159
+#: includes/admin/partials/import-edit.php:275
+msgid "Batch Size"
+msgstr "Ukuran Batch"
+
+#: includes/admin/partials/settings-page.php:544
+msgid "Batch Size:"
+msgstr "Ukuran Batch:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:171
+msgid "Bootflow Import"
+msgstr "Bootflow Impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:170
+msgid "Bootflow Importer"
+msgstr "Bootflow Pengimpor"
+
+#: includes/class-bfi-license-admin.php:33
+msgid "Bootflow PRO License"
+msgstr "Lisensi Bootflow PRO"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:255
+msgid "Bootflow – WooCommerce XML & CSV Importer"
+msgstr "Bootflow – Pengimpor WooCommerce XML & CSV"
+
+#: includes/admin/partials/step-2-mapping.php:226
+#: includes/admin/partials/step-2-mapping.php:1192
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1127
+msgid "Brand"
+msgstr "Merek"
+
+#: includes/admin/partials/step-2-mapping.php:887
+#: includes/admin/partials/step-2-mapping.php:1241
+msgid "Brand name"
+msgstr "Nama merek"
+
+#: includes/admin/partials/step-1-upload.php:76
+msgid "Browse Files"
+msgstr "Telusuri file"
+
+#: includes/admin/partials/step-2-mapping.php:291
+msgid "Button Text"
+msgstr "Teks Tombol"
+
+#: includes/admin/partials/step-2-mapping.php:1524
+msgid "CSV Grouping Fields"
+msgstr "Bidang Pengelompokan CSV"
+
+#: includes/admin/partials/step-2-mapping.php:1515
+msgid "CSV Variable Products"
+msgstr "Produk Variabel CSV"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:372
+msgid "CSV file appears to be empty."
+msgstr "File CSV tampaknya kosong."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:437
+msgid "CSV file has no headers."
+msgstr "File CSV tidak memiliki header."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:390
+#, php-format
+msgid "CSV file is valid with %d columns."
+msgstr "File CSV valid dengan %d kolom."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:31
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:122
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:420
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:490
+msgid "CSV file not found."
+msgstr "File CSV tidak ditemukan."
+
+#: includes/admin/partials/settings-page.php:525
+msgid "Cache TTL (seconds):"
+msgstr "TTL Cache (detik):"
+
+#: includes/admin/partials/step-2-mapping.php:2982
+#: includes/admin/partials/step-2-mapping.php:3056
+#: includes/admin/partials/step-2-mapping.php:3217
+msgid "Calculate"
+msgstr "Hitung"
+
+#: includes/admin/partials/step-2-mapping.php:683
+msgid "Calculate final prices by applying markup rules to the base price from XML"
+msgstr "Hitung harga akhir dengan menerapkan aturan markup ke harga dasar dari XML"
+
+#: includes/admin/partials/step-3-progress.php:437
+#: includes/admin/partials/step-3-progress.php:458
+msgid "Calculating..."
+msgstr "Menghitung..."
+
+#: includes/admin/partials/import-edit.php:883
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:117
+msgid "Cancel"
+msgstr "Batal"
+
+#: includes/admin/partials/step-2-mapping.php:222
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1123
+msgid "Categories & Tags"
+msgstr "Kategori dan tag"
+
+#: includes/admin/partials/step-2-mapping.php:1191
+msgid "Category"
+msgstr "Kategori"
+
+#: includes/admin/partials/step-2-mapping.php:1231
+msgid "Category name"
+msgstr "Nama kategori"
+
+#: includes/admin/partials/step-2-mapping.php:877
+msgid "Category name or slug"
+msgstr "Nama atau slug kategori"
+
+#: includes/admin/partials/step-2-mapping.php:2690
+msgid "Checkbox"
+msgstr "Kotak Centang"
+
+#: includes/admin/partials/settings-page.php:695
+msgid "Choose Method"
+msgstr "Pilih Metode"
+
+#: includes/admin/partials/step-1-upload.php:148
+msgid "Choose how often this import should run automatically. Manual imports can be run at any time."
+msgstr "Pilih seberapa sering impor ini harus berjalan otomatis. Impor manual dapat dijalankan kapan saja."
+
+#: includes/admin/partials/step-2-mapping.php:644
+#: includes/admin/partials/import-edit.php:332
+msgid "Clear All"
+msgstr "Hapus Semua"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3449
+msgid "Clear Log"
+msgstr "Hapus Log"
+
+#: includes/admin/partials/step-2-mapping.php:2497
+#: includes/admin/partials/import-edit.php:540
+msgid "Clear Mapping"
+msgstr "Hapus Pemetaan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3448
+msgid "Clear debug log file?"
+msgstr "Hapus file log debug?"
+
+#: includes/admin/partials/import-edit.php:1369
+msgid "Clear this field mapping?"
+msgstr "Hapus pemetaan bidang ini?"
+
+#: includes/admin/partials/step-2-mapping.php:3411
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:118
+msgid "Close"
+msgstr "Tutup"
+
+#: includes/admin/partials/step-2-mapping.php:2584
+msgid "Combine multiple filters with AND/OR logic"
+msgstr "Gabungkan beberapa filter dengan logika AND/OR"
+
+#: includes/admin/partials/step-3-progress.php:193
+msgid "Command:"
+msgstr "Perintah:"
+
+#: includes/admin/partials/step-2-mapping.php:2669
+#: includes/admin/partials/import-edit.php:604
+#: includes/admin/partials/import-edit.php:1209
+msgid "Comparison value"
+msgstr "Nilai perbandingan"
+
+#: includes/admin/partials/import-edit.php:609
+msgid "Condition"
+msgstr "Kondisi"
+
+#: includes/admin/partials/settings-page.php:341
+msgid "Conditional logic"
+msgstr "Logika kondisional"
+
+#: includes/admin/partials/import-edit.php:325
+msgid "Configuration Required:"
+msgstr "Konfigurasi Diperlukan:"
+
+#: includes/admin/partials/step-2-mapping.php:611
+msgid "Configure AI provider in Settings to enable auto-mapping"
+msgstr "Konfigurasikan penyedia AI di Pengaturan untuk mengaktifkan pemetaan otomatis"
+
+#: includes/admin/partials/settings-page.php:392
+msgid "Configure API keys and settings for AI providers used in smart field processing."
+msgstr "Konfigurasikan kunci API dan pengaturan untuk penyedia AI yang digunakan dalam pemrosesan bidang cerdas."
+
+#: includes/admin/partials/step-2-mapping.php:2494
+#: includes/admin/partials/import-edit.php:537
+msgid "Configure Processing"
+msgstr "Konfigurasi Pemrosesan"
+
+#: includes/admin/partials/settings-page.php:589
+msgid "Configure default settings for product imports and data handling."
+msgstr "Konfigurasikan pengaturan default untuk impor produk dan penanganan data."
+
+#: includes/admin/partials/settings-page.php:814
+msgid "Configure file upload, storage, and management settings."
+msgstr "Konfigurasikan pengaturan unggah, penyimpanan, dan pengelolaan file."
+
+#: includes/admin/partials/step-2-mapping.php:1502
+msgid "Configure how variations are structured in your file."
+msgstr "Konfigurasikan bagaimana variasi terstruktur dalam file Anda."
+
+#: includes/admin/partials/settings-page.php:862
+msgid "Configure logging levels and notification settings."
+msgstr "Konfigurasikan level logging dan pengaturan notifikasi."
+
+#: includes/admin/partials/settings-page.php:537
+msgid "Configure performance-related settings to optimize import speed and memory usage."
+msgstr "Konfigurasikan pengaturan terkait kinerja untuk mengoptimalkan kecepatan impor dan penggunaan memori."
+
+#: includes/admin/partials/settings-page.php:911
+msgid "Configure security settings for PHP formula execution and data validation."
+msgstr "Konfigurasikan pengaturan keamanan untuk eksekusi formula PHP dan validasi data."
+
+#: includes/admin/partials/settings-page.php:710
+#: includes/admin/partials/settings-page.php:722
+msgid "Cons:"
+msgstr "Kekurangan:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1188
+msgid "Continue Import"
+msgstr "Lanjutkan Impor"
+
+#: includes/admin/partials/import-edit.php:830
+#: includes/admin/partials/import-edit.php:844
+msgid "Copied!"
+msgstr "Disalin!"
+
+#: includes/admin/partials/import-edit.php:831
+msgid "Copy"
+msgstr "Salin"
+
+#: includes/admin/partials/settings-page.php:750
+#: includes/admin/partials/import-edit.php:845
+msgid "Copy Command"
+msgstr "Salin Perintah"
+
+#: includes/admin/partials/step-2-mapping.php:473
+msgid "Copy URL"
+msgstr "Salin URL"
+
+#: includes/admin/partials/settings-page.php:741
+msgid "Copy and paste this command into your server's crontab (via SSH or your hosting control panel):"
+msgstr "Salin dan tempel perintah ini ke crontab server Anda (melalui SSH atau panel kontrol hosting Anda):"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:475
+msgid "Could not connect to the license server. Please check your internet connection and try again."
+msgstr "Tidak dapat terhubung ke server lisensi. Silakan periksa koneksi internet Anda dan coba lagi."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6805
+#, php-format
+msgid "Could not find product with SKU: %s"
+msgstr "Tidak dapat menemukan produk dengan SKU: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6634
+#, php-format
+msgid "Could not resolve children for grouped product ID %1$d (SKUs: %2$s)"
+msgstr "Tidak dapat menyelesaikan anak untuk produk grup ID %1$d (SKU: %2$s)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:120
+msgid "Counting products..."
+msgstr "Menghitung produk..."
+
+#: includes/admin/partials/settings-page.php:647
+msgid "Create Missing Categories"
+msgstr "Buat Kategori yang Hilang"
+
+#: includes/admin/partials/settings-page.php:652
+msgid "Create Missing Tags"
+msgstr "Buat Tag yang Hilang"
+
+#: includes/admin/partials/step-2-mapping.php:1755
+msgid "Create WooCommerce attributes if they don't exist"
+msgstr "Buat atribut WooCommerce jika belum ada"
+
+#: includes/admin/partials/step-2-mapping.php:3628
+msgid "Create complex field transformation formulas. String manipulation, conditionals, and more."
+msgstr "Buat formula transformasi bidang yang kompleks. Manipulasi string, kondisional, dan lainnya."
+
+#: includes/admin/partials/import-edit.php:108
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:563
+msgid "Created"
+msgstr "Dibuat"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:801
+#, php-format
+msgid "Created product: %1$s (ID: %2$d)"
+msgstr "Produk dibuat: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/settings-page.php:768
+msgid "Cron Secret Key"
+msgstr "Kunci Rahasia Cron"
+
+#: includes/admin/partials/settings-page.php:778
+#: includes/admin/partials/import-edit.php:827
+msgid "Cron URL"
+msgstr "URL Cron"
+
+#: includes/admin/partials/step-2-mapping.php:470
+msgid "Cron URL:"
+msgstr "URL Cron:"
+
+#: includes/admin/partials/step-2-mapping.php:280
+msgid "Cross-sell Product IDs"
+msgstr "ID Produk Cross-sell"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1169
+msgid "Current Progress:"
+msgstr "Progres Saat Ini:"
+
+#: includes/admin/partials/settings-page.php:366
+msgid "Custom AI prompts per field"
+msgstr "Prompt AI kustom per bidang"
+
+#: includes/admin/partials/step-2-mapping.php:2685
+msgid "Custom Field Name"
+msgstr "Nama Field Kustom"
+
+#: includes/admin/partials/step-2-mapping.php:2598
+#: includes/admin/partials/import-edit.php:671
+msgid "Custom Fields"
+msgstr "Bidang kustom"
+
+#: includes/admin/partials/step-2-mapping.php:1673
+#: includes/admin/partials/step-2-mapping.php:1940
+msgid "Custom Meta Fields (EAN, GTIN, UPC, etc.)"
+msgstr "Field Meta Kustom (EAN, GTIN, UPC, dll.)"
+
+#: includes/admin/partials/import-edit.php:787
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:583
+msgid "Daily"
+msgstr "Harian"
+
+#: includes/admin/partials/step-1-upload.php:144
+#: includes/admin/partials/step-2-mapping.php:419
+msgid "Daily Import"
+msgstr "Impor Harian"
+
+#: includes/admin/partials/settings-page.php:941
+msgid "Data Sanitization"
+msgstr "Sanitasi Data"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2796
+msgid "Database error: "
+msgstr "Error database: "
+
+#: includes/admin/partials/step-2-mapping.php:2691
+msgid "Date"
+msgstr "Tanggal"
+
+#: includes/admin/partials/settings-page.php:224
+msgid "Deactivate"
+msgstr "Nonaktifkan"
+
+#: includes/class-bfi-license-admin.php:55
+msgid "Deactivate License"
+msgstr "Nonaktifkan Lisensi"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3592
+msgid "Debug file viewer for troubleshooting"
+msgstr "Penampil file debug untuk pemecahan masalah"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3459
+msgid "Debug log cleared."
+msgstr "Log debug dihapus."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3483
+msgid "Debug log file not found."
+msgstr "File log debug tidak ditemukan."
+
+#: includes/admin/partials/step-1-upload.php:193
+msgid "Default Product Status"
+msgstr "Status Produk Default"
+
+#: includes/admin/partials/settings-page.php:596
+msgid "Default Product Status:"
+msgstr "Status Produk Default:"
+
+#: includes/admin/partials/settings-page.php:493
+msgid "Default Provider:"
+msgstr "Penyedia Default:"
+
+#: includes/admin/partials/step-2-mapping.php:1002
+#: includes/admin/partials/step-2-mapping.php:1022
+msgid "Default Rule"
+msgstr "Aturan Default"
+
+#: includes/admin/partials/step-2-mapping.php:756
+#: includes/admin/partials/step-2-mapping.php:1118
+msgid "Default Rule (Fallback)"
+msgstr "Aturan Default (Cadangan)"
+
+#: includes/admin/partials/step-2-mapping.php:1719
+msgid "Define attributes used for variations (e.g., Size, Color). Each unique combination creates a product variation."
+msgstr "Tentukan atribut yang digunakan untuk variasi (mis. Ukuran, Warna). Setiap kombinasi unik membuat variasi produk."
+
+#: includes/admin/partials/step-2-mapping.php:1728
+msgid "Define each attribute manually"
+msgstr "Tentukan setiap atribut secara manual"
+
+#: includes/admin/partials/step-2-mapping.php:548
+msgid "Delete Template"
+msgstr "Hapus Template"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Delete import"
+msgstr "Hapus impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:659
+msgid "Delete products"
+msgstr "Hapus produk"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4318
+#, php-format
+msgid "Deleted %1$d products, %2$d remaining..."
+msgstr "%1$d produk dihapus, %2$d tersisa..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:115
+msgid "Deleting Products"
+msgstr "Menghapus Produk"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:121
+msgid "Deleting..."
+msgstr "Menghapus..."
+
+#: includes/admin/partials/step-2-mapping.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1074
+msgid "Description"
+msgstr "Deskripsi"
+
+#: includes/admin/partials/step-2-mapping.php:1644
+#: includes/admin/partials/step-2-mapping.php:1890
+#: includes/admin/partials/step-2-mapping.php:3288
+msgid "Description:"
+msgstr "Deskripsi:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3588
+msgid "Detailed error messages with context"
+msgstr "Pesan error terperinci dengan konteks"
+
+#: includes/admin/partials/step-2-mapping.php:3239
+msgid "Dimensions (L×W×H):"
+msgstr "Dimensi (P×L×T):"
+
+#: includes/admin/partials/step-2-mapping.php:2881
+#: includes/admin/partials/step-2-mapping.php:2921
+#: includes/admin/partials/import-edit.php:712
+#: includes/admin/partials/import-edit.php:1126
+msgid "Direct"
+msgstr "Langsung"
+
+#: includes/admin/partials/step-2-mapping.php:2358
+#: includes/admin/partials/step-2-mapping.php:2705
+#: includes/admin/partials/step-2-mapping.php:3002
+#: includes/admin/partials/step-2-mapping.php:3295
+#: includes/admin/partials/import-edit.php:455
+msgid "Direct Mapping"
+msgstr "Pemetaan Langsung"
+
+#: includes/admin/partials/settings-page.php:836
+msgid "Directory name within wp-content/uploads/"
+msgstr "Nama direktori dalam wp-content/uploads/"
+
+#: includes/admin/partials/import-edit.php:783
+msgid "Disabled"
+msgstr "Dinonaktifkan"
+
+#: includes/admin/partials/step-2-mapping.php:1415
+msgid "Display Attributes"
+msgstr "Atribut Tampilan"
+
+#: includes/admin/partials/step-2-mapping.php:2840
+msgid "Display name in WooCommerce (any language). Auto-adds pa_ prefix."
+msgstr "Nama tampilan di WooCommerce (bahasa apa pun). Otomatis menambahkan prefiks pa_."
+
+#: includes/admin/partials/step-2-mapping.php:187
+msgid "Do not allow"
+msgstr "Jangan izinkan"
+
+#: includes/admin/partials/step-2-mapping.php:263
+msgid "Download Expiry (days)"
+msgstr "Masa Berlaku Unduhan (hari)"
+
+#: includes/admin/partials/step-2-mapping.php:1906
+msgid "Download Expiry (days):"
+msgstr "Masa Berlaku Unduhan (hari):"
+
+#: includes/admin/partials/step-2-mapping.php:1910
+msgid "Download Files:"
+msgstr "File Unduhan:"
+
+#: includes/admin/partials/settings-page.php:624
+msgid "Download Images from URLs"
+msgstr "Unduh Gambar dari URL"
+
+#: includes/admin/partials/step-2-mapping.php:262
+msgid "Download Limit"
+msgstr "Batas Unduhan"
+
+#: includes/admin/partials/step-2-mapping.php:1902
+msgid "Download Limit:"
+msgstr "Batas Unduhan:"
+
+#: includes/admin/partials/step-3-progress.php:505
+msgid "Download Report"
+msgstr "Unduh Laporan"
+
+#: includes/admin/partials/step-2-mapping.php:260
+msgid "Download Settings"
+msgstr "Pengaturan Unduhan"
+
+#: includes/admin/partials/step-2-mapping.php:243
+msgid "Downloadable"
+msgstr "Dapat Diunduh"
+
+#: includes/admin/partials/step-2-mapping.php:3184
+msgid "Downloadable products give access to files after purchase (e.g., ebooks, software)"
+msgstr "Produk yang dapat diunduh memberikan akses ke file setelah pembelian (mis. ebook, perangkat lunak)"
+
+#: includes/admin/partials/step-2-mapping.php:1652
+#: includes/admin/partials/step-2-mapping.php:1898
+#: includes/admin/partials/step-2-mapping.php:3185
+msgid "Downloadable:"
+msgstr "Dapat Diunduh:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1654
+msgid "Downloaded file is empty or failed to save."
+msgstr "File yang diunduh kosong atau gagal disimpan."
+
+#: includes/admin/partials/step-1-upload.php:196
+#: includes/admin/partials/step-2-mapping.php:127
+msgid "Draft"
+msgstr "Draf"
+
+#: includes/admin/partials/step-1-upload.php:73
+msgid "Drag & drop your file here"
+msgstr "Seret & lepas file Anda di sini"
+
+#: includes/admin/partials/settings-page.php:608
+msgid "Duplicate Handling:"
+msgstr "Penanganan Duplikat:"
+
+#: includes/admin/partials/step-2-mapping.php:269
+msgid "EAN"
+msgstr "EAN"
+
+#: includes/admin/partials/step-3-progress.php:338
+msgid "ETA"
+msgstr "ETA"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:641
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/admin/partials/settings-page.php:162
+#: includes/admin/partials/settings-page.php:169
+#: includes/admin/partials/settings-page.php:176
+msgid "Edition"
+msgstr "Edisi"
+
+#: includes/admin/partials/settings-page.php:892
+msgid "Email Notifications"
+msgstr "Notifikasi Email"
+
+#: includes/admin/partials/settings-page.php:522
+msgid "Enable AI Response Caching"
+msgstr "Aktifkan Cache Respons AI"
+
+#: includes/admin/partials/settings-page.php:946
+msgid "Enable Advanced Data Sanitization"
+msgstr "Aktifkan Sanitasi Data Lanjutan"
+
+#: includes/admin/partials/settings-page.php:572
+msgid "Enable Background Processing (WP-Cron)"
+msgstr "Aktifkan Pemrosesan Latar Belakang (WP-Cron)"
+
+#: includes/admin/partials/settings-page.php:897
+msgid "Enable Email Notifications"
+msgstr "Aktifkan Notifikasi Email"
+
+#: includes/admin/partials/settings-page.php:931
+msgid "Enable Formula Validation"
+msgstr "Aktifkan Validasi Rumus"
+
+#: includes/admin/partials/settings-page.php:871
+msgid "Enable Logging"
+msgstr "Aktifkan Logging"
+
+#: includes/admin/partials/step-2-mapping.php:681
+msgid "Enable Price Markup"
+msgstr "Aktifkan Markup Harga"
+
+#: includes/admin/partials/settings-page.php:642
+msgid "Enable Product Variations Import"
+msgstr "Aktifkan Impor Variasi Produk"
+
+#: includes/admin/partials/settings-page.php:511
+msgid "Enable Provider Fallback"
+msgstr "Aktifkan Cadangan Penyedia"
+
+#: includes/admin/partials/step-2-mapping.php:1066
+msgid "Enable Shipping Class Rules"
+msgstr "Aktifkan Aturan Kelas Pengiriman"
+
+#: includes/admin/partials/step-2-mapping.php:1335
+msgid "Enable Shipping Class Rules above to automatically assign shipping classes based on product data"
+msgstr "Aktifkan Aturan Kelas Pengiriman di atas untuk menetapkan kelas pengiriman secara otomatis berdasarkan data produk"
+
+#: includes/admin/partials/step-2-mapping.php:3198
+msgid "Enable stock management at variation level (track inventory for each variation separately)"
+msgstr "Aktifkan manajemen stok di tingkat variasi (lacak inventaris untuk setiap variasi secara terpisah)"
+
+#: includes/admin/partials/step-2-mapping.php:1034
+msgid "Enable the Price Markup above to configure automatic price calculations"
+msgstr "Aktifkan Markup Harga di atas untuk mengkonfigurasi perhitungan harga otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:828
+#: includes/admin/partials/step-2-mapping.php:1163
+msgid "Enabled"
+msgstr "Diaktifkan"
+
+#: includes/admin/partials/step-2-mapping.php:3157
+msgid "Enabled:"
+msgstr "Diaktifkan:"
+
+#: includes/admin/partials/step-2-mapping.php:216
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1117
+msgid "Enter image URLs or use placeholders: {image} = first image, {image[1]} = first, {image[2]} = second, {image*} = all images. Separate multiple values with commas."
+msgstr "Masukkan URL gambar atau gunakan placeholder: {image} = gambar pertama, {image[1]} = pertama, {image[2]} = kedua, {image*} = semua gambar. Pisahkan beberapa nilai dengan koma."
+
+#: includes/admin/partials/step-2-mapping.php:526
+msgid "Enter template name..."
+msgstr "Masukkan nama template..."
+
+#: includes/admin/partials/step-1-upload.php:107
+msgid "Enter the direct URL to your XML or CSV file."
+msgstr "Masukkan URL langsung ke file XML atau CSV Anda."
+
+#: includes/admin/partials/settings-page.php:212
+msgid "Enter your license key"
+msgstr "Masukkan kunci lisensi Anda"
+
+#: includes/admin/partials/settings-page.php:172
+msgid "Enter your license key below to activate PRO features. Without a license, the plugin runs in free mode."
+msgstr "Masukkan kunci lisensi Anda di bawah untuk mengaktifkan fitur PRO. Tanpa lisensi, plugin berjalan dalam mode gratis."
+
+#: includes/admin/partials/settings-page.php:202
+msgid "Enter your license key to unlock PRO features. Purchase a license at"
+msgstr "Masukkan kunci lisensi Anda untuk membuka fitur PRO. Beli lisensi di"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:890
+#, php-format
+msgid "Error importing product: %s"
+msgstr "Error mengimpor produk: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6977
+#, php-format
+msgid "Error processing missing product ID %1$d: %2$s"
+msgstr "Error memproses produk yang hilang ID %1$d: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6639
+#, php-format
+msgid "Error resolving grouped product ID %1$d: %2$s"
+msgstr "Error menyelesaikan produk grup ID %1$d: %2$s"
+
+#: includes/admin/partials/step-3-progress.php:443
+msgid "Estimated Time Remaining"
+msgstr "Estimasi Waktu Tersisa"
+
+#: includes/admin/partials/step-1-upload.php:141
+#: includes/admin/partials/step-2-mapping.php:416
+#: includes/class-wc-xml-csv-ai-import.php:103
+msgid "Every 15 Minutes"
+msgstr "Setiap 15 Menit"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:580
+msgid "Every 15 min"
+msgstr "Setiap 15 mnt"
+
+#: includes/admin/partials/import-edit.php:784
+msgid "Every 15 minutes"
+msgstr "Setiap 15 menit"
+
+#: includes/admin/partials/import-edit.php:867
+msgid "Every 15 minutes, hourly, daily, weekly, or monthly"
+msgstr "Setiap 15 menit, per jam, harian, mingguan, atau bulanan"
+
+#: includes/admin/partials/step-1-upload.php:143
+#: includes/admin/partials/step-2-mapping.php:418
+#: includes/class-wc-xml-csv-ai-import.php:109
+msgid "Every 6 Hours"
+msgstr "Setiap 6 Jam"
+
+#: includes/admin/partials/import-edit.php:786
+msgid "Every 6 hours"
+msgstr "Setiap 6 jam"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:582
+msgid "Every 6h"
+msgstr "Setiap 6j"
+
+#: includes/admin/partials/step-1-upload.php:142
+#: includes/admin/partials/step-2-mapping.php:417
+msgid "Every Hour"
+msgstr "Setiap Jam"
+
+#: includes/admin/partials/step-2-mapping.php:1479
+msgid "Example for BigBuy XML:"
+msgstr "Contoh untuk BigBuy XML:"
+
+#: includes/admin/partials/step-2-mapping.php:1562
+msgid "Example for CSV structure:"
+msgstr "Contoh untuk struktur CSV:"
+
+#: includes/admin/partials/step-2-mapping.php:1774
+msgid "Example for your XML structure:"
+msgstr "Contoh untuk struktur XML Anda:"
+
+#: includes/admin/partials/step-2-mapping.php:1455
+msgid "Example:"
+msgstr "Contoh:"
+
+#: includes/admin/partials/import-edit.php:474
+msgid "Example: $value * 1.2 (adds 20% markup)"
+msgstr "Contoh: $value * 1.2 (menambah markup 20%)"
+
+#: includes/admin/partials/step-2-mapping.php:2855
+msgid "Example: if XML has <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → enter <code>size</code>"
+msgstr "Contoh: jika XML memiliki <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → masukkan <code>size</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2173
+msgid "Expected values: taxable, shipping, none"
+msgstr "Nilai yang diharapkan: taxable, shipping, none"
+
+#: includes/admin/partials/step-2-mapping.php:292
+msgid "External URL"
+msgstr "URL Eksternal"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2035
+#, php-format
+msgid "External products require PRO license. Importing \"%s\" as Simple product."
+msgstr "Produk eksternal memerlukan lisensi PRO. Mengimpor \"%s\" sebagai produk Sederhana."
+
+#: includes/admin/partials/step-2-mapping.php:115
+msgid "External/Affiliate"
+msgstr "Eksternal/Afiliasi"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:195
+msgid "Failed to create import record: "
+msgstr "Gagal membuat catatan impor: "
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2230
+msgid "Failed to create product."
+msgstr "Gagal membuat produk."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1622
+msgid "Failed to create temporary file."
+msgstr "Gagal membuat file sementara."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:500
+msgid "Failed to delete import."
+msgstr "Gagal menghapus impor."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1647
+msgid "Failed to download file from URL. HTTP Status: "
+msgstr "Gagal mengunduh file dari URL. Status HTTP: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1639
+msgid "Failed to download file from URL: "
+msgstr "Gagal mengunduh file dari URL: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3685
+msgid "Failed to update URL in database."
+msgstr "Gagal memperbarui URL di database."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:182
+msgid "Failed to update import record: "
+msgstr "Gagal memperbarui catatan impor: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1582
+msgid "Failed to upload file."
+msgstr "Gagal mengunggah file."
+
+#: includes/admin/partials/settings-page.php:261
+msgid "Feature"
+msgstr "Fitur"
+
+#: includes/admin/partials/settings-page.php:255
+msgid "Feature Comparison"
+msgstr "Perbandingan Fitur"
+
+#: includes/admin/partials/step-2-mapping.php:218
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1119
+msgid "Featured Image"
+msgstr "Gambar Utama"
+
+#: includes/admin/partials/step-2-mapping.php:233
+msgid "Featured Product"
+msgstr "Produk Unggulan"
+
+#: includes/admin/partials/step-2-mapping.php:2643
+#: includes/admin/partials/import-edit.php:577
+#: includes/admin/partials/import-edit.php:1182
+msgid "Field"
+msgstr "Bidang"
+
+#: includes/admin/partials/import-edit.php:320
+msgid "Field Mappings"
+msgstr "Pemetaan Bidang"
+
+#: includes/admin/partials/import-edit.php:693
+#: includes/admin/partials/import-edit.php:1107
+msgid "Field Name"
+msgstr "Nama Bidang"
+
+#: includes/admin/partials/step-2-mapping.php:331
+msgid "File"
+msgstr "File"
+
+#: includes/admin/partials/settings-page.php:559
+msgid "File Chunk Size:"
+msgstr "Ukuran Potongan File:"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:160
+msgid "File MIME type does not match extension."
+msgstr "Tipe MIME file tidak cocok dengan ekstensi."
+
+#: includes/admin/partials/settings-page.php:813
+msgid "File Management Settings"
+msgstr "Pengaturan Manajemen File"
+
+#: includes/admin/partials/settings-page.php:842
+msgid "File Retention"
+msgstr "Retensi File"
+
+#: includes/admin/partials/settings-page.php:850
+msgid "File Retention (days):"
+msgstr "Retensi File (hari):"
+
+#: includes/admin/partials/step-2-mapping.php:326
+#: includes/admin/partials/import-edit.php:288
+msgid "File Structure"
+msgstr "Struktur File"
+
+#: includes/admin/partials/step-1-upload.php:116
+#: includes/admin/partials/import-edit.php:96
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:559
+msgid "File Type"
+msgstr "Tipe File"
+
+#: includes/admin/partials/step-3-progress.php:255
+msgid "File Type:"
+msgstr "Tipe File:"
+
+#: includes/admin/partials/step-1-upload.php:104
+#: includes/admin/partials/import-edit.php:164
+msgid "File URL"
+msgstr "URL File"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1590
+msgid "File URL is required."
+msgstr "URL file diperlukan."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:166
+msgid "File contains potentially malicious content."
+msgstr "File berisi konten yang berpotensi berbahaya."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:660
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:351
+msgid "File does not exist."
+msgstr "File tidak ada."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1708
+msgid "File is empty."
+msgstr "File kosong."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1860
+msgid "File is not ready yet. Please refresh the page and try again."
+msgstr "File belum siap. Silakan segarkan halaman dan coba lagi."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:113
+msgid "File is too large."
+msgstr "File terlalu besar."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:148
+msgid "File is too large. Maximum size is 100MB."
+msgstr "File terlalu besar. Ukuran maksimum 100MB."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:668
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:360
+#, php-format
+msgid "File size exceeds maximum limit of %dMB."
+msgstr "Ukuran file melebihi batas maksimum %dMB."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7038
+msgid "File type must be XML or CSV."
+msgstr "Tipe file harus XML atau CSV."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:141
+msgid "File type not allowed. Only XML and CSV files are supported."
+msgstr "Tipe file tidak diizinkan. Hanya file XML dan CSV yang didukung."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1550
+msgid "File upload error."
+msgstr "Error unggah file."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1701
+msgid "File upload failed - file does not exist."
+msgstr "Unggah file gagal - file tidak ada."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:116
+msgid "File upload was incomplete."
+msgstr "Unggah file tidak lengkap."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1782
+msgid "File uploaded successfully."
+msgstr "File berhasil diunggah."
+
+#: includes/admin/partials/import-edit.php:290
+msgid "File:"
+msgstr "File:"
+
+#: includes/admin/partials/settings-page.php:122
+msgid "Files"
+msgstr "File"
+
+#: includes/admin/partials/settings-page.php:852
+msgid "Files older than this will be automatically deleted."
+msgstr "File yang lebih lama dari ini akan dihapus secara otomatis."
+
+#: includes/admin/partials/step-2-mapping.php:2553
+#: includes/admin/partials/import-edit.php:645
+msgid "Filter Behavior"
+msgstr "Perilaku Filter"
+
+#: includes/admin/partials/step-2-mapping.php:2537
+msgid "Filter Logic:"
+msgstr "Logika Filter:"
+
+#: includes/admin/partials/step-2-mapping.php:2582
+msgid "Filter by price, stock, category, or any field"
+msgstr "Filter berdasarkan harga, stok, kategori, atau bidang apa pun"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3596
+msgid "Filter logs by import and log level"
+msgstr "Filter log berdasarkan impor dan level log"
+
+#: includes/admin/partials/step-2-mapping.php:3613
+msgid "Filter products during import based on field values, price ranges, stock status, and more."
+msgstr "Filter produk selama impor berdasarkan nilai bidang, rentang harga, status stok, dan lainnya."
+
+#: includes/admin/partials/step-2-mapping.php:2579
+msgid "Filter products during import based on field values, regex patterns, and conditional logic. Only import products that match your criteria."
+msgstr "Filter produk selama impor berdasarkan nilai bidang, pola regex, dan logika kondisional. Hanya impor produk yang sesuai dengan kriteria Anda."
+
+#: includes/admin/partials/step-2-mapping.php:2525
+#: includes/admin/partials/import-edit.php:563
+msgid "Filter which products to import based on field values. Products that don't match will be skipped."
+msgstr "Filter produk mana yang akan diimpor berdasarkan nilai bidang. Produk yang tidak cocok akan dilewati."
+
+#: includes/admin/partials/step-2-mapping.php:2556
+msgid "Filters will be applied during import. Products that don't match will be skipped."
+msgstr "Filter akan diterapkan selama impor. Produk yang tidak cocok akan dilewati."
+
+#: includes/admin/partials/step-2-mapping.php:1015
+msgid "Final Price:"
+msgstr "Harga Akhir:"
+
+#: includes/admin/partials/step-2-mapping.php:2460
+#: includes/admin/partials/step-2-mapping.php:2463
+msgid "Final technical adjustments (trim, lowercase, etc)"
+msgstr "Penyesuaian teknis akhir (trim, huruf kecil, dll)"
+
+#: includes/admin/partials/step-2-mapping.php:1432
+msgid "Fixed name + dynamic value"
+msgstr "Nama tetap + nilai dinamis"
+
+#: includes/admin/partials/step-2-mapping.php:3057
+#: includes/admin/partials/step-2-mapping.php:3087
+msgid "Fixed value"
+msgstr "Nilai tetap"
+
+#: includes/admin/partials/step-2-mapping.php:1517
+msgid "For CSV files, variable products require Parent SKU and Type columns to link variations to parent products."
+msgstr "Untuk file CSV, produk variabel memerlukan kolom Parent SKU dan Type untuk menghubungkan variasi ke produk induk."
+
+#: includes/admin/partials/step-2-mapping.php:1467
+msgid "For XML files where attribute name and value are in separate fields (e.g., BigBuy format with attribute1/value1, attribute2/value2)."
+msgstr "Untuk file XML di mana nama atribut dan nilai berada di bidang terpisah (mis. format BigBuy dengan attribute1/value1, attribute2/value2)."
+
+#: includes/admin/partials/step-2-mapping.php:1760
+msgid "For XML like:"
+msgstr "Untuk XML seperti:"
+
+#: includes/admin/partials/settings-page.php:754
+msgid "For better reliability, add this to your wp-config.php file:"
+msgstr "Untuk keandalan yang lebih baik, tambahkan ini ke file wp-config.php Anda:"
+
+#: includes/admin/partials/step-1-upload.php:120
+msgid "Force CSV"
+msgstr "Paksa CSV"
+
+#: includes/admin/partials/step-1-upload.php:119
+msgid "Force XML"
+msgstr "Paksa XML"
+
+#: includes/admin/partials/step-2-mapping.php:1914
+msgid "Format: Name|URL or just URL. Multiple: Name1|URL1,Name2|URL2"
+msgstr "Format: Nama|URL atau hanya URL. Beberapa: Nama1|URL1,Nama2|URL2"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:309
+msgid "Formula contains disallowed constructs."
+msgstr "Rumus berisi konstruksi yang tidak diizinkan."
+
+#: includes/admin/partials/step-1-upload.php:56
+msgid "From URL"
+msgstr "Dari URL"
+
+#: includes/admin/partials/step-2-mapping.php:1852
+msgid "From source"
+msgstr "Dari sumber"
+
+#: includes/admin/partials/settings-page.php:179
+msgid "Full manual import tool. Upgrade to PRO for automation, templates, and AI features!"
+msgstr "Alat impor manual lengkap. Tingkatkan ke PRO untuk otomatisasi, template, dan fitur AI!"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:324
+#, php-format
+msgid "Function \"%s\" is not allowed."
+msgstr "Fungsi \"%s\" tidak diizinkan."
+
+#: includes/admin/partials/step-2-mapping.php:273
+msgid "GTIN"
+msgstr "GTIN"
+
+#: includes/admin/partials/step-2-mapping.php:1590
+#: includes/admin/partials/step-2-mapping.php:1812
+msgid "GTIN/EAN/UPC/ISBN:"
+msgstr "GTIN/EAN/UPC/ISBN:"
+
+#: includes/admin/partials/step-2-mapping.php:3129
+msgid "GTIN/UPC/EAN/ISBN:"
+msgstr "GTIN/UPC/EAN/ISBN:"
+
+#: includes/admin/partials/settings-page.php:490
+msgid "General AI Settings"
+msgstr "Pengaturan AI Umum"
+
+#: includes/admin/partials/settings-page.php:246
+msgid "Get PRO Version"
+msgstr "Dapatkan Versi PRO"
+
+#: includes/admin/partials/settings-page.php:243
+msgid "Get scheduled imports, AI auto-mapping, advanced formulas, selective field updates, and more."
+msgstr "Dapatkan impor terjadwal, pemetaan otomatis AI, rumus lanjutan, pembaruan bidang selektif, dan lainnya."
+
+#: includes/admin/partials/settings-page.php:472
+msgid "GitHub Copilot Settings"
+msgstr "Pengaturan GitHub Copilot"
+
+#: includes/admin/partials/step-1-upload.php:39
+msgid "Give this import a descriptive name for easy identification."
+msgstr "Berikan impor ini nama deskriptif untuk identifikasi mudah."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:191
+msgid "Google Gemini API key not configured."
+msgstr "Kunci API Google Gemini belum dikonfigurasi."
+
+#: includes/admin/partials/settings-page.php:416
+msgid "Google Gemini Settings"
+msgstr "Pengaturan Google Gemini"
+
+#: includes/admin/partials/step-2-mapping.php:114
+msgid "Grouped"
+msgstr "Grup"
+
+#: includes/admin/partials/step-2-mapping.php:281
+msgid "Grouped Products"
+msgstr "Produk Grup"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2306
+#, php-format
+msgid "Grouped product \"%1$s\" - stored pending children SKUs: %2$s"
+msgstr "Produk grup \"%1$s\" - SKU anak yang tertunda disimpan: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2022
+#, php-format
+msgid "Grouped products require PRO license. Importing \"%s\" as Simple product."
+msgstr "Produk grup memerlukan lisensi PRO. Mengimpor \"%s\" sebagai produk Sederhana."
+
+#: includes/admin/partials/import-edit.php:210
+msgid "Handle Missing Products"
+msgstr "Tangani Produk yang Hilang"
+
+#: includes/admin/partials/step-1-upload.php:209
+msgid "Handle Products No Longer in Feed"
+msgstr "Tangani Produk yang Tidak Lagi Ada di Feed"
+
+#: includes/admin/partials/step-2-mapping.php:3193
+msgid "Has file downloads"
+msgstr "Memiliki unduhan file"
+
+#: includes/admin/partials/step-2-mapping.php:200
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1103
+msgid "Height"
+msgstr "Tinggi"
+
+#: includes/admin/partials/step-2-mapping.php:1636
+#: includes/admin/partials/step-2-mapping.php:1882
+#: includes/admin/partials/step-2-mapping.php:3254
+msgid "Height:"
+msgstr "Tinggi:"
+
+#: includes/admin/partials/settings-page.php:980
+msgid "Hide"
+msgstr "Sembunyikan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:192
+msgid "History"
+msgstr "Riwayat"
+
+#: includes/admin/partials/import-edit.php:785
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:581
+msgid "Hourly"
+msgstr "Per Jam"
+
+#: includes/admin/partials/step-2-mapping.php:697
+#: includes/admin/partials/step-2-mapping.php:1082
+#: includes/admin/partials/step-2-mapping.php:1759
+msgid "How it works:"
+msgstr "Cara kerjanya:"
+
+#: includes/admin/partials/step-2-mapping.php:2884
+#: includes/admin/partials/step-2-mapping.php:2924
+#: includes/admin/partials/step-2-mapping.php:3005
+#: includes/admin/partials/step-2-mapping.php:3298
+msgid "Hybrid"
+msgstr "Hibrida"
+
+#: includes/admin/partials/step-2-mapping.php:2361
+#: includes/admin/partials/step-2-mapping.php:2708
+#: includes/admin/partials/import-edit.php:458
+msgid "Hybrid (PHP + AI)"
+msgstr "Hibrida (PHP + AI)"
+
+#: includes/admin/partials/step-2-mapping.php:271
+msgid "ISBN"
+msgstr "ISBN"
+
+#: includes/admin/partials/step-2-mapping.php:2563
+msgid "If re-running import, existing products that no longer match filters will be set to Draft status."
+msgstr "Jika menjalankan ulang impor, produk yang sudah ada yang tidak lagi cocok dengan filter akan diatur ke status Draf."
+
+#: includes/admin/partials/step-2-mapping.php:1564
+msgid "If your CSV has columns:"
+msgstr "Jika CSV Anda memiliki kolom:"
+
+#: includes/admin/partials/step-2-mapping.php:1776
+msgid "If your XML has:"
+msgstr "Jika XML Anda memiliki:"
+
+#: includes/admin/partials/settings-page.php:627
+msgid "Image Download Timeout (seconds):"
+msgstr "Batas Waktu Unduh Gambar (detik):"
+
+#: includes/admin/partials/step-2-mapping.php:2948
+msgid "Image URL for this attribute (e.g., color swatch, size chart). For variations, use variation image mapping below."
+msgstr "URL gambar untuk atribut ini (mis. swatch warna, chart ukuran). Untuk variasi, gunakan pemetaan gambar variasi di bawah."
+
+#: includes/admin/partials/step-2-mapping.php:1640
+#: includes/admin/partials/step-2-mapping.php:1886
+msgid "Image URL:"
+msgstr "URL Gambar:"
+
+#: includes/admin/partials/settings-page.php:120
+#: includes/admin/partials/step-2-mapping.php:342
+#: bootflow-product-importer.php:152
+msgid "Import"
+msgstr "Impor"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:207
+#, php-format
+msgid "Import \"%1$s\" started with %2$d products."
+msgstr "Impor \"%1$s\" dimulai dengan %2$d produk."
+
+#: includes/admin/partials/step-2-mapping.php:372
+#: includes/admin/partials/import-edit.php:179
+msgid "Import Behavior"
+msgstr "Perilaku Impor"
+
+#: includes/admin/partials/step-3-progress.php:214
+#: includes/admin/partials/step-3-progress.php:486
+#: includes/admin/partials/step-3-progress.php:790
+msgid "Import Completed Successfully!"
+msgstr "Impor Berhasil Selesai!"
+
+#: includes/admin/partials/import-edit.php:80
+msgid "Import Details:"
+msgstr "Detail Impor:"
+
+#: includes/admin/partials/step-3-progress.php:217
+#: includes/admin/partials/step-3-progress.php:522
+#: includes/admin/partials/step-3-progress.php:793
+msgid "Import Failed"
+msgstr "Impor Gagal"
+
+#: includes/admin/partials/step-2-mapping.php:2517
+#: includes/admin/partials/step-2-mapping.php:2574
+#: includes/admin/partials/step-2-mapping.php:3422
+#: includes/admin/partials/step-2-mapping.php:3612
+#: includes/admin/partials/import-edit.php:556
+msgid "Import Filters"
+msgstr "Filter Impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:191
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:543
+msgid "Import History"
+msgstr "Riwayat impor"
+
+#: includes/admin/partials/import-edit.php:89
+msgid "Import Information"
+msgstr "Informasi Impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:209
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3388
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3563
+msgid "Import Logs"
+msgstr "Log Impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3572
+msgid "Import Logs & Debugging"
+msgstr "Log Impor & Debugging"
+
+#: includes/admin/partials/step-1-upload.php:34
+msgid "Import Name"
+msgstr "Nama Impor"
+
+#: includes/admin/partials/step-3-progress.php:251
+msgid "Import Name:"
+msgstr "Nama Impor:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:685
+msgid "Import Not Found"
+msgstr "Impor Tidak Ditemukan"
+
+#: includes/admin/partials/step-3-progress.php:172
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:288
+msgid "Import Progress"
+msgstr "Progres Impor"
+
+#: includes/admin/partials/settings-page.php:588
+#: includes/admin/partials/import-edit.php:272
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:200
+msgid "Import Settings"
+msgstr "Pengaturan impor"
+
+#: includes/admin/partials/settings-page.php:269
+msgid "Import XML & CSV feeds"
+msgstr "Impor feed XML & CSV"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2023
+msgid "Import already completed."
+msgstr "Impor sudah selesai."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2036
+msgid "Import already in progress."
+msgstr "Impor sudah dalam proses."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:498
+msgid "Import and file deleted successfully."
+msgstr "Impor dan file berhasil dihapus."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:99
+msgid "Import complete!"
+msgstr "Impor selesai!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3174
+msgid "Import completed successfully"
+msgstr "Impor berhasil diselesaikan"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:616
+#, php-format
+msgid "Import completed successfully. Processed %d products."
+msgstr "Impor berhasil diselesaikan. %d produk diproses."
+
+#: includes/admin/partials/step-2-mapping.php:3633
+msgid "Import directly from remote URLs. Perfect for supplier feeds that are hosted online."
+msgstr "Impor langsung dari URL jarak jauh. Sempurna untuk feed pemasok yang dihosting online."
+
+#: includes/admin/partials/step-1-upload.php:61
+msgid "Import from external URL or FTP server"
+msgstr "Impor dari URL eksternal atau server FTP"
+
+#: includes/admin/partials/settings-page.php:331
+#: includes/admin/partials/settings-page.php:799
+msgid "Import from remote URLs"
+msgstr "Impor dari URL jarak jauh"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1535
+#: includes/class-wc-xml-csv-ai-import-importer.php:7030
+msgid "Import name is required."
+msgstr "Nama impor diperlukan."
+
+#: includes/admin/partials/step-3-progress.php:31
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1231
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2016
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2238
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3664
+#: includes/class-wc-xml-csv-ai-import-importer.php:236
+msgid "Import not found."
+msgstr "Impor tidak ditemukan."
+
+#: includes/admin/partials/step-2-mapping.php:46
+msgid "Import not found. Please start over."
+msgstr "Impor tidak ditemukan. Silakan mulai ulang."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2061
+msgid "Import processing started."
+msgstr "Pemrosesan impor dimulai."
+
+#: includes/admin/partials/step-2-mapping.php:3598
+msgid "Import products with variations - sizes, colors, materials, and more. Full support for WooCommerce variable product structure."
+msgstr "Impor produk dengan variasi - ukuran, warna, bahan, dan lainnya. Dukungan penuh untuk struktur produk variabel WooCommerce."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1971
+msgid "Import started successfully."
+msgstr "Impor berhasil dimulai."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:470
+msgid "Import stopped successfully."
+msgstr "Impor berhasil dihentikan."
+
+#: includes/admin/partials/settings-page.php:346
+msgid "Import templates"
+msgstr "Template impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:970
+msgid "Import updated successfully."
+msgstr "Impor berhasil diperbarui."
+
+#: includes/admin/partials/import-edit.php:292
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3427
+msgid "Import:"
+msgstr "Impor:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1216
+#, php-format
+msgid "Imported variable product: %1$s with %2$d variations"
+msgstr "Produk variabel diimpor: %1$s dengan %2$d variasi"
+
+#: includes/admin/partials/step-3-progress.php:175
+#, php-format
+msgid "Importing \"%s\" - Please keep this page open until the import is complete."
+msgstr "Mengimpor \"%s\" - Harap biarkan halaman ini terbuka hingga impor selesai."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:98
+msgid "Importing products..."
+msgstr "Mengimpor produk..."
+
+#: includes/admin/partials/step-2-mapping.php:3331
+msgid "Improve and make unique"
+msgstr "Tingkatkan dan buat unik"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:594
+#, php-format
+msgid "In database: %1$d, Processed: %2$d, In file: %3$d"
+msgstr "Di database: %1$d, Diproses: %2$d, Di file: %3$d"
+
+#: includes/admin/partials/step-2-mapping.php:177
+msgid "In stock"
+msgstr "Tersedia"
+
+#: includes/class-bfi-license-admin.php:48
+msgid "Inactive/Invalid"
+msgstr "Tidak Aktif/Tidak Valid"
+
+#: includes/admin/partials/step-2-mapping.php:1875
+msgid "Inherit L/W/H from parent"
+msgstr "Warisi P/L/T dari induk"
+
+#: includes/admin/partials/step-2-mapping.php:1865
+msgid "Inherit from parent"
+msgstr "Warisi dari induk"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1968
+#, php-format
+msgid "Invalid SKU format: %s"
+msgstr "Format SKU tidak valid: %s"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:496
+msgid "Invalid URL format."
+msgstr "Format URL tidak valid."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:674
+msgid "Invalid XML file or unable to open file."
+msgstr "File XML tidak valid atau tidak dapat membuka file."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:132
+msgid "Invalid file name."
+msgstr "Nama file tidak valid."
+
+#: includes/admin/partials/step-2-mapping.php:91
+msgid "Invalid file path. Please start over."
+msgstr "Jalur file tidak valid. Silakan mulai ulang."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1557
+msgid "Invalid file type. Only XML and CSV files are allowed."
+msgstr "Jenis file tidak valid. Hanya file XML dan CSV yang diizinkan."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:4304
+msgid "Invalid image file type."
+msgstr "Jenis file gambar tidak valid."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4204
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4235
+msgid "Invalid import ID"
+msgstr "ID impor tidak valid"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3650
+msgid "Invalid import ID or URL."
+msgstr "ID impor atau URL tidak valid."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2686
+msgid "Invalid import ID or mapping data."
+msgstr "ID impor atau data pemetaan tidak valid."
+
+#: includes/admin/partials/step-3-progress.php:19
+msgid "Invalid import ID. Please start a new import."
+msgstr "ID impor tidak valid. Silakan mulai impor baru."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:485
+msgid "Invalid license key."
+msgstr "Kunci lisensi tidak valid."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1346
+#: includes/class-wc-xml-csv-ai-import-importer.php:1355
+#, php-format
+msgid "Invalid regex pattern: %s"
+msgstr "Pola regex tidak valid: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1974
+#, php-format
+msgid "Invalid regular price: %s"
+msgstr "Harga reguler tidak valid: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1979
+#, php-format
+msgid "Invalid sale price: %s"
+msgstr "Harga sale tidak valid: %s"
+
+#: includes/admin/partials/step-2-mapping.php:164
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1089
+msgid "Inventory Fields"
+msgstr "Bidang Inventaris"
+
+#: includes/admin/partials/settings-page.php:800
+msgid "Keep products always up-to-date"
+msgstr "Jaga produk selalu terbaru"
+
+#: includes/admin/partials/step-2-mapping.php:1465
+msgid "Key-Value Pair Mode"
+msgstr "Mode Pasangan Kunci-Nilai"
+
+#: includes/admin/partials/step-2-mapping.php:1438
+msgid "Key-Value Pairs"
+msgstr "Pasangan Kunci-Nilai"
+
+#: includes/admin/partials/step-3-progress.php:264
+msgid "Last Activity:"
+msgstr "Aktivitas Terakhir:"
+
+#: includes/admin/partials/import-edit.php:112
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:564
+msgid "Last Run"
+msgstr "Jalankan Terakhir"
+
+#: includes/admin/partials/step-2-mapping.php:2908
+msgid "Leave empty for XML &lt;attributes&gt; auto-mapping, or select field for direct mapping"
+msgstr "Biarkan kosong untuk pemetaan otomatis XML &lt;attributes&gt;, atau pilih bidang untuk pemetaan langsung"
+
+#: includes/admin/partials/import-edit.php:404
+msgid "Leave empty to skip automatic shipping class assignment."
+msgstr "Kosongkan untuk melewati penetapan kelas pengiriman otomatis."
+
+#: includes/admin/partials/step-2-mapping.php:198
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1101
+msgid "Length"
+msgstr "Panjang"
+
+#: includes/admin/partials/step-2-mapping.php:1630
+#: includes/admin/partials/step-2-mapping.php:1870
+#: includes/admin/partials/step-2-mapping.php:3242
+msgid "Length:"
+msgstr "Panjang:"
+
+#: includes/admin/partials/step-2-mapping.php:593
+msgid "Let AI automatically match your file columns to WooCommerce fields."
+msgstr "Biarkan AI secara otomatis mencocokkan kolom file Anda ke bidang WooCommerce."
+
+#: includes/admin/partials/step-2-mapping.php:3623
+msgid "Let AI handle complex field transformations. Describe what you want in plain language."
+msgstr "Biarkan AI menangani transformasi bidang yang kompleks. Jelaskan apa yang Anda inginkan dalam bahasa sederhana."
+
+#: includes/admin/partials/settings-page.php:115
+msgid "License"
+msgstr "Lisensi"
+
+#: includes/admin/partials/settings-page.php:186
+msgid "License Active"
+msgstr "Lisensi Aktif"
+
+#: includes/class-bfi-license-admin.php:39
+msgid "License Key"
+msgstr "Kunci Lisensi"
+
+#: includes/admin/partials/settings-page.php:132
+msgid "License Management"
+msgstr "Manajemen Lisensi"
+
+#: includes/admin/partials/settings-page.php:169
+msgid "License Required"
+msgstr "Lisensi Diperlukan"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:518
+msgid "License activated successfully! PRO features are now unlocked."
+msgstr "Lisensi berhasil diaktifkan! Fitur PRO sekarang terbuka."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:557
+msgid "License deactivated. PRO features are now locked."
+msgstr "Lisensi dinonaktifkan. Fitur PRO sekarang terkunci."
+
+#: includes/admin/partials/settings-page.php:231
+msgid "License key is invalid or expired. Please enter a valid license key."
+msgstr "Kunci lisensi tidak valid atau kedaluwarsa. Masukkan kunci lisensi yang valid."
+
+#: includes/admin/partials/step-2-mapping.php:277
+msgid "Linked Products"
+msgstr "Produk Terkait"
+
+#: includes/admin/partials/step-2-mapping.php:994
+msgid "Live Preview"
+msgstr "Pratinjau Langsung"
+
+#: includes/admin/partials/step-2-mapping.php:546
+msgid "Load"
+msgstr "Muat"
+
+#: includes/admin/partials/step-2-mapping.php:544
+msgid "Load Template"
+msgstr "Muat Template"
+
+#: includes/admin/partials/step-2-mapping.php:538
+msgid "Load saved template:"
+msgstr "Muat template tersimpan:"
+
+#: includes/admin/partials/step-2-mapping.php:359
+#: includes/admin/partials/import-edit.php:297
+msgid "Loading file structure..."
+msgstr "Memuat struktur file..."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:520
+msgid "Local domain URLs are not allowed."
+msgstr "URL domain lokal tidak diizinkan."
+
+#: includes/admin/partials/settings-page.php:299
+msgid "Local file uploads"
+msgstr "Unggahan file lokal"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:515
+msgid "Localhost URLs are not allowed."
+msgstr "URL localhost tidak diizinkan."
+
+#: includes/admin/partials/settings-page.php:874
+msgid "Log Level:"
+msgstr "Level Log:"
+
+#: includes/admin/partials/settings-page.php:885
+msgid "Log Retention (days):"
+msgstr "Retensi Log (hari):"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3465
+msgid "Log file is empty."
+msgstr "File log kosong."
+
+#: includes/admin/partials/settings-page.php:123
+msgid "Logging"
+msgstr "Pencatatan"
+
+#: includes/admin/partials/settings-page.php:861
+msgid "Logging & Notifications"
+msgstr "Pencatatan & Notifikasi"
+
+#: includes/admin/partials/settings-page.php:866
+msgid "Logging Configuration"
+msgstr "Konfigurasi Pencatatan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:210
+msgid "Logs"
+msgstr "Log"
+
+#: includes/admin/partials/settings-page.php:351
+msgid "Logs & error reporting"
+msgstr "Log & pelaporan error"
+
+#: includes/admin/partials/step-2-mapping.php:1622
+#: includes/admin/partials/step-2-mapping.php:1844
+msgid "Low Stock Threshold:"
+msgstr "Ambang Stok Rendah:"
+
+#: includes/admin/partials/step-2-mapping.php:2323
+msgid "MD5 hash from name+row (8 chars)"
+msgstr "Hash MD5 dari nama+baris (8 karakter)"
+
+#: includes/admin/partials/step-2-mapping.php:272
+msgid "MPN"
+msgstr "MPN"
+
+#: includes/admin/partials/step-3-progress.php:512
+msgid "Manage Scheduled Import"
+msgstr "Kelola Impor Terjadwal"
+
+#: includes/admin/partials/step-2-mapping.php:167
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1091
+msgid "Manage Stock"
+msgstr "Kelola Stok"
+
+#: includes/admin/partials/step-2-mapping.php:1618
+#: includes/admin/partials/step-2-mapping.php:1840
+#: includes/admin/partials/step-2-mapping.php:3199
+msgid "Manage Stock:"
+msgstr "Kelola Stok:"
+
+#: includes/admin/partials/step-2-mapping.php:1727
+msgid "Manual"
+msgstr "Manual"
+
+#: includes/admin/partials/step-1-upload.php:140
+#: includes/admin/partials/step-1-upload.php:157
+#: includes/admin/partials/step-2-mapping.php:415
+#: includes/admin/partials/step-2-mapping.php:429
+msgid "Manual Import Only"
+msgstr "Hanya Impor Manual"
+
+#: includes/admin/partials/settings-page.php:274
+msgid "Manual field mapping"
+msgstr "Pemetaan bidang manual"
+
+#: includes/admin/partials/settings-page.php:289
+msgid "Manual imports"
+msgstr "Impor manual"
+
+#: includes/admin/partials/step-2-mapping.php:2064
+msgid "Map"
+msgstr "Petakan"
+
+#: includes/admin/partials/step-2-mapping.php:1558
+msgid "Map CSV columns that contain attribute values (e.g., \"Attribute:Color\", \"Attribute:Size\")."
+msgstr "Petakan kolom CSV yang berisi nilai atribut (mis. \"Attribute:Color\", \"Attribute:Size\")."
+
+#: includes/admin/partials/step-2-mapping.php:1580
+msgid "Map CSV columns to WooCommerce variation fields. These are read from variation rows."
+msgstr "Petakan kolom CSV ke bidang variasi WooCommerce. Ini dibaca dari baris variasi."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:287
+msgid "Map Fields"
+msgstr "Petakan Bidang"
+
+#: includes/admin/partials/step-2-mapping.php:2983
+#: includes/admin/partials/step-2-mapping.php:3058
+#: includes/admin/partials/step-2-mapping.php:3088
+#: includes/admin/partials/step-2-mapping.php:3111
+#: includes/admin/partials/step-2-mapping.php:3134
+#: includes/admin/partials/step-2-mapping.php:3218
+#: includes/admin/partials/step-2-mapping.php:3276
+msgid "Map field"
+msgstr "Petakan bidang"
+
+#: includes/admin/partials/step-2-mapping.php:1793
+msgid "Map fields from your source file to WooCommerce variation fields."
+msgstr "Petakan bidang dari file sumber Anda ke bidang variasi WooCommerce."
+
+#: includes/admin/partials/step-2-mapping.php:2099
+#: includes/admin/partials/step-2-mapping.php:2134
+#: includes/admin/partials/step-2-mapping.php:2166
+#: includes/admin/partials/step-2-mapping.php:2205
+#: includes/admin/partials/step-2-mapping.php:2238
+msgid "Map from XML:"
+msgstr "Dari XML:"
+
+#: includes/admin/partials/step-2-mapping.php:2288
+msgid "Map from file"
+msgstr "Dari file"
+
+#: includes/admin/partials/step-2-mapping.php:495
+#: includes/admin/partials/import-edit.php:321
+msgid "Map your file fields to WooCommerce product fields and configure processing modes."
+msgstr "Petakan bidang file Anda ke bidang produk WooCommerce dan konfigurasikan mode pemrosesan."
+
+#: includes/admin/partials/step-2-mapping.php:514
+#: includes/admin/partials/step-2-mapping.php:563
+#: includes/admin/partials/step-2-mapping.php:3423
+#: includes/admin/partials/step-2-mapping.php:3607
+msgid "Mapping Templates"
+msgstr "Template Pemetaan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2801
+msgid "Mapping configuration saved successfully."
+msgstr "Konfigurasi pemetaan berhasil disimpan."
+
+#: includes/admin/partials/step-1-upload.php:226
+#: includes/admin/partials/import-edit.php:227
+msgid "Mark as Out of Stock"
+msgstr "Tandai sebagai Stok Habis"
+
+#: includes/admin/partials/step-2-mapping.php:765
+#: includes/admin/partials/step-2-mapping.php:941
+msgid "Markup %"
+msgstr "Markup %"
+
+#: includes/admin/partials/settings-page.php:556
+msgid "Max Execution Time (seconds):"
+msgstr "Maks. Waktu Eksekusi (detik):"
+
+#: includes/admin/partials/settings-page.php:821
+msgid "Max File Size (MB):"
+msgstr "Maks. Ukuran File (MB):"
+
+#: includes/admin/partials/settings-page.php:934
+msgid "Max Formula Length:"
+msgstr "Maks. Panjang Rumus:"
+
+#: includes/admin/partials/settings-page.php:630
+msgid "Max Image Size (MB):"
+msgstr "Maks. Ukuran Gambar (MB):"
+
+#: includes/admin/partials/settings-page.php:882
+msgid "Max Log Entries:"
+msgstr "Maks. Entri Log:"
+
+#: includes/admin/partials/step-2-mapping.php:801
+msgid "Max Price €"
+msgstr "Maks. Harga €"
+
+#: includes/admin/partials/settings-page.php:517
+msgid "Max Retries:"
+msgstr "Maks. Percobaan Ulang:"
+
+#: includes/admin/partials/step-2-mapping.php:978
+msgid "Max €"
+msgstr "Maks. €"
+
+#: includes/admin/partials/settings-page.php:619
+msgid "Media & Images"
+msgstr "Media & Gambar"
+
+#: includes/admin/partials/step-2-mapping.php:210
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1111
+msgid "Media Fields"
+msgstr "Bidang Media"
+
+#: includes/admin/partials/settings-page.php:541
+msgid "Memory & Processing"
+msgstr "Memori & Pemrosesan"
+
+#: includes/admin/partials/settings-page.php:548
+msgid "Memory Limit:"
+msgstr "Batas Memori:"
+
+#: includes/admin/partials/step-2-mapping.php:290
+msgid "Menu Order"
+msgstr "Urutan Menu"
+
+#: includes/admin/partials/step-2-mapping.php:1664
+#: includes/admin/partials/step-2-mapping.php:1931
+msgid "Menu Order:"
+msgstr "Urutan Menu:"
+
+#: includes/admin/partials/step-2-mapping.php:299
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1134
+msgid "Meta Description"
+msgstr "Meta Deskripsi"
+
+#: includes/admin/partials/step-2-mapping.php:300
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1135
+msgid "Meta Keywords"
+msgstr "Meta Kata Kunci"
+
+#: includes/admin/partials/step-2-mapping.php:298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1133
+msgid "Meta Title"
+msgstr "Meta Judul"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:363
+msgid "Microsoft Copilot API key or endpoint not configured."
+msgstr "Kunci API atau endpoint Microsoft Copilot belum dikonfigurasi."
+
+#: includes/admin/partials/step-2-mapping.php:794
+msgid "Min Price €"
+msgstr "Min. Harga €"
+
+#: includes/admin/partials/step-2-mapping.php:971
+msgid "Min €"
+msgstr "Min. €"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6982
+#, php-format
+msgid "Missing products cleanup completed: %1$d processed, %2$d errors."
+msgstr "Pembersihan produk yang hilang selesai: %1$d diproses, %2$d error."
+
+#: includes/admin/partials/settings-page.php:404
+#: includes/admin/partials/settings-page.php:423
+#: includes/admin/partials/settings-page.php:442
+#: includes/admin/partials/settings-page.php:461
+#: includes/admin/partials/settings-page.php:479
+msgid "Model:"
+msgstr "Model:"
+
+#: includes/admin/partials/import-edit.php:789
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:585
+msgid "Monthly"
+msgstr "Bulanan"
+
+#: includes/admin/partials/step-1-upload.php:146
+#: includes/admin/partials/step-2-mapping.php:421
+msgid "Monthly Import"
+msgstr "Impor Bulanan"
+
+#: includes/admin/partials/step-2-mapping.php:2560
+#: includes/admin/partials/import-edit.php:652
+msgid "Move non-matching products to Draft"
+msgstr "Pindahkan produk yang tidak cocok ke Draf"
+
+#: includes/admin/partials/step-1-upload.php:225
+#: includes/admin/partials/import-edit.php:226
+msgid "Move to Draft (Recommended)"
+msgstr "Pindahkan ke Draf (Disarankan)"
+
+#: includes/admin/partials/step-1-upload.php:228
+#: includes/admin/partials/import-edit.php:229
+msgid "Move to Trash (auto-delete after 30 days)"
+msgstr "Pindahkan ke Sampah (hapus otomatis setelah 30 hari)"
+
+#: includes/admin/partials/step-3-progress.php:461
+msgid "N/A"
+msgstr "T/A"
+
+#: includes/admin/partials/import-edit.php:92
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:558
+msgid "Name"
+msgstr "Nama"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Name Field:"
+msgstr "Bidang Nama:"
+
+#: includes/admin/partials/import-edit.php:154
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:635
+msgid "Never"
+msgstr "Tidak pernah"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:182
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:183
+msgid "New Import"
+msgstr "Impor Baru"
+
+#: includes/admin/partials/step-2-mapping.php:1137
+#: includes/admin/partials/step-2-mapping.php:1296
+msgid "New class name"
+msgstr "Nama kelas baru"
+
+#: includes/admin/partials/import-edit.php:306
+msgid "Next"
+msgstr "Berikutnya"
+
+#: includes/admin/partials/step-2-mapping.php:1853
+#: includes/admin/partials/step-2-mapping.php:2057
+#: includes/admin/partials/step-2-mapping.php:3163
+#: includes/admin/partials/step-2-mapping.php:3177
+#: includes/admin/partials/step-2-mapping.php:3191
+#: includes/admin/partials/step-2-mapping.php:3205
+msgid "No"
+msgstr "Tidak"
+
+#: includes/admin/partials/step-2-mapping.php:1402
+msgid "No additional configuration needed. Products will be imported as simple products."
+msgstr "Tidak perlu konfigurasi tambahan. Produk akan diimpor sebagai produk sederhana."
+
+#: includes/admin/partials/step-2-mapping.php:2981
+#: includes/admin/partials/step-2-mapping.php:3055
+#: includes/admin/partials/step-2-mapping.php:3086
+#: includes/admin/partials/step-2-mapping.php:3109
+#: includes/admin/partials/step-2-mapping.php:3133
+#: includes/admin/partials/step-2-mapping.php:3161
+#: includes/admin/partials/step-2-mapping.php:3175
+#: includes/admin/partials/step-2-mapping.php:3189
+#: includes/admin/partials/step-2-mapping.php:3203
+#: includes/admin/partials/step-2-mapping.php:3216
+#: includes/admin/partials/step-2-mapping.php:3275
+msgid "No change"
+msgstr "Tidak ada perubahan"
+
+#: includes/admin/partials/step-2-mapping.php:2607
+#: includes/admin/partials/import-edit.php:758
+msgid "No custom fields added yet. Click \"Add Custom Field\" to create one."
+msgstr "Belum ada bidang kustom yang ditambahkan. Klik \"Tambah Bidang Kustom\"."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1696
+msgid "No file provided."
+msgstr "Tidak ada file yang diberikan."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:104
+msgid "No file uploaded."
+msgstr "Tidak ada file yang diunggah."
+
+#: includes/admin/partials/step-2-mapping.php:2531
+#: includes/admin/partials/import-edit.php:635
+#: includes/admin/partials/import-edit.php:1248
+msgid "No filters added. All products will be imported."
+msgstr "Tidak ada filter yang ditambahkan. Semua produk akan diimpor."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:553
+msgid "No imports found."
+msgstr "Tidak ada impor yang ditemukan."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3488
+msgid "No logs found for this import."
+msgstr "Tidak ada log yang ditemukan untuk impor ini."
+
+#: includes/admin/partials/settings-page.php:801
+msgid "No manual intervention required"
+msgstr "Tidak memerlukan intervensi manual"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6871
+msgid "No missing products found."
+msgstr "Tidak ada produk yang hilang ditemukan."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:537
+msgid "No products found to delete."
+msgstr "Tidak ada produk yang ditemukan untuk dihapus."
+
+#: includes/admin/partials/step-2-mapping.php:782
+#: includes/admin/partials/step-2-mapping.php:959
+msgid "No rounding"
+msgstr "Tanpa pembulatan"
+
+#: includes/admin/partials/settings-page.php:708
+msgid "No server configuration needed, self-healing, processes full import automatically."
+msgstr "Tidak perlu konfigurasi server, self-healing, memproses impor penuh secara otomatis."
+
+#: includes/admin/partials/step-2-mapping.php:2011
+msgid "No shipping classes found. Create them in WooCommerce → Settings → Shipping"
+msgstr "Tidak ada kelas pengiriman ditemukan. Buat di WooCommerce → Pengaturan → Pengiriman"
+
+#: includes/admin/partials/import-edit.php:400
+msgid "No shipping classes found. Please create them in WooCommerce → Settings → Shipping → Shipping classes"
+msgstr "Tidak ada kelas pengiriman ditemukan. Buat di WooCommerce → Pengaturan → Pengiriman → Kelas pengiriman"
+
+#: includes/admin/partials/step-2-mapping.php:1323
+msgid "No shipping classes found. They will be created automatically during import, or create them in WooCommerce → Settings → Shipping → Shipping Classes."
+msgstr "Tidak ada kelas pengiriman ditemukan. Akan dibuat secara otomatis selama impor, atau buat di WooCommerce → Pengaturan → Pengiriman → Kelas Pengiriman."
+
+#: includes/admin/partials/step-2-mapping.php:3179
+msgid "No shipping needed"
+msgstr "Tidak perlu pengiriman"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4045
+msgid "No source fields provided"
+msgstr "Tidak ada bidang sumber yang diberikan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2324
+msgid "No source fields provided."
+msgstr "Tidak ada bidang sumber yang diberikan."
+
+#: includes/admin/partials/step-2-mapping.php:153
+msgid "None"
+msgstr "Tidak ada"
+
+#: includes/admin/partials/settings-page.php:703
+msgid "Not Available"
+msgstr "Tidak Tersedia"
+
+#: includes/admin/partials/step-2-mapping.php:1085
+msgid "Note: If you have a direct shipping_class field mapped above, it takes priority over these rules."
+msgstr "Catatan: Jika Anda memiliki bidang shipping_class yang dipetakan langsung di atas, itu memiliki prioritas di atas aturan ini."
+
+#: includes/admin/partials/settings-page.php:746
+msgid "Note: We recommend running every minute. The plugin will only process imports when their scheduled interval has passed."
+msgstr "Catatan: Kami menyarankan menjalankan setiap menit. Plugin hanya akan memproses impor ketika interval terjadwal telah berlalu."
+
+#: includes/admin/partials/settings-page.php:900
+msgid "Notification Email:"
+msgstr "Email Notifikasi:"
+
+#: includes/admin/partials/step-2-mapping.php:2688
+#: includes/admin/partials/import-edit.php:706
+#: includes/admin/partials/import-edit.php:1120
+msgid "Number"
+msgstr "Angka"
+
+#: includes/admin/partials/settings-page.php:561
+msgid "Number of lines to read from file at once."
+msgstr "Jumlah baris yang dibaca dari file sekaligus."
+
+#: includes/admin/partials/step-1-upload.php:203
+msgid "Number of products to process at once."
+msgstr "Jumlah produk yang diproses sekaligus."
+
+#: includes/admin/partials/settings-page.php:546
+msgid "Number of products to process in each batch."
+msgstr "Jumlah produk yang diproses di setiap batch."
+
+#: includes/admin/partials/step-2-mapping.php:636
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/partials/step-2-mapping.php:179
+msgid "On backorder"
+msgstr "Dalam pesanan"
+
+#: includes/admin/partials/step-3-progress.php:196
+msgid "Once configured, imports will continue automatically even if you close this page."
+msgstr "Setelah dikonfigurasi, impor akan berlanjut secara otomatis meskipun Anda menutup halaman ini."
+
+#: includes/admin/partials/step-2-mapping.php:2868
+msgid "Only for XML with &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt; structure"
+msgstr "Hanya untuk XML dengan struktur &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt;"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:117
+msgid "OpenAI API key not configured."
+msgstr "Kunci API OpenAI belum dikonfigurasi."
+
+#: includes/admin/partials/settings-page.php:397
+msgid "OpenAI Settings"
+msgstr "Pengaturan OpenAI"
+
+#: includes/admin/partials/step-2-mapping.php:2650
+#: includes/admin/partials/import-edit.php:587
+#: includes/admin/partials/import-edit.php:1192
+msgid "Operator"
+msgstr "Operator"
+
+#: includes/admin/partials/step-2-mapping.php:1979
+msgid "Optional: Calculate shipping class based on dimensions/weight when no direct mapping is set."
+msgstr "Opsional: Hitung kelas pengiriman berdasarkan dimensi/berat ketika tidak ada pemetaan langsung."
+
+#: includes/admin/partials/step-2-mapping.php:1803
+msgid "Optional: Link variation to parent by SKU"
+msgstr "Opsional: Hubungkan variasi ke induk berdasarkan SKU"
+
+#: includes/admin/partials/step-2-mapping.php:178
+msgid "Out of stock"
+msgstr "Habis"
+
+#: includes/admin/partials/step-2-mapping.php:2359
+#: includes/admin/partials/step-2-mapping.php:2706
+#: includes/admin/partials/step-2-mapping.php:2882
+#: includes/admin/partials/step-2-mapping.php:2922
+#: includes/admin/partials/step-2-mapping.php:3003
+#: includes/admin/partials/step-2-mapping.php:3296
+#: includes/admin/partials/import-edit.php:456
+#: includes/admin/partials/import-edit.php:713
+#: includes/admin/partials/import-edit.php:1127
+msgid "PHP Formula"
+msgstr "Rumus PHP"
+
+#: includes/admin/partials/step-2-mapping.php:2454
+msgid "PHP Formula (applied to AI result):"
+msgstr "Rumus PHP (diterapkan ke hasil AI):"
+
+#: includes/admin/partials/import-edit.php:507
+msgid "PHP Formula (executed first):"
+msgstr "Rumus PHP (dijalankan terlebih dahulu):"
+
+#: includes/admin/partials/step-2-mapping.php:1983
+#: includes/admin/partials/import-edit.php:372
+msgid "PHP Formula (return shipping class slug):"
+msgstr "Rumus PHP (kembalikan slug kelas pengiriman):"
+
+#: includes/admin/partials/step-2-mapping.php:2901
+#: includes/admin/partials/step-2-mapping.php:2941
+msgid "PHP Formula (runs first):"
+msgstr "Rumus PHP (jalan duluan):"
+
+#: includes/admin/partials/settings-page.php:915
+msgid "PHP Formula Security"
+msgstr "Keamanan Rumus PHP"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2600
+msgid "PHP Formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "Pemrosesan Rumus PHP adalah fitur PRO. Silakan tingkatkan untuk menggunakan fungsi ini."
+
+#: includes/admin/partials/step-2-mapping.php:2393
+#: includes/admin/partials/step-2-mapping.php:2717
+#: includes/admin/partials/step-2-mapping.php:2753
+#: includes/admin/partials/step-2-mapping.php:2781
+#: includes/admin/partials/step-2-mapping.php:2893
+#: includes/admin/partials/step-2-mapping.php:2933
+#: includes/admin/partials/import-edit.php:466
+#: includes/admin/partials/import-edit.php:727
+#: includes/admin/partials/import-edit.php:1141
+msgid "PHP Formula:"
+msgstr "Rumus PHP:"
+
+#: includes/admin/partials/step-2-mapping.php:3031
+#: includes/admin/partials/step-2-mapping.php:3323
+msgid "PHP Pre-processing:"
+msgstr "PHP Pra-pemrosesan:"
+
+#: includes/admin/partials/step-2-mapping.php:3617
+msgid "PHP Processing"
+msgstr "Pemrosesan PHP"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2645
+msgid "PHP formula test completed successfully."
+msgstr "Tes rumus PHP berhasil diselesaikan."
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:272
+msgid "PHP formulas are disabled in settings."
+msgstr "Rumus PHP dinonaktifkan di pengaturan."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:418
+msgid "PRO Feature"
+msgstr "Fitur PRO"
+
+#: includes/class-bfi-license-admin.php:17
+#: includes/class-bfi-license-admin.php:18
+msgid "PRO License"
+msgstr "Lisensi PRO"
+
+#: includes/admin/partials/step-2-mapping.php:2375
+msgid "PRO: Transform fields with PHP/AI"
+msgstr "PRO: Transformasi bidang dengan PHP/AI"
+
+#: includes/admin/partials/step-2-mapping.php:282
+msgid "Parent Product ID"
+msgstr "ID Produk Induk"
+
+#: includes/admin/partials/step-2-mapping.php:1529
+msgid "Parent SKU Column:"
+msgstr "Kolom SKU Induk:"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:513
+#, php-format
+msgid "Parent SKU column \"%s\" not found in CSV."
+msgstr "Kolom SKU Induk \"%s\" tidak ditemukan di CSV."
+
+#: includes/admin/partials/step-2-mapping.php:1542
+msgid "Parent SKU links variations to parent. Type column (values: \"variable\" or \"variation\") helps identify row types."
+msgstr "SKU Induk menghubungkan variasi ke induk. Kolom Type (nilai: \"variable\" atau \"variation\") membantu mengidentifikasi jenis baris."
+
+#: includes/admin/partials/step-2-mapping.php:1799
+msgid "Parent SKU:"
+msgstr "SKU Induk:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:97
+msgid "Parsing file structure..."
+msgstr "Mengurai struktur file..."
+
+#: includes/admin/partials/step-2-mapping.php:1748
+msgid "Path to attributes container in each variation (without { })"
+msgstr "Jalur ke wadah atribut di setiap variasi (tanpa { })"
+
+#: includes/admin/partials/step-2-mapping.php:1704
+msgid "Path to variation/attribute container. Examples:"
+msgstr "Jalur ke wadah variasi/atribut. Contoh:"
+
+#: includes/admin/partials/step-2-mapping.php:924
+#: includes/admin/partials/step-2-mapping.php:1269
+msgid "Pattern"
+msgstr "Pola"
+
+#: includes/admin/partials/step-3-progress.php:280
+msgid "Pause Import"
+msgstr "Jeda Impor"
+
+#: includes/admin/partials/step-2-mapping.php:128
+msgid "Pending Review"
+msgstr "Menunggu Tinjauan"
+
+#: includes/admin/partials/settings-page.php:119
+msgid "Performance"
+msgstr "Performa"
+
+#: includes/admin/partials/step-3-progress.php:425
+msgid "Performance Metrics"
+msgstr "Metrik Performa"
+
+#: includes/admin/partials/settings-page.php:536
+msgid "Performance Settings"
+msgstr "Pengaturan Performa"
+
+#: includes/admin/partials/step-1-upload.php:229
+#: includes/admin/partials/import-edit.php:230
+msgid "Permanently Delete (⚠️ DANGEROUS)"
+msgstr "Hapus Permanen (⚠️ BERBAHAYA)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3887
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3980
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4196
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4252
+msgid "Permission denied"
+msgstr "Izin ditolak"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6711
+#, php-format
+msgid "Phase 2 completed: %1$d relationships resolved, %2$d errors"
+msgstr "Fase 2 selesai: %1$d relasi diselesaikan, %2$d error"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6777
+#, php-format
+msgid "Phase 3 completed: %d variable products stock status synced"
+msgstr "Fase 3 selesai: %d status stok produk variabel disinkronkan"
+
+#: includes/admin/partials/step-2-mapping.php:195
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1098
+msgid "Physical Properties"
+msgstr "Properti Fisik"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2430
+#: includes/class-wc-xml-csv-ai-import-license.php:452
+msgid "Please enter a license key."
+msgstr "Silakan masukkan kunci lisensi."
+
+#: includes/admin/partials/step-2-mapping.php:633
+msgid "Please verify mapped fields before importing."
+msgstr "Harap verifikasi bidang yang dipetakan sebelum mengimpor."
+
+#: includes/admin/partials/step-2-mapping.php:1761
+msgid "Plugin will automatically create attributes: pa_size=L, pa_color=Black"
+msgstr "Plugin akan secara otomatis membuat atribut: pa_size=L, pa_color=Black"
+
+#: includes/admin/partials/step-2-mapping.php:2902
+#: includes/admin/partials/step-2-mapping.php:2942
+msgid "Pre-process with PHP"
+msgstr "Pra-proses dengan PHP"
+
+#: includes/admin/partials/step-3-progress.php:208
+#: includes/admin/partials/step-3-progress.php:784
+msgid "Preparing Import..."
+msgstr "Menyiapkan Impor..."
+
+#: includes/admin/partials/settings-page.php:657
+msgid "Preserve HTML in Descriptions"
+msgstr "Pertahankan HTML dalam Deskripsi"
+
+#: includes/admin/partials/step-2-mapping.php:2326
+msgid "Preview:"
+msgstr "Pratinjau:"
+
+#: includes/admin/partials/import-edit.php:301
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: includes/admin/partials/step-2-mapping.php:2977
+msgid "Price Adjustment:"
+msgstr "Penyesuaian Harga:"
+
+#: includes/admin/partials/step-2-mapping.php:135
+msgid "Price Markup"
+msgstr "Markup Harga"
+
+#: includes/admin/partials/step-2-mapping.php:853
+#: includes/admin/partials/step-2-mapping.php:1189
+msgid "Price Range"
+msgstr "Rentang Harga"
+
+#: includes/admin/partials/step-2-mapping.php:140
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1080
+msgid "Pricing Fields"
+msgstr "Bidang Harga"
+
+#: includes/admin/partials/step-2-mapping.php:737
+msgid "Pricing Rules"
+msgstr "Aturan Harga"
+
+#: includes/admin/partials/settings-page.php:371
+msgid "Priority support"
+msgstr "Dukungan prioritas"
+
+#: includes/admin/partials/step-1-upload.php:197
+#: includes/admin/partials/step-2-mapping.php:129
+msgid "Private"
+msgstr "Pribadi"
+
+#: includes/admin/partials/step-2-mapping.php:3640
+msgid "Pro Feature"
+msgstr "Fitur Pro"
+
+#: includes/admin/partials/step-2-mapping.php:3417
+msgid "Pro includes:"
+msgstr "Pro mencakup:"
+
+#: includes/admin/partials/step-1-upload.php:252
+#: includes/admin/partials/step-1-upload.php:449
+#: includes/admin/partials/step-1-upload.php:458
+msgid "Proceed to Field Mapping"
+msgstr "Lanjut ke Pemetaan Bidang"
+
+#: includes/admin/partials/import-edit.php:215
+msgid "Process products no longer in feed"
+msgstr "Proses produk yang tidak lagi ada di feed"
+
+#: includes/admin/partials/step-1-upload.php:217
+msgid "Process products that are no longer in feed"
+msgstr "Proses produk yang tidak lagi ada di feed"
+
+#: includes/admin/partials/step-3-progress.php:239
+#: includes/admin/partials/step-3-progress.php:326
+msgid "Processed"
+msgstr "Diproses"
+
+#: includes/admin/partials/import-edit.php:810
+msgid "Processes entire import in one request. 100% reliable but requires server cron setup."
+msgstr "Memproses seluruh impor dalam satu permintaan. 100% andal tetapi memerlukan pengaturan cron server."
+
+#: includes/admin/partials/step-2-mapping.php:463
+msgid "Processes entire import in one request. Requires server cron setup."
+msgstr "Memproses seluruh impor dalam satu permintaan. Memerlukan pengaturan cron server."
+
+#: includes/admin/partials/step-3-progress.php:211
+#: includes/admin/partials/step-3-progress.php:787
+msgid "Processing Products..."
+msgstr "Memproses Produk..."
+
+#: includes/admin/partials/step-3-progress.php:429
+msgid "Processing Speed"
+msgstr "Kecepatan Pemrosesan"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6825
+#, php-format
+msgid "Processing missing products with action: %s"
+msgstr "Memproses produk yang hilang dengan tindakan: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6914
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) marked as out of stock - no longer in feed."
+msgstr "Produk \"%1$s\" (SKU: %2$s) ditandai sebagai stok habis - tidak lagi ada di feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6904
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to draft - no longer in feed."
+msgstr "Produk \"%1$s\" (SKU: %2$s) dipindahkan ke draf - tidak lagi ada di feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6932
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to trash - no longer in feed."
+msgstr "Produk \"%1$s\" (SKU: %2$s) dipindahkan ke sampah - tidak lagi ada di feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6939
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) permanently deleted - no longer in feed."
+msgstr "Produk \"%1$s\" (SKU: %2$s) dihapus secara permanen - tidak lagi ada di feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6925
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) set to backorder - no longer in feed."
+msgstr "Produk \"%1$s\" (SKU: %2$s) diatur ke pesanan - tidak lagi ada di feed."
+
+#: includes/admin/partials/step-3-progress.php:356
+msgid "Product Activity Log"
+msgstr "Log Aktivitas Produk"
+
+#: includes/admin/partials/step-2-mapping.php:224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1125
+msgid "Product Categories"
+msgstr "Kategori Produk"
+
+#: includes/admin/partials/step-2-mapping.php:101
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1072
+msgid "Product Code (SKU)"
+msgstr "Kode Produk (SKU)"
+
+#: includes/admin/partials/settings-page.php:593
+msgid "Product Defaults"
+msgstr "Default Produk"
+
+#: includes/admin/partials/settings-page.php:637
+msgid "Product Features"
+msgstr "Fitur Produk"
+
+#: includes/admin/partials/step-2-mapping.php:267
+msgid "Product Identifiers"
+msgstr "Pengidentifikasi Produk"
+
+#: includes/admin/partials/step-2-mapping.php:213
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1114
+msgid "Product Images"
+msgstr "Gambar Produk"
+
+#: includes/admin/partials/step-2-mapping.php:106
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1073
+msgid "Product Name"
+msgstr "Nama Produk"
+
+#: includes/admin/partials/step-2-mapping.php:230
+msgid "Product Options"
+msgstr "Opsi Produk"
+
+#: includes/admin/partials/step-2-mapping.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1076
+msgid "Product Status"
+msgstr "Status Produk"
+
+#: includes/admin/partials/step-2-mapping.php:225
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1126
+msgid "Product Tags"
+msgstr "Tag Produk"
+
+#: includes/admin/partials/step-2-mapping.php:108
+msgid "Product Type"
+msgstr "Tipe Produk"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:697
+#, php-format
+msgid "Product does not match filters - will be imported as Draft (SKU: %s)"
+msgstr "Produk tidak cocok dengan filter - akan diimpor sebagai Draf (SKU: %s)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:711
+#, php-format
+msgid "Product matches filters - will be imported as Published (SKU: %s)"
+msgstr "Produk cocok dengan filter - akan diimpor sebagai Diterbitkan (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:2322
+msgid "Product name slug (first 20 chars)"
+msgstr "Slug nama produk (20 karakter pertama)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:701
+#, php-format
+msgid "Product skipped by import filters (SKU: %s)"
+msgstr "Produk dilewati oleh filter impor (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:117
+msgid "Product type. Auto-detected if grouped_products or external_url is mapped."
+msgstr "Tipe produk. Terdeteksi otomatis jika grouped_products atau external_url dipetakan."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2784
+#, php-format
+msgid "Product with ID %d not found."
+msgstr "Produk dengan ID %d tidak ditemukan."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:770
+#: includes/class-wc-xml-csv-ai-import-importer.php:960
+#, php-format
+msgid "Product with SKU \"%s\" already exists and update is disabled."
+msgstr "Produk dengan SKU \"%s\" sudah ada dan pembaruan dinonaktifkan."
+
+#: includes/admin/partials/step-2-mapping.php:348
+#: includes/admin/partials/import-edit.php:104
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:560
+msgid "Products"
+msgstr "Produk"
+
+#: includes/admin/partials/step-2-mapping.php:487
+msgid "Products per chunk (1-500). Higher = faster, but more memory."
+msgstr "Produk per chunk (1-500). Lebih tinggi = lebih cepat, tapi lebih banyak memori."
+
+#: includes/admin/partials/import-edit.php:278
+msgid "Products to process per chunk (1-500). Higher = faster, but more memory. Recommended: 50-200 for updates."
+msgstr "Produk yang diproses per chunk (1-500). Lebih tinggi = lebih cepat, tapi lebih banyak memori. Disarankan: 50-200 untuk pembaruan."
+
+#: includes/admin/partials/step-2-mapping.php:1386
+msgid "Products with variations like Size, Color"
+msgstr "Produk dengan variasi seperti Ukuran, Warna"
+
+#: includes/admin/partials/step-3-progress.php:314
+msgid "Progress"
+msgstr "Kemajuan"
+
+#: includes/admin/partials/settings-page.php:708
+#: includes/admin/partials/settings-page.php:720
+msgid "Pros:"
+msgstr "Kelebihan:"
+
+#: includes/admin/partials/step-1-upload.php:195
+#: includes/admin/partials/step-2-mapping.php:126
+msgid "Published"
+msgstr "Diterbitkan"
+
+#: includes/admin/partials/step-2-mapping.php:289
+msgid "Purchase Note"
+msgstr "Catatan Pembelian"
+
+#: includes/admin/partials/step-2-mapping.php:1951
+msgid "Quick Add Common Fields:"
+msgstr "Tambah Cepat Bidang Umum:"
+
+#: includes/admin/partials/step-2-mapping.php:2321
+msgid "Random 6-char string"
+msgstr "String acak 6-karakter"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:91
+msgid "Rate limit exceeded. Please wait before making another request."
+msgstr "Batas permintaan terlampaui. Harap tunggu sebelum membuat permintaan lagi."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:649
+msgid "Re-run"
+msgstr "Jalankan ulang"
+
+#: includes/admin/partials/step-2-mapping.php:1733
+msgid "Read all attributes from XML automatically"
+msgstr "Baca semua atribut dari XML secara otomatis"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3584
+msgid "Real-time import progress tracking"
+msgstr "Pelacakan progres impor secara real-time"
+
+#: includes/admin/partials/step-3-progress.php:533
+msgid "Recent Errors:"
+msgstr "Error Terbaru:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3958
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3986
+msgid "Recipe ID is required"
+msgstr "ID Resep diperlukan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3997
+msgid "Recipe deleted successfully"
+msgstr "Resep berhasil dihapus"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3969
+msgid "Recipe loaded successfully"
+msgstr "Resep berhasil dimuat"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3895
+msgid "Recipe name is required"
+msgstr "Nama Resep diperlukan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3964
+msgid "Recipe not found"
+msgstr "Resep tidak ditemukan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3939
+msgid "Recipe saved successfully"
+msgstr "Resep berhasil disimpan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3938
+msgid "Recipe updated successfully"
+msgstr "Resep berhasil diperbarui"
+
+#: includes/admin/partials/settings-page.php:701
+#: includes/admin/partials/step-2-mapping.php:453
+#: includes/admin/partials/import-edit.php:800
+msgid "Recommended"
+msgstr "Disarankan"
+
+#: includes/admin/partials/step-2-mapping.php:396
+#: includes/admin/partials/import-edit.php:203
+msgid "Reduces import time by skipping products that haven't changed."
+msgstr "Mengurangi waktu impor dengan melewati produk yang tidak berubah."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3439
+msgid "Refresh"
+msgstr "Segarkan"
+
+#: includes/admin/partials/settings-page.php:772
+msgid "Regenerate"
+msgstr "Regenerasi"
+
+#: includes/admin/partials/step-2-mapping.php:142
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1082
+msgid "Regular Price"
+msgstr "Harga Reguler"
+
+#: includes/admin/partials/step-2-mapping.php:1594
+#: includes/admin/partials/step-2-mapping.php:1816
+msgid "Regular Price:"
+msgstr "Harga Reguler:"
+
+#: includes/admin/partials/step-2-mapping.php:1362
+msgid "Regular products without variations or attributes"
+msgstr "Produk reguler tanpa variasi atau atribut"
+
+#: includes/admin/partials/step-3-progress.php:243
+msgid "Remaining"
+msgstr "Tersisa"
+
+#: includes/admin/partials/step-2-mapping.php:3632
+msgid "Remote URL Import"
+msgstr "Impor URL Jarak Jauh"
+
+#: includes/admin/partials/import-edit.php:718
+#: includes/admin/partials/import-edit.php:1132
+msgid "Remove"
+msgstr "Hapus"
+
+#: includes/admin/partials/step-2-mapping.php:2819
+msgid "Remove Custom Field"
+msgstr "Hapus Bidang Kustom"
+
+#: includes/admin/partials/step-2-mapping.php:2674
+msgid "Remove Filter"
+msgstr "Hapus Filter"
+
+#: includes/admin/partials/step-2-mapping.php:927
+#: includes/admin/partials/step-2-mapping.php:1272
+msgid "Remove condition"
+msgstr "Hapus kondisi"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1961
+#, php-format
+msgid "Required field \"%s\" is missing or empty."
+msgstr "Bidang wajib \"%s\" tidak ada atau kosong."
+
+#: includes/admin/partials/settings-page.php:722
+msgid "Requires server access to configure crontab."
+msgstr "Memerlukan akses server untuk mengkonfigurasi crontab."
+
+#: includes/admin/partials/settings-page.php:710
+msgid "Requires some website traffic to trigger (or WP-Cron)."
+msgstr "Memerlukan beberapa lalu lintas situs web untuk memicu (atau WP-Cron)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1200
+msgid "Reset and import all products"
+msgstr "Reset dan impor semua produk"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6630
+#, php-format
+msgid "Resolved grouped product ID %1$d with %2$d children"
+msgstr "Produk grup ID %1$d diselesaikan dengan %2$d anak"
+
+#: includes/admin/partials/import-edit.php:513
+msgid "Result will be passed to AI"
+msgstr "Hasil akan diteruskan ke AI"
+
+#: includes/admin/partials/step-2-mapping.php:1483
+msgid "Result: Attribute \"Colour\" with value \"Blue\""
+msgstr "Hasil: Atribut \"Colour\" dengan nilai \"Blue\""
+
+#: includes/admin/partials/step-3-progress.php:289
+msgid "Resume Import"
+msgstr "Lanjutkan Impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1162
+msgid "Resume Import?"
+msgstr "Lanjutkan Impor?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1190
+#, php-format
+msgid "Resume from product %d"
+msgstr "Lanjutkan dari produk %d"
+
+#: includes/admin/partials/step-3-progress.php:298
+#: includes/admin/partials/step-3-progress.php:549
+msgid "Retry Import"
+msgstr "Coba Ulang Impor"
+
+#: includes/admin/partials/step-2-mapping.php:253
+msgid "Reviews Allowed"
+msgstr "Ulasan Diizinkan"
+
+#: includes/admin/partials/step-2-mapping.php:779
+#: includes/admin/partials/step-2-mapping.php:955
+msgid "Round to"
+msgstr "Bulatkan ke"
+
+#: includes/admin/partials/step-2-mapping.php:3039
+msgid "Round to nearest .99"
+msgstr "Bulatkan ke .99 terdekat"
+
+#: includes/admin/partials/step-2-mapping.php:2319
+msgid "Row number (1, 2, 3...)"
+msgstr "Nomor baris (1, 2, 3...)"
+
+#: includes/admin/partials/step-2-mapping.php:729
+msgid "Rule Priority:"
+msgstr "Prioritas Aturan:"
+
+#: includes/admin/partials/step-2-mapping.php:1157
+msgid "Rule name (e.g., Heavy items)"
+msgstr "Nama aturan (mis. Barang berat)"
+
+#: includes/admin/partials/step-2-mapping.php:822
+msgid "Rule name (optional)"
+msgstr "Nama aturan (opsional)"
+
+#: includes/admin/partials/step-2-mapping.php:700
+msgid "Rules are evaluated from top to bottom. First matching rule wins (or use \"Apply All\" mode)."
+msgstr "Aturan dievaluasi dari atas ke bawah. Aturan pertama yang cocok menang (atau gunakan mode \"Terapkan Semua\")."
+
+#: includes/admin/partials/step-2-mapping.php:1084
+msgid "Rules are evaluated from top to bottom. First matching rule wins. The assigned shipping class will be created automatically if it doesn't exist."
+msgstr "Aturan dievaluasi dari atas ke bawah. Aturan pertama yang cocok menang. Kelas pengiriman yang ditugaskan akan dibuat secara otomatis jika tidak ada."
+
+#: includes/admin/partials/step-2-mapping.php:730
+msgid "Rules are evaluated top to bottom. First matching rule applies. Avoid overlapping conditions."
+msgstr "Aturan dievaluasi dari atas ke bawah. Aturan pertama yang cocok diterapkan. Hindari kondisi yang tumpang tindih."
+
+#: includes/admin/partials/step-2-mapping.php:296
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1131
+msgid "SEO Fields"
+msgstr "Bidang SEO"
+
+#: includes/admin/partials/step-2-mapping.php:1194
+msgid "SKU Pattern"
+msgstr "Pola SKU"
+
+#: includes/admin/partials/step-2-mapping.php:2309
+msgid "SKU Pattern:"
+msgstr "Pola SKU:"
+
+#: includes/admin/partials/step-2-mapping.php:3105
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/admin/partials/step-2-mapping.php:1602
+#: includes/admin/partials/step-2-mapping.php:1824
+msgid "Sale Date From:"
+msgstr "Tanggal Mulai Diskon:"
+
+#: includes/admin/partials/step-2-mapping.php:1606
+#: includes/admin/partials/step-2-mapping.php:1828
+msgid "Sale Date To:"
+msgstr "Tanggal Akhir Diskon:"
+
+#: includes/admin/partials/step-2-mapping.php:143
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1083
+msgid "Sale Price"
+msgstr "Harga Diskon"
+
+#: includes/admin/partials/step-2-mapping.php:144
+msgid "Sale Price From Date"
+msgstr "Tanggal Mulai Harga Diskon"
+
+#: includes/admin/partials/step-2-mapping.php:145
+msgid "Sale Price To Date"
+msgstr "Tanggal Akhir Harga Diskon"
+
+#: includes/admin/partials/step-2-mapping.php:1598
+#: includes/admin/partials/step-2-mapping.php:1820
+#: includes/admin/partials/step-2-mapping.php:3082
+msgid "Sale Price:"
+msgstr "Harga Diskon:"
+
+#: includes/admin/partials/import-edit.php:310
+msgid "Sample Data"
+msgstr "Data Contoh"
+
+#: includes/admin/partials/import-edit.php:312
+msgid "Sample product data will appear here after loading the file structure."
+msgstr "Data produk contoh akan muncul di sini setelah memuat struktur file."
+
+#: includes/admin/partials/step-2-mapping.php:530
+#: includes/admin/partials/step-2-mapping.php:2621
+msgid "Save"
+msgstr "Simpan"
+
+#: includes/admin/partials/import-edit.php:878
+msgid "Save Changes"
+msgstr "Simpan perubahan"
+
+#: includes/admin/partials/step-2-mapping.php:528
+msgid "Save Template"
+msgstr "Simpan Template"
+
+#: includes/admin/partials/step-2-mapping.php:567
+msgid "Save and reuse mapping configurations across imports. Available in PRO version."
+msgstr "Simpan dan gunakan kembali konfigurasi pemetaan di seluruh impor. Tersedia di versi PRO."
+
+#: includes/admin/partials/step-2-mapping.php:521
+msgid "Save current mapping as template:"
+msgstr "Simpan pemetaan saat ini sebagai template:"
+
+#: includes/admin/partials/step-2-mapping.php:3608
+msgid "Save your field mappings as reusable templates. Perfect for recurring imports from the same source."
+msgstr "Simpan pemetaan bidang Anda sebagai template yang dapat digunakan kembali. Sempurna untuk impor berulang dari sumber yang sama."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:562
+msgid "Schedule"
+msgstr "Jadwal"
+
+#: includes/admin/partials/import-edit.php:780
+msgid "Schedule Interval"
+msgstr "Interval Jadwal"
+
+#: includes/admin/partials/step-2-mapping.php:441
+#: includes/admin/partials/import-edit.php:794
+msgid "Schedule Method"
+msgstr "Metode Jadwal"
+
+#: includes/admin/partials/step-1-upload.php:138
+#: includes/admin/partials/step-1-upload.php:153
+msgid "Schedule Type"
+msgstr "Tipe Jadwal"
+
+#: includes/admin/partials/import-edit.php:864
+msgid "Schedule automatic imports to run at regular intervals. Keep your products always up-to-date without manual intervention."
+msgstr "Jadwalkan impor otomatis untuk berjalan pada interval teratur. Jaga produk Anda selalu terbaru tanpa intervensi manual."
+
+#: includes/admin/partials/step-3-progress.php:269
+msgid "Schedule:"
+msgstr "Jadwal:"
+
+#: includes/admin/partials/step-3-progress.php:191
+msgid "Schedule: Every minute"
+msgstr "Jadwal: Setiap menit"
+
+#: includes/admin/partials/step-2-mapping.php:407
+msgid "Scheduled Import"
+msgstr "Impor Terjadwal"
+
+#: includes/admin/partials/settings-page.php:791
+#: includes/admin/partials/step-2-mapping.php:3421
+#: includes/admin/partials/step-2-mapping.php:3602
+msgid "Scheduled Imports"
+msgstr "Impor Terjadwal"
+
+#: includes/admin/partials/settings-page.php:667
+msgid "Scheduled Imports (Cron)"
+msgstr "Impor Terjadwal (Cron)"
+
+#: includes/admin/partials/settings-page.php:326
+msgid "Scheduled imports (cron)"
+msgstr "Impor terjadwal (cron)"
+
+#: includes/admin/partials/settings-page.php:121
+msgid "Scheduling"
+msgstr "Penjadwalan"
+
+#: includes/admin/partials/settings-page.php:690
+msgid "Scheduling Method"
+msgstr "Metode Penjadwalan"
+
+#: includes/admin/partials/settings-page.php:124
+msgid "Security"
+msgstr "Keamanan"
+
+#: includes/admin/partials/settings-page.php:910
+msgid "Security Settings"
+msgstr "Pengaturan Keamanan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4190
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4246
+msgid "Security check failed"
+msgstr "Pemeriksaan keamanan gagal"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1509
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1806
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1901
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1994
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2155
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2219
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2293
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2418
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2457
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2488
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2588
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2671
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2820
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3637
+#: includes/class-wc-xml-csv-ai-import-security.php:82
+msgid "Security check failed."
+msgstr "Pemeriksaan keamanan gagal."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:729
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:755
+msgid "Security check failed. Please try again."
+msgstr "Pemeriksaan keamanan gagal. Silakan coba lagi."
+
+#: includes/admin/partials/step-1-upload.php:68
+msgid "Select File"
+msgstr "Pilih File"
+
+#: includes/admin/partials/step-1-upload.php:122
+msgid "Select file type manually for URLs without file extension (e.g., API feeds)."
+msgstr "Pilih jenis file secara manual untuk URL tanpa ekstensi file (mis. feed API)."
+
+#: includes/admin/partials/step-2-mapping.php:716
+msgid "Select the XML field that contains the supplier/wholesale price"
+msgstr "Pilih bidang XML yang berisi harga pemasok/grosir"
+
+#: includes/admin/partials/settings-page.php:311
+msgid "Select which fields to update"
+msgstr "Pilih bidang mana yang akan diperbarui"
+
+#: includes/admin/partials/step-2-mapping.php:461
+#: includes/admin/partials/import-edit.php:808
+msgid "Server Cron"
+msgstr "Cron Server"
+
+#: includes/admin/partials/settings-page.php:716
+msgid "Server Cron (URL Trigger)"
+msgstr "Cron Server (Pemicu URL)"
+
+#: includes/admin/partials/import-edit.php:822
+msgid "Server Cron Setup"
+msgstr "Pengaturan Cron Server"
+
+#: includes/admin/partials/settings-page.php:735
+msgid "Server Cron Setup Instructions"
+msgstr "Instruksi Pengaturan Cron Server"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:120
+msgid "Server error during upload."
+msgstr "Kesalahan server saat mengunggah."
+
+#: includes/admin/partials/step-3-progress.php:183
+msgid "Set up a cron job to continue imports in the background, even when the browser is closed."
+msgstr "Atur cron job untuk melanjutkan impor di latar belakang, bahkan ketika browser ditutup."
+
+#: includes/admin/partials/settings-page.php:798
+msgid "Set up automatic import schedules"
+msgstr "Atur jadwal impor otomatis"
+
+#: includes/admin/partials/step-2-mapping.php:3603
+msgid "Set up automatic imports on a schedule. Keep your products updated from supplier feeds without manual intervention."
+msgstr "Atur impor otomatis sesuai jadwal. Jaga produk Anda tetap diperbarui dari feed pemasok tanpa intervensi manual."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:201
+#: bootflow-product-importer.php:153
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: includes/admin/partials/settings-page.php:98
+msgid "Settings saved successfully!"
+msgstr "Pengaturan berhasil disimpan!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1494
+msgid "Settings saved successfully."
+msgstr "Pengaturan berhasil disimpan."
+
+#: includes/admin/partials/step-2-mapping.php:201
+msgid "Shipping Class"
+msgstr "Kelas Pengiriman"
+
+#: includes/admin/partials/import-edit.php:366
+msgid "Shipping Class Assignment"
+msgstr "Penetapan Kelas Pengiriman"
+
+#: includes/admin/partials/step-2-mapping.php:205
+#: includes/admin/partials/step-2-mapping.php:1099
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1107
+msgid "Shipping Class Rules"
+msgstr "Aturan Kelas Pengiriman"
+
+#: includes/admin/partials/step-2-mapping.php:1656
+#: includes/admin/partials/step-2-mapping.php:1923
+#: includes/admin/partials/step-2-mapping.php:3272
+msgid "Shipping Class:"
+msgstr "Kelas Pengiriman:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2832
+msgid "Shipping formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "Pemrosesan rumus pengiriman adalah fitur PRO. Silakan tingkatkan."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2858
+msgid "Shipping formula test completed successfully."
+msgstr "Tes rumus pengiriman berhasil."
+
+#: includes/admin/partials/step-2-mapping.php:152
+msgid "Shipping only"
+msgstr "Hanya pengiriman"
+
+#: includes/admin/partials/step-2-mapping.php:120
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1075
+msgid "Short Description"
+msgstr "Deskripsi Singkat"
+
+#: includes/admin/partials/settings-page.php:402
+#: includes/admin/partials/settings-page.php:421
+#: includes/admin/partials/settings-page.php:440
+#: includes/admin/partials/settings-page.php:459
+#: includes/admin/partials/settings-page.php:477
+#: includes/admin/partials/settings-page.php:980
+msgid "Show"
+msgstr "Tampilkan"
+
+#: includes/admin/partials/step-3-progress.php:186
+msgid "Show cron setup instructions"
+msgstr "Tampilkan instruksi pengaturan cron"
+
+#: includes/admin/partials/step-2-mapping.php:3165
+msgid "Show on frontend"
+msgstr "Tampilkan di frontend"
+
+#: includes/admin/partials/step-2-mapping.php:112
+msgid "Simple"
+msgstr "Sederhana"
+
+#: includes/admin/partials/settings-page.php:279
+msgid "Simple & variable products"
+msgstr "Produk sederhana & variabel"
+
+#: includes/admin/partials/step-2-mapping.php:1360
+msgid "Simple Products"
+msgstr "Produk Sederhana"
+
+#: includes/admin/partials/step-2-mapping.php:1400
+msgid "Simple Products Mode"
+msgstr "Mode Produk Sederhana"
+
+#: includes/admin/partials/step-2-mapping.php:389
+#: includes/admin/partials/import-edit.php:196
+msgid "Skip Unchanged Products"
+msgstr "Lewati Produk yang Tidak Berubah"
+
+#: includes/admin/partials/step-1-upload.php:181
+#: includes/admin/partials/step-2-mapping.php:394
+#: includes/admin/partials/import-edit.php:201
+msgid "Skip products if data unchanged"
+msgstr "Lewati produk jika data tidak berubah"
+
+#: includes/admin/partials/step-1-upload.php:183
+msgid "Skip updating products if mapped data hasn't changed."
+msgstr "Lewati pembaruan produk jika data yang dipetakan tidak berubah."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:785
+#, php-format
+msgid "Skipped product (unchanged): %1$s (ID: %2$d)"
+msgstr "Produk dilewati (tidak berubah): %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:248
+msgid "Sold Individually"
+msgstr "Dijual Satuan"
+
+#: includes/admin/partials/step-2-mapping.php:1431
+#: includes/admin/partials/step-2-mapping.php:2189
+msgid "Standard"
+msgstr "Standar"
+
+#: includes/admin/partials/step-2-mapping.php:2625
+msgid "Start Import"
+msgstr "Mulai impor"
+
+#: includes/admin/partials/step-3-progress.php:499
+msgid "Start New Import"
+msgstr "Mulai Impor Baru"
+
+#: includes/admin/partials/step-3-progress.php:554
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1199
+msgid "Start Over"
+msgstr "Mulai Ulang"
+
+#: includes/admin/partials/step-3-progress.php:259
+msgid "Started:"
+msgstr "Dimulai:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6593
+msgid "Starting Phase 2: Resolving product relationships..."
+msgstr "Memulai Fase 2: Menyelesaikan relasi produk..."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6725
+msgid "Starting Phase 3: Syncing variable products stock status..."
+msgstr "Memulai Fase 3: Menyinkronkan status stok produk variabel..."
+
+#: includes/admin/partials/import-edit.php:100
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:561
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/partials/step-2-mapping.php:1660
+#: includes/admin/partials/step-2-mapping.php:1927
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/admin/partials/step-1-upload.php:25
+msgid "Step 1: Upload File"
+msgstr "Langkah 1: Unggah File"
+
+#: includes/admin/partials/settings-page.php:753
+msgid "Step 2 (Optional): Disable WP-Cron"
+msgstr "Langkah 2 (Opsional): Nonaktifkan WP-Cron"
+
+#: includes/admin/partials/step-2-mapping.php:494
+msgid "Step 2: Field Mapping & Processing"
+msgstr "Langkah 2: Pemetaan Bidang & Pemrosesan"
+
+#: includes/admin/partials/step-2-mapping.php:3051
+msgid "Stock Adjustment:"
+msgstr "Penyesuaian Stok:"
+
+#: includes/admin/partials/step-2-mapping.php:171
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1092
+msgid "Stock Quantity"
+msgstr "Jumlah Stok"
+
+#: includes/admin/partials/step-2-mapping.php:1610
+#: includes/admin/partials/step-2-mapping.php:1832
+msgid "Stock Quantity:"
+msgstr "Jumlah Stok:"
+
+#: includes/admin/partials/step-2-mapping.php:173
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1093
+msgid "Stock Status"
+msgstr "Status Stok"
+
+#: includes/admin/partials/step-2-mapping.php:1614
+#: includes/admin/partials/step-2-mapping.php:1836
+msgid "Stock Status:"
+msgstr "Status Stok:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:645
+msgid "Stop"
+msgstr "Berhenti"
+
+#: includes/admin/partials/step-3-progress.php:284
+#: includes/admin/partials/step-3-progress.php:293
+msgid "Stop Import"
+msgstr "Hentikan Impor"
+
+#: includes/admin/partials/step-3-progress.php:467
+msgid "Success Rate"
+msgstr "Tingkat Keberhasilan"
+
+#: includes/admin/partials/step-3-progress.php:489
+#, php-format
+msgid "Successfully imported %1$d out of %2$d products."
+msgstr "Berhasil mengimpor %1$d dari %2$d produk."
+
+#: includes/admin/partials/step-2-mapping.php:3110
+msgid "Suffix"
+msgstr "Akhiran"
+
+#: includes/admin/partials/step-2-mapping.php:896
+msgid "Supplier name"
+msgstr "Nama pemasok"
+
+#: includes/admin/partials/step-2-mapping.php:157
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1085
+msgid "Tax Class"
+msgstr "Kelas Pajak"
+
+#: includes/admin/partials/step-2-mapping.php:1919
+msgid "Tax Class:"
+msgstr "Kelas Pajak:"
+
+#: includes/admin/partials/step-2-mapping.php:147
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1084
+msgid "Tax Status"
+msgstr "Status Pajak"
+
+#: includes/admin/partials/step-2-mapping.php:151
+msgid "Taxable"
+msgstr "Kena Pajak"
+
+#: includes/admin/partials/step-2-mapping.php:2427
+#: includes/admin/partials/step-2-mapping.php:2745
+#: includes/admin/partials/import-edit.php:501
+msgid "Test AI"
+msgstr "Tes AI"
+
+#: includes/admin/partials/step-2-mapping.php:1007
+msgid "Test Base Price:"
+msgstr "Harga Dasar Tes:"
+
+#: includes/admin/partials/settings-page.php:504
+msgid "Test Connection"
+msgstr "Tes Koneksi"
+
+#: includes/admin/partials/step-2-mapping.php:2785
+msgid "Test Hybrid"
+msgstr "Tes Hibrida"
+
+#: includes/admin/partials/step-2-mapping.php:647
+#: includes/admin/partials/import-edit.php:335
+msgid "Test Mapping"
+msgstr "Tes Pemetaan"
+
+#: includes/admin/partials/step-2-mapping.php:2760
+msgid "Test PHP"
+msgstr "Tes PHP"
+
+#: includes/admin/partials/step-2-mapping.php:2404
+#: includes/admin/partials/import-edit.php:478
+msgid "Test PHP Formula"
+msgstr "Tes Rumus PHP"
+
+#: includes/admin/partials/step-2-mapping.php:1993
+#: includes/admin/partials/import-edit.php:382
+msgid "Test Shipping Formula"
+msgstr "Tes Rumus Pengiriman"
+
+#: includes/admin/partials/step-1-upload.php:109
+msgid "Test URL"
+msgstr "Tes URL"
+
+#: includes/admin/partials/step-2-mapping.php:999
+msgid "Test with Rule:"
+msgstr "Tes dengan Aturan:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:102
+msgid "Testing AI provider..."
+msgstr "Menguji penyedia AI..."
+
+#: includes/admin/partials/step-2-mapping.php:2687
+#: includes/admin/partials/import-edit.php:705
+#: includes/admin/partials/import-edit.php:1119
+msgid "Text"
+msgstr "Teks"
+
+#: includes/admin/partials/step-2-mapping.php:2689
+#: includes/admin/partials/import-edit.php:707
+#: includes/admin/partials/import-edit.php:1121
+msgid "Textarea"
+msgstr "Textarea"
+
+#: includes/admin/partials/step-1-upload.php:132
+msgid "The XML element name that contains individual product data (e.g., \"product\", \"item\", \"goods\"). Leave as \"product\" for CSV files."
+msgstr "Nama elemen XML yang berisi data produk individual (mis. \"product\", \"item\", \"goods\"). Biarkan sebagai \"product\" untuk file CSV."
+
+#: includes/admin/partials/step-3-progress.php:523
+msgid "The import process encountered an error and could not be completed. Please check the logs below for more details."
+msgstr "Proses impor mengalami kesalahan dan tidak dapat diselesaikan. Periksa log di bawah untuk detail lebih lanjut."
+
+#: includes/admin/partials/step-2-mapping.php:2904
+#: includes/admin/partials/step-2-mapping.php:2944
+msgid "Then process with AI"
+msgstr "Kemudian proses dengan AI"
+
+#: includes/admin/partials/step-2-mapping.php:2970
+msgid "These settings apply to ALL variations created from this attribute. Leave as \"No change\" to use parent product values."
+msgstr "Pengaturan ini berlaku untuk SEMUA variasi yang dibuat dari atribut ini. Biarkan sebagai \"Tidak ada perubahan\" untuk menggunakan nilai produk induk."
+
+#: includes/admin/partials/step-2-mapping.php:3641
+msgid "This feature is available in the Pro version. Upgrade to unlock all advanced features."
+msgstr "Fitur ini tersedia di versi Pro. Tingkatkan untuk membuka semua fitur lanjutan."
+
+#: includes/admin/partials/step-2-mapping.php:2015
+msgid "This formula is used only when no direct mapping is set above. Leave empty to skip."
+msgstr "Rumus ini hanya digunakan ketika tidak ada pemetaan langsung di atas. Biarkan kosong untuk melewati."
+
+#: includes/admin/partials/import-edit.php:325
+msgid "This import needs to be configured. Please select source fields from the dropdowns below, configure processing modes, and click \"Save Changes\" to activate this import."
+msgstr "Impor ini perlu dikonfigurasi. Pilih bidang sumber dari dropdown, konfigurasikan mode pemrosesan, dan klik \"Simpan Perubahan\" untuk mengaktifkan."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1179
+msgid "This import was previously started. Would you like to:"
+msgstr "Impor ini sebelumnya telah dimulai. Apakah Anda ingin:"
+
+#: includes/admin/partials/settings-page.php:781
+msgid "This is the URL that the cron job will call to trigger scheduled imports."
+msgstr "Ini adalah URL yang akan dipanggil oleh cron job untuk memicu impor terjadwal."
+
+#: includes/class-wc-xml-csv-ai-import-activator.php:29
+msgid "This plugin requires WooCommerce to be installed and active."
+msgstr "Plugin ini memerlukan WooCommerce terinstal dan aktif."
+
+#: includes/admin/partials/settings-page.php:774
+msgid "This secret key protects your cron endpoint from unauthorized access."
+msgstr "Kunci rahasia ini melindungi endpoint cron Anda dari akses tidak sah."
+
+#: includes/admin/partials/step-3-progress.php:330
+msgid "Total"
+msgstr "Total"
+
+#: includes/admin/partials/step-3-progress.php:235
+msgid "Total Products"
+msgstr "Total Produk"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3576
+msgid "Track every import in detail. Monitor progress, debug issues, and ensure data quality with comprehensive logging."
+msgstr "Lacak setiap impor secara detail. Pantau progres, debug masalah, dan pastikan kualitas data dengan pencatatan komprehensif."
+
+#: includes/admin/partials/step-2-mapping.php:3207
+msgid "Track inventory"
+msgstr "Lacak inventaris"
+
+#: includes/admin/partials/step-2-mapping.php:2377
+msgid "Transform or translate ANY field value during import using PHP formulas, AI processing, or Hybrid mode."
+msgstr "Transformasi atau terjemahkan SETIAP nilai bidang selama impor menggunakan rumus PHP, pemrosesan AI, atau mode Hibrida."
+
+#: includes/admin/partials/settings-page.php:361
+msgid "Translate product data with AI"
+msgstr "Terjemahkan data produk dengan AI"
+
+#: includes/admin/partials/step-2-mapping.php:338
+msgid "Type"
+msgstr "Tipe"
+
+#: includes/admin/partials/step-2-mapping.php:1535
+msgid "Type Column:"
+msgstr "Kolom Tipe:"
+
+#: includes/admin/partials/step-2-mapping.php:1587
+#: includes/admin/partials/step-2-mapping.php:1591
+#: includes/admin/partials/step-2-mapping.php:1595
+#: includes/admin/partials/step-2-mapping.php:1599
+#: includes/admin/partials/step-2-mapping.php:1603
+#: includes/admin/partials/step-2-mapping.php:1607
+#: includes/admin/partials/step-2-mapping.php:1611
+#: includes/admin/partials/step-2-mapping.php:1615
+#: includes/admin/partials/step-2-mapping.php:1619
+#: includes/admin/partials/step-2-mapping.php:1623
+#: includes/admin/partials/step-2-mapping.php:1627
+#: includes/admin/partials/step-2-mapping.php:1631
+#: includes/admin/partials/step-2-mapping.php:1634
+#: includes/admin/partials/step-2-mapping.php:1637
+#: includes/admin/partials/step-2-mapping.php:1641
+#: includes/admin/partials/step-2-mapping.php:1645
+#: includes/admin/partials/step-2-mapping.php:1649
+#: includes/admin/partials/step-2-mapping.php:1653
+#: includes/admin/partials/step-2-mapping.php:1657
+#: includes/admin/partials/step-2-mapping.php:1661
+#: includes/admin/partials/step-2-mapping.php:1665
+msgid "Type { to see columns"
+msgstr "Ketik { untuk melihat kolom"
+
+#: includes/admin/partials/step-2-mapping.php:1801
+#: includes/admin/partials/step-2-mapping.php:1809
+#: includes/admin/partials/step-2-mapping.php:1813
+#: includes/admin/partials/step-2-mapping.php:1817
+#: includes/admin/partials/step-2-mapping.php:1821
+#: includes/admin/partials/step-2-mapping.php:1825
+#: includes/admin/partials/step-2-mapping.php:1829
+#: includes/admin/partials/step-2-mapping.php:1833
+#: includes/admin/partials/step-2-mapping.php:1837
+#: includes/admin/partials/step-2-mapping.php:1841
+#: includes/admin/partials/step-2-mapping.php:1845
+#: includes/admin/partials/step-2-mapping.php:1850
+#: includes/admin/partials/step-2-mapping.php:1862
+#: includes/admin/partials/step-2-mapping.php:1872
+#: includes/admin/partials/step-2-mapping.php:1880
+#: includes/admin/partials/step-2-mapping.php:1883
+#: includes/admin/partials/step-2-mapping.php:1887
+#: includes/admin/partials/step-2-mapping.php:1891
+#: includes/admin/partials/step-2-mapping.php:1895
+#: includes/admin/partials/step-2-mapping.php:1899
+#: includes/admin/partials/step-2-mapping.php:1903
+#: includes/admin/partials/step-2-mapping.php:1907
+#: includes/admin/partials/step-2-mapping.php:1912
+#: includes/admin/partials/step-2-mapping.php:1920
+#: includes/admin/partials/step-2-mapping.php:1924
+#: includes/admin/partials/step-2-mapping.php:1928
+#: includes/admin/partials/step-2-mapping.php:1932
+msgid "Type { to see fields"
+msgstr "Ketik { untuk melihat bidang"
+
+#: includes/admin/partials/step-2-mapping.php:2346
+#: includes/admin/partials/import-edit.php:445
+#, php-format
+msgid "Type { to see fields or drag field here. E.g. {%s}"
+msgstr "Ketik { untuk melihat bidang atau seret bidang ke sini. Mis. {%s}"
+
+#: includes/admin/partials/import-edit.php:291
+msgid "Type:"
+msgstr "Tipe:"
+
+#: includes/admin/partials/step-2-mapping.php:270
+msgid "UPC"
+msgstr "UPC"
+
+#: includes/admin/partials/step-2-mapping.php:2692
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2198
+#, php-format
+msgid "URL is accessible (HTTP %d)."
+msgstr "URL dapat diakses (HTTP %d)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2168
+msgid "URL is required."
+msgstr "URL diperlukan."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:507
+msgid "URL must contain a valid host."
+msgstr "URL harus berisi host yang valid."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:503
+msgid "URL must use HTTP or HTTPS protocol."
+msgstr "URL harus menggunakan protokol HTTP atau HTTPS."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2203
+#, php-format
+msgid "URL returned HTTP %d. Expected 200."
+msgstr "URL mengembalikan HTTP %d. Diharapkan 200."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3689
+msgid "URL updated successfully. Next import will use the new URL."
+msgstr "URL berhasil diperbarui. Impor berikutnya akan menggunakan URL baru."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:528
+msgid "URLs pointing to private or reserved IP ranges are not allowed."
+msgstr "URL yang mengarah ke rentang IP pribadi atau cadangan tidak diizinkan."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:40
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:130
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:367
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:426
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:498
+msgid "Unable to open CSV file."
+msgstr "Tidak dapat membuka file CSV."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:48
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:171
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:731
+msgid "Unable to open XML file."
+msgstr "Tidak dapat membuka file XML."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:381
+msgid "Unable to parse CSV headers."
+msgstr "Tidak dapat mengurai header CSV."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:46
+msgid "Unable to read CSV headers."
+msgstr "Tidak dapat membaca header CSV."
+
+#: includes/admin/partials/step-2-mapping.php:2484
+#: includes/admin/partials/step-2-mapping.php:2810
+msgid "Uncheck to prevent this field from being updated when re-importing existing products"
+msgstr "Hapus centang untuk mencegah bidang ini diperbarui saat mengimpor ulang produk yang sudah ada"
+
+#: includes/admin/partials/step-2-mapping.php:104
+msgid "Unique product identifier. Can be mapped from file or auto-generated."
+msgstr "Pengidentifikasi produk unik. Dapat dipetakan dari file atau dibuat secara otomatis."
+
+#: includes/admin/partials/step-2-mapping.php:2320
+msgid "Unix timestamp"
+msgstr "Unix timestamp"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:84
+#, php-format
+msgid "Unknown AI provider: %s"
+msgstr "Penyedia AI tidak dikenal: %s"
+
+#: includes/admin/partials/step-3-progress.php:220
+msgid "Unknown Status"
+msgstr "Status Tidak Dikenal"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:123
+msgid "Unknown upload error."
+msgstr "Kesalahan unggahan yang tidak diketahui."
+
+#: includes/admin/partials/settings-page.php:294
+msgid "Unlimited products"
+msgstr "Produk tak terbatas"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3614
+msgid "Unlock all PRO features including scheduled imports, advanced filters, and AI processing."
+msgstr "Buka semua fitur PRO termasuk impor terjadwal, filter lanjutan, dan pemrosesan AI."
+
+#: includes/admin/partials/settings-page.php:605
+#: includes/admin/partials/step-1-upload.php:174
+#: includes/admin/partials/step-2-mapping.php:375
+#: includes/admin/partials/import-edit.php:182
+msgid "Update Existing Products"
+msgstr "Perbarui Produk yang Ada"
+
+#: includes/admin/partials/import-edit.php:167
+msgid "Update URL"
+msgstr "Perbarui URL"
+
+#: includes/admin/partials/settings-page.php:304
+msgid "Update existing products"
+msgstr "Perbarui produk yang ada"
+
+#: includes/admin/partials/settings-page.php:316
+msgid "Update only price and stock"
+msgstr "Perbarui hanya harga dan stok"
+
+#: includes/admin/partials/step-2-mapping.php:380
+#: includes/admin/partials/import-edit.php:187
+msgid "Update products that already exist (matched by SKU)"
+msgstr "Perbarui produk yang sudah ada (dicocokkan berdasarkan SKU)"
+
+#: includes/admin/partials/step-1-upload.php:176
+msgid "Update products that already exist (matched by SKU)."
+msgstr "Perbarui produk yang sudah ada (dicocokkan berdasarkan SKU)."
+
+#: includes/admin/partials/step-2-mapping.php:2480
+#: includes/admin/partials/step-2-mapping.php:2806
+msgid "Update this field on re-import?"
+msgstr "Perbarui bidang ini saat impor ulang?"
+
+#: includes/admin/partials/import-edit.php:427
+msgid "Update this field?"
+msgstr "Perbarui bidang ini?"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:794
+#, php-format
+msgid "Updated product: %1$s (ID: %2$d)"
+msgstr "Produk diperbarui: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:2382
+msgid "Upgrade"
+msgstr "Tingkatkan"
+
+#: includes/admin/partials/settings-page.php:381
+#: includes/admin/partials/settings-page.php:805
+#: includes/admin/partials/step-2-mapping.php:2588
+#: includes/admin/partials/import-edit.php:872
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3610
+#: includes/class-wc-xml-csv-ai-import-license.php:432
+msgid "Upgrade to PRO"
+msgstr "Tingkatkan ke PRO"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:426
+msgid "Upgrade to PRO to unlock this feature and remove all limits."
+msgstr "Tingkatkan ke PRO untuk membuka fitur ini dan menghapus semua batasan."
+
+#: includes/admin/partials/step-2-mapping.php:3430
+msgid "Upgrade to Pro"
+msgstr "Tingkatkan ke Pro"
+
+#: includes/admin/partials/settings-page.php:834
+msgid "Upload Directory:"
+msgstr "Direktori Unggahan:"
+
+#: includes/admin/partials/step-1-upload.php:49
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:286
+msgid "Upload File"
+msgstr "Unggah file"
+
+#: includes/admin/partials/step-1-upload.php:44
+msgid "Upload Method"
+msgstr "Metode Unggah"
+
+#: includes/admin/partials/settings-page.php:818
+msgid "Upload Settings"
+msgstr "Pengaturan Unggahan"
+
+#: includes/admin/partials/step-1-upload.php:50
+msgid "Upload XML/CSV file from your computer"
+msgstr "Unggah file XML/CSV dari komputer Anda"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1539
+msgid "Upload method is required."
+msgstr "Metode unggah diperlukan."
+
+#: includes/admin/partials/step-1-upload.php:26
+msgid "Upload your XML or CSV file, or provide a URL to import products from."
+msgstr "Unggah file XML atau CSV Anda, atau berikan URL untuk mengimpor produk."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:96
+msgid "Uploading file..."
+msgstr "Mengunggah file..."
+
+#: includes/admin/partials/step-2-mapping.php:279
+msgid "Upsell Product IDs"
+msgstr "ID Produk Upsell"
+
+#: includes/admin/partials/step-2-mapping.php:2459
+#: includes/admin/partials/step-2-mapping.php:2462
+#: includes/admin/partials/import-edit.php:512
+msgid "Use $value as input"
+msgstr "Gunakan $value sebagai input"
+
+#: includes/admin/partials/step-2-mapping.php:2757
+msgid "Use $value for source field value, $product for full product data"
+msgstr "Gunakan $value untuk nilai bidang sumber, $product untuk data produk lengkap"
+
+#: includes/admin/partials/step-2-mapping.php:3618
+msgid "Use PHP formulas to transform field values during import. Full flexibility for complex transformations."
+msgstr "Gunakan rumus PHP untuk mentransformasi nilai bidang selama impor. Fleksibilitas penuh untuk transformasi kompleks."
+
+#: includes/admin/partials/settings-page.php:718
+msgid "Use an external server cron job to trigger imports via URL. Processes entire import in one request (with loop until complete)."
+msgstr "Gunakan cron job server eksternal untuk memicu impor melalui URL. Memproses seluruh impor dalam satu permintaan (dengan loop sampai selesai)."
+
+#: includes/admin/partials/step-2-mapping.php:2260
+msgid "Use as primary identifier (WC UI)"
+msgstr "Gunakan sebagai pengidentifikasi utama (WC UI)"
+
+#: includes/admin/partials/step-2-mapping.php:958
+msgid "Use default"
+msgstr "Gunakan default"
+
+#: includes/admin/partials/step-2-mapping.php:2583
+msgid "Use regex patterns for advanced matching"
+msgstr "Gunakan pola regex untuk pencocokan lanjutan"
+
+#: includes/admin/partials/step-2-mapping.php:2450
+msgid "Use {value} as input"
+msgstr "Gunakan {value} sebagai input"
+
+#: includes/admin/partials/step-2-mapping.php:2959
+msgid "Used for variations"
+msgstr "Digunakan untuk variasi"
+
+#: includes/admin/partials/settings-page.php:706
+msgid "Uses WooCommerce Action Scheduler for reliable background processing. Automatically processes all products until complete. Works without server cron configuration."
+msgstr "Menggunakan WooCommerce Action Scheduler untuk pemrosesan latar belakang yang andal. Secara otomatis memproses semua produk hingga selesai. Bekerja tanpa konfigurasi cron server."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7034
+msgid "Valid file path is required."
+msgstr "Path file yang valid diperlukan."
+
+#: includes/admin/partials/step-2-mapping.php:913
+#: includes/admin/partials/step-2-mapping.php:1258
+#: includes/admin/partials/step-2-mapping.php:2668
+#: includes/admin/partials/import-edit.php:603
+#: includes/admin/partials/import-edit.php:1208
+msgid "Value"
+msgstr "Nilai"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Value Field:"
+msgstr "Bidang Nilai:"
+
+#: includes/admin/partials/step-2-mapping.php:2106
+msgid "Values: simple, variable, grouped, external"
+msgstr "Nilai: simple, variable, grouped, external"
+
+#: includes/admin/partials/step-2-mapping.php:113
+msgid "Variable"
+msgstr "Variabel"
+
+#: includes/admin/partials/step-2-mapping.php:1384
+#: includes/admin/partials/step-2-mapping.php:3420
+#: includes/admin/partials/step-2-mapping.php:3597
+msgid "Variable Products"
+msgstr "Produk Variabel"
+
+#: includes/admin/partials/step-2-mapping.php:1500
+msgid "Variable Products Configuration"
+msgstr "Konfigurasi Produk Variabel"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2388
+msgid "Variable product structure detected."
+msgstr "Struktur produk variabel terdeteksi."
+
+#: includes/admin/partials/step-2-mapping.php:3312
+msgid "Variables: $value, $parent_description, $sku, $name, etc."
+msgstr "Variabel: $value, $parent_description, $sku, $name, dll."
+
+#: includes/admin/partials/step-2-mapping.php:3020
+msgid "Variables: $value, $parent_price, $sku, etc."
+msgstr "Variabel: $value, $parent_price, $sku, dll."
+
+#: includes/admin/partials/step-2-mapping.php:2967
+msgid "Variation Adjustments for this Attribute"
+msgstr "Penyesuaian Variasi untuk Atribut ini"
+
+#: includes/admin/partials/step-2-mapping.php:1715
+msgid "Variation Attributes"
+msgstr "Atribut Variasi"
+
+#: includes/admin/partials/step-2-mapping.php:1550
+msgid "Variation Attributes (CSV Columns)"
+msgstr "Atribut Variasi (Kolom CSV)"
+
+#: includes/admin/partials/step-2-mapping.php:1694
+msgid "Variation Container Path"
+msgstr "Path Kontainer Variasi"
+
+#: includes/admin/partials/step-2-mapping.php:1790
+msgid "Variation Field Mapping"
+msgstr "Pemetaan Bidang Variasi"
+
+#: includes/admin/partials/step-2-mapping.php:1577
+msgid "Variation Field Mapping (CSV Columns)"
+msgstr "Pemetaan Bidang Variasi (Kolom CSV)"
+
+#: includes/admin/partials/step-2-mapping.php:3264
+msgid "Variation Image:"
+msgstr "Gambar Variasi:"
+
+#: includes/admin/partials/step-2-mapping.php:1586
+#: includes/admin/partials/step-2-mapping.php:1808
+msgid "Variation SKU:"
+msgstr "SKU Variasi:"
+
+#: includes/admin/partials/step-3-progress.php:304
+msgid "View Detailed Logs"
+msgstr "Lihat Log Detail"
+
+#: includes/admin/partials/step-3-progress.php:494
+msgid "View Products"
+msgstr "Lihat produk"
+
+#: includes/admin/partials/step-2-mapping.php:425
+msgid "View cron setup instructions"
+msgstr "Lihat instruksi pengaturan cron"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3420
+msgid "View:"
+msgstr "Lihat:"
+
+#: includes/admin/partials/step-2-mapping.php:238
+msgid "Virtual Product"
+msgstr "Produk Virtual"
+
+#: includes/admin/partials/step-2-mapping.php:3170
+msgid "Virtual products have no shipping (e.g., services, consultations)"
+msgstr "Produk virtual tidak memiliki pengiriman (mis. layanan, konsultasi)"
+
+#: includes/admin/partials/step-2-mapping.php:1648
+#: includes/admin/partials/step-2-mapping.php:1894
+#: includes/admin/partials/step-2-mapping.php:3171
+msgid "Virtual:"
+msgstr "Virtual:"
+
+#: includes/admin/partials/step-2-mapping.php:2954
+msgid "Visible on product page"
+msgstr "Terlihat di halaman produk"
+
+#: includes/admin/partials/step-2-mapping.php:1190
+msgid "Volume (L×W×H)"
+msgstr "Volume (P×L×T)"
+
+#: includes/admin/partials/step-3-progress.php:413
+msgid "Waiting for product processing..."
+msgstr "Menunggu pemrosesan produk..."
+
+#: includes/admin/partials/step-3-progress.php:346
+msgid "Waiting for progress..."
+msgstr "Menunggu progres..."
+
+#: includes/admin/partials/settings-page.php:241
+msgid "Want PRO features?"
+msgstr "Ingin fitur PRO?"
+
+#: includes/admin/partials/step-3-progress.php:181
+msgid "Want to close this page?"
+msgstr "Ingin menutup halaman ini?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2377
+#, php-format
+msgid "Warning: %d fields could not be mapped automatically."
+msgstr "Peringatan: %d bidang tidak dapat dipetakan secara otomatis."
+
+#: includes/admin/partials/import-edit.php:852
+msgid "We recommend running cron every minute. The plugin will only process when the scheduled interval has passed."
+msgstr "Kami merekomendasikan menjalankan cron setiap menit. Plugin hanya akan memproses ketika interval terjadwal telah berlalu."
+
+#: includes/admin/partials/import-edit.php:788
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:584
+msgid "Weekly"
+msgstr "Mingguan"
+
+#: includes/admin/partials/step-1-upload.php:145
+#: includes/admin/partials/step-2-mapping.php:420
+msgid "Weekly Import"
+msgstr "Impor Mingguan"
+
+#: includes/admin/partials/step-2-mapping.php:197
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1100
+msgid "Weight"
+msgstr "Berat"
+
+#: includes/admin/partials/step-2-mapping.php:1188
+msgid "Weight Range"
+msgstr "Rentang Berat"
+
+#: includes/admin/partials/step-2-mapping.php:1626
+#: includes/admin/partials/step-2-mapping.php:1860
+#: includes/admin/partials/step-2-mapping.php:3213
+msgid "Weight:"
+msgstr "Berat:"
+
+#: includes/admin/partials/step-1-upload.php:211
+msgid "What to do with products that were imported before but are no longer present in the XML/CSV file."
+msgstr "Apa yang harus dilakukan dengan produk yang sebelumnya diimpor tetapi tidak lagi ada di file XML/CSV."
+
+#: includes/admin/partials/step-2-mapping.php:382
+#: includes/admin/partials/import-edit.php:189
+msgid "When enabled, existing products with matching SKUs will be updated instead of creating duplicates."
+msgstr "Jika diaktifkan, produk yang ada dengan SKU yang cocok akan diperbarui alih-alih membuat duplikat."
+
+#: includes/admin/partials/import-edit.php:217
+msgid "When enabled, products that were imported before but are no longer in the XML/CSV file will be processed."
+msgstr "Jika diaktifkan, produk yang sebelumnya diimpor tetapi tidak lagi ada di file XML/CSV akan diproses."
+
+#: includes/admin/partials/import-edit.php:655
+msgid "When re-running, products that no longer match filters will be set to Draft status (not deleted)."
+msgstr "Saat menjalankan ulang, produk yang tidak lagi cocok dengan filter akan diatur ke status Draf (tidak dihapus)."
+
+#: includes/admin/partials/step-2-mapping.php:3156
+msgid "Whether the variation is available for purchase on the frontend"
+msgstr "Apakah variasi tersedia untuk dibeli di frontend"
+
+#: includes/admin/partials/step-2-mapping.php:199
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1102
+msgid "Width"
+msgstr "Lebar"
+
+#: includes/admin/partials/step-2-mapping.php:1633
+#: includes/admin/partials/step-2-mapping.php:1879
+#: includes/admin/partials/step-2-mapping.php:3248
+msgid "Width:"
+msgstr "Lebar:"
+
+#: includes/admin/partials/step-2-mapping.php:1372
+msgid "With Attributes"
+msgstr "Dengan Atribut"
+
+#: bootflow-product-importer.php:32
+msgid "WooCommerce XML/CSV Smart Import requires WooCommerce to be installed and active."
+msgstr "WooCommerce XML/CSV Smart Import memerlukan WooCommerce terinstal dan aktif."
+
+#: includes/admin/partials/import-edit.php:368
+msgid "Write a PHP formula to automatically assign shipping classes based on product dimensions and weight. The formula should return the shipping class slug (e.g., \"S\", \"M\", \"L\", \"Smags\")."
+msgstr "Tulis rumus PHP untuk secara otomatis menetapkan kelas pengiriman berdasarkan dimensi dan berat produk. Rumus harus mengembalikan slug kelas pengiriman (mis. \"S\", \"M\", \"L\", \"Smags\")."
+
+#: includes/admin/partials/step-2-mapping.php:2845
+msgid "XML Attribute Key:"
+msgstr "Kunci Atribut XML:"
+
+#: includes/admin/partials/step-2-mapping.php:2861
+msgid "XML Attribute Name (for name/value structure):"
+msgstr "Nama Atribut XML (untuk struktur nama/nilai):"
+
+#: includes/admin/partials/step-2-mapping.php:699
+msgid "XML Base Price → Apply Matching Rules → Apply Rounding → Final Price"
+msgstr "Harga Dasar XML → Terapkan Aturan → Terapkan Pembulatan → Harga Akhir"
+
+#: includes/admin/partials/step-2-mapping.php:1193
+msgid "XML Field"
+msgstr "Bidang XML"
+
+#: includes/admin/partials/step-1-upload.php:128
+msgid "XML Product Element"
+msgstr "Elemen Produk XML"
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:696
+msgid "XML file is valid."
+msgstr "File XML valid."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:42
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:166
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:726
+msgid "XML file not found."
+msgstr "File XML tidak ditemukan."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:689
+msgid "XML validation errors: "
+msgstr "Kesalahan validasi XML: "
+
+#: includes/admin/partials/step-2-mapping.php:2072
+msgid "XML values: yes/no, true/false, 1/0"
+msgstr "Nilai XML: yes/no, true/false, 1/0"
+
+#: includes/admin/partials/settings-page.php:111
+msgid "XML/CSV AI Smart Import - Settings"
+msgstr "XML/CSV AI Smart Import - Pengaturan"
+
+#: includes/admin/partials/step-2-mapping.php:2049
+#: includes/admin/partials/step-2-mapping.php:3162
+#: includes/admin/partials/step-2-mapping.php:3176
+#: includes/admin/partials/step-2-mapping.php:3190
+#: includes/admin/partials/step-2-mapping.php:3204
+msgid "Yes"
+msgstr "Ya"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:70
+msgid "You do not have permission to perform this action."
+msgstr "Anda tidak memiliki izin untuk melakukan tindakan ini."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1514
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1811
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1907
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1999
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2493
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2593
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2676
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2825
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3376
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Anda tidak memiliki izin yang cukup untuk mengakses halaman ini."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2160
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2423
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2462
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3642
+msgid "You do not have sufficient permissions."
+msgstr "Anda tidak memiliki izin yang cukup."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:65
+msgid "You must be logged in to perform this action."
+msgstr "Anda harus masuk untuk melakukan tindakan ini."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:591
+#, php-format
+msgid "Your PRO license is not activated. Please %1$sactivate your license%2$s to unlock PRO features, or use the free version from WordPress.org."
+msgstr "Lisensi PRO Anda belum diaktifkan. Silakan %1$saktifkan lisensi Anda%2$s untuk membuka fitur PRO, atau gunakan versi gratis dari WordPress.org."
+
+#: includes/admin/partials/step-3-progress.php:188
+msgid "cPanel / Plesk:"
+msgstr "cPanel / Plesk:"
+
+#: includes/admin/partials/import-edit.php:836
+msgid "cPanel Command"
+msgstr "Perintah cPanel"
+
+#: includes/admin/partials/step-2-mapping.php:874
+#: includes/admin/partials/step-2-mapping.php:884
+#: includes/admin/partials/step-2-mapping.php:894
+#: includes/admin/partials/step-2-mapping.php:907
+#: includes/admin/partials/step-2-mapping.php:921
+#: includes/admin/partials/step-2-mapping.php:1228
+#: includes/admin/partials/step-2-mapping.php:1238
+#: includes/admin/partials/step-2-mapping.php:1252
+#: includes/admin/partials/step-2-mapping.php:1266
+#: includes/admin/partials/step-2-mapping.php:2658
+#: includes/admin/partials/import-edit.php:595
+#: includes/admin/partials/import-edit.php:1200
+msgid "contains"
+msgstr "berisi"
+
+#: includes/admin/partials/step-2-mapping.php:2395
+#: includes/admin/partials/import-edit.php:468
+msgid "e.g., $value * 1.2"
+msgstr "mis., $value * 1.2"
+
+#: includes/admin/partials/step-2-mapping.php:3018
+msgid "e.g., $value * 1.21"
+msgstr "mis., $value * 1.21"
+
+#: includes/admin/partials/step-2-mapping.php:3114
+msgid "e.g., -red, -xl"
+msgstr "mis., -red, -xl"
+
+#: includes/admin/partials/import-edit.php:742
+#: includes/admin/partials/import-edit.php:1156
+msgid "e.g., Add 20 to this number: {value}. Return only the result number."
+msgstr "mis., Tambahkan 20 ke angka ini: {value}. Kembalikan hanya angka hasilnya."
+
+#: includes/admin/partials/step-2-mapping.php:3025
+msgid "e.g., Convert price and add 21% VAT"
+msgstr "mis., Konversi harga dan tambahkan 21% PPN"
+
+#: includes/admin/partials/import-edit.php:518
+msgid "e.g., Enhance this processed text for better readability"
+msgstr "mis., Tingkatkan teks yang diproses ini untuk keterbacaan yang lebih baik"
+
+#: includes/admin/partials/step-2-mapping.php:2435
+msgid "e.g., Enhance this text for better readability"
+msgstr "mis., Tingkatkan teks ini untuk keterbacaan yang lebih baik"
+
+#: includes/admin/partials/step-2-mapping.php:2898
+msgid "e.g., Extract color names from this text"
+msgstr "mis., Ekstrak nama warna dari teks ini"
+
+#: includes/admin/partials/step-2-mapping.php:2938
+msgid "e.g., Extract image URL from HTML"
+msgstr "mis., Ekstrak URL gambar dari HTML"
+
+#: includes/admin/partials/step-2-mapping.php:2741
+msgid "e.g., Extract the currency code from this value"
+msgstr "mis., Ekstrak kode mata uang dari nilai ini"
+
+#: includes/admin/partials/step-2-mapping.php:3317
+msgid "e.g., Generate unique variation description"
+msgstr "mis., Buat deskripsi variasi yang unik"
+
+#: includes/admin/partials/step-2-mapping.php:2838
+msgid "e.g., Izmērs, Krāsa, Material"
+msgstr "mis., Ukuran, Warna, Material"
+
+#: includes/admin/partials/step-2-mapping.php:2866
+msgid "e.g., Material"
+msgstr "mis., Material"
+
+#: includes/admin/partials/step-1-upload.php:38
+msgid "e.g., Summer Collection 2024"
+msgstr "mis., Koleksi Musim Panas 2024"
+
+#: includes/admin/partials/step-2-mapping.php:2423
+#: includes/admin/partials/import-edit.php:497
+msgid "e.g., Translate this product name to English and make it SEO-friendly"
+msgstr "mis., Terjemahkan nama produk ini ke bahasa Inggris dan jadikan SEO-friendly"
+
+#: includes/admin/partials/step-2-mapping.php:2719
+msgid "e.g., return $product['price']['@attributes']['currency'] ?? 'USD';"
+msgstr "mis., return $product['price']['@attributes']['currency'] ?? 'USD';"
+
+#: includes/admin/partials/step-2-mapping.php:2755
+msgid "e.g., return $value * 1.21;"
+msgstr "mis., return $value * 1.21;"
+
+#: includes/admin/partials/import-edit.php:729
+#: includes/admin/partials/import-edit.php:1143
+msgid "e.g., return $value + 20;"
+msgstr "mis., return $value + 20;"
+
+#: includes/admin/partials/step-2-mapping.php:2851
+msgid "e.g., size, color, material"
+msgstr "mis., size, color, material"
+
+#: includes/admin/partials/step-2-mapping.php:2456
+#: includes/admin/partials/import-edit.php:509
+msgid "e.g., trim(strtolower($value))"
+msgstr "mis., trim(strtolower($value))"
+
+#: includes/admin/partials/step-2-mapping.php:1746
+msgid "e.g., variations.variation.attributes"
+msgstr "mis., variations.variation.attributes"
+
+#: includes/admin/partials/step-2-mapping.php:920
+#: includes/admin/partials/step-2-mapping.php:1265
+msgid "ends with"
+msgstr "diakhiri dengan"
+
+#: includes/admin/partials/step-2-mapping.php:873
+#: includes/admin/partials/step-2-mapping.php:883
+#: includes/admin/partials/step-2-mapping.php:893
+#: includes/admin/partials/step-2-mapping.php:1227
+#: includes/admin/partials/step-2-mapping.php:1237
+msgid "equals"
+msgstr "sama dengan"
+
+#: includes/admin/partials/step-2-mapping.php:863
+#: includes/admin/partials/step-2-mapping.php:1199
+#: includes/admin/partials/step-2-mapping.php:1208
+#: includes/admin/partials/step-2-mapping.php:1217
+msgid "from"
+msgstr "dari"
+
+#: includes/admin/partials/step-1-upload.php:106
+msgid "https://example.com/products.xml"
+msgstr "https://example.com/products.xml"
+
+#: includes/admin/partials/step-2-mapping.php:2660
+#: includes/admin/partials/import-edit.php:597
+#: includes/admin/partials/import-edit.php:1202
+msgid "is empty"
+msgstr "kosong"
+
+#: includes/admin/partials/import-edit.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:603
+msgid "just now"
+msgstr "baru saja"
+
+#: includes/admin/partials/step-2-mapping.php:922
+#: includes/admin/partials/step-2-mapping.php:1267
+msgid "matches regex"
+msgstr "cocok regex"
+
+#: includes/admin/partials/step-3-progress.php:451
+msgid "minutes"
+msgstr "menit"
+
+#: includes/admin/partials/step-2-mapping.php:2659
+#: includes/admin/partials/import-edit.php:596
+#: includes/admin/partials/import-edit.php:1201
+msgid "not contains"
+msgstr "tidak mengandung"
+
+#: includes/admin/partials/step-2-mapping.php:2661
+#: includes/admin/partials/import-edit.php:598
+#: includes/admin/partials/import-edit.php:1203
+msgid "not empty"
+msgstr "tidak kosong"
+
+#: includes/admin/partials/step-2-mapping.php:875
+#: includes/admin/partials/step-2-mapping.php:885
+#: includes/admin/partials/step-2-mapping.php:1229
+#: includes/admin/partials/step-2-mapping.php:1239
+msgid "not equals"
+msgstr "tidak sama dengan"
+
+#: includes/admin/partials/step-1-upload.php:74
+msgid "or"
+msgstr "atau"
+
+#: includes/admin/partials/step-2-mapping.php:1136
+#: includes/admin/partials/step-2-mapping.php:1295
+msgid "or type new:"
+msgstr "atau ketik baru:"
+
+#: includes/admin/partials/step-3-progress.php:334
+msgid "prod/min"
+msgstr "prod/mnt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:116
+msgid "products deleted"
+msgstr "produk dihapus"
+
+#: includes/admin/partials/import-edit.php:160
+msgid "products per chunk"
+msgstr "produk per bagian"
+
+#: includes/admin/partials/step-3-progress.php:435
+msgid "products/min"
+msgstr "produk/mnt"
+
+#: includes/admin/partials/step-2-mapping.php:2662
+msgid "regex match"
+msgstr "cocok regex"
+
+#: includes/admin/partials/step-2-mapping.php:2663
+msgid "regex not match"
+msgstr "regex tidak cocok"
+
+#: includes/admin/partials/step-2-mapping.php:919
+#: includes/admin/partials/step-2-mapping.php:1264
+msgid "starts with"
+msgstr "dimulai dengan"
+
+#: includes/admin/partials/step-2-mapping.php:865
+#: includes/admin/partials/step-2-mapping.php:1201
+#: includes/admin/partials/step-2-mapping.php:1210
+#: includes/admin/partials/step-2-mapping.php:1219
+msgid "to"
+msgstr "ke"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:303
+msgid "xAI Grok API key not configured."
+msgstr "Kunci API xAI Grok belum dikonfigurasi."
+
+#: includes/admin/partials/settings-page.php:454
+msgid "xAI Grok Settings"
+msgstr "Pengaturan xAI Grok"
+
+#: includes/admin/partials/step-2-mapping.php:1439
+msgid "{attribute1}→{value1}"
+msgstr "{attribute1}→{value1}"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1208
+msgid "← Back to Import History"
+msgstr "← Kembali ke Riwayat Impor"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:625
+msgid "⏳ <1 min"
+msgstr "⏳ <1 mnt"
+
+#: includes/admin/partials/import-edit.php:141
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:623
+msgid "⏳ due now"
+msgstr "⏳ jatuh tempo"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:627
+#, php-format
+msgid "⏳ in %d min"
+msgstr "⏳ dalam %d mnt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:629
+#, php-format
+msgid "⏳ in %dh %dm"
+msgstr "⏳ dalam %dj %dm"
+
+#: includes/admin/partials/import-edit.php:143
+msgid "⏳ in less than 1 min"
+msgstr "⏳ dalam kurang dari 1 mnt"
+
+#: includes/admin/partials/import-edit.php:145
+#, php-format
+msgid "⏳ next run in %d min"
+msgstr "⏳ jalan berikutnya dalam %d mnt"
+
+#: includes/admin/partials/import-edit.php:147
+#, php-format
+msgid "⏳ next run in %dh %dm"
+msgstr "⏳ jalan berikutnya dalam %dj %dm"
+
+#: includes/admin/partials/import-edit.php:880
+msgid "▶ Run Import Now"
+msgstr "▶ Jalankan Impor Sekarang"
+
+#: includes/admin/partials/import-edit.php:472
+msgid "⚠️ Always use $value as input (not field names like $price or $product_price)"
+msgstr "⚠️ Selalu gunakan $value sebagai input (bukan nama bidang seperti $price atau $product_price)"
+
+#: includes/admin/partials/import-edit.php:648
+msgid "⚠️ Changing filters will affect future imports. Existing products won't be modified automatically."
+msgstr "⚠️ Mengubah filter akan memengaruhi impor di masa mendatang. Produk yang ada tidak akan dimodifikasi secara otomatis."
+
+#: includes/admin/partials/import-edit.php:659
+msgid "⚠️ If unchecked: Products not matching filters will be skipped during import, but existing products will remain Published."
+msgstr "⚠️ Jika tidak dicentang: Produk yang tidak cocok dengan filter akan dilewati saat impor, tetapi produk yang ada akan tetap Diterbitkan."
+
+#: includes/admin/partials/step-2-mapping.php:2400
+msgid "✅ Access any XML field: <code>$value . \" - \" . $brand</code>"
+msgstr "✅ Akses bidang XML apa pun: <code>$value . \" - \" . $brand</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2399
+msgid "✅ Complex formulas need return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+msgstr "✅ Rumus kompleks memerlukan return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2398
+msgid "✅ Simple formulas work directly: <code>$value * 1.2</code>"
+msgstr "✅ Rumus sederhana bekerja langsung: <code>$value * 1.2</code>"
+
+#: includes/admin/partials/step-2-mapping.php:856
+msgid "🏭 Supplier"
+msgstr "🏭 Pemasok"
+
+#: includes/admin/partials/step-2-mapping.php:855
+msgid "🏷️ Brand"
+msgstr "🏷️ Merek"
+
+#: includes/admin/partials/step-2-mapping.php:854
+msgid "📁 Category"
+msgstr "📁 Kategori"
+
+#: includes/admin/partials/step-2-mapping.php:857
+msgid "📄 XML Field"
+msgstr "📄 Bidang XML"
+
+#: includes/admin/partials/step-2-mapping.php:858
+msgid "🔢 SKU Pattern"
+msgstr "🔢 Pola SKU"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "← Prev"
+msgstr "← Sebelumnya"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Next →"
+msgstr "Berikutnya →"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go"
+msgstr "Jalankan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go to product:"
+msgstr "Buka produk:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Product %1$d of %2$d"
+msgstr "Produk %1$d dari %2$d"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Basic Info"
+msgstr "Info Dasar"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Pricing"
+msgstr "Harga"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Inventory"
+msgstr "Inventaris"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Shipping"
+msgstr "Pengiriman"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Identifiers"
+msgstr "Pengidentifikasi"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Other Fields"
+msgstr "Bidang Lainnya"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "items"
+msgstr "item"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click to expand)"
+msgstr "(klik untuk memperluas)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click)"
+msgstr "(klik)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Object (%d fields)"
+msgstr "Objek (%d bidang)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "All %d items"
+msgstr "Semua %d item"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "+ %d nested/complex fields (attributes, variations, etc.) available in dropdown"
+msgstr "+ %d bidang bersarang/kompleks (atribut, variasi, dll.) tersedia di dropdown"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Preview:"
+msgstr "Pratinjau:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Variable Product Detected"
+msgstr "Produk Variabel Terdeteksi"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "$parent_description . \" | \" . $value"
+msgstr "$parent_description . \" | \" . $value"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., \"Size: \" . $value . \" - \" . $parent_description"
+msgstr "mis., \"Size: \" . $value . \" - \" . $parent_description"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., explode(\",\", $value)"
+msgstr "mis., explode(\",\", $value)"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., str_replace(\"small\", \"large\", $value)"
+msgstr "mis., str_replace(\"small\", \"large\", $value)"
+

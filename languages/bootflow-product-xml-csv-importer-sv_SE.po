@@ -1,0 +1,5029 @@
+# Translation file for Bootflow Product Importer - Svenska
+# Copyright (C) 2026 Bootflow
+# This file is distributed under the same license as the Bootflow Product Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootflow Product Importer 0.9.2\n"
+"Report-Msgid-Bugs-To: support@bootflow.io\n"
+"POT-Creation-Date: 2026-03-04 19:52+0200\n"
+"PO-Revision-Date: 2026-03-04 23:10+0000\n"
+"Last-Translator: Bootflow Auto-Translate\n"
+"Language-Team: Svenska\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: includes/admin/partials/step-2-mapping.php:3033
+msgid "$value * 1.21"
+msgstr "$value * 1.21"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1173
+#, php-format
+msgid "%1$d of %2$d products processed"
+msgstr "%1$d av %2$d produkter bearbetade"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2394
+#, php-format
+msgid "%d attribute found."
+msgstr "%d attribut hittades."
+
+#: includes/admin/partials/import-edit.php:127
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:611
+#, php-format
+msgid "%d days ago"
+msgstr "%d dagar sedan"
+
+#: includes/admin/partials/import-edit.php:121
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:605
+#, php-format
+msgid "%d min ago"
+msgstr "%d min sedan"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:535
+#, php-format
+msgid "%d products deleted successfully."
+msgstr "%d produkter raderade."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1176
+#, php-format
+msgid "%d products remaining"
+msgstr "%d produkter kvar"
+
+#: includes/admin/partials/import-edit.php:125
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:609
+#, php-format
+msgid "%dh %dm ago"
+msgstr "%dt %dm sedan"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:505
+#, php-format
+msgid "%s API connection successful."
+msgstr "%s API-anslutning lyckades."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:513
+#, php-format
+msgid "%s API test failed: %s"
+msgstr "%s API-test misslyckades: %s"
+
+#: includes/admin/partials/step-2-mapping.php:739
+#: includes/admin/partials/step-2-mapping.php:1101
+msgid "(First matching rule wins)"
+msgstr "(Första matchande regel vinner)"
+
+#: includes/admin/partials/step-2-mapping.php:2541
+msgid "(all conditions must match)"
+msgstr "(alla villkor måste matcha)"
+
+#: includes/admin/partials/step-2-mapping.php:2545
+msgid "(any condition can match)"
+msgstr "(valfritt villkor kan matcha)"
+
+#: includes/admin/partials/step-2-mapping.php:772
+#: includes/admin/partials/step-2-mapping.php:948
+msgid "+ Fixed €"
+msgstr "+ Fast €"
+
+#: includes/admin/partials/step-2-mapping.php:902
+#: includes/admin/partials/step-2-mapping.php:1247
+msgid "-- Field --"
+msgstr "-- Fält --"
+
+#: includes/admin/partials/step-2-mapping.php:1131
+#: includes/admin/partials/step-2-mapping.php:1290
+msgid "-- No shipping class --"
+msgstr "-- Ingen fraktklass --"
+
+#: includes/admin/partials/step-2-mapping.php:1537
+msgid "-- Select Column (optional) --"
+msgstr "-- Välj Kolumn (valfritt) --"
+
+#: includes/admin/partials/step-2-mapping.php:1531
+msgid "-- Select Column --"
+msgstr "-- Välj Kolumn --"
+
+#: includes/admin/partials/step-2-mapping.php:2645
+#: includes/admin/partials/step-2-mapping.php:2998
+#: includes/admin/partials/step-2-mapping.php:3072
+#: includes/admin/partials/step-2-mapping.php:3095
+#: includes/admin/partials/step-2-mapping.php:3119
+#: includes/admin/partials/step-2-mapping.php:3138
+#: includes/admin/partials/step-2-mapping.php:3231
+#: includes/admin/partials/step-2-mapping.php:3244
+#: includes/admin/partials/step-2-mapping.php:3250
+#: includes/admin/partials/step-2-mapping.php:3256
+#: includes/admin/partials/step-2-mapping.php:3280
+#: includes/admin/partials/step-2-mapping.php:3291
+#: includes/admin/partials/import-edit.php:579
+#: includes/admin/partials/import-edit.php:1184
+msgid "-- Select Field --"
+msgstr "-- Välj Fält --"
+
+#: includes/admin/partials/step-2-mapping.php:3266
+msgid "-- Select Image Field --"
+msgstr "-- Välj Bildfält --"
+
+#: includes/admin/partials/import-edit.php:697
+#: includes/admin/partials/import-edit.php:1111
+msgid "-- Select Source --"
+msgstr "-- Välj Källa --"
+
+#: includes/admin/partials/step-2-mapping.php:2252
+#: includes/admin/partials/step-2-mapping.php:2302
+#: includes/admin/partials/step-2-mapping.php:2698
+#: includes/admin/partials/step-2-mapping.php:2877
+#: includes/admin/partials/step-2-mapping.php:2917
+msgid "-- Select Source Field --"
+msgstr "-- Välj Källfält --"
+
+#: includes/admin/partials/step-2-mapping.php:2069
+#: includes/admin/partials/step-2-mapping.php:2103
+#: includes/admin/partials/step-2-mapping.php:2138
+#: includes/admin/partials/step-2-mapping.php:2170
+#: includes/admin/partials/step-2-mapping.php:2209
+#: includes/admin/partials/step-2-mapping.php:2242
+msgid "-- Select XML Field --"
+msgstr "-- Välj XML-fält --"
+
+#: includes/admin/partials/step-2-mapping.php:713
+msgid "-- Select XML field with base price --"
+msgstr "-- Välj XML-fält med baspris --"
+
+#: includes/admin/partials/step-2-mapping.php:542
+msgid "-- Select template --"
+msgstr "-- Välj mall --"
+
+#: includes/admin/partials/step-2-mapping.php:789
+msgid ".95"
+msgstr ".95"
+
+#: includes/admin/partials/step-2-mapping.php:788
+msgid ".99"
+msgstr ".99"
+
+#: includes/admin/partials/step-2-mapping.php:783
+msgid "0.01"
+msgstr "0.01"
+
+#: includes/admin/partials/step-2-mapping.php:784
+msgid "0.05"
+msgstr "0.05"
+
+#: includes/admin/partials/step-2-mapping.php:785
+msgid "0.10"
+msgstr "0.10"
+
+#: includes/admin/partials/step-2-mapping.php:786
+msgid "0.50"
+msgstr "0.50"
+
+#: includes/admin/partials/step-2-mapping.php:787
+msgid "1.00"
+msgstr "1.00"
+
+#: includes/admin/partials/settings-page.php:720
+msgid "100% reliable, does not depend on website traffic."
+msgstr "100% tillförlitlig, beror inte på webbplatstrafik."
+
+#: includes/admin/partials/step-2-mapping.php:2854
+msgid "<strong>Required for Map mode!</strong> The XML element name inside &lt;attributes&gt;."
+msgstr "<strong>Krävs för Map-läge!</strong> XML-elementnamnet inuti &lt;attributes&gt;."
+
+#: includes/admin/partials/step-2-mapping.php:603
+msgid "AI Auto-Map"
+msgstr "AI Auto-Mappa"
+
+#: includes/admin/partials/step-2-mapping.php:590
+#: includes/admin/partials/step-2-mapping.php:3419
+#: includes/admin/partials/step-2-mapping.php:3592
+msgid "AI Auto-Mapping"
+msgstr "AI Auto-Mappning"
+
+#: includes/admin/partials/step-2-mapping.php:2360
+#: includes/admin/partials/step-2-mapping.php:2707
+#: includes/admin/partials/step-2-mapping.php:2883
+#: includes/admin/partials/step-2-mapping.php:2923
+#: includes/admin/partials/step-2-mapping.php:3004
+#: includes/admin/partials/step-2-mapping.php:3297
+#: includes/admin/partials/step-2-mapping.php:3622
+#: includes/admin/partials/import-edit.php:457
+#: includes/admin/partials/import-edit.php:714
+#: includes/admin/partials/import-edit.php:1128
+msgid "AI Processing"
+msgstr "AI-bearbetning"
+
+#: includes/admin/partials/import-edit.php:516
+msgid "AI Prompt (applied to PHP result):"
+msgstr "AI-prompt (tillämpas på PHP-resultat):"
+
+#: includes/admin/partials/step-2-mapping.php:2433
+msgid "AI Prompt (executed first):"
+msgstr "AI-prompt (körs först):"
+
+#: includes/admin/partials/step-2-mapping.php:2903
+#: includes/admin/partials/step-2-mapping.php:2943
+msgid "AI Prompt (runs after):"
+msgstr "AI-prompt (körs efter):"
+
+#: includes/admin/partials/step-2-mapping.php:2421
+#: includes/admin/partials/step-2-mapping.php:2739
+#: includes/admin/partials/step-2-mapping.php:2779
+#: includes/admin/partials/step-2-mapping.php:2897
+#: includes/admin/partials/step-2-mapping.php:2937
+#: includes/admin/partials/step-2-mapping.php:3037
+#: includes/admin/partials/step-2-mapping.php:3329
+#: includes/admin/partials/import-edit.php:495
+#: includes/admin/partials/import-edit.php:740
+#: includes/admin/partials/import-edit.php:1154
+msgid "AI Prompt:"
+msgstr "AI-prompt:"
+
+#: includes/admin/partials/settings-page.php:391
+msgid "AI Provider Configuration"
+msgstr "AI-leverantörskonfiguration"
+
+#: includes/admin/partials/step-2-mapping.php:2411
+#: includes/admin/partials/step-2-mapping.php:2439
+#: includes/admin/partials/step-2-mapping.php:2729
+#: includes/admin/partials/step-2-mapping.php:2769
+#: includes/admin/partials/import-edit.php:485
+#: includes/admin/partials/import-edit.php:522
+#: includes/admin/partials/import-edit.php:734
+#: includes/admin/partials/import-edit.php:1148
+msgid "AI Provider:"
+msgstr "AI-leverantör:"
+
+#: includes/admin/partials/settings-page.php:117
+msgid "AI Providers"
+msgstr "AI-leverantörer"
+
+#: includes/admin/partials/step-2-mapping.php:621
+msgid "AI analyzing fields..."
+msgstr "AI analyserar fält..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2339
+msgid "AI auto-mapping is a PRO feature."
+msgstr "AI auto-mappning är en PRO-funktion."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2312
+msgid "AI auto-mapping requires an AI API key. Please configure one in Settings."
+msgstr "AI auto-mappning kräver en AI API-nyckel. Konfigurera en i Inställningar."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2365
+#, php-format
+msgid "AI mapped %1$d fields, auto-filled %2$d fields. Total: %3$d of %4$d fields mapped."
+msgstr "AI mappade %1$d fält, auto-fyllde %2$d fält. Totalt: %3$d av %4$d fält mappade."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2502
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2561
+msgid "AI processing is a PRO feature."
+msgstr "AI-bearbetning är en PRO-funktion."
+
+#: includes/admin/partials/step-2-mapping.php:2451
+msgid "AI result will be passed to PHP formula"
+msgstr "AI-resultatet skickas till PHP-formeln"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2570
+msgid "AI test completed successfully."
+msgstr "AI-test slutförd framgångsrikt."
+
+#: includes/admin/partials/settings-page.php:356
+msgid "AI-assisted mapping & transformation"
+msgstr "AI-assisterad mappning och transformation"
+
+#: includes/admin/partials/step-2-mapping.php:844
+#: includes/admin/partials/step-2-mapping.php:1179
+msgid "ALL conditions match"
+msgstr "ALLA villkor matchar"
+
+#: includes/admin/partials/step-2-mapping.php:845
+#: includes/admin/partials/step-2-mapping.php:1180
+msgid "ANY condition matches"
+msgstr "VALFRITT villkor matchar"
+
+#: includes/admin/partials/settings-page.php:400
+#: includes/admin/partials/settings-page.php:419
+#: includes/admin/partials/settings-page.php:438
+#: includes/admin/partials/settings-page.php:457
+#: includes/admin/partials/settings-page.php:475
+msgid "API Key:"
+msgstr "API-nyckel:"
+
+#: includes/admin/partials/settings-page.php:514
+msgid "API Timeout (seconds):"
+msgstr "API Timeout (sekunder):"
+
+#: includes/admin/partials/step-1-upload.php:83
+#, php-format
+msgid "Accepted formats: XML, CSV | Max size: %dMB"
+msgstr "Godkända format: XML, CSV | Max storlek: %dMB"
+
+#: includes/admin/partials/step-2-mapping.php:2722
+msgid "Access product data: <code>$product['field']</code> or <code>$value</code> for source field"
+msgstr "Åtkomst till produktdata: <code>$product['field']</code> eller <code>$value</code> för källfält"
+
+#: includes/admin/partials/settings-page.php:700
+#: includes/admin/partials/step-2-mapping.php:452
+#: includes/admin/partials/import-edit.php:799
+msgid "Action Scheduler"
+msgstr "Åtgärdsschemaläggare"
+
+#: includes/admin/partials/import-edit.php:869
+msgid "Action Scheduler or Server Cron support"
+msgstr "Action Scheduler eller Server Cron-stöd"
+
+#: includes/admin/partials/step-1-upload.php:223
+#: includes/admin/partials/import-edit.php:224
+msgid "Action for missing products:"
+msgstr "Åtgärd för saknade produkter:"
+
+#: includes/admin/partials/import-edit.php:241
+msgid "Action will only affect products last updated by THIS import."
+msgstr "Åtgärden påverkar bara produkter som senast uppdaterades av DENNA import."
+
+#: includes/admin/partials/step-1-upload.php:242
+msgid "Action will only affect products that were last updated by THIS import. Products updated by other imports will not be affected."
+msgstr "Åtgärden påverkar bara produkter som senast uppdaterades av DENNA import. Produkter uppdaterade av andra importer påverkas inte."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:565
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: includes/admin/partials/settings-page.php:219
+msgid "Activate"
+msgstr "Aktivera"
+
+#: includes/admin/partials/settings-page.php:198
+#: includes/class-bfi-license-admin.php:44
+msgid "Activate License"
+msgstr "Aktivera Licens"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:424
+msgid "Activate your license key in Settings → License to unlock PRO features."
+msgstr "Aktivera din licensnyckel i Inställningar → Licens för att låsa upp PRO-funktioner."
+
+#: includes/class-bfi-license-admin.php:46
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/admin/partials/step-2-mapping.php:1566
+#: includes/admin/partials/step-2-mapping.php:1778
+msgid "Add 2 attributes:"
+msgstr "Lägg till 2 attribut:"
+
+#: includes/admin/partials/step-2-mapping.php:1451
+#: includes/admin/partials/step-2-mapping.php:1554
+#: includes/admin/partials/step-2-mapping.php:1770
+msgid "Add Attribute"
+msgstr "Lägg till attribut"
+
+#: includes/admin/partials/step-2-mapping.php:933
+#: includes/admin/partials/step-2-mapping.php:1278
+msgid "Add Condition"
+msgstr "Lägg till Villkor"
+
+#: includes/admin/partials/step-2-mapping.php:2601
+#: includes/admin/partials/import-edit.php:674
+msgid "Add Custom Field"
+msgstr "Lägg till Anpassat Fält"
+
+#: includes/admin/partials/step-2-mapping.php:2521
+#: includes/admin/partials/import-edit.php:559
+msgid "Add Filter"
+msgstr "Lägg till filter"
+
+#: includes/admin/partials/step-2-mapping.php:1475
+msgid "Add Key-Value Pair"
+msgstr "Lägg till Nyckel-Värde Par"
+
+#: includes/admin/partials/step-2-mapping.php:1677
+#: includes/admin/partials/step-2-mapping.php:1944
+msgid "Add Meta Field"
+msgstr "Lägg till Metafält"
+
+#: includes/admin/partials/step-2-mapping.php:744
+#: includes/admin/partials/step-2-mapping.php:1106
+msgid "Add Rule"
+msgstr "Lägg till regel"
+
+#: includes/admin/partials/step-3-progress.php:189
+msgid "Add a new Cron Job with:"
+msgstr "Lägg till ett nytt Cron-jobb med:"
+
+#: includes/admin/partials/step-2-mapping.php:1417
+msgid "Add attributes that will be shown on product pages. These are informational only."
+msgstr "Lägg till attribut som visas på produktsidorna. Dessa är bara informativa."
+
+#: includes/admin/partials/step-2-mapping.php:1374
+msgid "Add display attributes like Material, Brand, Color"
+msgstr "Lägg till visningsattribut som Material, Märke, Färg"
+
+#: includes/admin/partials/settings-page.php:740
+msgid "Add this cron job to your server"
+msgstr "Lägg till detta cron-jobb på din server"
+
+#: includes/admin/partials/settings-page.php:738
+msgid "Add this cron job to your server to trigger scheduled imports. The import will process ALL products until complete in one request."
+msgstr "Lägg till detta cron-jobb på din server för att trigga schemalagda importer. Importen bearbetar ALLA produkter tills det är klart i en begäran."
+
+#: includes/admin/partials/step-2-mapping.php:3115
+msgid "Added to parent SKU"
+msgstr "Tillagd till överordnad SKU"
+
+#: includes/admin/partials/step-2-mapping.php:3148
+msgid "Advanced (Status, Shipping, Dimensions)"
+msgstr "Avancerat (Status, Frakt, Dimensioner)"
+
+#: includes/admin/partials/step-2-mapping.php:287
+msgid "Advanced Fields"
+msgstr "Avancerade Fält"
+
+#: includes/admin/partials/step-2-mapping.php:3424
+#: includes/admin/partials/step-2-mapping.php:3627
+msgid "Advanced Formulas"
+msgstr "Avancerade Formler"
+
+#: includes/admin/partials/step-1-upload.php:167
+msgid "Advanced Options"
+msgstr "Avancerade alternativ"
+
+#: includes/admin/partials/settings-page.php:336
+msgid "Advanced update rules"
+msgstr "Avancerade uppdateringsregler"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:124
+#, php-format
+msgid "All %d products deleted successfully!"
+msgstr "Alla %d produkter raderade!"
+
+#: includes/admin/partials/settings-page.php:165
+msgid "All features unlocked including AI Auto-Mapping, templates, and scheduled imports!"
+msgstr "Alla funktioner upplåsta inklusive AI Auto-Mappning, mallar och schemalagda importer!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4316
+msgid "All products deleted successfully"
+msgstr "Alla produkter raderade"
+
+#: includes/admin/partials/step-2-mapping.php:189
+#: includes/admin/partials/step-2-mapping.php:1855
+msgid "Allow"
+msgstr "Tillåt"
+
+#: includes/admin/partials/step-1-upload.php:227
+#: includes/admin/partials/import-edit.php:228
+msgid "Allow Backorder (stock=0)"
+msgstr "Tillåt restorder (lager=0)"
+
+#: includes/admin/partials/step-2-mapping.php:183
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1094
+msgid "Allow Backorders"
+msgstr "Tillåt restorder"
+
+#: includes/admin/partials/step-2-mapping.php:188
+msgid "Allow, but notify customer"
+msgstr "Tillåt, men meddela kund"
+
+#: includes/admin/partials/step-2-mapping.php:1854
+msgid "Allow, notify"
+msgstr "Tillåt, meddela"
+
+#: includes/admin/partials/settings-page.php:824
+msgid "Allowed File Types:"
+msgstr "Tillåtna Filtyper:"
+
+#: includes/admin/partials/settings-page.php:918
+msgid "Allowed PHP Functions:"
+msgstr "Tillåtna PHP-funktioner:"
+
+#: includes/admin/partials/step-1-upload.php:236
+#: includes/admin/partials/import-edit.php:236
+msgid "Also process variations when parent product is missing"
+msgstr "Bearbeta även variationer när föräldrarprodukten saknas"
+
+#: includes/admin/partials/settings-page.php:760
+msgid "Alternative: WP-CLI"
+msgstr "Alternativ: WP-CLI"
+
+#: includes/admin/partials/step-2-mapping.php:758
+#: includes/admin/partials/step-2-mapping.php:1120
+msgid "Always applies if no other rule matches"
+msgstr "Gäller alltid om ingen annan regel matchar"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:100
+msgid "An error occurred:"
+msgstr "Ett fel uppstod:"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:248
+msgid "Anthropic Claude API key not configured."
+msgstr "Anthropic Claude API-nyckel inte konfigurerad."
+
+#: includes/admin/partials/settings-page.php:435
+msgid "Anthropic Claude Settings"
+msgstr "Anthropic Claude-inställningar"
+
+#: includes/admin/partials/step-2-mapping.php:841
+#: includes/admin/partials/step-2-mapping.php:1176
+msgid "Apply when:"
+msgstr "Tillämpa när:"
+
+#: includes/admin/partials/import-edit.php:1253
+msgid "Are you sure you want to clear all field mappings?"
+msgstr "Är du säker på att du vill rensa alla fältmappningar?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:119
+msgid "Are you sure you want to delete all products from this import?"
+msgstr "Är du säker på att du vill radera alla produkter från denna import?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Are you sure you want to delete this import and its file?"
+msgstr "Är du säker på att du vill radera denna import och dess fil?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:101
+msgid "Are you sure you want to start the import?"
+msgstr "Är du säker på att du vill starta importen?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1196
+msgid "Are you sure? This will reset progress and start from the beginning."
+msgstr "Är du säker? Detta återställer framstegen och startar om från början."
+
+#: includes/admin/partials/step-2-mapping.php:1127
+#: includes/admin/partials/step-2-mapping.php:1286
+msgid "Assign Shipping Class:"
+msgstr "Tilldela Fraktklass:"
+
+#: includes/admin/partials/step-2-mapping.php:2913
+msgid "Attribute Image (optional):"
+msgstr "Attributbild (valfritt):"
+
+#: includes/admin/partials/step-2-mapping.php:1425
+msgid "Attribute Input Mode:"
+msgstr "Attributinmatningsläge:"
+
+#: includes/admin/partials/step-2-mapping.php:2833
+msgid "Attribute Name (WooCommerce):"
+msgstr "Attributnamn (WooCommerce):"
+
+#: includes/admin/partials/step-2-mapping.php:1457
+msgid "Attribute Name: \"Material\" → Source: select the XML/CSV field containing material values"
+msgstr "Attributnamn: \"Material\" → Källa: välj XML/CSV-fältet med materialvärden"
+
+#: includes/admin/partials/step-2-mapping.php:2873
+msgid "Attribute Values (optional override):"
+msgstr "Attributvärden (valfri åsidosättning):"
+
+#: includes/admin/partials/step-2-mapping.php:304
+msgid "Attributes & Variations"
+msgstr "Attribut och Variationer"
+
+#: includes/admin/partials/settings-page.php:284
+msgid "Attributes & variations"
+msgstr "Attribut och variationer"
+
+#: includes/admin/partials/step-2-mapping.php:1744
+msgid "Attributes path:"
+msgstr "Attributsökväg:"
+
+#: includes/admin/partials/step-2-mapping.php:1977
+msgid "Auto Shipping Class Formula"
+msgstr "Auto Fraktklassformel"
+
+#: includes/admin/partials/step-2-mapping.php:1068
+msgid "Auto-assign shipping classes based on product weight, category, price, or any XML field"
+msgstr "Tilldela fraktklasser automatiskt baserat på produktvikt, kategori, pris eller valfritt XML-fält"
+
+#: includes/admin/partials/step-1-upload.php:188
+msgid "Auto-create Categories"
+msgstr "Skapa Kategorier Automatiskt"
+
+#: includes/admin/partials/settings-page.php:847
+msgid "Auto-delete Old Files"
+msgstr "Radera Gamla Filer Automatiskt"
+
+#: includes/admin/partials/step-2-mapping.php:1732
+msgid "Auto-detect"
+msgstr "Automatisk identifiering"
+
+#: includes/admin/partials/step-1-upload.php:118
+msgid "Auto-detect (from extension or content)"
+msgstr "Automatisk identifiering (från filändelse eller innehåll)"
+
+#: includes/admin/partials/step-2-mapping.php:1741
+msgid "Auto-detect Settings"
+msgstr "Inställningar för Automatisk Identifiering"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4174
+#, php-format
+msgid "Auto-detected %1$d of %2$d fields"
+msgstr "Automatiskt identifierade %1$d av %2$d fält"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2008
+#, php-format
+msgid "Auto-detected External product type for \"%s\" (has external_url field)"
+msgstr "Automatiskt identifierad Extern produkttyp för \"%s\" (har fältet external_url)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2002
+#, php-format
+msgid "Auto-detected Grouped product type for \"%s\" (has grouped_products field)"
+msgstr "Automatiskt identifierad Grupperad produkttyp för \"%s\" (har fältet grouped_products)"
+
+#: includes/admin/partials/step-2-mapping.php:2585
+msgid "Auto-draft products that no longer match filters"
+msgstr "Auto-utkast för produkter som inte längre matchar filter"
+
+#: includes/admin/partials/step-2-mapping.php:2295
+msgid "Auto-generate"
+msgstr "Auto-generera"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3444
+msgid "Auto-refresh (5s)"
+msgstr "Auto-uppdatera (5s)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3600
+msgid "Auto-refresh for live monitoring"
+msgstr "Auto-uppdatera för live-övervakning"
+
+#: includes/admin/partials/step-3-progress.php:361
+msgid "Auto-scroll"
+msgstr "Auto-rullning"
+
+#: includes/admin/partials/settings-page.php:795
+msgid "Automate your imports with scheduled cron jobs. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "Automatisera dina importer med schemalagda cron-jobb. Kör importer automatiskt var 15:e minut, varje timme, dagligen eller veckovis."
+
+#: includes/admin/partials/import-edit.php:777
+#: includes/admin/partials/import-edit.php:860
+msgid "Automated Schedule"
+msgstr "Automatiserat Schema"
+
+#: includes/admin/partials/step-2-mapping.php:432
+msgid "Automated scheduled imports are available in the PRO version."
+msgstr "Automatiserade schemalagda importer finns tillgängliga i PRO-versionen."
+
+#: includes/admin/partials/step-1-upload.php:160
+msgid "Automated scheduled imports are available in the PRO version. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "Automatiserade schemalagda importer finns i PRO-versionen. Kör importer var 15:e minut, varje timme, dagligen eller veckovis."
+
+#: includes/admin/partials/settings-page.php:321
+msgid "Automatic field mapping"
+msgstr "Automatisk fältmappning"
+
+#: includes/admin/partials/import-edit.php:868
+msgid "Automatic product updates"
+msgstr "Automatiska produktuppdateringar"
+
+#: includes/admin/partials/step-2-mapping.php:455
+msgid "Automatically continues until complete. No server cron needed."
+msgstr "Fortsätter automatiskt tills det är klart. Ingen server-cron behövs."
+
+#: includes/admin/partials/import-edit.php:802
+msgid "Automatically continues until complete. No server cron needed. Requires website traffic."
+msgstr "Fortsätter automatiskt tills det är klart. Ingen server-cron behövs. Kräver webbplatstrafik."
+
+#: includes/admin/partials/step-1-upload.php:190
+msgid "Automatically create product categories if they don't exist."
+msgstr "Skapa produktkategorier automatiskt om de inte finns."
+
+#: includes/admin/partials/step-2-mapping.php:3593
+msgid "Automatically map XML/CSV fields to WooCommerce product fields using artificial intelligence. Save hours of manual mapping work."
+msgstr "Mappa XML/CSV-fält till WooCommerce-produktfält automatiskt med artificiell intelligens. Spara timmar av manuellt arbete."
+
+#: includes/admin/partials/step-2-mapping.php:424
+msgid "Automatically re-import from URL on a schedule. Requires server cron to be configured."
+msgstr "Importera automatiskt från URL enligt schema. Kräver att server-cron konfigureras."
+
+#: includes/admin/partials/settings-page.php:948
+msgid "Automatically sanitize imported data to prevent XSS and other security issues."
+msgstr "Rensa importerad data automatiskt för att förhindra XSS och andra säkerhetsproblem."
+
+#: includes/admin/partials/step-2-mapping.php:2000
+#: includes/admin/partials/import-edit.php:389
+msgid "Available Shipping Classes:"
+msgstr "Tillgängliga Fraktklasser:"
+
+#: includes/admin/partials/step-2-mapping.php:1997
+#: includes/admin/partials/import-edit.php:386
+msgid "Available Variables:"
+msgstr "Tillgängliga Variabler:"
+
+#: includes/admin/partials/step-2-mapping.php:1311
+msgid "Available WooCommerce Shipping Classes:"
+msgstr "Tillgängliga WooCommerce Fraktklasser:"
+
+#: includes/admin/partials/step-2-mapping.php:2318
+msgid "Available placeholders:"
+msgstr "Tillgängliga platshållare:"
+
+#: includes/admin/partials/import-edit.php:84
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3621
+msgid "Back to Import History"
+msgstr "Tillbaka till Importhistorik"
+
+#: includes/admin/partials/step-2-mapping.php:2616
+msgid "Back to Upload"
+msgstr "Tillbaka till Uppladdning"
+
+#: includes/admin/partials/settings-page.php:575
+msgid "Background Batch Size:"
+msgstr "Bakgrundsbatchstorlek:"
+
+#: includes/admin/partials/settings-page.php:578
+msgid "Background Interval (seconds):"
+msgstr "Bakgrundsintervall (sekunder):"
+
+#: includes/admin/partials/settings-page.php:567
+msgid "Background Processing"
+msgstr "Bakgrundsbearbetning"
+
+#: includes/admin/partials/step-2-mapping.php:1848
+msgid "Backorders:"
+msgstr "Restorder:"
+
+#: includes/admin/partials/step-2-mapping.php:710
+msgid "Base Price Source (from XML):"
+msgstr "Baspris Källa (från XML):"
+
+#: includes/admin/partials/step-2-mapping.php:98
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1070
+msgid "Basic Product Fields"
+msgstr "Grundläggande Produktfält"
+
+#: includes/admin/partials/step-1-upload.php:201
+#: includes/admin/partials/step-2-mapping.php:483
+#: includes/admin/partials/import-edit.php:159
+#: includes/admin/partials/import-edit.php:275
+msgid "Batch Size"
+msgstr "Batchstorlek"
+
+#: includes/admin/partials/settings-page.php:544
+msgid "Batch Size:"
+msgstr "Batchstorlek:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:171
+msgid "Bootflow Import"
+msgstr "Bootflow Import"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:170
+msgid "Bootflow Importer"
+msgstr "Bootflow Importör"
+
+#: includes/class-bfi-license-admin.php:33
+msgid "Bootflow PRO License"
+msgstr "Bootflow PRO-licens"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:255
+msgid "Bootflow – WooCommerce XML & CSV Importer"
+msgstr "Bootflow – WooCommerce XML & CSV Importör"
+
+#: includes/admin/partials/step-2-mapping.php:226
+#: includes/admin/partials/step-2-mapping.php:1192
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1127
+msgid "Brand"
+msgstr "Varumärke"
+
+#: includes/admin/partials/step-2-mapping.php:887
+#: includes/admin/partials/step-2-mapping.php:1241
+msgid "Brand name"
+msgstr "Varumärkesnamn"
+
+#: includes/admin/partials/step-1-upload.php:76
+msgid "Browse Files"
+msgstr "Bläddra bland filer"
+
+#: includes/admin/partials/step-2-mapping.php:291
+msgid "Button Text"
+msgstr "Knapptext"
+
+#: includes/admin/partials/step-2-mapping.php:1524
+msgid "CSV Grouping Fields"
+msgstr "CSV Grupperingsfält"
+
+#: includes/admin/partials/step-2-mapping.php:1515
+msgid "CSV Variable Products"
+msgstr "CSV Variabla Produkter"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:372
+msgid "CSV file appears to be empty."
+msgstr "CSV-filen verkar vara tom."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:437
+msgid "CSV file has no headers."
+msgstr "CSV-filen har inga rubriker."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:390
+#, php-format
+msgid "CSV file is valid with %d columns."
+msgstr "CSV-filen är giltig med %d kolumner."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:31
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:122
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:420
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:490
+msgid "CSV file not found."
+msgstr "CSV-fil hittades inte."
+
+#: includes/admin/partials/settings-page.php:525
+msgid "Cache TTL (seconds):"
+msgstr "Cache TTL (sekunder):"
+
+#: includes/admin/partials/step-2-mapping.php:2982
+#: includes/admin/partials/step-2-mapping.php:3056
+#: includes/admin/partials/step-2-mapping.php:3217
+msgid "Calculate"
+msgstr "Beräkna"
+
+#: includes/admin/partials/step-2-mapping.php:683
+msgid "Calculate final prices by applying markup rules to the base price from XML"
+msgstr "Beräkna slutpriser genom att tillämpa påslagsregler på baspriset från XML"
+
+#: includes/admin/partials/step-3-progress.php:437
+#: includes/admin/partials/step-3-progress.php:458
+msgid "Calculating..."
+msgstr "Beräknar..."
+
+#: includes/admin/partials/import-edit.php:883
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:117
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/admin/partials/step-2-mapping.php:222
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1123
+msgid "Categories & Tags"
+msgstr "Kategorier och taggar"
+
+#: includes/admin/partials/step-2-mapping.php:1191
+msgid "Category"
+msgstr "Kategori"
+
+#: includes/admin/partials/step-2-mapping.php:1231
+msgid "Category name"
+msgstr "Kategorinamn"
+
+#: includes/admin/partials/step-2-mapping.php:877
+msgid "Category name or slug"
+msgstr "Kategorinamn eller slug"
+
+#: includes/admin/partials/step-2-mapping.php:2690
+msgid "Checkbox"
+msgstr "Kryssruta"
+
+#: includes/admin/partials/settings-page.php:695
+msgid "Choose Method"
+msgstr "Välj Metod"
+
+#: includes/admin/partials/step-1-upload.php:148
+msgid "Choose how often this import should run automatically. Manual imports can be run at any time."
+msgstr "Välj hur ofta denna import ska köras automatiskt. Manuella importer kan köras när som helst."
+
+#: includes/admin/partials/step-2-mapping.php:644
+#: includes/admin/partials/import-edit.php:332
+msgid "Clear All"
+msgstr "Rensa Allt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3449
+msgid "Clear Log"
+msgstr "Rensa Logg"
+
+#: includes/admin/partials/step-2-mapping.php:2497
+#: includes/admin/partials/import-edit.php:540
+msgid "Clear Mapping"
+msgstr "Rensa Mappning"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3448
+msgid "Clear debug log file?"
+msgstr "Rensa debugloggfilen?"
+
+#: includes/admin/partials/import-edit.php:1369
+msgid "Clear this field mapping?"
+msgstr "Rensa denna fältmappning?"
+
+#: includes/admin/partials/step-2-mapping.php:3411
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:118
+msgid "Close"
+msgstr "Stäng"
+
+#: includes/admin/partials/step-2-mapping.php:2584
+msgid "Combine multiple filters with AND/OR logic"
+msgstr "Kombinera flera filter med AND/ELLER-logik"
+
+#: includes/admin/partials/step-3-progress.php:193
+msgid "Command:"
+msgstr "Kommando:"
+
+#: includes/admin/partials/step-2-mapping.php:2669
+#: includes/admin/partials/import-edit.php:604
+#: includes/admin/partials/import-edit.php:1209
+msgid "Comparison value"
+msgstr "Jämförelsevärde"
+
+#: includes/admin/partials/import-edit.php:609
+msgid "Condition"
+msgstr "Villkor"
+
+#: includes/admin/partials/settings-page.php:341
+msgid "Conditional logic"
+msgstr "Villkorlig logik"
+
+#: includes/admin/partials/import-edit.php:325
+msgid "Configuration Required:"
+msgstr "Konfiguration Krävs:"
+
+#: includes/admin/partials/step-2-mapping.php:611
+msgid "Configure AI provider in Settings to enable auto-mapping"
+msgstr "Konfigurera AI-leverantör i Inställningar för att aktivera auto-mappning"
+
+#: includes/admin/partials/settings-page.php:392
+msgid "Configure API keys and settings for AI providers used in smart field processing."
+msgstr "Konfigurera API-nycklar och inställningar för AI-leverantörer som används vid smart fältbearbetning."
+
+#: includes/admin/partials/step-2-mapping.php:2494
+#: includes/admin/partials/import-edit.php:537
+msgid "Configure Processing"
+msgstr "Konfigurera Bearbetning"
+
+#: includes/admin/partials/settings-page.php:589
+msgid "Configure default settings for product imports and data handling."
+msgstr "Konfigurera standardinställningar för produktimport och datahantering."
+
+#: includes/admin/partials/settings-page.php:814
+msgid "Configure file upload, storage, and management settings."
+msgstr "Konfigurera inställningar för filuppladdning, lagring och hantering."
+
+#: includes/admin/partials/step-2-mapping.php:1502
+msgid "Configure how variations are structured in your file."
+msgstr "Konfigurera hur variationer är strukturerade i din fil."
+
+#: includes/admin/partials/settings-page.php:862
+msgid "Configure logging levels and notification settings."
+msgstr "Konfigurera loggnivåer och aviseringsinställningar."
+
+#: includes/admin/partials/settings-page.php:537
+msgid "Configure performance-related settings to optimize import speed and memory usage."
+msgstr "Konfigurera prestandarelaterade inställningar för att optimera importhastighet och minnesanvändning."
+
+#: includes/admin/partials/settings-page.php:911
+msgid "Configure security settings for PHP formula execution and data validation."
+msgstr "Konfigurera säkerhetsinställningar för PHP-formelkörning och datavalidering."
+
+#: includes/admin/partials/settings-page.php:710
+#: includes/admin/partials/settings-page.php:722
+msgid "Cons:"
+msgstr "Nackdelar:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1188
+msgid "Continue Import"
+msgstr "Fortsätt Import"
+
+#: includes/admin/partials/import-edit.php:830
+#: includes/admin/partials/import-edit.php:844
+msgid "Copied!"
+msgstr "Kopierat!"
+
+#: includes/admin/partials/import-edit.php:831
+msgid "Copy"
+msgstr "Kopiera"
+
+#: includes/admin/partials/settings-page.php:750
+#: includes/admin/partials/import-edit.php:845
+msgid "Copy Command"
+msgstr "Kopiera Kommando"
+
+#: includes/admin/partials/step-2-mapping.php:473
+msgid "Copy URL"
+msgstr "Kopiera URL"
+
+#: includes/admin/partials/settings-page.php:741
+msgid "Copy and paste this command into your server's crontab (via SSH or your hosting control panel):"
+msgstr "Kopiera och klistra in detta kommando i din servers crontab (via SSH eller ditt värdpanels kontrollpanel):"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:475
+msgid "Could not connect to the license server. Please check your internet connection and try again."
+msgstr "Kunde inte ansluta till licensservern. Kontrollera din internetanslutning och försök igen."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6805
+#, php-format
+msgid "Could not find product with SKU: %s"
+msgstr "Kunde inte hitta produkt med SKU: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6634
+#, php-format
+msgid "Could not resolve children for grouped product ID %1$d (SKUs: %2$s)"
+msgstr "Kunde inte lösa barn för grupperad produkt ID %1$d (SKU: %2$s)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:120
+msgid "Counting products..."
+msgstr "Räknar produkter..."
+
+#: includes/admin/partials/settings-page.php:647
+msgid "Create Missing Categories"
+msgstr "Skapa Saknade Kategorier"
+
+#: includes/admin/partials/settings-page.php:652
+msgid "Create Missing Tags"
+msgstr "Skapa Saknade Taggar"
+
+#: includes/admin/partials/step-2-mapping.php:1755
+msgid "Create WooCommerce attributes if they don't exist"
+msgstr "Skapa WooCommerce-attribut om de inte finns"
+
+#: includes/admin/partials/step-2-mapping.php:3628
+msgid "Create complex field transformation formulas. String manipulation, conditionals, and more."
+msgstr "Skapa komplexa fälttransformationsformler. Strängmanipulering, villkor och mer."
+
+#: includes/admin/partials/import-edit.php:108
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:563
+msgid "Created"
+msgstr "Skapad"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:801
+#, php-format
+msgid "Created product: %1$s (ID: %2$d)"
+msgstr "Produkt skapad: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/settings-page.php:768
+msgid "Cron Secret Key"
+msgstr "Cron Hemlig Nyckel"
+
+#: includes/admin/partials/settings-page.php:778
+#: includes/admin/partials/import-edit.php:827
+msgid "Cron URL"
+msgstr "Cron URL"
+
+#: includes/admin/partials/step-2-mapping.php:470
+msgid "Cron URL:"
+msgstr "Cron URL:"
+
+#: includes/admin/partials/step-2-mapping.php:280
+msgid "Cross-sell Product IDs"
+msgstr "Korsförsäljning Produkt-ID"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1169
+msgid "Current Progress:"
+msgstr "Nuvarande Framsteg:"
+
+#: includes/admin/partials/settings-page.php:366
+msgid "Custom AI prompts per field"
+msgstr "Anpassade AI-prompter per fält"
+
+#: includes/admin/partials/step-2-mapping.php:2685
+msgid "Custom Field Name"
+msgstr "Anpassat Fältnamn"
+
+#: includes/admin/partials/step-2-mapping.php:2598
+#: includes/admin/partials/import-edit.php:671
+msgid "Custom Fields"
+msgstr "Anpassade fält"
+
+#: includes/admin/partials/step-2-mapping.php:1673
+#: includes/admin/partials/step-2-mapping.php:1940
+msgid "Custom Meta Fields (EAN, GTIN, UPC, etc.)"
+msgstr "Anpassade Metafält (EAN, GTIN, UPC, etc.)"
+
+#: includes/admin/partials/import-edit.php:787
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:583
+msgid "Daily"
+msgstr "Dagligen"
+
+#: includes/admin/partials/step-1-upload.php:144
+#: includes/admin/partials/step-2-mapping.php:419
+msgid "Daily Import"
+msgstr "Daglig Import"
+
+#: includes/admin/partials/settings-page.php:941
+msgid "Data Sanitization"
+msgstr "Datasanering"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2796
+msgid "Database error: "
+msgstr "Databasfel: "
+
+#: includes/admin/partials/step-2-mapping.php:2691
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/partials/settings-page.php:224
+msgid "Deactivate"
+msgstr "Avaktivera"
+
+#: includes/class-bfi-license-admin.php:55
+msgid "Deactivate License"
+msgstr "Inaktivera Licens"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3592
+msgid "Debug file viewer for troubleshooting"
+msgstr "Debugfilvisare för felsökning"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3459
+msgid "Debug log cleared."
+msgstr "Debugloggen rensad."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3483
+msgid "Debug log file not found."
+msgstr "Debugloggfil hittades inte."
+
+#: includes/admin/partials/step-1-upload.php:193
+msgid "Default Product Status"
+msgstr "Standard Produktstatus"
+
+#: includes/admin/partials/settings-page.php:596
+msgid "Default Product Status:"
+msgstr "Standard Produktstatus:"
+
+#: includes/admin/partials/settings-page.php:493
+msgid "Default Provider:"
+msgstr "Standardleverantör:"
+
+#: includes/admin/partials/step-2-mapping.php:1002
+#: includes/admin/partials/step-2-mapping.php:1022
+msgid "Default Rule"
+msgstr "Standardregel"
+
+#: includes/admin/partials/step-2-mapping.php:756
+#: includes/admin/partials/step-2-mapping.php:1118
+msgid "Default Rule (Fallback)"
+msgstr "Standardregel (Reserv)"
+
+#: includes/admin/partials/step-2-mapping.php:1719
+msgid "Define attributes used for variations (e.g., Size, Color). Each unique combination creates a product variation."
+msgstr "Definiera attribut som används för variationer (t.ex. Storlek, Färg). Varje unik kombination skapar en produktvariation."
+
+#: includes/admin/partials/step-2-mapping.php:1728
+msgid "Define each attribute manually"
+msgstr "Definiera varje attribut manuellt"
+
+#: includes/admin/partials/step-2-mapping.php:548
+msgid "Delete Template"
+msgstr "Radera Mall"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Delete import"
+msgstr "Radera import"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:659
+msgid "Delete products"
+msgstr "Radera produkter"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4318
+#, php-format
+msgid "Deleted %1$d products, %2$d remaining..."
+msgstr "%1$d produkter raderade, %2$d kvar..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:115
+msgid "Deleting Products"
+msgstr "Raderar Produkter"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:121
+msgid "Deleting..."
+msgstr "Raderar..."
+
+#: includes/admin/partials/step-2-mapping.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1074
+msgid "Description"
+msgstr "Beskrivning"
+
+#: includes/admin/partials/step-2-mapping.php:1644
+#: includes/admin/partials/step-2-mapping.php:1890
+#: includes/admin/partials/step-2-mapping.php:3288
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3588
+msgid "Detailed error messages with context"
+msgstr "Detaljerade felmeddelanden med kontext"
+
+#: includes/admin/partials/step-2-mapping.php:3239
+msgid "Dimensions (L×W×H):"
+msgstr "Dimensioner (L×B×H):"
+
+#: includes/admin/partials/step-2-mapping.php:2881
+#: includes/admin/partials/step-2-mapping.php:2921
+#: includes/admin/partials/import-edit.php:712
+#: includes/admin/partials/import-edit.php:1126
+msgid "Direct"
+msgstr "Direkt"
+
+#: includes/admin/partials/step-2-mapping.php:2358
+#: includes/admin/partials/step-2-mapping.php:2705
+#: includes/admin/partials/step-2-mapping.php:3002
+#: includes/admin/partials/step-2-mapping.php:3295
+#: includes/admin/partials/import-edit.php:455
+msgid "Direct Mapping"
+msgstr "Direkt Mappning"
+
+#: includes/admin/partials/settings-page.php:836
+msgid "Directory name within wp-content/uploads/"
+msgstr "Katalognamn inom wp-content/uploads/"
+
+#: includes/admin/partials/import-edit.php:783
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: includes/admin/partials/step-2-mapping.php:1415
+msgid "Display Attributes"
+msgstr "Visningsattribut"
+
+#: includes/admin/partials/step-2-mapping.php:2840
+msgid "Display name in WooCommerce (any language). Auto-adds pa_ prefix."
+msgstr "Visningsnamn i WooCommerce (valfritt språk). Lägger automatiskt till pa_-prefix."
+
+#: includes/admin/partials/step-2-mapping.php:187
+msgid "Do not allow"
+msgstr "Tillåt inte"
+
+#: includes/admin/partials/step-2-mapping.php:263
+msgid "Download Expiry (days)"
+msgstr "Nedladdning Utgångsdatum (dagar)"
+
+#: includes/admin/partials/step-2-mapping.php:1906
+msgid "Download Expiry (days):"
+msgstr "Nedladdning Utgångsdatum (dagar):"
+
+#: includes/admin/partials/step-2-mapping.php:1910
+msgid "Download Files:"
+msgstr "Nedladdningsfiler:"
+
+#: includes/admin/partials/settings-page.php:624
+msgid "Download Images from URLs"
+msgstr "Ladda ner Bilder från URL:er"
+
+#: includes/admin/partials/step-2-mapping.php:262
+msgid "Download Limit"
+msgstr "Nedladdningsgräns"
+
+#: includes/admin/partials/step-2-mapping.php:1902
+msgid "Download Limit:"
+msgstr "Nedladdningsgräns:"
+
+#: includes/admin/partials/step-3-progress.php:505
+msgid "Download Report"
+msgstr "Ladda ner Rapport"
+
+#: includes/admin/partials/step-2-mapping.php:260
+msgid "Download Settings"
+msgstr "Nedladdningsinställningar"
+
+#: includes/admin/partials/step-2-mapping.php:243
+msgid "Downloadable"
+msgstr "Nedladdningsbar"
+
+#: includes/admin/partials/step-2-mapping.php:3184
+msgid "Downloadable products give access to files after purchase (e.g., ebooks, software)"
+msgstr "Nedladdningsbara produkter ger åtkomst till filer efter köp (t.ex. e-böcker, programvara)"
+
+#: includes/admin/partials/step-2-mapping.php:1652
+#: includes/admin/partials/step-2-mapping.php:1898
+#: includes/admin/partials/step-2-mapping.php:3185
+msgid "Downloadable:"
+msgstr "Nedladdningsbar:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1654
+msgid "Downloaded file is empty or failed to save."
+msgstr "Nedladdad fil är tom eller kunde inte sparas."
+
+#: includes/admin/partials/step-1-upload.php:196
+#: includes/admin/partials/step-2-mapping.php:127
+msgid "Draft"
+msgstr "Utkast"
+
+#: includes/admin/partials/step-1-upload.php:73
+msgid "Drag & drop your file here"
+msgstr "Dra och släpp din fil här"
+
+#: includes/admin/partials/settings-page.php:608
+msgid "Duplicate Handling:"
+msgstr "Dubbletthantering:"
+
+#: includes/admin/partials/step-2-mapping.php:269
+msgid "EAN"
+msgstr "EAN"
+
+#: includes/admin/partials/step-3-progress.php:338
+msgid "ETA"
+msgstr "ETA"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:641
+msgid "Edit"
+msgstr "Redigera"
+
+#: includes/admin/partials/settings-page.php:162
+#: includes/admin/partials/settings-page.php:169
+#: includes/admin/partials/settings-page.php:176
+msgid "Edition"
+msgstr "Utgåva"
+
+#: includes/admin/partials/settings-page.php:892
+msgid "Email Notifications"
+msgstr "E-postnotifieringar"
+
+#: includes/admin/partials/settings-page.php:522
+msgid "Enable AI Response Caching"
+msgstr "Aktivera AI-svarscaching"
+
+#: includes/admin/partials/settings-page.php:946
+msgid "Enable Advanced Data Sanitization"
+msgstr "Aktivera Avancerad Datasanering"
+
+#: includes/admin/partials/settings-page.php:572
+msgid "Enable Background Processing (WP-Cron)"
+msgstr "Aktivera Bakgrundsbearbetning (WP-Cron)"
+
+#: includes/admin/partials/settings-page.php:897
+msgid "Enable Email Notifications"
+msgstr "Aktivera E-postnotifieringar"
+
+#: includes/admin/partials/settings-page.php:931
+msgid "Enable Formula Validation"
+msgstr "Aktivera Formelvalidering"
+
+#: includes/admin/partials/settings-page.php:871
+msgid "Enable Logging"
+msgstr "Aktivera Loggning"
+
+#: includes/admin/partials/step-2-mapping.php:681
+msgid "Enable Price Markup"
+msgstr "Aktivera Prispåslag"
+
+#: includes/admin/partials/settings-page.php:642
+msgid "Enable Product Variations Import"
+msgstr "Aktivera Import av Produktvariationer"
+
+#: includes/admin/partials/settings-page.php:511
+msgid "Enable Provider Fallback"
+msgstr "Aktivera Leverantörsreserv"
+
+#: includes/admin/partials/step-2-mapping.php:1066
+msgid "Enable Shipping Class Rules"
+msgstr "Aktivera Fraktklassregler"
+
+#: includes/admin/partials/step-2-mapping.php:1335
+msgid "Enable Shipping Class Rules above to automatically assign shipping classes based on product data"
+msgstr "Aktivera Fraktklassregler ovan för att automatiskt tilldela fraktklasser baserat på produktdata"
+
+#: includes/admin/partials/step-2-mapping.php:3198
+msgid "Enable stock management at variation level (track inventory for each variation separately)"
+msgstr "Aktivera lagerhantering på variationsnivå (spåra lager för varje variation separat)"
+
+#: includes/admin/partials/step-2-mapping.php:1034
+msgid "Enable the Price Markup above to configure automatic price calculations"
+msgstr "Aktivera Prispåslaget ovan för att konfigurera automatiska prisberäkningar"
+
+#: includes/admin/partials/step-2-mapping.php:828
+#: includes/admin/partials/step-2-mapping.php:1163
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: includes/admin/partials/step-2-mapping.php:3157
+msgid "Enabled:"
+msgstr "Aktiverad:"
+
+#: includes/admin/partials/step-2-mapping.php:216
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1117
+msgid "Enter image URLs or use placeholders: {image} = first image, {image[1]} = first, {image[2]} = second, {image*} = all images. Separate multiple values with commas."
+msgstr "Ange bild-URL:er eller använd platshållare: {image} = första bilden, {image[1]} = första, {image[2]} = andra, {image*} = alla bilder. Separera flera värden med kommatecken."
+
+#: includes/admin/partials/step-2-mapping.php:526
+msgid "Enter template name..."
+msgstr "Ange mallnamn..."
+
+#: includes/admin/partials/step-1-upload.php:107
+msgid "Enter the direct URL to your XML or CSV file."
+msgstr "Ange den direkta URL:en till din XML- eller CSV-fil."
+
+#: includes/admin/partials/settings-page.php:212
+msgid "Enter your license key"
+msgstr "Ange din licensnyckel"
+
+#: includes/admin/partials/settings-page.php:172
+msgid "Enter your license key below to activate PRO features. Without a license, the plugin runs in free mode."
+msgstr "Ange din licensnyckel nedan för att aktivera PRO-funktioner. Utan licens körs tillägget i gratisläge."
+
+#: includes/admin/partials/settings-page.php:202
+msgid "Enter your license key to unlock PRO features. Purchase a license at"
+msgstr "Ange din licensnyckel för att låsa upp PRO-funktioner. Köp en licens på"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:890
+#, php-format
+msgid "Error importing product: %s"
+msgstr "Fel vid import av produkt: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6977
+#, php-format
+msgid "Error processing missing product ID %1$d: %2$s"
+msgstr "Fel vid bearbetning av saknad produkt ID %1$d: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6639
+#, php-format
+msgid "Error resolving grouped product ID %1$d: %2$s"
+msgstr "Fel vid lösning av grupperad produkt ID %1$d: %2$s"
+
+#: includes/admin/partials/step-3-progress.php:443
+msgid "Estimated Time Remaining"
+msgstr "Beräknad Återstående Tid"
+
+#: includes/admin/partials/step-1-upload.php:141
+#: includes/admin/partials/step-2-mapping.php:416
+#: includes/class-wc-xml-csv-ai-import.php:103
+msgid "Every 15 Minutes"
+msgstr "Var 15:e Minut"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:580
+msgid "Every 15 min"
+msgstr "Var 15 min"
+
+#: includes/admin/partials/import-edit.php:784
+msgid "Every 15 minutes"
+msgstr "Var 15:e minut"
+
+#: includes/admin/partials/import-edit.php:867
+msgid "Every 15 minutes, hourly, daily, weekly, or monthly"
+msgstr "Var 15:e minut, varje timme, dagligen, veckovis eller månadsvis"
+
+#: includes/admin/partials/step-1-upload.php:143
+#: includes/admin/partials/step-2-mapping.php:418
+#: includes/class-wc-xml-csv-ai-import.php:109
+msgid "Every 6 Hours"
+msgstr "Var 6:e Timme"
+
+#: includes/admin/partials/import-edit.php:786
+msgid "Every 6 hours"
+msgstr "Var 6:e timme"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:582
+msgid "Every 6h"
+msgstr "Var 6t"
+
+#: includes/admin/partials/step-1-upload.php:142
+#: includes/admin/partials/step-2-mapping.php:417
+msgid "Every Hour"
+msgstr "Varje Timme"
+
+#: includes/admin/partials/step-2-mapping.php:1479
+msgid "Example for BigBuy XML:"
+msgstr "Exempel för BigBuy XML:"
+
+#: includes/admin/partials/step-2-mapping.php:1562
+msgid "Example for CSV structure:"
+msgstr "Exempel för CSV-struktur:"
+
+#: includes/admin/partials/step-2-mapping.php:1774
+msgid "Example for your XML structure:"
+msgstr "Exempel för din XML-struktur:"
+
+#: includes/admin/partials/step-2-mapping.php:1455
+msgid "Example:"
+msgstr "Exempel:"
+
+#: includes/admin/partials/import-edit.php:474
+msgid "Example: $value * 1.2 (adds 20% markup)"
+msgstr "Exempel: $value * 1.2 (lägger till 20% påslag)"
+
+#: includes/admin/partials/step-2-mapping.php:2855
+msgid "Example: if XML has <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → enter <code>size</code>"
+msgstr "Exempel: om XML har <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → ange <code>size</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2173
+msgid "Expected values: taxable, shipping, none"
+msgstr "Förväntade värden: taxable, shipping, none"
+
+#: includes/admin/partials/step-2-mapping.php:292
+msgid "External URL"
+msgstr "Extern URL"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2035
+#, php-format
+msgid "External products require PRO license. Importing \"%s\" as Simple product."
+msgstr "Externa produkter kräver PRO-licens. Importerar \"%s\" som Enkel produkt."
+
+#: includes/admin/partials/step-2-mapping.php:115
+msgid "External/Affiliate"
+msgstr "Extern/Affiliate"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:195
+msgid "Failed to create import record: "
+msgstr "Kunde inte skapa importpost: "
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2230
+msgid "Failed to create product."
+msgstr "Kunde inte skapa produkt."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1622
+msgid "Failed to create temporary file."
+msgstr "Kunde inte skapa temporär fil."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:500
+msgid "Failed to delete import."
+msgstr "Kunde inte radera import."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1647
+msgid "Failed to download file from URL. HTTP Status: "
+msgstr "Kunde inte ladda ner fil från URL. HTTP-status: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1639
+msgid "Failed to download file from URL: "
+msgstr "Kunde inte ladda ner fil från URL: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3685
+msgid "Failed to update URL in database."
+msgstr "Kunde inte uppdatera URL i databasen."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:182
+msgid "Failed to update import record: "
+msgstr "Kunde inte uppdatera importpost: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1582
+msgid "Failed to upload file."
+msgstr "Kunde inte ladda upp fil."
+
+#: includes/admin/partials/settings-page.php:261
+msgid "Feature"
+msgstr "Funktion"
+
+#: includes/admin/partials/settings-page.php:255
+msgid "Feature Comparison"
+msgstr "Funktionsjämförelse"
+
+#: includes/admin/partials/step-2-mapping.php:218
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1119
+msgid "Featured Image"
+msgstr "Utvald Bild"
+
+#: includes/admin/partials/step-2-mapping.php:233
+msgid "Featured Product"
+msgstr "Utvald Produkt"
+
+#: includes/admin/partials/step-2-mapping.php:2643
+#: includes/admin/partials/import-edit.php:577
+#: includes/admin/partials/import-edit.php:1182
+msgid "Field"
+msgstr "Fält"
+
+#: includes/admin/partials/import-edit.php:320
+msgid "Field Mappings"
+msgstr "Fältmappningar"
+
+#: includes/admin/partials/import-edit.php:693
+#: includes/admin/partials/import-edit.php:1107
+msgid "Field Name"
+msgstr "Fältnamn"
+
+#: includes/admin/partials/step-2-mapping.php:331
+msgid "File"
+msgstr "Fil"
+
+#: includes/admin/partials/settings-page.php:559
+msgid "File Chunk Size:"
+msgstr "Filchunkstorlek:"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:160
+msgid "File MIME type does not match extension."
+msgstr "Filens MIME-typ matchar inte filändelsen."
+
+#: includes/admin/partials/settings-page.php:813
+msgid "File Management Settings"
+msgstr "Filhanteringsinställningar"
+
+#: includes/admin/partials/settings-page.php:842
+msgid "File Retention"
+msgstr "Fillagring"
+
+#: includes/admin/partials/settings-page.php:850
+msgid "File Retention (days):"
+msgstr "Fillagring (dagar):"
+
+#: includes/admin/partials/step-2-mapping.php:326
+#: includes/admin/partials/import-edit.php:288
+msgid "File Structure"
+msgstr "Filstruktur"
+
+#: includes/admin/partials/step-1-upload.php:116
+#: includes/admin/partials/import-edit.php:96
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:559
+msgid "File Type"
+msgstr "Filtyp"
+
+#: includes/admin/partials/step-3-progress.php:255
+msgid "File Type:"
+msgstr "Filtyp:"
+
+#: includes/admin/partials/step-1-upload.php:104
+#: includes/admin/partials/import-edit.php:164
+msgid "File URL"
+msgstr "Fil-URL"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1590
+msgid "File URL is required."
+msgstr "Fil-URL krävs."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:166
+msgid "File contains potentially malicious content."
+msgstr "Filen innehåller potentiellt skadligt innehåll."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:660
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:351
+msgid "File does not exist."
+msgstr "Filen finns inte."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1708
+msgid "File is empty."
+msgstr "Filen är tom."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1860
+msgid "File is not ready yet. Please refresh the page and try again."
+msgstr "Filen är inte redo ännu. Uppdatera sidan och försök igen."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:113
+msgid "File is too large."
+msgstr "Filen är för stor."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:148
+msgid "File is too large. Maximum size is 100MB."
+msgstr "Filen är för stor. Maximal storlek är 100MB."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:668
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:360
+#, php-format
+msgid "File size exceeds maximum limit of %dMB."
+msgstr "Filstorleken överskrider maxgränsen på %dMB."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7038
+msgid "File type must be XML or CSV."
+msgstr "Filtypen måste vara XML eller CSV."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:141
+msgid "File type not allowed. Only XML and CSV files are supported."
+msgstr "Filtyp inte tillåten. Endast XML- och CSV-filer stöds."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1550
+msgid "File upload error."
+msgstr "Filuppladdningsfel."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1701
+msgid "File upload failed - file does not exist."
+msgstr "Filuppladdning misslyckades - filen finns inte."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:116
+msgid "File upload was incomplete."
+msgstr "Filuppladdningen var ofullständig."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1782
+msgid "File uploaded successfully."
+msgstr "Fil uppladdad."
+
+#: includes/admin/partials/import-edit.php:290
+msgid "File:"
+msgstr "Fil:"
+
+#: includes/admin/partials/settings-page.php:122
+msgid "Files"
+msgstr "Filer"
+
+#: includes/admin/partials/settings-page.php:852
+msgid "Files older than this will be automatically deleted."
+msgstr "Filer äldre än detta raderas automatiskt."
+
+#: includes/admin/partials/step-2-mapping.php:2553
+#: includes/admin/partials/import-edit.php:645
+msgid "Filter Behavior"
+msgstr "Filterbeteende"
+
+#: includes/admin/partials/step-2-mapping.php:2537
+msgid "Filter Logic:"
+msgstr "Filterlogik:"
+
+#: includes/admin/partials/step-2-mapping.php:2582
+msgid "Filter by price, stock, category, or any field"
+msgstr "Filtrera efter pris, lager, kategori eller valfritt fält"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3596
+msgid "Filter logs by import and log level"
+msgstr "Filtrera loggar efter import och loggnivå"
+
+#: includes/admin/partials/step-2-mapping.php:3613
+msgid "Filter products during import based on field values, price ranges, stock status, and more."
+msgstr "Filtrera produkter under import baserat på fältvärden, prisintervall, lagerstatus och mer."
+
+#: includes/admin/partials/step-2-mapping.php:2579
+msgid "Filter products during import based on field values, regex patterns, and conditional logic. Only import products that match your criteria."
+msgstr "Filtrera produkter under import baserat på fältvärden, regex-mönster och villkorlig logik. Importera bara produkter som matchar dina kriterier."
+
+#: includes/admin/partials/step-2-mapping.php:2525
+#: includes/admin/partials/import-edit.php:563
+msgid "Filter which products to import based on field values. Products that don't match will be skipped."
+msgstr "Filtrera vilka produkter som ska importeras baserat på fältvärden. Produkter som inte matchar hoppas över."
+
+#: includes/admin/partials/step-2-mapping.php:2556
+msgid "Filters will be applied during import. Products that don't match will be skipped."
+msgstr "Filter tillämpas under import. Produkter som inte matchar hoppas över."
+
+#: includes/admin/partials/step-2-mapping.php:1015
+msgid "Final Price:"
+msgstr "Slutpris:"
+
+#: includes/admin/partials/step-2-mapping.php:2460
+#: includes/admin/partials/step-2-mapping.php:2463
+msgid "Final technical adjustments (trim, lowercase, etc)"
+msgstr "Slutliga tekniska justeringar (trim, gemener, etc)"
+
+#: includes/admin/partials/step-2-mapping.php:1432
+msgid "Fixed name + dynamic value"
+msgstr "Fast namn + dynamiskt värde"
+
+#: includes/admin/partials/step-2-mapping.php:3057
+#: includes/admin/partials/step-2-mapping.php:3087
+msgid "Fixed value"
+msgstr "Fast värde"
+
+#: includes/admin/partials/step-2-mapping.php:1517
+msgid "For CSV files, variable products require Parent SKU and Type columns to link variations to parent products."
+msgstr "För CSV-filer kräver variabla produkter Parent SKU och Type-kolumner för att länka variationer till föräldrarprodukter."
+
+#: includes/admin/partials/step-2-mapping.php:1467
+msgid "For XML files where attribute name and value are in separate fields (e.g., BigBuy format with attribute1/value1, attribute2/value2)."
+msgstr "För XML-filer där attributnamn och värde finns i separata fält (t.ex. BigBuy-format med attribute1/value1, attribute2/value2)."
+
+#: includes/admin/partials/step-2-mapping.php:1760
+msgid "For XML like:"
+msgstr "För XML som:"
+
+#: includes/admin/partials/settings-page.php:754
+msgid "For better reliability, add this to your wp-config.php file:"
+msgstr "För bättre tillförlitlighet, lägg till detta i din wp-config.php-fil:"
+
+#: includes/admin/partials/step-1-upload.php:120
+msgid "Force CSV"
+msgstr "Tvinga CSV"
+
+#: includes/admin/partials/step-1-upload.php:119
+msgid "Force XML"
+msgstr "Tvinga XML"
+
+#: includes/admin/partials/step-2-mapping.php:1914
+msgid "Format: Name|URL or just URL. Multiple: Name1|URL1,Name2|URL2"
+msgstr "Format: Namn|URL eller bara URL. Flera: Namn1|URL1,Namn2|URL2"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:309
+msgid "Formula contains disallowed constructs."
+msgstr "Formeln innehåller otillåtna konstruktioner."
+
+#: includes/admin/partials/step-1-upload.php:56
+msgid "From URL"
+msgstr "Från URL"
+
+#: includes/admin/partials/step-2-mapping.php:1852
+msgid "From source"
+msgstr "Från källa"
+
+#: includes/admin/partials/settings-page.php:179
+msgid "Full manual import tool. Upgrade to PRO for automation, templates, and AI features!"
+msgstr "Fullständigt manuellt importverktyg. Uppgradera till PRO för automatisering, mallar och AI!"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:324
+#, php-format
+msgid "Function \"%s\" is not allowed."
+msgstr "Funktionen \"%s\" är inte tillåten."
+
+#: includes/admin/partials/step-2-mapping.php:273
+msgid "GTIN"
+msgstr "GTIN"
+
+#: includes/admin/partials/step-2-mapping.php:1590
+#: includes/admin/partials/step-2-mapping.php:1812
+msgid "GTIN/EAN/UPC/ISBN:"
+msgstr "GTIN/EAN/UPC/ISBN:"
+
+#: includes/admin/partials/step-2-mapping.php:3129
+msgid "GTIN/UPC/EAN/ISBN:"
+msgstr "GTIN/UPC/EAN/ISBN:"
+
+#: includes/admin/partials/settings-page.php:490
+msgid "General AI Settings"
+msgstr "Allmänna AI-inställningar"
+
+#: includes/admin/partials/settings-page.php:246
+msgid "Get PRO Version"
+msgstr "Skaffa PRO-version"
+
+#: includes/admin/partials/settings-page.php:243
+msgid "Get scheduled imports, AI auto-mapping, advanced formulas, selective field updates, and more."
+msgstr "Få schemalagda importer, AI auto-mappning, avancerade formler, selektiva fältuppdateringar och mer."
+
+#: includes/admin/partials/settings-page.php:472
+msgid "GitHub Copilot Settings"
+msgstr "GitHub Copilot-inställningar"
+
+#: includes/admin/partials/step-1-upload.php:39
+msgid "Give this import a descriptive name for easy identification."
+msgstr "Ge denna import ett beskrivande namn för enkel identifiering."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:191
+msgid "Google Gemini API key not configured."
+msgstr "Google Gemini API-nyckel inte konfigurerad."
+
+#: includes/admin/partials/settings-page.php:416
+msgid "Google Gemini Settings"
+msgstr "Google Gemini-inställningar"
+
+#: includes/admin/partials/step-2-mapping.php:114
+msgid "Grouped"
+msgstr "Grupperad"
+
+#: includes/admin/partials/step-2-mapping.php:281
+msgid "Grouped Products"
+msgstr "Grupperade Produkter"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2306
+#, php-format
+msgid "Grouped product \"%1$s\" - stored pending children SKUs: %2$s"
+msgstr "Grupperad produkt \"%1$s\" - väntande barn-SKU:er sparade: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2022
+#, php-format
+msgid "Grouped products require PRO license. Importing \"%s\" as Simple product."
+msgstr "Grupperade produkter kräver PRO-licens. Importerar \"%s\" som Enkel produkt."
+
+#: includes/admin/partials/import-edit.php:210
+msgid "Handle Missing Products"
+msgstr "Hantera Saknade Produkter"
+
+#: includes/admin/partials/step-1-upload.php:209
+msgid "Handle Products No Longer in Feed"
+msgstr "Hantera Produkter Som Inte Längre Finns i Flödet"
+
+#: includes/admin/partials/step-2-mapping.php:3193
+msgid "Has file downloads"
+msgstr "Har filnedladdningar"
+
+#: includes/admin/partials/step-2-mapping.php:200
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1103
+msgid "Height"
+msgstr "Höjd"
+
+#: includes/admin/partials/step-2-mapping.php:1636
+#: includes/admin/partials/step-2-mapping.php:1882
+#: includes/admin/partials/step-2-mapping.php:3254
+msgid "Height:"
+msgstr "Höjd:"
+
+#: includes/admin/partials/settings-page.php:980
+msgid "Hide"
+msgstr "Dölj"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:192
+msgid "History"
+msgstr "Historik"
+
+#: includes/admin/partials/import-edit.php:785
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:581
+msgid "Hourly"
+msgstr "Varje Timme"
+
+#: includes/admin/partials/step-2-mapping.php:697
+#: includes/admin/partials/step-2-mapping.php:1082
+#: includes/admin/partials/step-2-mapping.php:1759
+msgid "How it works:"
+msgstr "Hur det fungerar:"
+
+#: includes/admin/partials/step-2-mapping.php:2884
+#: includes/admin/partials/step-2-mapping.php:2924
+#: includes/admin/partials/step-2-mapping.php:3005
+#: includes/admin/partials/step-2-mapping.php:3298
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: includes/admin/partials/step-2-mapping.php:2361
+#: includes/admin/partials/step-2-mapping.php:2708
+#: includes/admin/partials/import-edit.php:458
+msgid "Hybrid (PHP + AI)"
+msgstr "Hybrid (PHP + AI)"
+
+#: includes/admin/partials/step-2-mapping.php:271
+msgid "ISBN"
+msgstr "ISBN"
+
+#: includes/admin/partials/step-2-mapping.php:2563
+msgid "If re-running import, existing products that no longer match filters will be set to Draft status."
+msgstr "Vid omkörning av import kommer befintliga produkter som inte längre matchar filter att sättas till Utkast-status."
+
+#: includes/admin/partials/step-2-mapping.php:1564
+msgid "If your CSV has columns:"
+msgstr "Om din CSV har kolumner:"
+
+#: includes/admin/partials/step-2-mapping.php:1776
+msgid "If your XML has:"
+msgstr "Om din XML har:"
+
+#: includes/admin/partials/settings-page.php:627
+msgid "Image Download Timeout (seconds):"
+msgstr "Bildnedladdning Timeout (sekunder):"
+
+#: includes/admin/partials/step-2-mapping.php:2948
+msgid "Image URL for this attribute (e.g., color swatch, size chart). For variations, use variation image mapping below."
+msgstr "Bild-URL för detta attribut (t.ex. färgprov, storleksguide). För variationer, använd variationsbildmappningen nedan."
+
+#: includes/admin/partials/step-2-mapping.php:1640
+#: includes/admin/partials/step-2-mapping.php:1886
+msgid "Image URL:"
+msgstr "Bild-URL:"
+
+#: includes/admin/partials/settings-page.php:120
+#: includes/admin/partials/step-2-mapping.php:342
+#: bootflow-product-importer.php:152
+msgid "Import"
+msgstr "Importera"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:207
+#, php-format
+msgid "Import \"%1$s\" started with %2$d products."
+msgstr "Import \"%1$s\" startad med %2$d produkter."
+
+#: includes/admin/partials/step-2-mapping.php:372
+#: includes/admin/partials/import-edit.php:179
+msgid "Import Behavior"
+msgstr "Importbeteende"
+
+#: includes/admin/partials/step-3-progress.php:214
+#: includes/admin/partials/step-3-progress.php:486
+#: includes/admin/partials/step-3-progress.php:790
+msgid "Import Completed Successfully!"
+msgstr "Import Slutförd!"
+
+#: includes/admin/partials/import-edit.php:80
+msgid "Import Details:"
+msgstr "Importdetaljer:"
+
+#: includes/admin/partials/step-3-progress.php:217
+#: includes/admin/partials/step-3-progress.php:522
+#: includes/admin/partials/step-3-progress.php:793
+msgid "Import Failed"
+msgstr "Import Misslyckades"
+
+#: includes/admin/partials/step-2-mapping.php:2517
+#: includes/admin/partials/step-2-mapping.php:2574
+#: includes/admin/partials/step-2-mapping.php:3422
+#: includes/admin/partials/step-2-mapping.php:3612
+#: includes/admin/partials/import-edit.php:556
+msgid "Import Filters"
+msgstr "Importfilter"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:191
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:543
+msgid "Import History"
+msgstr "Importhistorik"
+
+#: includes/admin/partials/import-edit.php:89
+msgid "Import Information"
+msgstr "Importinformation"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:209
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3388
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3563
+msgid "Import Logs"
+msgstr "Importloggar"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3572
+msgid "Import Logs & Debugging"
+msgstr "Importloggar och Felsökning"
+
+#: includes/admin/partials/step-1-upload.php:34
+msgid "Import Name"
+msgstr "Importnamn"
+
+#: includes/admin/partials/step-3-progress.php:251
+msgid "Import Name:"
+msgstr "Importnamn:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:685
+msgid "Import Not Found"
+msgstr "Import Hittades Inte"
+
+#: includes/admin/partials/step-3-progress.php:172
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:288
+msgid "Import Progress"
+msgstr "Importframsteg"
+
+#: includes/admin/partials/settings-page.php:588
+#: includes/admin/partials/import-edit.php:272
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:200
+msgid "Import Settings"
+msgstr "Importinställningar"
+
+#: includes/admin/partials/settings-page.php:269
+msgid "Import XML & CSV feeds"
+msgstr "Importera XML & CSV-flöden"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2023
+msgid "Import already completed."
+msgstr "Import redan slutförd."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2036
+msgid "Import already in progress."
+msgstr "Import pågår redan."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:498
+msgid "Import and file deleted successfully."
+msgstr "Import och fil raderade."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:99
+msgid "Import complete!"
+msgstr "Import klar!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3174
+msgid "Import completed successfully"
+msgstr "Import slutförd"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:616
+#, php-format
+msgid "Import completed successfully. Processed %d products."
+msgstr "Import slutförd. %d produkter bearbetade."
+
+#: includes/admin/partials/step-2-mapping.php:3633
+msgid "Import directly from remote URLs. Perfect for supplier feeds that are hosted online."
+msgstr "Importera direkt från fjärr-URL:er. Perfekt för leverantörsflöden som finns online."
+
+#: includes/admin/partials/step-1-upload.php:61
+msgid "Import from external URL or FTP server"
+msgstr "Importera från extern URL eller FTP-server"
+
+#: includes/admin/partials/settings-page.php:331
+#: includes/admin/partials/settings-page.php:799
+msgid "Import from remote URLs"
+msgstr "Importera från fjärr-URL:er"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1535
+#: includes/class-wc-xml-csv-ai-import-importer.php:7030
+msgid "Import name is required."
+msgstr "Importnamn krävs."
+
+#: includes/admin/partials/step-3-progress.php:31
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1231
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2016
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2238
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3664
+#: includes/class-wc-xml-csv-ai-import-importer.php:236
+msgid "Import not found."
+msgstr "Import hittades inte."
+
+#: includes/admin/partials/step-2-mapping.php:46
+msgid "Import not found. Please start over."
+msgstr "Import hittades inte. Börja om."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2061
+msgid "Import processing started."
+msgstr "Importbearbetning startad."
+
+#: includes/admin/partials/step-2-mapping.php:3598
+msgid "Import products with variations - sizes, colors, materials, and more. Full support for WooCommerce variable product structure."
+msgstr "Importera produkter med variationer - storlekar, färger, material och mer. Fullt stöd för WooCommerce variabel produktstruktur."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1971
+msgid "Import started successfully."
+msgstr "Import startad."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:470
+msgid "Import stopped successfully."
+msgstr "Import stoppad."
+
+#: includes/admin/partials/settings-page.php:346
+msgid "Import templates"
+msgstr "Importmallar"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:970
+msgid "Import updated successfully."
+msgstr "Import uppdaterad."
+
+#: includes/admin/partials/import-edit.php:292
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3427
+msgid "Import:"
+msgstr "Import:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1216
+#, php-format
+msgid "Imported variable product: %1$s with %2$d variations"
+msgstr "Variabel produkt importerad: %1$s med %2$d variationer"
+
+#: includes/admin/partials/step-3-progress.php:175
+#, php-format
+msgid "Importing \"%s\" - Please keep this page open until the import is complete."
+msgstr "Importerar \"%s\" - Håll denna sida öppen tills importen är klar."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:98
+msgid "Importing products..."
+msgstr "Importerar produkter..."
+
+#: includes/admin/partials/step-2-mapping.php:3331
+msgid "Improve and make unique"
+msgstr "Förbättra och gör unikt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:594
+#, php-format
+msgid "In database: %1$d, Processed: %2$d, In file: %3$d"
+msgstr "I databasen: %1$d, Bearbetade: %2$d, I filen: %3$d"
+
+#: includes/admin/partials/step-2-mapping.php:177
+msgid "In stock"
+msgstr "I lager"
+
+#: includes/class-bfi-license-admin.php:48
+msgid "Inactive/Invalid"
+msgstr "Inaktiv/Ogiltig"
+
+#: includes/admin/partials/step-2-mapping.php:1875
+msgid "Inherit L/W/H from parent"
+msgstr "Ärv L/B/H från förälder"
+
+#: includes/admin/partials/step-2-mapping.php:1865
+msgid "Inherit from parent"
+msgstr "Ärv från förälder"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1968
+#, php-format
+msgid "Invalid SKU format: %s"
+msgstr "Ogiltigt SKU-format: %s"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:496
+msgid "Invalid URL format."
+msgstr "Ogiltigt URL-format."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:674
+msgid "Invalid XML file or unable to open file."
+msgstr "Ogiltig XML-fil eller kan inte öppna filen."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:132
+msgid "Invalid file name."
+msgstr "Ogiltigt filnamn."
+
+#: includes/admin/partials/step-2-mapping.php:91
+msgid "Invalid file path. Please start over."
+msgstr "Ogiltig filsökväg. Börja om."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1557
+msgid "Invalid file type. Only XML and CSV files are allowed."
+msgstr "Ogiltig filtyp. Endast XML och CSV-filer är tillåtna."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:4304
+msgid "Invalid image file type."
+msgstr "Ogiltig bildfiltyp."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4204
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4235
+msgid "Invalid import ID"
+msgstr "Ogiltigt import-ID"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3650
+msgid "Invalid import ID or URL."
+msgstr "Ogiltigt import-ID eller URL."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2686
+msgid "Invalid import ID or mapping data."
+msgstr "Ogiltigt import-ID eller mappningsdata."
+
+#: includes/admin/partials/step-3-progress.php:19
+msgid "Invalid import ID. Please start a new import."
+msgstr "Ogiltigt import-ID. Starta en ny import."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:485
+msgid "Invalid license key."
+msgstr "Ogiltig licensnyckel."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1346
+#: includes/class-wc-xml-csv-ai-import-importer.php:1355
+#, php-format
+msgid "Invalid regex pattern: %s"
+msgstr "Ogiltigt regex-mönster: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1974
+#, php-format
+msgid "Invalid regular price: %s"
+msgstr "Ogiltigt ordinarie pris: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1979
+#, php-format
+msgid "Invalid sale price: %s"
+msgstr "Ogiltigt reapris: %s"
+
+#: includes/admin/partials/step-2-mapping.php:164
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1089
+msgid "Inventory Fields"
+msgstr "Lagerfält"
+
+#: includes/admin/partials/settings-page.php:800
+msgid "Keep products always up-to-date"
+msgstr "Håll produkter alltid uppdaterade"
+
+#: includes/admin/partials/step-2-mapping.php:1465
+msgid "Key-Value Pair Mode"
+msgstr "Nyckel-Värde Par Läge"
+
+#: includes/admin/partials/step-2-mapping.php:1438
+msgid "Key-Value Pairs"
+msgstr "Nyckel-Värde Par"
+
+#: includes/admin/partials/step-3-progress.php:264
+msgid "Last Activity:"
+msgstr "Senaste Aktivitet:"
+
+#: includes/admin/partials/import-edit.php:112
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:564
+msgid "Last Run"
+msgstr "Senaste Körning"
+
+#: includes/admin/partials/step-2-mapping.php:2908
+msgid "Leave empty for XML &lt;attributes&gt; auto-mapping, or select field for direct mapping"
+msgstr "Lämna tomt för XML &lt;attributes&gt; automatisk mappning, eller välj fält för direkt mappning"
+
+#: includes/admin/partials/import-edit.php:404
+msgid "Leave empty to skip automatic shipping class assignment."
+msgstr "Lämna tomt för att hoppa över automatisk fraktklasstilldelning."
+
+#: includes/admin/partials/step-2-mapping.php:198
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1101
+msgid "Length"
+msgstr "Längd"
+
+#: includes/admin/partials/step-2-mapping.php:1630
+#: includes/admin/partials/step-2-mapping.php:1870
+#: includes/admin/partials/step-2-mapping.php:3242
+msgid "Length:"
+msgstr "Längd:"
+
+#: includes/admin/partials/step-2-mapping.php:593
+msgid "Let AI automatically match your file columns to WooCommerce fields."
+msgstr "Låt AI automatiskt matcha dina filkolumner till WooCommerce-fält."
+
+#: includes/admin/partials/step-2-mapping.php:3623
+msgid "Let AI handle complex field transformations. Describe what you want in plain language."
+msgstr "Låt AI hantera komplexa fälttransformationer. Beskriv vad du vill med vanligt språk."
+
+#: includes/admin/partials/settings-page.php:115
+msgid "License"
+msgstr "Licens"
+
+#: includes/admin/partials/settings-page.php:186
+msgid "License Active"
+msgstr "Licens Aktiv"
+
+#: includes/class-bfi-license-admin.php:39
+msgid "License Key"
+msgstr "Licensnyckel"
+
+#: includes/admin/partials/settings-page.php:132
+msgid "License Management"
+msgstr "Licenshantering"
+
+#: includes/admin/partials/settings-page.php:169
+msgid "License Required"
+msgstr "Licens Krävs"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:518
+msgid "License activated successfully! PRO features are now unlocked."
+msgstr "Licens aktiverad! PRO-funktioner är nu upplåsta."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:557
+msgid "License deactivated. PRO features are now locked."
+msgstr "Licens avaktiverad. PRO-funktioner är nu låsta."
+
+#: includes/admin/partials/settings-page.php:231
+msgid "License key is invalid or expired. Please enter a valid license key."
+msgstr "Licensnyckeln är ogiltig eller utgången. Ange en giltig licensnyckel."
+
+#: includes/admin/partials/step-2-mapping.php:277
+msgid "Linked Products"
+msgstr "Länkade Produkter"
+
+#: includes/admin/partials/step-2-mapping.php:994
+msgid "Live Preview"
+msgstr "Liveförhandsvisning"
+
+#: includes/admin/partials/step-2-mapping.php:546
+msgid "Load"
+msgstr "Ladda"
+
+#: includes/admin/partials/step-2-mapping.php:544
+msgid "Load Template"
+msgstr "Ladda Mall"
+
+#: includes/admin/partials/step-2-mapping.php:538
+msgid "Load saved template:"
+msgstr "Ladda sparad mall:"
+
+#: includes/admin/partials/step-2-mapping.php:359
+#: includes/admin/partials/import-edit.php:297
+msgid "Loading file structure..."
+msgstr "Laddar filstruktur..."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:520
+msgid "Local domain URLs are not allowed."
+msgstr "Lokala domän-URL:er är inte tillåtna."
+
+#: includes/admin/partials/settings-page.php:299
+msgid "Local file uploads"
+msgstr "Lokala filuppladdningar"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:515
+msgid "Localhost URLs are not allowed."
+msgstr "Localhost-URL:er är inte tillåtna."
+
+#: includes/admin/partials/settings-page.php:874
+msgid "Log Level:"
+msgstr "Loggnivå:"
+
+#: includes/admin/partials/settings-page.php:885
+msgid "Log Retention (days):"
+msgstr "Loggbevarande (dagar):"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3465
+msgid "Log file is empty."
+msgstr "Loggfilen är tom."
+
+#: includes/admin/partials/settings-page.php:123
+msgid "Logging"
+msgstr "Loggning"
+
+#: includes/admin/partials/settings-page.php:861
+msgid "Logging & Notifications"
+msgstr "Loggning och Meddelanden"
+
+#: includes/admin/partials/settings-page.php:866
+msgid "Logging Configuration"
+msgstr "Loggkonfiguration"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:210
+msgid "Logs"
+msgstr "Loggar"
+
+#: includes/admin/partials/settings-page.php:351
+msgid "Logs & error reporting"
+msgstr "Loggar och felrapportering"
+
+#: includes/admin/partials/step-2-mapping.php:1622
+#: includes/admin/partials/step-2-mapping.php:1844
+msgid "Low Stock Threshold:"
+msgstr "Lågt Lagersaldo Tröskel:"
+
+#: includes/admin/partials/step-2-mapping.php:2323
+msgid "MD5 hash from name+row (8 chars)"
+msgstr "MD5-hash från namn+rad (8 tecken)"
+
+#: includes/admin/partials/step-2-mapping.php:272
+msgid "MPN"
+msgstr "MPN"
+
+#: includes/admin/partials/step-3-progress.php:512
+msgid "Manage Scheduled Import"
+msgstr "Hantera Schemalagd Import"
+
+#: includes/admin/partials/step-2-mapping.php:167
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1091
+msgid "Manage Stock"
+msgstr "Hantera Lager"
+
+#: includes/admin/partials/step-2-mapping.php:1618
+#: includes/admin/partials/step-2-mapping.php:1840
+#: includes/admin/partials/step-2-mapping.php:3199
+msgid "Manage Stock:"
+msgstr "Hantera Lager:"
+
+#: includes/admin/partials/step-2-mapping.php:1727
+msgid "Manual"
+msgstr "Manuell"
+
+#: includes/admin/partials/step-1-upload.php:140
+#: includes/admin/partials/step-1-upload.php:157
+#: includes/admin/partials/step-2-mapping.php:415
+#: includes/admin/partials/step-2-mapping.php:429
+msgid "Manual Import Only"
+msgstr "Endast Manuell Import"
+
+#: includes/admin/partials/settings-page.php:274
+msgid "Manual field mapping"
+msgstr "Manuell fältmappning"
+
+#: includes/admin/partials/settings-page.php:289
+msgid "Manual imports"
+msgstr "Manuella importer"
+
+#: includes/admin/partials/step-2-mapping.php:2064
+msgid "Map"
+msgstr "Mappa"
+
+#: includes/admin/partials/step-2-mapping.php:1558
+msgid "Map CSV columns that contain attribute values (e.g., \"Attribute:Color\", \"Attribute:Size\")."
+msgstr "Mappa CSV-kolumner som innehåller attributvärden (t.ex. \"Attribute:Color\", \"Attribute:Size\")."
+
+#: includes/admin/partials/step-2-mapping.php:1580
+msgid "Map CSV columns to WooCommerce variation fields. These are read from variation rows."
+msgstr "Mappa CSV-kolumner till WooCommerce-variationsfält. Dessa läses från variationsrader."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:287
+msgid "Map Fields"
+msgstr "Mappa Fält"
+
+#: includes/admin/partials/step-2-mapping.php:2983
+#: includes/admin/partials/step-2-mapping.php:3058
+#: includes/admin/partials/step-2-mapping.php:3088
+#: includes/admin/partials/step-2-mapping.php:3111
+#: includes/admin/partials/step-2-mapping.php:3134
+#: includes/admin/partials/step-2-mapping.php:3218
+#: includes/admin/partials/step-2-mapping.php:3276
+msgid "Map field"
+msgstr "Mappa fält"
+
+#: includes/admin/partials/step-2-mapping.php:1793
+msgid "Map fields from your source file to WooCommerce variation fields."
+msgstr "Mappa fält från din källfil till WooCommerce-variationsfält."
+
+#: includes/admin/partials/step-2-mapping.php:2099
+#: includes/admin/partials/step-2-mapping.php:2134
+#: includes/admin/partials/step-2-mapping.php:2166
+#: includes/admin/partials/step-2-mapping.php:2205
+#: includes/admin/partials/step-2-mapping.php:2238
+msgid "Map from XML:"
+msgstr "Från XML:"
+
+#: includes/admin/partials/step-2-mapping.php:2288
+msgid "Map from file"
+msgstr "Från fil"
+
+#: includes/admin/partials/step-2-mapping.php:495
+#: includes/admin/partials/import-edit.php:321
+msgid "Map your file fields to WooCommerce product fields and configure processing modes."
+msgstr "Mappa dina filfält till WooCommerce-produktfält och konfigurera bearbetningslägen."
+
+#: includes/admin/partials/step-2-mapping.php:514
+#: includes/admin/partials/step-2-mapping.php:563
+#: includes/admin/partials/step-2-mapping.php:3423
+#: includes/admin/partials/step-2-mapping.php:3607
+msgid "Mapping Templates"
+msgstr "Mappningsmallar"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2801
+msgid "Mapping configuration saved successfully."
+msgstr "Mappningskonfiguration sparad."
+
+#: includes/admin/partials/step-1-upload.php:226
+#: includes/admin/partials/import-edit.php:227
+msgid "Mark as Out of Stock"
+msgstr "Markera som Slut i Lager"
+
+#: includes/admin/partials/step-2-mapping.php:765
+#: includes/admin/partials/step-2-mapping.php:941
+msgid "Markup %"
+msgstr "Påslag %"
+
+#: includes/admin/partials/settings-page.php:556
+msgid "Max Execution Time (seconds):"
+msgstr "Max Exekveringstid (sekunder):"
+
+#: includes/admin/partials/settings-page.php:821
+msgid "Max File Size (MB):"
+msgstr "Max Filstorlek (MB):"
+
+#: includes/admin/partials/settings-page.php:934
+msgid "Max Formula Length:"
+msgstr "Max Formellängd:"
+
+#: includes/admin/partials/settings-page.php:630
+msgid "Max Image Size (MB):"
+msgstr "Max Bildstorlek (MB):"
+
+#: includes/admin/partials/settings-page.php:882
+msgid "Max Log Entries:"
+msgstr "Max Loggposter:"
+
+#: includes/admin/partials/step-2-mapping.php:801
+msgid "Max Price €"
+msgstr "Maxpris €"
+
+#: includes/admin/partials/settings-page.php:517
+msgid "Max Retries:"
+msgstr "Max Försök:"
+
+#: includes/admin/partials/step-2-mapping.php:978
+msgid "Max €"
+msgstr "Max €"
+
+#: includes/admin/partials/settings-page.php:619
+msgid "Media & Images"
+msgstr "Media och Bilder"
+
+#: includes/admin/partials/step-2-mapping.php:210
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1111
+msgid "Media Fields"
+msgstr "Mediafält"
+
+#: includes/admin/partials/settings-page.php:541
+msgid "Memory & Processing"
+msgstr "Minne och Bearbetning"
+
+#: includes/admin/partials/settings-page.php:548
+msgid "Memory Limit:"
+msgstr "Minnesgräns:"
+
+#: includes/admin/partials/step-2-mapping.php:290
+msgid "Menu Order"
+msgstr "Menyordning"
+
+#: includes/admin/partials/step-2-mapping.php:1664
+#: includes/admin/partials/step-2-mapping.php:1931
+msgid "Menu Order:"
+msgstr "Menyordning:"
+
+#: includes/admin/partials/step-2-mapping.php:299
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1134
+msgid "Meta Description"
+msgstr "Metabeskrivning"
+
+#: includes/admin/partials/step-2-mapping.php:300
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1135
+msgid "Meta Keywords"
+msgstr "Meta Nyckelord"
+
+#: includes/admin/partials/step-2-mapping.php:298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1133
+msgid "Meta Title"
+msgstr "Metatitel"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:363
+msgid "Microsoft Copilot API key or endpoint not configured."
+msgstr "Microsoft Copilot API-nyckel eller slutpunkt inte konfigurerad."
+
+#: includes/admin/partials/step-2-mapping.php:794
+msgid "Min Price €"
+msgstr "Minpris €"
+
+#: includes/admin/partials/step-2-mapping.php:971
+msgid "Min €"
+msgstr "Min €"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6982
+#, php-format
+msgid "Missing products cleanup completed: %1$d processed, %2$d errors."
+msgstr "Rensning av saknade produkter slutförd: %1$d bearbetade, %2$d fel."
+
+#: includes/admin/partials/settings-page.php:404
+#: includes/admin/partials/settings-page.php:423
+#: includes/admin/partials/settings-page.php:442
+#: includes/admin/partials/settings-page.php:461
+#: includes/admin/partials/settings-page.php:479
+msgid "Model:"
+msgstr "Modell:"
+
+#: includes/admin/partials/import-edit.php:789
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:585
+msgid "Monthly"
+msgstr "Månadsvis"
+
+#: includes/admin/partials/step-1-upload.php:146
+#: includes/admin/partials/step-2-mapping.php:421
+msgid "Monthly Import"
+msgstr "Månatlig Import"
+
+#: includes/admin/partials/step-2-mapping.php:2560
+#: includes/admin/partials/import-edit.php:652
+msgid "Move non-matching products to Draft"
+msgstr "Flytta icke-matchande produkter till Utkast"
+
+#: includes/admin/partials/step-1-upload.php:225
+#: includes/admin/partials/import-edit.php:226
+msgid "Move to Draft (Recommended)"
+msgstr "Flytta till Utkast (Rekommenderat)"
+
+#: includes/admin/partials/step-1-upload.php:228
+#: includes/admin/partials/import-edit.php:229
+msgid "Move to Trash (auto-delete after 30 days)"
+msgstr "Flytta till Papperskorgen (radera automatiskt efter 30 dagar)"
+
+#: includes/admin/partials/step-3-progress.php:461
+msgid "N/A"
+msgstr "Ej tillämpligt"
+
+#: includes/admin/partials/import-edit.php:92
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:558
+msgid "Name"
+msgstr "Namn"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Name Field:"
+msgstr "Namnfält:"
+
+#: includes/admin/partials/import-edit.php:154
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:635
+msgid "Never"
+msgstr "Aldrig"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:182
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:183
+msgid "New Import"
+msgstr "Ny Import"
+
+#: includes/admin/partials/step-2-mapping.php:1137
+#: includes/admin/partials/step-2-mapping.php:1296
+msgid "New class name"
+msgstr "Nytt klassnamn"
+
+#: includes/admin/partials/import-edit.php:306
+msgid "Next"
+msgstr "Nästa"
+
+#: includes/admin/partials/step-2-mapping.php:1853
+#: includes/admin/partials/step-2-mapping.php:2057
+#: includes/admin/partials/step-2-mapping.php:3163
+#: includes/admin/partials/step-2-mapping.php:3177
+#: includes/admin/partials/step-2-mapping.php:3191
+#: includes/admin/partials/step-2-mapping.php:3205
+msgid "No"
+msgstr "Nej"
+
+#: includes/admin/partials/step-2-mapping.php:1402
+msgid "No additional configuration needed. Products will be imported as simple products."
+msgstr "Ingen ytterligare konfiguration behövs. Produkter importeras som enkla produkter."
+
+#: includes/admin/partials/step-2-mapping.php:2981
+#: includes/admin/partials/step-2-mapping.php:3055
+#: includes/admin/partials/step-2-mapping.php:3086
+#: includes/admin/partials/step-2-mapping.php:3109
+#: includes/admin/partials/step-2-mapping.php:3133
+#: includes/admin/partials/step-2-mapping.php:3161
+#: includes/admin/partials/step-2-mapping.php:3175
+#: includes/admin/partials/step-2-mapping.php:3189
+#: includes/admin/partials/step-2-mapping.php:3203
+#: includes/admin/partials/step-2-mapping.php:3216
+#: includes/admin/partials/step-2-mapping.php:3275
+msgid "No change"
+msgstr "Ingen ändring"
+
+#: includes/admin/partials/step-2-mapping.php:2607
+#: includes/admin/partials/import-edit.php:758
+msgid "No custom fields added yet. Click \"Add Custom Field\" to create one."
+msgstr "Inga anpassade fält har lagts till ännu. Klicka \"Lägg till Anpassat Fält\"."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1696
+msgid "No file provided."
+msgstr "Ingen fil angiven."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:104
+msgid "No file uploaded."
+msgstr "Ingen fil uppladdad."
+
+#: includes/admin/partials/step-2-mapping.php:2531
+#: includes/admin/partials/import-edit.php:635
+#: includes/admin/partials/import-edit.php:1248
+msgid "No filters added. All products will be imported."
+msgstr "Inga filter tillagda. Alla produkter importeras."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:553
+msgid "No imports found."
+msgstr "Inga importer hittades."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3488
+msgid "No logs found for this import."
+msgstr "Inga loggar hittades för denna import."
+
+#: includes/admin/partials/settings-page.php:801
+msgid "No manual intervention required"
+msgstr "Ingen manuell åtgärd krävs"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6871
+msgid "No missing products found."
+msgstr "Inga saknade produkter hittades."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:537
+msgid "No products found to delete."
+msgstr "Inga produkter att radera hittades."
+
+#: includes/admin/partials/step-2-mapping.php:782
+#: includes/admin/partials/step-2-mapping.php:959
+msgid "No rounding"
+msgstr "Ingen avrundning"
+
+#: includes/admin/partials/settings-page.php:708
+msgid "No server configuration needed, self-healing, processes full import automatically."
+msgstr "Ingen serverkonfiguration behövs, självläkande, bearbetar hela importen automatiskt."
+
+#: includes/admin/partials/step-2-mapping.php:2011
+msgid "No shipping classes found. Create them in WooCommerce → Settings → Shipping"
+msgstr "Inga fraktklasser hittades. Skapa dem i WooCommerce → Inställningar → Frakt"
+
+#: includes/admin/partials/import-edit.php:400
+msgid "No shipping classes found. Please create them in WooCommerce → Settings → Shipping → Shipping classes"
+msgstr "Inga fraktklasser hittades. Skapa dem i WooCommerce → Inställningar → Frakt → Fraktklasser"
+
+#: includes/admin/partials/step-2-mapping.php:1323
+msgid "No shipping classes found. They will be created automatically during import, or create them in WooCommerce → Settings → Shipping → Shipping Classes."
+msgstr "Inga fraktklasser hittades. De skapas automatiskt under import, eller skapa dem i WooCommerce → Inställningar → Frakt → Fraktklasser."
+
+#: includes/admin/partials/step-2-mapping.php:3179
+msgid "No shipping needed"
+msgstr "Ingen frakt behövs"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4045
+msgid "No source fields provided"
+msgstr "Inga källfält angivna"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2324
+msgid "No source fields provided."
+msgstr "Inga källfält angivna."
+
+#: includes/admin/partials/step-2-mapping.php:153
+msgid "None"
+msgstr "Ingen"
+
+#: includes/admin/partials/settings-page.php:703
+msgid "Not Available"
+msgstr "Ej Tillgänglig"
+
+#: includes/admin/partials/step-2-mapping.php:1085
+msgid "Note: If you have a direct shipping_class field mapped above, it takes priority over these rules."
+msgstr "Obs: Om du har ett direkt mappat shipping_class-fält ovan har det prioritet över dessa regler."
+
+#: includes/admin/partials/settings-page.php:746
+msgid "Note: We recommend running every minute. The plugin will only process imports when their scheduled interval has passed."
+msgstr "Obs: Vi rekommenderar att köra varje minut. Pluginen bearbetar bara importer när det schemalagda intervallet har passerat."
+
+#: includes/admin/partials/settings-page.php:900
+msgid "Notification Email:"
+msgstr "Notifieringse-post:"
+
+#: includes/admin/partials/step-2-mapping.php:2688
+#: includes/admin/partials/import-edit.php:706
+#: includes/admin/partials/import-edit.php:1120
+msgid "Number"
+msgstr "Nummer"
+
+#: includes/admin/partials/settings-page.php:561
+msgid "Number of lines to read from file at once."
+msgstr "Antal rader att läsa från filen åt gången."
+
+#: includes/admin/partials/step-1-upload.php:203
+msgid "Number of products to process at once."
+msgstr "Antal produkter att bearbeta åt gången."
+
+#: includes/admin/partials/settings-page.php:546
+msgid "Number of products to process in each batch."
+msgstr "Antal produkter att bearbeta per batch."
+
+#: includes/admin/partials/step-2-mapping.php:636
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/partials/step-2-mapping.php:179
+msgid "On backorder"
+msgstr "Restnoterad"
+
+#: includes/admin/partials/step-3-progress.php:196
+msgid "Once configured, imports will continue automatically even if you close this page."
+msgstr "När det är konfigurerat fortsätter importer automatiskt även om du stänger sidan."
+
+#: includes/admin/partials/step-2-mapping.php:2868
+msgid "Only for XML with &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt; structure"
+msgstr "Endast för XML med &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt; struktur"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:117
+msgid "OpenAI API key not configured."
+msgstr "OpenAI API-nyckel inte konfigurerad."
+
+#: includes/admin/partials/settings-page.php:397
+msgid "OpenAI Settings"
+msgstr "OpenAI-inställningar"
+
+#: includes/admin/partials/step-2-mapping.php:2650
+#: includes/admin/partials/import-edit.php:587
+#: includes/admin/partials/import-edit.php:1192
+msgid "Operator"
+msgstr "Operator"
+
+#: includes/admin/partials/step-2-mapping.php:1979
+msgid "Optional: Calculate shipping class based on dimensions/weight when no direct mapping is set."
+msgstr "Valfritt: Beräkna fraktklass baserat på dimensioner/vikt när ingen direkt mappning är inställd."
+
+#: includes/admin/partials/step-2-mapping.php:1803
+msgid "Optional: Link variation to parent by SKU"
+msgstr "Valfritt: Länka variation till förälder via SKU"
+
+#: includes/admin/partials/step-2-mapping.php:178
+msgid "Out of stock"
+msgstr "Slut i lager"
+
+#: includes/admin/partials/step-2-mapping.php:2359
+#: includes/admin/partials/step-2-mapping.php:2706
+#: includes/admin/partials/step-2-mapping.php:2882
+#: includes/admin/partials/step-2-mapping.php:2922
+#: includes/admin/partials/step-2-mapping.php:3003
+#: includes/admin/partials/step-2-mapping.php:3296
+#: includes/admin/partials/import-edit.php:456
+#: includes/admin/partials/import-edit.php:713
+#: includes/admin/partials/import-edit.php:1127
+msgid "PHP Formula"
+msgstr "PHP-formel"
+
+#: includes/admin/partials/step-2-mapping.php:2454
+msgid "PHP Formula (applied to AI result):"
+msgstr "PHP-formel (tillämpas på AI-resultat):"
+
+#: includes/admin/partials/import-edit.php:507
+msgid "PHP Formula (executed first):"
+msgstr "PHP-formel (körs först):"
+
+#: includes/admin/partials/step-2-mapping.php:1983
+#: includes/admin/partials/import-edit.php:372
+msgid "PHP Formula (return shipping class slug):"
+msgstr "PHP-formel (returnera fraktklass-slug):"
+
+#: includes/admin/partials/step-2-mapping.php:2901
+#: includes/admin/partials/step-2-mapping.php:2941
+msgid "PHP Formula (runs first):"
+msgstr "PHP-formel (körs först):"
+
+#: includes/admin/partials/settings-page.php:915
+msgid "PHP Formula Security"
+msgstr "PHP-formelsäkerhet"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2600
+msgid "PHP Formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "PHP-formelbearbetning är en PRO-funktion. Uppgradera för att använda."
+
+#: includes/admin/partials/step-2-mapping.php:2393
+#: includes/admin/partials/step-2-mapping.php:2717
+#: includes/admin/partials/step-2-mapping.php:2753
+#: includes/admin/partials/step-2-mapping.php:2781
+#: includes/admin/partials/step-2-mapping.php:2893
+#: includes/admin/partials/step-2-mapping.php:2933
+#: includes/admin/partials/import-edit.php:466
+#: includes/admin/partials/import-edit.php:727
+#: includes/admin/partials/import-edit.php:1141
+msgid "PHP Formula:"
+msgstr "PHP-formel:"
+
+#: includes/admin/partials/step-2-mapping.php:3031
+#: includes/admin/partials/step-2-mapping.php:3323
+msgid "PHP Pre-processing:"
+msgstr "PHP-förbearbetning:"
+
+#: includes/admin/partials/step-2-mapping.php:3617
+msgid "PHP Processing"
+msgstr "PHP-bearbetning"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2645
+msgid "PHP formula test completed successfully."
+msgstr "PHP-formeltest slutförd."
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:272
+msgid "PHP formulas are disabled in settings."
+msgstr "PHP-formler är inaktiverade i inställningar."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:418
+msgid "PRO Feature"
+msgstr "PRO-funktion"
+
+#: includes/class-bfi-license-admin.php:17
+#: includes/class-bfi-license-admin.php:18
+msgid "PRO License"
+msgstr "PRO-licens"
+
+#: includes/admin/partials/step-2-mapping.php:2375
+msgid "PRO: Transform fields with PHP/AI"
+msgstr "PRO: Transformera fält med PHP/AI"
+
+#: includes/admin/partials/step-2-mapping.php:282
+msgid "Parent Product ID"
+msgstr "Föräldraprodukt-ID"
+
+#: includes/admin/partials/step-2-mapping.php:1529
+msgid "Parent SKU Column:"
+msgstr "Förälder-SKU Kolumn:"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:513
+#, php-format
+msgid "Parent SKU column \"%s\" not found in CSV."
+msgstr "Förälder-SKU kolumn \"%s\" hittades inte i CSV."
+
+#: includes/admin/partials/step-2-mapping.php:1542
+msgid "Parent SKU links variations to parent. Type column (values: \"variable\" or \"variation\") helps identify row types."
+msgstr "Förälder-SKU länkar variationer till förälder. Type-kolumn (värden: \"variable\" eller \"variation\") hjälper att identifiera radtyper."
+
+#: includes/admin/partials/step-2-mapping.php:1799
+msgid "Parent SKU:"
+msgstr "Förälder-SKU:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:97
+msgid "Parsing file structure..."
+msgstr "Tolkar filstruktur..."
+
+#: includes/admin/partials/step-2-mapping.php:1748
+msgid "Path to attributes container in each variation (without { })"
+msgstr "Sökväg till attributcontainer i varje variation (utan { })"
+
+#: includes/admin/partials/step-2-mapping.php:1704
+msgid "Path to variation/attribute container. Examples:"
+msgstr "Sökväg till variation/attributcontainer. Exempel:"
+
+#: includes/admin/partials/step-2-mapping.php:924
+#: includes/admin/partials/step-2-mapping.php:1269
+msgid "Pattern"
+msgstr "Mönster"
+
+#: includes/admin/partials/step-3-progress.php:280
+msgid "Pause Import"
+msgstr "Pausa Import"
+
+#: includes/admin/partials/step-2-mapping.php:128
+msgid "Pending Review"
+msgstr "Väntande Granskning"
+
+#: includes/admin/partials/settings-page.php:119
+msgid "Performance"
+msgstr "Prestanda"
+
+#: includes/admin/partials/step-3-progress.php:425
+msgid "Performance Metrics"
+msgstr "Prestandamätningar"
+
+#: includes/admin/partials/settings-page.php:536
+msgid "Performance Settings"
+msgstr "Prestandainställningar"
+
+#: includes/admin/partials/step-1-upload.php:229
+#: includes/admin/partials/import-edit.php:230
+msgid "Permanently Delete (⚠️ DANGEROUS)"
+msgstr "Ta Bort Permanent (⚠️ FARLIGT)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3887
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3980
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4196
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4252
+msgid "Permission denied"
+msgstr "Åtkomst nekad"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6711
+#, php-format
+msgid "Phase 2 completed: %1$d relationships resolved, %2$d errors"
+msgstr "Fas 2 slutförd: %1$d relationer lösta, %2$d fel"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6777
+#, php-format
+msgid "Phase 3 completed: %d variable products stock status synced"
+msgstr "Fas 3 slutförd: %d variabla produkters lagerstatus synkade"
+
+#: includes/admin/partials/step-2-mapping.php:195
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1098
+msgid "Physical Properties"
+msgstr "Fysiska Egenskaper"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2430
+#: includes/class-wc-xml-csv-ai-import-license.php:452
+msgid "Please enter a license key."
+msgstr "Ange en licensnyckel."
+
+#: includes/admin/partials/step-2-mapping.php:633
+msgid "Please verify mapped fields before importing."
+msgstr "Verifiera mappade fält innan import."
+
+#: includes/admin/partials/step-2-mapping.php:1761
+msgid "Plugin will automatically create attributes: pa_size=L, pa_color=Black"
+msgstr "Plugin skapar automatiskt attribut: pa_size=L, pa_color=Black"
+
+#: includes/admin/partials/step-2-mapping.php:2902
+#: includes/admin/partials/step-2-mapping.php:2942
+msgid "Pre-process with PHP"
+msgstr "Förbearbeta med PHP"
+
+#: includes/admin/partials/step-3-progress.php:208
+#: includes/admin/partials/step-3-progress.php:784
+msgid "Preparing Import..."
+msgstr "Förbereder import..."
+
+#: includes/admin/partials/settings-page.php:657
+msgid "Preserve HTML in Descriptions"
+msgstr "Bevara HTML i Beskrivningar"
+
+#: includes/admin/partials/step-2-mapping.php:2326
+msgid "Preview:"
+msgstr "Förhandsvisning:"
+
+#: includes/admin/partials/import-edit.php:301
+msgid "Previous"
+msgstr "Föregående"
+
+#: includes/admin/partials/step-2-mapping.php:2977
+msgid "Price Adjustment:"
+msgstr "Prisjustering:"
+
+#: includes/admin/partials/step-2-mapping.php:135
+msgid "Price Markup"
+msgstr "Prispåslag"
+
+#: includes/admin/partials/step-2-mapping.php:853
+#: includes/admin/partials/step-2-mapping.php:1189
+msgid "Price Range"
+msgstr "Prisintervall"
+
+#: includes/admin/partials/step-2-mapping.php:140
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1080
+msgid "Pricing Fields"
+msgstr "Prisfält"
+
+#: includes/admin/partials/step-2-mapping.php:737
+msgid "Pricing Rules"
+msgstr "Prisregler"
+
+#: includes/admin/partials/settings-page.php:371
+msgid "Priority support"
+msgstr "Prioriterad support"
+
+#: includes/admin/partials/step-1-upload.php:197
+#: includes/admin/partials/step-2-mapping.php:129
+msgid "Private"
+msgstr "Privat"
+
+#: includes/admin/partials/step-2-mapping.php:3640
+msgid "Pro Feature"
+msgstr "Pro-funktion"
+
+#: includes/admin/partials/step-2-mapping.php:3417
+msgid "Pro includes:"
+msgstr "Pro inkluderar:"
+
+#: includes/admin/partials/step-1-upload.php:252
+#: includes/admin/partials/step-1-upload.php:449
+#: includes/admin/partials/step-1-upload.php:458
+msgid "Proceed to Field Mapping"
+msgstr "Gå till Fältmappning"
+
+#: includes/admin/partials/import-edit.php:215
+msgid "Process products no longer in feed"
+msgstr "Bearbeta produkter som inte längre finns i flödet"
+
+#: includes/admin/partials/step-1-upload.php:217
+msgid "Process products that are no longer in feed"
+msgstr "Bearbeta produkter som inte längre finns i flödet"
+
+#: includes/admin/partials/step-3-progress.php:239
+#: includes/admin/partials/step-3-progress.php:326
+msgid "Processed"
+msgstr "Bearbetade"
+
+#: includes/admin/partials/import-edit.php:810
+msgid "Processes entire import in one request. 100% reliable but requires server cron setup."
+msgstr "Bearbetar hela importen i en begäran. 100% tillförlitligt men kräver server-cron-inställning."
+
+#: includes/admin/partials/step-2-mapping.php:463
+msgid "Processes entire import in one request. Requires server cron setup."
+msgstr "Bearbetar hela importen i en begäran. Kräver server-cron-inställning."
+
+#: includes/admin/partials/step-3-progress.php:211
+#: includes/admin/partials/step-3-progress.php:787
+msgid "Processing Products..."
+msgstr "Bearbetar produkter..."
+
+#: includes/admin/partials/step-3-progress.php:429
+msgid "Processing Speed"
+msgstr "Bearbetningshastighet"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6825
+#, php-format
+msgid "Processing missing products with action: %s"
+msgstr "Bearbetar saknade produkter med åtgärd: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6914
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) marked as out of stock - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) markerad som slut i lager - inte längre i flödet."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6904
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to draft - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) flyttad till utkast - inte längre i flödet."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6932
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to trash - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) flyttad till papperskorgen - inte längre i flödet."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6939
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) permanently deleted - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) permanent raderad - inte längre i flödet."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6925
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) set to backorder - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) satt till restnoterad - inte längre i flödet."
+
+#: includes/admin/partials/step-3-progress.php:356
+msgid "Product Activity Log"
+msgstr "Produktaktivitetslogg"
+
+#: includes/admin/partials/step-2-mapping.php:224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1125
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+#: includes/admin/partials/step-2-mapping.php:101
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1072
+msgid "Product Code (SKU)"
+msgstr "Produktkod (SKU)"
+
+#: includes/admin/partials/settings-page.php:593
+msgid "Product Defaults"
+msgstr "Produktstandarder"
+
+#: includes/admin/partials/settings-page.php:637
+msgid "Product Features"
+msgstr "Produktfunktioner"
+
+#: includes/admin/partials/step-2-mapping.php:267
+msgid "Product Identifiers"
+msgstr "Produktidentifierare"
+
+#: includes/admin/partials/step-2-mapping.php:213
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1114
+msgid "Product Images"
+msgstr "Produktbilder"
+
+#: includes/admin/partials/step-2-mapping.php:106
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1073
+msgid "Product Name"
+msgstr "Produktnamn"
+
+#: includes/admin/partials/step-2-mapping.php:230
+msgid "Product Options"
+msgstr "Produktalternativ"
+
+#: includes/admin/partials/step-2-mapping.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1076
+msgid "Product Status"
+msgstr "Produktstatus"
+
+#: includes/admin/partials/step-2-mapping.php:225
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1126
+msgid "Product Tags"
+msgstr "Produkttaggar"
+
+#: includes/admin/partials/step-2-mapping.php:108
+msgid "Product Type"
+msgstr "Produkttyp"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:697
+#, php-format
+msgid "Product does not match filters - will be imported as Draft (SKU: %s)"
+msgstr "Produkten matchar inte filter - importeras som Utkast (SKU: %s)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:711
+#, php-format
+msgid "Product matches filters - will be imported as Published (SKU: %s)"
+msgstr "Produkten matchar filter - importeras som Publicerad (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:2322
+msgid "Product name slug (first 20 chars)"
+msgstr "Produktnamn-slug (första 20 tecken)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:701
+#, php-format
+msgid "Product skipped by import filters (SKU: %s)"
+msgstr "Produkt hoppades över av importfilter (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:117
+msgid "Product type. Auto-detected if grouped_products or external_url is mapped."
+msgstr "Produkttyp. Auto-detekteras om grouped_products eller external_url är mappad."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2784
+#, php-format
+msgid "Product with ID %d not found."
+msgstr "Produkt med ID %d hittades inte."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:770
+#: includes/class-wc-xml-csv-ai-import-importer.php:960
+#, php-format
+msgid "Product with SKU \"%s\" already exists and update is disabled."
+msgstr "Produkt med SKU \"%s\" finns redan och uppdatering är inaktiverad."
+
+#: includes/admin/partials/step-2-mapping.php:348
+#: includes/admin/partials/import-edit.php:104
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:560
+msgid "Products"
+msgstr "Produkter"
+
+#: includes/admin/partials/step-2-mapping.php:487
+msgid "Products per chunk (1-500). Higher = faster, but more memory."
+msgstr "Produkter per chunk (1-500). Högre = snabbare men mer minne."
+
+#: includes/admin/partials/import-edit.php:278
+msgid "Products to process per chunk (1-500). Higher = faster, but more memory. Recommended: 50-200 for updates."
+msgstr "Produkter att bearbeta per chunk (1-500). Högre = snabbare men mer minne. Rekommenderat: 50-200 för uppdateringar."
+
+#: includes/admin/partials/step-2-mapping.php:1386
+msgid "Products with variations like Size, Color"
+msgstr "Produkter med variationer som Storlek, Färg"
+
+#: includes/admin/partials/step-3-progress.php:314
+msgid "Progress"
+msgstr "Framsteg"
+
+#: includes/admin/partials/settings-page.php:708
+#: includes/admin/partials/settings-page.php:720
+msgid "Pros:"
+msgstr "Fördelar:"
+
+#: includes/admin/partials/step-1-upload.php:195
+#: includes/admin/partials/step-2-mapping.php:126
+msgid "Published"
+msgstr "Publicerad"
+
+#: includes/admin/partials/step-2-mapping.php:289
+msgid "Purchase Note"
+msgstr "Köpanteckning"
+
+#: includes/admin/partials/step-2-mapping.php:1951
+msgid "Quick Add Common Fields:"
+msgstr "Snabblägg Vanliga Fält:"
+
+#: includes/admin/partials/step-2-mapping.php:2321
+msgid "Random 6-char string"
+msgstr "Slumpmässig 6-teckensträng"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:91
+msgid "Rate limit exceeded. Please wait before making another request."
+msgstr "Hastighetsgräns överskriden. Vänta innan du gör en ny begäran."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:649
+msgid "Re-run"
+msgstr "Kör igen"
+
+#: includes/admin/partials/step-2-mapping.php:1733
+msgid "Read all attributes from XML automatically"
+msgstr "Läs alla attribut från XML automatiskt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3584
+msgid "Real-time import progress tracking"
+msgstr "Realtidsimport framstegsövervakning"
+
+#: includes/admin/partials/step-3-progress.php:533
+msgid "Recent Errors:"
+msgstr "Senaste Fel:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3958
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3986
+msgid "Recipe ID is required"
+msgstr "Recept-ID krävs"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3997
+msgid "Recipe deleted successfully"
+msgstr "Recept raderat"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3969
+msgid "Recipe loaded successfully"
+msgstr "Recept laddat"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3895
+msgid "Recipe name is required"
+msgstr "Receptnamn krävs"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3964
+msgid "Recipe not found"
+msgstr "Recept hittades inte"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3939
+msgid "Recipe saved successfully"
+msgstr "Recept sparat"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3938
+msgid "Recipe updated successfully"
+msgstr "Recept uppdaterat"
+
+#: includes/admin/partials/settings-page.php:701
+#: includes/admin/partials/step-2-mapping.php:453
+#: includes/admin/partials/import-edit.php:800
+msgid "Recommended"
+msgstr "Rekommenderat"
+
+#: includes/admin/partials/step-2-mapping.php:396
+#: includes/admin/partials/import-edit.php:203
+msgid "Reduces import time by skipping products that haven't changed."
+msgstr "Minskar importtid genom att hoppa över oförändrade produkter."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3439
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: includes/admin/partials/settings-page.php:772
+msgid "Regenerate"
+msgstr "Regenerera"
+
+#: includes/admin/partials/step-2-mapping.php:142
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1082
+msgid "Regular Price"
+msgstr "Ordinarie Pris"
+
+#: includes/admin/partials/step-2-mapping.php:1594
+#: includes/admin/partials/step-2-mapping.php:1816
+msgid "Regular Price:"
+msgstr "Ordinarie Pris:"
+
+#: includes/admin/partials/step-2-mapping.php:1362
+msgid "Regular products without variations or attributes"
+msgstr "Vanliga produkter utan variationer eller attribut"
+
+#: includes/admin/partials/step-3-progress.php:243
+msgid "Remaining"
+msgstr "Återstående"
+
+#: includes/admin/partials/step-2-mapping.php:3632
+msgid "Remote URL Import"
+msgstr "Fjärr-URL Import"
+
+#: includes/admin/partials/import-edit.php:718
+#: includes/admin/partials/import-edit.php:1132
+msgid "Remove"
+msgstr "Ta bort"
+
+#: includes/admin/partials/step-2-mapping.php:2819
+msgid "Remove Custom Field"
+msgstr "Ta bort Anpassat Fält"
+
+#: includes/admin/partials/step-2-mapping.php:2674
+msgid "Remove Filter"
+msgstr "Ta bort Filter"
+
+#: includes/admin/partials/step-2-mapping.php:927
+#: includes/admin/partials/step-2-mapping.php:1272
+msgid "Remove condition"
+msgstr "Ta bort villkor"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1961
+#, php-format
+msgid "Required field \"%s\" is missing or empty."
+msgstr "Obligatoriskt fält \"%s\" saknas eller är tomt."
+
+#: includes/admin/partials/settings-page.php:722
+msgid "Requires server access to configure crontab."
+msgstr "Kräver serveråtkomst för att konfigurera crontab."
+
+#: includes/admin/partials/settings-page.php:710
+msgid "Requires some website traffic to trigger (or WP-Cron)."
+msgstr "Kräver viss webbplatstrafik för att starta (eller WP-Cron)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1200
+msgid "Reset and import all products"
+msgstr "Återställ och importera alla produkter"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6630
+#, php-format
+msgid "Resolved grouped product ID %1$d with %2$d children"
+msgstr "Löst grupperad produkt ID %1$d med %2$d barn"
+
+#: includes/admin/partials/import-edit.php:513
+msgid "Result will be passed to AI"
+msgstr "Resultatet skickas till AI"
+
+#: includes/admin/partials/step-2-mapping.php:1483
+msgid "Result: Attribute \"Colour\" with value \"Blue\""
+msgstr "Resultat: Attribut \"Colour\" med värde \"Blue\""
+
+#: includes/admin/partials/step-3-progress.php:289
+msgid "Resume Import"
+msgstr "Återuppta Import"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1162
+msgid "Resume Import?"
+msgstr "Återuppta Import?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1190
+#, php-format
+msgid "Resume from product %d"
+msgstr "Återuppta från produkt %d"
+
+#: includes/admin/partials/step-3-progress.php:298
+#: includes/admin/partials/step-3-progress.php:549
+msgid "Retry Import"
+msgstr "Försök Import Igen"
+
+#: includes/admin/partials/step-2-mapping.php:253
+msgid "Reviews Allowed"
+msgstr "Recensioner Tillåtna"
+
+#: includes/admin/partials/step-2-mapping.php:779
+#: includes/admin/partials/step-2-mapping.php:955
+msgid "Round to"
+msgstr "Avrunda till"
+
+#: includes/admin/partials/step-2-mapping.php:3039
+msgid "Round to nearest .99"
+msgstr "Avrunda till närmsta .99"
+
+#: includes/admin/partials/step-2-mapping.php:2319
+msgid "Row number (1, 2, 3...)"
+msgstr "Radnummer (1, 2, 3...)"
+
+#: includes/admin/partials/step-2-mapping.php:729
+msgid "Rule Priority:"
+msgstr "Regelprioritet:"
+
+#: includes/admin/partials/step-2-mapping.php:1157
+msgid "Rule name (e.g., Heavy items)"
+msgstr "Regelnamn (t.ex. Tunga föremål)"
+
+#: includes/admin/partials/step-2-mapping.php:822
+msgid "Rule name (optional)"
+msgstr "Regelnamn (valfritt)"
+
+#: includes/admin/partials/step-2-mapping.php:700
+msgid "Rules are evaluated from top to bottom. First matching rule wins (or use \"Apply All\" mode)."
+msgstr "Regler utvärderas uppifrån och ner. Första matchande regel vinner (eller använd \"Tillämpa Alla\"-läge)."
+
+#: includes/admin/partials/step-2-mapping.php:1084
+msgid "Rules are evaluated from top to bottom. First matching rule wins. The assigned shipping class will be created automatically if it doesn't exist."
+msgstr "Regler utvärderas uppifrån och ner. Första matchande regel vinner. Den tilldelade fraktklassen skapas automatiskt om den inte finns."
+
+#: includes/admin/partials/step-2-mapping.php:730
+msgid "Rules are evaluated top to bottom. First matching rule applies. Avoid overlapping conditions."
+msgstr "Regler utvärderas uppifrån och ner. Första matchande regel gäller. Undvik överlappande villkor."
+
+#: includes/admin/partials/step-2-mapping.php:296
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1131
+msgid "SEO Fields"
+msgstr "SEO-fält"
+
+#: includes/admin/partials/step-2-mapping.php:1194
+msgid "SKU Pattern"
+msgstr "SKU-mönster"
+
+#: includes/admin/partials/step-2-mapping.php:2309
+msgid "SKU Pattern:"
+msgstr "SKU-mönster:"
+
+#: includes/admin/partials/step-2-mapping.php:3105
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/admin/partials/step-2-mapping.php:1602
+#: includes/admin/partials/step-2-mapping.php:1824
+msgid "Sale Date From:"
+msgstr "Rea Startdatum:"
+
+#: includes/admin/partials/step-2-mapping.php:1606
+#: includes/admin/partials/step-2-mapping.php:1828
+msgid "Sale Date To:"
+msgstr "Rea Slutdatum:"
+
+#: includes/admin/partials/step-2-mapping.php:143
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1083
+msgid "Sale Price"
+msgstr "Reapris"
+
+#: includes/admin/partials/step-2-mapping.php:144
+msgid "Sale Price From Date"
+msgstr "Reapris Från Datum"
+
+#: includes/admin/partials/step-2-mapping.php:145
+msgid "Sale Price To Date"
+msgstr "Reapris Till Datum"
+
+#: includes/admin/partials/step-2-mapping.php:1598
+#: includes/admin/partials/step-2-mapping.php:1820
+#: includes/admin/partials/step-2-mapping.php:3082
+msgid "Sale Price:"
+msgstr "Reapris:"
+
+#: includes/admin/partials/import-edit.php:310
+msgid "Sample Data"
+msgstr "Exempeldata"
+
+#: includes/admin/partials/import-edit.php:312
+msgid "Sample product data will appear here after loading the file structure."
+msgstr "Exempelproduktdata visas här efter att filstrukturen laddats."
+
+#: includes/admin/partials/step-2-mapping.php:530
+#: includes/admin/partials/step-2-mapping.php:2621
+msgid "Save"
+msgstr "Spara"
+
+#: includes/admin/partials/import-edit.php:878
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: includes/admin/partials/step-2-mapping.php:528
+msgid "Save Template"
+msgstr "Spara Mall"
+
+#: includes/admin/partials/step-2-mapping.php:567
+msgid "Save and reuse mapping configurations across imports. Available in PRO version."
+msgstr "Spara och återanvänd mappningskonfigurationer mellan importer. Tillgängligt i PRO-versionen."
+
+#: includes/admin/partials/step-2-mapping.php:521
+msgid "Save current mapping as template:"
+msgstr "Spara nuvarande mappning som mall:"
+
+#: includes/admin/partials/step-2-mapping.php:3608
+msgid "Save your field mappings as reusable templates. Perfect for recurring imports from the same source."
+msgstr "Spara dina fältmappningar som återanvändbara mallar. Perfekt för återkommande importer från samma källa."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:562
+msgid "Schedule"
+msgstr "Schema"
+
+#: includes/admin/partials/import-edit.php:780
+msgid "Schedule Interval"
+msgstr "Schemaintervall"
+
+#: includes/admin/partials/step-2-mapping.php:441
+#: includes/admin/partials/import-edit.php:794
+msgid "Schedule Method"
+msgstr "Schemametod"
+
+#: includes/admin/partials/step-1-upload.php:138
+#: includes/admin/partials/step-1-upload.php:153
+msgid "Schedule Type"
+msgstr "Schematyp"
+
+#: includes/admin/partials/import-edit.php:864
+msgid "Schedule automatic imports to run at regular intervals. Keep your products always up-to-date without manual intervention."
+msgstr "Schemalägg automatiska importer med regelbundna intervall. Håll dina produkter alltid uppdaterade utan manuell åtgärd."
+
+#: includes/admin/partials/step-3-progress.php:269
+msgid "Schedule:"
+msgstr "Schema:"
+
+#: includes/admin/partials/step-3-progress.php:191
+msgid "Schedule: Every minute"
+msgstr "Schema: Varje minut"
+
+#: includes/admin/partials/step-2-mapping.php:407
+msgid "Scheduled Import"
+msgstr "Schemalagd Import"
+
+#: includes/admin/partials/settings-page.php:791
+#: includes/admin/partials/step-2-mapping.php:3421
+#: includes/admin/partials/step-2-mapping.php:3602
+msgid "Scheduled Imports"
+msgstr "Schemalagda Importer"
+
+#: includes/admin/partials/settings-page.php:667
+msgid "Scheduled Imports (Cron)"
+msgstr "Schemalagda Importer (Cron)"
+
+#: includes/admin/partials/settings-page.php:326
+msgid "Scheduled imports (cron)"
+msgstr "Schemalagda importer (cron)"
+
+#: includes/admin/partials/settings-page.php:121
+msgid "Scheduling"
+msgstr "Schemaläggning"
+
+#: includes/admin/partials/settings-page.php:690
+msgid "Scheduling Method"
+msgstr "Schemaläggningsmetod"
+
+#: includes/admin/partials/settings-page.php:124
+msgid "Security"
+msgstr "Säkerhet"
+
+#: includes/admin/partials/settings-page.php:910
+msgid "Security Settings"
+msgstr "Säkerhetsinställningar"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4190
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4246
+msgid "Security check failed"
+msgstr "Säkerhetskontroll misslyckades"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1509
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1806
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1901
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1994
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2155
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2219
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2293
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2418
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2457
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2488
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2588
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2671
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2820
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3637
+#: includes/class-wc-xml-csv-ai-import-security.php:82
+msgid "Security check failed."
+msgstr "Säkerhetskontroll misslyckades."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:729
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:755
+msgid "Security check failed. Please try again."
+msgstr "Säkerhetskontroll misslyckades. Försök igen."
+
+#: includes/admin/partials/step-1-upload.php:68
+msgid "Select File"
+msgstr "Välj Fil"
+
+#: includes/admin/partials/step-1-upload.php:122
+msgid "Select file type manually for URLs without file extension (e.g., API feeds)."
+msgstr "Välj filtyp manuellt för URL:er utan filändelse (t.ex. API-flöden)."
+
+#: includes/admin/partials/step-2-mapping.php:716
+msgid "Select the XML field that contains the supplier/wholesale price"
+msgstr "Välj XML-fältet som innehåller leverantörs-/grossistpriset"
+
+#: includes/admin/partials/settings-page.php:311
+msgid "Select which fields to update"
+msgstr "Välj vilka fält som ska uppdateras"
+
+#: includes/admin/partials/step-2-mapping.php:461
+#: includes/admin/partials/import-edit.php:808
+msgid "Server Cron"
+msgstr "Server-Cron"
+
+#: includes/admin/partials/settings-page.php:716
+msgid "Server Cron (URL Trigger)"
+msgstr "Server-Cron (URL-utlösare)"
+
+#: includes/admin/partials/import-edit.php:822
+msgid "Server Cron Setup"
+msgstr "Server-Cron Inställning"
+
+#: includes/admin/partials/settings-page.php:735
+msgid "Server Cron Setup Instructions"
+msgstr "Server-Cron Installationsinstruktioner"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:120
+msgid "Server error during upload."
+msgstr "Serverfel vid uppladdning."
+
+#: includes/admin/partials/step-3-progress.php:183
+msgid "Set up a cron job to continue imports in the background, even when the browser is closed."
+msgstr "Ställ in ett cron-jobb för att fortsätta importer i bakgrunden, även när webbläsaren är stängd."
+
+#: includes/admin/partials/settings-page.php:798
+msgid "Set up automatic import schedules"
+msgstr "Ställ in automatiska importscheman"
+
+#: includes/admin/partials/step-2-mapping.php:3603
+msgid "Set up automatic imports on a schedule. Keep your products updated from supplier feeds without manual intervention."
+msgstr "Ställ in automatiska importer enligt schema. Håll dina produkter uppdaterade från leverantörsflöden utan manuell åtgärd."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:201
+#: bootflow-product-importer.php:153
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/admin/partials/settings-page.php:98
+msgid "Settings saved successfully!"
+msgstr "Inställningar sparade!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1494
+msgid "Settings saved successfully."
+msgstr "Inställningar sparade."
+
+#: includes/admin/partials/step-2-mapping.php:201
+msgid "Shipping Class"
+msgstr "Fraktklass"
+
+#: includes/admin/partials/import-edit.php:366
+msgid "Shipping Class Assignment"
+msgstr "Fraktklassttilldelning"
+
+#: includes/admin/partials/step-2-mapping.php:205
+#: includes/admin/partials/step-2-mapping.php:1099
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1107
+msgid "Shipping Class Rules"
+msgstr "Fraktklassregler"
+
+#: includes/admin/partials/step-2-mapping.php:1656
+#: includes/admin/partials/step-2-mapping.php:1923
+#: includes/admin/partials/step-2-mapping.php:3272
+msgid "Shipping Class:"
+msgstr "Fraktklass:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2832
+msgid "Shipping formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "Fraktformelbearbetning är en PRO-funktion. Uppgradera för att använda."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2858
+msgid "Shipping formula test completed successfully."
+msgstr "Fraktformeltest slutförd."
+
+#: includes/admin/partials/step-2-mapping.php:152
+msgid "Shipping only"
+msgstr "Endast frakt"
+
+#: includes/admin/partials/step-2-mapping.php:120
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1075
+msgid "Short Description"
+msgstr "Kort Beskrivning"
+
+#: includes/admin/partials/settings-page.php:402
+#: includes/admin/partials/settings-page.php:421
+#: includes/admin/partials/settings-page.php:440
+#: includes/admin/partials/settings-page.php:459
+#: includes/admin/partials/settings-page.php:477
+#: includes/admin/partials/settings-page.php:980
+msgid "Show"
+msgstr "Visa"
+
+#: includes/admin/partials/step-3-progress.php:186
+msgid "Show cron setup instructions"
+msgstr "Visa cron-installationsinstruktioner"
+
+#: includes/admin/partials/step-2-mapping.php:3165
+msgid "Show on frontend"
+msgstr "Visa på frontend"
+
+#: includes/admin/partials/step-2-mapping.php:112
+msgid "Simple"
+msgstr "Enkel"
+
+#: includes/admin/partials/settings-page.php:279
+msgid "Simple & variable products"
+msgstr "Enkla och variabla produkter"
+
+#: includes/admin/partials/step-2-mapping.php:1360
+msgid "Simple Products"
+msgstr "Enkla Produkter"
+
+#: includes/admin/partials/step-2-mapping.php:1400
+msgid "Simple Products Mode"
+msgstr "Enkelt Produktläge"
+
+#: includes/admin/partials/step-2-mapping.php:389
+#: includes/admin/partials/import-edit.php:196
+msgid "Skip Unchanged Products"
+msgstr "Hoppa Över Oförändrade Produkter"
+
+#: includes/admin/partials/step-1-upload.php:181
+#: includes/admin/partials/step-2-mapping.php:394
+#: includes/admin/partials/import-edit.php:201
+msgid "Skip products if data unchanged"
+msgstr "Hoppa över produkter om data oförändrad"
+
+#: includes/admin/partials/step-1-upload.php:183
+msgid "Skip updating products if mapped data hasn't changed."
+msgstr "Hoppa över uppdatering av produkter om mappad data inte har ändrats."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:785
+#, php-format
+msgid "Skipped product (unchanged): %1$s (ID: %2$d)"
+msgstr "Produkt hoppad (oförändrad): %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:248
+msgid "Sold Individually"
+msgstr "Säljs Individuellt"
+
+#: includes/admin/partials/step-2-mapping.php:1431
+#: includes/admin/partials/step-2-mapping.php:2189
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/admin/partials/step-2-mapping.php:2625
+msgid "Start Import"
+msgstr "Starta import"
+
+#: includes/admin/partials/step-3-progress.php:499
+msgid "Start New Import"
+msgstr "Starta Ny Import"
+
+#: includes/admin/partials/step-3-progress.php:554
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1199
+msgid "Start Over"
+msgstr "Börja Om"
+
+#: includes/admin/partials/step-3-progress.php:259
+msgid "Started:"
+msgstr "Startad:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6593
+msgid "Starting Phase 2: Resolving product relationships..."
+msgstr "Startar Fas 2: Löser produktrelationer..."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6725
+msgid "Starting Phase 3: Syncing variable products stock status..."
+msgstr "Startar Fas 3: Synkar variabla produkters lagerstatus..."
+
+#: includes/admin/partials/import-edit.php:100
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:561
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/partials/step-2-mapping.php:1660
+#: includes/admin/partials/step-2-mapping.php:1927
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/admin/partials/step-1-upload.php:25
+msgid "Step 1: Upload File"
+msgstr "Steg 1: Ladda Upp Fil"
+
+#: includes/admin/partials/settings-page.php:753
+msgid "Step 2 (Optional): Disable WP-Cron"
+msgstr "Steg 2 (Valfritt): Inaktivera WP-Cron"
+
+#: includes/admin/partials/step-2-mapping.php:494
+msgid "Step 2: Field Mapping & Processing"
+msgstr "Steg 2: Fältmappning och Bearbetning"
+
+#: includes/admin/partials/step-2-mapping.php:3051
+msgid "Stock Adjustment:"
+msgstr "Lagerjustering:"
+
+#: includes/admin/partials/step-2-mapping.php:171
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1092
+msgid "Stock Quantity"
+msgstr "Lagerkvantitet"
+
+#: includes/admin/partials/step-2-mapping.php:1610
+#: includes/admin/partials/step-2-mapping.php:1832
+msgid "Stock Quantity:"
+msgstr "Lagerkvantitet:"
+
+#: includes/admin/partials/step-2-mapping.php:173
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1093
+msgid "Stock Status"
+msgstr "Lagerstatus"
+
+#: includes/admin/partials/step-2-mapping.php:1614
+#: includes/admin/partials/step-2-mapping.php:1836
+msgid "Stock Status:"
+msgstr "Lagerstatus:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:645
+msgid "Stop"
+msgstr "Stoppa"
+
+#: includes/admin/partials/step-3-progress.php:284
+#: includes/admin/partials/step-3-progress.php:293
+msgid "Stop Import"
+msgstr "Stoppa Import"
+
+#: includes/admin/partials/step-3-progress.php:467
+msgid "Success Rate"
+msgstr "Framgångsfrekvens"
+
+#: includes/admin/partials/step-3-progress.php:489
+#, php-format
+msgid "Successfully imported %1$d out of %2$d products."
+msgstr "Importerade %1$d av %2$d produkter."
+
+#: includes/admin/partials/step-2-mapping.php:3110
+msgid "Suffix"
+msgstr "Suffix"
+
+#: includes/admin/partials/step-2-mapping.php:896
+msgid "Supplier name"
+msgstr "Leverantörsnamn"
+
+#: includes/admin/partials/step-2-mapping.php:157
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1085
+msgid "Tax Class"
+msgstr "Skatteklass"
+
+#: includes/admin/partials/step-2-mapping.php:1919
+msgid "Tax Class:"
+msgstr "Skatteklass:"
+
+#: includes/admin/partials/step-2-mapping.php:147
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1084
+msgid "Tax Status"
+msgstr "Skattestatus"
+
+#: includes/admin/partials/step-2-mapping.php:151
+msgid "Taxable"
+msgstr "Skattepliktig"
+
+#: includes/admin/partials/step-2-mapping.php:2427
+#: includes/admin/partials/step-2-mapping.php:2745
+#: includes/admin/partials/import-edit.php:501
+msgid "Test AI"
+msgstr "Testa AI"
+
+#: includes/admin/partials/step-2-mapping.php:1007
+msgid "Test Base Price:"
+msgstr "Test Baspris:"
+
+#: includes/admin/partials/settings-page.php:504
+msgid "Test Connection"
+msgstr "Testa Anslutning"
+
+#: includes/admin/partials/step-2-mapping.php:2785
+msgid "Test Hybrid"
+msgstr "Testa Hybrid"
+
+#: includes/admin/partials/step-2-mapping.php:647
+#: includes/admin/partials/import-edit.php:335
+msgid "Test Mapping"
+msgstr "Testa Mappning"
+
+#: includes/admin/partials/step-2-mapping.php:2760
+msgid "Test PHP"
+msgstr "Testa PHP"
+
+#: includes/admin/partials/step-2-mapping.php:2404
+#: includes/admin/partials/import-edit.php:478
+msgid "Test PHP Formula"
+msgstr "Testa PHP-formel"
+
+#: includes/admin/partials/step-2-mapping.php:1993
+#: includes/admin/partials/import-edit.php:382
+msgid "Test Shipping Formula"
+msgstr "Testa Fraktformel"
+
+#: includes/admin/partials/step-1-upload.php:109
+msgid "Test URL"
+msgstr "Testa URL"
+
+#: includes/admin/partials/step-2-mapping.php:999
+msgid "Test with Rule:"
+msgstr "Testa med Regel:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:102
+msgid "Testing AI provider..."
+msgstr "Testar AI-leverantör..."
+
+#: includes/admin/partials/step-2-mapping.php:2687
+#: includes/admin/partials/import-edit.php:705
+#: includes/admin/partials/import-edit.php:1119
+msgid "Text"
+msgstr "Text"
+
+#: includes/admin/partials/step-2-mapping.php:2689
+#: includes/admin/partials/import-edit.php:707
+#: includes/admin/partials/import-edit.php:1121
+msgid "Textarea"
+msgstr "Textområde"
+
+#: includes/admin/partials/step-1-upload.php:132
+msgid "The XML element name that contains individual product data (e.g., \"product\", \"item\", \"goods\"). Leave as \"product\" for CSV files."
+msgstr "XML-elementnamnet som innehåller enskilda produktdata (t.ex. \"product\", \"item\", \"goods\"). Lämna som \"product\" för CSV-filer."
+
+#: includes/admin/partials/step-3-progress.php:523
+msgid "The import process encountered an error and could not be completed. Please check the logs below for more details."
+msgstr "Importprocessen stötte på ett fel och kunde inte slutföras. Kontrollera loggarna nedan för mer information."
+
+#: includes/admin/partials/step-2-mapping.php:2904
+#: includes/admin/partials/step-2-mapping.php:2944
+msgid "Then process with AI"
+msgstr "Bearbeta sedan med AI"
+
+#: includes/admin/partials/step-2-mapping.php:2970
+msgid "These settings apply to ALL variations created from this attribute. Leave as \"No change\" to use parent product values."
+msgstr "Dessa inställningar gäller ALLA variationer skapade från detta attribut. Lämna som \"Ingen ändring\" för att använda överordnade produktvärden."
+
+#: includes/admin/partials/step-2-mapping.php:3641
+msgid "This feature is available in the Pro version. Upgrade to unlock all advanced features."
+msgstr "Denna funktion finns i Pro-versionen. Uppgradera för att låsa upp alla avancerade funktioner."
+
+#: includes/admin/partials/step-2-mapping.php:2015
+msgid "This formula is used only when no direct mapping is set above. Leave empty to skip."
+msgstr "Denna formel används bara när ingen direkt mappning är inställd ovan. Lämna tomt för att hoppa över."
+
+#: includes/admin/partials/import-edit.php:325
+msgid "This import needs to be configured. Please select source fields from the dropdowns below, configure processing modes, and click \"Save Changes\" to activate this import."
+msgstr "Denna import behöver konfigureras. Välj källfält från rullgardinsmenyn, konfigurera bearbetningslägen och klicka \"Spara Ändringar\" för att aktivera."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1179
+msgid "This import was previously started. Would you like to:"
+msgstr "Denna import startades tidigare. Vill du:"
+
+#: includes/admin/partials/settings-page.php:781
+msgid "This is the URL that the cron job will call to trigger scheduled imports."
+msgstr "Detta är URL:en som cron-jobbet anropar för att starta schemalagda importer."
+
+#: includes/class-wc-xml-csv-ai-import-activator.php:29
+msgid "This plugin requires WooCommerce to be installed and active."
+msgstr "Detta plugin kräver att WooCommerce är installerat och aktiverat."
+
+#: includes/admin/partials/settings-page.php:774
+msgid "This secret key protects your cron endpoint from unauthorized access."
+msgstr "Denna hemliga nyckel skyddar din cron-slutpunkt från obehörig åtkomst."
+
+#: includes/admin/partials/step-3-progress.php:330
+msgid "Total"
+msgstr "Totalt"
+
+#: includes/admin/partials/step-3-progress.php:235
+msgid "Total Products"
+msgstr "Totala Produkter"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3576
+msgid "Track every import in detail. Monitor progress, debug issues, and ensure data quality with comprehensive logging."
+msgstr "Spåra varje import i detalj. Övervaka framsteg, felsök problem och säkerställ datakvalitet med omfattande loggning."
+
+#: includes/admin/partials/step-2-mapping.php:3207
+msgid "Track inventory"
+msgstr "Spåra lager"
+
+#: includes/admin/partials/step-2-mapping.php:2377
+msgid "Transform or translate ANY field value during import using PHP formulas, AI processing, or Hybrid mode."
+msgstr "Transformera eller översätt VALFRITT fältvärde under import med PHP-formler, AI-bearbetning eller Hybridläge."
+
+#: includes/admin/partials/settings-page.php:361
+msgid "Translate product data with AI"
+msgstr "Översätt produktdata med AI"
+
+#: includes/admin/partials/step-2-mapping.php:338
+msgid "Type"
+msgstr "Typ"
+
+#: includes/admin/partials/step-2-mapping.php:1535
+msgid "Type Column:"
+msgstr "Typkolumn:"
+
+#: includes/admin/partials/step-2-mapping.php:1587
+#: includes/admin/partials/step-2-mapping.php:1591
+#: includes/admin/partials/step-2-mapping.php:1595
+#: includes/admin/partials/step-2-mapping.php:1599
+#: includes/admin/partials/step-2-mapping.php:1603
+#: includes/admin/partials/step-2-mapping.php:1607
+#: includes/admin/partials/step-2-mapping.php:1611
+#: includes/admin/partials/step-2-mapping.php:1615
+#: includes/admin/partials/step-2-mapping.php:1619
+#: includes/admin/partials/step-2-mapping.php:1623
+#: includes/admin/partials/step-2-mapping.php:1627
+#: includes/admin/partials/step-2-mapping.php:1631
+#: includes/admin/partials/step-2-mapping.php:1634
+#: includes/admin/partials/step-2-mapping.php:1637
+#: includes/admin/partials/step-2-mapping.php:1641
+#: includes/admin/partials/step-2-mapping.php:1645
+#: includes/admin/partials/step-2-mapping.php:1649
+#: includes/admin/partials/step-2-mapping.php:1653
+#: includes/admin/partials/step-2-mapping.php:1657
+#: includes/admin/partials/step-2-mapping.php:1661
+#: includes/admin/partials/step-2-mapping.php:1665
+msgid "Type { to see columns"
+msgstr "Skriv { för att se kolumner"
+
+#: includes/admin/partials/step-2-mapping.php:1801
+#: includes/admin/partials/step-2-mapping.php:1809
+#: includes/admin/partials/step-2-mapping.php:1813
+#: includes/admin/partials/step-2-mapping.php:1817
+#: includes/admin/partials/step-2-mapping.php:1821
+#: includes/admin/partials/step-2-mapping.php:1825
+#: includes/admin/partials/step-2-mapping.php:1829
+#: includes/admin/partials/step-2-mapping.php:1833
+#: includes/admin/partials/step-2-mapping.php:1837
+#: includes/admin/partials/step-2-mapping.php:1841
+#: includes/admin/partials/step-2-mapping.php:1845
+#: includes/admin/partials/step-2-mapping.php:1850
+#: includes/admin/partials/step-2-mapping.php:1862
+#: includes/admin/partials/step-2-mapping.php:1872
+#: includes/admin/partials/step-2-mapping.php:1880
+#: includes/admin/partials/step-2-mapping.php:1883
+#: includes/admin/partials/step-2-mapping.php:1887
+#: includes/admin/partials/step-2-mapping.php:1891
+#: includes/admin/partials/step-2-mapping.php:1895
+#: includes/admin/partials/step-2-mapping.php:1899
+#: includes/admin/partials/step-2-mapping.php:1903
+#: includes/admin/partials/step-2-mapping.php:1907
+#: includes/admin/partials/step-2-mapping.php:1912
+#: includes/admin/partials/step-2-mapping.php:1920
+#: includes/admin/partials/step-2-mapping.php:1924
+#: includes/admin/partials/step-2-mapping.php:1928
+#: includes/admin/partials/step-2-mapping.php:1932
+msgid "Type { to see fields"
+msgstr "Skriv { för att se fält"
+
+#: includes/admin/partials/step-2-mapping.php:2346
+#: includes/admin/partials/import-edit.php:445
+#, php-format
+msgid "Type { to see fields or drag field here. E.g. {%s}"
+msgstr "Skriv { för att se fält eller dra fält hit. T.ex. {%s}"
+
+#: includes/admin/partials/import-edit.php:291
+msgid "Type:"
+msgstr "Typ:"
+
+#: includes/admin/partials/step-2-mapping.php:270
+msgid "UPC"
+msgstr "UPC"
+
+#: includes/admin/partials/step-2-mapping.php:2692
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2198
+#, php-format
+msgid "URL is accessible (HTTP %d)."
+msgstr "URL är åtkomlig (HTTP %d)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2168
+msgid "URL is required."
+msgstr "URL krävs."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:507
+msgid "URL must contain a valid host."
+msgstr "URL måste innehålla en giltig värd."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:503
+msgid "URL must use HTTP or HTTPS protocol."
+msgstr "URL måste använda HTTP eller HTTPS-protokoll."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2203
+#, php-format
+msgid "URL returned HTTP %d. Expected 200."
+msgstr "URL returnerade HTTP %d. Förväntat 200."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3689
+msgid "URL updated successfully. Next import will use the new URL."
+msgstr "URL uppdaterad. Nästa import använder den nya URL:en."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:528
+msgid "URLs pointing to private or reserved IP ranges are not allowed."
+msgstr "URL:er som pekar på privata eller reserverade IP-intervall är inte tillåtna."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:40
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:130
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:367
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:426
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:498
+msgid "Unable to open CSV file."
+msgstr "Kan inte öppna CSV-fil."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:48
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:171
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:731
+msgid "Unable to open XML file."
+msgstr "Kan inte öppna XML-fil."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:381
+msgid "Unable to parse CSV headers."
+msgstr "Kan inte tolka CSV-rubriker."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:46
+msgid "Unable to read CSV headers."
+msgstr "Kan inte läsa CSV-rubriker."
+
+#: includes/admin/partials/step-2-mapping.php:2484
+#: includes/admin/partials/step-2-mapping.php:2810
+msgid "Uncheck to prevent this field from being updated when re-importing existing products"
+msgstr "Avmarkera för att förhindra att detta fält uppdateras vid omimport av befintliga produkter"
+
+#: includes/admin/partials/step-2-mapping.php:104
+msgid "Unique product identifier. Can be mapped from file or auto-generated."
+msgstr "Unik produktidentifierare. Kan mappas från fil eller autogenereras."
+
+#: includes/admin/partials/step-2-mapping.php:2320
+msgid "Unix timestamp"
+msgstr "Unix-tidsstämpel"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:84
+#, php-format
+msgid "Unknown AI provider: %s"
+msgstr "Okänd AI-leverantör: %s"
+
+#: includes/admin/partials/step-3-progress.php:220
+msgid "Unknown Status"
+msgstr "Okänd Status"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:123
+msgid "Unknown upload error."
+msgstr "Okänt uppladdningsfel."
+
+#: includes/admin/partials/settings-page.php:294
+msgid "Unlimited products"
+msgstr "Obegränsat antal produkter"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3614
+msgid "Unlock all PRO features including scheduled imports, advanced filters, and AI processing."
+msgstr "Lås upp alla PRO-funktioner inklusive schemalagda importer, avancerade filter och AI-bearbetning."
+
+#: includes/admin/partials/settings-page.php:605
+#: includes/admin/partials/step-1-upload.php:174
+#: includes/admin/partials/step-2-mapping.php:375
+#: includes/admin/partials/import-edit.php:182
+msgid "Update Existing Products"
+msgstr "Uppdatera Befintliga Produkter"
+
+#: includes/admin/partials/import-edit.php:167
+msgid "Update URL"
+msgstr "Uppdatera URL"
+
+#: includes/admin/partials/settings-page.php:304
+msgid "Update existing products"
+msgstr "Uppdatera befintliga produkter"
+
+#: includes/admin/partials/settings-page.php:316
+msgid "Update only price and stock"
+msgstr "Uppdatera bara pris och lager"
+
+#: includes/admin/partials/step-2-mapping.php:380
+#: includes/admin/partials/import-edit.php:187
+msgid "Update products that already exist (matched by SKU)"
+msgstr "Uppdatera produkter som redan finns (matchade via SKU)"
+
+#: includes/admin/partials/step-1-upload.php:176
+msgid "Update products that already exist (matched by SKU)."
+msgstr "Uppdatera produkter som redan finns (matchade via SKU)."
+
+#: includes/admin/partials/step-2-mapping.php:2480
+#: includes/admin/partials/step-2-mapping.php:2806
+msgid "Update this field on re-import?"
+msgstr "Uppdatera detta fält vid omimport?"
+
+#: includes/admin/partials/import-edit.php:427
+msgid "Update this field?"
+msgstr "Uppdatera detta fält?"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:794
+#, php-format
+msgid "Updated product: %1$s (ID: %2$d)"
+msgstr "Uppdaterad produkt: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:2382
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: includes/admin/partials/settings-page.php:381
+#: includes/admin/partials/settings-page.php:805
+#: includes/admin/partials/step-2-mapping.php:2588
+#: includes/admin/partials/import-edit.php:872
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3610
+#: includes/class-wc-xml-csv-ai-import-license.php:432
+msgid "Upgrade to PRO"
+msgstr "Uppgradera till PRO"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:426
+msgid "Upgrade to PRO to unlock this feature and remove all limits."
+msgstr "Uppgradera till PRO för att låsa upp denna funktion och ta bort alla begränsningar."
+
+#: includes/admin/partials/step-2-mapping.php:3430
+msgid "Upgrade to Pro"
+msgstr "Uppgradera till Pro"
+
+#: includes/admin/partials/settings-page.php:834
+msgid "Upload Directory:"
+msgstr "Uppladdningskatalog:"
+
+#: includes/admin/partials/step-1-upload.php:49
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:286
+msgid "Upload File"
+msgstr "Ladda upp fil"
+
+#: includes/admin/partials/step-1-upload.php:44
+msgid "Upload Method"
+msgstr "Uppladdningsmetod"
+
+#: includes/admin/partials/settings-page.php:818
+msgid "Upload Settings"
+msgstr "Uppladdningsinställningar"
+
+#: includes/admin/partials/step-1-upload.php:50
+msgid "Upload XML/CSV file from your computer"
+msgstr "Ladda upp XML/CSV-fil från din dator"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1539
+msgid "Upload method is required."
+msgstr "Uppladdningsmetod krävs."
+
+#: includes/admin/partials/step-1-upload.php:26
+msgid "Upload your XML or CSV file, or provide a URL to import products from."
+msgstr "Ladda upp din XML- eller CSV-fil, eller ange en URL för att importera produkter."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:96
+msgid "Uploading file..."
+msgstr "Laddar upp fil..."
+
+#: includes/admin/partials/step-2-mapping.php:279
+msgid "Upsell Product IDs"
+msgstr "Merförsäljning Produkt-ID"
+
+#: includes/admin/partials/step-2-mapping.php:2459
+#: includes/admin/partials/step-2-mapping.php:2462
+#: includes/admin/partials/import-edit.php:512
+msgid "Use $value as input"
+msgstr "Använd $value som indata"
+
+#: includes/admin/partials/step-2-mapping.php:2757
+msgid "Use $value for source field value, $product for full product data"
+msgstr "Använd $value för källfältsvärde, $product för fullständig produktdata"
+
+#: includes/admin/partials/step-2-mapping.php:3618
+msgid "Use PHP formulas to transform field values during import. Full flexibility for complex transformations."
+msgstr "Använd PHP-formler för att transformera fältvärden under import. Full flexibilitet för komplexa transformationer."
+
+#: includes/admin/partials/settings-page.php:718
+msgid "Use an external server cron job to trigger imports via URL. Processes entire import in one request (with loop until complete)."
+msgstr "Använd ett externt server-cronjobb för att starta importer via URL. Bearbetar hela importen i en begäran (med loop tills klar)."
+
+#: includes/admin/partials/step-2-mapping.php:2260
+msgid "Use as primary identifier (WC UI)"
+msgstr "Använd som primär identifierare (WC UI)"
+
+#: includes/admin/partials/step-2-mapping.php:958
+msgid "Use default"
+msgstr "Använd standard"
+
+#: includes/admin/partials/step-2-mapping.php:2583
+msgid "Use regex patterns for advanced matching"
+msgstr "Använd regex-mönster för avancerad matchning"
+
+#: includes/admin/partials/step-2-mapping.php:2450
+msgid "Use {value} as input"
+msgstr "Använd {value} som indata"
+
+#: includes/admin/partials/step-2-mapping.php:2959
+msgid "Used for variations"
+msgstr "Används för variationer"
+
+#: includes/admin/partials/settings-page.php:706
+msgid "Uses WooCommerce Action Scheduler for reliable background processing. Automatically processes all products until complete. Works without server cron configuration."
+msgstr "Använder WooCommerce Action Scheduler för tillförlitlig bakgrundsbearbetning. Bearbetar automatiskt alla produkter tills klar. Fungerar utan server-cron-konfiguration."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7034
+msgid "Valid file path is required."
+msgstr "Giltig filsökväg krävs."
+
+#: includes/admin/partials/step-2-mapping.php:913
+#: includes/admin/partials/step-2-mapping.php:1258
+#: includes/admin/partials/step-2-mapping.php:2668
+#: includes/admin/partials/import-edit.php:603
+#: includes/admin/partials/import-edit.php:1208
+msgid "Value"
+msgstr "Värde"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Value Field:"
+msgstr "Värdefält:"
+
+#: includes/admin/partials/step-2-mapping.php:2106
+msgid "Values: simple, variable, grouped, external"
+msgstr "Värden: simple, variable, grouped, external"
+
+#: includes/admin/partials/step-2-mapping.php:113
+msgid "Variable"
+msgstr "Variabel"
+
+#: includes/admin/partials/step-2-mapping.php:1384
+#: includes/admin/partials/step-2-mapping.php:3420
+#: includes/admin/partials/step-2-mapping.php:3597
+msgid "Variable Products"
+msgstr "Variabla Produkter"
+
+#: includes/admin/partials/step-2-mapping.php:1500
+msgid "Variable Products Configuration"
+msgstr "Variabel Produktkonfiguration"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2388
+msgid "Variable product structure detected."
+msgstr "Variabel produktstruktur upptäckt."
+
+#: includes/admin/partials/step-2-mapping.php:3312
+msgid "Variables: $value, $parent_description, $sku, $name, etc."
+msgstr "Variabler: $value, $parent_description, $sku, $name, etc."
+
+#: includes/admin/partials/step-2-mapping.php:3020
+msgid "Variables: $value, $parent_price, $sku, etc."
+msgstr "Variabler: $value, $parent_price, $sku, etc."
+
+#: includes/admin/partials/step-2-mapping.php:2967
+msgid "Variation Adjustments for this Attribute"
+msgstr "Variationsjusteringar för detta Attribut"
+
+#: includes/admin/partials/step-2-mapping.php:1715
+msgid "Variation Attributes"
+msgstr "Variationsattribut"
+
+#: includes/admin/partials/step-2-mapping.php:1550
+msgid "Variation Attributes (CSV Columns)"
+msgstr "Variationsattribut (CSV-kolumner)"
+
+#: includes/admin/partials/step-2-mapping.php:1694
+msgid "Variation Container Path"
+msgstr "Variationscontainersökväg"
+
+#: includes/admin/partials/step-2-mapping.php:1790
+msgid "Variation Field Mapping"
+msgstr "Variationsfältmappning"
+
+#: includes/admin/partials/step-2-mapping.php:1577
+msgid "Variation Field Mapping (CSV Columns)"
+msgstr "Variationsfältmappning (CSV-kolumner)"
+
+#: includes/admin/partials/step-2-mapping.php:3264
+msgid "Variation Image:"
+msgstr "Variationsbild:"
+
+#: includes/admin/partials/step-2-mapping.php:1586
+#: includes/admin/partials/step-2-mapping.php:1808
+msgid "Variation SKU:"
+msgstr "Variations-SKU:"
+
+#: includes/admin/partials/step-3-progress.php:304
+msgid "View Detailed Logs"
+msgstr "Visa Detaljerade Loggar"
+
+#: includes/admin/partials/step-3-progress.php:494
+msgid "View Products"
+msgstr "Visa produkter"
+
+#: includes/admin/partials/step-2-mapping.php:425
+msgid "View cron setup instructions"
+msgstr "Visa cron-installationsinstruktioner"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3420
+msgid "View:"
+msgstr "Vy:"
+
+#: includes/admin/partials/step-2-mapping.php:238
+msgid "Virtual Product"
+msgstr "Virtuell Produkt"
+
+#: includes/admin/partials/step-2-mapping.php:3170
+msgid "Virtual products have no shipping (e.g., services, consultations)"
+msgstr "Virtuella produkter har ingen frakt (t.ex. tjänster, konsultationer)"
+
+#: includes/admin/partials/step-2-mapping.php:1648
+#: includes/admin/partials/step-2-mapping.php:1894
+#: includes/admin/partials/step-2-mapping.php:3171
+msgid "Virtual:"
+msgstr "Virtuell:"
+
+#: includes/admin/partials/step-2-mapping.php:2954
+msgid "Visible on product page"
+msgstr "Synlig på produktsidan"
+
+#: includes/admin/partials/step-2-mapping.php:1190
+msgid "Volume (L×W×H)"
+msgstr "Volym (L×B×H)"
+
+#: includes/admin/partials/step-3-progress.php:413
+msgid "Waiting for product processing..."
+msgstr "Väntar på produktbearbetning..."
+
+#: includes/admin/partials/step-3-progress.php:346
+msgid "Waiting for progress..."
+msgstr "Väntar på framsteg..."
+
+#: includes/admin/partials/settings-page.php:241
+msgid "Want PRO features?"
+msgstr "Vill du ha PRO-funktioner?"
+
+#: includes/admin/partials/step-3-progress.php:181
+msgid "Want to close this page?"
+msgstr "Vill du stänga den här sidan?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2377
+#, php-format
+msgid "Warning: %d fields could not be mapped automatically."
+msgstr "Varning: %d fält kunde inte mappas automatiskt."
+
+#: includes/admin/partials/import-edit.php:852
+msgid "We recommend running cron every minute. The plugin will only process when the scheduled interval has passed."
+msgstr "Vi rekommenderar att köra cron varje minut. Pluginen bearbetar bara när det schemalagda intervallet har passerat."
+
+#: includes/admin/partials/import-edit.php:788
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:584
+msgid "Weekly"
+msgstr "Veckovis"
+
+#: includes/admin/partials/step-1-upload.php:145
+#: includes/admin/partials/step-2-mapping.php:420
+msgid "Weekly Import"
+msgstr "Veckovis Import"
+
+#: includes/admin/partials/step-2-mapping.php:197
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1100
+msgid "Weight"
+msgstr "Vikt"
+
+#: includes/admin/partials/step-2-mapping.php:1188
+msgid "Weight Range"
+msgstr "Viktintervall"
+
+#: includes/admin/partials/step-2-mapping.php:1626
+#: includes/admin/partials/step-2-mapping.php:1860
+#: includes/admin/partials/step-2-mapping.php:3213
+msgid "Weight:"
+msgstr "Vikt:"
+
+#: includes/admin/partials/step-1-upload.php:211
+msgid "What to do with products that were imported before but are no longer present in the XML/CSV file."
+msgstr "Vad som ska göras med produkter som importerades tidigare men som inte längre finns i XML/CSV-filen."
+
+#: includes/admin/partials/step-2-mapping.php:382
+#: includes/admin/partials/import-edit.php:189
+msgid "When enabled, existing products with matching SKUs will be updated instead of creating duplicates."
+msgstr "När aktiverat uppdateras befintliga produkter med matchande SKU istället för att skapa dubbletter."
+
+#: includes/admin/partials/import-edit.php:217
+msgid "When enabled, products that were imported before but are no longer in the XML/CSV file will be processed."
+msgstr "När aktiverat bearbetas produkter som importerats tidigare men som inte längre finns i XML/CSV-filen."
+
+#: includes/admin/partials/import-edit.php:655
+msgid "When re-running, products that no longer match filters will be set to Draft status (not deleted)."
+msgstr "Vid omkörning sätts produkter som inte längre matchar filter till Utkast-status (raderas inte)."
+
+#: includes/admin/partials/step-2-mapping.php:3156
+msgid "Whether the variation is available for purchase on the frontend"
+msgstr "Om variationen är tillgänglig för köp på frontend"
+
+#: includes/admin/partials/step-2-mapping.php:199
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1102
+msgid "Width"
+msgstr "Bredd"
+
+#: includes/admin/partials/step-2-mapping.php:1633
+#: includes/admin/partials/step-2-mapping.php:1879
+#: includes/admin/partials/step-2-mapping.php:3248
+msgid "Width:"
+msgstr "Bredd:"
+
+#: includes/admin/partials/step-2-mapping.php:1372
+msgid "With Attributes"
+msgstr "Med Attribut"
+
+#: bootflow-product-importer.php:32
+msgid "WooCommerce XML/CSV Smart Import requires WooCommerce to be installed and active."
+msgstr "WooCommerce XML/CSV Smart Import kräver att WooCommerce är installerat och aktiverat."
+
+#: includes/admin/partials/import-edit.php:368
+msgid "Write a PHP formula to automatically assign shipping classes based on product dimensions and weight. The formula should return the shipping class slug (e.g., \"S\", \"M\", \"L\", \"Smags\")."
+msgstr "Skriv en PHP-formel för att automatiskt tilldela fraktklasser baserat på produktdimensioner och vikt. Formeln ska returnera fraktklassens slug (t.ex. \"S\", \"M\", \"L\", \"Smags\")."
+
+#: includes/admin/partials/step-2-mapping.php:2845
+msgid "XML Attribute Key:"
+msgstr "XML-attributnyckel:"
+
+#: includes/admin/partials/step-2-mapping.php:2861
+msgid "XML Attribute Name (for name/value structure):"
+msgstr "XML-attributnamn (för namn/värdestruktur):"
+
+#: includes/admin/partials/step-2-mapping.php:699
+msgid "XML Base Price → Apply Matching Rules → Apply Rounding → Final Price"
+msgstr "XML Baspris → Tillämpa Regler → Tillämpa Avrundning → Slutpris"
+
+#: includes/admin/partials/step-2-mapping.php:1193
+msgid "XML Field"
+msgstr "XML-fält"
+
+#: includes/admin/partials/step-1-upload.php:128
+msgid "XML Product Element"
+msgstr "XML-produktelement"
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:696
+msgid "XML file is valid."
+msgstr "XML-filen är giltig."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:42
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:166
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:726
+msgid "XML file not found."
+msgstr "XML-fil hittades inte."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:689
+msgid "XML validation errors: "
+msgstr "XML-valideringsfel: "
+
+#: includes/admin/partials/step-2-mapping.php:2072
+msgid "XML values: yes/no, true/false, 1/0"
+msgstr "XML-värden: yes/no, true/false, 1/0"
+
+#: includes/admin/partials/settings-page.php:111
+msgid "XML/CSV AI Smart Import - Settings"
+msgstr "XML/CSV AI Smart Import - Inställningar"
+
+#: includes/admin/partials/step-2-mapping.php:2049
+#: includes/admin/partials/step-2-mapping.php:3162
+#: includes/admin/partials/step-2-mapping.php:3176
+#: includes/admin/partials/step-2-mapping.php:3190
+#: includes/admin/partials/step-2-mapping.php:3204
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:70
+msgid "You do not have permission to perform this action."
+msgstr "Du har inte behörighet att utföra denna åtgärd."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1514
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1811
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1907
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1999
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2493
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2593
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2676
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2825
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3376
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte tillräcklig behörighet för att komma åt denna sida."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2160
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2423
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2462
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3642
+msgid "You do not have sufficient permissions."
+msgstr "Du har inte tillräcklig behörighet."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:65
+msgid "You must be logged in to perform this action."
+msgstr "Du måste vara inloggad för att utföra denna åtgärd."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:591
+#, php-format
+msgid "Your PRO license is not activated. Please %1$sactivate your license%2$s to unlock PRO features, or use the free version from WordPress.org."
+msgstr "Din PRO-licens är inte aktiverad. Vänligen %1$saktivera din licens%2$s för att låsa upp PRO-funktioner, eller använd gratisversionen från WordPress.org."
+
+#: includes/admin/partials/step-3-progress.php:188
+msgid "cPanel / Plesk:"
+msgstr "cPanel / Plesk:"
+
+#: includes/admin/partials/import-edit.php:836
+msgid "cPanel Command"
+msgstr "cPanel-kommando"
+
+#: includes/admin/partials/step-2-mapping.php:874
+#: includes/admin/partials/step-2-mapping.php:884
+#: includes/admin/partials/step-2-mapping.php:894
+#: includes/admin/partials/step-2-mapping.php:907
+#: includes/admin/partials/step-2-mapping.php:921
+#: includes/admin/partials/step-2-mapping.php:1228
+#: includes/admin/partials/step-2-mapping.php:1238
+#: includes/admin/partials/step-2-mapping.php:1252
+#: includes/admin/partials/step-2-mapping.php:1266
+#: includes/admin/partials/step-2-mapping.php:2658
+#: includes/admin/partials/import-edit.php:595
+#: includes/admin/partials/import-edit.php:1200
+msgid "contains"
+msgstr "innehåller"
+
+#: includes/admin/partials/step-2-mapping.php:2395
+#: includes/admin/partials/import-edit.php:468
+msgid "e.g., $value * 1.2"
+msgstr "t.ex., $value * 1.2"
+
+#: includes/admin/partials/step-2-mapping.php:3018
+msgid "e.g., $value * 1.21"
+msgstr "t.ex., $value * 1.21"
+
+#: includes/admin/partials/step-2-mapping.php:3114
+msgid "e.g., -red, -xl"
+msgstr "t.ex., -red, -xl"
+
+#: includes/admin/partials/import-edit.php:742
+#: includes/admin/partials/import-edit.php:1156
+msgid "e.g., Add 20 to this number: {value}. Return only the result number."
+msgstr "t.ex., Lägg till 20 till detta nummer: {value}. Returnera bara resultatsiffran."
+
+#: includes/admin/partials/step-2-mapping.php:3025
+msgid "e.g., Convert price and add 21% VAT"
+msgstr "t.ex., Konvertera pris och lägg till 21% moms"
+
+#: includes/admin/partials/import-edit.php:518
+msgid "e.g., Enhance this processed text for better readability"
+msgstr "t.ex., Förbättra denna bearbetade text för bättre läsbarhet"
+
+#: includes/admin/partials/step-2-mapping.php:2435
+msgid "e.g., Enhance this text for better readability"
+msgstr "t.ex., Förbättra denna text för bättre läsbarhet"
+
+#: includes/admin/partials/step-2-mapping.php:2898
+msgid "e.g., Extract color names from this text"
+msgstr "t.ex., Extrahera färgnamn från denna text"
+
+#: includes/admin/partials/step-2-mapping.php:2938
+msgid "e.g., Extract image URL from HTML"
+msgstr "t.ex., Extrahera bild-URL från HTML"
+
+#: includes/admin/partials/step-2-mapping.php:2741
+msgid "e.g., Extract the currency code from this value"
+msgstr "t.ex., Extrahera valutakoden från detta värde"
+
+#: includes/admin/partials/step-2-mapping.php:3317
+msgid "e.g., Generate unique variation description"
+msgstr "t.ex., Generera unik variationsbeskrivning"
+
+#: includes/admin/partials/step-2-mapping.php:2838
+msgid "e.g., Izmērs, Krāsa, Material"
+msgstr "t.ex., Storlek, Färg, Material"
+
+#: includes/admin/partials/step-2-mapping.php:2866
+msgid "e.g., Material"
+msgstr "t.ex., Material"
+
+#: includes/admin/partials/step-1-upload.php:38
+msgid "e.g., Summer Collection 2024"
+msgstr "t.ex., Sommarkollektion 2024"
+
+#: includes/admin/partials/step-2-mapping.php:2423
+#: includes/admin/partials/import-edit.php:497
+msgid "e.g., Translate this product name to English and make it SEO-friendly"
+msgstr "t.ex., Översätt detta produktnamn till engelska och gör det SEO-vänligt"
+
+#: includes/admin/partials/step-2-mapping.php:2719
+msgid "e.g., return $product['price']['@attributes']['currency'] ?? 'USD';"
+msgstr "t.ex., return $product['price']['@attributes']['currency'] ?? 'USD';"
+
+#: includes/admin/partials/step-2-mapping.php:2755
+msgid "e.g., return $value * 1.21;"
+msgstr "t.ex., return $value * 1.21;"
+
+#: includes/admin/partials/import-edit.php:729
+#: includes/admin/partials/import-edit.php:1143
+msgid "e.g., return $value + 20;"
+msgstr "t.ex., return $value + 20;"
+
+#: includes/admin/partials/step-2-mapping.php:2851
+msgid "e.g., size, color, material"
+msgstr "t.ex., size, color, material"
+
+#: includes/admin/partials/step-2-mapping.php:2456
+#: includes/admin/partials/import-edit.php:509
+msgid "e.g., trim(strtolower($value))"
+msgstr "t.ex., trim(strtolower($value))"
+
+#: includes/admin/partials/step-2-mapping.php:1746
+msgid "e.g., variations.variation.attributes"
+msgstr "t.ex., variations.variation.attributes"
+
+#: includes/admin/partials/step-2-mapping.php:920
+#: includes/admin/partials/step-2-mapping.php:1265
+msgid "ends with"
+msgstr "slutar med"
+
+#: includes/admin/partials/step-2-mapping.php:873
+#: includes/admin/partials/step-2-mapping.php:883
+#: includes/admin/partials/step-2-mapping.php:893
+#: includes/admin/partials/step-2-mapping.php:1227
+#: includes/admin/partials/step-2-mapping.php:1237
+msgid "equals"
+msgstr "lika med"
+
+#: includes/admin/partials/step-2-mapping.php:863
+#: includes/admin/partials/step-2-mapping.php:1199
+#: includes/admin/partials/step-2-mapping.php:1208
+#: includes/admin/partials/step-2-mapping.php:1217
+msgid "from"
+msgstr "från"
+
+#: includes/admin/partials/step-1-upload.php:106
+msgid "https://example.com/products.xml"
+msgstr "https://example.com/products.xml"
+
+#: includes/admin/partials/step-2-mapping.php:2660
+#: includes/admin/partials/import-edit.php:597
+#: includes/admin/partials/import-edit.php:1202
+msgid "is empty"
+msgstr "är tom"
+
+#: includes/admin/partials/import-edit.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:603
+msgid "just now"
+msgstr "precis nu"
+
+#: includes/admin/partials/step-2-mapping.php:922
+#: includes/admin/partials/step-2-mapping.php:1267
+msgid "matches regex"
+msgstr "matchar regex"
+
+#: includes/admin/partials/step-3-progress.php:451
+msgid "minutes"
+msgstr "minuter"
+
+#: includes/admin/partials/step-2-mapping.php:2659
+#: includes/admin/partials/import-edit.php:596
+#: includes/admin/partials/import-edit.php:1201
+msgid "not contains"
+msgstr "innehåller inte"
+
+#: includes/admin/partials/step-2-mapping.php:2661
+#: includes/admin/partials/import-edit.php:598
+#: includes/admin/partials/import-edit.php:1203
+msgid "not empty"
+msgstr "inte tom"
+
+#: includes/admin/partials/step-2-mapping.php:875
+#: includes/admin/partials/step-2-mapping.php:885
+#: includes/admin/partials/step-2-mapping.php:1229
+#: includes/admin/partials/step-2-mapping.php:1239
+msgid "not equals"
+msgstr "inte lika med"
+
+#: includes/admin/partials/step-1-upload.php:74
+msgid "or"
+msgstr "eller"
+
+#: includes/admin/partials/step-2-mapping.php:1136
+#: includes/admin/partials/step-2-mapping.php:1295
+msgid "or type new:"
+msgstr "eller skriv ny:"
+
+#: includes/admin/partials/step-3-progress.php:334
+msgid "prod/min"
+msgstr "prod/min"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:116
+msgid "products deleted"
+msgstr "produkter raderade"
+
+#: includes/admin/partials/import-edit.php:160
+msgid "products per chunk"
+msgstr "produkter per omgång"
+
+#: includes/admin/partials/step-3-progress.php:435
+msgid "products/min"
+msgstr "produkter/min"
+
+#: includes/admin/partials/step-2-mapping.php:2662
+msgid "regex match"
+msgstr "regex-matchning"
+
+#: includes/admin/partials/step-2-mapping.php:2663
+msgid "regex not match"
+msgstr "regex matchar inte"
+
+#: includes/admin/partials/step-2-mapping.php:919
+#: includes/admin/partials/step-2-mapping.php:1264
+msgid "starts with"
+msgstr "börjar med"
+
+#: includes/admin/partials/step-2-mapping.php:865
+#: includes/admin/partials/step-2-mapping.php:1201
+#: includes/admin/partials/step-2-mapping.php:1210
+#: includes/admin/partials/step-2-mapping.php:1219
+msgid "to"
+msgstr "till"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:303
+msgid "xAI Grok API key not configured."
+msgstr "xAI Grok API-nyckel inte konfigurerad."
+
+#: includes/admin/partials/settings-page.php:454
+msgid "xAI Grok Settings"
+msgstr "xAI Grok-inställningar"
+
+#: includes/admin/partials/step-2-mapping.php:1439
+msgid "{attribute1}→{value1}"
+msgstr "{attribute1}→{value1}"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1208
+msgid "← Back to Import History"
+msgstr "← Tillbaka till Importhistorik"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:625
+msgid "⏳ <1 min"
+msgstr "⏳ <1 min"
+
+#: includes/admin/partials/import-edit.php:141
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:623
+msgid "⏳ due now"
+msgstr "⏳ nu"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:627
+#, php-format
+msgid "⏳ in %d min"
+msgstr "⏳ om %d min"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:629
+#, php-format
+msgid "⏳ in %dh %dm"
+msgstr "⏳ om %dt %dm"
+
+#: includes/admin/partials/import-edit.php:143
+msgid "⏳ in less than 1 min"
+msgstr "⏳ om mindre än 1 min"
+
+#: includes/admin/partials/import-edit.php:145
+#, php-format
+msgid "⏳ next run in %d min"
+msgstr "⏳ nästa körning om %d min"
+
+#: includes/admin/partials/import-edit.php:147
+#, php-format
+msgid "⏳ next run in %dh %dm"
+msgstr "⏳ nästa körning om %dt %dm"
+
+#: includes/admin/partials/import-edit.php:880
+msgid "▶ Run Import Now"
+msgstr "▶ Kör Import Nu"
+
+#: includes/admin/partials/import-edit.php:472
+msgid "⚠️ Always use $value as input (not field names like $price or $product_price)"
+msgstr "⚠️ Använd alltid $value som indata (inte fältnamn som $price eller $product_price)"
+
+#: includes/admin/partials/import-edit.php:648
+msgid "⚠️ Changing filters will affect future imports. Existing products won't be modified automatically."
+msgstr "⚠️ Ändring av filter påverkar framtida importer. Befintliga produkter ändras inte automatiskt."
+
+#: includes/admin/partials/import-edit.php:659
+msgid "⚠️ If unchecked: Products not matching filters will be skipped during import, but existing products will remain Published."
+msgstr "⚠️ Om avmarkerad: Produkter som inte matchar filter hoppas över vid import, men befintliga produkter förblir Publicerade."
+
+#: includes/admin/partials/step-2-mapping.php:2400
+msgid "✅ Access any XML field: <code>$value . \" - \" . $brand</code>"
+msgstr "✅ Åtkomst till alla XML-fält: <code>$value . \" - \" . $brand</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2399
+msgid "✅ Complex formulas need return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+msgstr "✅ Komplexa formler behöver return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2398
+msgid "✅ Simple formulas work directly: <code>$value * 1.2</code>"
+msgstr "✅ Enkla formler fungerar direkt: <code>$value * 1.2</code>"
+
+#: includes/admin/partials/step-2-mapping.php:856
+msgid "🏭 Supplier"
+msgstr "🏭 Leverantör"
+
+#: includes/admin/partials/step-2-mapping.php:855
+msgid "🏷️ Brand"
+msgstr "🏷️ Varumärke"
+
+#: includes/admin/partials/step-2-mapping.php:854
+msgid "📁 Category"
+msgstr "📁 Kategori"
+
+#: includes/admin/partials/step-2-mapping.php:857
+msgid "📄 XML Field"
+msgstr "📄 XML-fält"
+
+#: includes/admin/partials/step-2-mapping.php:858
+msgid "🔢 SKU Pattern"
+msgstr "🔢 SKU-mönster"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "← Prev"
+msgstr "← Föregående"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Next →"
+msgstr "Nästa →"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go"
+msgstr "Kör"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go to product:"
+msgstr "Gå till produkt:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Product %1$d of %2$d"
+msgstr "Produkt %1$d av %2$d"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Basic Info"
+msgstr "Grundläggande Info"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Pricing"
+msgstr "Prissättning"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Inventory"
+msgstr "Lager"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Shipping"
+msgstr "Frakt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Identifiers"
+msgstr "Identifierare"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Other Fields"
+msgstr "Övriga Fält"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "items"
+msgstr "objekt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click to expand)"
+msgstr "(klicka för att expandera)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click)"
+msgstr "(klicka)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Object (%d fields)"
+msgstr "Objekt (%d fält)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "All %d items"
+msgstr "Alla %d objekt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "+ %d nested/complex fields (attributes, variations, etc.) available in dropdown"
+msgstr "+ %d nästlade/komplexa fält (attribut, variationer, etc.) tillgängliga i rullgardinsmenyn"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Preview:"
+msgstr "Förhandsvisning:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Variable Product Detected"
+msgstr "Variabel Produkt Upptäckt"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "$parent_description . \" | \" . $value"
+msgstr "$parent_description . \" | \" . $value"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., \"Size: \" . $value . \" - \" . $parent_description"
+msgstr "t.ex., \"Size: \" . $value . \" - \" . $parent_description"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., explode(\",\", $value)"
+msgstr "t.ex., explode(\",\", $value)"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., str_replace(\"small\", \"large\", $value)"
+msgstr "t.ex., str_replace(\"small\", \"large\", $value)"
+

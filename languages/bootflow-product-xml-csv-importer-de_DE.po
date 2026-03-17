@@ -1,0 +1,5029 @@
+# Translation file for Bootflow Product Importer - Deutsch
+# Copyright (C) 2026 Bootflow
+# This file is distributed under the same license as the Bootflow Product Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootflow Product Importer 0.9.2\n"
+"Report-Msgid-Bugs-To: support@bootflow.io\n"
+"POT-Creation-Date: 2026-03-04 19:52+0200\n"
+"PO-Revision-Date: 2026-03-04 23:10+0000\n"
+"Last-Translator: Bootflow Auto-Translate\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: includes/admin/partials/step-2-mapping.php:3033
+msgid "$value * 1.21"
+msgstr "$value * 1.21"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1173
+#, php-format
+msgid "%1$d of %2$d products processed"
+msgstr "%1$d von %2$d Produkten verarbeitet"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2394
+#, php-format
+msgid "%d attribute found."
+msgstr "%d Attribut gefunden."
+
+#: includes/admin/partials/import-edit.php:127
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:611
+#, php-format
+msgid "%d days ago"
+msgstr "vor %d Tagen"
+
+#: includes/admin/partials/import-edit.php:121
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:605
+#, php-format
+msgid "%d min ago"
+msgstr "vor %d Min."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:535
+#, php-format
+msgid "%d products deleted successfully."
+msgstr "%d Produkte erfolgreich gelöscht."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1176
+#, php-format
+msgid "%d products remaining"
+msgstr "%d Produkte verbleibend"
+
+#: includes/admin/partials/import-edit.php:125
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:609
+#, php-format
+msgid "%dh %dm ago"
+msgstr "vor %dh %dm"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:505
+#, php-format
+msgid "%s API connection successful."
+msgstr "%s API-Verbindung erfolgreich."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:513
+#, php-format
+msgid "%s API test failed: %s"
+msgstr "%s API-Test fehlgeschlagen: %s"
+
+#: includes/admin/partials/step-2-mapping.php:739
+#: includes/admin/partials/step-2-mapping.php:1101
+msgid "(First matching rule wins)"
+msgstr "(Erste zutreffende Regel gewinnt)"
+
+#: includes/admin/partials/step-2-mapping.php:2541
+msgid "(all conditions must match)"
+msgstr "(alle Bedingungen müssen zutreffen)"
+
+#: includes/admin/partials/step-2-mapping.php:2545
+msgid "(any condition can match)"
+msgstr "(jede Bedingung kann zutreffen)"
+
+#: includes/admin/partials/step-2-mapping.php:772
+#: includes/admin/partials/step-2-mapping.php:948
+msgid "+ Fixed €"
+msgstr "+ Fest €"
+
+#: includes/admin/partials/step-2-mapping.php:902
+#: includes/admin/partials/step-2-mapping.php:1247
+msgid "-- Field --"
+msgstr "-- Feld --"
+
+#: includes/admin/partials/step-2-mapping.php:1131
+#: includes/admin/partials/step-2-mapping.php:1290
+msgid "-- No shipping class --"
+msgstr "-- Keine Versandklasse --"
+
+#: includes/admin/partials/step-2-mapping.php:1537
+msgid "-- Select Column (optional) --"
+msgstr "-- Spalte auswählen (optional) --"
+
+#: includes/admin/partials/step-2-mapping.php:1531
+msgid "-- Select Column --"
+msgstr "-- Spalte auswählen --"
+
+#: includes/admin/partials/step-2-mapping.php:2645
+#: includes/admin/partials/step-2-mapping.php:2998
+#: includes/admin/partials/step-2-mapping.php:3072
+#: includes/admin/partials/step-2-mapping.php:3095
+#: includes/admin/partials/step-2-mapping.php:3119
+#: includes/admin/partials/step-2-mapping.php:3138
+#: includes/admin/partials/step-2-mapping.php:3231
+#: includes/admin/partials/step-2-mapping.php:3244
+#: includes/admin/partials/step-2-mapping.php:3250
+#: includes/admin/partials/step-2-mapping.php:3256
+#: includes/admin/partials/step-2-mapping.php:3280
+#: includes/admin/partials/step-2-mapping.php:3291
+#: includes/admin/partials/import-edit.php:579
+#: includes/admin/partials/import-edit.php:1184
+msgid "-- Select Field --"
+msgstr "-- Feld auswählen --"
+
+#: includes/admin/partials/step-2-mapping.php:3266
+msgid "-- Select Image Field --"
+msgstr "-- Bildfeld auswählen --"
+
+#: includes/admin/partials/import-edit.php:697
+#: includes/admin/partials/import-edit.php:1111
+msgid "-- Select Source --"
+msgstr "-- Quelle auswählen --"
+
+#: includes/admin/partials/step-2-mapping.php:2252
+#: includes/admin/partials/step-2-mapping.php:2302
+#: includes/admin/partials/step-2-mapping.php:2698
+#: includes/admin/partials/step-2-mapping.php:2877
+#: includes/admin/partials/step-2-mapping.php:2917
+msgid "-- Select Source Field --"
+msgstr "-- Quellfeld auswählen --"
+
+#: includes/admin/partials/step-2-mapping.php:2069
+#: includes/admin/partials/step-2-mapping.php:2103
+#: includes/admin/partials/step-2-mapping.php:2138
+#: includes/admin/partials/step-2-mapping.php:2170
+#: includes/admin/partials/step-2-mapping.php:2209
+#: includes/admin/partials/step-2-mapping.php:2242
+msgid "-- Select XML Field --"
+msgstr "-- XML-Feld auswählen --"
+
+#: includes/admin/partials/step-2-mapping.php:713
+msgid "-- Select XML field with base price --"
+msgstr "-- XML-Feld mit Basispreis auswählen --"
+
+#: includes/admin/partials/step-2-mapping.php:542
+msgid "-- Select template --"
+msgstr "-- Vorlage auswählen --"
+
+#: includes/admin/partials/step-2-mapping.php:789
+msgid ".95"
+msgstr ".95"
+
+#: includes/admin/partials/step-2-mapping.php:788
+msgid ".99"
+msgstr ".99"
+
+#: includes/admin/partials/step-2-mapping.php:783
+msgid "0.01"
+msgstr "0.01"
+
+#: includes/admin/partials/step-2-mapping.php:784
+msgid "0.05"
+msgstr "0.05"
+
+#: includes/admin/partials/step-2-mapping.php:785
+msgid "0.10"
+msgstr "0.10"
+
+#: includes/admin/partials/step-2-mapping.php:786
+msgid "0.50"
+msgstr "0.50"
+
+#: includes/admin/partials/step-2-mapping.php:787
+msgid "1.00"
+msgstr "1.00"
+
+#: includes/admin/partials/settings-page.php:720
+msgid "100% reliable, does not depend on website traffic."
+msgstr "100% zuverlässig, unabhängig vom Website-Traffic."
+
+#: includes/admin/partials/step-2-mapping.php:2854
+msgid "<strong>Required for Map mode!</strong> The XML element name inside &lt;attributes&gt;."
+msgstr "<strong>Erforderlich für den Map-Modus!</strong> Der XML-Elementname innerhalb von &lt;attributes&gt;."
+
+#: includes/admin/partials/step-2-mapping.php:603
+msgid "AI Auto-Map"
+msgstr "KI Auto-Zuordnung"
+
+#: includes/admin/partials/step-2-mapping.php:590
+#: includes/admin/partials/step-2-mapping.php:3419
+#: includes/admin/partials/step-2-mapping.php:3592
+msgid "AI Auto-Mapping"
+msgstr "KI Auto-Zuordnung"
+
+#: includes/admin/partials/step-2-mapping.php:2360
+#: includes/admin/partials/step-2-mapping.php:2707
+#: includes/admin/partials/step-2-mapping.php:2883
+#: includes/admin/partials/step-2-mapping.php:2923
+#: includes/admin/partials/step-2-mapping.php:3004
+#: includes/admin/partials/step-2-mapping.php:3297
+#: includes/admin/partials/step-2-mapping.php:3622
+#: includes/admin/partials/import-edit.php:457
+#: includes/admin/partials/import-edit.php:714
+#: includes/admin/partials/import-edit.php:1128
+msgid "AI Processing"
+msgstr "KI-Verarbeitung"
+
+#: includes/admin/partials/import-edit.php:516
+msgid "AI Prompt (applied to PHP result):"
+msgstr "KI-Eingabeaufforderung (auf PHP-Ergebnis angewendet):"
+
+#: includes/admin/partials/step-2-mapping.php:2433
+msgid "AI Prompt (executed first):"
+msgstr "KI-Eingabeaufforderung (zuerst ausgeführt):"
+
+#: includes/admin/partials/step-2-mapping.php:2903
+#: includes/admin/partials/step-2-mapping.php:2943
+msgid "AI Prompt (runs after):"
+msgstr "KI-Eingabeaufforderung (danach ausgeführt):"
+
+#: includes/admin/partials/step-2-mapping.php:2421
+#: includes/admin/partials/step-2-mapping.php:2739
+#: includes/admin/partials/step-2-mapping.php:2779
+#: includes/admin/partials/step-2-mapping.php:2897
+#: includes/admin/partials/step-2-mapping.php:2937
+#: includes/admin/partials/step-2-mapping.php:3037
+#: includes/admin/partials/step-2-mapping.php:3329
+#: includes/admin/partials/import-edit.php:495
+#: includes/admin/partials/import-edit.php:740
+#: includes/admin/partials/import-edit.php:1154
+msgid "AI Prompt:"
+msgstr "KI-Eingabeaufforderung:"
+
+#: includes/admin/partials/settings-page.php:391
+msgid "AI Provider Configuration"
+msgstr "KI-Anbieter Konfiguration"
+
+#: includes/admin/partials/step-2-mapping.php:2411
+#: includes/admin/partials/step-2-mapping.php:2439
+#: includes/admin/partials/step-2-mapping.php:2729
+#: includes/admin/partials/step-2-mapping.php:2769
+#: includes/admin/partials/import-edit.php:485
+#: includes/admin/partials/import-edit.php:522
+#: includes/admin/partials/import-edit.php:734
+#: includes/admin/partials/import-edit.php:1148
+msgid "AI Provider:"
+msgstr "KI-Anbieter:"
+
+#: includes/admin/partials/settings-page.php:117
+msgid "AI Providers"
+msgstr "KI-Anbieter"
+
+#: includes/admin/partials/step-2-mapping.php:621
+msgid "AI analyzing fields..."
+msgstr "KI analysiert Felder..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2339
+msgid "AI auto-mapping is a PRO feature."
+msgstr "KI Auto-Zuordnung ist eine PRO-Funktion."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2312
+msgid "AI auto-mapping requires an AI API key. Please configure one in Settings."
+msgstr "AI Auto-Mapping erfordert einen AI API-Schlüssel. Bitte konfigurieren Sie einen unter Einstellungen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2365
+#, php-format
+msgid "AI mapped %1$d fields, auto-filled %2$d fields. Total: %3$d of %4$d fields mapped."
+msgstr "KI hat %1$d Felder zugeordnet, %2$d Felder automatisch ausgefüllt. Gesamt: %3$d von %4$d Feldern zugeordnet."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2502
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2561
+msgid "AI processing is a PRO feature."
+msgstr "KI-Verarbeitung ist eine PRO-Funktion."
+
+#: includes/admin/partials/step-2-mapping.php:2451
+msgid "AI result will be passed to PHP formula"
+msgstr "KI-Ergebnis wird an PHP-Formel übergeben"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2570
+msgid "AI test completed successfully."
+msgstr "KI-Test erfolgreich abgeschlossen."
+
+#: includes/admin/partials/settings-page.php:356
+msgid "AI-assisted mapping & transformation"
+msgstr "KI-unterstützte Zuordnung & Transformation"
+
+#: includes/admin/partials/step-2-mapping.php:844
+#: includes/admin/partials/step-2-mapping.php:1179
+msgid "ALL conditions match"
+msgstr "ALLE Bedingungen treffen zu"
+
+#: includes/admin/partials/step-2-mapping.php:845
+#: includes/admin/partials/step-2-mapping.php:1180
+msgid "ANY condition matches"
+msgstr "JEDE beliebige Bedingung trifft zu"
+
+#: includes/admin/partials/settings-page.php:400
+#: includes/admin/partials/settings-page.php:419
+#: includes/admin/partials/settings-page.php:438
+#: includes/admin/partials/settings-page.php:457
+#: includes/admin/partials/settings-page.php:475
+msgid "API Key:"
+msgstr "API-Schlüssel:"
+
+#: includes/admin/partials/settings-page.php:514
+msgid "API Timeout (seconds):"
+msgstr "API-Zeitlimit (Sekunden):"
+
+#: includes/admin/partials/step-1-upload.php:83
+#, php-format
+msgid "Accepted formats: XML, CSV | Max size: %dMB"
+msgstr "Akzeptierte Formate: XML, CSV | Max. Größe: %dMB"
+
+#: includes/admin/partials/step-2-mapping.php:2722
+msgid "Access product data: <code>$product['field']</code> or <code>$value</code> for source field"
+msgstr "Produktdaten zugreifen: <code>$product['field']</code> oder <code>$value</code> für Quellfeld"
+
+#: includes/admin/partials/settings-page.php:700
+#: includes/admin/partials/step-2-mapping.php:452
+#: includes/admin/partials/import-edit.php:799
+msgid "Action Scheduler"
+msgstr "Aktionsplaner"
+
+#: includes/admin/partials/import-edit.php:869
+msgid "Action Scheduler or Server Cron support"
+msgstr "Aktionsplaner oder Server-Cron Unterstützung"
+
+#: includes/admin/partials/step-1-upload.php:223
+#: includes/admin/partials/import-edit.php:224
+msgid "Action for missing products:"
+msgstr "Aktion für fehlende Produkte:"
+
+#: includes/admin/partials/import-edit.php:241
+msgid "Action will only affect products last updated by THIS import."
+msgstr "Aktion betrifft nur Produkte, die zuletzt durch DIESEN Import aktualisiert wurden."
+
+#: includes/admin/partials/step-1-upload.php:242
+msgid "Action will only affect products that were last updated by THIS import. Products updated by other imports will not be affected."
+msgstr "Aktion betrifft nur Produkte, die zuletzt von DIESEM Import aktualisiert wurden. Produkte, die von anderen Importen aktualisiert wurden, sind nicht betroffen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:565
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/admin/partials/settings-page.php:219
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: includes/admin/partials/settings-page.php:198
+#: includes/class-bfi-license-admin.php:44
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:424
+msgid "Activate your license key in Settings → License to unlock PRO features."
+msgstr "Aktivieren Sie Ihren Lizenzschlüssel unter Einstellungen → Lizenz, um PRO-Funktionen freizuschalten."
+
+#: includes/class-bfi-license-admin.php:46
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/admin/partials/step-2-mapping.php:1566
+#: includes/admin/partials/step-2-mapping.php:1778
+msgid "Add 2 attributes:"
+msgstr "2 Attribute hinzufügen:"
+
+#: includes/admin/partials/step-2-mapping.php:1451
+#: includes/admin/partials/step-2-mapping.php:1554
+#: includes/admin/partials/step-2-mapping.php:1770
+msgid "Add Attribute"
+msgstr "Attribut hinzufügen"
+
+#: includes/admin/partials/step-2-mapping.php:933
+#: includes/admin/partials/step-2-mapping.php:1278
+msgid "Add Condition"
+msgstr "Bedingung hinzufügen"
+
+#: includes/admin/partials/step-2-mapping.php:2601
+#: includes/admin/partials/import-edit.php:674
+msgid "Add Custom Field"
+msgstr "Benutzerdefiniertes Feld hinzufügen"
+
+#: includes/admin/partials/step-2-mapping.php:2521
+#: includes/admin/partials/import-edit.php:559
+msgid "Add Filter"
+msgstr "Filter hinzufügen"
+
+#: includes/admin/partials/step-2-mapping.php:1475
+msgid "Add Key-Value Pair"
+msgstr "Schlüssel-Wert-Paar hinzufügen"
+
+#: includes/admin/partials/step-2-mapping.php:1677
+#: includes/admin/partials/step-2-mapping.php:1944
+msgid "Add Meta Field"
+msgstr "Meta-Feld hinzufügen"
+
+#: includes/admin/partials/step-2-mapping.php:744
+#: includes/admin/partials/step-2-mapping.php:1106
+msgid "Add Rule"
+msgstr "Regel hinzufügen"
+
+#: includes/admin/partials/step-3-progress.php:189
+msgid "Add a new Cron Job with:"
+msgstr "Neuen Cron-Job hinzufügen mit:"
+
+#: includes/admin/partials/step-2-mapping.php:1417
+msgid "Add attributes that will be shown on product pages. These are informational only."
+msgstr "Attribute hinzufügen, die auf Produktseiten angezeigt werden. Diese sind nur informativ."
+
+#: includes/admin/partials/step-2-mapping.php:1374
+msgid "Add display attributes like Material, Brand, Color"
+msgstr "Anzeigeattribute wie Material, Marke, Farbe hinzufügen"
+
+#: includes/admin/partials/settings-page.php:740
+msgid "Add this cron job to your server"
+msgstr "Fügen Sie diesen Cron-Job zu Ihrem Server hinzu"
+
+#: includes/admin/partials/settings-page.php:738
+msgid "Add this cron job to your server to trigger scheduled imports. The import will process ALL products until complete in one request."
+msgstr "Fügen Sie diesen Cron-Job Ihrem Server hinzu, um geplante Importe auszulösen. Der Import verarbeitet ALLE Produkte bis zur Fertigstellung in einer Anfrage."
+
+#: includes/admin/partials/step-2-mapping.php:3115
+msgid "Added to parent SKU"
+msgstr "Zur übergeordneten SKU hinzugefügt"
+
+#: includes/admin/partials/step-2-mapping.php:3148
+msgid "Advanced (Status, Shipping, Dimensions)"
+msgstr "Erweitert (Status, Versand, Abmessungen)"
+
+#: includes/admin/partials/step-2-mapping.php:287
+msgid "Advanced Fields"
+msgstr "Erweiterte Felder"
+
+#: includes/admin/partials/step-2-mapping.php:3424
+#: includes/admin/partials/step-2-mapping.php:3627
+msgid "Advanced Formulas"
+msgstr "Erweiterte Formeln"
+
+#: includes/admin/partials/step-1-upload.php:167
+msgid "Advanced Options"
+msgstr "Erweiterte Optionen"
+
+#: includes/admin/partials/settings-page.php:336
+msgid "Advanced update rules"
+msgstr "Erweiterte Aktualisierungsregeln"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:124
+#, php-format
+msgid "All %d products deleted successfully!"
+msgstr "Alle %d Produkte erfolgreich gelöscht!"
+
+#: includes/admin/partials/settings-page.php:165
+msgid "All features unlocked including AI Auto-Mapping, templates, and scheduled imports!"
+msgstr "Alle Funktionen freigeschaltet, einschließlich KI Auto-Mapping, Vorlagen und geplante Importe!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4316
+msgid "All products deleted successfully"
+msgstr "Alle Produkte erfolgreich gelöscht"
+
+#: includes/admin/partials/step-2-mapping.php:189
+#: includes/admin/partials/step-2-mapping.php:1855
+msgid "Allow"
+msgstr "Erlauben"
+
+#: includes/admin/partials/step-1-upload.php:227
+#: includes/admin/partials/import-edit.php:228
+msgid "Allow Backorder (stock=0)"
+msgstr "Nachbestellung erlauben (Bestand=0)"
+
+#: includes/admin/partials/step-2-mapping.php:183
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1094
+msgid "Allow Backorders"
+msgstr "Nachbestellungen erlauben"
+
+#: includes/admin/partials/step-2-mapping.php:188
+msgid "Allow, but notify customer"
+msgstr "Erlauben, aber Kunde benachrichtigen"
+
+#: includes/admin/partials/step-2-mapping.php:1854
+msgid "Allow, notify"
+msgstr "Erlauben, benachrichtigen"
+
+#: includes/admin/partials/settings-page.php:824
+msgid "Allowed File Types:"
+msgstr "Erlaubte Dateitypen:"
+
+#: includes/admin/partials/settings-page.php:918
+msgid "Allowed PHP Functions:"
+msgstr "Erlaubte PHP-Funktionen:"
+
+#: includes/admin/partials/step-1-upload.php:236
+#: includes/admin/partials/import-edit.php:236
+msgid "Also process variations when parent product is missing"
+msgstr "Variationen auch verarbeiten, wenn übergeordnetes Produkt fehlt"
+
+#: includes/admin/partials/settings-page.php:760
+msgid "Alternative: WP-CLI"
+msgstr "Alternative: WP-CLI"
+
+#: includes/admin/partials/step-2-mapping.php:758
+#: includes/admin/partials/step-2-mapping.php:1120
+msgid "Always applies if no other rule matches"
+msgstr "Wird immer angewendet, wenn keine andere Regel zutrifft"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:100
+msgid "An error occurred:"
+msgstr "Ein Fehler ist aufgetreten:"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:248
+msgid "Anthropic Claude API key not configured."
+msgstr "Anthropic Claude API-Schlüssel nicht konfiguriert."
+
+#: includes/admin/partials/settings-page.php:435
+msgid "Anthropic Claude Settings"
+msgstr "Anthropic Claude Einstellungen"
+
+#: includes/admin/partials/step-2-mapping.php:841
+#: includes/admin/partials/step-2-mapping.php:1176
+msgid "Apply when:"
+msgstr "Anwenden wenn:"
+
+#: includes/admin/partials/import-edit.php:1253
+msgid "Are you sure you want to clear all field mappings?"
+msgstr "Möchten Sie wirklich alle Feldzuordnungen löschen?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:119
+msgid "Are you sure you want to delete all products from this import?"
+msgstr "Möchten Sie wirklich alle Produkte dieses Imports löschen?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Are you sure you want to delete this import and its file?"
+msgstr "Möchten Sie wirklich diesen Import und seine Datei löschen?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:101
+msgid "Are you sure you want to start the import?"
+msgstr "Möchten Sie wirklich den Import starten?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1196
+msgid "Are you sure? This will reset progress and start from the beginning."
+msgstr "Sind Sie sicher? Dies setzt den Fortschritt zurück und startet von vorne."
+
+#: includes/admin/partials/step-2-mapping.php:1127
+#: includes/admin/partials/step-2-mapping.php:1286
+msgid "Assign Shipping Class:"
+msgstr "Versandklasse zuweisen:"
+
+#: includes/admin/partials/step-2-mapping.php:2913
+msgid "Attribute Image (optional):"
+msgstr "Attributbild (optional):"
+
+#: includes/admin/partials/step-2-mapping.php:1425
+msgid "Attribute Input Mode:"
+msgstr "Attribut-Eingabemodus:"
+
+#: includes/admin/partials/step-2-mapping.php:2833
+msgid "Attribute Name (WooCommerce):"
+msgstr "Attributname (WooCommerce):"
+
+#: includes/admin/partials/step-2-mapping.php:1457
+msgid "Attribute Name: \"Material\" → Source: select the XML/CSV field containing material values"
+msgstr "Attributname: \"Material\" → Quelle: XML/CSV-Feld mit Materialwerten auswählen"
+
+#: includes/admin/partials/step-2-mapping.php:2873
+msgid "Attribute Values (optional override):"
+msgstr "Attributwerte (optionale Überschreibung):"
+
+#: includes/admin/partials/step-2-mapping.php:304
+msgid "Attributes & Variations"
+msgstr "Attribute & Variationen"
+
+#: includes/admin/partials/settings-page.php:284
+msgid "Attributes & variations"
+msgstr "Attribute & Variationen"
+
+#: includes/admin/partials/step-2-mapping.php:1744
+msgid "Attributes path:"
+msgstr "Attributpfad:"
+
+#: includes/admin/partials/step-2-mapping.php:1977
+msgid "Auto Shipping Class Formula"
+msgstr "Automatische Versandklassen-Formel"
+
+#: includes/admin/partials/step-2-mapping.php:1068
+msgid "Auto-assign shipping classes based on product weight, category, price, or any XML field"
+msgstr "Versandklassen automatisch basierend auf Produktgewicht, Kategorie, Preis oder beliebigem XML-Feld zuweisen"
+
+#: includes/admin/partials/step-1-upload.php:188
+msgid "Auto-create Categories"
+msgstr "Kategorien automatisch erstellen"
+
+#: includes/admin/partials/settings-page.php:847
+msgid "Auto-delete Old Files"
+msgstr "Alte Dateien automatisch löschen"
+
+#: includes/admin/partials/step-2-mapping.php:1732
+msgid "Auto-detect"
+msgstr "Automatisch erkennen"
+
+#: includes/admin/partials/step-1-upload.php:118
+msgid "Auto-detect (from extension or content)"
+msgstr "Automatisch erkennen (nach Erweiterung oder Inhalt)"
+
+#: includes/admin/partials/step-2-mapping.php:1741
+msgid "Auto-detect Settings"
+msgstr "Auto-Erkennungs-Einstellungen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4174
+#, php-format
+msgid "Auto-detected %1$d of %2$d fields"
+msgstr "%1$d von %2$d Feldern automatisch erkannt"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2008
+#, php-format
+msgid "Auto-detected External product type for \"%s\" (has external_url field)"
+msgstr "Externer Produkttyp für \"%s\" automatisch erkannt (hat external_url Feld)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2002
+#, php-format
+msgid "Auto-detected Grouped product type for \"%s\" (has grouped_products field)"
+msgstr "Gruppierter Produkttyp für \"%s\" automatisch erkannt (hat grouped_products Feld)"
+
+#: includes/admin/partials/step-2-mapping.php:2585
+msgid "Auto-draft products that no longer match filters"
+msgstr "Produkte automatisch als Entwurf speichern, die nicht mehr den Filtern entsprechen"
+
+#: includes/admin/partials/step-2-mapping.php:2295
+msgid "Auto-generate"
+msgstr "Automatisch generieren"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3444
+msgid "Auto-refresh (5s)"
+msgstr "Auto-Aktualisierung (5s)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3600
+msgid "Auto-refresh for live monitoring"
+msgstr "Auto-Aktualisierung für Live-Überwachung"
+
+#: includes/admin/partials/step-3-progress.php:361
+msgid "Auto-scroll"
+msgstr "Auto-Scrollen"
+
+#: includes/admin/partials/settings-page.php:795
+msgid "Automate your imports with scheduled cron jobs. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "Automatisieren Sie Ihre Importe mit geplanten Cron-Jobs. Führen Sie Importe automatisch alle 15 Minuten, stündlich, täglich oder wöchentlich aus."
+
+#: includes/admin/partials/import-edit.php:777
+#: includes/admin/partials/import-edit.php:860
+msgid "Automated Schedule"
+msgstr "Automatischer Zeitplan"
+
+#: includes/admin/partials/step-2-mapping.php:432
+msgid "Automated scheduled imports are available in the PRO version."
+msgstr "Automatische geplante Importe sind in der PRO-Version verfügbar."
+
+#: includes/admin/partials/step-1-upload.php:160
+msgid "Automated scheduled imports are available in the PRO version. Run imports automatically every 15 minutes, hourly, daily, or weekly."
+msgstr "Automatisierte geplante Importe sind in der PRO-Version verfügbar. Führen Sie Importe automatisch alle 15 Minuten, stündlich, täglich oder wöchentlich aus."
+
+#: includes/admin/partials/settings-page.php:321
+msgid "Automatic field mapping"
+msgstr "Automatische Feldzuordnung"
+
+#: includes/admin/partials/import-edit.php:868
+msgid "Automatic product updates"
+msgstr "Automatische Produktaktualisierungen"
+
+#: includes/admin/partials/step-2-mapping.php:455
+msgid "Automatically continues until complete. No server cron needed."
+msgstr "Läuft automatisch bis zum Abschluss. Kein Server-Cron erforderlich."
+
+#: includes/admin/partials/import-edit.php:802
+msgid "Automatically continues until complete. No server cron needed. Requires website traffic."
+msgstr "Setzt sich automatisch fort bis zur Fertigstellung. Kein Server-Cron erforderlich. Erfordert Website-Verkehr."
+
+#: includes/admin/partials/step-1-upload.php:190
+msgid "Automatically create product categories if they don't exist."
+msgstr "Produktkategorien automatisch erstellen, wenn sie nicht existieren."
+
+#: includes/admin/partials/step-2-mapping.php:3593
+msgid "Automatically map XML/CSV fields to WooCommerce product fields using artificial intelligence. Save hours of manual mapping work."
+msgstr "XML/CSV-Felder automatisch mit künstlicher Intelligenz WooCommerce-Produktfeldern zuordnen. Sparen Sie Stunden manueller Zuordnungsarbeit."
+
+#: includes/admin/partials/step-2-mapping.php:424
+msgid "Automatically re-import from URL on a schedule. Requires server cron to be configured."
+msgstr "Automatisch nach Zeitplan von URL re-importieren. Server-Cron muss konfiguriert sein."
+
+#: includes/admin/partials/settings-page.php:948
+msgid "Automatically sanitize imported data to prevent XSS and other security issues."
+msgstr "Importierte Daten automatisch bereinigen, um XSS und andere Sicherheitsprobleme zu verhindern."
+
+#: includes/admin/partials/step-2-mapping.php:2000
+#: includes/admin/partials/import-edit.php:389
+msgid "Available Shipping Classes:"
+msgstr "Verfügbare Versandklassen:"
+
+#: includes/admin/partials/step-2-mapping.php:1997
+#: includes/admin/partials/import-edit.php:386
+msgid "Available Variables:"
+msgstr "Verfügbare Variablen:"
+
+#: includes/admin/partials/step-2-mapping.php:1311
+msgid "Available WooCommerce Shipping Classes:"
+msgstr "Verfügbare WooCommerce-Versandklassen:"
+
+#: includes/admin/partials/step-2-mapping.php:2318
+msgid "Available placeholders:"
+msgstr "Verfügbare Platzhalter:"
+
+#: includes/admin/partials/import-edit.php:84
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3621
+msgid "Back to Import History"
+msgstr "Zurück zum Importverlauf"
+
+#: includes/admin/partials/step-2-mapping.php:2616
+msgid "Back to Upload"
+msgstr "Zurück zum Hochladen"
+
+#: includes/admin/partials/settings-page.php:575
+msgid "Background Batch Size:"
+msgstr "Hintergrund-Stapelgröße:"
+
+#: includes/admin/partials/settings-page.php:578
+msgid "Background Interval (seconds):"
+msgstr "Hintergrund-Intervall (Sekunden):"
+
+#: includes/admin/partials/settings-page.php:567
+msgid "Background Processing"
+msgstr "Hintergrundverarbeitung"
+
+#: includes/admin/partials/step-2-mapping.php:1848
+msgid "Backorders:"
+msgstr "Nachbestellungen:"
+
+#: includes/admin/partials/step-2-mapping.php:710
+msgid "Base Price Source (from XML):"
+msgstr "Basispreisquelle (aus XML):"
+
+#: includes/admin/partials/step-2-mapping.php:98
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1070
+msgid "Basic Product Fields"
+msgstr "Grundlegende Produktfelder"
+
+#: includes/admin/partials/step-1-upload.php:201
+#: includes/admin/partials/step-2-mapping.php:483
+#: includes/admin/partials/import-edit.php:159
+#: includes/admin/partials/import-edit.php:275
+msgid "Batch Size"
+msgstr "Stapelgröße"
+
+#: includes/admin/partials/settings-page.php:544
+msgid "Batch Size:"
+msgstr "Stapelgröße:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:171
+msgid "Bootflow Import"
+msgstr "Bootflow Import"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:170
+msgid "Bootflow Importer"
+msgstr "Bootflow Importeur"
+
+#: includes/class-bfi-license-admin.php:33
+msgid "Bootflow PRO License"
+msgstr "Bootflow PRO Lizenz"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:255
+msgid "Bootflow – WooCommerce XML & CSV Importer"
+msgstr "Bootflow – WooCommerce XML & CSV Importeur"
+
+#: includes/admin/partials/step-2-mapping.php:226
+#: includes/admin/partials/step-2-mapping.php:1192
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1127
+msgid "Brand"
+msgstr "Marke"
+
+#: includes/admin/partials/step-2-mapping.php:887
+#: includes/admin/partials/step-2-mapping.php:1241
+msgid "Brand name"
+msgstr "Markenname"
+
+#: includes/admin/partials/step-1-upload.php:76
+msgid "Browse Files"
+msgstr "Dateien durchsuchen"
+
+#: includes/admin/partials/step-2-mapping.php:291
+msgid "Button Text"
+msgstr "Schaltflächentext"
+
+#: includes/admin/partials/step-2-mapping.php:1524
+msgid "CSV Grouping Fields"
+msgstr "CSV-Gruppierungsfelder"
+
+#: includes/admin/partials/step-2-mapping.php:1515
+msgid "CSV Variable Products"
+msgstr "CSV variable Produkte"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:372
+msgid "CSV file appears to be empty."
+msgstr "Die CSV-Datei scheint leer zu sein."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:437
+msgid "CSV file has no headers."
+msgstr "Die CSV-Datei hat keine Kopfzeilen."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:390
+#, php-format
+msgid "CSV file is valid with %d columns."
+msgstr "CSV-Datei ist gültig mit %d Spalten."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:31
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:122
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:420
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:490
+msgid "CSV file not found."
+msgstr "CSV-Datei nicht gefunden."
+
+#: includes/admin/partials/settings-page.php:525
+msgid "Cache TTL (seconds):"
+msgstr "Cache-TTL (Sekunden):"
+
+#: includes/admin/partials/step-2-mapping.php:2982
+#: includes/admin/partials/step-2-mapping.php:3056
+#: includes/admin/partials/step-2-mapping.php:3217
+msgid "Calculate"
+msgstr "Berechnen"
+
+#: includes/admin/partials/step-2-mapping.php:683
+msgid "Calculate final prices by applying markup rules to the base price from XML"
+msgstr "Endpreise berechnen, indem Aufschlagsregeln auf den Basispreis aus XML angewendet werden"
+
+#: includes/admin/partials/step-3-progress.php:437
+#: includes/admin/partials/step-3-progress.php:458
+msgid "Calculating..."
+msgstr "Berechne..."
+
+#: includes/admin/partials/import-edit.php:883
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:117
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/admin/partials/step-2-mapping.php:222
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1123
+msgid "Categories & Tags"
+msgstr "Kategorien & Schlagwörter"
+
+#: includes/admin/partials/step-2-mapping.php:1191
+msgid "Category"
+msgstr "Kategorie"
+
+#: includes/admin/partials/step-2-mapping.php:1231
+msgid "Category name"
+msgstr "Kategoriename"
+
+#: includes/admin/partials/step-2-mapping.php:877
+msgid "Category name or slug"
+msgstr "Kategoriename oder Slug"
+
+#: includes/admin/partials/step-2-mapping.php:2690
+msgid "Checkbox"
+msgstr "Kontrollkästchen"
+
+#: includes/admin/partials/settings-page.php:695
+msgid "Choose Method"
+msgstr "Methode wählen"
+
+#: includes/admin/partials/step-1-upload.php:148
+msgid "Choose how often this import should run automatically. Manual imports can be run at any time."
+msgstr "Wählen Sie, wie oft dieser Import automatisch ausgeführt werden soll. Manuelle Importe können jederzeit ausgeführt werden."
+
+#: includes/admin/partials/step-2-mapping.php:644
+#: includes/admin/partials/import-edit.php:332
+msgid "Clear All"
+msgstr "Alles löschen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3449
+msgid "Clear Log"
+msgstr "Protokoll löschen"
+
+#: includes/admin/partials/step-2-mapping.php:2497
+#: includes/admin/partials/import-edit.php:540
+msgid "Clear Mapping"
+msgstr "Zuordnung löschen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3448
+msgid "Clear debug log file?"
+msgstr "Debug-Protokolldatei löschen?"
+
+#: includes/admin/partials/import-edit.php:1369
+msgid "Clear this field mapping?"
+msgstr "Diese Feldzuordnung löschen?"
+
+#: includes/admin/partials/step-2-mapping.php:3411
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:118
+msgid "Close"
+msgstr "Schließen"
+
+#: includes/admin/partials/step-2-mapping.php:2584
+msgid "Combine multiple filters with AND/OR logic"
+msgstr "Mehrere Filter mit UND/ODER-Logik kombinieren"
+
+#: includes/admin/partials/step-3-progress.php:193
+msgid "Command:"
+msgstr "Befehl:"
+
+#: includes/admin/partials/step-2-mapping.php:2669
+#: includes/admin/partials/import-edit.php:604
+#: includes/admin/partials/import-edit.php:1209
+msgid "Comparison value"
+msgstr "Vergleichswert"
+
+#: includes/admin/partials/import-edit.php:609
+msgid "Condition"
+msgstr "Bedingung"
+
+#: includes/admin/partials/settings-page.php:341
+msgid "Conditional logic"
+msgstr "Bedingte Logik"
+
+#: includes/admin/partials/import-edit.php:325
+msgid "Configuration Required:"
+msgstr "Konfiguration erforderlich:"
+
+#: includes/admin/partials/step-2-mapping.php:611
+msgid "Configure AI provider in Settings to enable auto-mapping"
+msgstr "KI-Anbieter in den Einstellungen konfigurieren, um Auto-Zuordnung zu aktivieren"
+
+#: includes/admin/partials/settings-page.php:392
+msgid "Configure API keys and settings for AI providers used in smart field processing."
+msgstr "API-Schlüssel und Einstellungen für KI-Anbieter konfigurieren, die bei der intelligenten Feldverarbeitung verwendet werden."
+
+#: includes/admin/partials/step-2-mapping.php:2494
+#: includes/admin/partials/import-edit.php:537
+msgid "Configure Processing"
+msgstr "Verarbeitung konfigurieren"
+
+#: includes/admin/partials/settings-page.php:589
+msgid "Configure default settings for product imports and data handling."
+msgstr "Standardeinstellungen für Produktimporte und Datenverarbeitung konfigurieren."
+
+#: includes/admin/partials/settings-page.php:814
+msgid "Configure file upload, storage, and management settings."
+msgstr "Einstellungen für Datei-Upload, Speicherung und Verwaltung konfigurieren."
+
+#: includes/admin/partials/step-2-mapping.php:1502
+msgid "Configure how variations are structured in your file."
+msgstr "Konfigurieren Sie, wie Variationen in Ihrer Datei strukturiert sind."
+
+#: includes/admin/partials/settings-page.php:862
+msgid "Configure logging levels and notification settings."
+msgstr "Protokollierungsstufen und Benachrichtigungseinstellungen konfigurieren."
+
+#: includes/admin/partials/settings-page.php:537
+msgid "Configure performance-related settings to optimize import speed and memory usage."
+msgstr "Leistungsbezogene Einstellungen konfigurieren, um Importgeschwindigkeit und Speichernutzung zu optimieren."
+
+#: includes/admin/partials/settings-page.php:911
+msgid "Configure security settings for PHP formula execution and data validation."
+msgstr "Sicherheitseinstellungen für PHP-Formelausführung und Datenvalidierung konfigurieren."
+
+#: includes/admin/partials/settings-page.php:710
+#: includes/admin/partials/settings-page.php:722
+msgid "Cons:"
+msgstr "Nachteile:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1188
+msgid "Continue Import"
+msgstr "Import fortsetzen"
+
+#: includes/admin/partials/import-edit.php:830
+#: includes/admin/partials/import-edit.php:844
+msgid "Copied!"
+msgstr "Kopiert!"
+
+#: includes/admin/partials/import-edit.php:831
+msgid "Copy"
+msgstr "Kopieren"
+
+#: includes/admin/partials/settings-page.php:750
+#: includes/admin/partials/import-edit.php:845
+msgid "Copy Command"
+msgstr "Befehl kopieren"
+
+#: includes/admin/partials/step-2-mapping.php:473
+msgid "Copy URL"
+msgstr "URL kopieren"
+
+#: includes/admin/partials/settings-page.php:741
+msgid "Copy and paste this command into your server's crontab (via SSH or your hosting control panel):"
+msgstr "Kopieren Sie diesen Befehl und fügen Sie ihn in die Crontab Ihres Servers ein (über SSH oder Ihr Hosting-Control-Panel):"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:475
+msgid "Could not connect to the license server. Please check your internet connection and try again."
+msgstr "Verbindung zum Lizenzserver konnte nicht hergestellt werden. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6805
+#, php-format
+msgid "Could not find product with SKU: %s"
+msgstr "Produkt mit SKU konnte nicht gefunden werden: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6634
+#, php-format
+msgid "Could not resolve children for grouped product ID %1$d (SKUs: %2$s)"
+msgstr "Unterprodukte für gruppiertes Produkt ID %1$d konnten nicht aufgelöst werden (SKUs: %2$s)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:120
+msgid "Counting products..."
+msgstr "Produkte werden gezählt..."
+
+#: includes/admin/partials/settings-page.php:647
+msgid "Create Missing Categories"
+msgstr "Fehlende Kategorien erstellen"
+
+#: includes/admin/partials/settings-page.php:652
+msgid "Create Missing Tags"
+msgstr "Fehlende Schlagwörter erstellen"
+
+#: includes/admin/partials/step-2-mapping.php:1755
+msgid "Create WooCommerce attributes if they don't exist"
+msgstr "WooCommerce-Attribute erstellen, wenn sie nicht existieren"
+
+#: includes/admin/partials/step-2-mapping.php:3628
+msgid "Create complex field transformation formulas. String manipulation, conditionals, and more."
+msgstr "Komplexe Feldtransformationsformeln erstellen. String-Manipulation, Bedingungen und mehr."
+
+#: includes/admin/partials/import-edit.php:108
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:563
+msgid "Created"
+msgstr "Erstellt"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:801
+#, php-format
+msgid "Created product: %1$s (ID: %2$d)"
+msgstr "Produkt erstellt: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/settings-page.php:768
+msgid "Cron Secret Key"
+msgstr "Cron-Geheimschlüssel"
+
+#: includes/admin/partials/settings-page.php:778
+#: includes/admin/partials/import-edit.php:827
+msgid "Cron URL"
+msgstr "Cron-URL"
+
+#: includes/admin/partials/step-2-mapping.php:470
+msgid "Cron URL:"
+msgstr "Cron-URL:"
+
+#: includes/admin/partials/step-2-mapping.php:280
+msgid "Cross-sell Product IDs"
+msgstr "Cross-Selling Produkt-IDs"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1169
+msgid "Current Progress:"
+msgstr "Aktueller Fortschritt:"
+
+#: includes/admin/partials/settings-page.php:366
+msgid "Custom AI prompts per field"
+msgstr "Benutzerdefinierte KI-Eingabeaufforderungen pro Feld"
+
+#: includes/admin/partials/step-2-mapping.php:2685
+msgid "Custom Field Name"
+msgstr "Benutzerdefinierter Feldname"
+
+#: includes/admin/partials/step-2-mapping.php:2598
+#: includes/admin/partials/import-edit.php:671
+msgid "Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: includes/admin/partials/step-2-mapping.php:1673
+#: includes/admin/partials/step-2-mapping.php:1940
+msgid "Custom Meta Fields (EAN, GTIN, UPC, etc.)"
+msgstr "Benutzerdefinierte Meta-Felder (EAN, GTIN, UPC usw.)"
+
+#: includes/admin/partials/import-edit.php:787
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:583
+msgid "Daily"
+msgstr "Täglich"
+
+#: includes/admin/partials/step-1-upload.php:144
+#: includes/admin/partials/step-2-mapping.php:419
+msgid "Daily Import"
+msgstr "Täglicher Import"
+
+#: includes/admin/partials/settings-page.php:941
+msgid "Data Sanitization"
+msgstr "Datenbereinigung"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2796
+msgid "Database error: "
+msgstr "Datenbankfehler: "
+
+#: includes/admin/partials/step-2-mapping.php:2691
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/partials/settings-page.php:224
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: includes/class-bfi-license-admin.php:55
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3592
+msgid "Debug file viewer for troubleshooting"
+msgstr "Debug-Dateibetrachter zur Fehlerbehebung"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3459
+msgid "Debug log cleared."
+msgstr "Debug-Protokoll gelöscht."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3483
+msgid "Debug log file not found."
+msgstr "Debug-Protokolldatei nicht gefunden."
+
+#: includes/admin/partials/step-1-upload.php:193
+msgid "Default Product Status"
+msgstr "Standard-Produktstatus"
+
+#: includes/admin/partials/settings-page.php:596
+msgid "Default Product Status:"
+msgstr "Standard-Produktstatus:"
+
+#: includes/admin/partials/settings-page.php:493
+msgid "Default Provider:"
+msgstr "Standard-Anbieter:"
+
+#: includes/admin/partials/step-2-mapping.php:1002
+#: includes/admin/partials/step-2-mapping.php:1022
+msgid "Default Rule"
+msgstr "Standardregel"
+
+#: includes/admin/partials/step-2-mapping.php:756
+#: includes/admin/partials/step-2-mapping.php:1118
+msgid "Default Rule (Fallback)"
+msgstr "Standardregel (Fallback)"
+
+#: includes/admin/partials/step-2-mapping.php:1719
+msgid "Define attributes used for variations (e.g., Size, Color). Each unique combination creates a product variation."
+msgstr "Attribute für Variationen definieren (z.B. Größe, Farbe). Jede einzigartige Kombination erstellt eine Produktvariation."
+
+#: includes/admin/partials/step-2-mapping.php:1728
+msgid "Define each attribute manually"
+msgstr "Jedes Attribut manuell definieren"
+
+#: includes/admin/partials/step-2-mapping.php:548
+msgid "Delete Template"
+msgstr "Vorlage löschen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:656
+msgid "Delete import"
+msgstr "Import löschen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:659
+msgid "Delete products"
+msgstr "Produkte löschen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4318
+#, php-format
+msgid "Deleted %1$d products, %2$d remaining..."
+msgstr "%1$d Produkte gelöscht, %2$d verbleibend..."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:115
+msgid "Deleting Products"
+msgstr "Produkte werden gelöscht"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:121
+msgid "Deleting..."
+msgstr "Wird gelöscht..."
+
+#: includes/admin/partials/step-2-mapping.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1074
+msgid "Description"
+msgstr "Beschreibung"
+
+#: includes/admin/partials/step-2-mapping.php:1644
+#: includes/admin/partials/step-2-mapping.php:1890
+#: includes/admin/partials/step-2-mapping.php:3288
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3588
+msgid "Detailed error messages with context"
+msgstr "Detaillierte Fehlermeldungen mit Kontext"
+
+#: includes/admin/partials/step-2-mapping.php:3239
+msgid "Dimensions (L×W×H):"
+msgstr "Abmessungen (L×B×H):"
+
+#: includes/admin/partials/step-2-mapping.php:2881
+#: includes/admin/partials/step-2-mapping.php:2921
+#: includes/admin/partials/import-edit.php:712
+#: includes/admin/partials/import-edit.php:1126
+msgid "Direct"
+msgstr "Direkt"
+
+#: includes/admin/partials/step-2-mapping.php:2358
+#: includes/admin/partials/step-2-mapping.php:2705
+#: includes/admin/partials/step-2-mapping.php:3002
+#: includes/admin/partials/step-2-mapping.php:3295
+#: includes/admin/partials/import-edit.php:455
+msgid "Direct Mapping"
+msgstr "Direkte Zuordnung"
+
+#: includes/admin/partials/settings-page.php:836
+msgid "Directory name within wp-content/uploads/"
+msgstr "Verzeichnisname innerhalb von wp-content/uploads/"
+
+#: includes/admin/partials/import-edit.php:783
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: includes/admin/partials/step-2-mapping.php:1415
+msgid "Display Attributes"
+msgstr "Anzeigeattribute"
+
+#: includes/admin/partials/step-2-mapping.php:2840
+msgid "Display name in WooCommerce (any language). Auto-adds pa_ prefix."
+msgstr "Anzeigename in WooCommerce (jede Sprache). Fügt pa_ Präfix automatisch hinzu."
+
+#: includes/admin/partials/step-2-mapping.php:187
+msgid "Do not allow"
+msgstr "Nicht erlauben"
+
+#: includes/admin/partials/step-2-mapping.php:263
+msgid "Download Expiry (days)"
+msgstr "Download-Ablauf (Tage)"
+
+#: includes/admin/partials/step-2-mapping.php:1906
+msgid "Download Expiry (days):"
+msgstr "Download-Ablauf (Tage):"
+
+#: includes/admin/partials/step-2-mapping.php:1910
+msgid "Download Files:"
+msgstr "Download-Dateien:"
+
+#: includes/admin/partials/settings-page.php:624
+msgid "Download Images from URLs"
+msgstr "Bilder von URLs herunterladen"
+
+#: includes/admin/partials/step-2-mapping.php:262
+msgid "Download Limit"
+msgstr "Download-Limit"
+
+#: includes/admin/partials/step-2-mapping.php:1902
+msgid "Download Limit:"
+msgstr "Download-Limit:"
+
+#: includes/admin/partials/step-3-progress.php:505
+msgid "Download Report"
+msgstr "Bericht herunterladen"
+
+#: includes/admin/partials/step-2-mapping.php:260
+msgid "Download Settings"
+msgstr "Download-Einstellungen"
+
+#: includes/admin/partials/step-2-mapping.php:243
+msgid "Downloadable"
+msgstr "Herunterladbar"
+
+#: includes/admin/partials/step-2-mapping.php:3184
+msgid "Downloadable products give access to files after purchase (e.g., ebooks, software)"
+msgstr "Herunterladbare Produkte geben nach dem Kauf Zugriff auf Dateien (z.B. E-Books, Software)"
+
+#: includes/admin/partials/step-2-mapping.php:1652
+#: includes/admin/partials/step-2-mapping.php:1898
+#: includes/admin/partials/step-2-mapping.php:3185
+msgid "Downloadable:"
+msgstr "Herunterladbar:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1654
+msgid "Downloaded file is empty or failed to save."
+msgstr "Heruntergeladene Datei ist leer oder konnte nicht gespeichert werden."
+
+#: includes/admin/partials/step-1-upload.php:196
+#: includes/admin/partials/step-2-mapping.php:127
+msgid "Draft"
+msgstr "Entwurf"
+
+#: includes/admin/partials/step-1-upload.php:73
+msgid "Drag & drop your file here"
+msgstr "Datei hierher ziehen und ablegen"
+
+#: includes/admin/partials/settings-page.php:608
+msgid "Duplicate Handling:"
+msgstr "Duplikatbehandlung:"
+
+#: includes/admin/partials/step-2-mapping.php:269
+msgid "EAN"
+msgstr "EAN"
+
+#: includes/admin/partials/step-3-progress.php:338
+msgid "ETA"
+msgstr "ETA"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:641
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/admin/partials/settings-page.php:162
+#: includes/admin/partials/settings-page.php:169
+#: includes/admin/partials/settings-page.php:176
+msgid "Edition"
+msgstr "Ausgabe"
+
+#: includes/admin/partials/settings-page.php:892
+msgid "Email Notifications"
+msgstr "E-Mail-Benachrichtigungen"
+
+#: includes/admin/partials/settings-page.php:522
+msgid "Enable AI Response Caching"
+msgstr "KI-Antwort-Caching aktivieren"
+
+#: includes/admin/partials/settings-page.php:946
+msgid "Enable Advanced Data Sanitization"
+msgstr "Erweiterte Datenbereinigung aktivieren"
+
+#: includes/admin/partials/settings-page.php:572
+msgid "Enable Background Processing (WP-Cron)"
+msgstr "Hintergrundverarbeitung aktivieren (WP-Cron)"
+
+#: includes/admin/partials/settings-page.php:897
+msgid "Enable Email Notifications"
+msgstr "E-Mail-Benachrichtigungen aktivieren"
+
+#: includes/admin/partials/settings-page.php:931
+msgid "Enable Formula Validation"
+msgstr "Formelvalidierung aktivieren"
+
+#: includes/admin/partials/settings-page.php:871
+msgid "Enable Logging"
+msgstr "Protokollierung aktivieren"
+
+#: includes/admin/partials/step-2-mapping.php:681
+msgid "Enable Price Markup"
+msgstr "Preisaufschlag aktivieren"
+
+#: includes/admin/partials/settings-page.php:642
+msgid "Enable Product Variations Import"
+msgstr "Produktvariationen-Import aktivieren"
+
+#: includes/admin/partials/settings-page.php:511
+msgid "Enable Provider Fallback"
+msgstr "Anbieter-Fallback aktivieren"
+
+#: includes/admin/partials/step-2-mapping.php:1066
+msgid "Enable Shipping Class Rules"
+msgstr "Versandklassen-Regeln aktivieren"
+
+#: includes/admin/partials/step-2-mapping.php:1335
+msgid "Enable Shipping Class Rules above to automatically assign shipping classes based on product data"
+msgstr "Aktivieren Sie die Versandklassenregeln oben, um Versandklassen automatisch basierend auf Produktdaten zuzuweisen"
+
+#: includes/admin/partials/step-2-mapping.php:3198
+msgid "Enable stock management at variation level (track inventory for each variation separately)"
+msgstr "Bestandsverwaltung auf Variationsebene aktivieren (Lagerbestand für jede Variation separat verfolgen)"
+
+#: includes/admin/partials/step-2-mapping.php:1034
+msgid "Enable the Price Markup above to configure automatic price calculations"
+msgstr "Aktivieren Sie den Preisaufschlag oben, um automatische Preisberechnungen zu konfigurieren"
+
+#: includes/admin/partials/step-2-mapping.php:828
+#: includes/admin/partials/step-2-mapping.php:1163
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: includes/admin/partials/step-2-mapping.php:3157
+msgid "Enabled:"
+msgstr "Aktiviert:"
+
+#: includes/admin/partials/step-2-mapping.php:216
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1117
+msgid "Enter image URLs or use placeholders: {image} = first image, {image[1]} = first, {image[2]} = second, {image*} = all images. Separate multiple values with commas."
+msgstr "Bild-URLs eingeben oder Platzhalter verwenden: {image} = erstes Bild, {image[1]} = erstes, {image[2]} = zweites, {image*} = alle Bilder. Mehrere Werte mit Kommas trennen."
+
+#: includes/admin/partials/step-2-mapping.php:526
+msgid "Enter template name..."
+msgstr "Vorlagenname eingeben..."
+
+#: includes/admin/partials/step-1-upload.php:107
+msgid "Enter the direct URL to your XML or CSV file."
+msgstr "Geben Sie die direkte URL zu Ihrer XML- oder CSV-Datei ein."
+
+#: includes/admin/partials/settings-page.php:212
+msgid "Enter your license key"
+msgstr "Geben Sie Ihren Lizenzschlüssel ein"
+
+#: includes/admin/partials/settings-page.php:172
+msgid "Enter your license key below to activate PRO features. Without a license, the plugin runs in free mode."
+msgstr "Geben Sie unten Ihren Lizenzschlüssel ein, um PRO-Funktionen zu aktivieren. Ohne Lizenz läuft das Plugin im kostenlosen Modus."
+
+#: includes/admin/partials/settings-page.php:202
+msgid "Enter your license key to unlock PRO features. Purchase a license at"
+msgstr "Geben Sie Ihren Lizenzschlüssel ein, um PRO-Funktionen freizuschalten. Erwerben Sie eine Lizenz unter"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:890
+#, php-format
+msgid "Error importing product: %s"
+msgstr "Fehler beim Importieren des Produkts: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6977
+#, php-format
+msgid "Error processing missing product ID %1$d: %2$s"
+msgstr "Fehler bei der Verarbeitung des fehlenden Produkts ID %1$d: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6639
+#, php-format
+msgid "Error resolving grouped product ID %1$d: %2$s"
+msgstr "Fehler beim Auflösen des gruppierten Produkts ID %1$d: %2$s"
+
+#: includes/admin/partials/step-3-progress.php:443
+msgid "Estimated Time Remaining"
+msgstr "Geschätzte Restzeit"
+
+#: includes/admin/partials/step-1-upload.php:141
+#: includes/admin/partials/step-2-mapping.php:416
+#: includes/class-wc-xml-csv-ai-import.php:103
+msgid "Every 15 Minutes"
+msgstr "Alle 15 Minuten"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:580
+msgid "Every 15 min"
+msgstr "Alle 15 Min."
+
+#: includes/admin/partials/import-edit.php:784
+msgid "Every 15 minutes"
+msgstr "Alle 15 Minuten"
+
+#: includes/admin/partials/import-edit.php:867
+msgid "Every 15 minutes, hourly, daily, weekly, or monthly"
+msgstr "Alle 15 Minuten, stündlich, täglich, wöchentlich oder monatlich"
+
+#: includes/admin/partials/step-1-upload.php:143
+#: includes/admin/partials/step-2-mapping.php:418
+#: includes/class-wc-xml-csv-ai-import.php:109
+msgid "Every 6 Hours"
+msgstr "Alle 6 Stunden"
+
+#: includes/admin/partials/import-edit.php:786
+msgid "Every 6 hours"
+msgstr "Alle 6 Stunden"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:582
+msgid "Every 6h"
+msgstr "Alle 6h"
+
+#: includes/admin/partials/step-1-upload.php:142
+#: includes/admin/partials/step-2-mapping.php:417
+msgid "Every Hour"
+msgstr "Jede Stunde"
+
+#: includes/admin/partials/step-2-mapping.php:1479
+msgid "Example for BigBuy XML:"
+msgstr "Beispiel für BigBuy XML:"
+
+#: includes/admin/partials/step-2-mapping.php:1562
+msgid "Example for CSV structure:"
+msgstr "Beispiel für CSV-Struktur:"
+
+#: includes/admin/partials/step-2-mapping.php:1774
+msgid "Example for your XML structure:"
+msgstr "Beispiel für Ihre XML-Struktur:"
+
+#: includes/admin/partials/step-2-mapping.php:1455
+msgid "Example:"
+msgstr "Beispiel:"
+
+#: includes/admin/partials/import-edit.php:474
+msgid "Example: $value * 1.2 (adds 20% markup)"
+msgstr "Beispiel: $value * 1.2 (fügt 20% Aufschlag hinzu)"
+
+#: includes/admin/partials/step-2-mapping.php:2855
+msgid "Example: if XML has <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → enter <code>size</code>"
+msgstr "Beispiel: Wenn XML <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> hat → geben Sie <code>size</code> ein"
+
+#: includes/admin/partials/step-2-mapping.php:2173
+msgid "Expected values: taxable, shipping, none"
+msgstr "Erwartete Werte: taxable, shipping, none"
+
+#: includes/admin/partials/step-2-mapping.php:292
+msgid "External URL"
+msgstr "Externe URL"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2035
+#, php-format
+msgid "External products require PRO license. Importing \"%s\" as Simple product."
+msgstr "Externe Produkte erfordern eine PRO-Lizenz. \"%s\" wird als einfaches Produkt importiert."
+
+#: includes/admin/partials/step-2-mapping.php:115
+msgid "External/Affiliate"
+msgstr "Extern/Affiliate"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:195
+msgid "Failed to create import record: "
+msgstr "Import-Datensatz konnte nicht erstellt werden: "
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2230
+msgid "Failed to create product."
+msgstr "Produkt konnte nicht erstellt werden."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1622
+msgid "Failed to create temporary file."
+msgstr "Temporäre Datei konnte nicht erstellt werden."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:500
+msgid "Failed to delete import."
+msgstr "Import konnte nicht gelöscht werden."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1647
+msgid "Failed to download file from URL. HTTP Status: "
+msgstr "Datei konnte nicht von URL heruntergeladen werden. HTTP-Status: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1639
+msgid "Failed to download file from URL: "
+msgstr "Datei konnte nicht von URL heruntergeladen werden: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3685
+msgid "Failed to update URL in database."
+msgstr "URL konnte in der Datenbank nicht aktualisiert werden."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:182
+msgid "Failed to update import record: "
+msgstr "Import-Datensatz konnte nicht aktualisiert werden: "
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1582
+msgid "Failed to upload file."
+msgstr "Datei konnte nicht hochgeladen werden."
+
+#: includes/admin/partials/settings-page.php:261
+msgid "Feature"
+msgstr "Funktion"
+
+#: includes/admin/partials/settings-page.php:255
+msgid "Feature Comparison"
+msgstr "Funktionsvergleich"
+
+#: includes/admin/partials/step-2-mapping.php:218
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1119
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: includes/admin/partials/step-2-mapping.php:233
+msgid "Featured Product"
+msgstr "Hervorgehobenes Produkt"
+
+#: includes/admin/partials/step-2-mapping.php:2643
+#: includes/admin/partials/import-edit.php:577
+#: includes/admin/partials/import-edit.php:1182
+msgid "Field"
+msgstr "Feld"
+
+#: includes/admin/partials/import-edit.php:320
+msgid "Field Mappings"
+msgstr "Feldzuordnungen"
+
+#: includes/admin/partials/import-edit.php:693
+#: includes/admin/partials/import-edit.php:1107
+msgid "Field Name"
+msgstr "Feldname"
+
+#: includes/admin/partials/step-2-mapping.php:331
+msgid "File"
+msgstr "Datei"
+
+#: includes/admin/partials/settings-page.php:559
+msgid "File Chunk Size:"
+msgstr "Datei-Blockgröße:"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:160
+msgid "File MIME type does not match extension."
+msgstr "Der MIME-Typ der Datei stimmt nicht mit der Erweiterung überein."
+
+#: includes/admin/partials/settings-page.php:813
+msgid "File Management Settings"
+msgstr "Dateiverwaltungseinstellungen"
+
+#: includes/admin/partials/settings-page.php:842
+msgid "File Retention"
+msgstr "Dateiaufbewahrung"
+
+#: includes/admin/partials/settings-page.php:850
+msgid "File Retention (days):"
+msgstr "Dateiaufbewahrung (Tage):"
+
+#: includes/admin/partials/step-2-mapping.php:326
+#: includes/admin/partials/import-edit.php:288
+msgid "File Structure"
+msgstr "Dateistruktur"
+
+#: includes/admin/partials/step-1-upload.php:116
+#: includes/admin/partials/import-edit.php:96
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:559
+msgid "File Type"
+msgstr "Dateityp"
+
+#: includes/admin/partials/step-3-progress.php:255
+msgid "File Type:"
+msgstr "Dateityp:"
+
+#: includes/admin/partials/step-1-upload.php:104
+#: includes/admin/partials/import-edit.php:164
+msgid "File URL"
+msgstr "Datei-URL"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1590
+msgid "File URL is required."
+msgstr "Datei-URL ist erforderlich."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:166
+msgid "File contains potentially malicious content."
+msgstr "Datei enthält potenziell schädlichen Inhalt."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:660
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:351
+msgid "File does not exist."
+msgstr "Datei existiert nicht."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1708
+msgid "File is empty."
+msgstr "Datei ist leer."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1860
+msgid "File is not ready yet. Please refresh the page and try again."
+msgstr "Datei ist noch nicht bereit. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:113
+msgid "File is too large."
+msgstr "Datei ist zu groß."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:148
+msgid "File is too large. Maximum size is 100MB."
+msgstr "Datei ist zu groß. Maximale Größe ist 100MB."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:668
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:360
+#, php-format
+msgid "File size exceeds maximum limit of %dMB."
+msgstr "Dateigröße überschreitet das Maximum von %dMB."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7038
+msgid "File type must be XML or CSV."
+msgstr "Dateityp muss XML oder CSV sein."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:141
+msgid "File type not allowed. Only XML and CSV files are supported."
+msgstr "Dateityp nicht erlaubt. Nur XML- und CSV-Dateien werden unterstützt."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1550
+msgid "File upload error."
+msgstr "Fehler beim Hochladen der Datei."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1701
+msgid "File upload failed - file does not exist."
+msgstr "Datei-Upload fehlgeschlagen — Datei existiert nicht."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:116
+msgid "File upload was incomplete."
+msgstr "Datei-Upload war unvollständig."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1782
+msgid "File uploaded successfully."
+msgstr "Datei erfolgreich hochgeladen."
+
+#: includes/admin/partials/import-edit.php:290
+msgid "File:"
+msgstr "Datei:"
+
+#: includes/admin/partials/settings-page.php:122
+msgid "Files"
+msgstr "Dateien"
+
+#: includes/admin/partials/settings-page.php:852
+msgid "Files older than this will be automatically deleted."
+msgstr "Dateien, die älter sind, werden automatisch gelöscht."
+
+#: includes/admin/partials/step-2-mapping.php:2553
+#: includes/admin/partials/import-edit.php:645
+msgid "Filter Behavior"
+msgstr "Filterverhalten"
+
+#: includes/admin/partials/step-2-mapping.php:2537
+msgid "Filter Logic:"
+msgstr "Filterlogik:"
+
+#: includes/admin/partials/step-2-mapping.php:2582
+msgid "Filter by price, stock, category, or any field"
+msgstr "Nach Preis, Bestand, Kategorie oder beliebigem Feld filtern"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3596
+msgid "Filter logs by import and log level"
+msgstr "Protokolle nach Import und Protokollebene filtern"
+
+#: includes/admin/partials/step-2-mapping.php:3613
+msgid "Filter products during import based on field values, price ranges, stock status, and more."
+msgstr "Produkte beim Import basierend auf Feldwerten, Preisbereichen, Lagerstatus und mehr filtern."
+
+#: includes/admin/partials/step-2-mapping.php:2579
+msgid "Filter products during import based on field values, regex patterns, and conditional logic. Only import products that match your criteria."
+msgstr "Produkte beim Import basierend auf Feldwerten, Regex-Mustern und bedingter Logik filtern. Nur Produkte importieren, die Ihren Kriterien entsprechen."
+
+#: includes/admin/partials/step-2-mapping.php:2525
+#: includes/admin/partials/import-edit.php:563
+msgid "Filter which products to import based on field values. Products that don't match will be skipped."
+msgstr "Filtern Sie, welche Produkte basierend auf Feldwerten importiert werden. Nicht übereinstimmende Produkte werden übersprungen."
+
+#: includes/admin/partials/step-2-mapping.php:2556
+msgid "Filters will be applied during import. Products that don't match will be skipped."
+msgstr "Filter werden beim Import angewendet. Nicht übereinstimmende Produkte werden übersprungen."
+
+#: includes/admin/partials/step-2-mapping.php:1015
+msgid "Final Price:"
+msgstr "Endpreis:"
+
+#: includes/admin/partials/step-2-mapping.php:2460
+#: includes/admin/partials/step-2-mapping.php:2463
+msgid "Final technical adjustments (trim, lowercase, etc)"
+msgstr "Abschließende technische Anpassungen (trimmen, Kleinbuchstaben usw.)"
+
+#: includes/admin/partials/step-2-mapping.php:1432
+msgid "Fixed name + dynamic value"
+msgstr "Fester Name + dynamischer Wert"
+
+#: includes/admin/partials/step-2-mapping.php:3057
+#: includes/admin/partials/step-2-mapping.php:3087
+msgid "Fixed value"
+msgstr "Fester Wert"
+
+#: includes/admin/partials/step-2-mapping.php:1517
+msgid "For CSV files, variable products require Parent SKU and Type columns to link variations to parent products."
+msgstr "Für CSV-Dateien benötigen variable Produkte Eltern-SKU- und Typ-Spalten, um Variationen mit Elternprodukten zu verknüpfen."
+
+#: includes/admin/partials/step-2-mapping.php:1467
+msgid "For XML files where attribute name and value are in separate fields (e.g., BigBuy format with attribute1/value1, attribute2/value2)."
+msgstr "Für XML-Dateien, bei denen Attributname und -wert in separaten Feldern sind (z.B. BigBuy-Format mit attribute1/value1, attribute2/value2)."
+
+#: includes/admin/partials/step-2-mapping.php:1760
+msgid "For XML like:"
+msgstr "Für XML wie:"
+
+#: includes/admin/partials/settings-page.php:754
+msgid "For better reliability, add this to your wp-config.php file:"
+msgstr "Für bessere Zuverlässigkeit fügen Sie dies zu Ihrer wp-config.php Datei hinzu:"
+
+#: includes/admin/partials/step-1-upload.php:120
+msgid "Force CSV"
+msgstr "CSV erzwingen"
+
+#: includes/admin/partials/step-1-upload.php:119
+msgid "Force XML"
+msgstr "XML erzwingen"
+
+#: includes/admin/partials/step-2-mapping.php:1914
+msgid "Format: Name|URL or just URL. Multiple: Name1|URL1,Name2|URL2"
+msgstr "Format: Name|URL oder nur URL. Mehrere: Name1|URL1,Name2|URL2"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:309
+msgid "Formula contains disallowed constructs."
+msgstr "Formel enthält nicht erlaubte Konstrukte."
+
+#: includes/admin/partials/step-1-upload.php:56
+msgid "From URL"
+msgstr "Von URL"
+
+#: includes/admin/partials/step-2-mapping.php:1852
+msgid "From source"
+msgstr "Von Quelle"
+
+#: includes/admin/partials/settings-page.php:179
+msgid "Full manual import tool. Upgrade to PRO for automation, templates, and AI features!"
+msgstr "Vollständiges manuelles Import-Tool. Upgrade auf PRO für Automatisierung, Vorlagen und KI-Funktionen!"
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:324
+#, php-format
+msgid "Function \"%s\" is not allowed."
+msgstr "Funktion \"%s\" ist nicht erlaubt."
+
+#: includes/admin/partials/step-2-mapping.php:273
+msgid "GTIN"
+msgstr "GTIN"
+
+#: includes/admin/partials/step-2-mapping.php:1590
+#: includes/admin/partials/step-2-mapping.php:1812
+msgid "GTIN/EAN/UPC/ISBN:"
+msgstr "GTIN/EAN/UPC/ISBN:"
+
+#: includes/admin/partials/step-2-mapping.php:3129
+msgid "GTIN/UPC/EAN/ISBN:"
+msgstr "GTIN/UPC/EAN/ISBN:"
+
+#: includes/admin/partials/settings-page.php:490
+msgid "General AI Settings"
+msgstr "Allgemeine KI-Einstellungen"
+
+#: includes/admin/partials/settings-page.php:246
+msgid "Get PRO Version"
+msgstr "PRO-Version erhalten"
+
+#: includes/admin/partials/settings-page.php:243
+msgid "Get scheduled imports, AI auto-mapping, advanced formulas, selective field updates, and more."
+msgstr "Geplante Importe, KI Auto-Mapping, erweiterte Formeln, selektive Feldaktualisierungen und mehr erhalten."
+
+#: includes/admin/partials/settings-page.php:472
+msgid "GitHub Copilot Settings"
+msgstr "GitHub Copilot Einstellungen"
+
+#: includes/admin/partials/step-1-upload.php:39
+msgid "Give this import a descriptive name for easy identification."
+msgstr "Geben Sie diesem Import einen beschreibenden Namen zur einfachen Identifikation."
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:191
+msgid "Google Gemini API key not configured."
+msgstr "Google Gemini API-Schlüssel nicht konfiguriert."
+
+#: includes/admin/partials/settings-page.php:416
+msgid "Google Gemini Settings"
+msgstr "Google Gemini Einstellungen"
+
+#: includes/admin/partials/step-2-mapping.php:114
+msgid "Grouped"
+msgstr "Gruppiert"
+
+#: includes/admin/partials/step-2-mapping.php:281
+msgid "Grouped Products"
+msgstr "Gruppierte Produkte"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2306
+#, php-format
+msgid "Grouped product \"%1$s\" - stored pending children SKUs: %2$s"
+msgstr "Gruppiertes Produkt \"%1$s\" — gespeicherte ausstehende Unterprodukt-SKUs: %2$s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2022
+#, php-format
+msgid "Grouped products require PRO license. Importing \"%s\" as Simple product."
+msgstr "Gruppierte Produkte erfordern eine PRO-Lizenz. \"%s\" wird als einfaches Produkt importiert."
+
+#: includes/admin/partials/import-edit.php:210
+msgid "Handle Missing Products"
+msgstr "Fehlende Produkte behandeln"
+
+#: includes/admin/partials/step-1-upload.php:209
+msgid "Handle Products No Longer in Feed"
+msgstr "Produkte behandeln, die nicht mehr im Feed sind"
+
+#: includes/admin/partials/step-2-mapping.php:3193
+msgid "Has file downloads"
+msgstr "Hat Datei-Downloads"
+
+#: includes/admin/partials/step-2-mapping.php:200
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1103
+msgid "Height"
+msgstr "Höhe"
+
+#: includes/admin/partials/step-2-mapping.php:1636
+#: includes/admin/partials/step-2-mapping.php:1882
+#: includes/admin/partials/step-2-mapping.php:3254
+msgid "Height:"
+msgstr "Höhe:"
+
+#: includes/admin/partials/settings-page.php:980
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:192
+msgid "History"
+msgstr "Verlauf"
+
+#: includes/admin/partials/import-edit.php:785
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:581
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: includes/admin/partials/step-2-mapping.php:697
+#: includes/admin/partials/step-2-mapping.php:1082
+#: includes/admin/partials/step-2-mapping.php:1759
+msgid "How it works:"
+msgstr "So funktioniert es:"
+
+#: includes/admin/partials/step-2-mapping.php:2884
+#: includes/admin/partials/step-2-mapping.php:2924
+#: includes/admin/partials/step-2-mapping.php:3005
+#: includes/admin/partials/step-2-mapping.php:3298
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: includes/admin/partials/step-2-mapping.php:2361
+#: includes/admin/partials/step-2-mapping.php:2708
+#: includes/admin/partials/import-edit.php:458
+msgid "Hybrid (PHP + AI)"
+msgstr "Hybrid (PHP + KI)"
+
+#: includes/admin/partials/step-2-mapping.php:271
+msgid "ISBN"
+msgstr "ISBN"
+
+#: includes/admin/partials/step-2-mapping.php:2563
+msgid "If re-running import, existing products that no longer match filters will be set to Draft status."
+msgstr "Bei erneutem Import werden bestehende Produkte, die nicht mehr den Filtern entsprechen, auf Entwurf-Status gesetzt."
+
+#: includes/admin/partials/step-2-mapping.php:1564
+msgid "If your CSV has columns:"
+msgstr "Wenn Ihre CSV Spalten hat:"
+
+#: includes/admin/partials/step-2-mapping.php:1776
+msgid "If your XML has:"
+msgstr "Wenn Ihre XML hat:"
+
+#: includes/admin/partials/settings-page.php:627
+msgid "Image Download Timeout (seconds):"
+msgstr "Bild-Download-Zeitlimit (Sekunden):"
+
+#: includes/admin/partials/step-2-mapping.php:2948
+msgid "Image URL for this attribute (e.g., color swatch, size chart). For variations, use variation image mapping below."
+msgstr "Bild-URL für dieses Attribut (z.B. Farbmuster, Größentabelle). Für Variationen verwenden Sie die Variationsbildzuordnung unten."
+
+#: includes/admin/partials/step-2-mapping.php:1640
+#: includes/admin/partials/step-2-mapping.php:1886
+msgid "Image URL:"
+msgstr "Bild-URL:"
+
+#: includes/admin/partials/settings-page.php:120
+#: includes/admin/partials/step-2-mapping.php:342
+#: bootflow-product-importer.php:152
+msgid "Import"
+msgstr "Import"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:207
+#, php-format
+msgid "Import \"%1$s\" started with %2$d products."
+msgstr "Import \"%1$s\" mit %2$d Produkten gestartet."
+
+#: includes/admin/partials/step-2-mapping.php:372
+#: includes/admin/partials/import-edit.php:179
+msgid "Import Behavior"
+msgstr "Importverhalten"
+
+#: includes/admin/partials/step-3-progress.php:214
+#: includes/admin/partials/step-3-progress.php:486
+#: includes/admin/partials/step-3-progress.php:790
+msgid "Import Completed Successfully!"
+msgstr "Import erfolgreich abgeschlossen!"
+
+#: includes/admin/partials/import-edit.php:80
+msgid "Import Details:"
+msgstr "Import-Details:"
+
+#: includes/admin/partials/step-3-progress.php:217
+#: includes/admin/partials/step-3-progress.php:522
+#: includes/admin/partials/step-3-progress.php:793
+msgid "Import Failed"
+msgstr "Import fehlgeschlagen"
+
+#: includes/admin/partials/step-2-mapping.php:2517
+#: includes/admin/partials/step-2-mapping.php:2574
+#: includes/admin/partials/step-2-mapping.php:3422
+#: includes/admin/partials/step-2-mapping.php:3612
+#: includes/admin/partials/import-edit.php:556
+msgid "Import Filters"
+msgstr "Importfilter"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:191
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:543
+msgid "Import History"
+msgstr "Importverlauf"
+
+#: includes/admin/partials/import-edit.php:89
+msgid "Import Information"
+msgstr "Import-Informationen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:209
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3388
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3563
+msgid "Import Logs"
+msgstr "Import-Protokolle"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3572
+msgid "Import Logs & Debugging"
+msgstr "Import-Protokolle & Debugging"
+
+#: includes/admin/partials/step-1-upload.php:34
+msgid "Import Name"
+msgstr "Importname"
+
+#: includes/admin/partials/step-3-progress.php:251
+msgid "Import Name:"
+msgstr "Importname:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:685
+msgid "Import Not Found"
+msgstr "Import nicht gefunden"
+
+#: includes/admin/partials/step-3-progress.php:172
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:288
+msgid "Import Progress"
+msgstr "Importfortschritt"
+
+#: includes/admin/partials/settings-page.php:588
+#: includes/admin/partials/import-edit.php:272
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:200
+msgid "Import Settings"
+msgstr "Import-Einstellungen"
+
+#: includes/admin/partials/settings-page.php:269
+msgid "Import XML & CSV feeds"
+msgstr "XML- & CSV-Feeds importieren"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2023
+msgid "Import already completed."
+msgstr "Import bereits abgeschlossen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2036
+msgid "Import already in progress."
+msgstr "Import läuft bereits."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:498
+msgid "Import and file deleted successfully."
+msgstr "Import und Datei erfolgreich gelöscht."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:99
+msgid "Import complete!"
+msgstr "Import abgeschlossen!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3174
+msgid "Import completed successfully"
+msgstr "Import erfolgreich abgeschlossen"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:616
+#, php-format
+msgid "Import completed successfully. Processed %d products."
+msgstr "Import erfolgreich abgeschlossen. %d Produkte verarbeitet."
+
+#: includes/admin/partials/step-2-mapping.php:3633
+msgid "Import directly from remote URLs. Perfect for supplier feeds that are hosted online."
+msgstr "Direkt von Remote-URLs importieren. Perfekt für Lieferanten-Feeds, die online gehostet werden."
+
+#: includes/admin/partials/step-1-upload.php:61
+msgid "Import from external URL or FTP server"
+msgstr "Von externer URL oder FTP-Server importieren"
+
+#: includes/admin/partials/settings-page.php:331
+#: includes/admin/partials/settings-page.php:799
+msgid "Import from remote URLs"
+msgstr "Von Remote-URLs importieren"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1535
+#: includes/class-wc-xml-csv-ai-import-importer.php:7030
+msgid "Import name is required."
+msgstr "Importname ist erforderlich."
+
+#: includes/admin/partials/step-3-progress.php:31
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1231
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2016
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2238
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3664
+#: includes/class-wc-xml-csv-ai-import-importer.php:236
+msgid "Import not found."
+msgstr "Import nicht gefunden."
+
+#: includes/admin/partials/step-2-mapping.php:46
+msgid "Import not found. Please start over."
+msgstr "Import nicht gefunden. Bitte starten Sie neu."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2061
+msgid "Import processing started."
+msgstr "Importverarbeitung gestartet."
+
+#: includes/admin/partials/step-2-mapping.php:3598
+msgid "Import products with variations - sizes, colors, materials, and more. Full support for WooCommerce variable product structure."
+msgstr "Produkte mit Variationen importieren - Größen, Farben, Materialien und mehr. Volle Unterstützung für WooCommerce variable Produktstruktur."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1971
+msgid "Import started successfully."
+msgstr "Import erfolgreich gestartet."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:470
+msgid "Import stopped successfully."
+msgstr "Import erfolgreich gestoppt."
+
+#: includes/admin/partials/settings-page.php:346
+msgid "Import templates"
+msgstr "Import-Vorlagen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:970
+msgid "Import updated successfully."
+msgstr "Import erfolgreich aktualisiert."
+
+#: includes/admin/partials/import-edit.php:292
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3427
+msgid "Import:"
+msgstr "Import:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1216
+#, php-format
+msgid "Imported variable product: %1$s with %2$d variations"
+msgstr "Variables Produkt importiert: %1$s mit %2$d Variationen"
+
+#: includes/admin/partials/step-3-progress.php:175
+#, php-format
+msgid "Importing \"%s\" - Please keep this page open until the import is complete."
+msgstr "Importiere \"%s\" - Bitte lassen Sie diese Seite geöffnet, bis der Import abgeschlossen ist."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:98
+msgid "Importing products..."
+msgstr "Produkte werden importiert..."
+
+#: includes/admin/partials/step-2-mapping.php:3331
+msgid "Improve and make unique"
+msgstr "Verbessern und einzigartig machen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:594
+#, php-format
+msgid "In database: %1$d, Processed: %2$d, In file: %3$d"
+msgstr "In Datenbank: %1$d, Verarbeitet: %2$d, In Datei: %3$d"
+
+#: includes/admin/partials/step-2-mapping.php:177
+msgid "In stock"
+msgstr "Auf Lager"
+
+#: includes/class-bfi-license-admin.php:48
+msgid "Inactive/Invalid"
+msgstr "Inaktiv/Ungültig"
+
+#: includes/admin/partials/step-2-mapping.php:1875
+msgid "Inherit L/W/H from parent"
+msgstr "L/B/H vom übergeordneten Produkt erben"
+
+#: includes/admin/partials/step-2-mapping.php:1865
+msgid "Inherit from parent"
+msgstr "Vom übergeordneten Produkt erben"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1968
+#, php-format
+msgid "Invalid SKU format: %s"
+msgstr "Ungültiges SKU-Format: %s"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:496
+msgid "Invalid URL format."
+msgstr "Ungültiges URL-Format."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:674
+msgid "Invalid XML file or unable to open file."
+msgstr "Ungültige XML-Datei oder Datei kann nicht geöffnet werden."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:132
+msgid "Invalid file name."
+msgstr "Ungültiger Dateiname."
+
+#: includes/admin/partials/step-2-mapping.php:91
+msgid "Invalid file path. Please start over."
+msgstr "Ungültiger Dateipfad. Bitte starten Sie neu."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1557
+msgid "Invalid file type. Only XML and CSV files are allowed."
+msgstr "Ungültiger Dateityp. Nur XML- und CSV-Dateien sind erlaubt."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:4304
+msgid "Invalid image file type."
+msgstr "Ungültiger Bilddateityp."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4204
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4235
+msgid "Invalid import ID"
+msgstr "Ungültige Import-ID"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3650
+msgid "Invalid import ID or URL."
+msgstr "Ungültige Import-ID oder URL."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2686
+msgid "Invalid import ID or mapping data."
+msgstr "Ungültige Import-ID oder Zuordnungsdaten."
+
+#: includes/admin/partials/step-3-progress.php:19
+msgid "Invalid import ID. Please start a new import."
+msgstr "Ungültige Import-ID. Bitte starten Sie einen neuen Import."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:485
+msgid "Invalid license key."
+msgstr "Ungültiger Lizenzschlüssel."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1346
+#: includes/class-wc-xml-csv-ai-import-importer.php:1355
+#, php-format
+msgid "Invalid regex pattern: %s"
+msgstr "Ungültiges Regex-Muster: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1974
+#, php-format
+msgid "Invalid regular price: %s"
+msgstr "Ungültiger regulärer Preis: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1979
+#, php-format
+msgid "Invalid sale price: %s"
+msgstr "Ungültiger Angebotspreis: %s"
+
+#: includes/admin/partials/step-2-mapping.php:164
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1089
+msgid "Inventory Fields"
+msgstr "Bestandsfelder"
+
+#: includes/admin/partials/settings-page.php:800
+msgid "Keep products always up-to-date"
+msgstr "Produkte immer aktuell halten"
+
+#: includes/admin/partials/step-2-mapping.php:1465
+msgid "Key-Value Pair Mode"
+msgstr "Schlüssel-Wert-Paar-Modus"
+
+#: includes/admin/partials/step-2-mapping.php:1438
+msgid "Key-Value Pairs"
+msgstr "Schlüssel-Wert-Paare"
+
+#: includes/admin/partials/step-3-progress.php:264
+msgid "Last Activity:"
+msgstr "Letzte Aktivität:"
+
+#: includes/admin/partials/import-edit.php:112
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:564
+msgid "Last Run"
+msgstr "Letzter Lauf"
+
+#: includes/admin/partials/step-2-mapping.php:2908
+msgid "Leave empty for XML &lt;attributes&gt; auto-mapping, or select field for direct mapping"
+msgstr "Leer lassen für XML &lt;attributes&gt; Auto-Mapping, oder Feld für direkte Zuordnung auswählen"
+
+#: includes/admin/partials/import-edit.php:404
+msgid "Leave empty to skip automatic shipping class assignment."
+msgstr "Leer lassen, um automatische Versandklassenzuweisung zu überspringen."
+
+#: includes/admin/partials/step-2-mapping.php:198
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1101
+msgid "Length"
+msgstr "Länge"
+
+#: includes/admin/partials/step-2-mapping.php:1630
+#: includes/admin/partials/step-2-mapping.php:1870
+#: includes/admin/partials/step-2-mapping.php:3242
+msgid "Length:"
+msgstr "Länge:"
+
+#: includes/admin/partials/step-2-mapping.php:593
+msgid "Let AI automatically match your file columns to WooCommerce fields."
+msgstr "Lassen Sie KI automatisch Ihre Dateispalten den WooCommerce-Feldern zuordnen."
+
+#: includes/admin/partials/step-2-mapping.php:3623
+msgid "Let AI handle complex field transformations. Describe what you want in plain language."
+msgstr "Lassen Sie KI komplexe Feldtransformationen handhaben. Beschreiben Sie, was Sie möchten, in einfacher Sprache."
+
+#: includes/admin/partials/settings-page.php:115
+msgid "License"
+msgstr "Lizenz"
+
+#: includes/admin/partials/settings-page.php:186
+msgid "License Active"
+msgstr "Lizenz aktiv"
+
+#: includes/class-bfi-license-admin.php:39
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: includes/admin/partials/settings-page.php:132
+msgid "License Management"
+msgstr "Lizenzverwaltung"
+
+#: includes/admin/partials/settings-page.php:169
+msgid "License Required"
+msgstr "Lizenz erforderlich"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:518
+msgid "License activated successfully! PRO features are now unlocked."
+msgstr "Lizenz erfolgreich aktiviert! PRO-Funktionen sind jetzt freigeschaltet."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:557
+msgid "License deactivated. PRO features are now locked."
+msgstr "Lizenz deaktiviert. PRO-Funktionen sind jetzt gesperrt."
+
+#: includes/admin/partials/settings-page.php:231
+msgid "License key is invalid or expired. Please enter a valid license key."
+msgstr "Lizenzschlüssel ist ungültig oder abgelaufen. Bitte geben Sie einen gültigen Lizenzschlüssel ein."
+
+#: includes/admin/partials/step-2-mapping.php:277
+msgid "Linked Products"
+msgstr "Verknüpfte Produkte"
+
+#: includes/admin/partials/step-2-mapping.php:994
+msgid "Live Preview"
+msgstr "Live-Vorschau"
+
+#: includes/admin/partials/step-2-mapping.php:546
+msgid "Load"
+msgstr "Laden"
+
+#: includes/admin/partials/step-2-mapping.php:544
+msgid "Load Template"
+msgstr "Vorlage laden"
+
+#: includes/admin/partials/step-2-mapping.php:538
+msgid "Load saved template:"
+msgstr "Gespeicherte Vorlage laden:"
+
+#: includes/admin/partials/step-2-mapping.php:359
+#: includes/admin/partials/import-edit.php:297
+msgid "Loading file structure..."
+msgstr "Dateistruktur wird geladen..."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:520
+msgid "Local domain URLs are not allowed."
+msgstr "Lokale Domain-URLs sind nicht erlaubt."
+
+#: includes/admin/partials/settings-page.php:299
+msgid "Local file uploads"
+msgstr "Lokale Datei-Uploads"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:515
+msgid "Localhost URLs are not allowed."
+msgstr "Localhost-URLs sind nicht erlaubt."
+
+#: includes/admin/partials/settings-page.php:874
+msgid "Log Level:"
+msgstr "Protokollebene:"
+
+#: includes/admin/partials/settings-page.php:885
+msgid "Log Retention (days):"
+msgstr "Protokollaufbewahrung (Tage):"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3465
+msgid "Log file is empty."
+msgstr "Protokolldatei ist leer."
+
+#: includes/admin/partials/settings-page.php:123
+msgid "Logging"
+msgstr "Protokollierung"
+
+#: includes/admin/partials/settings-page.php:861
+msgid "Logging & Notifications"
+msgstr "Protokollierung & Benachrichtigungen"
+
+#: includes/admin/partials/settings-page.php:866
+msgid "Logging Configuration"
+msgstr "Protokollierungs-Konfiguration"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:210
+msgid "Logs"
+msgstr "Protokolle"
+
+#: includes/admin/partials/settings-page.php:351
+msgid "Logs & error reporting"
+msgstr "Protokolle & Fehlerberichte"
+
+#: includes/admin/partials/step-2-mapping.php:1622
+#: includes/admin/partials/step-2-mapping.php:1844
+msgid "Low Stock Threshold:"
+msgstr "Niedriger Bestandsschwellenwert:"
+
+#: includes/admin/partials/step-2-mapping.php:2323
+msgid "MD5 hash from name+row (8 chars)"
+msgstr "MD5-Hash aus Name+Zeile (8 Zeichen)"
+
+#: includes/admin/partials/step-2-mapping.php:272
+msgid "MPN"
+msgstr "MPN"
+
+#: includes/admin/partials/step-3-progress.php:512
+msgid "Manage Scheduled Import"
+msgstr "Geplanten Import verwalten"
+
+#: includes/admin/partials/step-2-mapping.php:167
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1091
+msgid "Manage Stock"
+msgstr "Bestand verwalten"
+
+#: includes/admin/partials/step-2-mapping.php:1618
+#: includes/admin/partials/step-2-mapping.php:1840
+#: includes/admin/partials/step-2-mapping.php:3199
+msgid "Manage Stock:"
+msgstr "Bestand verwalten:"
+
+#: includes/admin/partials/step-2-mapping.php:1727
+msgid "Manual"
+msgstr "Manuell"
+
+#: includes/admin/partials/step-1-upload.php:140
+#: includes/admin/partials/step-1-upload.php:157
+#: includes/admin/partials/step-2-mapping.php:415
+#: includes/admin/partials/step-2-mapping.php:429
+msgid "Manual Import Only"
+msgstr "Nur manueller Import"
+
+#: includes/admin/partials/settings-page.php:274
+msgid "Manual field mapping"
+msgstr "Manuelle Feldzuordnung"
+
+#: includes/admin/partials/settings-page.php:289
+msgid "Manual imports"
+msgstr "Manuelle Importe"
+
+#: includes/admin/partials/step-2-mapping.php:2064
+msgid "Map"
+msgstr "Zuordnen"
+
+#: includes/admin/partials/step-2-mapping.php:1558
+msgid "Map CSV columns that contain attribute values (e.g., \"Attribute:Color\", \"Attribute:Size\")."
+msgstr "CSV-Spalten zuordnen, die Attributwerte enthalten (z.B. \"Attribute:Color\", \"Attribute:Size\")."
+
+#: includes/admin/partials/step-2-mapping.php:1580
+msgid "Map CSV columns to WooCommerce variation fields. These are read from variation rows."
+msgstr "CSV-Spalten WooCommerce-Variationsfeldern zuordnen. Diese werden aus Variationszeilen gelesen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:287
+msgid "Map Fields"
+msgstr "Felder zuordnen"
+
+#: includes/admin/partials/step-2-mapping.php:2983
+#: includes/admin/partials/step-2-mapping.php:3058
+#: includes/admin/partials/step-2-mapping.php:3088
+#: includes/admin/partials/step-2-mapping.php:3111
+#: includes/admin/partials/step-2-mapping.php:3134
+#: includes/admin/partials/step-2-mapping.php:3218
+#: includes/admin/partials/step-2-mapping.php:3276
+msgid "Map field"
+msgstr "Feld zuordnen"
+
+#: includes/admin/partials/step-2-mapping.php:1793
+msgid "Map fields from your source file to WooCommerce variation fields."
+msgstr "Ordnen Sie Felder aus Ihrer Quelldatei den WooCommerce-Variationsfeldern zu."
+
+#: includes/admin/partials/step-2-mapping.php:2099
+#: includes/admin/partials/step-2-mapping.php:2134
+#: includes/admin/partials/step-2-mapping.php:2166
+#: includes/admin/partials/step-2-mapping.php:2205
+#: includes/admin/partials/step-2-mapping.php:2238
+msgid "Map from XML:"
+msgstr "Aus XML zuordnen:"
+
+#: includes/admin/partials/step-2-mapping.php:2288
+msgid "Map from file"
+msgstr "Aus Datei zuordnen"
+
+#: includes/admin/partials/step-2-mapping.php:495
+#: includes/admin/partials/import-edit.php:321
+msgid "Map your file fields to WooCommerce product fields and configure processing modes."
+msgstr "Ordnen Sie Ihre Dateifelder WooCommerce-Produktfeldern zu und konfigurieren Sie Verarbeitungsmodi."
+
+#: includes/admin/partials/step-2-mapping.php:514
+#: includes/admin/partials/step-2-mapping.php:563
+#: includes/admin/partials/step-2-mapping.php:3423
+#: includes/admin/partials/step-2-mapping.php:3607
+msgid "Mapping Templates"
+msgstr "Zuordnungsvorlagen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2801
+msgid "Mapping configuration saved successfully."
+msgstr "Zuordnungskonfiguration erfolgreich gespeichert."
+
+#: includes/admin/partials/step-1-upload.php:226
+#: includes/admin/partials/import-edit.php:227
+msgid "Mark as Out of Stock"
+msgstr "Als nicht auf Lager markieren"
+
+#: includes/admin/partials/step-2-mapping.php:765
+#: includes/admin/partials/step-2-mapping.php:941
+msgid "Markup %"
+msgstr "Aufschlag %"
+
+#: includes/admin/partials/settings-page.php:556
+msgid "Max Execution Time (seconds):"
+msgstr "Max. Ausführungszeit (Sekunden):"
+
+#: includes/admin/partials/settings-page.php:821
+msgid "Max File Size (MB):"
+msgstr "Max. Dateigröße (MB):"
+
+#: includes/admin/partials/settings-page.php:934
+msgid "Max Formula Length:"
+msgstr "Max. Formellänge:"
+
+#: includes/admin/partials/settings-page.php:630
+msgid "Max Image Size (MB):"
+msgstr "Max. Bildgröße (MB):"
+
+#: includes/admin/partials/settings-page.php:882
+msgid "Max Log Entries:"
+msgstr "Max. Protokolleinträge:"
+
+#: includes/admin/partials/step-2-mapping.php:801
+msgid "Max Price €"
+msgstr "Max. Preis €"
+
+#: includes/admin/partials/settings-page.php:517
+msgid "Max Retries:"
+msgstr "Max. Wiederholungen:"
+
+#: includes/admin/partials/step-2-mapping.php:978
+msgid "Max €"
+msgstr "Max. €"
+
+#: includes/admin/partials/settings-page.php:619
+msgid "Media & Images"
+msgstr "Medien & Bilder"
+
+#: includes/admin/partials/step-2-mapping.php:210
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1111
+msgid "Media Fields"
+msgstr "Medienfelder"
+
+#: includes/admin/partials/settings-page.php:541
+msgid "Memory & Processing"
+msgstr "Speicher & Verarbeitung"
+
+#: includes/admin/partials/settings-page.php:548
+msgid "Memory Limit:"
+msgstr "Speicherlimit:"
+
+#: includes/admin/partials/step-2-mapping.php:290
+msgid "Menu Order"
+msgstr "Menüreihenfolge"
+
+#: includes/admin/partials/step-2-mapping.php:1664
+#: includes/admin/partials/step-2-mapping.php:1931
+msgid "Menu Order:"
+msgstr "Menüreihenfolge:"
+
+#: includes/admin/partials/step-2-mapping.php:299
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1134
+msgid "Meta Description"
+msgstr "Meta-Beschreibung"
+
+#: includes/admin/partials/step-2-mapping.php:300
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1135
+msgid "Meta Keywords"
+msgstr "Meta-Schlüsselwörter"
+
+#: includes/admin/partials/step-2-mapping.php:298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1133
+msgid "Meta Title"
+msgstr "Meta-Titel"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:363
+msgid "Microsoft Copilot API key or endpoint not configured."
+msgstr "Microsoft Copilot API-Schlüssel oder Endpunkt nicht konfiguriert."
+
+#: includes/admin/partials/step-2-mapping.php:794
+msgid "Min Price €"
+msgstr "Min. Preis €"
+
+#: includes/admin/partials/step-2-mapping.php:971
+msgid "Min €"
+msgstr "Min. €"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6982
+#, php-format
+msgid "Missing products cleanup completed: %1$d processed, %2$d errors."
+msgstr "Bereinigung fehlender Produkte abgeschlossen: %1$d verarbeitet, %2$d Fehler."
+
+#: includes/admin/partials/settings-page.php:404
+#: includes/admin/partials/settings-page.php:423
+#: includes/admin/partials/settings-page.php:442
+#: includes/admin/partials/settings-page.php:461
+#: includes/admin/partials/settings-page.php:479
+msgid "Model:"
+msgstr "Modell:"
+
+#: includes/admin/partials/import-edit.php:789
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:585
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: includes/admin/partials/step-1-upload.php:146
+#: includes/admin/partials/step-2-mapping.php:421
+msgid "Monthly Import"
+msgstr "Monatlicher Import"
+
+#: includes/admin/partials/step-2-mapping.php:2560
+#: includes/admin/partials/import-edit.php:652
+msgid "Move non-matching products to Draft"
+msgstr "Nicht übereinstimmende Produkte in Entwurf verschieben"
+
+#: includes/admin/partials/step-1-upload.php:225
+#: includes/admin/partials/import-edit.php:226
+msgid "Move to Draft (Recommended)"
+msgstr "In Entwurf verschieben (Empfohlen)"
+
+#: includes/admin/partials/step-1-upload.php:228
+#: includes/admin/partials/import-edit.php:229
+msgid "Move to Trash (auto-delete after 30 days)"
+msgstr "In Papierkorb verschieben (auto-löschen nach 30 Tagen)"
+
+#: includes/admin/partials/step-3-progress.php:461
+msgid "N/A"
+msgstr "k.A."
+
+#: includes/admin/partials/import-edit.php:92
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:558
+msgid "Name"
+msgstr "Name"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Name Field:"
+msgstr "Namensfeld:"
+
+#: includes/admin/partials/import-edit.php:154
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:635
+msgid "Never"
+msgstr "Nie"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:182
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:183
+msgid "New Import"
+msgstr "Neuer Import"
+
+#: includes/admin/partials/step-2-mapping.php:1137
+#: includes/admin/partials/step-2-mapping.php:1296
+msgid "New class name"
+msgstr "Neuer Klassenname"
+
+#: includes/admin/partials/import-edit.php:306
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/admin/partials/step-2-mapping.php:1853
+#: includes/admin/partials/step-2-mapping.php:2057
+#: includes/admin/partials/step-2-mapping.php:3163
+#: includes/admin/partials/step-2-mapping.php:3177
+#: includes/admin/partials/step-2-mapping.php:3191
+#: includes/admin/partials/step-2-mapping.php:3205
+msgid "No"
+msgstr "Nein"
+
+#: includes/admin/partials/step-2-mapping.php:1402
+msgid "No additional configuration needed. Products will be imported as simple products."
+msgstr "Keine zusätzliche Konfiguration erforderlich. Produkte werden als einfache Produkte importiert."
+
+#: includes/admin/partials/step-2-mapping.php:2981
+#: includes/admin/partials/step-2-mapping.php:3055
+#: includes/admin/partials/step-2-mapping.php:3086
+#: includes/admin/partials/step-2-mapping.php:3109
+#: includes/admin/partials/step-2-mapping.php:3133
+#: includes/admin/partials/step-2-mapping.php:3161
+#: includes/admin/partials/step-2-mapping.php:3175
+#: includes/admin/partials/step-2-mapping.php:3189
+#: includes/admin/partials/step-2-mapping.php:3203
+#: includes/admin/partials/step-2-mapping.php:3216
+#: includes/admin/partials/step-2-mapping.php:3275
+msgid "No change"
+msgstr "Keine Änderung"
+
+#: includes/admin/partials/step-2-mapping.php:2607
+#: includes/admin/partials/import-edit.php:758
+msgid "No custom fields added yet. Click \"Add Custom Field\" to create one."
+msgstr "Noch keine benutzerdefinierten Felder hinzugefügt. Klicken Sie auf \"Benutzerdefiniertes Feld hinzufügen\"."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1696
+msgid "No file provided."
+msgstr "Keine Datei bereitgestellt."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:104
+msgid "No file uploaded."
+msgstr "Keine Datei hochgeladen."
+
+#: includes/admin/partials/step-2-mapping.php:2531
+#: includes/admin/partials/import-edit.php:635
+#: includes/admin/partials/import-edit.php:1248
+msgid "No filters added. All products will be imported."
+msgstr "Keine Filter hinzugefügt. Alle Produkte werden importiert."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:553
+msgid "No imports found."
+msgstr "Keine Importe gefunden."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3488
+msgid "No logs found for this import."
+msgstr "Keine Protokolle für diesen Import gefunden."
+
+#: includes/admin/partials/settings-page.php:801
+msgid "No manual intervention required"
+msgstr "Kein manueller Eingriff erforderlich"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6871
+msgid "No missing products found."
+msgstr "Keine fehlenden Produkte gefunden."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:537
+msgid "No products found to delete."
+msgstr "Keine Produkte zum Löschen gefunden."
+
+#: includes/admin/partials/step-2-mapping.php:782
+#: includes/admin/partials/step-2-mapping.php:959
+msgid "No rounding"
+msgstr "Keine Rundung"
+
+#: includes/admin/partials/settings-page.php:708
+msgid "No server configuration needed, self-healing, processes full import automatically."
+msgstr "Keine Serverkonfiguration erforderlich, selbstheilend, verarbeitet den vollständigen Import automatisch."
+
+#: includes/admin/partials/step-2-mapping.php:2011
+msgid "No shipping classes found. Create them in WooCommerce → Settings → Shipping"
+msgstr "Keine Versandklassen gefunden. Erstellen Sie sie unter WooCommerce → Einstellungen → Versand"
+
+#: includes/admin/partials/import-edit.php:400
+msgid "No shipping classes found. Please create them in WooCommerce → Settings → Shipping → Shipping classes"
+msgstr "Keine Versandklassen gefunden. Bitte erstellen Sie sie unter WooCommerce → Einstellungen → Versand → Versandklassen"
+
+#: includes/admin/partials/step-2-mapping.php:1323
+msgid "No shipping classes found. They will be created automatically during import, or create them in WooCommerce → Settings → Shipping → Shipping Classes."
+msgstr "Keine Versandklassen gefunden. Sie werden während des Imports automatisch erstellt, oder erstellen Sie sie unter WooCommerce → Einstellungen → Versand → Versandklassen."
+
+#: includes/admin/partials/step-2-mapping.php:3179
+msgid "No shipping needed"
+msgstr "Kein Versand nötig"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4045
+msgid "No source fields provided"
+msgstr "Keine Quellfelder angegeben"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2324
+msgid "No source fields provided."
+msgstr "Keine Quellfelder angegeben."
+
+#: includes/admin/partials/step-2-mapping.php:153
+msgid "None"
+msgstr "Keine"
+
+#: includes/admin/partials/settings-page.php:703
+msgid "Not Available"
+msgstr "Nicht verfügbar"
+
+#: includes/admin/partials/step-2-mapping.php:1085
+msgid "Note: If you have a direct shipping_class field mapped above, it takes priority over these rules."
+msgstr "Hinweis: Wenn Sie oben ein direktes shipping_class-Feld zugeordnet haben, hat es Vorrang vor diesen Regeln."
+
+#: includes/admin/partials/settings-page.php:746
+msgid "Note: We recommend running every minute. The plugin will only process imports when their scheduled interval has passed."
+msgstr "Hinweis: Wir empfehlen die Ausführung jede Minute. Das Plugin verarbeitet Importe nur, wenn das geplante Intervall abgelaufen ist."
+
+#: includes/admin/partials/settings-page.php:900
+msgid "Notification Email:"
+msgstr "Benachrichtigungs-E-Mail:"
+
+#: includes/admin/partials/step-2-mapping.php:2688
+#: includes/admin/partials/import-edit.php:706
+#: includes/admin/partials/import-edit.php:1120
+msgid "Number"
+msgstr "Nummer"
+
+#: includes/admin/partials/settings-page.php:561
+msgid "Number of lines to read from file at once."
+msgstr "Anzahl der Zeilen, die gleichzeitig aus der Datei gelesen werden."
+
+#: includes/admin/partials/step-1-upload.php:203
+msgid "Number of products to process at once."
+msgstr "Anzahl der gleichzeitig zu verarbeitenden Produkte."
+
+#: includes/admin/partials/settings-page.php:546
+msgid "Number of products to process in each batch."
+msgstr "Anzahl der Produkte pro Stapel."
+
+#: includes/admin/partials/step-2-mapping.php:636
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/partials/step-2-mapping.php:179
+msgid "On backorder"
+msgstr "In Nachbestellung"
+
+#: includes/admin/partials/step-3-progress.php:196
+msgid "Once configured, imports will continue automatically even if you close this page."
+msgstr "Einmal konfiguriert, werden Importe automatisch fortgesetzt, auch wenn Sie diese Seite schließen."
+
+#: includes/admin/partials/step-2-mapping.php:2868
+msgid "Only for XML with &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt; structure"
+msgstr "Nur für XML mit &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt; Struktur"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:117
+msgid "OpenAI API key not configured."
+msgstr "OpenAI API-Schlüssel nicht konfiguriert."
+
+#: includes/admin/partials/settings-page.php:397
+msgid "OpenAI Settings"
+msgstr "OpenAI Einstellungen"
+
+#: includes/admin/partials/step-2-mapping.php:2650
+#: includes/admin/partials/import-edit.php:587
+#: includes/admin/partials/import-edit.php:1192
+msgid "Operator"
+msgstr "Operator"
+
+#: includes/admin/partials/step-2-mapping.php:1979
+msgid "Optional: Calculate shipping class based on dimensions/weight when no direct mapping is set."
+msgstr "Optional: Versandklasse basierend auf Abmessungen/Gewicht berechnen, wenn keine direkte Zuordnung festgelegt ist."
+
+#: includes/admin/partials/step-2-mapping.php:1803
+msgid "Optional: Link variation to parent by SKU"
+msgstr "Optional: Variation per SKU mit übergeordnetem Produkt verknüpfen"
+
+#: includes/admin/partials/step-2-mapping.php:178
+msgid "Out of stock"
+msgstr "Nicht auf Lager"
+
+#: includes/admin/partials/step-2-mapping.php:2359
+#: includes/admin/partials/step-2-mapping.php:2706
+#: includes/admin/partials/step-2-mapping.php:2882
+#: includes/admin/partials/step-2-mapping.php:2922
+#: includes/admin/partials/step-2-mapping.php:3003
+#: includes/admin/partials/step-2-mapping.php:3296
+#: includes/admin/partials/import-edit.php:456
+#: includes/admin/partials/import-edit.php:713
+#: includes/admin/partials/import-edit.php:1127
+msgid "PHP Formula"
+msgstr "PHP-Formel"
+
+#: includes/admin/partials/step-2-mapping.php:2454
+msgid "PHP Formula (applied to AI result):"
+msgstr "PHP-Formel (auf KI-Ergebnis angewendet):"
+
+#: includes/admin/partials/import-edit.php:507
+msgid "PHP Formula (executed first):"
+msgstr "PHP-Formel (zuerst ausgeführt):"
+
+#: includes/admin/partials/step-2-mapping.php:1983
+#: includes/admin/partials/import-edit.php:372
+msgid "PHP Formula (return shipping class slug):"
+msgstr "PHP-Formel (Versandklassen-Slug zurückgeben):"
+
+#: includes/admin/partials/step-2-mapping.php:2901
+#: includes/admin/partials/step-2-mapping.php:2941
+msgid "PHP Formula (runs first):"
+msgstr "PHP-Formel (wird zuerst ausgeführt):"
+
+#: includes/admin/partials/settings-page.php:915
+msgid "PHP Formula Security"
+msgstr "PHP-Formel Sicherheit"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2600
+msgid "PHP Formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "PHP-Formelverarbeitung ist eine PRO-Funktion. Bitte upgraden Sie, um diese Funktionalität zu nutzen."
+
+#: includes/admin/partials/step-2-mapping.php:2393
+#: includes/admin/partials/step-2-mapping.php:2717
+#: includes/admin/partials/step-2-mapping.php:2753
+#: includes/admin/partials/step-2-mapping.php:2781
+#: includes/admin/partials/step-2-mapping.php:2893
+#: includes/admin/partials/step-2-mapping.php:2933
+#: includes/admin/partials/import-edit.php:466
+#: includes/admin/partials/import-edit.php:727
+#: includes/admin/partials/import-edit.php:1141
+msgid "PHP Formula:"
+msgstr "PHP-Formel:"
+
+#: includes/admin/partials/step-2-mapping.php:3031
+#: includes/admin/partials/step-2-mapping.php:3323
+msgid "PHP Pre-processing:"
+msgstr "PHP-Vorverarbeitung:"
+
+#: includes/admin/partials/step-2-mapping.php:3617
+msgid "PHP Processing"
+msgstr "PHP-Verarbeitung"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2645
+msgid "PHP formula test completed successfully."
+msgstr "PHP-Formeltest erfolgreich abgeschlossen."
+
+#: includes/class-wc-xml-csv-ai-import-processor.php:272
+msgid "PHP formulas are disabled in settings."
+msgstr "PHP-Formeln sind in den Einstellungen deaktiviert."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:418
+msgid "PRO Feature"
+msgstr "PRO-Funktion"
+
+#: includes/class-bfi-license-admin.php:17
+#: includes/class-bfi-license-admin.php:18
+msgid "PRO License"
+msgstr "PRO-Lizenz"
+
+#: includes/admin/partials/step-2-mapping.php:2375
+msgid "PRO: Transform fields with PHP/AI"
+msgstr "PRO: Felder mit PHP/KI transformieren"
+
+#: includes/admin/partials/step-2-mapping.php:282
+msgid "Parent Product ID"
+msgstr "Übergeordnete Produkt-ID"
+
+#: includes/admin/partials/step-2-mapping.php:1529
+msgid "Parent SKU Column:"
+msgstr "Übergeordnete SKU-Spalte:"
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:513
+#, php-format
+msgid "Parent SKU column \"%s\" not found in CSV."
+msgstr "Übergeordnete SKU-Spalte \"%s\" nicht in CSV gefunden."
+
+#: includes/admin/partials/step-2-mapping.php:1542
+msgid "Parent SKU links variations to parent. Type column (values: \"variable\" or \"variation\") helps identify row types."
+msgstr "Eltern-SKU verknüpft Variationen mit dem Elternteil. Typ-Spalte (Werte: \"variable\" oder \"variation\") hilft bei der Zeilentyp-Erkennung."
+
+#: includes/admin/partials/step-2-mapping.php:1799
+msgid "Parent SKU:"
+msgstr "Übergeordnete SKU:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:97
+msgid "Parsing file structure..."
+msgstr "Dateistruktur wird analysiert..."
+
+#: includes/admin/partials/step-2-mapping.php:1748
+msgid "Path to attributes container in each variation (without { })"
+msgstr "Pfad zum Attribut-Container in jeder Variation (ohne { })"
+
+#: includes/admin/partials/step-2-mapping.php:1704
+msgid "Path to variation/attribute container. Examples:"
+msgstr "Pfad zum Variations-/Attribut-Container. Beispiele:"
+
+#: includes/admin/partials/step-2-mapping.php:924
+#: includes/admin/partials/step-2-mapping.php:1269
+msgid "Pattern"
+msgstr "Muster"
+
+#: includes/admin/partials/step-3-progress.php:280
+msgid "Pause Import"
+msgstr "Import pausieren"
+
+#: includes/admin/partials/step-2-mapping.php:128
+msgid "Pending Review"
+msgstr "Überprüfung ausstehend"
+
+#: includes/admin/partials/settings-page.php:119
+msgid "Performance"
+msgstr "Leistung"
+
+#: includes/admin/partials/step-3-progress.php:425
+msgid "Performance Metrics"
+msgstr "Leistungskennzahlen"
+
+#: includes/admin/partials/settings-page.php:536
+msgid "Performance Settings"
+msgstr "Leistungseinstellungen"
+
+#: includes/admin/partials/step-1-upload.php:229
+#: includes/admin/partials/import-edit.php:230
+msgid "Permanently Delete (⚠️ DANGEROUS)"
+msgstr "Dauerhaft löschen (⚠️ GEFÄHRLICH)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3887
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3980
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4196
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4252
+msgid "Permission denied"
+msgstr "Zugriff verweigert"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6711
+#, php-format
+msgid "Phase 2 completed: %1$d relationships resolved, %2$d errors"
+msgstr "Phase 2 abgeschlossen: %1$d Beziehungen aufgelöst, %2$d Fehler"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6777
+#, php-format
+msgid "Phase 3 completed: %d variable products stock status synced"
+msgstr "Phase 3 abgeschlossen: Bestandsstatus von %d variablen Produkten synchronisiert"
+
+#: includes/admin/partials/step-2-mapping.php:195
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1098
+msgid "Physical Properties"
+msgstr "Physische Eigenschaften"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2430
+#: includes/class-wc-xml-csv-ai-import-license.php:452
+msgid "Please enter a license key."
+msgstr "Bitte geben Sie einen Lizenzschlüssel ein."
+
+#: includes/admin/partials/step-2-mapping.php:633
+msgid "Please verify mapped fields before importing."
+msgstr "Bitte überprüfen Sie die zugeordneten Felder vor dem Import."
+
+#: includes/admin/partials/step-2-mapping.php:1761
+msgid "Plugin will automatically create attributes: pa_size=L, pa_color=Black"
+msgstr "Plugin erstellt automatisch Attribute: pa_size=L, pa_color=Black"
+
+#: includes/admin/partials/step-2-mapping.php:2902
+#: includes/admin/partials/step-2-mapping.php:2942
+msgid "Pre-process with PHP"
+msgstr "Mit PHP vorverarbeiten"
+
+#: includes/admin/partials/step-3-progress.php:208
+#: includes/admin/partials/step-3-progress.php:784
+msgid "Preparing Import..."
+msgstr "Import wird vorbereitet..."
+
+#: includes/admin/partials/settings-page.php:657
+msgid "Preserve HTML in Descriptions"
+msgstr "HTML in Beschreibungen beibehalten"
+
+#: includes/admin/partials/step-2-mapping.php:2326
+msgid "Preview:"
+msgstr "Vorschau:"
+
+#: includes/admin/partials/import-edit.php:301
+msgid "Previous"
+msgstr "Zurück"
+
+#: includes/admin/partials/step-2-mapping.php:2977
+msgid "Price Adjustment:"
+msgstr "Preisanpassung:"
+
+#: includes/admin/partials/step-2-mapping.php:135
+msgid "Price Markup"
+msgstr "Preisaufschlag"
+
+#: includes/admin/partials/step-2-mapping.php:853
+#: includes/admin/partials/step-2-mapping.php:1189
+msgid "Price Range"
+msgstr "Preisbereich"
+
+#: includes/admin/partials/step-2-mapping.php:140
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1080
+msgid "Pricing Fields"
+msgstr "Preisfelder"
+
+#: includes/admin/partials/step-2-mapping.php:737
+msgid "Pricing Rules"
+msgstr "Preisregeln"
+
+#: includes/admin/partials/settings-page.php:371
+msgid "Priority support"
+msgstr "Prioritäts-Support"
+
+#: includes/admin/partials/step-1-upload.php:197
+#: includes/admin/partials/step-2-mapping.php:129
+msgid "Private"
+msgstr "Privat"
+
+#: includes/admin/partials/step-2-mapping.php:3640
+msgid "Pro Feature"
+msgstr "Pro-Funktion"
+
+#: includes/admin/partials/step-2-mapping.php:3417
+msgid "Pro includes:"
+msgstr "Pro enthält:"
+
+#: includes/admin/partials/step-1-upload.php:252
+#: includes/admin/partials/step-1-upload.php:449
+#: includes/admin/partials/step-1-upload.php:458
+msgid "Proceed to Field Mapping"
+msgstr "Zur Feldzuordnung fortfahren"
+
+#: includes/admin/partials/import-edit.php:215
+msgid "Process products no longer in feed"
+msgstr "Produkte verarbeiten, die nicht mehr im Feed sind"
+
+#: includes/admin/partials/step-1-upload.php:217
+msgid "Process products that are no longer in feed"
+msgstr "Produkte verarbeiten, die nicht mehr im Feed sind"
+
+#: includes/admin/partials/step-3-progress.php:239
+#: includes/admin/partials/step-3-progress.php:326
+msgid "Processed"
+msgstr "Verarbeitet"
+
+#: includes/admin/partials/import-edit.php:810
+msgid "Processes entire import in one request. 100% reliable but requires server cron setup."
+msgstr "Verarbeitet den gesamten Import in einer Anfrage. 100% zuverlässig, erfordert aber Server-Cron-Einrichtung."
+
+#: includes/admin/partials/step-2-mapping.php:463
+msgid "Processes entire import in one request. Requires server cron setup."
+msgstr "Verarbeitet den gesamten Import in einer Anfrage. Erfordert Server-Cron-Einrichtung."
+
+#: includes/admin/partials/step-3-progress.php:211
+#: includes/admin/partials/step-3-progress.php:787
+msgid "Processing Products..."
+msgstr "Produkte werden verarbeitet..."
+
+#: includes/admin/partials/step-3-progress.php:429
+msgid "Processing Speed"
+msgstr "Verarbeitungsgeschwindigkeit"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6825
+#, php-format
+msgid "Processing missing products with action: %s"
+msgstr "Fehlende Produkte werden mit Aktion verarbeitet: %s"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6914
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) marked as out of stock - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) als nicht vorrätig markiert - nicht mehr im Feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6904
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to draft - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) in Entwurf verschoben — nicht mehr im Feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6932
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to trash - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) in Papierkorb verschoben — nicht mehr im Feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6939
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) permanently deleted - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) dauerhaft gelöscht — nicht mehr im Feed."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6925
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) set to backorder - no longer in feed."
+msgstr "Produkt \"%1$s\" (SKU: %2$s) auf Nachbestellung gesetzt — nicht mehr im Feed."
+
+#: includes/admin/partials/step-3-progress.php:356
+msgid "Product Activity Log"
+msgstr "Produktaktivitätsprotokoll"
+
+#: includes/admin/partials/step-2-mapping.php:224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1125
+msgid "Product Categories"
+msgstr "Produktkategorien"
+
+#: includes/admin/partials/step-2-mapping.php:101
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1072
+msgid "Product Code (SKU)"
+msgstr "Produktcode (SKU)"
+
+#: includes/admin/partials/settings-page.php:593
+msgid "Product Defaults"
+msgstr "Produktstandards"
+
+#: includes/admin/partials/settings-page.php:637
+msgid "Product Features"
+msgstr "Produktfunktionen"
+
+#: includes/admin/partials/step-2-mapping.php:267
+msgid "Product Identifiers"
+msgstr "Produktidentifikatoren"
+
+#: includes/admin/partials/step-2-mapping.php:213
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1114
+msgid "Product Images"
+msgstr "Produktbilder"
+
+#: includes/admin/partials/step-2-mapping.php:106
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1073
+msgid "Product Name"
+msgstr "Produktname"
+
+#: includes/admin/partials/step-2-mapping.php:230
+msgid "Product Options"
+msgstr "Produktoptionen"
+
+#: includes/admin/partials/step-2-mapping.php:122
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1076
+msgid "Product Status"
+msgstr "Produktstatus"
+
+#: includes/admin/partials/step-2-mapping.php:225
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1126
+msgid "Product Tags"
+msgstr "Produkt-Schlagwörter"
+
+#: includes/admin/partials/step-2-mapping.php:108
+msgid "Product Type"
+msgstr "Produkttyp"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:697
+#, php-format
+msgid "Product does not match filters - will be imported as Draft (SKU: %s)"
+msgstr "Produkt entspricht nicht den Filtern — wird als Entwurf importiert (SKU: %s)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:711
+#, php-format
+msgid "Product matches filters - will be imported as Published (SKU: %s)"
+msgstr "Produkt entspricht den Filtern — wird als Veröffentlicht importiert (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:2322
+msgid "Product name slug (first 20 chars)"
+msgstr "Produktname-Slug (erste 20 Zeichen)"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:701
+#, php-format
+msgid "Product skipped by import filters (SKU: %s)"
+msgstr "Produkt durch Importfilter übersprungen (SKU: %s)"
+
+#: includes/admin/partials/step-2-mapping.php:117
+msgid "Product type. Auto-detected if grouped_products or external_url is mapped."
+msgstr "Produkttyp. Wird automatisch erkannt, wenn grouped_products oder external_url zugeordnet ist."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:2784
+#, php-format
+msgid "Product with ID %d not found."
+msgstr "Produkt mit ID %d nicht gefunden."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:770
+#: includes/class-wc-xml-csv-ai-import-importer.php:960
+#, php-format
+msgid "Product with SKU \"%s\" already exists and update is disabled."
+msgstr "Produkt mit SKU \"%s\" existiert bereits und Aktualisierung ist deaktiviert."
+
+#: includes/admin/partials/step-2-mapping.php:348
+#: includes/admin/partials/import-edit.php:104
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:560
+msgid "Products"
+msgstr "Produkte"
+
+#: includes/admin/partials/step-2-mapping.php:487
+msgid "Products per chunk (1-500). Higher = faster, but more memory."
+msgstr "Produkte pro Block (1-500). Höher = schneller, aber mehr Speicher."
+
+#: includes/admin/partials/import-edit.php:278
+msgid "Products to process per chunk (1-500). Higher = faster, but more memory. Recommended: 50-200 for updates."
+msgstr "Produkte pro Batch (1-500). Höher = schneller, aber mehr Speicher. Empfohlen: 50-200 für Aktualisierungen."
+
+#: includes/admin/partials/step-2-mapping.php:1386
+msgid "Products with variations like Size, Color"
+msgstr "Produkte mit Variationen wie Größe, Farbe"
+
+#: includes/admin/partials/step-3-progress.php:314
+msgid "Progress"
+msgstr "Fortschritt"
+
+#: includes/admin/partials/settings-page.php:708
+#: includes/admin/partials/settings-page.php:720
+msgid "Pros:"
+msgstr "Vorteile:"
+
+#: includes/admin/partials/step-1-upload.php:195
+#: includes/admin/partials/step-2-mapping.php:126
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: includes/admin/partials/step-2-mapping.php:289
+msgid "Purchase Note"
+msgstr "Kaufhinweis"
+
+#: includes/admin/partials/step-2-mapping.php:1951
+msgid "Quick Add Common Fields:"
+msgstr "Häufige Felder schnell hinzufügen:"
+
+#: includes/admin/partials/step-2-mapping.php:2321
+msgid "Random 6-char string"
+msgstr "Zufällige 6-Zeichen-Zeichenkette"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:91
+msgid "Rate limit exceeded. Please wait before making another request."
+msgstr "Anfragelimit überschritten. Bitte warten Sie, bevor Sie eine weitere Anfrage stellen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:649
+msgid "Re-run"
+msgstr "Erneut ausführen"
+
+#: includes/admin/partials/step-2-mapping.php:1733
+msgid "Read all attributes from XML automatically"
+msgstr "Alle Attribute automatisch aus XML lesen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3584
+msgid "Real-time import progress tracking"
+msgstr "Echtzeit-Import-Fortschrittsverfolgung"
+
+#: includes/admin/partials/step-3-progress.php:533
+msgid "Recent Errors:"
+msgstr "Letzte Fehler:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3958
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3986
+msgid "Recipe ID is required"
+msgstr "Rezept-ID erforderlich"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3997
+msgid "Recipe deleted successfully"
+msgstr "Rezept erfolgreich gelöscht"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3969
+msgid "Recipe loaded successfully"
+msgstr "Rezept erfolgreich geladen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3895
+msgid "Recipe name is required"
+msgstr "Rezeptname erforderlich"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3964
+msgid "Recipe not found"
+msgstr "Rezept nicht gefunden"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3939
+msgid "Recipe saved successfully"
+msgstr "Rezept erfolgreich gespeichert"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3938
+msgid "Recipe updated successfully"
+msgstr "Rezept erfolgreich aktualisiert"
+
+#: includes/admin/partials/settings-page.php:701
+#: includes/admin/partials/step-2-mapping.php:453
+#: includes/admin/partials/import-edit.php:800
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: includes/admin/partials/step-2-mapping.php:396
+#: includes/admin/partials/import-edit.php:203
+msgid "Reduces import time by skipping products that haven't changed."
+msgstr "Reduziert die Importzeit, indem unveränderte Produkte übersprungen werden."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3439
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: includes/admin/partials/settings-page.php:772
+msgid "Regenerate"
+msgstr "Neu generieren"
+
+#: includes/admin/partials/step-2-mapping.php:142
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1082
+msgid "Regular Price"
+msgstr "Regulärer Preis"
+
+#: includes/admin/partials/step-2-mapping.php:1594
+#: includes/admin/partials/step-2-mapping.php:1816
+msgid "Regular Price:"
+msgstr "Regulärer Preis:"
+
+#: includes/admin/partials/step-2-mapping.php:1362
+msgid "Regular products without variations or attributes"
+msgstr "Reguläre Produkte ohne Variationen oder Attribute"
+
+#: includes/admin/partials/step-3-progress.php:243
+msgid "Remaining"
+msgstr "Verbleibend"
+
+#: includes/admin/partials/step-2-mapping.php:3632
+msgid "Remote URL Import"
+msgstr "Remote-URL-Import"
+
+#: includes/admin/partials/import-edit.php:718
+#: includes/admin/partials/import-edit.php:1132
+msgid "Remove"
+msgstr "Entfernen"
+
+#: includes/admin/partials/step-2-mapping.php:2819
+msgid "Remove Custom Field"
+msgstr "Benutzerdefiniertes Feld entfernen"
+
+#: includes/admin/partials/step-2-mapping.php:2674
+msgid "Remove Filter"
+msgstr "Filter entfernen"
+
+#: includes/admin/partials/step-2-mapping.php:927
+#: includes/admin/partials/step-2-mapping.php:1272
+msgid "Remove condition"
+msgstr "Bedingung entfernen"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:1961
+#, php-format
+msgid "Required field \"%s\" is missing or empty."
+msgstr "Pflichtfeld \"%s\" fehlt oder ist leer."
+
+#: includes/admin/partials/settings-page.php:722
+msgid "Requires server access to configure crontab."
+msgstr "Erfordert Serverzugriff zur Konfiguration von crontab."
+
+#: includes/admin/partials/settings-page.php:710
+msgid "Requires some website traffic to trigger (or WP-Cron)."
+msgstr "Erfordert etwas Website-Traffic zur Auslösung (oder WP-Cron)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1200
+msgid "Reset and import all products"
+msgstr "Zurücksetzen und alle Produkte importieren"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6630
+#, php-format
+msgid "Resolved grouped product ID %1$d with %2$d children"
+msgstr "Gruppiertes Produkt ID %1$d mit %2$d Unterprodukten aufgelöst"
+
+#: includes/admin/partials/import-edit.php:513
+msgid "Result will be passed to AI"
+msgstr "Ergebnis wird an KI übergeben"
+
+#: includes/admin/partials/step-2-mapping.php:1483
+msgid "Result: Attribute \"Colour\" with value \"Blue\""
+msgstr "Ergebnis: Attribut \"Colour\" mit Wert \"Blue\""
+
+#: includes/admin/partials/step-3-progress.php:289
+msgid "Resume Import"
+msgstr "Import fortsetzen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1162
+msgid "Resume Import?"
+msgstr "Import fortsetzen?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1190
+#, php-format
+msgid "Resume from product %d"
+msgstr "Ab Produkt %d fortsetzen"
+
+#: includes/admin/partials/step-3-progress.php:298
+#: includes/admin/partials/step-3-progress.php:549
+msgid "Retry Import"
+msgstr "Import wiederholen"
+
+#: includes/admin/partials/step-2-mapping.php:253
+msgid "Reviews Allowed"
+msgstr "Bewertungen erlaubt"
+
+#: includes/admin/partials/step-2-mapping.php:779
+#: includes/admin/partials/step-2-mapping.php:955
+msgid "Round to"
+msgstr "Runden auf"
+
+#: includes/admin/partials/step-2-mapping.php:3039
+msgid "Round to nearest .99"
+msgstr "Auf nächsten .99 runden"
+
+#: includes/admin/partials/step-2-mapping.php:2319
+msgid "Row number (1, 2, 3...)"
+msgstr "Zeilennummer (1, 2, 3...)"
+
+#: includes/admin/partials/step-2-mapping.php:729
+msgid "Rule Priority:"
+msgstr "Regelpriorität:"
+
+#: includes/admin/partials/step-2-mapping.php:1157
+msgid "Rule name (e.g., Heavy items)"
+msgstr "Regelname (z.B., Schwere Artikel)"
+
+#: includes/admin/partials/step-2-mapping.php:822
+msgid "Rule name (optional)"
+msgstr "Regelname (optional)"
+
+#: includes/admin/partials/step-2-mapping.php:700
+msgid "Rules are evaluated from top to bottom. First matching rule wins (or use \"Apply All\" mode)."
+msgstr "Regeln werden von oben nach unten ausgewertet. Die erste übereinstimmende Regel gewinnt (oder verwenden Sie den Modus \"Alle Anwenden\")."
+
+#: includes/admin/partials/step-2-mapping.php:1084
+msgid "Rules are evaluated from top to bottom. First matching rule wins. The assigned shipping class will be created automatically if it doesn't exist."
+msgstr "Regeln werden von oben nach unten ausgewertet. Die erste übereinstimmende Regel gewinnt. Die zugewiesene Versandklasse wird automatisch erstellt, wenn sie nicht existiert."
+
+#: includes/admin/partials/step-2-mapping.php:730
+msgid "Rules are evaluated top to bottom. First matching rule applies. Avoid overlapping conditions."
+msgstr "Regeln werden von oben nach unten ausgewertet. Die erste übereinstimmende Regel gilt. Vermeiden Sie überlappende Bedingungen."
+
+#: includes/admin/partials/step-2-mapping.php:296
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1131
+msgid "SEO Fields"
+msgstr "SEO-Felder"
+
+#: includes/admin/partials/step-2-mapping.php:1194
+msgid "SKU Pattern"
+msgstr "SKU-Muster"
+
+#: includes/admin/partials/step-2-mapping.php:2309
+msgid "SKU Pattern:"
+msgstr "SKU-Muster:"
+
+#: includes/admin/partials/step-2-mapping.php:3105
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/admin/partials/step-2-mapping.php:1602
+#: includes/admin/partials/step-2-mapping.php:1824
+msgid "Sale Date From:"
+msgstr "Angebotsdatum von:"
+
+#: includes/admin/partials/step-2-mapping.php:1606
+#: includes/admin/partials/step-2-mapping.php:1828
+msgid "Sale Date To:"
+msgstr "Angebotsdatum bis:"
+
+#: includes/admin/partials/step-2-mapping.php:143
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1083
+msgid "Sale Price"
+msgstr "Angebotspreis"
+
+#: includes/admin/partials/step-2-mapping.php:144
+msgid "Sale Price From Date"
+msgstr "Angebotspreis ab Datum"
+
+#: includes/admin/partials/step-2-mapping.php:145
+msgid "Sale Price To Date"
+msgstr "Angebotspreis bis Datum"
+
+#: includes/admin/partials/step-2-mapping.php:1598
+#: includes/admin/partials/step-2-mapping.php:1820
+#: includes/admin/partials/step-2-mapping.php:3082
+msgid "Sale Price:"
+msgstr "Angebotspreis:"
+
+#: includes/admin/partials/import-edit.php:310
+msgid "Sample Data"
+msgstr "Beispieldaten"
+
+#: includes/admin/partials/import-edit.php:312
+msgid "Sample product data will appear here after loading the file structure."
+msgstr "Beispiel-Produktdaten erscheinen hier nach dem Laden der Dateistruktur."
+
+#: includes/admin/partials/step-2-mapping.php:530
+#: includes/admin/partials/step-2-mapping.php:2621
+msgid "Save"
+msgstr "Speichern"
+
+#: includes/admin/partials/import-edit.php:878
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/admin/partials/step-2-mapping.php:528
+msgid "Save Template"
+msgstr "Vorlage speichern"
+
+#: includes/admin/partials/step-2-mapping.php:567
+msgid "Save and reuse mapping configurations across imports. Available in PRO version."
+msgstr "Zuordnungskonfigurationen speichern und über Importe hinweg wiederverwenden. In der PRO-Version verfügbar."
+
+#: includes/admin/partials/step-2-mapping.php:521
+msgid "Save current mapping as template:"
+msgstr "Aktuelle Zuordnung als Vorlage speichern:"
+
+#: includes/admin/partials/step-2-mapping.php:3608
+msgid "Save your field mappings as reusable templates. Perfect for recurring imports from the same source."
+msgstr "Speichern Sie Ihre Feldzuordnungen als wiederverwendbare Vorlagen. Perfekt für wiederkehrende Importe aus derselben Quelle."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:562
+msgid "Schedule"
+msgstr "Zeitplan"
+
+#: includes/admin/partials/import-edit.php:780
+msgid "Schedule Interval"
+msgstr "Zeitplanintervall"
+
+#: includes/admin/partials/step-2-mapping.php:441
+#: includes/admin/partials/import-edit.php:794
+msgid "Schedule Method"
+msgstr "Zeitplanmethode"
+
+#: includes/admin/partials/step-1-upload.php:138
+#: includes/admin/partials/step-1-upload.php:153
+msgid "Schedule Type"
+msgstr "Zeitplantyp"
+
+#: includes/admin/partials/import-edit.php:864
+msgid "Schedule automatic imports to run at regular intervals. Keep your products always up-to-date without manual intervention."
+msgstr "Planen Sie automatische Importe in regelmäßigen Abständen. Halten Sie Ihre Produkte immer aktuell ohne manuelle Eingriffe."
+
+#: includes/admin/partials/step-3-progress.php:269
+msgid "Schedule:"
+msgstr "Zeitplan:"
+
+#: includes/admin/partials/step-3-progress.php:191
+msgid "Schedule: Every minute"
+msgstr "Zeitplan: Jede Minute"
+
+#: includes/admin/partials/step-2-mapping.php:407
+msgid "Scheduled Import"
+msgstr "Geplanter Import"
+
+#: includes/admin/partials/settings-page.php:791
+#: includes/admin/partials/step-2-mapping.php:3421
+#: includes/admin/partials/step-2-mapping.php:3602
+msgid "Scheduled Imports"
+msgstr "Geplante Importe"
+
+#: includes/admin/partials/settings-page.php:667
+msgid "Scheduled Imports (Cron)"
+msgstr "Geplante Importe (Cron)"
+
+#: includes/admin/partials/settings-page.php:326
+msgid "Scheduled imports (cron)"
+msgstr "Geplante Importe (Cron)"
+
+#: includes/admin/partials/settings-page.php:121
+msgid "Scheduling"
+msgstr "Zeitplanung"
+
+#: includes/admin/partials/settings-page.php:690
+msgid "Scheduling Method"
+msgstr "Zeitplanungsmethode"
+
+#: includes/admin/partials/settings-page.php:124
+msgid "Security"
+msgstr "Sicherheit"
+
+#: includes/admin/partials/settings-page.php:910
+msgid "Security Settings"
+msgstr "Sicherheitseinstellungen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4190
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:4246
+msgid "Security check failed"
+msgstr "Sicherheitsüberprüfung fehlgeschlagen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1509
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1806
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1901
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1994
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2155
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2219
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2293
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2418
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2457
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2488
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2588
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2671
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2820
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3637
+#: includes/class-wc-xml-csv-ai-import-security.php:82
+msgid "Security check failed."
+msgstr "Sicherheitsüberprüfung fehlgeschlagen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:729
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:755
+msgid "Security check failed. Please try again."
+msgstr "Sicherheitsüberprüfung fehlgeschlagen. Bitte versuchen Sie es erneut."
+
+#: includes/admin/partials/step-1-upload.php:68
+msgid "Select File"
+msgstr "Datei auswählen"
+
+#: includes/admin/partials/step-1-upload.php:122
+msgid "Select file type manually for URLs without file extension (e.g., API feeds)."
+msgstr "Dateityp manuell für URLs ohne Dateierweiterung auswählen (z.B. API-Feeds)."
+
+#: includes/admin/partials/step-2-mapping.php:716
+msgid "Select the XML field that contains the supplier/wholesale price"
+msgstr "Wählen Sie das XML-Feld mit dem Lieferanten-/Großhandelspreis"
+
+#: includes/admin/partials/settings-page.php:311
+msgid "Select which fields to update"
+msgstr "Wählen Sie die zu aktualisierenden Felder"
+
+#: includes/admin/partials/step-2-mapping.php:461
+#: includes/admin/partials/import-edit.php:808
+msgid "Server Cron"
+msgstr "Server-Cron"
+
+#: includes/admin/partials/settings-page.php:716
+msgid "Server Cron (URL Trigger)"
+msgstr "Server-Cron (URL-Auslöser)"
+
+#: includes/admin/partials/import-edit.php:822
+msgid "Server Cron Setup"
+msgstr "Server-Cron Einrichtung"
+
+#: includes/admin/partials/settings-page.php:735
+msgid "Server Cron Setup Instructions"
+msgstr "Server-Cron Einrichtungsanleitung"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:120
+msgid "Server error during upload."
+msgstr "Serverfehler beim Hochladen."
+
+#: includes/admin/partials/step-3-progress.php:183
+msgid "Set up a cron job to continue imports in the background, even when the browser is closed."
+msgstr "Richten Sie einen Cron-Job ein, um Importe im Hintergrund fortzusetzen, auch wenn der Browser geschlossen ist."
+
+#: includes/admin/partials/settings-page.php:798
+msgid "Set up automatic import schedules"
+msgstr "Automatische Import-Zeitpläne einrichten"
+
+#: includes/admin/partials/step-2-mapping.php:3603
+msgid "Set up automatic imports on a schedule. Keep your products updated from supplier feeds without manual intervention."
+msgstr "Richten Sie automatische Importe nach Zeitplan ein. Halten Sie Ihre Produkte aus Lieferanten-Feeds aktuell ohne manuelle Eingriffe."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:201
+#: bootflow-product-importer.php:153
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/admin/partials/settings-page.php:98
+msgid "Settings saved successfully!"
+msgstr "Einstellungen erfolgreich gespeichert!"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1494
+msgid "Settings saved successfully."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+#: includes/admin/partials/step-2-mapping.php:201
+msgid "Shipping Class"
+msgstr "Versandklasse"
+
+#: includes/admin/partials/import-edit.php:366
+msgid "Shipping Class Assignment"
+msgstr "Versandklassenzuweisung"
+
+#: includes/admin/partials/step-2-mapping.php:205
+#: includes/admin/partials/step-2-mapping.php:1099
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1107
+msgid "Shipping Class Rules"
+msgstr "Versandklassenregeln"
+
+#: includes/admin/partials/step-2-mapping.php:1656
+#: includes/admin/partials/step-2-mapping.php:1923
+#: includes/admin/partials/step-2-mapping.php:3272
+msgid "Shipping Class:"
+msgstr "Versandklasse:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2832
+msgid "Shipping formula processing is a PRO feature. Please upgrade to use this functionality."
+msgstr "Versandformel-Verarbeitung ist eine PRO-Funktion. Bitte upgraden Sie, um diese Funktionalität zu nutzen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2858
+msgid "Shipping formula test completed successfully."
+msgstr "Versandformeltest erfolgreich abgeschlossen."
+
+#: includes/admin/partials/step-2-mapping.php:152
+msgid "Shipping only"
+msgstr "Nur Versand"
+
+#: includes/admin/partials/step-2-mapping.php:120
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1075
+msgid "Short Description"
+msgstr "Kurzbeschreibung"
+
+#: includes/admin/partials/settings-page.php:402
+#: includes/admin/partials/settings-page.php:421
+#: includes/admin/partials/settings-page.php:440
+#: includes/admin/partials/settings-page.php:459
+#: includes/admin/partials/settings-page.php:477
+#: includes/admin/partials/settings-page.php:980
+msgid "Show"
+msgstr "Anzeigen"
+
+#: includes/admin/partials/step-3-progress.php:186
+msgid "Show cron setup instructions"
+msgstr "Cron-Einrichtungsanleitung anzeigen"
+
+#: includes/admin/partials/step-2-mapping.php:3165
+msgid "Show on frontend"
+msgstr "Im Frontend anzeigen"
+
+#: includes/admin/partials/step-2-mapping.php:112
+msgid "Simple"
+msgstr "Einfach"
+
+#: includes/admin/partials/settings-page.php:279
+msgid "Simple & variable products"
+msgstr "Einfache & variable Produkte"
+
+#: includes/admin/partials/step-2-mapping.php:1360
+msgid "Simple Products"
+msgstr "Einfache Produkte"
+
+#: includes/admin/partials/step-2-mapping.php:1400
+msgid "Simple Products Mode"
+msgstr "Einfache-Produkte-Modus"
+
+#: includes/admin/partials/step-2-mapping.php:389
+#: includes/admin/partials/import-edit.php:196
+msgid "Skip Unchanged Products"
+msgstr "Unveränderte Produkte überspringen"
+
+#: includes/admin/partials/step-1-upload.php:181
+#: includes/admin/partials/step-2-mapping.php:394
+#: includes/admin/partials/import-edit.php:201
+msgid "Skip products if data unchanged"
+msgstr "Produkte überspringen, wenn Daten unverändert"
+
+#: includes/admin/partials/step-1-upload.php:183
+msgid "Skip updating products if mapped data hasn't changed."
+msgstr "Produktaktualisierung überspringen, wenn zugeordnete Daten unverändert sind."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:785
+#, php-format
+msgid "Skipped product (unchanged): %1$s (ID: %2$d)"
+msgstr "Produkt übersprungen (unverändert): %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:248
+msgid "Sold Individually"
+msgstr "Einzeln verkauft"
+
+#: includes/admin/partials/step-2-mapping.php:1431
+#: includes/admin/partials/step-2-mapping.php:2189
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/admin/partials/step-2-mapping.php:2625
+msgid "Start Import"
+msgstr "Import starten"
+
+#: includes/admin/partials/step-3-progress.php:499
+msgid "Start New Import"
+msgstr "Neuen Import starten"
+
+#: includes/admin/partials/step-3-progress.php:554
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1199
+msgid "Start Over"
+msgstr "Von vorne beginnen"
+
+#: includes/admin/partials/step-3-progress.php:259
+msgid "Started:"
+msgstr "Gestartet:"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6593
+msgid "Starting Phase 2: Resolving product relationships..."
+msgstr "Phase 2 gestartet: Produktbeziehungen werden aufgelöst..."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:6725
+msgid "Starting Phase 3: Syncing variable products stock status..."
+msgstr "Phase 3 gestartet: Bestandsstatus variabler Produkte wird synchronisiert..."
+
+#: includes/admin/partials/import-edit.php:100
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:561
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/partials/step-2-mapping.php:1660
+#: includes/admin/partials/step-2-mapping.php:1927
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/admin/partials/step-1-upload.php:25
+msgid "Step 1: Upload File"
+msgstr "Schritt 1: Datei hochladen"
+
+#: includes/admin/partials/settings-page.php:753
+msgid "Step 2 (Optional): Disable WP-Cron"
+msgstr "Schritt 2 (Optional): WP-Cron deaktivieren"
+
+#: includes/admin/partials/step-2-mapping.php:494
+msgid "Step 2: Field Mapping & Processing"
+msgstr "Schritt 2: Feldzuordnung & Verarbeitung"
+
+#: includes/admin/partials/step-2-mapping.php:3051
+msgid "Stock Adjustment:"
+msgstr "Bestandsanpassung:"
+
+#: includes/admin/partials/step-2-mapping.php:171
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1092
+msgid "Stock Quantity"
+msgstr "Bestandsmenge"
+
+#: includes/admin/partials/step-2-mapping.php:1610
+#: includes/admin/partials/step-2-mapping.php:1832
+msgid "Stock Quantity:"
+msgstr "Bestandsmenge:"
+
+#: includes/admin/partials/step-2-mapping.php:173
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1093
+msgid "Stock Status"
+msgstr "Bestandsstatus"
+
+#: includes/admin/partials/step-2-mapping.php:1614
+#: includes/admin/partials/step-2-mapping.php:1836
+msgid "Stock Status:"
+msgstr "Bestandsstatus:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:645
+msgid "Stop"
+msgstr "Stopp"
+
+#: includes/admin/partials/step-3-progress.php:284
+#: includes/admin/partials/step-3-progress.php:293
+msgid "Stop Import"
+msgstr "Import stoppen"
+
+#: includes/admin/partials/step-3-progress.php:467
+msgid "Success Rate"
+msgstr "Erfolgsrate"
+
+#: includes/admin/partials/step-3-progress.php:489
+#, php-format
+msgid "Successfully imported %1$d out of %2$d products."
+msgstr "Erfolgreich %1$d von %2$d Produkten importiert."
+
+#: includes/admin/partials/step-2-mapping.php:3110
+msgid "Suffix"
+msgstr "Suffix"
+
+#: includes/admin/partials/step-2-mapping.php:896
+msgid "Supplier name"
+msgstr "Lieferantenname"
+
+#: includes/admin/partials/step-2-mapping.php:157
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1085
+msgid "Tax Class"
+msgstr "Steuerklasse"
+
+#: includes/admin/partials/step-2-mapping.php:1919
+msgid "Tax Class:"
+msgstr "Steuerklasse:"
+
+#: includes/admin/partials/step-2-mapping.php:147
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1084
+msgid "Tax Status"
+msgstr "Steuerstatus"
+
+#: includes/admin/partials/step-2-mapping.php:151
+msgid "Taxable"
+msgstr "Steuerpflichtig"
+
+#: includes/admin/partials/step-2-mapping.php:2427
+#: includes/admin/partials/step-2-mapping.php:2745
+#: includes/admin/partials/import-edit.php:501
+msgid "Test AI"
+msgstr "KI testen"
+
+#: includes/admin/partials/step-2-mapping.php:1007
+msgid "Test Base Price:"
+msgstr "Testbasispreis:"
+
+#: includes/admin/partials/settings-page.php:504
+msgid "Test Connection"
+msgstr "Verbindung testen"
+
+#: includes/admin/partials/step-2-mapping.php:2785
+msgid "Test Hybrid"
+msgstr "Hybrid testen"
+
+#: includes/admin/partials/step-2-mapping.php:647
+#: includes/admin/partials/import-edit.php:335
+msgid "Test Mapping"
+msgstr "Zuordnung testen"
+
+#: includes/admin/partials/step-2-mapping.php:2760
+msgid "Test PHP"
+msgstr "PHP testen"
+
+#: includes/admin/partials/step-2-mapping.php:2404
+#: includes/admin/partials/import-edit.php:478
+msgid "Test PHP Formula"
+msgstr "PHP-Formel testen"
+
+#: includes/admin/partials/step-2-mapping.php:1993
+#: includes/admin/partials/import-edit.php:382
+msgid "Test Shipping Formula"
+msgstr "Versandformel testen"
+
+#: includes/admin/partials/step-1-upload.php:109
+msgid "Test URL"
+msgstr "URL testen"
+
+#: includes/admin/partials/step-2-mapping.php:999
+msgid "Test with Rule:"
+msgstr "Mit Regel testen:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:102
+msgid "Testing AI provider..."
+msgstr "KI-Anbieter wird getestet..."
+
+#: includes/admin/partials/step-2-mapping.php:2687
+#: includes/admin/partials/import-edit.php:705
+#: includes/admin/partials/import-edit.php:1119
+msgid "Text"
+msgstr "Text"
+
+#: includes/admin/partials/step-2-mapping.php:2689
+#: includes/admin/partials/import-edit.php:707
+#: includes/admin/partials/import-edit.php:1121
+msgid "Textarea"
+msgstr "Textbereich"
+
+#: includes/admin/partials/step-1-upload.php:132
+msgid "The XML element name that contains individual product data (e.g., \"product\", \"item\", \"goods\"). Leave as \"product\" for CSV files."
+msgstr "Der XML-Elementname, der individuelle Produktdaten enthält (z.B. \"product\", \"item\", \"goods\"). Für CSV-Dateien als \"product\" belassen."
+
+#: includes/admin/partials/step-3-progress.php:523
+msgid "The import process encountered an error and could not be completed. Please check the logs below for more details."
+msgstr "Der Importprozess ist auf einen Fehler gestoßen und konnte nicht abgeschlossen werden. Bitte überprüfen Sie die Protokolle unten für weitere Details."
+
+#: includes/admin/partials/step-2-mapping.php:2904
+#: includes/admin/partials/step-2-mapping.php:2944
+msgid "Then process with AI"
+msgstr "Dann mit KI verarbeiten"
+
+#: includes/admin/partials/step-2-mapping.php:2970
+msgid "These settings apply to ALL variations created from this attribute. Leave as \"No change\" to use parent product values."
+msgstr "Diese Einstellungen gelten für ALLE Variationen, die aus diesem Attribut erstellt werden. Belassen Sie es als \"Keine Änderung\", um die Werte des Elternprodukts zu verwenden."
+
+#: includes/admin/partials/step-2-mapping.php:3641
+msgid "This feature is available in the Pro version. Upgrade to unlock all advanced features."
+msgstr "Diese Funktion ist in der Pro-Version verfügbar. Upgraden Sie, um alle erweiterten Funktionen freizuschalten."
+
+#: includes/admin/partials/step-2-mapping.php:2015
+msgid "This formula is used only when no direct mapping is set above. Leave empty to skip."
+msgstr "Diese Formel wird nur verwendet, wenn oben keine direkte Zuordnung festgelegt ist. Leer lassen zum Überspringen."
+
+#: includes/admin/partials/import-edit.php:325
+msgid "This import needs to be configured. Please select source fields from the dropdowns below, configure processing modes, and click \"Save Changes\" to activate this import."
+msgstr "Dieser Import muss konfiguriert werden. Bitte wählen Sie Quellfelder aus den Dropdown-Menüs unten, konfigurieren Sie Verarbeitungsmodi und klicken Sie auf \"Änderungen Speichern\", um diesen Import zu aktivieren."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1179
+msgid "This import was previously started. Would you like to:"
+msgstr "Dieser Import wurde zuvor gestartet. Möchten Sie:"
+
+#: includes/admin/partials/settings-page.php:781
+msgid "This is the URL that the cron job will call to trigger scheduled imports."
+msgstr "Dies ist die URL, die der Cron-Job aufruft, um geplante Importe auszulösen."
+
+#: includes/class-wc-xml-csv-ai-import-activator.php:29
+msgid "This plugin requires WooCommerce to be installed and active."
+msgstr "Dieses Plugin erfordert, dass WooCommerce installiert und aktiv ist."
+
+#: includes/admin/partials/settings-page.php:774
+msgid "This secret key protects your cron endpoint from unauthorized access."
+msgstr "Dieser Geheimschlüssel schützt Ihren Cron-Endpunkt vor unbefugtem Zugriff."
+
+#: includes/admin/partials/step-3-progress.php:330
+msgid "Total"
+msgstr "Gesamt"
+
+#: includes/admin/partials/step-3-progress.php:235
+msgid "Total Products"
+msgstr "Produkte gesamt"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3576
+msgid "Track every import in detail. Monitor progress, debug issues, and ensure data quality with comprehensive logging."
+msgstr "Jeden Import im Detail verfolgen. Fortschritt überwachen, Probleme debuggen und Datenqualität mit umfassender Protokollierung sicherstellen."
+
+#: includes/admin/partials/step-2-mapping.php:3207
+msgid "Track inventory"
+msgstr "Bestand verfolgen"
+
+#: includes/admin/partials/step-2-mapping.php:2377
+msgid "Transform or translate ANY field value during import using PHP formulas, AI processing, or Hybrid mode."
+msgstr "JEDEN Feldwert beim Import mit PHP-Formeln, KI-Verarbeitung oder Hybrid-Modus transformieren oder übersetzen."
+
+#: includes/admin/partials/settings-page.php:361
+msgid "Translate product data with AI"
+msgstr "Produktdaten mit KI übersetzen"
+
+#: includes/admin/partials/step-2-mapping.php:338
+msgid "Type"
+msgstr "Typ"
+
+#: includes/admin/partials/step-2-mapping.php:1535
+msgid "Type Column:"
+msgstr "Typspalte:"
+
+#: includes/admin/partials/step-2-mapping.php:1587
+#: includes/admin/partials/step-2-mapping.php:1591
+#: includes/admin/partials/step-2-mapping.php:1595
+#: includes/admin/partials/step-2-mapping.php:1599
+#: includes/admin/partials/step-2-mapping.php:1603
+#: includes/admin/partials/step-2-mapping.php:1607
+#: includes/admin/partials/step-2-mapping.php:1611
+#: includes/admin/partials/step-2-mapping.php:1615
+#: includes/admin/partials/step-2-mapping.php:1619
+#: includes/admin/partials/step-2-mapping.php:1623
+#: includes/admin/partials/step-2-mapping.php:1627
+#: includes/admin/partials/step-2-mapping.php:1631
+#: includes/admin/partials/step-2-mapping.php:1634
+#: includes/admin/partials/step-2-mapping.php:1637
+#: includes/admin/partials/step-2-mapping.php:1641
+#: includes/admin/partials/step-2-mapping.php:1645
+#: includes/admin/partials/step-2-mapping.php:1649
+#: includes/admin/partials/step-2-mapping.php:1653
+#: includes/admin/partials/step-2-mapping.php:1657
+#: includes/admin/partials/step-2-mapping.php:1661
+#: includes/admin/partials/step-2-mapping.php:1665
+msgid "Type { to see columns"
+msgstr "Tippen Sie { um Spalten zu sehen"
+
+#: includes/admin/partials/step-2-mapping.php:1801
+#: includes/admin/partials/step-2-mapping.php:1809
+#: includes/admin/partials/step-2-mapping.php:1813
+#: includes/admin/partials/step-2-mapping.php:1817
+#: includes/admin/partials/step-2-mapping.php:1821
+#: includes/admin/partials/step-2-mapping.php:1825
+#: includes/admin/partials/step-2-mapping.php:1829
+#: includes/admin/partials/step-2-mapping.php:1833
+#: includes/admin/partials/step-2-mapping.php:1837
+#: includes/admin/partials/step-2-mapping.php:1841
+#: includes/admin/partials/step-2-mapping.php:1845
+#: includes/admin/partials/step-2-mapping.php:1850
+#: includes/admin/partials/step-2-mapping.php:1862
+#: includes/admin/partials/step-2-mapping.php:1872
+#: includes/admin/partials/step-2-mapping.php:1880
+#: includes/admin/partials/step-2-mapping.php:1883
+#: includes/admin/partials/step-2-mapping.php:1887
+#: includes/admin/partials/step-2-mapping.php:1891
+#: includes/admin/partials/step-2-mapping.php:1895
+#: includes/admin/partials/step-2-mapping.php:1899
+#: includes/admin/partials/step-2-mapping.php:1903
+#: includes/admin/partials/step-2-mapping.php:1907
+#: includes/admin/partials/step-2-mapping.php:1912
+#: includes/admin/partials/step-2-mapping.php:1920
+#: includes/admin/partials/step-2-mapping.php:1924
+#: includes/admin/partials/step-2-mapping.php:1928
+#: includes/admin/partials/step-2-mapping.php:1932
+msgid "Type { to see fields"
+msgstr "Tippen Sie { um Felder zu sehen"
+
+#: includes/admin/partials/step-2-mapping.php:2346
+#: includes/admin/partials/import-edit.php:445
+#, php-format
+msgid "Type { to see fields or drag field here. E.g. {%s}"
+msgstr "Tippen Sie { um Felder zu sehen oder ziehen Sie ein Feld hierher. Z.B. {%s}"
+
+#: includes/admin/partials/import-edit.php:291
+msgid "Type:"
+msgstr "Typ:"
+
+#: includes/admin/partials/step-2-mapping.php:270
+msgid "UPC"
+msgstr "UPC"
+
+#: includes/admin/partials/step-2-mapping.php:2692
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2198
+#, php-format
+msgid "URL is accessible (HTTP %d)."
+msgstr "URL ist erreichbar (HTTP %d)."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2168
+msgid "URL is required."
+msgstr "URL ist erforderlich."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:507
+msgid "URL must contain a valid host."
+msgstr "URL muss einen gültigen Host enthalten."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:503
+msgid "URL must use HTTP or HTTPS protocol."
+msgstr "URL muss HTTP- oder HTTPS-Protokoll verwenden."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2203
+#, php-format
+msgid "URL returned HTTP %d. Expected 200."
+msgstr "URL gab HTTP %d zurück. Erwartet: 200."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3689
+msgid "URL updated successfully. Next import will use the new URL."
+msgstr "URL erfolgreich aktualisiert. Der nächste Import wird die neue URL verwenden."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:528
+msgid "URLs pointing to private or reserved IP ranges are not allowed."
+msgstr "URLs, die auf private oder reservierte IP-Bereiche verweisen, sind nicht erlaubt."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:40
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:130
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:367
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:426
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:498
+msgid "Unable to open CSV file."
+msgstr "CSV-Datei kann nicht geöffnet werden."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:48
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:171
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:731
+msgid "Unable to open XML file."
+msgstr "XML-Datei kann nicht geöffnet werden."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:381
+msgid "Unable to parse CSV headers."
+msgstr "CSV-Kopfzeilen können nicht analysiert werden."
+
+#: includes/class-wc-xml-csv-ai-import-csv-parser.php:46
+msgid "Unable to read CSV headers."
+msgstr "CSV-Kopfzeilen können nicht gelesen werden."
+
+#: includes/admin/partials/step-2-mapping.php:2484
+#: includes/admin/partials/step-2-mapping.php:2810
+msgid "Uncheck to prevent this field from being updated when re-importing existing products"
+msgstr "Deaktivieren, um zu verhindern, dass dieses Feld beim erneuten Import bestehender Produkte aktualisiert wird"
+
+#: includes/admin/partials/step-2-mapping.php:104
+msgid "Unique product identifier. Can be mapped from file or auto-generated."
+msgstr "Eindeutiger Produktidentifikator. Kann aus Datei zugeordnet oder automatisch generiert werden."
+
+#: includes/admin/partials/step-2-mapping.php:2320
+msgid "Unix timestamp"
+msgstr "Unix-Zeitstempel"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:84
+#, php-format
+msgid "Unknown AI provider: %s"
+msgstr "Unbekannter KI-Anbieter: %s"
+
+#: includes/admin/partials/step-3-progress.php:220
+msgid "Unknown Status"
+msgstr "Unbekannter Status"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:123
+msgid "Unknown upload error."
+msgstr "Unbekannter Upload-Fehler."
+
+#: includes/admin/partials/settings-page.php:294
+msgid "Unlimited products"
+msgstr "Unbegrenzte Produkte"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3614
+msgid "Unlock all PRO features including scheduled imports, advanced filters, and AI processing."
+msgstr "Alle PRO-Funktionen freischalten, einschließlich geplanter Importe, erweiterter Filter und KI-Verarbeitung."
+
+#: includes/admin/partials/settings-page.php:605
+#: includes/admin/partials/step-1-upload.php:174
+#: includes/admin/partials/step-2-mapping.php:375
+#: includes/admin/partials/import-edit.php:182
+msgid "Update Existing Products"
+msgstr "Vorhandene Produkte aktualisieren"
+
+#: includes/admin/partials/import-edit.php:167
+msgid "Update URL"
+msgstr "URL aktualisieren"
+
+#: includes/admin/partials/settings-page.php:304
+msgid "Update existing products"
+msgstr "Vorhandene Produkte aktualisieren"
+
+#: includes/admin/partials/settings-page.php:316
+msgid "Update only price and stock"
+msgstr "Nur Preis und Bestand aktualisieren"
+
+#: includes/admin/partials/step-2-mapping.php:380
+#: includes/admin/partials/import-edit.php:187
+msgid "Update products that already exist (matched by SKU)"
+msgstr "Vorhandene Produkte aktualisieren (nach SKU abgeglichen)"
+
+#: includes/admin/partials/step-1-upload.php:176
+msgid "Update products that already exist (matched by SKU)."
+msgstr "Vorhandene Produkte aktualisieren (nach SKU abgeglichen)."
+
+#: includes/admin/partials/step-2-mapping.php:2480
+#: includes/admin/partials/step-2-mapping.php:2806
+msgid "Update this field on re-import?"
+msgstr "Dieses Feld beim Reimport aktualisieren?"
+
+#: includes/admin/partials/import-edit.php:427
+msgid "Update this field?"
+msgstr "Dieses Feld aktualisieren?"
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:794
+#, php-format
+msgid "Updated product: %1$s (ID: %2$d)"
+msgstr "Produkt aktualisiert: %1$s (ID: %2$d)"
+
+#: includes/admin/partials/step-2-mapping.php:2382
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: includes/admin/partials/settings-page.php:381
+#: includes/admin/partials/settings-page.php:805
+#: includes/admin/partials/step-2-mapping.php:2588
+#: includes/admin/partials/import-edit.php:872
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3610
+#: includes/class-wc-xml-csv-ai-import-license.php:432
+msgid "Upgrade to PRO"
+msgstr "Auf PRO upgraden"
+
+#: includes/class-wc-xml-csv-ai-import-license.php:426
+msgid "Upgrade to PRO to unlock this feature and remove all limits."
+msgstr "Upgraden Sie auf PRO, um diese Funktion freizuschalten und alle Limits zu entfernen."
+
+#: includes/admin/partials/step-2-mapping.php:3430
+msgid "Upgrade to Pro"
+msgstr "Auf Pro upgraden"
+
+#: includes/admin/partials/settings-page.php:834
+msgid "Upload Directory:"
+msgstr "Upload-Verzeichnis:"
+
+#: includes/admin/partials/step-1-upload.php:49
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:286
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+#: includes/admin/partials/step-1-upload.php:44
+msgid "Upload Method"
+msgstr "Upload-Methode"
+
+#: includes/admin/partials/settings-page.php:818
+msgid "Upload Settings"
+msgstr "Upload-Einstellungen"
+
+#: includes/admin/partials/step-1-upload.php:50
+msgid "Upload XML/CSV file from your computer"
+msgstr "XML/CSV-Datei von Ihrem Computer hochladen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1539
+msgid "Upload method is required."
+msgstr "Upload-Methode ist erforderlich."
+
+#: includes/admin/partials/step-1-upload.php:26
+msgid "Upload your XML or CSV file, or provide a URL to import products from."
+msgstr "Laden Sie Ihre XML- oder CSV-Datei hoch oder geben Sie eine URL zum Importieren von Produkten an."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:96
+msgid "Uploading file..."
+msgstr "Datei wird hochgeladen..."
+
+#: includes/admin/partials/step-2-mapping.php:279
+msgid "Upsell Product IDs"
+msgstr "Upselling Produkt-IDs"
+
+#: includes/admin/partials/step-2-mapping.php:2459
+#: includes/admin/partials/step-2-mapping.php:2462
+#: includes/admin/partials/import-edit.php:512
+msgid "Use $value as input"
+msgstr "$value als Eingabe verwenden"
+
+#: includes/admin/partials/step-2-mapping.php:2757
+msgid "Use $value for source field value, $product for full product data"
+msgstr "$value für Quellefeldwert, $product für vollständige Produktdaten verwenden"
+
+#: includes/admin/partials/step-2-mapping.php:3618
+msgid "Use PHP formulas to transform field values during import. Full flexibility for complex transformations."
+msgstr "PHP-Formeln verwenden, um Feldwerte beim Import zu transformieren. Volle Flexibilität für komplexe Transformationen."
+
+#: includes/admin/partials/settings-page.php:718
+msgid "Use an external server cron job to trigger imports via URL. Processes entire import in one request (with loop until complete)."
+msgstr "Einen externen Server-Cron-Job verwenden, um Importe per URL auszulösen. Verarbeitet den gesamten Import in einer Anfrage (mit Schleife bis zur Fertigstellung)."
+
+#: includes/admin/partials/step-2-mapping.php:2260
+msgid "Use as primary identifier (WC UI)"
+msgstr "Als primären Identifikator verwenden (WC UI)"
+
+#: includes/admin/partials/step-2-mapping.php:958
+msgid "Use default"
+msgstr "Standard verwenden"
+
+#: includes/admin/partials/step-2-mapping.php:2583
+msgid "Use regex patterns for advanced matching"
+msgstr "Regex-Muster für erweiterten Abgleich verwenden"
+
+#: includes/admin/partials/step-2-mapping.php:2450
+msgid "Use {value} as input"
+msgstr "{value} als Eingabe verwenden"
+
+#: includes/admin/partials/step-2-mapping.php:2959
+msgid "Used for variations"
+msgstr "Für Variationen verwendet"
+
+#: includes/admin/partials/settings-page.php:706
+msgid "Uses WooCommerce Action Scheduler for reliable background processing. Automatically processes all products until complete. Works without server cron configuration."
+msgstr "Verwendet WooCommerce Action Scheduler für zuverlässige Hintergrundverarbeitung. Verarbeitet automatisch alle Produkte bis zur Fertigstellung. Funktioniert ohne Server-Cron-Konfiguration."
+
+#: includes/class-wc-xml-csv-ai-import-importer.php:7034
+msgid "Valid file path is required."
+msgstr "Gültiger Dateipfad erforderlich."
+
+#: includes/admin/partials/step-2-mapping.php:913
+#: includes/admin/partials/step-2-mapping.php:1258
+#: includes/admin/partials/step-2-mapping.php:2668
+#: includes/admin/partials/import-edit.php:603
+#: includes/admin/partials/import-edit.php:1208
+msgid "Value"
+msgstr "Wert"
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Value Field:"
+msgstr "Wertfeld:"
+
+#: includes/admin/partials/step-2-mapping.php:2106
+msgid "Values: simple, variable, grouped, external"
+msgstr "Werte: simple, variable, grouped, external"
+
+#: includes/admin/partials/step-2-mapping.php:113
+msgid "Variable"
+msgstr "Variabel"
+
+#: includes/admin/partials/step-2-mapping.php:1384
+#: includes/admin/partials/step-2-mapping.php:3420
+#: includes/admin/partials/step-2-mapping.php:3597
+msgid "Variable Products"
+msgstr "Variable Produkte"
+
+#: includes/admin/partials/step-2-mapping.php:1500
+msgid "Variable Products Configuration"
+msgstr "Konfiguration variabler Produkte"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2388
+msgid "Variable product structure detected."
+msgstr "Variable Produktstruktur erkannt."
+
+#: includes/admin/partials/step-2-mapping.php:3312
+msgid "Variables: $value, $parent_description, $sku, $name, etc."
+msgstr "Variablen: $value, $parent_description, $sku, $name, etc."
+
+#: includes/admin/partials/step-2-mapping.php:3020
+msgid "Variables: $value, $parent_price, $sku, etc."
+msgstr "Variablen: $value, $parent_price, $sku, etc."
+
+#: includes/admin/partials/step-2-mapping.php:2967
+msgid "Variation Adjustments for this Attribute"
+msgstr "Variationsanpassungen für dieses Attribut"
+
+#: includes/admin/partials/step-2-mapping.php:1715
+msgid "Variation Attributes"
+msgstr "Variationsattribute"
+
+#: includes/admin/partials/step-2-mapping.php:1550
+msgid "Variation Attributes (CSV Columns)"
+msgstr "Variationsattribute (CSV-Spalten)"
+
+#: includes/admin/partials/step-2-mapping.php:1694
+msgid "Variation Container Path"
+msgstr "Variationscontainer-Pfad"
+
+#: includes/admin/partials/step-2-mapping.php:1790
+msgid "Variation Field Mapping"
+msgstr "Variationsfeldzuordnung"
+
+#: includes/admin/partials/step-2-mapping.php:1577
+msgid "Variation Field Mapping (CSV Columns)"
+msgstr "Variationsfeldzuordnung (CSV-Spalten)"
+
+#: includes/admin/partials/step-2-mapping.php:3264
+msgid "Variation Image:"
+msgstr "Variationsbild:"
+
+#: includes/admin/partials/step-2-mapping.php:1586
+#: includes/admin/partials/step-2-mapping.php:1808
+msgid "Variation SKU:"
+msgstr "Variations-SKU:"
+
+#: includes/admin/partials/step-3-progress.php:304
+msgid "View Detailed Logs"
+msgstr "Detaillierte Protokolle anzeigen"
+
+#: includes/admin/partials/step-3-progress.php:494
+msgid "View Products"
+msgstr "Produkte anzeigen"
+
+#: includes/admin/partials/step-2-mapping.php:425
+msgid "View cron setup instructions"
+msgstr "Cron-Einrichtungsanleitung anzeigen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3420
+msgid "View:"
+msgstr "Ansicht:"
+
+#: includes/admin/partials/step-2-mapping.php:238
+msgid "Virtual Product"
+msgstr "Virtuelles Produkt"
+
+#: includes/admin/partials/step-2-mapping.php:3170
+msgid "Virtual products have no shipping (e.g., services, consultations)"
+msgstr "Virtuelle Produkte haben keinen Versand (z.B. Dienstleistungen, Beratungen)"
+
+#: includes/admin/partials/step-2-mapping.php:1648
+#: includes/admin/partials/step-2-mapping.php:1894
+#: includes/admin/partials/step-2-mapping.php:3171
+msgid "Virtual:"
+msgstr "Virtuell:"
+
+#: includes/admin/partials/step-2-mapping.php:2954
+msgid "Visible on product page"
+msgstr "Auf Produktseite sichtbar"
+
+#: includes/admin/partials/step-2-mapping.php:1190
+msgid "Volume (L×W×H)"
+msgstr "Volumen (L×B×H)"
+
+#: includes/admin/partials/step-3-progress.php:413
+msgid "Waiting for product processing..."
+msgstr "Warte auf Produktverarbeitung..."
+
+#: includes/admin/partials/step-3-progress.php:346
+msgid "Waiting for progress..."
+msgstr "Warte auf Fortschritt..."
+
+#: includes/admin/partials/settings-page.php:241
+msgid "Want PRO features?"
+msgstr "PRO-Funktionen gewünscht?"
+
+#: includes/admin/partials/step-3-progress.php:181
+msgid "Want to close this page?"
+msgstr "Diese Seite schließen?"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2377
+#, php-format
+msgid "Warning: %d fields could not be mapped automatically."
+msgstr "Warnung: %d Felder konnten nicht automatisch zugeordnet werden."
+
+#: includes/admin/partials/import-edit.php:852
+msgid "We recommend running cron every minute. The plugin will only process when the scheduled interval has passed."
+msgstr "Wir empfehlen, Cron jede Minute auszuführen. Das Plugin verarbeitet nur, wenn das geplante Intervall abgelaufen ist."
+
+#: includes/admin/partials/import-edit.php:788
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:584
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: includes/admin/partials/step-1-upload.php:145
+#: includes/admin/partials/step-2-mapping.php:420
+msgid "Weekly Import"
+msgstr "Wöchentlicher Import"
+
+#: includes/admin/partials/step-2-mapping.php:197
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1100
+msgid "Weight"
+msgstr "Gewicht"
+
+#: includes/admin/partials/step-2-mapping.php:1188
+msgid "Weight Range"
+msgstr "Gewichtsbereich"
+
+#: includes/admin/partials/step-2-mapping.php:1626
+#: includes/admin/partials/step-2-mapping.php:1860
+#: includes/admin/partials/step-2-mapping.php:3213
+msgid "Weight:"
+msgstr "Gewicht:"
+
+#: includes/admin/partials/step-1-upload.php:211
+msgid "What to do with products that were imported before but are no longer present in the XML/CSV file."
+msgstr "Was mit Produkten geschehen soll, die zuvor importiert wurden, aber nicht mehr in der XML/CSV-Datei vorhanden sind."
+
+#: includes/admin/partials/step-2-mapping.php:382
+#: includes/admin/partials/import-edit.php:189
+msgid "When enabled, existing products with matching SKUs will be updated instead of creating duplicates."
+msgstr "Wenn aktiviert, werden vorhandene Produkte mit übereinstimmenden SKUs aktualisiert, anstatt Duplikate zu erstellen."
+
+#: includes/admin/partials/import-edit.php:217
+msgid "When enabled, products that were imported before but are no longer in the XML/CSV file will be processed."
+msgstr "Wenn aktiviert, werden Produkte, die zuvor importiert wurden, aber nicht mehr in der XML/CSV-Datei sind, verarbeitet."
+
+#: includes/admin/partials/import-edit.php:655
+msgid "When re-running, products that no longer match filters will be set to Draft status (not deleted)."
+msgstr "Bei erneutem Ausführen werden Produkte, die nicht mehr den Filtern entsprechen, auf Entwurf-Status gesetzt (nicht gelöscht)."
+
+#: includes/admin/partials/step-2-mapping.php:3156
+msgid "Whether the variation is available for purchase on the frontend"
+msgstr "Ob die Variation im Frontend zum Kauf verfügbar ist"
+
+#: includes/admin/partials/step-2-mapping.php:199
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1102
+msgid "Width"
+msgstr "Breite"
+
+#: includes/admin/partials/step-2-mapping.php:1633
+#: includes/admin/partials/step-2-mapping.php:1879
+#: includes/admin/partials/step-2-mapping.php:3248
+msgid "Width:"
+msgstr "Breite:"
+
+#: includes/admin/partials/step-2-mapping.php:1372
+msgid "With Attributes"
+msgstr "Mit Attributen"
+
+#: bootflow-product-importer.php:32
+msgid "WooCommerce XML/CSV Smart Import requires WooCommerce to be installed and active."
+msgstr "WooCommerce XML/CSV Smart Import erfordert, dass WooCommerce installiert und aktiv ist."
+
+#: includes/admin/partials/import-edit.php:368
+msgid "Write a PHP formula to automatically assign shipping classes based on product dimensions and weight. The formula should return the shipping class slug (e.g., \"S\", \"M\", \"L\", \"Smags\")."
+msgstr "Schreiben Sie eine PHP-Formel, um Versandklassen automatisch basierend auf Produktabmessungen und -gewicht zuzuweisen. Die Formel sollte den Versandklassen-Slug zurückgeben (z.B. \"S\", \"M\", \"L\", \"Schwer\")."
+
+#: includes/admin/partials/step-2-mapping.php:2845
+msgid "XML Attribute Key:"
+msgstr "XML-Attributschlüssel:"
+
+#: includes/admin/partials/step-2-mapping.php:2861
+msgid "XML Attribute Name (for name/value structure):"
+msgstr "XML-Attributname (für Name/Wert-Struktur):"
+
+#: includes/admin/partials/step-2-mapping.php:699
+msgid "XML Base Price → Apply Matching Rules → Apply Rounding → Final Price"
+msgstr "XML-Basispreis → Regeln anwenden → Rundung anwenden → Endpreis"
+
+#: includes/admin/partials/step-2-mapping.php:1193
+msgid "XML Field"
+msgstr "XML-Feld"
+
+#: includes/admin/partials/step-1-upload.php:128
+msgid "XML Product Element"
+msgstr "XML-Produktelement"
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:696
+msgid "XML file is valid."
+msgstr "XML-Datei ist gültig."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:42
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:166
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:726
+msgid "XML file not found."
+msgstr "XML-Datei nicht gefunden."
+
+#: includes/class-wc-xml-csv-ai-import-xml-parser.php:689
+msgid "XML validation errors: "
+msgstr "XML-Validierungsfehler: "
+
+#: includes/admin/partials/step-2-mapping.php:2072
+msgid "XML values: yes/no, true/false, 1/0"
+msgstr "XML-Werte: yes/no, true/false, 1/0"
+
+#: includes/admin/partials/settings-page.php:111
+msgid "XML/CSV AI Smart Import - Settings"
+msgstr "XML/CSV KI Smart Import — Einstellungen"
+
+#: includes/admin/partials/step-2-mapping.php:2049
+#: includes/admin/partials/step-2-mapping.php:3162
+#: includes/admin/partials/step-2-mapping.php:3176
+#: includes/admin/partials/step-2-mapping.php:3190
+#: includes/admin/partials/step-2-mapping.php:3204
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-wc-xml-csv-ai-import-security.php:70
+msgid "You do not have permission to perform this action."
+msgstr "Sie haben keine Berechtigung, diese Aktion auszuführen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1514
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1811
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1907
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1999
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2224
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2493
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2593
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2676
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2825
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3376
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie haben nicht ausreichende Berechtigungen, um auf diese Seite zuzugreifen."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2160
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2298
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2423
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:2462
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:3642
+msgid "You do not have sufficient permissions."
+msgstr "Sie haben nicht ausreichende Berechtigungen."
+
+#: includes/class-wc-xml-csv-ai-import-security.php:65
+msgid "You must be logged in to perform this action."
+msgstr "Sie müssen angemeldet sein, um diese Aktion auszuführen."
+
+#: includes/class-wc-xml-csv-ai-import-license.php:591
+#, php-format
+msgid "Your PRO license is not activated. Please %1$sactivate your license%2$s to unlock PRO features, or use the free version from WordPress.org."
+msgstr "Ihre PRO-Lizenz ist nicht aktiviert. Bitte %1$saktivieren Sie Ihre Lizenz%2$s, um PRO-Funktionen freizuschalten, oder verwenden Sie die kostenlose Version von WordPress.org."
+
+#: includes/admin/partials/step-3-progress.php:188
+msgid "cPanel / Plesk:"
+msgstr "cPanel / Plesk:"
+
+#: includes/admin/partials/import-edit.php:836
+msgid "cPanel Command"
+msgstr "cPanel-Befehl"
+
+#: includes/admin/partials/step-2-mapping.php:874
+#: includes/admin/partials/step-2-mapping.php:884
+#: includes/admin/partials/step-2-mapping.php:894
+#: includes/admin/partials/step-2-mapping.php:907
+#: includes/admin/partials/step-2-mapping.php:921
+#: includes/admin/partials/step-2-mapping.php:1228
+#: includes/admin/partials/step-2-mapping.php:1238
+#: includes/admin/partials/step-2-mapping.php:1252
+#: includes/admin/partials/step-2-mapping.php:1266
+#: includes/admin/partials/step-2-mapping.php:2658
+#: includes/admin/partials/import-edit.php:595
+#: includes/admin/partials/import-edit.php:1200
+msgid "contains"
+msgstr "enthält"
+
+#: includes/admin/partials/step-2-mapping.php:2395
+#: includes/admin/partials/import-edit.php:468
+msgid "e.g., $value * 1.2"
+msgstr "z.B., $value * 1.2"
+
+#: includes/admin/partials/step-2-mapping.php:3018
+msgid "e.g., $value * 1.21"
+msgstr "z.B., $value * 1.21"
+
+#: includes/admin/partials/step-2-mapping.php:3114
+msgid "e.g., -red, -xl"
+msgstr "z.B., -red, -xl"
+
+#: includes/admin/partials/import-edit.php:742
+#: includes/admin/partials/import-edit.php:1156
+msgid "e.g., Add 20 to this number: {value}. Return only the result number."
+msgstr "z.B., Addiere 20 zu dieser Zahl: {value}. Gib nur die Ergebniszahl zurück."
+
+#: includes/admin/partials/step-2-mapping.php:3025
+msgid "e.g., Convert price and add 21% VAT"
+msgstr "z.B., Preis umrechnen und 21% MwSt. hinzufügen"
+
+#: includes/admin/partials/import-edit.php:518
+msgid "e.g., Enhance this processed text for better readability"
+msgstr "z.B., Diesen verarbeiteten Text für bessere Lesbarkeit verbessern"
+
+#: includes/admin/partials/step-2-mapping.php:2435
+msgid "e.g., Enhance this text for better readability"
+msgstr "z.B., Diesen Text für bessere Lesbarkeit verbessern"
+
+#: includes/admin/partials/step-2-mapping.php:2898
+msgid "e.g., Extract color names from this text"
+msgstr "z.B., Farbnamen aus diesem Text extrahieren"
+
+#: includes/admin/partials/step-2-mapping.php:2938
+msgid "e.g., Extract image URL from HTML"
+msgstr "z.B., Bild-URL aus HTML extrahieren"
+
+#: includes/admin/partials/step-2-mapping.php:2741
+msgid "e.g., Extract the currency code from this value"
+msgstr "z.B., Währungscode aus diesem Wert extrahieren"
+
+#: includes/admin/partials/step-2-mapping.php:3317
+msgid "e.g., Generate unique variation description"
+msgstr "z.B., Einzigartige Variationsbeschreibung generieren"
+
+#: includes/admin/partials/step-2-mapping.php:2838
+msgid "e.g., Izmērs, Krāsa, Material"
+msgstr "z.B., Größe, Farbe, Material"
+
+#: includes/admin/partials/step-2-mapping.php:2866
+msgid "e.g., Material"
+msgstr "z.B., Material"
+
+#: includes/admin/partials/step-1-upload.php:38
+msgid "e.g., Summer Collection 2024"
+msgstr "z.B., Sommerkollektion 2024"
+
+#: includes/admin/partials/step-2-mapping.php:2423
+#: includes/admin/partials/import-edit.php:497
+msgid "e.g., Translate this product name to English and make it SEO-friendly"
+msgstr "z.B., Diesen Produktnamen ins Englische übersetzen und SEO-freundlich gestalten"
+
+#: includes/admin/partials/step-2-mapping.php:2719
+msgid "e.g., return $product['price']['@attributes']['currency'] ?? 'USD';"
+msgstr "z.B., return $product['price']['@attributes']['currency'] ?? 'USD';"
+
+#: includes/admin/partials/step-2-mapping.php:2755
+msgid "e.g., return $value * 1.21;"
+msgstr "z.B., return $value * 1.21;"
+
+#: includes/admin/partials/import-edit.php:729
+#: includes/admin/partials/import-edit.php:1143
+msgid "e.g., return $value + 20;"
+msgstr "z.B., return $value + 20;"
+
+#: includes/admin/partials/step-2-mapping.php:2851
+msgid "e.g., size, color, material"
+msgstr "z.B., Größe, Farbe, Material"
+
+#: includes/admin/partials/step-2-mapping.php:2456
+#: includes/admin/partials/import-edit.php:509
+msgid "e.g., trim(strtolower($value))"
+msgstr "z.B., trim(strtolower($value))"
+
+#: includes/admin/partials/step-2-mapping.php:1746
+msgid "e.g., variations.variation.attributes"
+msgstr "z.B., variations.variation.attributes"
+
+#: includes/admin/partials/step-2-mapping.php:920
+#: includes/admin/partials/step-2-mapping.php:1265
+msgid "ends with"
+msgstr "endet mit"
+
+#: includes/admin/partials/step-2-mapping.php:873
+#: includes/admin/partials/step-2-mapping.php:883
+#: includes/admin/partials/step-2-mapping.php:893
+#: includes/admin/partials/step-2-mapping.php:1227
+#: includes/admin/partials/step-2-mapping.php:1237
+msgid "equals"
+msgstr "gleich"
+
+#: includes/admin/partials/step-2-mapping.php:863
+#: includes/admin/partials/step-2-mapping.php:1199
+#: includes/admin/partials/step-2-mapping.php:1208
+#: includes/admin/partials/step-2-mapping.php:1217
+msgid "from"
+msgstr "von"
+
+#: includes/admin/partials/step-1-upload.php:106
+msgid "https://example.com/products.xml"
+msgstr "https://example.com/products.xml"
+
+#: includes/admin/partials/step-2-mapping.php:2660
+#: includes/admin/partials/import-edit.php:597
+#: includes/admin/partials/import-edit.php:1202
+msgid "is empty"
+msgstr "ist leer"
+
+#: includes/admin/partials/import-edit.php:119
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:603
+msgid "just now"
+msgstr "gerade eben"
+
+#: includes/admin/partials/step-2-mapping.php:922
+#: includes/admin/partials/step-2-mapping.php:1267
+msgid "matches regex"
+msgstr "entspricht Regex"
+
+#: includes/admin/partials/step-3-progress.php:451
+msgid "minutes"
+msgstr "Minuten"
+
+#: includes/admin/partials/step-2-mapping.php:2659
+#: includes/admin/partials/import-edit.php:596
+#: includes/admin/partials/import-edit.php:1201
+msgid "not contains"
+msgstr "enthält nicht"
+
+#: includes/admin/partials/step-2-mapping.php:2661
+#: includes/admin/partials/import-edit.php:598
+#: includes/admin/partials/import-edit.php:1203
+msgid "not empty"
+msgstr "nicht leer"
+
+#: includes/admin/partials/step-2-mapping.php:875
+#: includes/admin/partials/step-2-mapping.php:885
+#: includes/admin/partials/step-2-mapping.php:1229
+#: includes/admin/partials/step-2-mapping.php:1239
+msgid "not equals"
+msgstr "ungleich"
+
+#: includes/admin/partials/step-1-upload.php:74
+msgid "or"
+msgstr "oder"
+
+#: includes/admin/partials/step-2-mapping.php:1136
+#: includes/admin/partials/step-2-mapping.php:1295
+msgid "or type new:"
+msgstr "oder neuen eingeben:"
+
+#: includes/admin/partials/step-3-progress.php:334
+msgid "prod/min"
+msgstr "Prod./Min."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:116
+msgid "products deleted"
+msgstr "Produkte gelöscht"
+
+#: includes/admin/partials/import-edit.php:160
+msgid "products per chunk"
+msgstr "Produkte pro Block"
+
+#: includes/admin/partials/step-3-progress.php:435
+msgid "products/min"
+msgstr "Produkte/Min."
+
+#: includes/admin/partials/step-2-mapping.php:2662
+msgid "regex match"
+msgstr "Regex-Übereinstimmung"
+
+#: includes/admin/partials/step-2-mapping.php:2663
+msgid "regex not match"
+msgstr "Regex keine Übereinstimmung"
+
+#: includes/admin/partials/step-2-mapping.php:919
+#: includes/admin/partials/step-2-mapping.php:1264
+msgid "starts with"
+msgstr "beginnt mit"
+
+#: includes/admin/partials/step-2-mapping.php:865
+#: includes/admin/partials/step-2-mapping.php:1201
+#: includes/admin/partials/step-2-mapping.php:1210
+#: includes/admin/partials/step-2-mapping.php:1219
+msgid "to"
+msgstr "bis"
+
+#: includes/class-wc-xml-csv-ai-import-ai-providers.php:303
+msgid "xAI Grok API key not configured."
+msgstr "xAI Grok API-Schlüssel nicht konfiguriert."
+
+#: includes/admin/partials/settings-page.php:454
+msgid "xAI Grok Settings"
+msgstr "xAI Grok Einstellungen"
+
+#: includes/admin/partials/step-2-mapping.php:1439
+msgid "{attribute1}→{value1}"
+msgstr "{attribute1}→{value1}"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:1208
+msgid "← Back to Import History"
+msgstr "← Zurück zum Importverlauf"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:625
+msgid "⏳ <1 min"
+msgstr "⏳ <1 Min."
+
+#: includes/admin/partials/import-edit.php:141
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:623
+msgid "⏳ due now"
+msgstr "⏳ jetzt fällig"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:627
+#, php-format
+msgid "⏳ in %d min"
+msgstr "⏳ in %d Min."
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php:629
+#, php-format
+msgid "⏳ in %dh %dm"
+msgstr "⏳ in %dh %dm"
+
+#: includes/admin/partials/import-edit.php:143
+msgid "⏳ in less than 1 min"
+msgstr "⏳ in weniger als 1 Min."
+
+#: includes/admin/partials/import-edit.php:145
+#, php-format
+msgid "⏳ next run in %d min"
+msgstr "⏳ nächster Lauf in %d Min."
+
+#: includes/admin/partials/import-edit.php:147
+#, php-format
+msgid "⏳ next run in %dh %dm"
+msgstr "⏳ nächster Lauf in %dh %dm"
+
+#: includes/admin/partials/import-edit.php:880
+msgid "▶ Run Import Now"
+msgstr "▶ Import jetzt ausführen"
+
+#: includes/admin/partials/import-edit.php:472
+msgid "⚠️ Always use $value as input (not field names like $price or $product_price)"
+msgstr "⚠️ Verwenden Sie immer $value als Eingabe (keine Feldnamen wie $price oder $product_price)"
+
+#: includes/admin/partials/import-edit.php:648
+msgid "⚠️ Changing filters will affect future imports. Existing products won't be modified automatically."
+msgstr "⚠️ Ändern der Filter wirkt sich auf zukünftige Importe aus. Bestehende Produkte werden nicht automatisch geändert."
+
+#: includes/admin/partials/import-edit.php:659
+msgid "⚠️ If unchecked: Products not matching filters will be skipped during import, but existing products will remain Published."
+msgstr "⚠️ Wenn deaktiviert: Produkte, die nicht den Filtern entsprechen, werden beim Import übersprungen, aber bestehende Produkte bleiben veröffentlicht."
+
+#: includes/admin/partials/step-2-mapping.php:2400
+msgid "✅ Access any XML field: <code>$value . \" - \" . $brand</code>"
+msgstr "✅ Auf jedes XML-Feld zugreifen: <code>$value . \" - \" . $brand</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2399
+msgid "✅ Complex formulas need return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+msgstr "✅ Komplexe Formeln benötigen return: <code>if ($value > 100) { return $value * 0.9; } return $value;</code>"
+
+#: includes/admin/partials/step-2-mapping.php:2398
+msgid "✅ Simple formulas work directly: <code>$value * 1.2</code>"
+msgstr "✅ Einfache Formeln funktionieren direkt: <code>$value * 1.2</code>"
+
+#: includes/admin/partials/step-2-mapping.php:856
+msgid "🏭 Supplier"
+msgstr "🏭 Lieferant"
+
+#: includes/admin/partials/step-2-mapping.php:855
+msgid "🏷️ Brand"
+msgstr "🏷️ Marke"
+
+#: includes/admin/partials/step-2-mapping.php:854
+msgid "📁 Category"
+msgstr "📁 Kategorie"
+
+#: includes/admin/partials/step-2-mapping.php:857
+msgid "📄 XML Field"
+msgstr "📄 XML-Feld"
+
+#: includes/admin/partials/step-2-mapping.php:858
+msgid "🔢 SKU Pattern"
+msgstr "🔢 SKU-Muster"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "← Prev"
+msgstr "← Zurück"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Next →"
+msgstr "Weiter →"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go"
+msgstr "Los"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Go to product:"
+msgstr "Zum Produkt:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Product %1$d of %2$d"
+msgstr "Produkt %1$d von %2$d"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Basic Info"
+msgstr "Grundinformationen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Pricing"
+msgstr "Preisgestaltung"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Inventory"
+msgstr "Lagerbestand"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Shipping"
+msgstr "Versand"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Identifiers"
+msgstr "Kennzeichnungen"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Other Fields"
+msgstr "Andere Felder"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "items"
+msgstr "Elemente"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click to expand)"
+msgstr "(klicken zum Erweitern)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "(click)"
+msgstr "(klicken)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Object (%d fields)"
+msgstr "Objekt (%d Felder)"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "All %d items"
+msgstr "Alle %d Elemente"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "+ %d nested/complex fields (attributes, variations, etc.) available in dropdown"
+msgstr "+ %d verschachtelte/komplexe Felder (Attribute, Variationen, etc.) im Dropdown verfügbar"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Preview:"
+msgstr "Vorschau:"
+
+#: includes/admin/class-wc-xml-csv-ai-import-admin.php
+msgid "Variable Product Detected"
+msgstr "Variables Produkt erkannt"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "$parent_description . \" | \" . $value"
+msgstr "$parent_description . \" | \" . $value"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., \"Size: \" . $value . \" - \" . $parent_description"
+msgstr "z.B., \"Size: \" . $value . \" - \" . $parent_description"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., explode(\",\", $value)"
+msgstr "z.B., explode(\",\", $value)"
+
+#: includes/admin/partials/step-2-mapping.php
+msgid "e.g., str_replace(\"small\", \"large\", $value)"
+msgstr "z.B., str_replace(\"small\", \"large\", $value)"
+

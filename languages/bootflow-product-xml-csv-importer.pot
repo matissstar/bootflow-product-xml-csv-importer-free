@@ -1,0 +1,3961 @@
+# Copyright (C) 2026 Bootflow
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootflow – Product XML & CSV Importer 0.9.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bootflow-product-xml-csv-importer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-12T09:55:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: bootflow-product-xml-csv-importer\n"
+
+#. Plugin Name of the plugin
+#: bootflow-product-importer.php
+#: includes/admin/class-bfpi-admin.php:337
+msgid "Bootflow – Product XML & CSV Importer"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: bootflow-product-importer.php
+msgid "https://bootflow.io/"
+msgstr ""
+
+#. Description of the plugin
+#: bootflow-product-importer.php
+msgid "Import and update WooCommerce products from XML and CSV feeds with manual field mapping, product variations support, and a reliable import workflow."
+msgstr ""
+
+#. Author of the plugin
+#: bootflow-product-importer.php
+msgid "Bootflow"
+msgstr ""
+
+#. Author URI of the plugin
+#: bootflow-product-importer.php
+msgid "https://bootflow.io"
+msgstr ""
+
+#: bootflow-product-importer.php:32
+msgid "Bootflow Product Importer requires WooCommerce to be installed and active."
+msgstr ""
+
+#: bootflow-product-importer.php:126
+#: includes/admin/partials/settings-page.php:112
+#: includes/admin/partials/step-2-mapping.php:327
+msgid "Import"
+msgstr ""
+
+#: bootflow-product-importer.php:127
+#: includes/admin/class-bfpi-admin.php:282
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:96
+msgid "Uploading file..."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:97
+msgid "Parsing file structure..."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:98
+msgid "Importing products..."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:99
+msgid "Import complete!"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:100
+msgid "An error occurred:"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:101
+msgid "Are you sure you want to start the import?"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:102
+msgid "Testing AI provider..."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:115
+msgid "Deleting Products"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:116
+msgid "products deleted"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:117
+#: includes/admin/partials/import-edit.php:710
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:118
+msgid "Close"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:119
+msgid "Are you sure you want to delete all products from this import?"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:120
+msgid "Counting products..."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:121
+msgid "Deleting..."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:122
+#: includes/admin/class-bfpi-admin.php:638
+msgid "No products found to delete."
+msgstr ""
+
+#. translators: %d is the number of products deleted
+#: includes/admin/class-bfpi-admin.php:124
+#, php-format
+msgid "All %d products deleted successfully!"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:126
+msgid "← Prev"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:127
+msgid "Next →"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:128
+msgid "Go"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:129
+msgid "Go to product:"
+msgstr ""
+
+#. translators: %1$d is the current product number, %2$d is the total number of products
+#: includes/admin/class-bfpi-admin.php:131
+#, php-format
+msgid "Product %1$d of %2$d"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:133
+msgid "Basic Info"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:134
+msgid "Pricing"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:135
+msgid "Inventory"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:136
+msgid "Shipping"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:137
+msgid "Identifiers"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:138
+msgid "Other Fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:140
+msgid "items"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:141
+msgid "(click to expand)"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:142
+msgid "(click)"
+msgstr ""
+
+#. translators: %d = number of fields
+#: includes/admin/class-bfpi-admin.php:144
+#, php-format
+msgid "Object (%d fields)"
+msgstr ""
+
+#. translators: %d = number of items
+#: includes/admin/class-bfpi-admin.php:146
+#, php-format
+msgid "All %d items"
+msgstr ""
+
+#. translators: %d = number of nested/complex fields
+#: includes/admin/class-bfpi-admin.php:148
+#, php-format
+msgid "+ %d nested/complex fields (attributes, variations, etc.) available in dropdown"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:149
+#: includes/admin/partials/step-2-mapping.php:2617
+msgid "Preview:"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:150
+msgid "Variable Product Detected"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:251
+msgid "Bootflow Importer"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:252
+msgid "Bootflow Import"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:263
+#: includes/admin/class-bfpi-admin.php:264
+msgid "New Import"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:272
+#: includes/admin/class-bfpi-admin.php:645
+msgid "Import History"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:273
+msgid "History"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:281
+#: includes/admin/partials/import-edit.php:264
+#: includes/admin/partials/settings-page.php:228
+msgid "Import Settings"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:370
+#: includes/admin/partials/step-1-upload.php:47
+msgid "Upload File"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:371
+msgid "Map Fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:372
+#: includes/admin/partials/step-3-progress.php:177
+msgid "Import Progress"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:567
+msgid "Import stopped successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:597
+msgid "Import and file deleted successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:599
+msgid "Failed to delete import."
+msgstr ""
+
+#. translators: %d is the number of deleted products
+#: includes/admin/class-bfpi-admin.php:636
+#, php-format
+msgid "%d products deleted successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:658
+msgid "No imports found."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:663
+#: includes/admin/partials/import-edit.php:74
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:664
+#: includes/admin/partials/import-edit.php:78
+#: includes/admin/partials/step-1-upload.php:92
+msgid "File Type"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:665
+#: includes/admin/partials/import-edit.php:86
+#: includes/admin/partials/step-2-mapping.php:333
+msgid "Products"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:666
+#: includes/admin/partials/import-edit.php:82
+#: includes/admin/partials/settings-page.php:150
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:667
+msgid "Schedule"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:668
+#: includes/admin/partials/import-edit.php:90
+msgid "Created"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:669
+#: includes/admin/partials/import-edit.php:94
+msgid "Last Run"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:670
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:686
+msgid "Every 15 min"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:687
+#: includes/admin/partials/import-edit.php:632
+msgid "Hourly"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:688
+msgid "Every 6h"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:689
+#: includes/admin/partials/import-edit.php:634
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:690
+#: includes/admin/partials/import-edit.php:635
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:691
+#: includes/admin/partials/import-edit.php:636
+msgid "Monthly"
+msgstr ""
+
+#. translators: %1$d is the database count, %2$d is processed count, %3$d is total in file - Show actual products in DB / processed from file / total in file
+#: includes/admin/class-bfpi-admin.php:700
+#, php-format
+msgid "In database: %1$d, Processed: %2$d, In file: %3$d"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:709
+#: includes/admin/partials/import-edit.php:101
+msgid "just now"
+msgstr ""
+
+#. translators: %d = number of minutes
+#: includes/admin/class-bfpi-admin.php:712
+#: includes/admin/partials/import-edit.php:104
+#, php-format
+msgid "%d min ago"
+msgstr ""
+
+#. translators: %1$d = hours, %2$d = minutes
+#: includes/admin/class-bfpi-admin.php:717
+#: includes/admin/partials/import-edit.php:109
+#, php-format
+msgid "%1$dh %2$dm ago"
+msgstr ""
+
+#. translators: %d = number of days
+#: includes/admin/class-bfpi-admin.php:720
+#: includes/admin/partials/import-edit.php:112
+#, php-format
+msgid "%d days ago"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:732
+#: includes/admin/partials/import-edit.php:126
+msgid "⏳ due now"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:734
+msgid "⏳ <1 min"
+msgstr ""
+
+#. translators: %d = number of minutes
+#: includes/admin/class-bfpi-admin.php:737
+#, php-format
+msgid "⏳ in %d min"
+msgstr ""
+
+#. translators: %1$d = hours, %2$d = minutes
+#: includes/admin/class-bfpi-admin.php:740
+#, php-format
+msgid "⏳ in %1$dh %2$dm"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:746
+#: includes/admin/partials/import-edit.php:141
+msgid "Never"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:752
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:756
+msgid "Stop"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:760
+msgid "Re-run"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:767
+msgid "Are you sure you want to delete this import and its file?"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:767
+msgid "Delete import"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:770
+msgid "Delete products"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:798
+msgid "Import Not Found"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:845
+#: includes/admin/class-bfpi-admin.php:863
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1096
+msgid "Import updated successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1182
+#: includes/admin/partials/step-2-mapping.php:86
+msgid "Basic Product Fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1184
+#: includes/admin/partials/step-2-mapping.php:89
+msgid "Product Code (SKU)"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1185
+#: includes/admin/partials/step-2-mapping.php:94
+msgid "Product Name"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1186
+#: includes/admin/partials/step-2-mapping.php:107
+msgid "Description"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1187
+#: includes/admin/partials/step-2-mapping.php:108
+msgid "Short Description"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1188
+#: includes/admin/partials/step-2-mapping.php:110
+msgid "Product Status"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1192
+#: includes/admin/partials/step-2-mapping.php:128
+msgid "Pricing Fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1194
+#: includes/admin/partials/step-2-mapping.php:130
+msgid "Regular Price"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1195
+#: includes/admin/partials/step-2-mapping.php:131
+msgid "Sale Price"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1196
+#: includes/admin/partials/step-2-mapping.php:135
+msgid "Tax Status"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1197
+#: includes/admin/partials/step-2-mapping.php:145
+msgid "Tax Class"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1201
+#: includes/admin/partials/step-2-mapping.php:152
+msgid "Inventory Fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1203
+#: includes/admin/partials/step-2-mapping.php:155
+msgid "Manage Stock"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1204
+#: includes/admin/partials/step-2-mapping.php:159
+msgid "Stock Quantity"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1205
+#: includes/admin/partials/step-2-mapping.php:161
+msgid "Stock Status"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1206
+#: includes/admin/partials/step-2-mapping.php:171
+msgid "Allow Backorders"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1210
+#: includes/admin/partials/step-2-mapping.php:183
+msgid "Physical Properties"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1212
+#: includes/admin/partials/step-2-mapping.php:185
+msgid "Weight"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1213
+#: includes/admin/partials/step-2-mapping.php:186
+msgid "Length"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1214
+#: includes/admin/partials/step-2-mapping.php:187
+msgid "Width"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1215
+#: includes/admin/partials/step-2-mapping.php:188
+msgid "Height"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1219
+#: includes/admin/partials/step-2-mapping.php:193
+#: includes/admin/partials/step-2-mapping.php:887
+msgid "Shipping Class Rules"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1223
+#: includes/admin/partials/step-2-mapping.php:198
+msgid "Media Fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1226
+#: includes/admin/partials/step-2-mapping.php:201
+msgid "Product Images"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1229
+#: includes/admin/partials/step-2-mapping.php:204
+msgid "Enter image URLs or use placeholders: {image} = first image, {image[1]} = first, {image[2]} = second, {image*} = all images. Separate multiple values with commas."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1231
+#: includes/admin/partials/step-2-mapping.php:206
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1235
+#: includes/admin/partials/step-2-mapping.php:210
+msgid "Categories & Tags"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1237
+#: includes/admin/partials/step-2-mapping.php:1852
+msgid "Product Categories"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1238
+#: includes/admin/partials/step-2-mapping.php:2045
+msgid "Product Tags"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1239
+#: includes/admin/partials/step-2-mapping.php:980
+msgid "Brand"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1243
+#: includes/admin/partials/step-2-mapping.php:281
+msgid "SEO Fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1245
+#: includes/admin/partials/step-2-mapping.php:283
+msgid "Meta Title"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1246
+#: includes/admin/partials/step-2-mapping.php:284
+msgid "Meta Description"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1247
+#: includes/admin/partials/step-2-mapping.php:285
+msgid "Meta Keywords"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1270
+msgid "Resume Import?"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1277
+msgid "Current Progress:"
+msgstr ""
+
+#. translators: %1$d is processed products count, %2$d is total products count
+#: includes/admin/class-bfpi-admin.php:1281
+#, php-format
+msgid "%1$d of %2$d products processed"
+msgstr ""
+
+#. translators: %d is remaining products count
+#: includes/admin/class-bfpi-admin.php:1284
+#, php-format
+msgid "%d products remaining"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1287
+msgid "This import was previously started. Would you like to:"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1296
+msgid "Continue Import"
+msgstr ""
+
+#. translators: %d is the product number to resume from
+#: includes/admin/class-bfpi-admin.php:1298
+#, php-format
+msgid "Resume from product %d"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1304
+msgid "Are you sure? This will reset progress and start from the beginning."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1307
+#: includes/admin/partials/step-3-progress.php:487
+msgid "Start Over"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1308
+msgid "Reset and import all products"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1316
+msgid "← Back to Import History"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1340
+#: includes/admin/class-bfpi-admin.php:2107
+#: includes/admin/class-bfpi-admin.php:2282
+#: includes/admin/class-bfpi-admin.php:2792
+#: includes/admin/partials/step-3-progress.php:33
+#: includes/class-bfpi-importer.php:235
+msgid "Import not found."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1610
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1626
+#: includes/admin/class-bfpi-admin.php:1848
+#: includes/admin/class-bfpi-admin.php:1957
+#: includes/admin/class-bfpi-admin.php:2083
+#: includes/admin/class-bfpi-admin.php:2261
+#: includes/admin/class-bfpi-admin.php:2388
+#: includes/admin/class-bfpi-admin.php:2759
+#: includes/class-bfpi-security.php:90
+msgid "Security check failed."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1631
+#: includes/admin/class-bfpi-admin.php:1853
+#: includes/admin/class-bfpi-admin.php:1964
+#: includes/admin/class-bfpi-admin.php:2088
+#: includes/admin/class-bfpi-admin.php:2266
+#: includes/admin/class-bfpi-admin.php:2393
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1661
+#: includes/class-bfpi-importer.php:7183
+msgid "Import name is required."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1665
+msgid "Upload method is required."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1683
+msgid "File upload error."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1690
+msgid "Invalid file type. Only XML and CSV files are allowed."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1737
+#: includes/admin/class-bfpi-admin.php:2831
+msgid "URL import is not supported."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1739
+msgid "No file provided."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1744
+msgid "File upload failed - file does not exist."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1751
+msgid "File is empty."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1822
+msgid "File uploaded successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:1909
+msgid "File is not ready yet. Please refresh the page and try again."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2058
+msgid "Import started successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2114
+msgid "Import already completed."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2127
+msgid "Import already in progress."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2153
+msgid "Import processing started."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2249
+msgid "URL testing is not supported."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2336
+msgid "AI auto-mapping is not supported."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2345
+msgid "License activation is not required."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2354
+msgid "No license to deactivate."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2363
+msgid "AI testing is not supported."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2372
+msgid "PHP formula testing is not supported."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2405
+msgid "Invalid import ID or mapping data."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2519
+msgid "Database error: "
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2524
+msgid "Mapping configuration saved successfully."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2541
+msgid "Shipping formula testing is not supported."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2764
+msgid "You do not have sufficient permissions."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2774
+msgid "Invalid import ID or URL."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2814
+msgid "Failed to update URL in database."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2818
+msgid "URL updated successfully. Next import will use the new URL."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:2961
+#: includes/admin/class-bfpi-admin.php:2968
+#: includes/admin/class-bfpi-admin.php:2975
+msgid "Recipes are not supported."
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:3024
+msgid "No source fields provided"
+msgstr ""
+
+#. translators: %1$d is matched count, %2$d is total fields
+#: includes/admin/class-bfpi-admin.php:3154
+#, php-format
+msgid "Auto-detected %1$d of %2$d fields"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:3171
+#: includes/admin/class-bfpi-admin.php:3236
+msgid "Security check failed"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:3178
+#: includes/admin/class-bfpi-admin.php:3243
+msgid "Permission denied"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:3188
+#: includes/admin/class-bfpi-admin.php:3223
+msgid "Invalid import ID"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:3317
+msgid "All products deleted successfully"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/admin/class-bfpi-admin.php:3319
+#, php-format
+msgid "Deleted %1$d products, %2$d remaining..."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:62
+msgid "Import Details:"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:66
+msgid "Back to Import History"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:71
+msgid "Import Information"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:128
+msgid "⏳ in less than 1 min"
+msgstr ""
+
+#. translators: %d = number of minutes
+#: includes/admin/partials/import-edit.php:131
+#, php-format
+msgid "⏳ next run in %d min"
+msgstr ""
+
+#. translators: %1$d = hours, %2$d = minutes
+#: includes/admin/partials/import-edit.php:134
+#, php-format
+msgid "⏳ next run in %1$dh %2$dm"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:146
+#: includes/admin/partials/import-edit.php:267
+#: includes/admin/partials/step-1-upload.php:143
+#: includes/admin/partials/step-2-mapping.php:392
+msgid "Batch Size"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:147
+msgid "products per chunk"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:151
+msgid "File URL"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:154
+msgid "Update URL"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:166
+#: includes/admin/partials/step-2-mapping.php:357
+msgid "Import Behavior"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:169
+#: includes/admin/partials/settings-page.php:245
+#: includes/admin/partials/step-2-mapping.php:360
+msgid "Update Existing Products"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:174
+#: includes/admin/partials/step-2-mapping.php:365
+msgid "Update products that already exist (matched by SKU)"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:176
+#: includes/admin/partials/step-2-mapping.php:367
+msgid "When enabled, existing products with matching SKUs will be updated instead of creating duplicates."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:183
+#: includes/admin/partials/step-2-mapping.php:374
+msgid "Skip Unchanged Products"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:188
+#: includes/admin/partials/step-1-upload.php:123
+#: includes/admin/partials/step-2-mapping.php:379
+msgid "Skip products if data unchanged"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:190
+#: includes/admin/partials/step-2-mapping.php:381
+msgid "Reduces import time by skipping products that haven't changed."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:197
+msgid "Handle Missing Products"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:202
+msgid "Process products no longer in feed"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:204
+msgid "When enabled, products that were imported before but are no longer in the XML/CSV file will be processed."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:211
+#: includes/admin/partials/step-1-upload.php:165
+msgid "Action for missing products:"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:213
+#: includes/admin/partials/step-1-upload.php:167
+msgid "Move to Draft (Recommended)"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:214
+#: includes/admin/partials/step-1-upload.php:168
+msgid "Mark as Out of Stock"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:215
+#: includes/admin/partials/step-1-upload.php:169
+msgid "Allow Backorder (stock=0)"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:216
+#: includes/admin/partials/step-1-upload.php:170
+msgid "Move to Trash (auto-delete after 30 days)"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:217
+#: includes/admin/partials/step-1-upload.php:171
+msgid "Permanently Delete (⚠️ DANGEROUS)"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:223
+#: includes/admin/partials/step-1-upload.php:178
+msgid "Also process variations when parent product is missing"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:228
+msgid "Action will only affect products last updated by THIS import."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:270
+msgid "Products to process per chunk (1-500). Higher = faster, but more memory. Recommended: 50-200 for updates."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:280
+#: includes/admin/partials/step-2-mapping.php:311
+msgid "File Structure"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:282
+msgid "File:"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:283
+msgid "Type:"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:284
+msgid "Import:"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:289
+#: includes/admin/partials/step-2-mapping.php:344
+msgid "Loading file structure..."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:293
+msgid "Previous"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:298
+msgid "Next"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:302
+msgid "Sample Data"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:304
+msgid "Sample product data will appear here after loading the file structure."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:312
+msgid "Field Mappings"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:313
+#: includes/admin/partials/step-2-mapping.php:404
+msgid "Map your file fields to WooCommerce product fields and configure processing modes."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:317
+msgid "Configuration Required:"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:317
+msgid "This import needs to be configured. Please select source fields from the dropdowns below, configure processing modes, and click \"Save Changes\" to activate this import."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:324
+#: includes/admin/partials/step-2-mapping.php:442
+msgid "Clear All"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:327
+#: includes/admin/partials/step-2-mapping.php:445
+msgid "Test Mapping"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:375
+msgid "Update this field?"
+msgstr ""
+
+#. translators: %s is the field key example
+#: includes/admin/partials/import-edit.php:393
+#: includes/admin/partials/step-2-mapping.php:2637
+#, php-format
+msgid "Type { to see fields or drag field here. E.g. {%s}"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:406
+#: includes/admin/partials/step-2-mapping.php:2671
+msgid "Configure Processing"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:409
+#: includes/admin/partials/step-2-mapping.php:2674
+msgid "Clear Mapping"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:425
+#: includes/admin/partials/step-2-mapping.php:2692
+msgid "Import Filters"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:428
+#: includes/admin/partials/step-2-mapping.php:2696
+msgid "Add Filter"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:432
+#: includes/admin/partials/step-2-mapping.php:2700
+msgid "Filter which products to import based on field values. Products that don't match will be skipped."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:446
+#: includes/admin/partials/import-edit.php:992
+#: includes/admin/partials/step-2-mapping.php:2794
+msgid "Field"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:448
+#: includes/admin/partials/import-edit.php:994
+#: includes/admin/partials/step-2-mapping.php:2796
+#: includes/admin/partials/step-2-mapping.php:3014
+#: includes/admin/partials/step-2-mapping.php:3048
+#: includes/admin/partials/step-2-mapping.php:3071
+#: includes/admin/partials/step-2-mapping.php:3095
+#: includes/admin/partials/step-2-mapping.php:3114
+#: includes/admin/partials/step-2-mapping.php:3207
+#: includes/admin/partials/step-2-mapping.php:3220
+#: includes/admin/partials/step-2-mapping.php:3226
+#: includes/admin/partials/step-2-mapping.php:3232
+#: includes/admin/partials/step-2-mapping.php:3256
+#: includes/admin/partials/step-2-mapping.php:3267
+msgid "-- Select Field --"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:456
+#: includes/admin/partials/import-edit.php:1002
+#: includes/admin/partials/step-2-mapping.php:2801
+msgid "Operator"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:464
+#: includes/admin/partials/import-edit.php:1010
+#: includes/admin/partials/step-2-mapping.php:667
+#: includes/admin/partials/step-2-mapping.php:677
+#: includes/admin/partials/step-2-mapping.php:687
+#: includes/admin/partials/step-2-mapping.php:700
+#: includes/admin/partials/step-2-mapping.php:714
+#: includes/admin/partials/step-2-mapping.php:1016
+#: includes/admin/partials/step-2-mapping.php:1026
+#: includes/admin/partials/step-2-mapping.php:1040
+#: includes/admin/partials/step-2-mapping.php:1054
+#: includes/admin/partials/step-2-mapping.php:2809
+msgid "contains"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:465
+#: includes/admin/partials/import-edit.php:1011
+#: includes/admin/partials/step-2-mapping.php:2810
+msgid "not contains"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:466
+#: includes/admin/partials/import-edit.php:1012
+#: includes/admin/partials/step-2-mapping.php:2811
+msgid "is empty"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:467
+#: includes/admin/partials/import-edit.php:1013
+#: includes/admin/partials/step-2-mapping.php:2812
+msgid "not empty"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:472
+#: includes/admin/partials/import-edit.php:1018
+#: includes/admin/partials/step-2-mapping.php:706
+#: includes/admin/partials/step-2-mapping.php:1046
+#: includes/admin/partials/step-2-mapping.php:2819
+msgid "Value"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:473
+#: includes/admin/partials/import-edit.php:1019
+#: includes/admin/partials/step-2-mapping.php:2820
+msgid "Comparison value"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:478
+msgid "Condition"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:504
+#: includes/admin/partials/import-edit.php:1058
+#: includes/admin/partials/step-2-mapping.php:2706
+msgid "No filters added. All products will be imported."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:514
+#: includes/admin/partials/step-2-mapping.php:2728
+msgid "Filter Behavior"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:517
+msgid "⚠️ Changing filters will affect future imports. Existing products won't be modified automatically."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:521
+#: includes/admin/partials/step-2-mapping.php:2735
+msgid "Move non-matching products to Draft"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:524
+msgid "When re-running, products that no longer match filters will be set to Draft status (not deleted)."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:528
+msgid "⚠️ If unchecked: Products not matching filters will be skipped during import, but existing products will remain Published."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:540
+#: includes/admin/partials/step-2-mapping.php:2749
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:543
+#: includes/admin/partials/step-2-mapping.php:2752
+msgid "Add Custom Field"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:561
+#: includes/admin/partials/import-edit.php:937
+msgid "Field Name"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:565
+#: includes/admin/partials/import-edit.php:941
+msgid "-- Select Source --"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:573
+#: includes/admin/partials/import-edit.php:949
+#: includes/admin/partials/step-2-mapping.php:2838
+msgid "Text"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:574
+#: includes/admin/partials/import-edit.php:950
+#: includes/admin/partials/step-2-mapping.php:2839
+msgid "Number"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:575
+#: includes/admin/partials/import-edit.php:951
+#: includes/admin/partials/step-2-mapping.php:2840
+msgid "Textarea"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:582
+#: includes/admin/partials/import-edit.php:958
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:606
+#: includes/admin/partials/step-2-mapping.php:2758
+msgid "No custom fields added yet. Click \"Add Custom Field\" to create one."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:624
+msgid "Automated Schedule"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:627
+msgid "Schedule Interval"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:630
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:631
+msgid "Every 15 minutes"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:633
+msgid "Every 6 hours"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:641
+msgid "Schedule Method"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:646
+msgid "Action Scheduler"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:647
+msgid "Recommended"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:649
+msgid "Automatically continues until complete. No server cron needed. Requires website traffic."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:655
+msgid "Server Cron"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:657
+msgid "Processes entire import in one request. 100% reliable but requires server cron setup."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:669
+msgid "Server Cron Setup"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:674
+msgid "Cron URL"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:677
+#: includes/admin/partials/import-edit.php:691
+msgid "Copied!"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:678
+msgid "Copy"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:683
+msgid "cPanel Command"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:692
+msgid "Copy Command"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:699
+msgid "We recommend running cron every minute. The plugin will only process when the scheduled interval has passed."
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:705
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:707
+msgid "▶ Run Import Now"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:1063
+msgid "Are you sure you want to clear all field mappings?"
+msgstr ""
+
+#: includes/admin/partials/import-edit.php:1179
+msgid "Clear this field mapping?"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:92
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:104
+msgid "Bootflow Product Importer - Settings"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:109
+#: includes/admin/partials/settings-page.php:124
+msgid "About"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:111
+msgid "Performance"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:114
+msgid "Files"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:131
+msgid "Bootflow Product Importer"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:134
+msgid "All features included. Import XML & CSV product feeds into WooCommerce with AI auto-mapping, scheduled imports, templates, and more."
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:143
+msgid "Included Features"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:149
+msgid "Feature"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:154
+msgid "Import XML & CSV feeds"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:155
+msgid "Manual & automatic field mapping"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:156
+msgid "Simple & variable products"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:157
+msgid "Attributes & variations"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:158
+msgid "Unlimited products"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:159
+msgid "Scheduled imports (cron)"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:160
+msgid "Import from remote URLs"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:161
+msgid "Import templates"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:162
+msgid "Import filters & conditional logic"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:163
+msgid "Advanced formulas & update rules"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:164
+msgid "AI-assisted mapping & transformation"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:165
+msgid "Logs & error reporting"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:176
+msgid "Performance Settings"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:177
+msgid "Configure performance-related settings to optimize import speed and memory usage."
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:181
+msgid "Memory & Processing"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:184
+msgid "Batch Size:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:186
+msgid "Number of products to process in each batch."
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:188
+msgid "Memory Limit:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:196
+msgid "Max Execution Time (seconds):"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:199
+msgid "File Chunk Size:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:201
+msgid "Number of lines to read from file at once."
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:207
+msgid "Background Processing"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:212
+msgid "Enable Background Processing (WP-Cron)"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:215
+msgid "Background Batch Size:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:218
+msgid "Background Interval (seconds):"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:229
+msgid "Configure default settings for product imports and data handling."
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:233
+msgid "Product Defaults"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:236
+msgid "Default Product Status:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:248
+msgid "Duplicate Handling:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:259
+msgid "Media & Images"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:264
+msgid "Download Images from URLs"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:267
+msgid "Image Download Timeout (seconds):"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:270
+msgid "Max Image Size (MB):"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:277
+msgid "Product Features"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:282
+msgid "Enable Product Variations Import"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:287
+msgid "Create Missing Categories"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:292
+msgid "Create Missing Tags"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:297
+msgid "Preserve HTML in Descriptions"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:310
+msgid "File Management Settings"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:311
+msgid "Configure file upload, storage, and management settings."
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:315
+msgid "Upload Settings"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:318
+msgid "Max File Size (MB):"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:321
+msgid "Allowed File Types:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:331
+msgid "Upload Directory:"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:333
+msgid "Directory name within wp-content/uploads/"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:339
+msgid "File Retention"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:344
+msgid "Auto-delete Old Files"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:347
+msgid "File Retention (days):"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:349
+msgid "Files older than this will be automatically deleted."
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:387
+msgid "Show"
+msgstr ""
+
+#: includes/admin/partials/settings-page.php:387
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:23
+msgid "Step 1: Upload File"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:24
+msgid "Upload your XML or CSV file, or provide a URL to import products from."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:32
+msgid "Import Name"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:36
+msgid "e.g., Summer Collection 2024"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:37
+msgid "Give this import a descriptive name for easy identification."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:42
+msgid "Upload Method"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:48
+msgid "Upload XML/CSV file from your computer"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:56
+msgid "Select File"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:61
+msgid "Drag & drop your file here"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:62
+msgid "or"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:64
+msgid "Browse Files"
+msgstr ""
+
+#. translators: %d is the maximum file size in MB
+#: includes/admin/partials/step-1-upload.php:71
+#, php-format
+msgid "Accepted formats: XML, CSV | Max size: %dMB"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:94
+msgid "Auto-detect (from extension or content)"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:95
+msgid "Force XML"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:96
+msgid "Force CSV"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:98
+msgid "Select file type manually for URLs without file extension (e.g., API feeds)."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:104
+msgid "XML Product Element"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:108
+msgid "The XML element name that contains individual product data (e.g., \"product\", \"item\", \"goods\"). Leave as \"product\" for CSV files."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:115
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:125
+msgid "Skip updating products if mapped data hasn't changed."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:130
+msgid "Auto-create Categories"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:132
+msgid "Automatically create product categories if they don't exist."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:135
+msgid "Default Product Status"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:137
+#: includes/admin/partials/step-2-mapping.php:114
+msgid "Published"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:138
+#: includes/admin/partials/step-2-mapping.php:115
+msgid "Draft"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:139
+#: includes/admin/partials/step-2-mapping.php:117
+msgid "Private"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:145
+msgid "Number of products to process at once."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:151
+msgid "Handle Products No Longer in Feed"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:153
+msgid "What to do with products that were imported before but are no longer present in the XML/CSV file."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:159
+msgid "Process products that are no longer in feed"
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:184
+msgid "Action will only affect products that were last updated by THIS import. Products updated by other imports will not be affected."
+msgstr ""
+
+#: includes/admin/partials/step-1-upload.php:194
+#: includes/admin/partials/step-1-upload.php:342
+#: includes/admin/partials/step-1-upload.php:351
+msgid "Proceed to Field Mapping"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:34
+msgid "Import not found. Please start over."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:79
+msgid "Invalid file path. Please start over."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:92
+msgid "Unique product identifier. Can be mapped from file or auto-generated."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:96
+msgid "Product Type"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:100
+msgid "Simple"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:101
+msgid "Variable"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:102
+msgid "Grouped"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:103
+msgid "External/Affiliate"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:105
+msgid "Product type. Auto-detected if grouped_products or external_url is mapped."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:116
+msgid "Pending Review"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:123
+msgid "Price Markup"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:132
+msgid "Sale Price From Date"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:133
+msgid "Sale Price To Date"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:139
+msgid "Taxable"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:140
+msgid "Shipping only"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:141
+msgid "None"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:165
+msgid "In stock"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:166
+msgid "Out of stock"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:167
+msgid "On backorder"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:175
+msgid "Do not allow"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:176
+msgid "Allow, but notify customer"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:177
+#: includes/admin/partials/step-2-mapping.php:1643
+msgid "Allow"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:189
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:215
+msgid "Product Options"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:218
+msgid "Featured Product"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:223
+msgid "Virtual Product"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:228
+msgid "Downloadable"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:233
+msgid "Sold Individually"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:238
+msgid "Reviews Allowed"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:245
+msgid "Download Settings"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:247
+msgid "Download Limit"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:248
+msgid "Download Expiry (days)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:252
+msgid "Product Identifiers"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:254
+msgid "EAN"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:255
+msgid "UPC"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:256
+msgid "ISBN"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:257
+msgid "MPN"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:258
+msgid "GTIN"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:262
+msgid "Linked Products"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:264
+msgid "Upsell Product IDs"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:265
+msgid "Cross-sell Product IDs"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:266
+msgid "Grouped Products"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:267
+msgid "Parent Product ID"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:272
+msgid "Advanced Fields"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:274
+msgid "Purchase Note"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:275
+msgid "Menu Order"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:276
+msgid "Button Text"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:277
+msgid "External URL"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:289
+msgid "Attributes & Variations"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:316
+msgid "File"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:323
+msgid "Type"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:396
+msgid "Products per chunk (1-500). Higher = faster, but more memory."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:403
+msgid "Step 2: Field Mapping & Processing"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:431
+msgid "Please verify mapped fields before importing."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:434
+msgid "OK"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:474
+msgid "Enable Price Markup"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:476
+msgid "Calculate final prices by applying markup rules to the base price from XML"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:490
+#: includes/admin/partials/step-2-mapping.php:870
+#: includes/admin/partials/step-2-mapping.php:1547
+msgid "How it works:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:492
+msgid "XML Base Price → Apply Matching Rules → Apply Rounding → Final Price"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:493
+msgid "Rules are evaluated from top to bottom. First matching rule wins (or use \"Apply All\" mode)."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:503
+msgid "Base Price Source (from XML):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:506
+msgid "-- Select XML field with base price --"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:509
+msgid "Select the XML field that contains the supplier/wholesale price"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:522
+msgid "Rule Priority:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:523
+msgid "Rules are evaluated top to bottom. First matching rule applies. Avoid overlapping conditions."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:530
+msgid "Pricing Rules"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:532
+#: includes/admin/partials/step-2-mapping.php:889
+msgid "(First matching rule wins)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:537
+#: includes/admin/partials/step-2-mapping.php:894
+msgid "Add Rule"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:549
+#: includes/admin/partials/step-2-mapping.php:906
+msgid "Default Rule (Fallback)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:551
+#: includes/admin/partials/step-2-mapping.php:908
+msgid "Always applies if no other rule matches"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:558
+#: includes/admin/partials/step-2-mapping.php:734
+msgid "Markup %"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:565
+#: includes/admin/partials/step-2-mapping.php:741
+msgid "+ Fixed €"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:572
+#: includes/admin/partials/step-2-mapping.php:748
+msgid "Round to"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:575
+#: includes/admin/partials/step-2-mapping.php:752
+msgid "No rounding"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:576
+msgid "0.01"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:577
+msgid "0.05"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:578
+msgid "0.10"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:579
+msgid "0.50"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:580
+msgid "1.00"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:581
+msgid ".99"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:582
+msgid ".95"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:587
+msgid "Min Price €"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:594
+msgid "Max Price €"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:615
+msgid "Rule name (optional)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:621
+#: includes/admin/partials/step-2-mapping.php:951
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:634
+#: includes/admin/partials/step-2-mapping.php:964
+msgid "Apply when:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:637
+#: includes/admin/partials/step-2-mapping.php:967
+msgid "ALL conditions match"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:638
+#: includes/admin/partials/step-2-mapping.php:968
+msgid "ANY condition matches"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:646
+#: includes/admin/partials/step-2-mapping.php:977
+msgid "Price Range"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:647
+msgid "📁 Category"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:648
+msgid "🏷️ Brand"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:649
+msgid "🏭 Supplier"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:650
+msgid "📄 XML Field"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:651
+msgid "🔢 SKU Pattern"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:656
+#: includes/admin/partials/step-2-mapping.php:987
+#: includes/admin/partials/step-2-mapping.php:996
+#: includes/admin/partials/step-2-mapping.php:1005
+msgid "from"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:658
+#: includes/admin/partials/step-2-mapping.php:989
+#: includes/admin/partials/step-2-mapping.php:998
+#: includes/admin/partials/step-2-mapping.php:1007
+msgid "to"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:666
+#: includes/admin/partials/step-2-mapping.php:676
+#: includes/admin/partials/step-2-mapping.php:686
+#: includes/admin/partials/step-2-mapping.php:1015
+#: includes/admin/partials/step-2-mapping.php:1025
+msgid "equals"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:668
+#: includes/admin/partials/step-2-mapping.php:678
+#: includes/admin/partials/step-2-mapping.php:1017
+#: includes/admin/partials/step-2-mapping.php:1027
+msgid "not equals"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:670
+msgid "Category name or slug"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:680
+#: includes/admin/partials/step-2-mapping.php:1029
+msgid "Brand name"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:689
+msgid "Supplier name"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:695
+#: includes/admin/partials/step-2-mapping.php:1035
+msgid "-- Field --"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:712
+#: includes/admin/partials/step-2-mapping.php:1052
+msgid "starts with"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:713
+#: includes/admin/partials/step-2-mapping.php:1053
+msgid "ends with"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:715
+#: includes/admin/partials/step-2-mapping.php:1055
+msgid "matches regex"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:717
+#: includes/admin/partials/step-2-mapping.php:1057
+msgid "Pattern"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:720
+#: includes/admin/partials/step-2-mapping.php:1060
+msgid "Remove condition"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:726
+#: includes/admin/partials/step-2-mapping.php:1066
+msgid "Add Condition"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:751
+msgid "Use default"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:764
+msgid "Min €"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:771
+msgid "Max €"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:787
+msgid "Live Preview"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:792
+msgid "Test with Rule:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:795
+#: includes/admin/partials/step-2-mapping.php:815
+msgid "Default Rule"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:800
+msgid "Test Base Price:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:808
+msgid "Final Price:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:827
+msgid "Enable the Price Markup above to configure automatic price calculations"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:854
+msgid "Enable Shipping Class Rules"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:856
+msgid "Auto-assign shipping classes based on product weight, category, price, or any XML field"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:872
+msgid "Rules are evaluated from top to bottom. First matching rule wins. The assigned shipping class will be created automatically if it doesn't exist."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:873
+msgid "Note: If you have a direct shipping_class field mapped above, it takes priority over these rules."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:915
+#: includes/admin/partials/step-2-mapping.php:1074
+msgid "Assign Shipping Class:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:919
+#: includes/admin/partials/step-2-mapping.php:1078
+msgid "-- No shipping class --"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:924
+#: includes/admin/partials/step-2-mapping.php:1083
+msgid "or type new:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:925
+#: includes/admin/partials/step-2-mapping.php:1084
+msgid "New class name"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:945
+msgid "Rule name (e.g., Heavy items)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:976
+msgid "Weight Range"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:978
+msgid "Volume (L×W×H)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:979
+msgid "Category"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:981
+msgid "XML Field"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:982
+msgid "SKU Pattern"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1019
+msgid "Category name"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1099
+msgid "Available WooCommerce Shipping Classes:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1111
+msgid "No shipping classes found. They will be created automatically during import, or create them in WooCommerce → Settings → Shipping → Shipping Classes."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1123
+msgid "Enable Shipping Class Rules above to automatically assign shipping classes based on product data"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1148
+msgid "Simple Products"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1150
+msgid "Regular products without variations or attributes"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1160
+msgid "With Attributes"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1162
+msgid "Add display attributes like Material, Brand, Color"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1172
+msgid "Variable Products"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1174
+msgid "Products with variations like Size, Color"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1188
+msgid "Simple Products Mode"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1190
+msgid "No additional configuration needed. Products will be imported as simple products."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1203
+msgid "Display Attributes"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1205
+msgid "Add attributes that will be shown on product pages. These are informational only."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1213
+msgid "Attribute Input Mode:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1219
+#: includes/admin/partials/step-2-mapping.php:2480
+msgid "Standard"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1220
+msgid "Fixed name + dynamic value"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1226
+msgid "Key-Value Pairs"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1227
+msgid "{attribute1}→{value1}"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1239
+#: includes/admin/partials/step-2-mapping.php:1342
+#: includes/admin/partials/step-2-mapping.php:1558
+msgid "Add Attribute"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1243
+msgid "Example:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1245
+msgid "Attribute Name: \"Material\" → Source: select the XML/CSV field containing material values"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1253
+msgid "Key-Value Pair Mode"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1255
+msgid "For XML files where attribute name and value are in separate fields (e.g., BigBuy format with attribute1/value1, attribute2/value2)."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1263
+msgid "Add Key-Value Pair"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1267
+msgid "Example for BigBuy XML:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1270
+msgid "Name Field:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1270
+msgid "Value Field:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1271
+msgid "Result: Attribute \"Colour\" with value \"Blue\""
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1288
+msgid "Variable Products Configuration"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1290
+msgid "Configure how variations are structured in your file."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1303
+msgid "CSV Variable Products"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1305
+msgid "For CSV files, variable products require Parent SKU and Type columns to link variations to parent products."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1312
+msgid "CSV Grouping Fields"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1317
+msgid "Parent SKU Column:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1319
+msgid "-- Select Column --"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1323
+msgid "Type Column:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1325
+msgid "-- Select Column (optional) --"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1330
+msgid "Parent SKU links variations to parent. Type column (values: \"variable\" or \"variation\") helps identify row types."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1338
+msgid "Variation Attributes (CSV Columns)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1346
+msgid "Map CSV columns that contain attribute values (e.g., \"Attribute:Color\", \"Attribute:Size\")."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1350
+msgid "Example for CSV structure:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1352
+msgid "If your CSV has columns:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1354
+#: includes/admin/partials/step-2-mapping.php:1566
+msgid "Add 2 attributes:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1365
+msgid "Variation Field Mapping (CSV Columns)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1368
+msgid "Map CSV columns to WooCommerce variation fields. These are read from variation rows."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1374
+#: includes/admin/partials/step-2-mapping.php:1596
+msgid "Variation SKU:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1375
+#: includes/admin/partials/step-2-mapping.php:1379
+#: includes/admin/partials/step-2-mapping.php:1383
+#: includes/admin/partials/step-2-mapping.php:1387
+#: includes/admin/partials/step-2-mapping.php:1391
+#: includes/admin/partials/step-2-mapping.php:1395
+#: includes/admin/partials/step-2-mapping.php:1399
+#: includes/admin/partials/step-2-mapping.php:1403
+#: includes/admin/partials/step-2-mapping.php:1407
+#: includes/admin/partials/step-2-mapping.php:1411
+#: includes/admin/partials/step-2-mapping.php:1415
+#: includes/admin/partials/step-2-mapping.php:1419
+#: includes/admin/partials/step-2-mapping.php:1422
+#: includes/admin/partials/step-2-mapping.php:1425
+#: includes/admin/partials/step-2-mapping.php:1429
+#: includes/admin/partials/step-2-mapping.php:1433
+#: includes/admin/partials/step-2-mapping.php:1437
+#: includes/admin/partials/step-2-mapping.php:1441
+#: includes/admin/partials/step-2-mapping.php:1445
+#: includes/admin/partials/step-2-mapping.php:1449
+#: includes/admin/partials/step-2-mapping.php:1453
+msgid "Type { to see columns"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1378
+#: includes/admin/partials/step-2-mapping.php:1600
+msgid "GTIN/EAN/UPC/ISBN:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1382
+#: includes/admin/partials/step-2-mapping.php:1604
+msgid "Regular Price:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1386
+#: includes/admin/partials/step-2-mapping.php:1608
+#: includes/admin/partials/step-2-mapping.php:3058
+msgid "Sale Price:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1390
+#: includes/admin/partials/step-2-mapping.php:1612
+msgid "Sale Date From:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1394
+#: includes/admin/partials/step-2-mapping.php:1616
+msgid "Sale Date To:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1398
+#: includes/admin/partials/step-2-mapping.php:1620
+msgid "Stock Quantity:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1402
+#: includes/admin/partials/step-2-mapping.php:1624
+msgid "Stock Status:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1406
+#: includes/admin/partials/step-2-mapping.php:1628
+#: includes/admin/partials/step-2-mapping.php:3175
+msgid "Manage Stock:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1410
+#: includes/admin/partials/step-2-mapping.php:1632
+msgid "Low Stock Threshold:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1414
+#: includes/admin/partials/step-2-mapping.php:1648
+#: includes/admin/partials/step-2-mapping.php:3189
+msgid "Weight:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1418
+#: includes/admin/partials/step-2-mapping.php:1658
+#: includes/admin/partials/step-2-mapping.php:3218
+msgid "Length:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1421
+#: includes/admin/partials/step-2-mapping.php:1667
+#: includes/admin/partials/step-2-mapping.php:3224
+msgid "Width:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1424
+#: includes/admin/partials/step-2-mapping.php:1670
+#: includes/admin/partials/step-2-mapping.php:3230
+msgid "Height:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1428
+#: includes/admin/partials/step-2-mapping.php:1674
+msgid "Image URL:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1432
+#: includes/admin/partials/step-2-mapping.php:1678
+#: includes/admin/partials/step-2-mapping.php:3264
+msgid "Description:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1436
+#: includes/admin/partials/step-2-mapping.php:1682
+#: includes/admin/partials/step-2-mapping.php:3147
+msgid "Virtual:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1440
+#: includes/admin/partials/step-2-mapping.php:1686
+#: includes/admin/partials/step-2-mapping.php:3161
+msgid "Downloadable:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1444
+#: includes/admin/partials/step-2-mapping.php:1711
+#: includes/admin/partials/step-2-mapping.php:3248
+msgid "Shipping Class:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1448
+#: includes/admin/partials/step-2-mapping.php:1715
+msgid "Status:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1452
+#: includes/admin/partials/step-2-mapping.php:1719
+msgid "Menu Order:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1461
+#: includes/admin/partials/step-2-mapping.php:1728
+msgid "Custom Meta Fields (EAN, GTIN, UPC, etc.)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1465
+#: includes/admin/partials/step-2-mapping.php:1732
+msgid "Add Meta Field"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1482
+msgid "Variation Container Path"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1492
+msgid "Path to variation/attribute container. Examples:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1503
+msgid "Variation Attributes"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1507
+msgid "Define attributes used for variations (e.g., Size, Color). Each unique combination creates a product variation."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1515
+msgid "Manual"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1516
+msgid "Define each attribute manually"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1520
+msgid "Auto-detect"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1521
+msgid "Read all attributes from XML automatically"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1529
+msgid "Auto-detect Settings"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1532
+msgid "Attributes path:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1534
+msgid "e.g., variations.variation.attributes"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1536
+msgid "Path to attributes container in each variation (without { })"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1543
+msgid "Create WooCommerce attributes if they don't exist"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1548
+msgid "For XML like:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1549
+msgid "Plugin will automatically create attributes: pa_size=L, pa_color=Black"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1562
+msgid "Example for your XML structure:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1564
+msgid "If your XML has:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1578
+msgid "Variation Field Mapping"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1581
+msgid "Map fields from your source file to WooCommerce variation fields."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1587
+msgid "Parent SKU:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1589
+#: includes/admin/partials/step-2-mapping.php:1597
+#: includes/admin/partials/step-2-mapping.php:1601
+#: includes/admin/partials/step-2-mapping.php:1605
+#: includes/admin/partials/step-2-mapping.php:1609
+#: includes/admin/partials/step-2-mapping.php:1613
+#: includes/admin/partials/step-2-mapping.php:1617
+#: includes/admin/partials/step-2-mapping.php:1621
+#: includes/admin/partials/step-2-mapping.php:1625
+#: includes/admin/partials/step-2-mapping.php:1629
+#: includes/admin/partials/step-2-mapping.php:1633
+#: includes/admin/partials/step-2-mapping.php:1638
+#: includes/admin/partials/step-2-mapping.php:1650
+#: includes/admin/partials/step-2-mapping.php:1660
+#: includes/admin/partials/step-2-mapping.php:1668
+#: includes/admin/partials/step-2-mapping.php:1671
+#: includes/admin/partials/step-2-mapping.php:1675
+#: includes/admin/partials/step-2-mapping.php:1679
+#: includes/admin/partials/step-2-mapping.php:1683
+#: includes/admin/partials/step-2-mapping.php:1687
+#: includes/admin/partials/step-2-mapping.php:1691
+#: includes/admin/partials/step-2-mapping.php:1695
+#: includes/admin/partials/step-2-mapping.php:1700
+#: includes/admin/partials/step-2-mapping.php:1708
+#: includes/admin/partials/step-2-mapping.php:1712
+#: includes/admin/partials/step-2-mapping.php:1716
+#: includes/admin/partials/step-2-mapping.php:1720
+msgid "Type { to see fields"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1591
+msgid "Optional: Link variation to parent by SKU"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1636
+msgid "Backorders:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1640
+msgid "From source"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1641
+#: includes/admin/partials/step-2-mapping.php:2348
+#: includes/admin/partials/step-2-mapping.php:3139
+#: includes/admin/partials/step-2-mapping.php:3153
+#: includes/admin/partials/step-2-mapping.php:3167
+#: includes/admin/partials/step-2-mapping.php:3181
+msgid "No"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1642
+msgid "Allow, notify"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1653
+msgid "Inherit from parent"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1663
+msgid "Inherit L/W/H from parent"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1690
+msgid "Download Limit:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1694
+msgid "Download Expiry (days):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1698
+msgid "Download Files:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1702
+msgid "Format: Name|URL or just URL. Multiple: Name1|URL1,Name2|URL2"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1707
+msgid "Tax Class:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1739
+msgid "Quick Add Common Fields:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1859
+#: includes/admin/partials/step-2-mapping.php:2052
+#: includes/admin/partials/step-2-mapping.php:2170
+msgid "Source Field"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1866
+#: includes/admin/partials/step-2-mapping.php:2059
+#: includes/admin/partials/step-2-mapping.php:2177
+msgid "Type { to see fields or drag field here..."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1869
+msgid "Select the XML/CSV field containing category data. You can combine fields: {category} or {parent_cat} > {sub_cat}"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1876
+msgid "Category Mode"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1883
+msgid "Single category per product"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1885
+msgid "Each product gets one category from source field value"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1894
+msgid "Multiple categories, separated by:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1896
+msgid "Source field contains multiple category names delimited by separator"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1905
+msgid "e.g., Electronics, Phones, Accessories"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1913
+msgid "Hierarchical categories (Parent > Child)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1915
+msgid "Source field contains nested category path with separator"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1920
+msgid "Hierarchy separator:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1925
+msgid "e.g., Electronics > Phones > Apple"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1928
+msgid "Multi-category separator:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1933
+msgid "Separates multiple hierarchical paths, e.g., A > B | C > D"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1941
+msgid "Options"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1946
+msgid "Auto-create categories if they don't exist"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1951
+msgid "Try to match existing child categories (match by name regardless of hierarchy)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1956
+msgid "Only assign the deepest (leaf) category, not the entire hierarchy"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1961
+msgid "Also add category names as product tags"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1969
+msgid "Enable Category Mapping"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1971
+msgid "Map feed values to specific WooCommerce categories"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1978
+msgid "How mapping works:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1979
+msgid "Add rows to map feed category values to your WooCommerce categories. Values not in the mapping table will be imported as-is (or auto-created)."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1986
+#: includes/admin/partials/step-2-mapping.php:2098
+#: includes/admin/partials/step-2-mapping.php:2203
+msgid "Feed Value (from source)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1987
+msgid "WooCommerce Category"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1997
+msgid "— Select Category —"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:1998
+#: includes/admin/partials/step-2-mapping.php:2110
+#: includes/admin/partials/step-2-mapping.php:2215
+msgid "+ Create New"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2012
+#: includes/admin/partials/step-2-mapping.php:2126
+#: includes/admin/partials/step-2-mapping.php:2229
+msgid "Add Mapping Row"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2030
+msgid "Update categories on re-import?"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2066
+msgid "Tag separator:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2072
+msgid "e.g., outdoor, camping, waterproof"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2080
+msgid "Auto-create tags if they don't exist"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2088
+msgid "Enable Tag Mapping"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2090
+msgid "Map feed values to specific WooCommerce tags"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2099
+msgid "WooCommerce Tag"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2109
+msgid "\\u2014 Select Tag \\u2014"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2148
+msgid "Update tags on re-import?"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2163
+msgid "Brand / Manufacturer"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2185
+msgid "Auto-create brand if it doesn't exist"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2193
+msgid "Enable Brand Mapping"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2195
+msgid "Map feed values to specific WooCommerce brands"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2204
+msgid "WooCommerce Brand"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2214
+msgid "\\u2014 Select Brand \\u2014"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2251
+msgid "Update brand on re-import?"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2268
+msgid "Auto Shipping Class Formula"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2270
+msgid "Optional: Calculate shipping class based on dimensions/weight when no direct mapping is set."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2274
+msgid "PHP Formula (return shipping class slug):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2284
+msgid "Test Shipping Formula"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2288
+msgid "Available Variables:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2291
+msgid "Available Shipping Classes:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2302
+msgid "No shipping classes found. Create them in WooCommerce → Settings → Shipping"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2306
+msgid "This formula is used only when no direct mapping is set above. Leave empty to skip."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2340
+#: includes/admin/partials/step-2-mapping.php:3138
+#: includes/admin/partials/step-2-mapping.php:3152
+#: includes/admin/partials/step-2-mapping.php:3166
+#: includes/admin/partials/step-2-mapping.php:3180
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2355
+msgid "Map"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2360
+#: includes/admin/partials/step-2-mapping.php:2394
+#: includes/admin/partials/step-2-mapping.php:2429
+#: includes/admin/partials/step-2-mapping.php:2461
+#: includes/admin/partials/step-2-mapping.php:2500
+#: includes/admin/partials/step-2-mapping.php:2533
+msgid "-- Select XML Field --"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2363
+msgid "XML values: yes/no, true/false, 1/0"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2390
+#: includes/admin/partials/step-2-mapping.php:2425
+#: includes/admin/partials/step-2-mapping.php:2457
+#: includes/admin/partials/step-2-mapping.php:2496
+#: includes/admin/partials/step-2-mapping.php:2529
+msgid "Map from XML:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2397
+msgid "Values: simple, variable, grouped, external"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2464
+msgid "Expected values: taxable, shipping, none"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2543
+#: includes/admin/partials/step-2-mapping.php:2593
+#: includes/admin/partials/step-2-mapping.php:2849
+#: includes/admin/partials/step-2-mapping.php:2937
+#: includes/admin/partials/step-2-mapping.php:2955
+msgid "-- Select Source Field --"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2551
+msgid "Use as primary identifier (WC UI)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2579
+msgid "Map from file"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2586
+msgid "Auto-generate"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2600
+msgid "SKU Pattern:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2609
+msgid "Available placeholders:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2610
+msgid "Row number (1, 2, 3...)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2611
+msgid "Unix timestamp"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2612
+msgid "Random 6-char string"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2613
+msgid "Product name slug (first 20 chars)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2614
+msgid "MD5 hash from name+row (8 chars)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2659
+#: includes/admin/partials/step-2-mapping.php:2867
+msgid "Update this field on re-import?"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2663
+#: includes/admin/partials/step-2-mapping.php:2871
+msgid "Uncheck to prevent this field from being updated when re-importing existing products"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2712
+msgid "Filter Logic:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2716
+msgid "(all conditions must match)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2720
+msgid "(any condition can match)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2731
+msgid "Filters will be applied during import. Products that don't match will be skipped."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2738
+msgid "If re-running import, existing products that no longer match filters will be set to Draft status."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2767
+msgid "Back to Upload"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2772
+msgid "Save"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2776
+msgid "Start Import"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2813
+msgid "regex match"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2814
+msgid "regex not match"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2825
+msgid "Remove Filter"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2836
+msgid "Custom Field Name"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2841
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2842
+msgid "Date"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2843
+msgid "URL"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2879
+msgid "Remove Custom Field"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2893
+msgid "Attribute Name (WooCommerce):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2898
+msgid "e.g., Izmērs, Krāsa, Material"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2900
+msgid "Display name in WooCommerce (any language). Auto-adds pa_ prefix."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2905
+msgid "XML Attribute Key:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2911
+msgid "e.g., size, color, material"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2914
+msgid "<strong>Required for Map mode!</strong> The XML element name inside &lt;attributes&gt;."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2915
+msgid "Example: if XML has <code>&lt;attributes&gt;&lt;size&gt;S&lt;/size&gt;&lt;/attributes&gt;</code> → enter <code>size</code>"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2921
+msgid "XML Attribute Name (for name/value structure):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2926
+msgid "e.g., Material"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2928
+msgid "Only for XML with &lt;attribute&gt;&lt;name&gt;...&lt;/name&gt;&lt;value&gt;...&lt;/value&gt;&lt;/attribute&gt; structure"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2933
+msgid "Attribute Values (optional override):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2946
+msgid "Leave empty for XML &lt;attributes&gt; auto-mapping, or select field for direct mapping"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2951
+msgid "Attribute Image (optional):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2964
+msgid "Image URL for this attribute (e.g., color swatch, size chart). For variations, use variation image mapping below."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2970
+msgid "Visible on product page"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2975
+msgid "Used for variations"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2983
+msgid "Variation Adjustments for this Attribute"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2986
+msgid "These settings apply to ALL variations created from this attribute. Leave as \"No change\" to use parent product values."
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2993
+msgid "Price Adjustment:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2997
+#: includes/admin/partials/step-2-mapping.php:3031
+#: includes/admin/partials/step-2-mapping.php:3062
+#: includes/admin/partials/step-2-mapping.php:3085
+#: includes/admin/partials/step-2-mapping.php:3109
+#: includes/admin/partials/step-2-mapping.php:3137
+#: includes/admin/partials/step-2-mapping.php:3151
+#: includes/admin/partials/step-2-mapping.php:3165
+#: includes/admin/partials/step-2-mapping.php:3179
+#: includes/admin/partials/step-2-mapping.php:3192
+#: includes/admin/partials/step-2-mapping.php:3251
+msgid "No change"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2998
+#: includes/admin/partials/step-2-mapping.php:3032
+#: includes/admin/partials/step-2-mapping.php:3193
+msgid "Calculate"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:2999
+#: includes/admin/partials/step-2-mapping.php:3034
+#: includes/admin/partials/step-2-mapping.php:3064
+#: includes/admin/partials/step-2-mapping.php:3087
+#: includes/admin/partials/step-2-mapping.php:3110
+#: includes/admin/partials/step-2-mapping.php:3194
+#: includes/admin/partials/step-2-mapping.php:3252
+msgid "Map field"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3027
+msgid "Stock Adjustment:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3033
+#: includes/admin/partials/step-2-mapping.php:3063
+msgid "Fixed value"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3081
+msgid "SKU:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3086
+msgid "Suffix"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3090
+msgid "e.g., -red, -xl"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3091
+msgid "Added to parent SKU"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3105
+msgid "GTIN/UPC/EAN/ISBN:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3124
+msgid "Advanced (Status, Shipping, Dimensions)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3132
+msgid "Whether the variation is available for purchase on the frontend"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3133
+msgid "Enabled:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3141
+msgid "Show on frontend"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3146
+msgid "Virtual products have no shipping (e.g., services, consultations)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3155
+msgid "No shipping needed"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3160
+msgid "Downloadable products give access to files after purchase (e.g., ebooks, software)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3169
+msgid "Has file downloads"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3174
+msgid "Enable stock management at variation level (track inventory for each variation separately)"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3183
+msgid "Track inventory"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3215
+msgid "Dimensions (L×W×H):"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3240
+msgid "Variation Image:"
+msgstr ""
+
+#: includes/admin/partials/step-2-mapping.php:3242
+msgid "-- Select Image Field --"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:20
+msgid "Invalid import ID. Please start a new import."
+msgstr ""
+
+#. translators: %s is the import name
+#: includes/admin/partials/step-3-progress.php:180
+#, php-format
+msgid "Importing \"%s\" - Please keep this page open until the import is complete."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:186
+msgid "Want to close this page?"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:188
+msgid "Set up a cron job to continue imports in the background, even when the browser is closed."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:191
+msgid "Show cron setup instructions"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:193
+msgid "cPanel / Plesk:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:194
+msgid "Add a new Cron Job with:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:196
+msgid "Schedule: Every minute"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:198
+msgid "Command:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:201
+msgid "Once configured, imports will continue automatically even if you close this page."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:213
+#: includes/admin/partials/step-3-progress.php:718
+msgid "Preparing Import..."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:216
+#: includes/admin/partials/step-3-progress.php:721
+msgid "Processing Products..."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:219
+#: includes/admin/partials/step-3-progress.php:424
+#: includes/admin/partials/step-3-progress.php:724
+msgid "Import Completed Successfully!"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:222
+#: includes/admin/partials/step-3-progress.php:454
+#: includes/admin/partials/step-3-progress.php:727
+msgid "Import Failed"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:225
+msgid "Unknown Status"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:240
+msgid "Total Products"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:244
+#: includes/admin/partials/step-3-progress.php:331
+msgid "Processed"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:248
+msgid "Remaining"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:256
+msgid "Import Name:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:260
+msgid "File Type:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:264
+msgid "Started:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:269
+msgid "Last Activity:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:274
+msgid "Schedule:"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:285
+msgid "Pause Import"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:289
+#: includes/admin/partials/step-3-progress.php:298
+msgid "Stop Import"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:294
+msgid "Resume Import"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:303
+#: includes/admin/partials/step-3-progress.php:482
+msgid "Retry Import"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:309
+msgid "View Detailed Logs"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:319
+msgid "Progress"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:335
+msgid "Total"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:339
+msgid "prod/min"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:343
+msgid "ETA"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:351
+msgid "Waiting for progress..."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:362
+msgid "Performance Metrics"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:366
+msgid "Processing Speed"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:372
+msgid "products/min"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:374
+#: includes/admin/partials/step-3-progress.php:395
+msgid "Calculating..."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:380
+msgid "Estimated Time Remaining"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:388
+msgid "minutes"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:398
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:404
+msgid "Success Rate"
+msgstr ""
+
+#. translators: %1$d is the number of successfully imported products, %2$d is the total number of products
+#: includes/admin/partials/step-3-progress.php:427
+#, php-format
+msgid "Successfully imported %1$d out of %2$d products."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:432
+msgid "View Products"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:437
+msgid "Start New Import"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:444
+msgid "Manage Scheduled Import"
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:455
+msgid "The import process encountered an error and could not be completed. Please check the logs below for more details."
+msgstr ""
+
+#: includes/admin/partials/step-3-progress.php:466
+msgid "Recent Errors:"
+msgstr ""
+
+#: includes/class-bfpi-activator.php:29
+msgid "This plugin requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-bfpi-csv-parser.php:31
+#: includes/class-bfpi-csv-parser.php:123
+#: includes/class-bfpi-csv-parser.php:428
+#: includes/class-bfpi-csv-parser.php:499
+msgid "CSV file not found."
+msgstr ""
+
+#: includes/class-bfpi-csv-parser.php:40
+#: includes/class-bfpi-csv-parser.php:131
+#: includes/class-bfpi-csv-parser.php:375
+#: includes/class-bfpi-csv-parser.php:434
+#: includes/class-bfpi-csv-parser.php:507
+msgid "Unable to open CSV file."
+msgstr ""
+
+#: includes/class-bfpi-csv-parser.php:46
+msgid "Unable to read CSV headers."
+msgstr ""
+
+#: includes/class-bfpi-csv-parser.php:359
+#: includes/class-bfpi-xml-parser.php:667
+msgid "File does not exist."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-csv-parser.php:368
+#: includes/class-bfpi-xml-parser.php:675
+#, php-format
+msgid "File size exceeds maximum limit of %dMB."
+msgstr ""
+
+#: includes/class-bfpi-csv-parser.php:380
+msgid "CSV file appears to be empty."
+msgstr ""
+
+#: includes/class-bfpi-csv-parser.php:389
+msgid "Unable to parse CSV headers."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-csv-parser.php:398
+#, php-format
+msgid "CSV file is valid with %d columns."
+msgstr ""
+
+#: includes/class-bfpi-csv-parser.php:445
+msgid "CSV file has no headers."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-csv-parser.php:522
+#, php-format
+msgid "Parent SKU column \"%s\" not found in CSV."
+msgstr ""
+
+#: includes/class-bfpi-importer.php:179
+msgid "Failed to update import record: "
+msgstr ""
+
+#: includes/class-bfpi-importer.php:193
+msgid "Failed to create import record: "
+msgstr ""
+
+#. translators: %1$s is a string, %2$d is a number
+#: includes/class-bfpi-importer.php:205
+#, php-format
+msgid "Import \"%1$s\" started with %2$d products."
+msgstr ""
+
+#. translators: %d is the number of processed products
+#: includes/class-bfpi-importer.php:616
+#, php-format
+msgid "Import completed successfully. Processed %d products."
+msgstr ""
+
+#. translators: %s is the product SKU
+#: includes/class-bfpi-importer.php:697
+#, php-format
+msgid "Product does not match filters - will be imported as Draft (SKU: %s)"
+msgstr ""
+
+#. translators: %s is the product SKU
+#: includes/class-bfpi-importer.php:701
+#, php-format
+msgid "Product skipped by import filters (SKU: %s)"
+msgstr ""
+
+#. translators: %s is the product SKU
+#: includes/class-bfpi-importer.php:711
+#, php-format
+msgid "Product matches filters - will be imported as Published (SKU: %s)"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:774
+#: includes/class-bfpi-importer.php:972
+#, php-format
+msgid "Product with SKU \"%s\" already exists and update is disabled."
+msgstr ""
+
+#. translators: %1$s is the product name, %2$d is the product ID
+#: includes/class-bfpi-importer.php:789
+#, php-format
+msgid "Skipped product (unchanged): %1$s (ID: %2$d)"
+msgstr ""
+
+#. translators: %1$s is the product name, %2$d is the product ID
+#: includes/class-bfpi-importer.php:798
+#, php-format
+msgid "Updated product: %1$s (ID: %2$d)"
+msgstr ""
+
+#. translators: %1$s is the product name, %2$d is the product ID
+#: includes/class-bfpi-importer.php:805
+#, php-format
+msgid "Created product: %1$s (ID: %2$d)"
+msgstr ""
+
+#. translators: %s is the error message
+#: includes/class-bfpi-importer.php:902
+#, php-format
+msgid "Error importing product: %s"
+msgstr ""
+
+#. translators: %1$s is the product name, %2$d is the number of variations
+#: includes/class-bfpi-importer.php:1228
+#, php-format
+msgid "Imported variable product: %1$s with %2$d variations"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:1353
+#: includes/class-bfpi-importer.php:1362
+#, php-format
+msgid "Invalid regex pattern: %s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:1937
+#, php-format
+msgid "Required field \"%s\" is missing or empty."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:1944
+#, php-format
+msgid "Invalid SKU format: %s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:1950
+#, php-format
+msgid "Invalid regular price: %s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:1955
+#, php-format
+msgid "Invalid sale price: %s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:1978
+#, php-format
+msgid "Auto-detected Grouped product type for \"%s\" (has grouped_products field)"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:1984
+#, php-format
+msgid "Auto-detected External product type for \"%s\" (has external_url field)"
+msgstr ""
+
+#: includes/class-bfpi-importer.php:2190
+msgid "Failed to create product."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:2274
+#, php-format
+msgid "Grouped product \"%1$s\" - stored pending children SKUs: %2$s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:2739
+#, php-format
+msgid "Product with ID %d not found."
+msgstr ""
+
+#: includes/class-bfpi-importer.php:4446
+msgid "Invalid image file type."
+msgstr ""
+
+#: includes/class-bfpi-importer.php:6740
+msgid "Starting Phase 2: Resolving product relationships..."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:6778
+#, php-format
+msgid "Resolved grouped product ID %1$d with %2$d children"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:6782
+#, php-format
+msgid "Could not resolve children for grouped product ID %1$d (SKUs: %2$s)"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:6787
+#, php-format
+msgid "Error resolving grouped product ID %1$d: %2$s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:6861
+#, php-format
+msgid "Phase 2 completed: %1$d relationships resolved, %2$d errors"
+msgstr ""
+
+#: includes/class-bfpi-importer.php:6875
+msgid "Starting Phase 3: Syncing variable products stock status..."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:6931
+#, php-format
+msgid "Phase 3 completed: %d variable products stock status synced"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:6959
+#, php-format
+msgid "Could not find product with SKU: %s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:6979
+#, php-format
+msgid "Processing missing products with action: %s"
+msgstr ""
+
+#: includes/class-bfpi-importer.php:7027
+msgid "No missing products found."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:7060
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to draft - no longer in feed."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:7070
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) marked as out of stock - no longer in feed."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:7081
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) set to backorder - no longer in feed."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:7088
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) moved to trash - no longer in feed."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:7095
+#, php-format
+msgid "Product \"%1$s\" (SKU: %2$s) permanently deleted - no longer in feed."
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:7133
+#, php-format
+msgid "Error processing missing product ID %1$d: %2$s"
+msgstr ""
+
+#. translators: placeholder values
+#: includes/class-bfpi-importer.php:7138
+#, php-format
+msgid "Missing products cleanup completed: %1$d processed, %2$d errors."
+msgstr ""
+
+#: includes/class-bfpi-importer.php:7187
+msgid "Valid file path is required."
+msgstr ""
+
+#: includes/class-bfpi-importer.php:7191
+msgid "File type must be XML or CSV."
+msgstr ""
+
+#: includes/class-bfpi-security.php:69
+msgid "You must be logged in to perform this action."
+msgstr ""
+
+#: includes/class-bfpi-security.php:74
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: includes/class-bfpi-security.php:99
+msgid "Rate limit exceeded. Please wait before making another request."
+msgstr ""
+
+#: includes/class-bfpi-security.php:112
+msgid "No file uploaded."
+msgstr ""
+
+#: includes/class-bfpi-security.php:121
+msgid "File is too large."
+msgstr ""
+
+#: includes/class-bfpi-security.php:124
+msgid "File upload was incomplete."
+msgstr ""
+
+#: includes/class-bfpi-security.php:128
+msgid "Server error during upload."
+msgstr ""
+
+#: includes/class-bfpi-security.php:131
+msgid "Unknown upload error."
+msgstr ""
+
+#: includes/class-bfpi-security.php:140
+msgid "Invalid file name."
+msgstr ""
+
+#: includes/class-bfpi-security.php:149
+msgid "File type not allowed. Only XML and CSV files are supported."
+msgstr ""
+
+#: includes/class-bfpi-security.php:156
+msgid "File is too large. Maximum size is 100MB."
+msgstr ""
+
+#: includes/class-bfpi-security.php:168
+msgid "File MIME type does not match extension."
+msgstr ""
+
+#: includes/class-bfpi-security.php:174
+msgid "File contains potentially malicious content."
+msgstr ""
+
+#: includes/class-bfpi-security.php:417
+msgid "Invalid URL format."
+msgstr ""
+
+#: includes/class-bfpi-security.php:424
+msgid "URL must use HTTP or HTTPS protocol."
+msgstr ""
+
+#: includes/class-bfpi-security.php:428
+msgid "URL must contain a valid host."
+msgstr ""
+
+#: includes/class-bfpi-security.php:436
+msgid "Localhost URLs are not allowed."
+msgstr ""
+
+#: includes/class-bfpi-security.php:441
+msgid "Local domain URLs are not allowed."
+msgstr ""
+
+#: includes/class-bfpi-security.php:449
+msgid "URLs pointing to private or reserved IP ranges are not allowed."
+msgstr ""
+
+#: includes/class-bfpi-xml-parser.php:42
+#: includes/class-bfpi-xml-parser.php:167
+#: includes/class-bfpi-xml-parser.php:733
+msgid "XML file not found."
+msgstr ""
+
+#: includes/class-bfpi-xml-parser.php:48
+#: includes/class-bfpi-xml-parser.php:172
+#: includes/class-bfpi-xml-parser.php:738
+msgid "Unable to open XML file."
+msgstr ""
+
+#: includes/class-bfpi-xml-parser.php:681
+msgid "Invalid XML file or unable to open file."
+msgstr ""
+
+#: includes/class-bfpi-xml-parser.php:696
+msgid "XML validation errors: "
+msgstr ""
+
+#: includes/class-bfpi-xml-parser.php:703
+msgid "XML file is valid."
+msgstr ""
+
+#: includes/class-bfpi.php:103
+msgid "Every 15 Minutes"
+msgstr ""
+
+#: includes/class-bfpi.php:109
+msgid "Every 6 Hours"
+msgstr ""
