@@ -764,7 +764,7 @@ class Bfpi_XML_Parser {
                     // For very large files, send progress feedback every 1000 products
                     if ($product_count % 1000 == 0) {
                         // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
-                        if (defined('WP_DEBUG') && WP_DEBUG) { error_log("WC XML Import: Counted $product_count products so far..."); }
+                        if (defined('WP_DEBUG') && WP_DEBUG) { error_log("BFPI: Counted $product_count XML products so far..."); }
                     }
                 }
             }

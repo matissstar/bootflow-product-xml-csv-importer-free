@@ -2,8 +2,7 @@
 /**
  * License Management Class
  *
- * All features are available.
- * without any license key. This class provides compatibility stubs.
+ * Compatibility stubs — all features are available without a license key.
  *
  * @package Bfpi
  * @since 0.9
@@ -21,47 +20,13 @@ if (!defined('ABSPATH')) {
 class Bfpi_License {
 
     /**
-     * Get current tier
-     *
-     * @return string Always 'free'.
-     */
-    public static function get_tier() {
-        return 'free';
-    }
-
-    /**
      * Check if a feature is available
      *
      * @param string $feature Feature ID.
-     * @return bool Always true for known features.
+     * @return bool True if the feature exists.
      */
     public static function can( $feature ) {
         return Bfpi_Features::is_available( $feature );
-    }
-
-    /**
-     * Check if license is valid
-     *
-     * @return bool Always false.
-     */
-    public static function is_valid() {
-        return false;
-    }
-
-    /**
-     * Render upgrade notice (no-op)
-     *
-     * @param string $feature Feature ID.
-     */
-    public static function render_upgrade_notice( $feature = '' ) {
-        // No-op.
-    }
-
-    /**
-     * License notice (no-op)
-     */
-    public static function maybe_show_license_notice() {
-        // No-op – all features free.
     }
 }
 
@@ -73,13 +38,4 @@ class Bfpi_License {
  */
 function bfpi_can( $feature ) {
     return Bfpi_Features::is_available( $feature );
-}
-
-/**
- * Global helper: get current tier
- *
- * @return string Always 'free'.
- */
-function bfpi_get_tier() {
-    return 'free';
 }

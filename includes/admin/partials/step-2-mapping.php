@@ -24,7 +24,7 @@ $can_filters_advanced = $can_import_filters;
 
 // Get parameters from URL
 // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-$import_id = isset($_GET['import_id']) ? absint($_GET['import_id']) : 0;
+$import_id = isset($_GET['import_id']) ? absint(wp_unslash($_GET['import_id'])) : 0;
 
 // Load import data from database
 global $wpdb;

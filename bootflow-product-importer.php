@@ -3,7 +3,7 @@
  * Plugin Name: Bootflow – Product XML & CSV Importer
  * Plugin URI:  https://bootflow.io/woocommerce-xml-csv-importer/
  * Description: Import and update WooCommerce products from XML and CSV feeds with manual field mapping, product variations support, and a reliable import workflow.
- * Version: 0.9.2
+ * Version: 0.9.3
  * Author:      Bootflow
  * Author URI:  https://bootflow.io
  * Text Domain: bootflow-product-xml-csv-importer
@@ -40,7 +40,7 @@ function bfpi_woocommerce_missing_notice() {
 /**
  * Currently plugin version.
  */
-define('BFPI_VERSION', '0.9.2');
+define('BFPI_VERSION', '0.9.3');
 define('BFPI_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('BFPI_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('BFPI_PLUGIN_BASENAME', plugin_basename(__FILE__));

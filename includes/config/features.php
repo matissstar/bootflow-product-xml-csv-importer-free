@@ -1,8 +1,8 @@
 <?php
 /**
- * Feature Flags Configuration — FREE Version
+ * Feature Flags Configuration
  *
- * Only FREE features are enabled. PRO features are explicitly false.
+ * All features that are available in this plugin.
  *
  * @since      1.0.0
  * @package    Bfpi
@@ -12,15 +12,6 @@
 // Prevent direct access
 if (!defined('ABSPATH')) {
     exit;
-}
-
-/**
- * Check plugin edition
- *
- * @return bool Always false for FREE version
- */
-function bfpi_is_pro() {
-    return false;
 }
 
 /**

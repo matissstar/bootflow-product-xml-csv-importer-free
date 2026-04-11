@@ -4,7 +4,7 @@ Tags: woocommerce, import, xml, csv, products
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.9.2
+Stable tag: 0.9.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,13 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 4. Import progress and results
 
 == Changelog ==
+
+= 0.9.3 =
+* Removed unused PRO scaffolding code (is_pro, pro_badge, License stubs)
+* Fixed nonce sanitization to use sanitize_text_field instead of sanitize_key
+* Added wp_unslash to all superglobal access points
+* Scoped pro menu script to plugin pages only
+* Renamed WC-prefixed log messages to BFPI prefix
 
 = 0.9.2 =
 * WordPress.org compliance updates

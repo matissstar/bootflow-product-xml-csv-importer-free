@@ -79,11 +79,11 @@ class Bfpi_Security {
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
         if (isset($_POST['nonce'])) {
             // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
-            $nonce = sanitize_key(wp_unslash($_POST['nonce']));
+            $nonce = sanitize_text_field(wp_unslash($_POST['nonce']));
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
         } elseif (isset($_REQUEST['nonce'])) {
             // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
-            $nonce = sanitize_key(wp_unslash($_REQUEST['nonce']));
+            $nonce = sanitize_text_field(wp_unslash($_REQUEST['nonce']));
         }
         
         if (empty($nonce) || !wp_verify_nonce($nonce, 'bfpi_nonce')) {

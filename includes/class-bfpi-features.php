@@ -1,8 +1,8 @@
 <?php
 /**
- * Features Management Class — FREE Version
+ * Features Management Class
  *
- * Only FREE features are listed. PRO features are not available.
+ * Defines which features are available in the plugin.
  *
  * @package Bfpi
  * @since 0.9
@@ -61,67 +61,21 @@ class Bfpi_Features {
     }
 
     /**
-     * Check if Pro edition is active
-     *
-     * @return bool Always false.
-     */
-    public static function is_pro() {
-        return false;
-    }
-
-    /**
-     * Check if this is the extended plugin
-     *
-     * @return bool Always false.
-     */
-    public static function is_pro_plugin() {
-        return false;
-    }
-
-    /**
-     * Get list of extended features
-     *
-     * @return array Empty array.
-     */
-    public static function get_pro_features() {
-        return array();
-    }
-
-    /**
-     * Get list of all free features
+     * Get list of all available features
      *
      * @return array Feature IDs.
      */
-    public static function get_free_features() {
+    public static function get_features() {
         return array_keys( self::FEATURES );
-    }
-
-    /**
-     * Clear cached edition (no-op)
-     */
-    public static function clear_cache() {
-        // No-op.
-    }
-
-    /**
-     * Output badge HTML (no-op)
-     *
-     * @param string $feature Optional feature ID.
-     * @param bool   $clickable Whether badge should be clickable.
-     * @return string Empty string.
-     */
-    public static function pro_badge( $feature = '', $clickable = true ) {
-        return '';
     }
 
     /**
      * Check feature availability
      *
      * @param string $feature    Feature ID.
-     * @param bool   $echo_badge Ignored.
      * @return bool True if feature is known.
      */
-    public static function check( $feature, $echo_badge = false ) {
+    public static function check( $feature ) {
         return self::is_available( $feature );
     }
 }

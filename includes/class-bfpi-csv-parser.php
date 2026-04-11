@@ -460,7 +460,7 @@ class Bfpi_CSV_Parser {
                 
                 if ($row_count % 10000 == 0) {
                     // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
-                    if (defined('WP_DEBUG') && WP_DEBUG) { error_log("WC CSV Import: Counted $row_count rows so far..."); }
+                    if (defined('WP_DEBUG') && WP_DEBUG) { error_log("BFPI: Counted $row_count CSV rows so far..."); }
                 }
             }
 

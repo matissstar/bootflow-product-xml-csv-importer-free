@@ -181,7 +181,7 @@ class Bfpi_Admin {
                 // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
                 if ( isset( $_GET[ $param ] ) ) {
                     // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
-                    $redirect_url = add_query_arg( sanitize_key( $param ), absint( $_GET[ $param ] ), $redirect_url );
+                    $redirect_url = add_query_arg( sanitize_key( $param ), absint( wp_unslash( $_GET[ $param ] ) ), $redirect_url );
                 }
             }
             
@@ -297,7 +297,7 @@ class Bfpi_Admin {
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $action = isset($_GET['action']) ? sanitize_key(wp_unslash($_GET['action'])) : '';
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-        $import_id = isset($_GET['import_id']) ? absint($_GET['import_id']) : 0;
+        $import_id = isset($_GET['import_id']) ? absint(wp_unslash($_GET['import_id'])) : 0;
 
         // Handle Re-run action with resume dialog
         if ($action === 'rerun' && $import_id > 0) {
@@ -331,7 +331,7 @@ class Bfpi_Admin {
         }
         
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-        $step = isset($_GET['step']) ? absint($_GET['step']) : 1;
+        $step = isset($_GET['step']) ? absint(wp_unslash($_GET['step'])) : 1;
         
         echo '<div class="wrap bfpi-import-wrap">';
         echo '<div class="bootflow-header-row">';
@@ -413,7 +413,7 @@ class Bfpi_Admin {
         
         // Check if Edit mode (import_id in URL)
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-        $import_id = isset($_GET['import_id']) ? absint($_GET['import_id']) : 0;
+        $import_id = isset($_GET['import_id']) ? absint(wp_unslash($_GET['import_id'])) : 0;
         
         // HANDLE POST SUBMISSION FIRST (before any output)
         // phpcs:ignore WordPress.Security.NonceVerification.Missing
@@ -514,7 +514,7 @@ class Bfpi_Admin {
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended
         $action = isset($_GET['action']) ? sanitize_key(wp_unslash($_GET['action'])) : '';
         // phpcs:ignore WordPress.Security.NonceVerification.Recommended
-        $import_id = isset($_GET['import_id']) ? absint($_GET['import_id']) : 0;
+        $import_id = isset($_GET['import_id']) ? absint(wp_unslash($_GET['import_id'])) : 0;
         
         // Handle edit action - redirect to Step 2 with import data
         if ($action === 'edit' && $import_id > 0) {
@@ -3318,6 +3318,10 @@ class Bfpi_Admin {
      * @since 1.0.0
      */
     public function print_pro_menu_script() {
+        $screen = get_current_screen();
+        if ( ! $screen || strpos( $screen->id, 'bfpi-' ) === false ) {
+            return;
+        }
         $js = "jQuery(function($){
             $('#adminmenu a[href*=\"bfpi-get-pro\"]')
                 .attr('target', '_blank')
