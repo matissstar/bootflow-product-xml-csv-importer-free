@@ -4,9 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bootflow Product Importer 0.9.2\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bootflow-product-"
-"xml-csv-importer\n"
-"POT-Creation-Date: 2026-04-11T14:15:09+00:00\n"
+"Report-Msgid-Bugs-To: admin@bootflow.io\n"
+"POT-Creation-Date: 2026-04-11 17:44+0300\n"
 "PO-Revision-Date: 2026-03-04 23:10+0000\n"
 "Last-Translator: Bootflow Auto-Translate\n"
 "Language-Team: Svenska\n"
@@ -15,34 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#. Plugin Name of the plugin
-#: bootflow-product-xml-csv-importer.php
-#: includes/admin/class-bfpi-admin.php:339
-msgid "Bootflow – Product XML & CSV Importer"
-msgstr ""
-
-#. Plugin URI of the plugin
-#: bootflow-product-xml-csv-importer.php
-msgid "https://bootflow.io/woocommerce-xml-csv-importer/"
-msgstr ""
-
-#. Description of the plugin
-#: bootflow-product-xml-csv-importer.php
-msgid ""
-"Import and update WooCommerce products from XML and CSV feeds with manual "
-"field mapping, product variations support, and a reliable import workflow."
-msgstr ""
-
-#. Author of the plugin
-#: bootflow-product-xml-csv-importer.php
-msgid "Bootflow"
-msgstr ""
-
-#. Author URI of the plugin
-#: bootflow-product-xml-csv-importer.php
-msgid "https://bootflow.io"
-msgstr ""
 
 #: bootflow-product-xml-csv-importer.php:33
 msgid ""
@@ -112,11 +83,10 @@ msgid "Deleting..."
 msgstr "Raderar..."
 
 #: includes/admin/class-bfpi-admin.php:122
-#: includes/admin/class-bfpi-admin.php:648
+#: includes/admin/class-bfpi-admin.php:654
 msgid "No products found to delete."
 msgstr "Inga produkter att radera hittades."
 
-#. translators: %d is the number of products deleted
 #: includes/admin/class-bfpi-admin.php:124
 #, php-format
 msgid "All %d products deleted successfully!"
@@ -138,7 +108,6 @@ msgstr "Kör"
 msgid "Go to product:"
 msgstr "Gå till produkt:"
 
-#. translators: %1$d is the current product number, %2$d is the total number of products
 #: includes/admin/class-bfpi-admin.php:131
 #, php-format
 msgid "Product %1$d of %2$d"
@@ -180,19 +149,16 @@ msgstr "(klicka för att expandera)"
 msgid "(click)"
 msgstr "(klicka)"
 
-#. translators: %d = number of fields
 #: includes/admin/class-bfpi-admin.php:144
 #, php-format
 msgid "Object (%d fields)"
 msgstr "Objekt (%d fält)"
 
-#. translators: %d = number of items
 #: includes/admin/class-bfpi-admin.php:146
 #, php-format
 msgid "All %d items"
 msgstr "Alla %d objekt"
 
-#. translators: %d = number of nested/complex fields
 #: includes/admin/class-bfpi-admin.php:148
 #, php-format
 msgid ""
@@ -225,7 +191,7 @@ msgid "New Import"
 msgstr "Ny Import"
 
 #: includes/admin/class-bfpi-admin.php:272
-#: includes/admin/class-bfpi-admin.php:655
+#: includes/admin/class-bfpi-admin.php:661
 msgid "Import History"
 msgstr "Importhistorik"
 
@@ -238,333 +204,342 @@ msgstr "Historik"
 msgid "Get PRO"
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:372
+#: includes/admin/class-bfpi-admin.php:307
+#: includes/admin/class-bfpi-admin.php:546
+#: includes/admin/class-bfpi-admin.php:1627
+#: includes/admin/class-bfpi-admin.php:1849
+#: includes/admin/class-bfpi-admin.php:1958
+#: includes/admin/class-bfpi-admin.php:2084
+#: includes/admin/class-bfpi-admin.php:2262
+#: includes/admin/class-bfpi-admin.php:2343
+#: includes/admin/class-bfpi-admin.php:2714 includes/class-bfpi-security.php:90
+msgid "Security check failed."
+msgstr "Säkerhetskontroll misslyckades."
+
+#: includes/admin/class-bfpi-admin.php:341
+msgid "Bootflow – Product XML & CSV Importer"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:374
 #: includes/admin/partials/step-1-upload.php:47
 msgid "Upload File"
 msgstr "Ladda upp fil"
 
-#: includes/admin/class-bfpi-admin.php:373
+#: includes/admin/class-bfpi-admin.php:375
 msgid "Map Fields"
 msgstr "Mappa Fält"
 
-#: includes/admin/class-bfpi-admin.php:374
+#: includes/admin/class-bfpi-admin.php:376
 #: includes/admin/partials/step-3-progress.php:179
 msgid "Import Progress"
 msgstr "Importframsteg"
 
-#: includes/admin/class-bfpi-admin.php:577
+#: includes/admin/class-bfpi-admin.php:583
 msgid "Import stopped successfully."
 msgstr "Import stoppad."
 
-#: includes/admin/class-bfpi-admin.php:607
+#: includes/admin/class-bfpi-admin.php:613
 msgid "Import and file deleted successfully."
 msgstr "Import och fil raderade."
 
-#: includes/admin/class-bfpi-admin.php:609
+#: includes/admin/class-bfpi-admin.php:615
 msgid "Failed to delete import."
 msgstr "Kunde inte radera import."
 
-#. translators: %d is the number of deleted products
-#: includes/admin/class-bfpi-admin.php:646
+#: includes/admin/class-bfpi-admin.php:652
 #, php-format
 msgid "%d products deleted successfully."
 msgstr "%d produkter raderade."
 
-#: includes/admin/class-bfpi-admin.php:668
+#: includes/admin/class-bfpi-admin.php:674
 msgid "No imports found."
 msgstr "Inga importer hittades."
 
-#: includes/admin/class-bfpi-admin.php:673
+#: includes/admin/class-bfpi-admin.php:679
 #: includes/admin/partials/import-edit.php:76
 msgid "Name"
 msgstr "Namn"
 
-#: includes/admin/class-bfpi-admin.php:674
+#: includes/admin/class-bfpi-admin.php:680
 #: includes/admin/partials/import-edit.php:80
 #: includes/admin/partials/step-1-upload.php:92
 msgid "File Type"
 msgstr "Filtyp"
 
-#: includes/admin/class-bfpi-admin.php:675
+#: includes/admin/class-bfpi-admin.php:681
 #: includes/admin/partials/import-edit.php:88
 #: includes/admin/partials/step-2-mapping.php:335
 msgid "Products"
 msgstr "Produkter"
 
-#: includes/admin/class-bfpi-admin.php:676
+#: includes/admin/class-bfpi-admin.php:682
 #: includes/admin/partials/import-edit.php:84
 msgid "Status"
 msgstr "Status"
 
-#: includes/admin/class-bfpi-admin.php:677
+#: includes/admin/class-bfpi-admin.php:683
 msgid "Schedule"
 msgstr "Schema"
 
-#: includes/admin/class-bfpi-admin.php:678
+#: includes/admin/class-bfpi-admin.php:684
 #: includes/admin/partials/import-edit.php:92
 msgid "Created"
 msgstr "Skapad"
 
-#: includes/admin/class-bfpi-admin.php:679
+#: includes/admin/class-bfpi-admin.php:685
 #: includes/admin/partials/import-edit.php:96
 msgid "Last Run"
 msgstr "Senaste Körning"
 
-#: includes/admin/class-bfpi-admin.php:680
+#: includes/admin/class-bfpi-admin.php:686
 msgid "Actions"
 msgstr "Åtgärder"
 
-#: includes/admin/class-bfpi-admin.php:696
+#: includes/admin/class-bfpi-admin.php:702
 msgid "Every 15 min"
 msgstr "Var 15 min"
 
-#: includes/admin/class-bfpi-admin.php:697
+#: includes/admin/class-bfpi-admin.php:703
 #: includes/admin/partials/import-edit.php:1106
 msgid "Hourly"
 msgstr "Varje Timme"
 
-#: includes/admin/class-bfpi-admin.php:698
+#: includes/admin/class-bfpi-admin.php:704
 msgid "Every 6h"
 msgstr "Var 6t"
 
-#: includes/admin/class-bfpi-admin.php:699
+#: includes/admin/class-bfpi-admin.php:705
 #: includes/admin/partials/import-edit.php:1108
 msgid "Daily"
 msgstr "Dagligen"
 
-#: includes/admin/class-bfpi-admin.php:700
+#: includes/admin/class-bfpi-admin.php:706
 #: includes/admin/partials/import-edit.php:1109
 msgid "Weekly"
 msgstr "Veckovis"
 
-#: includes/admin/class-bfpi-admin.php:701
+#: includes/admin/class-bfpi-admin.php:707
 #: includes/admin/partials/import-edit.php:1110
 msgid "Monthly"
 msgstr "Månadsvis"
 
-#. translators: %1$d is the database count, %2$d is processed count, %3$d is total in file - Show actual products in DB / processed from file / total in file
-#: includes/admin/class-bfpi-admin.php:710
+#: includes/admin/class-bfpi-admin.php:716
 #, php-format
 msgid "In database: %1$d, Processed: %2$d, In file: %3$d"
 msgstr "I databasen: %1$d, Bearbetade: %2$d, I filen: %3$d"
 
-#: includes/admin/class-bfpi-admin.php:719
+#: includes/admin/class-bfpi-admin.php:725
 #: includes/admin/partials/import-edit.php:103
 msgid "just now"
 msgstr "precis nu"
 
-#. translators: %d = number of minutes
-#: includes/admin/class-bfpi-admin.php:722
+#: includes/admin/class-bfpi-admin.php:728
 #: includes/admin/partials/import-edit.php:106
 #, php-format
 msgid "%d min ago"
 msgstr "%d min sedan"
 
-#. translators: %1$d = hours, %2$d = minutes
-#: includes/admin/class-bfpi-admin.php:727
+#: includes/admin/class-bfpi-admin.php:733
 #: includes/admin/partials/import-edit.php:111
 #, php-format
 msgid "%1$dh %2$dm ago"
 msgstr ""
 
-#. translators: %d = number of days
-#: includes/admin/class-bfpi-admin.php:730
+#: includes/admin/class-bfpi-admin.php:736
 #: includes/admin/partials/import-edit.php:114
 #, php-format
 msgid "%d days ago"
 msgstr "%d dagar sedan"
 
-#: includes/admin/class-bfpi-admin.php:742
+#: includes/admin/class-bfpi-admin.php:748
 #: includes/admin/partials/import-edit.php:128
 msgid "⏳ due now"
 msgstr "⏳ nu"
 
-#: includes/admin/class-bfpi-admin.php:744
+#: includes/admin/class-bfpi-admin.php:750
 msgid "⏳ <1 min"
 msgstr "⏳ <1 min"
 
-#. translators: %d = number of minutes
-#: includes/admin/class-bfpi-admin.php:747
+#: includes/admin/class-bfpi-admin.php:753
 #, php-format
 msgid "⏳ in %d min"
 msgstr "⏳ om %d min"
 
-#. translators: %1$d = hours, %2$d = minutes
-#: includes/admin/class-bfpi-admin.php:750
+#: includes/admin/class-bfpi-admin.php:756
 #, php-format
 msgid "⏳ in %1$dh %2$dm"
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:756
+#: includes/admin/class-bfpi-admin.php:762
 #: includes/admin/partials/import-edit.php:143
 msgid "Never"
 msgstr "Aldrig"
 
-#: includes/admin/class-bfpi-admin.php:762
+#: includes/admin/class-bfpi-admin.php:768
 msgid "Edit"
 msgstr "Redigera"
 
-#: includes/admin/class-bfpi-admin.php:766
+#: includes/admin/class-bfpi-admin.php:776
 msgid "Stop"
 msgstr "Stoppa"
 
-#: includes/admin/class-bfpi-admin.php:770
+#: includes/admin/class-bfpi-admin.php:784
 msgid "Re-run"
 msgstr "Kör igen"
 
-#: includes/admin/class-bfpi-admin.php:777
+#: includes/admin/class-bfpi-admin.php:791
 msgid "Are you sure you want to delete this import and its file?"
 msgstr "Är du säker på att du vill radera denna import och dess fil?"
 
-#: includes/admin/class-bfpi-admin.php:777
+#: includes/admin/class-bfpi-admin.php:791
 msgid "Delete import"
 msgstr "Radera import"
 
-#: includes/admin/class-bfpi-admin.php:780
+#: includes/admin/class-bfpi-admin.php:794
 msgid "Delete products"
 msgstr "Radera produkter"
 
-#: includes/admin/class-bfpi-admin.php:808
+#: includes/admin/class-bfpi-admin.php:822
 msgid "Import Not Found"
 msgstr "Import Hittades Inte"
 
-#: includes/admin/class-bfpi-admin.php:855
-#: includes/admin/class-bfpi-admin.php:873
+#: includes/admin/class-bfpi-admin.php:869
+#: includes/admin/class-bfpi-admin.php:887
 msgid "Security check failed. Please try again."
 msgstr "Säkerhetskontroll misslyckades. Försök igen."
 
-#: includes/admin/class-bfpi-admin.php:1138
+#: includes/admin/class-bfpi-admin.php:1152
 msgid "Import updated successfully."
 msgstr "Import uppdaterad."
 
-#: includes/admin/class-bfpi-admin.php:1224
+#: includes/admin/class-bfpi-admin.php:1238
 #: includes/admin/partials/step-2-mapping.php:88
 msgid "Basic Product Fields"
 msgstr "Grundläggande Produktfält"
 
-#: includes/admin/class-bfpi-admin.php:1226
+#: includes/admin/class-bfpi-admin.php:1240
 #: includes/admin/partials/step-2-mapping.php:91
 msgid "Product Code (SKU)"
 msgstr "Produktkod (SKU)"
 
-#: includes/admin/class-bfpi-admin.php:1227
+#: includes/admin/class-bfpi-admin.php:1241
 #: includes/admin/partials/step-2-mapping.php:96
 msgid "Product Name"
 msgstr "Produktnamn"
 
-#: includes/admin/class-bfpi-admin.php:1228
+#: includes/admin/class-bfpi-admin.php:1242
 #: includes/admin/partials/step-2-mapping.php:109
 msgid "Description"
 msgstr "Beskrivning"
 
-#: includes/admin/class-bfpi-admin.php:1229
+#: includes/admin/class-bfpi-admin.php:1243
 #: includes/admin/partials/step-2-mapping.php:110
 msgid "Short Description"
 msgstr "Kort Beskrivning"
 
-#: includes/admin/class-bfpi-admin.php:1230
+#: includes/admin/class-bfpi-admin.php:1244
 #: includes/admin/partials/step-2-mapping.php:112
 msgid "Product Status"
 msgstr "Produktstatus"
 
-#: includes/admin/class-bfpi-admin.php:1234
+#: includes/admin/class-bfpi-admin.php:1248
 #: includes/admin/partials/step-2-mapping.php:130
 msgid "Pricing Fields"
 msgstr "Prisfält"
 
-#: includes/admin/class-bfpi-admin.php:1236
+#: includes/admin/class-bfpi-admin.php:1250
 #: includes/admin/partials/step-2-mapping.php:132
 msgid "Regular Price"
 msgstr "Ordinarie Pris"
 
-#: includes/admin/class-bfpi-admin.php:1237
+#: includes/admin/class-bfpi-admin.php:1251
 #: includes/admin/partials/step-2-mapping.php:133
 msgid "Sale Price"
 msgstr "Reapris"
 
-#: includes/admin/class-bfpi-admin.php:1238
+#: includes/admin/class-bfpi-admin.php:1252
 #: includes/admin/partials/step-2-mapping.php:137
 msgid "Tax Status"
 msgstr "Skattestatus"
 
-#: includes/admin/class-bfpi-admin.php:1239
+#: includes/admin/class-bfpi-admin.php:1253
 #: includes/admin/partials/step-2-mapping.php:147
 msgid "Tax Class"
 msgstr "Skatteklass"
 
-#: includes/admin/class-bfpi-admin.php:1243
+#: includes/admin/class-bfpi-admin.php:1257
 #: includes/admin/partials/step-2-mapping.php:154
 msgid "Inventory Fields"
 msgstr "Lagerfält"
 
-#: includes/admin/class-bfpi-admin.php:1245
+#: includes/admin/class-bfpi-admin.php:1259
 #: includes/admin/partials/step-2-mapping.php:157
 msgid "Manage Stock"
 msgstr "Hantera Lager"
 
-#: includes/admin/class-bfpi-admin.php:1246
+#: includes/admin/class-bfpi-admin.php:1260
 #: includes/admin/partials/step-2-mapping.php:161
 msgid "Stock Quantity"
 msgstr "Lagerkvantitet"
 
-#: includes/admin/class-bfpi-admin.php:1247
+#: includes/admin/class-bfpi-admin.php:1261
 #: includes/admin/partials/step-2-mapping.php:163
 msgid "Stock Status"
 msgstr "Lagerstatus"
 
-#: includes/admin/class-bfpi-admin.php:1248
+#: includes/admin/class-bfpi-admin.php:1262
 #: includes/admin/partials/step-2-mapping.php:173
 msgid "Allow Backorders"
 msgstr "Tillåt restorder"
 
-#: includes/admin/class-bfpi-admin.php:1252
+#: includes/admin/class-bfpi-admin.php:1266
 #: includes/admin/partials/step-2-mapping.php:185
 msgid "Physical Properties"
 msgstr "Fysiska Egenskaper"
 
-#: includes/admin/class-bfpi-admin.php:1254
+#: includes/admin/class-bfpi-admin.php:1268
 #: includes/admin/partials/step-2-mapping.php:187
 msgid "Weight"
 msgstr "Vikt"
 
-#: includes/admin/class-bfpi-admin.php:1255
+#: includes/admin/class-bfpi-admin.php:1269
 #: includes/admin/partials/step-2-mapping.php:188
 msgid "Length"
 msgstr "Längd"
 
-#: includes/admin/class-bfpi-admin.php:1256
+#: includes/admin/class-bfpi-admin.php:1270
 #: includes/admin/partials/step-2-mapping.php:189
 msgid "Width"
 msgstr "Bredd"
 
-#: includes/admin/class-bfpi-admin.php:1257
+#: includes/admin/class-bfpi-admin.php:1271
 #: includes/admin/partials/step-2-mapping.php:190
 msgid "Height"
 msgstr "Höjd"
 
-#: includes/admin/class-bfpi-admin.php:1261
+#: includes/admin/class-bfpi-admin.php:1275
 #: includes/admin/partials/step-2-mapping.php:125
 msgid "Price Markup"
 msgstr "Prispåslag"
 
-#: includes/admin/class-bfpi-admin.php:1265
+#: includes/admin/class-bfpi-admin.php:1279
 #: includes/admin/partials/import-edit.php:645
 #: includes/admin/partials/step-2-mapping.php:195
 #: includes/admin/partials/step-2-mapping.php:889
 msgid "Shipping Class Rules"
 msgstr "Fraktklassregler"
 
-#: includes/admin/class-bfpi-admin.php:1269
+#: includes/admin/class-bfpi-admin.php:1283
 #: includes/admin/partials/step-2-mapping.php:200
 msgid "Media Fields"
 msgstr "Mediafält"
 
-#: includes/admin/class-bfpi-admin.php:1272
+#: includes/admin/class-bfpi-admin.php:1286
 #: includes/admin/partials/step-2-mapping.php:203
 msgid "Product Images"
 msgstr "Produktbilder"
 
-#: includes/admin/class-bfpi-admin.php:1275
+#: includes/admin/class-bfpi-admin.php:1289
 #: includes/admin/partials/step-2-mapping.php:206
 msgid ""
 "Enter image URLs or use placeholders: {image} = first image, {image[1]} = "
@@ -575,263 +550,248 @@ msgstr ""
 "{image[1]} = första, {image[2]} = andra, {image*} = alla bilder. Separera "
 "flera värden med kommatecken."
 
-#: includes/admin/class-bfpi-admin.php:1277
+#: includes/admin/class-bfpi-admin.php:1291
 #: includes/admin/partials/step-2-mapping.php:208
 msgid "Featured Image"
 msgstr "Utvald Bild"
 
-#: includes/admin/class-bfpi-admin.php:1281
+#: includes/admin/class-bfpi-admin.php:1295
 #: includes/admin/partials/step-2-mapping.php:212
 msgid "Categories & Tags"
 msgstr "Kategorier och taggar"
 
-#: includes/admin/class-bfpi-admin.php:1283
+#: includes/admin/class-bfpi-admin.php:1297
 #: includes/admin/partials/step-2-mapping.php:1854
 msgid "Product Categories"
 msgstr "Produktkategorier"
 
-#: includes/admin/class-bfpi-admin.php:1284
+#: includes/admin/class-bfpi-admin.php:1298
 #: includes/admin/partials/step-2-mapping.php:2047
 msgid "Product Tags"
 msgstr "Produkttaggar"
 
-#: includes/admin/class-bfpi-admin.php:1285
+#: includes/admin/class-bfpi-admin.php:1299
 #: includes/admin/partials/import-edit.php:477
 #: includes/admin/partials/import-edit.php:710
 #: includes/admin/partials/step-2-mapping.php:982
 msgid "Brand"
 msgstr "Varumärke"
 
-#: includes/admin/class-bfpi-admin.php:1289
+#: includes/admin/class-bfpi-admin.php:1303
 #: includes/admin/partials/step-2-mapping.php:283
 msgid "SEO Fields"
 msgstr "SEO-fält"
 
-#: includes/admin/class-bfpi-admin.php:1291
+#: includes/admin/class-bfpi-admin.php:1305
 #: includes/admin/partials/step-2-mapping.php:285
 msgid "Meta Title"
 msgstr "Metatitel"
 
-#: includes/admin/class-bfpi-admin.php:1292
+#: includes/admin/class-bfpi-admin.php:1306
 #: includes/admin/partials/step-2-mapping.php:286
 msgid "Meta Description"
 msgstr "Metabeskrivning"
 
-#: includes/admin/class-bfpi-admin.php:1293
+#: includes/admin/class-bfpi-admin.php:1307
 #: includes/admin/partials/step-2-mapping.php:287
 msgid "Meta Keywords"
 msgstr "Meta Nyckelord"
 
-#: includes/admin/class-bfpi-admin.php:1316
+#: includes/admin/class-bfpi-admin.php:1330
 msgid "Resume Import?"
 msgstr "Återuppta Import?"
 
-#: includes/admin/class-bfpi-admin.php:1323
+#: includes/admin/class-bfpi-admin.php:1337
 msgid "Current Progress:"
 msgstr "Nuvarande Framsteg:"
 
-#. translators: %1$d is processed products count, %2$d is total products count
-#: includes/admin/class-bfpi-admin.php:1327
+#: includes/admin/class-bfpi-admin.php:1341
 #, php-format
 msgid "%1$d of %2$d products processed"
 msgstr "%1$d av %2$d produkter bearbetade"
 
-#. translators: %d is remaining products count
-#: includes/admin/class-bfpi-admin.php:1330
+#: includes/admin/class-bfpi-admin.php:1344
 #, php-format
 msgid "%d products remaining"
 msgstr "%d produkter kvar"
 
-#: includes/admin/class-bfpi-admin.php:1333
+#: includes/admin/class-bfpi-admin.php:1347
 msgid "This import was previously started. Would you like to:"
 msgstr "Denna import startades tidigare. Vill du:"
 
-#: includes/admin/class-bfpi-admin.php:1342
+#: includes/admin/class-bfpi-admin.php:1359
 msgid "Continue Import"
 msgstr "Fortsätt Import"
 
-#. translators: %d is the product number to resume from
-#: includes/admin/class-bfpi-admin.php:1344
+#: includes/admin/class-bfpi-admin.php:1361
 #, php-format
 msgid "Resume from product %d"
 msgstr "Återuppta från produkt %d"
 
-#: includes/admin/class-bfpi-admin.php:1350
+#: includes/admin/class-bfpi-admin.php:1370
 msgid "Are you sure? This will reset progress and start from the beginning."
 msgstr "Är du säker? Detta återställer framstegen och startar om från början."
 
-#: includes/admin/class-bfpi-admin.php:1353
+#: includes/admin/class-bfpi-admin.php:1373
 #: includes/admin/partials/step-3-progress.php:484
 msgid "Start Over"
 msgstr "Börja Om"
 
-#: includes/admin/class-bfpi-admin.php:1354
+#: includes/admin/class-bfpi-admin.php:1374
 msgid "Reset and import all products"
 msgstr "Återställ och importera alla produkter"
 
-#: includes/admin/class-bfpi-admin.php:1362
+#: includes/admin/class-bfpi-admin.php:1382
 msgid "← Back to Import History"
 msgstr "← Tillbaka till Importhistorik"
 
-#: includes/admin/class-bfpi-admin.php:1386
-#: includes/admin/class-bfpi-admin.php:2088
-#: includes/admin/class-bfpi-admin.php:2263
-#: includes/admin/class-bfpi-admin.php:2727
+#: includes/admin/class-bfpi-admin.php:1406
+#: includes/admin/class-bfpi-admin.php:2108
+#: includes/admin/class-bfpi-admin.php:2283
+#: includes/admin/class-bfpi-admin.php:2747
 #: includes/admin/partials/step-3-progress.php:35
 #: includes/class-bfpi-importer.php:239
 msgid "Import not found."
 msgstr "Import hittades inte."
 
-#: includes/admin/class-bfpi-admin.php:1607
-#: includes/admin/class-bfpi-admin.php:1829
-#: includes/admin/class-bfpi-admin.php:1938
-#: includes/admin/class-bfpi-admin.php:2064
-#: includes/admin/class-bfpi-admin.php:2242
-#: includes/admin/class-bfpi-admin.php:2323
-#: includes/admin/class-bfpi-admin.php:2694 includes/class-bfpi-security.php:90
-msgid "Security check failed."
-msgstr "Säkerhetskontroll misslyckades."
-
-#: includes/admin/class-bfpi-admin.php:1612
-#: includes/admin/class-bfpi-admin.php:1834
-#: includes/admin/class-bfpi-admin.php:1945
-#: includes/admin/class-bfpi-admin.php:2069
-#: includes/admin/class-bfpi-admin.php:2247
-#: includes/admin/class-bfpi-admin.php:2328
+#: includes/admin/class-bfpi-admin.php:1632
+#: includes/admin/class-bfpi-admin.php:1854
+#: includes/admin/class-bfpi-admin.php:1965
+#: includes/admin/class-bfpi-admin.php:2089
+#: includes/admin/class-bfpi-admin.php:2267
+#: includes/admin/class-bfpi-admin.php:2348
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Du har inte tillräcklig behörighet för att komma åt denna sida."
 
-#: includes/admin/class-bfpi-admin.php:1642
+#: includes/admin/class-bfpi-admin.php:1662
 #: includes/class-bfpi-importer.php:7315
 msgid "Import name is required."
 msgstr "Importnamn krävs."
 
-#: includes/admin/class-bfpi-admin.php:1646
+#: includes/admin/class-bfpi-admin.php:1666
 msgid "Upload method is required."
 msgstr "Uppladdningsmetod krävs."
 
-#: includes/admin/class-bfpi-admin.php:1664
+#: includes/admin/class-bfpi-admin.php:1684
 msgid "File upload error."
 msgstr "Filuppladdningsfel."
 
-#: includes/admin/class-bfpi-admin.php:1671
+#: includes/admin/class-bfpi-admin.php:1691
 msgid "Invalid file type. Only XML and CSV files are allowed."
 msgstr "Ogiltig filtyp. Endast XML och CSV-filer är tillåtna."
 
-#: includes/admin/class-bfpi-admin.php:1718
-#: includes/admin/class-bfpi-admin.php:2766
+#: includes/admin/class-bfpi-admin.php:1738
+#: includes/admin/class-bfpi-admin.php:2786
 msgid "URL import is not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:1720
+#: includes/admin/class-bfpi-admin.php:1740
 msgid "No file provided."
 msgstr "Ingen fil angiven."
 
-#: includes/admin/class-bfpi-admin.php:1725
+#: includes/admin/class-bfpi-admin.php:1745
 msgid "File upload failed - file does not exist."
 msgstr "Filuppladdning misslyckades - filen finns inte."
 
-#: includes/admin/class-bfpi-admin.php:1732
+#: includes/admin/class-bfpi-admin.php:1752
 msgid "File is empty."
 msgstr "Filen är tom."
 
-#: includes/admin/class-bfpi-admin.php:1803
+#: includes/admin/class-bfpi-admin.php:1823
 msgid "File uploaded successfully."
 msgstr "Fil uppladdad."
 
-#: includes/admin/class-bfpi-admin.php:1890
+#: includes/admin/class-bfpi-admin.php:1910
 msgid "File is not ready yet. Please refresh the page and try again."
 msgstr "Filen är inte redo ännu. Uppdatera sidan och försök igen."
 
-#: includes/admin/class-bfpi-admin.php:2039
+#: includes/admin/class-bfpi-admin.php:2059
 msgid "Import started successfully."
 msgstr "Import startad."
 
-#: includes/admin/class-bfpi-admin.php:2095
+#: includes/admin/class-bfpi-admin.php:2115
 msgid "Import already completed."
 msgstr "Import redan slutförd."
 
-#: includes/admin/class-bfpi-admin.php:2108
+#: includes/admin/class-bfpi-admin.php:2128
 msgid "Import already in progress."
 msgstr "Import pågår redan."
 
-#: includes/admin/class-bfpi-admin.php:2134
+#: includes/admin/class-bfpi-admin.php:2154
 msgid "Import processing started."
 msgstr "Importbearbetning startad."
 
-#: includes/admin/class-bfpi-admin.php:2230
+#: includes/admin/class-bfpi-admin.php:2250
 msgid "URL testing is not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:2340
+#: includes/admin/class-bfpi-admin.php:2360
 msgid "Invalid import ID or mapping data."
 msgstr "Ogiltigt import-ID eller mappningsdata."
 
-#: includes/admin/class-bfpi-admin.php:2454
+#: includes/admin/class-bfpi-admin.php:2474
 msgid "Database error: "
 msgstr "Databasfel: "
 
-#: includes/admin/class-bfpi-admin.php:2459
+#: includes/admin/class-bfpi-admin.php:2479
 msgid "Mapping configuration saved successfully."
 msgstr "Mappningskonfiguration sparad."
 
-#: includes/admin/class-bfpi-admin.php:2476
+#: includes/admin/class-bfpi-admin.php:2496
 msgid "Shipping formula testing is not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:2699
+#: includes/admin/class-bfpi-admin.php:2719
 msgid "You do not have sufficient permissions."
 msgstr "Du har inte tillräcklig behörighet."
 
-#: includes/admin/class-bfpi-admin.php:2709
+#: includes/admin/class-bfpi-admin.php:2729
 msgid "Invalid import ID or URL."
 msgstr "Ogiltigt import-ID eller URL."
 
-#: includes/admin/class-bfpi-admin.php:2749
+#: includes/admin/class-bfpi-admin.php:2769
 msgid "Failed to update URL in database."
 msgstr "Kunde inte uppdatera URL i databasen."
 
-#: includes/admin/class-bfpi-admin.php:2753
+#: includes/admin/class-bfpi-admin.php:2773
 msgid "URL updated successfully. Next import will use the new URL."
 msgstr "URL uppdaterad. Nästa import använder den nya URL:en."
 
-#: includes/admin/class-bfpi-admin.php:2896
-#: includes/admin/class-bfpi-admin.php:2903
-#: includes/admin/class-bfpi-admin.php:2910
+#: includes/admin/class-bfpi-admin.php:2916
+#: includes/admin/class-bfpi-admin.php:2923
+#: includes/admin/class-bfpi-admin.php:2930
 msgid "Recipes are not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:2959
+#: includes/admin/class-bfpi-admin.php:2979
 msgid "No source fields provided"
 msgstr "Inga källfält angivna"
 
-#. translators: %1$d is matched count, %2$d is total fields
-#: includes/admin/class-bfpi-admin.php:3089
+#: includes/admin/class-bfpi-admin.php:3109
 #, php-format
 msgid "Auto-detected %1$d of %2$d fields"
 msgstr "Automatiskt identifierade %1$d av %2$d fält"
 
-#: includes/admin/class-bfpi-admin.php:3106
-#: includes/admin/class-bfpi-admin.php:3171
+#: includes/admin/class-bfpi-admin.php:3126
+#: includes/admin/class-bfpi-admin.php:3191
 msgid "Security check failed"
 msgstr "Säkerhetskontroll misslyckades"
 
-#: includes/admin/class-bfpi-admin.php:3113
-#: includes/admin/class-bfpi-admin.php:3178
+#: includes/admin/class-bfpi-admin.php:3133
+#: includes/admin/class-bfpi-admin.php:3198
 msgid "Permission denied"
 msgstr "Åtkomst nekad"
 
-#: includes/admin/class-bfpi-admin.php:3123
-#: includes/admin/class-bfpi-admin.php:3158
+#: includes/admin/class-bfpi-admin.php:3143
+#: includes/admin/class-bfpi-admin.php:3178
 msgid "Invalid import ID"
 msgstr "Ogiltigt import-ID"
 
-#: includes/admin/class-bfpi-admin.php:3252
+#: includes/admin/class-bfpi-admin.php:3272
 msgid "All products deleted successfully"
 msgstr "Alla produkter raderade"
 
-#. translators: placeholder values
-#: includes/admin/class-bfpi-admin.php:3254
+#: includes/admin/class-bfpi-admin.php:3274
 #, php-format
 msgid "Deleted %1$d products, %2$d remaining..."
 msgstr "%1$d produkter raderade, %2$d kvar..."
@@ -852,13 +812,11 @@ msgstr "Importinformation"
 msgid "⏳ in less than 1 min"
 msgstr "⏳ om mindre än 1 min"
 
-#. translators: %d = number of minutes
 #: includes/admin/partials/import-edit.php:133
 #, php-format
 msgid "⏳ next run in %d min"
 msgstr "⏳ nästa körning om %d min"
 
-#. translators: %1$d = hours, %2$d = minutes
 #: includes/admin/partials/import-edit.php:136
 #, php-format
 msgid "⏳ next run in %1$dh %2$dm"
@@ -1559,7 +1517,6 @@ msgstr ""
 msgid "Update this field?"
 msgstr "Uppdatera detta fält?"
 
-#. translators: %s is the field key example
 #: includes/admin/partials/import-edit.php:869
 #: includes/admin/partials/step-2-mapping.php:2639
 #, php-format
@@ -1883,7 +1840,6 @@ msgstr "eller"
 msgid "Browse Files"
 msgstr "Bläddra bland filer"
 
-#. translators: %d is the maximum file size in MB
 #: includes/admin/partials/step-1-upload.php:71
 #, php-format
 msgid "Accepted formats: XML, CSV | Max size: %dMB"
@@ -3420,7 +3376,6 @@ msgstr "-- Välj Bildfält --"
 msgid "Invalid import ID. Please start a new import."
 msgstr "Ogiltigt import-ID. Starta en ny import."
 
-#. translators: %s is the import name
 #: includes/admin/partials/step-3-progress.php:182
 #, php-format
 msgid ""
@@ -3601,7 +3556,6 @@ msgstr "Ej tillämpligt"
 msgid "Success Rate"
 msgstr "Framgångsfrekvens"
 
-#. translators: %1$d is the number of successfully imported products, %2$d is the total number of products
 #: includes/admin/partials/step-3-progress.php:429
 #, php-format
 msgid "Successfully imported %1$d out of %2$d products."
@@ -3653,7 +3607,6 @@ msgstr "Kan inte läsa CSV-rubriker."
 msgid "File does not exist."
 msgstr "Filen finns inte."
 
-#. translators: placeholder values
 #: includes/class-bfpi-csv-parser.php:368
 #: includes/class-bfpi-xml-parser.php:675
 #, php-format
@@ -3668,7 +3621,6 @@ msgstr "CSV-filen verkar vara tom."
 msgid "Unable to parse CSV headers."
 msgstr "Kan inte tolka CSV-rubriker."
 
-#. translators: placeholder values
 #: includes/class-bfpi-csv-parser.php:398
 #, php-format
 msgid "CSV file is valid with %d columns."
@@ -3678,7 +3630,6 @@ msgstr "CSV-filen är giltig med %d kolumner."
 msgid "CSV file has no headers."
 msgstr "CSV-filen har inga rubriker."
 
-#. translators: placeholder values
 #: includes/class-bfpi-csv-parser.php:522
 #, php-format
 msgid "Parent SKU column \"%s\" not found in CSV."
@@ -3692,103 +3643,86 @@ msgstr "Kunde inte uppdatera importpost: "
 msgid "Failed to create import record: "
 msgstr "Kunde inte skapa importpost: "
 
-#. translators: %1$s is a string, %2$d is a number
 #: includes/class-bfpi-importer.php:209
 #, php-format
 msgid "Import \"%1$s\" started with %2$d products."
 msgstr "Import \"%1$s\" startad med %2$d produkter."
 
-#. translators: %d is the number of processed products
 #: includes/class-bfpi-importer.php:622
 #, php-format
 msgid "Import completed successfully. Processed %d products."
 msgstr "Import slutförd. %d produkter bearbetade."
 
-#. translators: %s is the product SKU
 #: includes/class-bfpi-importer.php:703
 #, php-format
 msgid "Product does not match filters - will be imported as Draft (SKU: %s)"
 msgstr "Produkten matchar inte filter - importeras som Utkast (SKU: %s)"
 
-#. translators: %s is the product SKU
 #: includes/class-bfpi-importer.php:707
 #, php-format
 msgid "Product skipped by import filters (SKU: %s)"
 msgstr "Produkt hoppades över av importfilter (SKU: %s)"
 
-#. translators: %s is the product SKU
 #: includes/class-bfpi-importer.php:717
 #, php-format
 msgid "Product matches filters - will be imported as Published (SKU: %s)"
 msgstr "Produkten matchar filter - importeras som Publicerad (SKU: %s)"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:780 includes/class-bfpi-importer.php:980
 #, php-format
 msgid "Product with SKU \"%s\" already exists and update is disabled."
 msgstr "Produkt med SKU \"%s\" finns redan och uppdatering är inaktiverad."
 
-#. translators: %1$s is the product name, %2$d is the product ID
 #: includes/class-bfpi-importer.php:795
 #, php-format
 msgid "Skipped product (unchanged): %1$s (ID: %2$d)"
 msgstr "Produkt hoppad (oförändrad): %1$s (ID: %2$d)"
 
-#. translators: %1$s is the product name, %2$d is the product ID
 #: includes/class-bfpi-importer.php:804
 #, php-format
 msgid "Updated product: %1$s (ID: %2$d)"
 msgstr "Uppdaterad produkt: %1$s (ID: %2$d)"
 
-#. translators: %1$s is the product name, %2$d is the product ID
 #: includes/class-bfpi-importer.php:811
 #, php-format
 msgid "Created product: %1$s (ID: %2$d)"
 msgstr "Produkt skapad: %1$s (ID: %2$d)"
 
-#. translators: %s is the error message
 #: includes/class-bfpi-importer.php:910
 #, php-format
 msgid "Error importing product: %s"
 msgstr "Fel vid import av produkt: %s"
 
-#. translators: %1$s is the product name, %2$d is the number of variations
 #: includes/class-bfpi-importer.php:1236
 #, php-format
 msgid "Imported variable product: %1$s with %2$d variations"
 msgstr "Variabel produkt importerad: %1$s med %2$d variationer"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:1361 includes/class-bfpi-importer.php:1370
 #, php-format
 msgid "Invalid regex pattern: %s"
 msgstr "Ogiltigt regex-mönster: %s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:1946
 #, php-format
 msgid "Required field \"%s\" is missing or empty."
 msgstr "Obligatoriskt fält \"%s\" saknas eller är tomt."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:1953
 #, php-format
 msgid "Invalid SKU format: %s"
 msgstr "Ogiltigt SKU-format: %s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:1959
 #, php-format
 msgid "Invalid regular price: %s"
 msgstr "Ogiltigt ordinarie pris: %s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:1964
 #, php-format
 msgid "Invalid sale price: %s"
 msgstr "Ogiltigt reapris: %s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:1987
 #, php-format
 msgid ""
@@ -3797,7 +3731,6 @@ msgstr ""
 "Automatiskt identifierad Grupperad produkttyp för \"%s\" (har fältet "
 "grouped_products)"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:1993
 #, php-format
 msgid "Auto-detected External product type for \"%s\" (has external_url field)"
@@ -3809,13 +3742,11 @@ msgstr ""
 msgid "Failed to create product."
 msgstr "Kunde inte skapa produkt."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:2293
 #, php-format
 msgid "Grouped product \"%1$s\" - stored pending children SKUs: %2$s"
 msgstr "Grupperad produkt \"%1$s\" - väntande barn-SKU:er sparade: %2$s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:2758
 #, php-format
 msgid "Product with ID %d not found."
@@ -3829,25 +3760,21 @@ msgstr "Ogiltig bildfiltyp."
 msgid "Starting Phase 2: Resolving product relationships..."
 msgstr "Startar Fas 2: Löser produktrelationer..."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:6905
 #, php-format
 msgid "Resolved grouped product ID %1$d with %2$d children"
 msgstr "Löst grupperad produkt ID %1$d med %2$d barn"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:6909
 #, php-format
 msgid "Could not resolve children for grouped product ID %1$d (SKUs: %2$s)"
 msgstr "Kunde inte lösa barn för grupperad produkt ID %1$d (SKU: %2$s)"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:6914
 #, php-format
 msgid "Error resolving grouped product ID %1$d: %2$s"
 msgstr "Fel vid lösning av grupperad produkt ID %1$d: %2$s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:6988
 #, php-format
 msgid "Phase 2 completed: %1$d relationships resolved, %2$d errors"
@@ -3857,19 +3784,16 @@ msgstr "Fas 2 slutförd: %1$d relationer lösta, %2$d fel"
 msgid "Starting Phase 3: Syncing variable products stock status..."
 msgstr "Startar Fas 3: Synkar variabla produkters lagerstatus..."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7063
 #, php-format
 msgid "Phase 3 completed: %d variable products stock status synced"
 msgstr "Fas 3 slutförd: %d variabla produkters lagerstatus synkade"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7091
 #, php-format
 msgid "Could not find product with SKU: %s"
 msgstr "Kunde inte hitta produkt med SKU: %s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7111
 #, php-format
 msgid "Processing missing products with action: %s"
@@ -3879,14 +3803,12 @@ msgstr "Bearbetar saknade produkter med åtgärd: %s"
 msgid "No missing products found."
 msgstr "Inga saknade produkter hittades."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7192
 #, php-format
 msgid "Product \"%1$s\" (SKU: %2$s) moved to draft - no longer in feed."
 msgstr ""
 "Produkt \"%1$s\" (SKU: %2$s) flyttad till utkast - inte längre i flödet."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7202
 #, php-format
 msgid ""
@@ -3895,14 +3817,12 @@ msgstr ""
 "Produkt \"%1$s\" (SKU: %2$s) markerad som slut i lager - inte längre i "
 "flödet."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7213
 #, php-format
 msgid "Product \"%1$s\" (SKU: %2$s) set to backorder - no longer in feed."
 msgstr ""
 "Produkt \"%1$s\" (SKU: %2$s) satt till restnoterad - inte längre i flödet."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7220
 #, php-format
 msgid "Product \"%1$s\" (SKU: %2$s) moved to trash - no longer in feed."
@@ -3910,19 +3830,16 @@ msgstr ""
 "Produkt \"%1$s\" (SKU: %2$s) flyttad till papperskorgen - inte längre i "
 "flödet."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7227
 #, php-format
 msgid "Product \"%1$s\" (SKU: %2$s) permanently deleted - no longer in feed."
 msgstr "Produkt \"%1$s\" (SKU: %2$s) permanent raderad - inte längre i flödet."
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7265
 #, php-format
 msgid "Error processing missing product ID %1$d: %2$s"
 msgstr "Fel vid bearbetning av saknad produkt ID %1$d: %2$s"
 
-#. translators: placeholder values
 #: includes/class-bfpi-importer.php:7270
 #, php-format
 msgid "Missing products cleanup completed: %1$d processed, %2$d errors."
@@ -3935,6 +3852,14 @@ msgstr "Giltig filsökväg krävs."
 #: includes/class-bfpi-importer.php:7323
 msgid "File type must be XML or CSV."
 msgstr "Filtypen måste vara XML eller CSV."
+
+#: includes/class-bfpi.php:103
+msgid "Every 15 Minutes"
+msgstr "Var 15:e Minut"
+
+#: includes/class-bfpi.php:109
+msgid "Every 6 Hours"
+msgstr "Var 6:e Timme"
 
 #: includes/class-bfpi-security.php:69
 msgid "You must be logged in to perform this action."
@@ -4034,11 +3959,3 @@ msgstr "XML-valideringsfel: "
 #: includes/class-bfpi-xml-parser.php:703
 msgid "XML file is valid."
 msgstr "XML-filen är giltig."
-
-#: includes/class-bfpi.php:103
-msgid "Every 15 Minutes"
-msgstr "Var 15:e Minut"
-
-#: includes/class-bfpi.php:109
-msgid "Every 6 Hours"
-msgstr "Var 6:e Timme"

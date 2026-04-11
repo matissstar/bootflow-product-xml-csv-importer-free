@@ -357,7 +357,7 @@ class Bfpi_Activator {
      */
     private static function create_upload_directory() {
         $upload_dir = wp_upload_dir();
-        $plugin_upload_dir = $upload_dir['basedir'] . '/bootflow-product-importer/';
+        $plugin_upload_dir = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/';
         $temp_dir = $plugin_upload_dir . 'temp/';
 
         if (!file_exists($plugin_upload_dir)) {

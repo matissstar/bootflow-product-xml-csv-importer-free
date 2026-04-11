@@ -302,11 +302,13 @@ class Bfpi_Admin {
 
         // Handle Re-run action with resume dialog
         if ($action === 'rerun' && $import_id > 0) {
+            // Verify nonce for state-changing action
+            if (!isset($_GET['_wpnonce']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['_wpnonce'])), 'rerun_import_' . $import_id)) {
+                wp_die(esc_html__('Security check failed.', 'bootflow-product-xml-csv-importer'));
+            }
             
             // Check if this is a confirmed action (resume or restart)
-            // phpcs:ignore WordPress.Security.NonceVerification.Recommended
             if (isset($_GET['resume_action'])) {
-                // phpcs:ignore WordPress.Security.NonceVerification.Recommended
                 $resume_action = sanitize_key(wp_unslash($_GET['resume_action']));
                 $this->rerun_import($import_id, $resume_action === 'resume');
                 return;
@@ -539,6 +541,10 @@ class Bfpi_Admin {
         
         // Handle STOP action - stop the import immediately
         if ($action === 'stop' && $import_id > 0) {
+            // Verify nonce for state-changing action
+            if (!isset($_GET['_wpnonce']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['_wpnonce'])), 'stop_import_' . $import_id)) {
+                wp_die(esc_html__('Security check failed.', 'bootflow-product-xml-csv-importer'));
+            }
             $table = $wpdb->prefix . 'bfpi_imports';
             
             // Update status to stopped/failed
@@ -763,11 +769,19 @@ class Bfpi_Admin {
                 
                 // Stop button - only show if import is processing
                 if ($import['status'] === 'processing') {
-                    echo '<a href="' . esc_url(admin_url('admin.php?page=bfpi-import-history&action=stop&import_id=' . $import['id'])) . '" class="button button-small">' . esc_html__('Stop', 'bootflow-product-xml-csv-importer') . '</a> ';
+                    $stop_url = wp_nonce_url(
+                        admin_url('admin.php?page=bfpi-import-history&action=stop&import_id=' . $import['id']),
+                        'stop_import_' . $import['id']
+                    );
+                    echo '<a href="' . esc_url($stop_url) . '" class="button button-small">' . esc_html__('Stop', 'bootflow-product-xml-csv-importer') . '</a> ';
                 }
                 
                 // Re-run button
-                echo '<a href="' . esc_url(admin_url('admin.php?page=bfpi-import&action=rerun&import_id=' . $import['id'])) . '" class="button button-small">' . esc_html__('Re-run', 'bootflow-product-xml-csv-importer') . '</a> ';
+                $rerun_url = wp_nonce_url(
+                    admin_url('admin.php?page=bfpi-import&action=rerun&import_id=' . $import['id']),
+                    'rerun_import_' . $import['id']
+                );
+                echo '<a href="' . esc_url($rerun_url) . '" class="button button-small">' . esc_html__('Re-run', 'bootflow-product-xml-csv-importer') . '</a> ';
                 
                 // Delete import button
                 $delete_import_url = wp_nonce_url(
@@ -816,7 +830,7 @@ class Bfpi_Admin {
         // Patch: If file_path is empty, try to auto-fill from plugin upload dir
         if (empty($import['file_path'])) {
             $upload_dir = wp_upload_dir();
-            $plugin_upload_dir = $upload_dir['basedir'] . '/bootflow-product-importer/';
+            $plugin_upload_dir = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/';
             if (is_dir($plugin_upload_dir)) {
                 $files = glob($plugin_upload_dir . '*');
                 if ($files && count($files) > 0) {
@@ -1335,7 +1349,10 @@ class Bfpi_Admin {
         echo '<div class="resume-actions" style="display: flex; gap: 15px; margin-top: 20px;">';
         
         // Resume button
-        $resume_url = admin_url('admin.php?page=bfpi-import&action=rerun&import_id=' . $import['id'] . '&resume_action=resume');
+        $resume_url = wp_nonce_url(
+            admin_url('admin.php?page=bfpi-import&action=rerun&import_id=' . $import['id'] . '&resume_action=resume'),
+            'rerun_import_' . $import['id']
+        );
         echo '<a href="' . esc_url($resume_url) . '" class="button button-primary button-hero" style="display: flex; align-items: center; gap: 8px;">';
         echo '<span class="dashicons dashicons-controls-play" style="margin-top: 5px;"></span>';
         echo '<span>';
@@ -1346,7 +1363,10 @@ class Bfpi_Admin {
         echo '</a>';
         
         // Start Over button
-        $restart_url = admin_url('admin.php?page=bfpi-import&action=rerun&import_id=' . $import['id'] . '&resume_action=restart');
+        $restart_url = wp_nonce_url(
+            admin_url('admin.php?page=bfpi-import&action=rerun&import_id=' . $import['id'] . '&resume_action=restart'),
+            'rerun_import_' . $import['id']
+        );
         echo '<a href="' . esc_url($restart_url) . '" class="button button-secondary button-hero" style="display: flex; align-items: center; gap: 8px;" onclick="return confirm(\'' . esc_js(__('Are you sure? This will reset progress and start from the beginning.', 'bootflow-product-xml-csv-importer')) . '\')">';
         echo '<span class="dashicons dashicons-update" style="margin-top: 5px;"></span>';
         echo '<span>';
@@ -1377,7 +1397,7 @@ class Bfpi_Admin {
         global $wpdb;
         
         $upload_dir = wp_upload_dir();
-        $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/logs/import_debug.log';
+        $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/logs/import_debug.log';
         
         // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter -- Custom table query
         $import = $wpdb->get_row($wpdb->prepare("SELECT * FROM {$wpdb->prefix}bfpi_imports WHERE id = %d", $import_id), ARRAY_A);
@@ -1681,7 +1701,7 @@ class Bfpi_Admin {
                 
                 $upload_dir = wp_upload_dir();
                 $basedir = $upload_dir['basedir'];
-                $plugin_upload_dir = $basedir . '/bootflow-product-importer/';
+                $plugin_upload_dir = $basedir . '/bootflow-product-xml-csv-importer/';
                 
                 // Create directory if it doesn't exist
                 if (!is_dir($plugin_upload_dir)) {
@@ -2665,7 +2685,7 @@ class Bfpi_Admin {
      */
     public function handle_cron_process_chunk($import_id, $offset, $limit) {
         $upload_dir = wp_upload_dir();
-        $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/logs/import_debug.log';
+        $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/logs/import_debug.log';
         
         try {
             // Load importer class if not loaded
@@ -3271,7 +3291,8 @@ class Bfpi_Admin {
      * @since 1.0.0
      */
     public function redirect_to_pro_page() {
-        wp_safe_redirect( 'https://bootflow.io/woocommerce-xml-csv-importer/' );
+        // wp_safe_redirect blocks external URLs by default; use wp_redirect for external upsell link
+        wp_redirect( 'https://bootflow.io/woocommerce-xml-csv-importer/' ); // phpcs:ignore WordPress.Security.SafeRedirect.wp_redirect_wp_redirect -- External upsell URL, JS fallback also provided
         exit;
     }
 

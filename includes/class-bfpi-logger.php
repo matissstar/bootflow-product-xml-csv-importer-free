@@ -93,7 +93,7 @@ class Bfpi_Logger {
         }
 
         $upload_dir = wp_upload_dir();
-        $log_dir    = $upload_dir['basedir'] . '/bootflow-product-importer';
+        $log_dir    = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer';
         if ( ! file_exists( $log_dir ) ) {
             wp_mkdir_p( $log_dir );
         }
@@ -125,7 +125,7 @@ class Bfpi_Logger {
      */
     public static function clear_log_file($filename) {
         $upload_dir = wp_upload_dir();
-        $log_file   = $upload_dir['basedir'] . '/bootflow-product-importer/' . sanitize_file_name($filename);
+        $log_file   = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/' . sanitize_file_name($filename);
         if (file_exists($log_file)) {
             @wp_delete_file($log_file);
         }

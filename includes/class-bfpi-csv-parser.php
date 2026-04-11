@@ -365,7 +365,7 @@ class Bfpi_CSV_Parser {
             
             if ($file_size > ($max_size * 1024 * 1024)) {
                 // translators: placeholder values
-                throw new Exception(sprintf(__('File size exceeds maximum limit of %dMB.', 'bootflow-product-xml-csv-importer'), $max_size));
+                throw new Exception(sprintf(esc_html__('File size exceeds maximum limit of %dMB.', 'bootflow-product-xml-csv-importer'), $max_size));
             }
 
             // Try to read first line
@@ -519,7 +519,7 @@ class Bfpi_CSV_Parser {
                 // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fclose
                 fclose($handle);
                 // translators: placeholder values
-                throw new Exception(sprintf(__('Parent SKU column "%s" not found in CSV.', 'bootflow-product-xml-csv-importer'), $parent_sku_column));
+                throw new Exception(sprintf(esc_html__('Parent SKU column "%s" not found in CSV.', 'bootflow-product-xml-csv-importer'), esc_html($parent_sku_column)));
             }
             
             // Read all rows and group by parent SKU

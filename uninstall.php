@@ -80,12 +80,18 @@ if (!$keep_data) {
     
     // Delete uploaded files (if directory exists and is within uploads)
     $upload_dir = wp_upload_dir();
-    $plugin_upload_dir = trailingslashit($upload_dir['basedir']) . 'bootflow-product-importer/';
+    $plugin_upload_dir = trailingslashit($upload_dir['basedir']) . 'bootflow-product-xml-csv-importer/';
     
     // WP.org compliance: verify path is within uploads before deletion
     if (file_exists($plugin_upload_dir) && strpos(realpath($plugin_upload_dir), realpath($upload_dir['basedir'])) === 0) {
         // Recursively delete directory and contents
         bfpi_delete_directory($plugin_upload_dir);
+    }
+    
+    // Also clean up legacy directory name (before slug rename)
+    $legacy_upload_dir = trailingslashit($upload_dir['basedir']) . 'bootflow-product-importer/';
+    if (file_exists($legacy_upload_dir) && strpos(realpath($legacy_upload_dir), realpath($upload_dir['basedir'])) === 0) {
+        bfpi_delete_directory($legacy_upload_dir);
     }
     
     // Clear any scheduled events

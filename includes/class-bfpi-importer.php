@@ -817,7 +817,7 @@ class Bfpi_Importer {
             // Process attributes & variations
             
             // DEBUG: Log if product_data has variations
-            $upload_dir = wp_upload_dir(); $attr_debug_file = $upload_dir['basedir'] . '/bootflow-product-importer/product_data_debug.log';
+            $upload_dir = wp_upload_dir(); $attr_debug_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/product_data_debug.log';
             if (defined('WP_DEBUG') && WP_DEBUG) {
                 $product_name = $processed_data['name'] ?? 'Unknown';
                 
@@ -919,7 +919,7 @@ class Bfpi_Importer {
      * @return   int Product ID
      */
     private function import_csv_variable_product($grouped_data) {
-        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/csv_variable_import.log';
+        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/csv_variable_import.log';
         
         $parent_data = $grouped_data['data'] ?? array();
         $variations = $grouped_data['variations'] ?? array();
@@ -1524,7 +1524,7 @@ class Bfpi_Importer {
             // Special handling for 'images' and 'featured_image' fields - keep as template string for later placeholder parsing
             if ($field_key === 'images' || $field_key === 'featured_image') {
                 $mapped_data[$field_key] = $source_field; // Keep the template string like "{image*}" or "{image2}"
-                $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/import_debug.log';
+                $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/import_debug.log';
                 continue;
             }
 
@@ -4590,7 +4590,7 @@ class Bfpi_Importer {
      * @param    array $product_data Raw product data
      */
     private function process_product_attributes($product_id, $product_data) {
-        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/attributes_debug.log';
+        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/attributes_debug.log';
         
         
         
@@ -5601,7 +5601,7 @@ class Bfpi_Importer {
      * @param    array $product_data Raw product data from XML/CSV (for map mode)
      */
     private function generate_product_variations($product_id, $product_attributes, $attributes_config, $product_data = array()) {
-        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/variations_debug.log';
+        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/variations_debug.log';
         
         // NORMALIZE: Support both old and new UI formats
         $product_mode = $attributes_config['product_mode'] ?? null;
@@ -5791,7 +5791,7 @@ class Bfpi_Importer {
      * @return   int Number of variations created
      */
     private function create_mapped_variations($product_id, $product_attributes, $attributes_config, $product_data, $parent_product) {
-        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/variations_debug.log';
+        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/variations_debug.log';
         $variation_count = 0;
         
         // DEBUG: Log what product_data contains
@@ -6597,7 +6597,7 @@ class Bfpi_Importer {
      * @return   int Number of variations created
      */
     private function create_auto_variations($product_id, $product_attributes, $attributes_config, $parent_product) {
-        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/variations_debug.log';
+        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/variations_debug.log';
         $variation_count = 0;
         
         // Get all variation attributes (is_variation = 1)
@@ -6815,7 +6815,7 @@ class Bfpi_Importer {
      */
     private function schedule_next_chunk($offset, $limit) {
         $upload_dir = wp_upload_dir();
-        $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/logs/import_debug.log';
+        $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/logs/import_debug.log';
         
         // Check if this exact event already exists to prevent duplicates
         $existing = wp_next_scheduled('bfpi_process_chunk', array($this->import_id, $offset, $limit));
@@ -7732,7 +7732,7 @@ class Bfpi_Importer {
         
         // Log to file in uploads directory
         $upload_dir = wp_upload_dir();
-        $log_dir = $upload_dir['basedir'] . '/bootflow-product-importer/logs';
+        $log_dir = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/logs';
         if (!file_exists($log_dir)) {
             wp_mkdir_p($log_dir);
         }
@@ -7827,7 +7827,7 @@ class Bfpi_Importer {
      * @return bool True if attribute exists or was created
      */
     private function ensure_attribute_taxonomy_exists($attr_name, $taxonomy_name) {
-        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/variations_debug.log';
+        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/variations_debug.log';
         
         // Remove pa_ prefix for attribute slug
         $attribute_slug = str_replace('pa_', '', $taxonomy_name);
@@ -7890,7 +7890,7 @@ class Bfpi_Importer {
      * @param WC_Product $parent_product Parent product object
      */
     private function update_parent_with_auto_attributes($product_id, $variation_attrs_map, $variations_data, $auto_attributes_path, $parent_product) {
-        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-importer/variations_debug.log';
+        $upload_dir = wp_upload_dir(); $log_file = $upload_dir['basedir'] . '/bootflow-product-xml-csv-importer/variations_debug.log';
         
         if (empty($variation_attrs_map)) {
             return;

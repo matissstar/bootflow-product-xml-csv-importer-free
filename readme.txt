@@ -4,7 +4,7 @@ Tags: woocommerce, import, xml, csv, products
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.9.5
+Stable tag: 0.9.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,10 +86,18 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 
 == Changelog ==
 
+= 0.9.6 =
+* Added nonce verification to rerun and stop import actions (CSRF protection)
+* Fixed upload directory name to match plugin slug (bootflow-product-xml-csv-importer)
+* Fixed escaping in exception messages (esc_html__ for sprintf, esc_html for implode)
+* Fixed wp_safe_redirect to wp_redirect for external upsell link
+* Legacy upload directory cleanup in uninstall
+
 = 0.9.5 =
-* Removed "Get PRO" admin menu upsell and related methods
+* Renamed main plugin file to match plugin slug
+* Applied esc_html__() to all exception and error messages
 * Removed unused license management class
-* Regenerated translation files without PRO strings
+* Regenerated translation files
 
 = 0.9.4 =
 * Replaced LICENSE file with correct GPL v2 text
