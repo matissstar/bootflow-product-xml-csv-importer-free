@@ -239,15 +239,15 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
         });
 
         // Quick actions
-        $('#clear-all-mapping').on('click', clearAllMapping);
+        $('#clear-all-mapping').on('click', bfpiClearAllMapping);
         $('#test-mapping').on('click', testMapping);
 
         // Import filters - use event delegation for dynamic content
-        $(document).on('click', '#add-filter-rule', addFilterRule);
-        $(document).on('click', '.remove-filter-rule', removeFilterRule);
+        $(document).on('click', '#add-filter-rule', bfpiAddFilterRule);
+        $(document).on('click', '.remove-filter-rule', bfpiRemoveFilterRule);
 
         // Custom fields
-        $('#add-custom-field').on('click', addCustomField);
+        $('#add-custom-field').on('click', bfpiAddCustomField);
         $(document).on('click', '.remove-custom-field', removeCustomField);
 
         // AI testing
@@ -3251,7 +3251,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     /**
      * Clear all mapping
      */
-    function clearAllMapping() {
+    function bfpiClearAllMapping() {
         if (confirm('Are you sure you want to clear all field mappings?')) {
             $('.field-source-select').val('');
             $('.processing-mode-select').val('direct').trigger('change');
@@ -3308,8 +3308,8 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     /**
      * Add filter rule
      */
-    function addFilterRule(e) {
-        void 0 && console.log('★★★ addFilterRule() CALLED ★★★');
+    function bfpiAddFilterRule(e) {
+        void 0 && console.log('★★★ bfpiAddFilterRule() CALLED ★★★');
         if (e) e.preventDefault();
         
         var $container = $('#import-filters-container');
@@ -3350,7 +3350,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     /**
      * Remove filter rule
      */
-    function removeFilterRule() {
+    function bfpiRemoveFilterRule() {
         var $row = $(this).closest('.filter-rule-row');
         var $container = $('#import-filters-container');
         var $logicToggle = $('#filter-logic-toggle');
@@ -3392,7 +3392,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     /**
      * Add custom field
      */
-    function addCustomField(e) {
+    function bfpiAddCustomField(e) {
         // Stop event from bubbling to section toggle
         if (e) {
             e.preventDefault();
