@@ -109,7 +109,7 @@ class Bfpi_Security {
         $errors = array();
         
         if (!$file || !is_array($file)) {
-            $errors[] = __('No file uploaded.', 'bootflow-product-xml-csv-importer');
+            $errors[] = esc_html__('No file uploaded.', 'bootflow-product-xml-csv-importer');
             return array('file' => null, 'errors' => $errors);
         }
 
@@ -118,17 +118,17 @@ class Bfpi_Security {
             switch ($file['error']) {
                 case UPLOAD_ERR_INI_SIZE:
                 case UPLOAD_ERR_FORM_SIZE:
-                    $errors[] = __('File is too large.', 'bootflow-product-xml-csv-importer');
+                    $errors[] = esc_html__('File is too large.', 'bootflow-product-xml-csv-importer');
                     break;
                 case UPLOAD_ERR_PARTIAL:
-                    $errors[] = __('File upload was incomplete.', 'bootflow-product-xml-csv-importer');
+                    $errors[] = esc_html__('File upload was incomplete.', 'bootflow-product-xml-csv-importer');
                     break;
                 case UPLOAD_ERR_NO_TMP_DIR:
                 case UPLOAD_ERR_CANT_WRITE:
-                    $errors[] = __('Server error during upload.', 'bootflow-product-xml-csv-importer');
+                    $errors[] = esc_html__('Server error during upload.', 'bootflow-product-xml-csv-importer');
                     break;
                 default:
-                    $errors[] = __('Unknown upload error.', 'bootflow-product-xml-csv-importer');
+                    $errors[] = esc_html__('Unknown upload error.', 'bootflow-product-xml-csv-importer');
                     break;
             }
             return array('file' => null, 'errors' => $errors);
@@ -137,7 +137,7 @@ class Bfpi_Security {
         // Validate file name
         $filename = sanitize_file_name($file['name']);
         if (empty($filename)) {
-            $errors[] = __('Invalid file name.', 'bootflow-product-xml-csv-importer');
+            $errors[] = esc_html__('Invalid file name.', 'bootflow-product-xml-csv-importer');
             return array('file' => null, 'errors' => $errors);
         }
 
@@ -146,14 +146,14 @@ class Bfpi_Security {
         $file_extension = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
         
         if (!in_array($file_extension, $allowed_extensions)) {
-            $errors[] = __('File type not allowed. Only XML and CSV files are supported.', 'bootflow-product-xml-csv-importer');
+            $errors[] = esc_html__('File type not allowed. Only XML and CSV files are supported.', 'bootflow-product-xml-csv-importer');
             return array('file' => null, 'errors' => $errors);
         }
 
         // Check file size
         $max_size = 100 * 1024 * 1024; // 100MB
         if ($file['size'] > $max_size) {
-            $errors[] = __('File is too large. Maximum size is 100MB.', 'bootflow-product-xml-csv-importer');
+            $errors[] = esc_html__('File is too large. Maximum size is 100MB.', 'bootflow-product-xml-csv-importer');
             return array('file' => null, 'errors' => $errors);
         }
 
@@ -165,13 +165,13 @@ class Bfpi_Security {
 
         $file_mime = mime_content_type($file['tmp_name']);
         if (!in_array($file_mime, $allowed_mimes[$file_extension])) {
-            $errors[] = __('File MIME type does not match extension.', 'bootflow-product-xml-csv-importer');
+            $errors[] = esc_html__('File MIME type does not match extension.', 'bootflow-product-xml-csv-importer');
             return array('file' => null, 'errors' => $errors);
         }
 
         // Scan for malicious content
         if (self::scan_file_for_threats($file['tmp_name'], $file_extension)) {
-            $errors[] = __('File contains potentially malicious content.', 'bootflow-product-xml-csv-importer');
+            $errors[] = esc_html__('File contains potentially malicious content.', 'bootflow-product-xml-csv-importer');
             return array('file' => null, 'errors' => $errors);
         }
 

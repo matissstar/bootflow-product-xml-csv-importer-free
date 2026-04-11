@@ -28,7 +28,7 @@ class Bfpi_CSV_Parser {
     public function parse_structure($file_path, $page = 1, $per_page = 5) {
         try {
             if (!file_exists($file_path)) {
-                throw new Exception(__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Auto-detect CSV format
@@ -37,13 +37,13 @@ class Bfpi_CSV_Parser {
             // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fopen -- Required for fgetcsv CSV parsing
             $handle = fopen($file_path, 'r');
             if (!$handle) {
-                throw new Exception(__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Get headers
             $headers = fgetcsv($handle, 0, $csv_format['delimiter'], $csv_format['enclosure'], $csv_format['escape']);
             if (!$headers) {
-                throw new Exception(__('Unable to read CSV headers.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to read CSV headers.', 'bootflow-product-xml-csv-importer'));
             }
 
             $headers = array_map('trim', $headers);
@@ -120,7 +120,7 @@ class Bfpi_CSV_Parser {
             $products = array();
             
             if (!file_exists($file_path)) {
-                throw new Exception(__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
             }
 
             $csv_format = $this->detect_csv_format($file_path);
@@ -128,7 +128,7 @@ class Bfpi_CSV_Parser {
             $handle = fopen($file_path, 'r');
             
             if (!$handle) {
-                throw new Exception(__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Get headers
@@ -356,7 +356,7 @@ class Bfpi_CSV_Parser {
     public function validate_csv_file($file_path) {
         try {
             if (!file_exists($file_path)) {
-                throw new Exception(__('File does not exist.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('File does not exist.', 'bootflow-product-xml-csv-importer'));
             }
 
             $file_size = filesize($file_path);
@@ -372,12 +372,12 @@ class Bfpi_CSV_Parser {
             // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fopen -- Required for fgetcsv CSV parsing
             $handle = fopen($file_path, 'r');
             if (!$handle) {
-                throw new Exception(__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
             }
 
             $first_line = fgets($handle);
             if ($first_line === false) {
-                throw new Exception(__('CSV file appears to be empty.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('CSV file appears to be empty.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Check if we can parse the CSV
@@ -386,7 +386,7 @@ class Bfpi_CSV_Parser {
             
             $headers = fgetcsv($handle, 0, $csv_format['delimiter'], $csv_format['enclosure'], $csv_format['escape']);
             if (!$headers || empty($headers)) {
-                throw new Exception(__('Unable to parse CSV headers.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to parse CSV headers.', 'bootflow-product-xml-csv-importer'));
             }
 
             // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fclose
@@ -425,13 +425,13 @@ class Bfpi_CSV_Parser {
             @ignore_user_abort(true);
 
             if (!file_exists($file_path)) {
-                throw new Exception(__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
             }
 
             // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fopen -- Required for fgetcsv CSV parsing
             $handle = fopen($file_path, 'r');
             if (!$handle) {
-                throw new Exception(__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Detect delimiter
@@ -442,7 +442,7 @@ class Bfpi_CSV_Parser {
             if (!$headers) {
                 // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fclose
                 fclose($handle);
-                throw new Exception(__('CSV file has no headers.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('CSV file has no headers.', 'bootflow-product-xml-csv-importer'));
             }
 
             $structure = array();
@@ -496,7 +496,7 @@ class Bfpi_CSV_Parser {
     public function extract_products_grouped($file_path, $parent_sku_column, $type_column = '', $offset = 0, $limit = 50) {
         try {
             if (!file_exists($file_path)) {
-                throw new Exception(__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('CSV file not found.', 'bootflow-product-xml-csv-importer'));
             }
 
             $csv_format = $this->detect_csv_format($file_path);
@@ -504,7 +504,7 @@ class Bfpi_CSV_Parser {
             $handle = fopen($file_path, 'r');
             
             if (!$handle) {
-                throw new Exception(__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open CSV file.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Get headers

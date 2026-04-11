@@ -100,13 +100,13 @@ class Bfpi {
         // Every 15 minutes
         $schedules['bfpi_15min'] = array(
             'interval' => 15 * 60,
-            'display'  => __('Every 15 Minutes', 'bootflow-product-xml-csv-importer')
+            'display'  => esc_html__('Every 15 Minutes', 'bootflow-product-xml-csv-importer')
         );
         
         // Every 6 hours
         $schedules['bfpi_6hours'] = array(
             'interval' => 6 * 60 * 60,
-            'display'  => __('Every 6 Hours', 'bootflow-product-xml-csv-importer')
+            'display'  => esc_html__('Every 6 Hours', 'bootflow-product-xml-csv-importer')
         );
         
         return $schedules;

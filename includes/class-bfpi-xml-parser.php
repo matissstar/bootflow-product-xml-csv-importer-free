@@ -39,13 +39,13 @@ class Bfpi_XML_Parser {
 
             // Check if file exists
             if (!file_exists($file_path)) {
-                throw new Exception(__('XML file not found.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('XML file not found.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Use XMLReader for memory-efficient parsing
             $reader = new XMLReader();
             if (!$reader->open($file_path)) {
-                throw new Exception(__('Unable to open XML file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open XML file.', 'bootflow-product-xml-csv-importer'));
             }
 
             $product_count = 0;
@@ -164,12 +164,12 @@ class Bfpi_XML_Parser {
             $products = array();
             
             if (!file_exists($file_path)) {
-                throw new Exception(__('XML file not found.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('XML file not found.', 'bootflow-product-xml-csv-importer'));
             }
 
             $reader = new XMLReader();
             if (!$reader->open($file_path)) {
-                throw new Exception(__('Unable to open XML file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open XML file.', 'bootflow-product-xml-csv-importer'));
             }
 
             $product_count = 0;
@@ -664,7 +664,7 @@ class Bfpi_XML_Parser {
     public function validate_xml_file($file_path) {
         try {
             if (!file_exists($file_path)) {
-                throw new Exception(__('File does not exist.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('File does not exist.', 'bootflow-product-xml-csv-importer'));
             }
 
             $file_size = filesize($file_path);
@@ -678,7 +678,7 @@ class Bfpi_XML_Parser {
             // Try to parse XML
             $reader = new XMLReader();
             if (!$reader->open($file_path)) {
-                throw new Exception(__('Invalid XML file or unable to open file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Invalid XML file or unable to open file.', 'bootflow-product-xml-csv-importer'));
             }
 
             // Check for well-formed XML
@@ -693,7 +693,7 @@ class Bfpi_XML_Parser {
                 foreach ($errors as $error) {
                     $error_messages[] = trim($error->message);
                 }
-                throw new Exception(__('XML validation errors: ', 'bootflow-product-xml-csv-importer') . implode(', ', $error_messages));
+                throw new Exception(esc_html__('XML validation errors: ', 'bootflow-product-xml-csv-importer') . implode(', ', $error_messages));
             }
 
             $reader->close();
@@ -730,12 +730,12 @@ class Bfpi_XML_Parser {
             @ignore_user_abort(true);
             
             if (!file_exists($file_path)) {
-                throw new Exception(__('XML file not found.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('XML file not found.', 'bootflow-product-xml-csv-importer'));
             }
 
             $reader = new XMLReader();
             if (!$reader->open($file_path)) {
-                throw new Exception(__('Unable to open XML file.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Unable to open XML file.', 'bootflow-product-xml-csv-importer'));
             }
 
             $product_count = 0;

@@ -9,42 +9,42 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-11T13:33:22+00:00\n"
+"POT-Creation-Date: 2026-04-11T14:15:09+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: bootflow-product-xml-csv-importer\n"
 
 #. Plugin Name of the plugin
-#: bootflow-product-importer.php
+#: bootflow-product-xml-csv-importer.php
 #: includes/admin/class-bfpi-admin.php:339
 msgid "Bootflow – Product XML & CSV Importer"
 msgstr ""
 
 #. Plugin URI of the plugin
-#: bootflow-product-importer.php
+#: bootflow-product-xml-csv-importer.php
 msgid "https://bootflow.io/woocommerce-xml-csv-importer/"
 msgstr ""
 
 #. Description of the plugin
-#: bootflow-product-importer.php
+#: bootflow-product-xml-csv-importer.php
 msgid "Import and update WooCommerce products from XML and CSV feeds with manual field mapping, product variations support, and a reliable import workflow."
 msgstr ""
 
 #. Author of the plugin
-#: bootflow-product-importer.php
+#: bootflow-product-xml-csv-importer.php
 msgid "Bootflow"
 msgstr ""
 
 #. Author URI of the plugin
-#: bootflow-product-importer.php
+#: bootflow-product-xml-csv-importer.php
 msgid "https://bootflow.io"
 msgstr ""
 
-#: bootflow-product-importer.php:33
+#: bootflow-product-xml-csv-importer.php:33
 msgid "Bootflow Product Importer requires WooCommerce to be installed and active."
 msgstr ""
 
-#: bootflow-product-importer.php:124
+#: bootflow-product-xml-csv-importer.php:124
 #: includes/admin/partials/step-2-mapping.php:329
 msgid "Import"
 msgstr ""

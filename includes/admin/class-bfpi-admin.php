@@ -1639,11 +1639,11 @@ class Bfpi_Admin {
             
             // Validate required fields
             if (empty($import_name)) {
-                throw new Exception(__('Import name is required.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Import name is required.', 'bootflow-product-xml-csv-importer'));
             }
             
             if (empty($upload_method)) {
-                throw new Exception(__('Upload method is required.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('Upload method is required.', 'bootflow-product-xml-csv-importer'));
             }
             
             $file_path = '';
@@ -1661,14 +1661,14 @@ class Bfpi_Admin {
                 );
                 
                 if ($uploaded_file['error'] !== UPLOAD_ERR_OK) {
-                    throw new Exception(__('File upload error.', 'bootflow-product-xml-csv-importer'));
+                    throw new Exception(esc_html__('File upload error.', 'bootflow-product-xml-csv-importer'));
                 }
                 
                 $file_type = strtolower(pathinfo($uploaded_file['name'], PATHINFO_EXTENSION));
                 
                 // Allow files without extension (from URLs) or with xml/csv extension
                 if (!empty($file_type) && !in_array($file_type, array('xml', 'csv'))) {
-                    throw new Exception(__('Invalid file type. Only XML and CSV files are allowed.', 'bootflow-product-xml-csv-importer'));
+                    throw new Exception(esc_html__('Invalid file type. Only XML and CSV files are allowed.', 'bootflow-product-xml-csv-importer'));
                 }
                 
                 // Apply force file type if set
@@ -1715,21 +1715,21 @@ class Bfpi_Admin {
                 $file_path = $uploaded['file'];
                 
             } elseif ($upload_method === 'url') {
-                throw new Exception(__('URL import is not supported.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('URL import is not supported.', 'bootflow-product-xml-csv-importer'));
             } else {
-                throw new Exception(__('No file provided.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('No file provided.', 'bootflow-product-xml-csv-importer'));
             }
             
             // Validate file exists
             if (!file_exists($file_path)) {
-                throw new Exception(__('File upload failed - file does not exist.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('File upload failed - file does not exist.', 'bootflow-product-xml-csv-importer'));
             }
             
             // Validate file size
             $file_size = filesize($file_path);
             if ($file_size === 0) {
                 wp_delete_file($file_path);
-                throw new Exception(__('File is empty.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('File is empty.', 'bootflow-product-xml-csv-importer'));
             }
             
             // Load parser classes if not already loaded
@@ -1887,7 +1887,7 @@ class Bfpi_Admin {
             }
             
             if (!$file_ready) {
-                throw new Exception(__('File is not ready yet. Please refresh the page and try again.', 'bootflow-product-xml-csv-importer'));
+                throw new Exception(esc_html__('File is not ready yet. Please refresh the page and try again.', 'bootflow-product-xml-csv-importer'));
             }
             
             if ($file_type === 'xml') {
