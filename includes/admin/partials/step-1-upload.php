@@ -16,8 +16,6 @@ if (!defined('ABSPATH')) {
 
 $settings = get_option('bfpi_settings', array());
 $max_file_size = isset($settings['max_file_size']) ? $settings['max_file_size'] : 100;
-
-// License checks
 ?>
 
 <div class="bfpi-step bfpi-step-1">

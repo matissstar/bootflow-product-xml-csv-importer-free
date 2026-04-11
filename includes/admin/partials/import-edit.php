@@ -257,7 +257,7 @@ if (!empty($import['file_path']) && file_exists($import['file_path'])) {
         ?>
         <?php wp_nonce_field('update_import_' . $import_id); ?>
         
-        <!-- Hidden fields for schedule (always present, even if PRO section is hidden) -->
+        <!-- Hidden fields for schedule -->
         <input type="hidden" name="schedule_type_hidden" value="<?php echo esc_attr($import['schedule_type'] ?? 'none'); ?>" />
         <input type="hidden" name="schedule_method_hidden" value="<?php echo esc_attr($import['schedule_method'] ?? 'action_scheduler'); ?>" />
         

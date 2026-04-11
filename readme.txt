@@ -4,7 +4,7 @@ Tags: woocommerce, import, xml, csv, products
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.9.3
+Stable tag: 0.9.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,7 +26,7 @@ Upload an XML or CSV file, map its fields to WooCommerce product fields, preview
 * **SKU matching** — match incoming products to existing ones by SKU
 * **Import preview** — review mapped data before running the import
 * **Unlimited products** — no artificial product count limits
-* **No external services** — the free version does not send any data to external servers
+* **No tracking or telemetry** — no data is sent to external servers, no analytics, no account required
 
 = Who is this for? =
 
@@ -66,7 +66,7 @@ Yes. Variable products with attributes and variations are fully supported.
 The free version creates new products and can match by SKU. For selective field updates and advanced update rules, the Pro version is available.
 
 = Does the plugin send data to external servers? =
-No. The free version does not communicate with any external services.
+No. The plugin does not collect analytics, track usage, or phone home. When your import file contains image URLs, the plugin downloads those images to your server using the WordPress HTTP API. No store data is sent externally.
 
 = Does this plugin work with WooCommerce HPOS? =
 Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
@@ -85,6 +85,15 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 4. Import progress and results
 
 == Changelog ==
+
+= 0.9.4 =
+* Replaced LICENSE file with correct GPL v2 text
+* Regenerated translation files — removed leftover PRO strings
+* Removed dead PRO CSS classes (pro-badge, pro-feature-disabled)
+* Removed unused license/AI stub methods from admin class
+* Added file path validation against uploads directory
+* Clarified readme FAQ about image downloads from user-provided URLs
+* Cleaned PRO references from JS and PHP comments
 
 = 0.9.3 =
 * Removed unused PRO scaffolding code (is_pro, pro_badge, License stubs)

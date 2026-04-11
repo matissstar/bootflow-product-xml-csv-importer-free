@@ -455,6 +455,14 @@ class Bfpi_Admin {
             // New import mode - get from URL parameters
             // phpcs:ignore WordPress.Security.NonceVerification.Recommended
             $file_path = isset($_GET['file_path']) ? sanitize_text_field(wp_unslash($_GET['file_path'])) : '';
+            // Validate file_path is within the uploads directory
+            if ( $file_path ) {
+                $upload_dir = wp_upload_dir();
+                $real_path  = realpath( $file_path );
+                if ( ! $real_path || strpos( $real_path, realpath( $upload_dir['basedir'] ) ) !== 0 ) {
+                    $file_path = '';
+                }
+            }
             // phpcs:ignore WordPress.Security.NonceVerification.Recommended
             $file_type = isset($_GET['file_type']) ? sanitize_key(wp_unslash($_GET['file_type'])) : '';
             // phpcs:ignore WordPress.Security.NonceVerification.Recommended
@@ -2299,52 +2307,6 @@ class Bfpi_Admin {
     }
 
     /**
-     * Handle AI auto-mapping AJAX request.
-     * ADVANCED tier only feature.
-     *
-     * @since    1.0.0
-     */
-    public function handle_ai_auto_mapping() {
-        wp_send_json_error(array('message' => __('AI auto-mapping is not supported.', 'bootflow-product-xml-csv-importer')));
-    }
-
-    /**
-     * Handle license activation AJAX request.
-     *
-     * @since    1.0.0
-     */
-    public function handle_activate_license() {
-        wp_send_json_error(array('message' => __('License activation is not required.', 'bootflow-product-xml-csv-importer')));
-    }
-
-    /**
-     * Handle license deactivation AJAX request.
-     *
-     * @since    1.0.0
-     */
-    public function handle_deactivate_license() {
-        wp_send_json_error(array('message' => __('No license to deactivate.', 'bootflow-product-xml-csv-importer')));
-    }
-
-    /**
-     * Handle test AI AJAX request.
-     *
-     * @since    1.0.0
-     */
-    public function handle_test_ai() {
-        wp_send_json_error(array('message' => __('AI testing is not supported.', 'bootflow-product-xml-csv-importer')));
-    }
-
-    /**
-     * Handle test PHP formula AJAX request.
-     *
-     * @since    1.0.0
-     */
-    public function handle_test_php() {
-        wp_send_json_error(array('message' => __('PHP formula testing is not supported.', 'bootflow-product-xml-csv-importer')));
-    }
-
-    /**
      * Handle save mapping AJAX request.
      *
      * @since    1.0.0
@@ -3303,7 +3265,7 @@ class Bfpi_Admin {
     }
 
     /**
-     * Redirect to PRO upgrade page (fallback).
+     * Redirect to upgrade page (fallback for menu item).
      *
      * @since 1.0.0
      */

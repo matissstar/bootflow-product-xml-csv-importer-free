@@ -2,7 +2,7 @@
 /**
  * License Management Class
  *
- * Compatibility stubs — all features are available without a license key.
+ * Compatibility stubs — all features are available.
  *
  * @package Bfpi
  * @since 0.9

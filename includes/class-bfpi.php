@@ -200,12 +200,6 @@ class Bfpi {
 
         $this->loader->add_action('wp_ajax_bfpi_save_mapping', $plugin_admin, 'handle_save_mapping');
         
-        // AI Auto-Mapping (ADVANCED tier)
-
-        // License activation/deactivation
-
-        // License notice – removed (all features free, no license needed).
-        
         // Import management
         $this->loader->add_action('wp_ajax_bfpi_update_url', $plugin_admin, 'handle_update_import_url');
         

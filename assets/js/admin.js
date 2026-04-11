@@ -358,7 +358,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
         // NEW: Product Type Mode Selection
         initializeProductTypeMode();
         
-        // AI Auto-Mapping (PRO tier)
+        // AI Auto-Mapping
         initializeAiAutoMapping();
 
         // ═══════════════════════════════════════════════════════════
@@ -368,7 +368,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     }
     
     /**
-     * Initialize AI Auto-Mapping functionality (PRO tier feature)
+     * Initialize AI Auto-Mapping functionality
      */
     function initializeAiAutoMapping() {
         void 0 && console.log('★★★ initializeAiAutoMapping() CALLED ★★★');
@@ -6664,7 +6664,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     });
     
     // ═══════════════════════════════════════════════════════════════════════════
-    // PRICING ENGINE PRO - Multiple conditional rules with priorities
+    // PRICING ENGINE - Multiple conditional rules with priorities
     // Pipeline: XML Base Price → Match Rules → Apply Markup → Rounding → Final Price
     // ═══════════════════════════════════════════════════════════════════════════
     
@@ -6990,7 +6990,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     }
     
     /**
-     * Get pricing engine configuration for saving (PRO version with rules)
+     * Get pricing engine configuration for saving
      */
     window.getPricingEngineConfig = function() {
         var config = {
@@ -7070,7 +7070,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
     };
     
     /**
-     * Restore pricing engine configuration (PRO version)
+     * Restore pricing engine configuration
      */
     window.restorePricingEngineConfig = function(config) {
         if (!config) return;
