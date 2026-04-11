@@ -276,15 +276,6 @@ class Bfpi_Admin {
             array($this, 'display_history_page')
         );
 
-        // Get PRO upsell link (opens in new tab via JS)
-        add_submenu_page(
-            'bfpi-import',
-            __('Get PRO', 'bootflow-product-xml-csv-importer'),
-            '<span style="color:#f0c33c;">' . esc_html__('Get PRO', 'bootflow-product-xml-csv-importer') . ' ★</span>',
-            'manage_options',
-            'bfpi-get-pro',
-            array($this, 'redirect_to_pro_page')
-        );
     }
 
     /**
@@ -3264,31 +3255,4 @@ class Bfpi_Admin {
         }
     }
 
-    /**
-     * Redirect to upgrade page (fallback for menu item).
-     *
-     * @since 1.0.0
-     */
-    public function redirect_to_pro_page() {
-        wp_safe_redirect( 'https://bootflow.io/woocommerce-xml-csv-importer/' );
-        exit;
-    }
-
-    /**
-     * Enqueue inline JS to make "Get PRO" menu link open in a new tab.
-     *
-     * @since 1.0.0
-     */
-    public function print_pro_menu_script() {
-        $screen = get_current_screen();
-        if ( ! $screen || strpos( $screen->id, 'bfpi-' ) === false ) {
-            return;
-        }
-        $js = "jQuery(function($){
-            $('#adminmenu a[href*=\"bfpi-get-pro\"]')
-                .attr('target', '_blank')
-                .attr('href', 'https://bootflow.io/woocommerce-xml-csv-importer/');
-        });";
-        wp_add_inline_script( 'jquery', $js );
-    }
 }

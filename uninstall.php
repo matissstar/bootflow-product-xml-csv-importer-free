@@ -54,7 +54,6 @@ if (!$keep_data) {
         'bfpi_logging_settings',
         'bfpi_security_settings',
         'bfpi_keep_data_on_uninstall',
-        'bfpi_license',
         'bfpi_db_version',
         'bfpi_settings'
     );

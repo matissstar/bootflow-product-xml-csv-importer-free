@@ -190,7 +190,6 @@ class Bfpi {
         $this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts');
         $this->loader->add_action('admin_init', $plugin_admin, 'redirect_old_slugs');
         $this->loader->add_action('admin_menu', $plugin_admin, 'add_admin_menu');
-        $this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'print_pro_menu_script');
         $this->loader->add_action('wp_ajax_bfpi_upload_file', $plugin_admin, 'handle_file_upload');
         $this->loader->add_action('wp_ajax_bfpi_parse_structure', $plugin_admin, 'handle_parse_structure');
         $this->loader->add_action('wp_ajax_bfpi_start_import', $plugin_admin, 'handle_start_import');
