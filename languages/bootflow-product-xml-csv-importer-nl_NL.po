@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Bootflow Product Importer 0.9.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bootflow-product-"
 "xml-csv-importer\n"
-"POT-Creation-Date: 2026-04-11T13:29:46+00:00\n"
+"POT-Creation-Date: 2026-04-11T13:33:22+00:00\n"
 "PO-Revision-Date: 2026-03-04 23:10+0000\n"
 "Last-Translator: Bootflow Auto-Translate\n"
 "Language-Team: Nederlands\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Plugin Name of the plugin
-#: bootflow-product-importer.php includes/admin/class-bfpi-admin.php:329
+#: bootflow-product-importer.php includes/admin/class-bfpi-admin.php:339
 msgid "Bootflow – Product XML & CSV Importer"
 msgstr ""
 
@@ -111,7 +111,7 @@ msgid "Deleting..."
 msgstr "Verwijderen..."
 
 #: includes/admin/class-bfpi-admin.php:122
-#: includes/admin/class-bfpi-admin.php:638
+#: includes/admin/class-bfpi-admin.php:648
 msgid "No products found to delete."
 msgstr "Geen producten gevonden om te verwijderen."
 
@@ -224,7 +224,7 @@ msgid "New Import"
 msgstr "Nieuwe Import"
 
 #: includes/admin/class-bfpi-admin.php:272
-#: includes/admin/class-bfpi-admin.php:645
+#: includes/admin/class-bfpi-admin.php:655
 msgid "Import History"
 msgstr "Importgeschiedenis"
 
@@ -232,333 +232,338 @@ msgstr "Importgeschiedenis"
 msgid "History"
 msgstr "Geschiedenis"
 
-#: includes/admin/class-bfpi-admin.php:362
+#: includes/admin/class-bfpi-admin.php:282
+#: includes/admin/class-bfpi-admin.php:283
+msgid "Get PRO"
+msgstr ""
+
+#: includes/admin/class-bfpi-admin.php:372
 #: includes/admin/partials/step-1-upload.php:47
 msgid "Upload File"
 msgstr "Bestand uploaden"
 
-#: includes/admin/class-bfpi-admin.php:363
+#: includes/admin/class-bfpi-admin.php:373
 msgid "Map Fields"
 msgstr "Velden Koppelen"
 
-#: includes/admin/class-bfpi-admin.php:364
+#: includes/admin/class-bfpi-admin.php:374
 #: includes/admin/partials/step-3-progress.php:179
 msgid "Import Progress"
 msgstr "Import Voortgang"
 
-#: includes/admin/class-bfpi-admin.php:567
+#: includes/admin/class-bfpi-admin.php:577
 msgid "Import stopped successfully."
 msgstr "Import succesvol gestopt."
 
-#: includes/admin/class-bfpi-admin.php:597
+#: includes/admin/class-bfpi-admin.php:607
 msgid "Import and file deleted successfully."
 msgstr "Import en bestand succesvol verwijderd."
 
-#: includes/admin/class-bfpi-admin.php:599
+#: includes/admin/class-bfpi-admin.php:609
 msgid "Failed to delete import."
 msgstr "Kan import niet verwijderen."
 
 #. translators: %d is the number of deleted products
-#: includes/admin/class-bfpi-admin.php:636
+#: includes/admin/class-bfpi-admin.php:646
 #, php-format
 msgid "%d products deleted successfully."
 msgstr "%d producten succesvol verwijderd."
 
-#: includes/admin/class-bfpi-admin.php:658
+#: includes/admin/class-bfpi-admin.php:668
 msgid "No imports found."
 msgstr "Geen imports gevonden."
 
-#: includes/admin/class-bfpi-admin.php:663
+#: includes/admin/class-bfpi-admin.php:673
 #: includes/admin/partials/import-edit.php:76
 msgid "Name"
 msgstr "Naam"
 
-#: includes/admin/class-bfpi-admin.php:664
+#: includes/admin/class-bfpi-admin.php:674
 #: includes/admin/partials/import-edit.php:80
 #: includes/admin/partials/step-1-upload.php:92
 msgid "File Type"
 msgstr "Bestandstype"
 
-#: includes/admin/class-bfpi-admin.php:665
+#: includes/admin/class-bfpi-admin.php:675
 #: includes/admin/partials/import-edit.php:88
 #: includes/admin/partials/step-2-mapping.php:335
 msgid "Products"
 msgstr "Producten"
 
-#: includes/admin/class-bfpi-admin.php:666
+#: includes/admin/class-bfpi-admin.php:676
 #: includes/admin/partials/import-edit.php:84
 msgid "Status"
 msgstr "Status"
 
-#: includes/admin/class-bfpi-admin.php:667
+#: includes/admin/class-bfpi-admin.php:677
 msgid "Schedule"
 msgstr "Schema"
 
-#: includes/admin/class-bfpi-admin.php:668
+#: includes/admin/class-bfpi-admin.php:678
 #: includes/admin/partials/import-edit.php:92
 msgid "Created"
 msgstr "Aangemaakt"
 
-#: includes/admin/class-bfpi-admin.php:669
+#: includes/admin/class-bfpi-admin.php:679
 #: includes/admin/partials/import-edit.php:96
 msgid "Last Run"
 msgstr "Laatste Run"
 
-#: includes/admin/class-bfpi-admin.php:670
+#: includes/admin/class-bfpi-admin.php:680
 msgid "Actions"
 msgstr "Acties"
 
-#: includes/admin/class-bfpi-admin.php:686
+#: includes/admin/class-bfpi-admin.php:696
 msgid "Every 15 min"
 msgstr "Elke 15 min"
 
-#: includes/admin/class-bfpi-admin.php:687
+#: includes/admin/class-bfpi-admin.php:697
 #: includes/admin/partials/import-edit.php:1106
 msgid "Hourly"
 msgstr "Elk uur"
 
-#: includes/admin/class-bfpi-admin.php:688
+#: includes/admin/class-bfpi-admin.php:698
 msgid "Every 6h"
 msgstr "Elke 6u"
 
-#: includes/admin/class-bfpi-admin.php:689
+#: includes/admin/class-bfpi-admin.php:699
 #: includes/admin/partials/import-edit.php:1108
 msgid "Daily"
 msgstr "Dagelijks"
 
-#: includes/admin/class-bfpi-admin.php:690
+#: includes/admin/class-bfpi-admin.php:700
 #: includes/admin/partials/import-edit.php:1109
 msgid "Weekly"
 msgstr "Wekelijks"
 
-#: includes/admin/class-bfpi-admin.php:691
+#: includes/admin/class-bfpi-admin.php:701
 #: includes/admin/partials/import-edit.php:1110
 msgid "Monthly"
 msgstr "Maandelijks"
 
 #. translators: %1$d is the database count, %2$d is processed count, %3$d is total in file - Show actual products in DB / processed from file / total in file
-#: includes/admin/class-bfpi-admin.php:700
+#: includes/admin/class-bfpi-admin.php:710
 #, php-format
 msgid "In database: %1$d, Processed: %2$d, In file: %3$d"
 msgstr "In database: %1$d, Verwerkt: %2$d, In bestand: %3$d"
 
-#: includes/admin/class-bfpi-admin.php:709
+#: includes/admin/class-bfpi-admin.php:719
 #: includes/admin/partials/import-edit.php:103
 msgid "just now"
 msgstr "zojuist"
 
 #. translators: %d = number of minutes
-#: includes/admin/class-bfpi-admin.php:712
+#: includes/admin/class-bfpi-admin.php:722
 #: includes/admin/partials/import-edit.php:106
 #, php-format
 msgid "%d min ago"
 msgstr "%d min geleden"
 
 #. translators: %1$d = hours, %2$d = minutes
-#: includes/admin/class-bfpi-admin.php:717
+#: includes/admin/class-bfpi-admin.php:727
 #: includes/admin/partials/import-edit.php:111
 #, php-format
 msgid "%1$dh %2$dm ago"
 msgstr ""
 
 #. translators: %d = number of days
-#: includes/admin/class-bfpi-admin.php:720
+#: includes/admin/class-bfpi-admin.php:730
 #: includes/admin/partials/import-edit.php:114
 #, php-format
 msgid "%d days ago"
 msgstr "%d dagen geleden"
 
-#: includes/admin/class-bfpi-admin.php:732
+#: includes/admin/class-bfpi-admin.php:742
 #: includes/admin/partials/import-edit.php:128
 msgid "⏳ due now"
 msgstr "⏳ nu"
 
-#: includes/admin/class-bfpi-admin.php:734
+#: includes/admin/class-bfpi-admin.php:744
 msgid "⏳ <1 min"
 msgstr "⏳ <1 min"
 
 #. translators: %d = number of minutes
-#: includes/admin/class-bfpi-admin.php:737
+#: includes/admin/class-bfpi-admin.php:747
 #, php-format
 msgid "⏳ in %d min"
 msgstr "⏳ over %d min"
 
 #. translators: %1$d = hours, %2$d = minutes
-#: includes/admin/class-bfpi-admin.php:740
+#: includes/admin/class-bfpi-admin.php:750
 #, php-format
 msgid "⏳ in %1$dh %2$dm"
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:746
+#: includes/admin/class-bfpi-admin.php:756
 #: includes/admin/partials/import-edit.php:143
 msgid "Never"
 msgstr "Nooit"
 
-#: includes/admin/class-bfpi-admin.php:752
+#: includes/admin/class-bfpi-admin.php:762
 msgid "Edit"
 msgstr "Bewerken"
 
-#: includes/admin/class-bfpi-admin.php:756
+#: includes/admin/class-bfpi-admin.php:766
 msgid "Stop"
 msgstr "Stoppen"
 
-#: includes/admin/class-bfpi-admin.php:760
+#: includes/admin/class-bfpi-admin.php:770
 msgid "Re-run"
 msgstr "Opnieuw uitvoeren"
 
-#: includes/admin/class-bfpi-admin.php:767
+#: includes/admin/class-bfpi-admin.php:777
 msgid "Are you sure you want to delete this import and its file?"
 msgstr "Weet u zeker dat u deze import en het bestand wilt verwijderen?"
 
-#: includes/admin/class-bfpi-admin.php:767
+#: includes/admin/class-bfpi-admin.php:777
 msgid "Delete import"
 msgstr "Import verwijderen"
 
-#: includes/admin/class-bfpi-admin.php:770
+#: includes/admin/class-bfpi-admin.php:780
 msgid "Delete products"
 msgstr "Producten verwijderen"
 
-#: includes/admin/class-bfpi-admin.php:798
+#: includes/admin/class-bfpi-admin.php:808
 msgid "Import Not Found"
 msgstr "Import Niet Gevonden"
 
-#: includes/admin/class-bfpi-admin.php:845
-#: includes/admin/class-bfpi-admin.php:863
+#: includes/admin/class-bfpi-admin.php:855
+#: includes/admin/class-bfpi-admin.php:873
 msgid "Security check failed. Please try again."
 msgstr "Beveiligingscontrole mislukt. Probeer het opnieuw."
 
-#: includes/admin/class-bfpi-admin.php:1128
+#: includes/admin/class-bfpi-admin.php:1138
 msgid "Import updated successfully."
 msgstr "Import succesvol bijgewerkt."
 
-#: includes/admin/class-bfpi-admin.php:1214
+#: includes/admin/class-bfpi-admin.php:1224
 #: includes/admin/partials/step-2-mapping.php:88
 msgid "Basic Product Fields"
 msgstr "Basis Productvelden"
 
-#: includes/admin/class-bfpi-admin.php:1216
+#: includes/admin/class-bfpi-admin.php:1226
 #: includes/admin/partials/step-2-mapping.php:91
 msgid "Product Code (SKU)"
 msgstr "Productcode (SKU)"
 
-#: includes/admin/class-bfpi-admin.php:1217
+#: includes/admin/class-bfpi-admin.php:1227
 #: includes/admin/partials/step-2-mapping.php:96
 msgid "Product Name"
 msgstr "Productnaam"
 
-#: includes/admin/class-bfpi-admin.php:1218
+#: includes/admin/class-bfpi-admin.php:1228
 #: includes/admin/partials/step-2-mapping.php:109
 msgid "Description"
 msgstr "Beschrijving"
 
-#: includes/admin/class-bfpi-admin.php:1219
+#: includes/admin/class-bfpi-admin.php:1229
 #: includes/admin/partials/step-2-mapping.php:110
 msgid "Short Description"
 msgstr "Korte Beschrijving"
 
-#: includes/admin/class-bfpi-admin.php:1220
+#: includes/admin/class-bfpi-admin.php:1230
 #: includes/admin/partials/step-2-mapping.php:112
 msgid "Product Status"
 msgstr "Productstatus"
 
-#: includes/admin/class-bfpi-admin.php:1224
+#: includes/admin/class-bfpi-admin.php:1234
 #: includes/admin/partials/step-2-mapping.php:130
 msgid "Pricing Fields"
 msgstr "Prijs Velden"
 
-#: includes/admin/class-bfpi-admin.php:1226
+#: includes/admin/class-bfpi-admin.php:1236
 #: includes/admin/partials/step-2-mapping.php:132
 msgid "Regular Price"
 msgstr "Reguliere Prijs"
 
-#: includes/admin/class-bfpi-admin.php:1227
+#: includes/admin/class-bfpi-admin.php:1237
 #: includes/admin/partials/step-2-mapping.php:133
 msgid "Sale Price"
 msgstr "Actieprijs"
 
-#: includes/admin/class-bfpi-admin.php:1228
+#: includes/admin/class-bfpi-admin.php:1238
 #: includes/admin/partials/step-2-mapping.php:137
 msgid "Tax Status"
 msgstr "Belastingstatus"
 
-#: includes/admin/class-bfpi-admin.php:1229
+#: includes/admin/class-bfpi-admin.php:1239
 #: includes/admin/partials/step-2-mapping.php:147
 msgid "Tax Class"
 msgstr "Belastingklasse"
 
-#: includes/admin/class-bfpi-admin.php:1233
+#: includes/admin/class-bfpi-admin.php:1243
 #: includes/admin/partials/step-2-mapping.php:154
 msgid "Inventory Fields"
 msgstr "Inventaris Velden"
 
-#: includes/admin/class-bfpi-admin.php:1235
+#: includes/admin/class-bfpi-admin.php:1245
 #: includes/admin/partials/step-2-mapping.php:157
 msgid "Manage Stock"
 msgstr "Voorraad Beheren"
 
-#: includes/admin/class-bfpi-admin.php:1236
+#: includes/admin/class-bfpi-admin.php:1246
 #: includes/admin/partials/step-2-mapping.php:161
 msgid "Stock Quantity"
 msgstr "Voorraad Hoeveelheid"
 
-#: includes/admin/class-bfpi-admin.php:1237
+#: includes/admin/class-bfpi-admin.php:1247
 #: includes/admin/partials/step-2-mapping.php:163
 msgid "Stock Status"
 msgstr "Voorraadstatus"
 
-#: includes/admin/class-bfpi-admin.php:1238
+#: includes/admin/class-bfpi-admin.php:1248
 #: includes/admin/partials/step-2-mapping.php:173
 msgid "Allow Backorders"
 msgstr "Backorders Toestaan"
 
-#: includes/admin/class-bfpi-admin.php:1242
+#: includes/admin/class-bfpi-admin.php:1252
 #: includes/admin/partials/step-2-mapping.php:185
 msgid "Physical Properties"
 msgstr "Fysieke Eigenschappen"
 
-#: includes/admin/class-bfpi-admin.php:1244
+#: includes/admin/class-bfpi-admin.php:1254
 #: includes/admin/partials/step-2-mapping.php:187
 msgid "Weight"
 msgstr "Gewicht"
 
-#: includes/admin/class-bfpi-admin.php:1245
+#: includes/admin/class-bfpi-admin.php:1255
 #: includes/admin/partials/step-2-mapping.php:188
 msgid "Length"
 msgstr "Lengte"
 
-#: includes/admin/class-bfpi-admin.php:1246
+#: includes/admin/class-bfpi-admin.php:1256
 #: includes/admin/partials/step-2-mapping.php:189
 msgid "Width"
 msgstr "Breedte"
 
-#: includes/admin/class-bfpi-admin.php:1247
+#: includes/admin/class-bfpi-admin.php:1257
 #: includes/admin/partials/step-2-mapping.php:190
 msgid "Height"
 msgstr "Hoogte"
 
-#: includes/admin/class-bfpi-admin.php:1251
+#: includes/admin/class-bfpi-admin.php:1261
 #: includes/admin/partials/step-2-mapping.php:125
 msgid "Price Markup"
 msgstr "Prijsopslag"
 
-#: includes/admin/class-bfpi-admin.php:1255
+#: includes/admin/class-bfpi-admin.php:1265
 #: includes/admin/partials/import-edit.php:645
 #: includes/admin/partials/step-2-mapping.php:195
 #: includes/admin/partials/step-2-mapping.php:889
 msgid "Shipping Class Rules"
 msgstr "Verzendklasse Regels"
 
-#: includes/admin/class-bfpi-admin.php:1259
+#: includes/admin/class-bfpi-admin.php:1269
 #: includes/admin/partials/step-2-mapping.php:200
 msgid "Media Fields"
 msgstr "Media Velden"
 
-#: includes/admin/class-bfpi-admin.php:1262
+#: includes/admin/class-bfpi-admin.php:1272
 #: includes/admin/partials/step-2-mapping.php:203
 msgid "Product Images"
 msgstr "Product Afbeeldingen"
 
-#: includes/admin/class-bfpi-admin.php:1265
+#: includes/admin/class-bfpi-admin.php:1275
 #: includes/admin/partials/step-2-mapping.php:206
 msgid ""
 "Enter image URLs or use placeholders: {image} = first image, {image[1]} = "
@@ -569,263 +574,263 @@ msgstr ""
 "eerste afbeelding, {image[1]} = eerste, {image[2]} = tweede, {image*} = alle "
 "afbeeldingen. Scheid meerdere waarden met komma's."
 
-#: includes/admin/class-bfpi-admin.php:1267
+#: includes/admin/class-bfpi-admin.php:1277
 #: includes/admin/partials/step-2-mapping.php:208
 msgid "Featured Image"
 msgstr "Uitgelichte Afbeelding"
 
-#: includes/admin/class-bfpi-admin.php:1271
+#: includes/admin/class-bfpi-admin.php:1281
 #: includes/admin/partials/step-2-mapping.php:212
 msgid "Categories & Tags"
 msgstr "Categorieën en tags"
 
-#: includes/admin/class-bfpi-admin.php:1273
+#: includes/admin/class-bfpi-admin.php:1283
 #: includes/admin/partials/step-2-mapping.php:1854
 msgid "Product Categories"
 msgstr "Productcategorieën"
 
-#: includes/admin/class-bfpi-admin.php:1274
+#: includes/admin/class-bfpi-admin.php:1284
 #: includes/admin/partials/step-2-mapping.php:2047
 msgid "Product Tags"
 msgstr "Producttags"
 
-#: includes/admin/class-bfpi-admin.php:1275
+#: includes/admin/class-bfpi-admin.php:1285
 #: includes/admin/partials/import-edit.php:477
 #: includes/admin/partials/import-edit.php:710
 #: includes/admin/partials/step-2-mapping.php:982
 msgid "Brand"
 msgstr "Merk"
 
-#: includes/admin/class-bfpi-admin.php:1279
+#: includes/admin/class-bfpi-admin.php:1289
 #: includes/admin/partials/step-2-mapping.php:283
 msgid "SEO Fields"
 msgstr "SEO Velden"
 
-#: includes/admin/class-bfpi-admin.php:1281
+#: includes/admin/class-bfpi-admin.php:1291
 #: includes/admin/partials/step-2-mapping.php:285
 msgid "Meta Title"
 msgstr "Meta Titel"
 
-#: includes/admin/class-bfpi-admin.php:1282
+#: includes/admin/class-bfpi-admin.php:1292
 #: includes/admin/partials/step-2-mapping.php:286
 msgid "Meta Description"
 msgstr "Meta Beschrijving"
 
-#: includes/admin/class-bfpi-admin.php:1283
+#: includes/admin/class-bfpi-admin.php:1293
 #: includes/admin/partials/step-2-mapping.php:287
 msgid "Meta Keywords"
 msgstr "Meta Trefwoorden"
 
-#: includes/admin/class-bfpi-admin.php:1306
+#: includes/admin/class-bfpi-admin.php:1316
 msgid "Resume Import?"
 msgstr "Import Hervatten?"
 
-#: includes/admin/class-bfpi-admin.php:1313
+#: includes/admin/class-bfpi-admin.php:1323
 msgid "Current Progress:"
 msgstr "Huidige Voortgang:"
 
 #. translators: %1$d is processed products count, %2$d is total products count
-#: includes/admin/class-bfpi-admin.php:1317
+#: includes/admin/class-bfpi-admin.php:1327
 #, php-format
 msgid "%1$d of %2$d products processed"
 msgstr "%1$d van %2$d producten verwerkt"
 
 #. translators: %d is remaining products count
-#: includes/admin/class-bfpi-admin.php:1320
+#: includes/admin/class-bfpi-admin.php:1330
 #, php-format
 msgid "%d products remaining"
 msgstr "%d producten resterend"
 
-#: includes/admin/class-bfpi-admin.php:1323
+#: includes/admin/class-bfpi-admin.php:1333
 msgid "This import was previously started. Would you like to:"
 msgstr "Deze import was eerder gestart. Wilt u:"
 
-#: includes/admin/class-bfpi-admin.php:1332
+#: includes/admin/class-bfpi-admin.php:1342
 msgid "Continue Import"
 msgstr "Import Voortzetten"
 
 #. translators: %d is the product number to resume from
-#: includes/admin/class-bfpi-admin.php:1334
+#: includes/admin/class-bfpi-admin.php:1344
 #, php-format
 msgid "Resume from product %d"
 msgstr "Hervatten vanaf product %d"
 
-#: includes/admin/class-bfpi-admin.php:1340
+#: includes/admin/class-bfpi-admin.php:1350
 msgid "Are you sure? This will reset progress and start from the beginning."
 msgstr "Weet u het zeker? Dit zal de voortgang resetten en opnieuw beginnen."
 
-#: includes/admin/class-bfpi-admin.php:1343
+#: includes/admin/class-bfpi-admin.php:1353
 #: includes/admin/partials/step-3-progress.php:484
 msgid "Start Over"
 msgstr "Opnieuw Beginnen"
 
-#: includes/admin/class-bfpi-admin.php:1344
+#: includes/admin/class-bfpi-admin.php:1354
 msgid "Reset and import all products"
 msgstr "Resetten en alle producten importeren"
 
-#: includes/admin/class-bfpi-admin.php:1352
+#: includes/admin/class-bfpi-admin.php:1362
 msgid "← Back to Import History"
 msgstr "← Terug naar Importgeschiedenis"
 
-#: includes/admin/class-bfpi-admin.php:1376
-#: includes/admin/class-bfpi-admin.php:2078
-#: includes/admin/class-bfpi-admin.php:2253
-#: includes/admin/class-bfpi-admin.php:2717
+#: includes/admin/class-bfpi-admin.php:1386
+#: includes/admin/class-bfpi-admin.php:2088
+#: includes/admin/class-bfpi-admin.php:2263
+#: includes/admin/class-bfpi-admin.php:2727
 #: includes/admin/partials/step-3-progress.php:35
 #: includes/class-bfpi-importer.php:239
 msgid "Import not found."
 msgstr "Import niet gevonden."
 
-#: includes/admin/class-bfpi-admin.php:1597
-#: includes/admin/class-bfpi-admin.php:1819
-#: includes/admin/class-bfpi-admin.php:1928
-#: includes/admin/class-bfpi-admin.php:2054
-#: includes/admin/class-bfpi-admin.php:2232
-#: includes/admin/class-bfpi-admin.php:2313
-#: includes/admin/class-bfpi-admin.php:2684 includes/class-bfpi-security.php:90
+#: includes/admin/class-bfpi-admin.php:1607
+#: includes/admin/class-bfpi-admin.php:1829
+#: includes/admin/class-bfpi-admin.php:1938
+#: includes/admin/class-bfpi-admin.php:2064
+#: includes/admin/class-bfpi-admin.php:2242
+#: includes/admin/class-bfpi-admin.php:2323
+#: includes/admin/class-bfpi-admin.php:2694 includes/class-bfpi-security.php:90
 msgid "Security check failed."
 msgstr "Beveiligingscontrole mislukt."
 
-#: includes/admin/class-bfpi-admin.php:1602
-#: includes/admin/class-bfpi-admin.php:1824
-#: includes/admin/class-bfpi-admin.php:1935
-#: includes/admin/class-bfpi-admin.php:2059
-#: includes/admin/class-bfpi-admin.php:2237
-#: includes/admin/class-bfpi-admin.php:2318
+#: includes/admin/class-bfpi-admin.php:1612
+#: includes/admin/class-bfpi-admin.php:1834
+#: includes/admin/class-bfpi-admin.php:1945
+#: includes/admin/class-bfpi-admin.php:2069
+#: includes/admin/class-bfpi-admin.php:2247
+#: includes/admin/class-bfpi-admin.php:2328
 msgid "You do not have sufficient permissions to access this page."
 msgstr "U heeft onvoldoende rechten om deze pagina te openen."
 
-#: includes/admin/class-bfpi-admin.php:1632
+#: includes/admin/class-bfpi-admin.php:1642
 #: includes/class-bfpi-importer.php:7315
 msgid "Import name is required."
 msgstr "Import naam is vereist."
 
-#: includes/admin/class-bfpi-admin.php:1636
+#: includes/admin/class-bfpi-admin.php:1646
 msgid "Upload method is required."
 msgstr "Upload methode is vereist."
 
-#: includes/admin/class-bfpi-admin.php:1654
+#: includes/admin/class-bfpi-admin.php:1664
 msgid "File upload error."
 msgstr "Fout bij uploaden bestand."
 
-#: includes/admin/class-bfpi-admin.php:1661
+#: includes/admin/class-bfpi-admin.php:1671
 msgid "Invalid file type. Only XML and CSV files are allowed."
 msgstr "Ongeldig bestandstype. Alleen XML en CSV bestanden zijn toegestaan."
 
-#: includes/admin/class-bfpi-admin.php:1708
-#: includes/admin/class-bfpi-admin.php:2756
+#: includes/admin/class-bfpi-admin.php:1718
+#: includes/admin/class-bfpi-admin.php:2766
 msgid "URL import is not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:1710
+#: includes/admin/class-bfpi-admin.php:1720
 msgid "No file provided."
 msgstr "Geen bestand opgegeven."
 
-#: includes/admin/class-bfpi-admin.php:1715
+#: includes/admin/class-bfpi-admin.php:1725
 msgid "File upload failed - file does not exist."
 msgstr "Bestandsupload mislukt - bestand bestaat niet."
 
-#: includes/admin/class-bfpi-admin.php:1722
+#: includes/admin/class-bfpi-admin.php:1732
 msgid "File is empty."
 msgstr "Bestand is leeg."
 
-#: includes/admin/class-bfpi-admin.php:1793
+#: includes/admin/class-bfpi-admin.php:1803
 msgid "File uploaded successfully."
 msgstr "Bestand succesvol geüpload."
 
-#: includes/admin/class-bfpi-admin.php:1880
+#: includes/admin/class-bfpi-admin.php:1890
 msgid "File is not ready yet. Please refresh the page and try again."
 msgstr "Bestand is nog niet klaar. Vernieuw de pagina en probeer het opnieuw."
 
-#: includes/admin/class-bfpi-admin.php:2029
+#: includes/admin/class-bfpi-admin.php:2039
 msgid "Import started successfully."
 msgstr "Import succesvol gestart."
 
-#: includes/admin/class-bfpi-admin.php:2085
+#: includes/admin/class-bfpi-admin.php:2095
 msgid "Import already completed."
 msgstr "Import is al voltooid."
 
-#: includes/admin/class-bfpi-admin.php:2098
+#: includes/admin/class-bfpi-admin.php:2108
 msgid "Import already in progress."
 msgstr "Import is al bezig."
 
-#: includes/admin/class-bfpi-admin.php:2124
+#: includes/admin/class-bfpi-admin.php:2134
 msgid "Import processing started."
 msgstr "Importverwerking gestart."
 
-#: includes/admin/class-bfpi-admin.php:2220
+#: includes/admin/class-bfpi-admin.php:2230
 msgid "URL testing is not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:2330
+#: includes/admin/class-bfpi-admin.php:2340
 msgid "Invalid import ID or mapping data."
 msgstr "Ongeldig import ID of mapping data."
 
-#: includes/admin/class-bfpi-admin.php:2444
+#: includes/admin/class-bfpi-admin.php:2454
 msgid "Database error: "
 msgstr "Databasefout: "
 
-#: includes/admin/class-bfpi-admin.php:2449
+#: includes/admin/class-bfpi-admin.php:2459
 msgid "Mapping configuration saved successfully."
 msgstr "Mapping configuratie succesvol opgeslagen."
 
-#: includes/admin/class-bfpi-admin.php:2466
+#: includes/admin/class-bfpi-admin.php:2476
 msgid "Shipping formula testing is not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:2689
+#: includes/admin/class-bfpi-admin.php:2699
 msgid "You do not have sufficient permissions."
 msgstr "U heeft onvoldoende rechten."
 
-#: includes/admin/class-bfpi-admin.php:2699
+#: includes/admin/class-bfpi-admin.php:2709
 msgid "Invalid import ID or URL."
 msgstr "Ongeldig import ID of URL."
 
-#: includes/admin/class-bfpi-admin.php:2739
+#: includes/admin/class-bfpi-admin.php:2749
 msgid "Failed to update URL in database."
 msgstr "Kan URL niet bijwerken in database."
 
-#: includes/admin/class-bfpi-admin.php:2743
+#: includes/admin/class-bfpi-admin.php:2753
 msgid "URL updated successfully. Next import will use the new URL."
 msgstr "URL succesvol bijgewerkt. Volgende import gebruikt de nieuwe URL."
 
-#: includes/admin/class-bfpi-admin.php:2886
-#: includes/admin/class-bfpi-admin.php:2893
-#: includes/admin/class-bfpi-admin.php:2900
+#: includes/admin/class-bfpi-admin.php:2896
+#: includes/admin/class-bfpi-admin.php:2903
+#: includes/admin/class-bfpi-admin.php:2910
 msgid "Recipes are not supported."
 msgstr ""
 
-#: includes/admin/class-bfpi-admin.php:2949
+#: includes/admin/class-bfpi-admin.php:2959
 msgid "No source fields provided"
 msgstr "Geen bronvelden opgegeven"
 
 #. translators: %1$d is matched count, %2$d is total fields
-#: includes/admin/class-bfpi-admin.php:3079
+#: includes/admin/class-bfpi-admin.php:3089
 #, php-format
 msgid "Auto-detected %1$d of %2$d fields"
 msgstr "Automatisch gedetecteerd %1$d van %2$d velden"
 
-#: includes/admin/class-bfpi-admin.php:3096
-#: includes/admin/class-bfpi-admin.php:3161
+#: includes/admin/class-bfpi-admin.php:3106
+#: includes/admin/class-bfpi-admin.php:3171
 msgid "Security check failed"
 msgstr "Beveiligingscontrole mislukt"
 
-#: includes/admin/class-bfpi-admin.php:3103
-#: includes/admin/class-bfpi-admin.php:3168
+#: includes/admin/class-bfpi-admin.php:3113
+#: includes/admin/class-bfpi-admin.php:3178
 msgid "Permission denied"
 msgstr "Toegang geweigerd"
 
-#: includes/admin/class-bfpi-admin.php:3113
-#: includes/admin/class-bfpi-admin.php:3148
+#: includes/admin/class-bfpi-admin.php:3123
+#: includes/admin/class-bfpi-admin.php:3158
 msgid "Invalid import ID"
 msgstr "Ongeldig import ID"
 
-#: includes/admin/class-bfpi-admin.php:3242
+#: includes/admin/class-bfpi-admin.php:3252
 msgid "All products deleted successfully"
 msgstr "Alle producten succesvol verwijderd"
 
 #. translators: placeholder values
-#: includes/admin/class-bfpi-admin.php:3244
+#: includes/admin/class-bfpi-admin.php:3254
 #, php-format
 msgid "Deleted %1$d products, %2$d remaining..."
 msgstr "%1$d producten verwijderd, %2$d resterend..."
