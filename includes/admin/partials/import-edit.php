@@ -322,7 +322,7 @@ if (!empty($import['file_path']) && file_exists($import['file_path'])) {
                     
                     <!-- Quick Actions -->
                     <div class="mapping-actions" style="margin-bottom: 15px;">
-                        <button type="button" class="button button-secondary" onclick="bfpiClearAllMapping()">
+                        <button type="button" class="button button-secondary" onclick="clearAllMapping()">
                             <?php esc_html_e('Clear All', 'bootflow-product-xml-csv-importer'); ?>
                         </button>
                         <button type="button" class="button button-secondary" onclick="alert('Test mapping feature coming soon')">
@@ -897,7 +897,7 @@ if (!empty($import['file_path']) && file_exists($import['file_path'])) {
                 <h3 class="section-toggle">
                     <span class="dashicons dashicons-arrow-down-alt2"></span>
                     <?php esc_html_e('Import Filters', 'bootflow-product-xml-csv-importer'); ?>
-                    <button type="button" class="button button-small" onclick="bfpiAddFilterRule(event)" style="margin-left: 10px;">
+                    <button type="button" class="button button-small" onclick="addFilterRule(event)" style="margin-left: 10px;">
                         <span class="dashicons dashicons-plus-alt" style="margin-top: 3px;"></span>
                         <?php esc_html_e('Add Filter', 'bootflow-product-xml-csv-importer'); ?>
                     </button>
@@ -965,7 +965,7 @@ if (!empty($import['file_path']) && file_exists($import['file_path'])) {
                                 
                                 <div style="flex: 0 0 40px;">
                                     <label style="display: block; font-size: 11px; color: transparent; margin-bottom: 3px;">.</label>
-                                    <button type="button" class="button button-small remove-filter-rule" onclick="bfpiRemoveFilterRule(event)" style="padding: 6px 10px;">
+                                    <button type="button" class="button button-small remove-filter-rule" onclick="removeFilterRule(event)" style="padding: 6px 10px;">
                                         <span class="dashicons dashicons-trash"></span>
                                     </button>
                                 </div>
@@ -1012,7 +1012,7 @@ if (!empty($import['file_path']) && file_exists($import['file_path'])) {
                 <h3 class="section-toggle">
                     <span class="dashicons dashicons-arrow-down-alt2"></span>
                     <?php esc_html_e('Custom Fields', 'bootflow-product-xml-csv-importer'); ?>
-                    <button type="button" class="button button-small" onclick="bfpiAddCustomField(event)" style="margin-left: 10px;">
+                    <button type="button" class="button button-small" onclick="addCustomField(event)" style="margin-left: 10px;">
                         <span class="dashicons dashicons-plus-alt" style="margin-top: 3px;"></span>
                         <?php esc_html_e('Add Custom Field', 'bootflow-product-xml-csv-importer'); ?>
                     </button>
@@ -1388,7 +1388,7 @@ wp_add_inline_style('bfpi-import-admin', $bfpi_edit_css);
 let customFieldCounter = <?php echo intval($custom_field_index); ?>;
 
 // Toggle custom field config visibility based on processing mode
-function bfpiToggleCustomFieldConfig(selectElement) {
+function toggleCustomFieldConfig(selectElement) {
     const row = selectElement.closest('.custom-field-row');
     const configRow = row.querySelector('.custom-field-config-row');
     const phpConfig = row.querySelector('.php-formula-config');
@@ -1404,7 +1404,7 @@ function bfpiToggleCustomFieldConfig(selectElement) {
     }
 }
 
-function bfpiAddCustomField(e) {
+function addCustomField(e) {
     e.preventDefault();
     const container = document.getElementById('custom-fields-container');
     const html = `
@@ -1456,7 +1456,7 @@ function bfpiAddCustomField(e) {
 // Filter rule functions
 let filterRuleCounter = <?php echo intval( !empty($existing_filters) ? count($existing_filters) : 0 ); ?>;
 
-function bfpiAddFilterRule(e) {
+function addFilterRule(e) {
     e.preventDefault();
     e.stopPropagation();
     
@@ -1499,7 +1499,7 @@ function bfpiAddFilterRule(e) {
             
             <div style="flex: 0 0 40px;">
                 <label style="display: block; font-size: 11px; color: transparent; margin-bottom: 3px;">.</label>
-                <button type="button" class="button button-small" onclick="bfpiRemoveFilterRule(event)" style="padding: 6px 10px;">
+                <button type="button" class="button button-small" onclick="removeFilterRule(event)" style="padding: 6px 10px;">
                     <span class="dashicons dashicons-trash"></span>
                 </button>
             </div>
@@ -1516,7 +1516,7 @@ function bfpiAddFilterRule(e) {
     }
 }
 
-function bfpiRemoveFilterRule(e) {
+function removeFilterRule(e) {
     e.preventDefault();
     e.stopPropagation();
     
@@ -1537,7 +1537,7 @@ function bfpiRemoveFilterRule(e) {
     }
 }
 
-function bfpiClearAllMapping() {
+function clearAllMapping() {
     if (confirm('<?php echo esc_js(__('Are you sure you want to clear all field mappings?', 'bootflow-product-xml-csv-importer')); ?>')) {
         // Clear all source dropdowns
         document.querySelectorAll('select[name^="field_mapping"]').forEach(select => {
