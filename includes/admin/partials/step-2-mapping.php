@@ -2402,7 +2402,14 @@ $ai_providers = array(
                                                         </div>
                                                     <?php break;
                                                     
-                                                    case 'status_select': ?>
+                                                    case 'status_select':
+                                                        // Pre-fill from saved mapping, else from step-1 default_status
+                                                        $saved_status_mapping = isset($saved_mappings[$field_key]) && is_array($saved_mappings[$field_key]) ? $saved_mappings[$field_key] : array();
+                                                        $status_select_mode = isset($saved_status_mapping['select_mode']) && $saved_status_mapping['select_mode'] === 'map' ? 'map' : 'fixed';
+                                                        $import_default_status = isset($import['default_status']) && in_array($import['default_status'], array('publish', 'draft', 'private', 'pending'), true) ? $import['default_status'] : 'publish';
+                                                        $status_fixed_value = isset($saved_status_mapping['fixed_value']) && in_array($saved_status_mapping['fixed_value'], array('publish', 'draft', 'private', 'pending'), true) ? $saved_status_mapping['fixed_value'] : $import_default_status;
+                                                        $status_saved_source = isset($saved_status_mapping['source']) ? $saved_status_mapping['source'] : '';
+                                                        ?>
                                                         <!-- Status Select: Dropdown + Map option -->
                                                         <div class="select-with-map-options">
                                                             <label class="select-map-option">
@@ -2410,10 +2417,10 @@ $ai_providers = array(
                                                                        name="field_mapping[<?php echo esc_attr($field_key); ?>][select_mode]" 
                                                                        value="fixed" 
                                                                        class="select-mode-radio"
-                                                                       checked>
+                                                                       <?php checked($status_select_mode, 'fixed'); ?>>
                                                                 <select name="field_mapping[<?php echo esc_attr($field_key); ?>][fixed_value]" class="fixed-value-select select-fixed-value">
                                                                     <?php foreach ($field['options'] as $opt_value => $opt_label): ?>
-                                                                        <option value="<?php echo esc_attr($opt_value); ?>" <?php selected($opt_value, 'publish'); ?>>
+                                                                        <option value="<?php echo esc_attr($opt_value); ?>" <?php selected($opt_value, $status_fixed_value); ?>>
                                                                             <?php echo esc_html($opt_label); ?>
                                                                         </option>
                                                                     <?php endforeach; ?>
@@ -2423,11 +2430,12 @@ $ai_providers = array(
                                                                 <input type="radio" 
                                                                        name="field_mapping[<?php echo esc_attr($field_key); ?>][select_mode]" 
                                                                        value="map" 
-                                                                       class="select-mode-radio">
+                                                                       class="select-mode-radio"
+                                                                       <?php checked($status_select_mode, 'map'); ?>>
                                                                 <span><?php esc_html_e('Map from XML:', 'bootflow-product-xml-csv-importer'); ?></span>
                                                             </label>
-                                                            <div class="select-map-field" style="display: none; margin-top: 8px; margin-left: 24px;">
-                                                                <select name="field_mapping[<?php echo esc_attr($field_key); ?>][source]" class="field-source-select" style="width: 100%;">
+                                                            <div class="select-map-field" style="<?php echo $status_select_mode === 'map' ? '' : 'display: none;'; ?> margin-top: 8px; margin-left: 24px;">
+                                                                <select name="field_mapping[<?php echo esc_attr($field_key); ?>][source]" class="field-source-select" style="width: 100%;" data-saved-source="<?php echo esc_attr($status_saved_source); ?>">
                                                                     <option value=""><?php esc_html_e('-- Select XML Field --', 'bootflow-product-xml-csv-importer'); ?></option>
                                                                 </select>
                                                             </div>
