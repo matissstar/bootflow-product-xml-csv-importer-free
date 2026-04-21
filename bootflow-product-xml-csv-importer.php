@@ -105,7 +105,7 @@ add_action('plugins_loaded', 'bfpi_check_db_version');
 
 function bfpi_check_db_version() {
     $current_db_version = get_option('bfpi_db_version', '1.0.0');
-    $required_db_version = '1.6.0';
+    $required_db_version = '1.7.0';
     
     if (version_compare($current_db_version, $required_db_version, '<')) {
         // Run migration

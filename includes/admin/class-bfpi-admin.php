@@ -1656,6 +1656,10 @@ class Bfpi_Admin {
             $missing_action = isset($_POST['missing_action']) ? sanitize_text_field(wp_unslash($_POST['missing_action'])) : 'draft';
             // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
             $delete_variations = isset($_POST['delete_variations']) ? '1' : '0';
+            // Default product status from step 1 (publish|draft|private|pending). Used as fallback when status is not mapped on step 2.
+            // phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput
+            $default_status_raw = isset($_POST['default_status']) ? sanitize_text_field(wp_unslash($_POST['default_status'])) : 'publish';
+            $default_status = in_array($default_status_raw, array('publish', 'draft', 'private', 'pending'), true) ? $default_status_raw : 'publish';
             
             // Validate required fields
             if (empty($import_name)) {
@@ -1810,11 +1814,12 @@ class Bfpi_Admin {
                     'handle_missing' => $handle_missing,
                     'missing_action' => $missing_action,
                     'delete_variations' => $delete_variations,
+                    'default_status' => $default_status,
                     'total_products' => $total_products,
                     'status' => 'pending',
                     'created_at' => current_time('mysql')
                 ),
-                array('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%d', '%d', '%s', '%d', '%d', '%s', '%s')
+                array('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%d', '%d', '%s', '%d', '%s', '%d', '%s', '%s')
             );
             
             $import_id = $wpdb->insert_id;

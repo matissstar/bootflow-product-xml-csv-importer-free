@@ -271,7 +271,8 @@ class Bfpi_Importer {
             'update_existing' => $import->update_existing ?? '0',
             'handle_missing' => isset($import->handle_missing) ? (int)$import->handle_missing : 0,
             'missing_action' => $import->missing_action ?? 'draft',
-            'delete_variations' => isset($import->delete_variations) ? (int)$import->delete_variations : 1
+            'delete_variations' => isset($import->delete_variations) ? (int)$import->delete_variations : 1,
+            'default_status' => isset($import->default_status) && in_array($import->default_status, array('publish', 'draft', 'private', 'pending'), true) ? $import->default_status : 'publish'
         );
         
         if (isset($this->config['field_mapping']['name'])) {
@@ -2184,11 +2185,13 @@ class Bfpi_Importer {
 
         // Set status - validate that status is a valid WordPress post_status
         $valid_statuses = array('publish', 'draft', 'pending', 'private', 'trash');
-        $status = isset($product_data['status']) ? $product_data['status'] : 'publish';
+        // Fallback: per-import default status from step 1 (config['default_status']), then 'publish'.
+        $default_status = isset($this->config['default_status']) && in_array($this->config['default_status'], $valid_statuses, true) ? $this->config['default_status'] : 'publish';
+        $status = isset($product_data['status']) && $product_data['status'] !== '' ? $product_data['status'] : $default_status;
         if (!in_array($status, $valid_statuses)) {
-            // If status is not valid (e.g., accidentally mapped to wrong column), default to 'publish'
-            $this->log('warning', 'Invalid product status "' . $status . '" - defaulting to "publish"');
-            $status = 'publish';
+            // If status is not valid (e.g., accidentally mapped to wrong column), default to per-import default.
+            $this->log('warning', 'Invalid product status "' . $status . '" - defaulting to "' . $default_status . '"');
+            $status = $default_status;
         }
         $product->set_status($status);
 

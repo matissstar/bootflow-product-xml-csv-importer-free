@@ -124,7 +124,7 @@ class Bfpi_Activator {
         self::migrate_database();
 
         // Update database version
-        update_option('bfpi_db_version', '1.6.0');
+        update_option('bfpi_db_version', '1.7.0');
     }
 
     /**
@@ -303,6 +303,25 @@ class Bfpi_Activator {
             );
             // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
             if (defined('WP_DEBUG') && WP_DEBUG) { error_log('Bfpi: Added schedule_method column to database'); }
+        }
+
+        // v1.6.0: Add default_status column (per-import default product status from step 1)
+        // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.DirectDatabaseQuery.SchemaChange, PluginCheck.Security.DirectDB.UnescapedDBParameter -- Custom table migration
+        $default_status_exists = $wpdb->get_results(
+            $wpdb->prepare(
+                'SHOW COLUMNS FROM `' . esc_sql( $table_imports ) . '` LIKE %s',
+                'default_status'
+            )
+        );
+
+        if (empty($default_status_exists)) {
+            // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.DirectDatabaseQuery.SchemaChange, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter -- Custom table migration
+            $wpdb->query(
+                'ALTER TABLE `' . esc_sql( $table_imports ) . '`
+                ADD COLUMN `default_status` varchar(20) DEFAULT \'publish\' AFTER `delete_variations`'
+            );
+            // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+            if (defined('WP_DEBUG') && WP_DEBUG) { error_log('Bfpi: Added default_status column to database'); }
         }
         
         // v0.9.3: Migrate post meta keys from _wc_ prefix to _bfpi_ prefix
