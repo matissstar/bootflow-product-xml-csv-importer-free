@@ -24,6 +24,8 @@ Upload an XML or CSV file, map its fields to WooCommerce product fields, preview
 * **Image import** — import product images from URLs in your feed
 * **Categories and tags** — map or create product categories and tags during import
 * **SKU matching** — match incoming products to existing ones by SKU
+* **Pricing engine** — apply global markup, fixed amounts, rounding rules, price ranges, and conditional rules per category, brand, or supplier (with min/max safeguards) directly during import
+* **Shipping class engine** — automatically assign WooCommerce shipping classes based on product data such as weight, dimensions, category, brand, or custom rules
 * **Import preview** — review mapped data before running the import
 * **Unlimited products** — no artificial product count limits
 * **No tracking or telemetry** — no data is sent to external servers, no analytics, no account required
@@ -78,18 +80,3 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 * WordPress 5.8 or higher
 * WooCommerce 6.0 or higher (tested up to WooCommerce 9.0)
 * PHP 7.4 or higher
-
-== Changelog ==
-
-= 0.9.8 =
-* Removed per-field "Clear Mapping" (X) button from the mapping wizard and import editor; mapping fields can be cleared by editing the source field directly
-
-= 0.9.7 =
-* Removed per-field "Update on re-import" toggle from the mapping wizard and import editor; all mapped fields are now always updated when re-importing existing products
-* Updated readme to accurately describe which features are included in the free version
-* Removed decorative styling from the upgrade menu link
-
-== Upgrade Notice ==
-
-= 0.9.8 =
-UI cleanup. Recommended update.
