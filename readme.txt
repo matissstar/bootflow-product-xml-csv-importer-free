@@ -42,7 +42,7 @@ A Pro version is available at [bootflow.io](https://bootflow.io) with additional
 * Per-field selective update control (choose which individual fields to update on re-import)
 * PHP / hybrid data transformations during import (modify values on the fly with custom rules)
 * Reusable import templates
-* AI-assisted field mapping, data transformation and on-the-fly translation of product titles, descriptions and attributes
+* AI-assisted field mapping, data transformation, on-the-fly translation of product titles, descriptions and attributes, and AI generation of any product field (e.g. SEO titles, descriptions, short descriptions, tags) from existing data
 * Detailed import logs
 
 AI features are optional and require user-provided API keys.
