@@ -77,13 +77,6 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 * WooCommerce 6.0 or higher (tested up to WooCommerce 9.0)
 * PHP 7.4 or higher
 
-== Screenshots ==
-
-1. Import wizard — file upload
-2. Field mapping interface
-3. Import preview
-4. Import progress and results
-
 == Changelog ==
 
 = 0.9.8 =
