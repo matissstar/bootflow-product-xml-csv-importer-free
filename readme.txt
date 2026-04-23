@@ -51,7 +51,7 @@ AI features are optional and require user-provided API keys.
 
 1. Upload the plugin files to the wp-content/plugins/bootflow-product-importer/ directory, or install through the WordPress Plugins screen.
 2. Activate the plugin through the Plugins screen in WordPress.
-3. Navigate to WooCommerce, then Product Importer to start importing.
+3. In the WordPress admin sidebar, open "Bootflow Import" to start importing.
 
 == Frequently Asked Questions ==
 
