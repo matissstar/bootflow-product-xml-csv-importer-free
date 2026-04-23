@@ -38,9 +38,11 @@ A Pro version is available at [bootflow.io](https://bootflow.io) with additional
 
 * Import from remote URLs (XML/CSV)
 * Scheduled and recurring imports via WP-Cron
+* Auto field mapping — automatic detection and matching of source fields to WooCommerce product fields
 * Per-field selective update control (choose which individual fields to update on re-import)
+* PHP / hybrid data transformations during import (modify values on the fly with custom rules)
 * Reusable import templates
-* AI-assisted field mapping and data transformation
+* AI-assisted field mapping, data transformation and on-the-fly translation of product titles, descriptions and attributes
 * Detailed import logs
 
 AI features are optional and require user-provided API keys.
