@@ -838,18 +838,10 @@ if (!empty($import['file_path']) && file_exists($import['file_path'])) {
                                             <?php endif; ?>
                                         </label>
                                         <span class="field-type"><?php echo esc_html($field['type'] ?? 'text'); ?></span>
-                                        <label class="update-field-checkbox" style="margin-top: 8px; font-weight: normal; font-size: 12px; display: flex; align-items: center; gap: 5px;">
-                                            <!-- Hidden input sends '0' if checkbox unchecked, checkbox overrides with '1' if checked -->
-                                            <input type="hidden" 
-                                                   name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" 
-                                                   value="0">
-                                            <input type="checkbox" 
-                                                   name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" 
-                                                   value="1"
-                                                   <?php checked(!isset($current_mapping['update_on_sync']) || $current_mapping['update_on_sync'] !== '0'); ?>
-                                                   style="margin: 0;">
-                                            <span style="color: #646970;"><?php esc_html_e('Update this field?', 'bootflow-product-xml-csv-importer'); ?></span>
-                                        </label>
+                                        <!-- Per-field selective update is disabled in free version; always update on re-import -->
+                                        <input type="hidden" 
+                                               name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" 
+                                               value="1">
                                     </div>
                                     
                                     <div class="field-source">

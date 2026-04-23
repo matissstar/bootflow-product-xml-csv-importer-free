@@ -18,8 +18,9 @@ if (!defined('ABSPATH')) {
 $can_variable_products = Bfpi_Features::is_available('variable_products');
 $can_import_filters = Bfpi_Features::is_available('import_filters');
 // Legacy compatibility
-$can_selective_update = true;
 $can_filters_advanced = $can_import_filters;
+// Note: per-field selective update is not provided in this plugin.
+// All mapped fields are always updated on re-import (update_on_sync forced to 1).
 // Note: No product count limits - both FREE and PRO have unlimited products
 
 // Get parameters from URL
@@ -2024,17 +2025,8 @@ $ai_providers = array(
                                                         </div>
                                                     </div>
                                                     
-                                                    <!-- Update on Sync for categories -->
-                                                    <?php if ($can_selective_update): ?>
-                                                    <div class="update-on-sync-wrapper" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
-                                                        <label>
-                                                            <input type="checkbox" name="field_mapping[categories][update_on_sync]" value="1" checked>
-                                                            <span><?php esc_html_e('Update categories on re-import?', 'bootflow-product-xml-csv-importer'); ?></span>
-                                                        </label>
-                                                    </div>
-                                                    <?php else: ?>
+                                                    <!-- All fields are always updated on re-import -->
                                                     <input type="hidden" name="field_mapping[categories][update_on_sync]" value="1">
-                                                    <?php endif; ?>
                                                 </div>
                                             </div>
 
@@ -2142,17 +2134,8 @@ $ai_providers = array(
                                                         </div>
                                                     </div>
                                                     
-                                                    <!-- Update on Sync for tags -->
-                                                    <?php if ($can_selective_update): ?>
-                                                    <div class="update-on-sync-wrapper" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
-                                                        <label>
-                                                            <input type="checkbox" name="field_mapping[tags][update_on_sync]" value="1" checked>
-                                                            <span><?php esc_html_e('Update tags on re-import?', 'bootflow-product-xml-csv-importer'); ?></span>
-                                                        </label>
-                                                    </div>
-                                                    <?php else: ?>
+                                                    <!-- All fields are always updated on re-import -->
                                                     <input type="hidden" name="field_mapping[tags][update_on_sync]" value="1">
-                                                    <?php endif; ?>
                                                 </div>
                                             </div>
 
@@ -2245,17 +2228,8 @@ $ai_providers = array(
                                                         </div>
                                                     </div>
                                                     
-                                                    <!-- Update on Sync for brand -->
-                                                    <?php if ($can_selective_update): ?>
-                                                    <div class="update-on-sync-wrapper" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
-                                                        <label>
-                                                            <input type="checkbox" name="field_mapping[brand][update_on_sync]" value="1" checked>
-                                                            <span><?php esc_html_e('Update brand on re-import?', 'bootflow-product-xml-csv-importer'); ?></span>
-                                                        </label>
-                                                    </div>
-                                                    <?php else: ?>
+                                                    <!-- All fields are always updated on re-import -->
                                                     <input type="hidden" name="field_mapping[brand][update_on_sync]" value="1">
-                                                    <?php endif; ?>
                                                 </div>
                                             </div>
 
@@ -2657,25 +2631,8 @@ $ai_providers = array(
                                             
                                             
                                             
-                                            <!-- Update on Sync Checkbox -->
-                                            <?php if ($can_selective_update): ?>
-                                            <div class="update-on-sync-wrapper">
-                                                <label>
-                                                    <input type="checkbox" 
-                                                           name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" 
-                                                           value="1" 
-                                                           checked>
-                                                    <span>
-                                                        <?php esc_html_e('Update this field on re-import?', 'bootflow-product-xml-csv-importer'); ?>
-                                                    </span>
-                                                </label>
-                                                <p class="description">
-                                                    <?php esc_html_e('Uncheck to prevent this field from being updated when re-importing existing products', 'bootflow-product-xml-csv-importer'); ?>
-                                                </p>
-                                            </div>
-                                            <?php else: ?>
+                                            <!-- All fields are always updated on re-import -->
                                             <input type="hidden" name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" value="1">
-                                            <?php endif; ?>
                                             
                                             <div class="field-actions">
                                                 <button type="button" class="button button-small clear-mapping" title="<?php esc_html_e('Clear Mapping', 'bootflow-product-xml-csv-importer'); ?>">
@@ -2862,25 +2819,8 @@ $ai_providers = array(
         <!-- Processing Config Panels for Custom Fields -->
         
         
-        <!-- Update on Sync Checkbox -->
-        <?php if ($can_selective_update): ?>
-        <div class="update-on-sync-wrapper">
-            <label>
-                <input type="checkbox" 
-                       name="custom_fields[{index}][update_on_sync]" 
-                       value="1" 
-                       checked>
-                <span>
-                    <?php esc_html_e('Update this field on re-import?', 'bootflow-product-xml-csv-importer'); ?>
-                </span>
-            </label>
-            <p class="description">
-                <?php esc_html_e('Uncheck to prevent this field from being updated when re-importing existing products', 'bootflow-product-xml-csv-importer'); ?>
-            </p>
-        </div>
-        <?php else: ?>
+        <!-- All fields are always updated on re-import -->
         <input type="hidden" name="custom_fields[{index}][update_on_sync]" value="1">
-        <?php endif; ?>
         
         <div class="field-actions">
             <button type="button" class="button button-small remove-custom-field" title="<?php esc_html_e('Remove Custom Field', 'bootflow-product-xml-csv-importer'); ?>">
