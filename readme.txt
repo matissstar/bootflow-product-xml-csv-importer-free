@@ -4,7 +4,7 @@ Tags: woocommerce, import, xml, csv, products
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.9.6
+Stable tag: 0.9.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,7 +38,7 @@ A Pro version is available at [bootflow.io](https://bootflow.io) with additional
 
 * Import from remote URLs (XML/CSV)
 * Scheduled and recurring imports via WP-Cron
-* Update existing products with selective field control
+* Per-field selective update control (choose which individual fields to update on re-import)
 * Reusable import templates
 * AI-assisted field mapping and data transformation
 * Detailed import logs
@@ -63,7 +63,7 @@ No. There is no limit on the number of products you can import.
 Yes. Variable products with attributes and variations are fully supported.
 
 = Can I update existing products? =
-The free version creates new products and can match by SKU. For selective field updates and advanced update rules, the Pro version is available.
+Yes. Enable "Update existing products" in the import settings to update existing products matched by SKU. You can also enable "Skip products if data unchanged" to avoid unnecessary writes, and choose what to do with products that are no longer in the feed (move to draft, mark out of stock, allow backorder, move to trash, or permanently delete). Per-field selective update — choosing which individual fields are updated on re-import — is available in the Pro version.
 
 = Does the plugin send data to external servers? =
 No. The plugin does not collect analytics, track usage, or phone home. When your import file contains image URLs, the plugin downloads those images to your server using the WordPress HTTP API. No store data is sent externally.
@@ -86,51 +86,12 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 
 == Changelog ==
 
-= 0.9.6 =
-* Added nonce verification to rerun and stop import actions (CSRF protection)
-* Fixed upload directory name to match plugin slug (bootflow-product-xml-csv-importer)
-* Fixed escaping in exception messages (esc_html__ for sprintf, esc_html for implode)
-* Fixed wp_safe_redirect to wp_redirect for external upsell link
-* Legacy upload directory cleanup in uninstall
-
-= 0.9.5 =
-* Renamed main plugin file to match plugin slug
-* Applied esc_html__() to all exception and error messages
-* Removed unused license management class
-* Regenerated translation files
-
-= 0.9.4 =
-* Replaced LICENSE file with correct GPL v2 text
-* Regenerated translation files — removed leftover PRO strings
-* Removed dead PRO CSS classes (pro-badge, pro-feature-disabled)
-* Removed unused license/AI stub methods from admin class
-* Added file path validation against uploads directory
-* Clarified readme FAQ about image downloads from user-provided URLs
-* Cleaned PRO references from JS and PHP comments
-
-= 0.9.3 =
-* Removed unused PRO scaffolding code (is_pro, pro_badge, License stubs)
-* Fixed nonce sanitization to use sanitize_text_field instead of sanitize_key
-* Added wp_unslash to all superglobal access points
-* Scoped pro menu script to plugin pages only
-* Renamed WC-prefixed log messages to BFPI prefix
-
-= 0.9.2 =
-* WordPress.org compliance updates
-* Replaced curl with WordPress HTTP API
-* Fixed text domain consistency
-* Improved input sanitization and output escaping
-
-= 0.9.0 =
-* Initial release
-* XML and CSV import
-* Manual field mapping
-* Simple and variable products
-* Attributes and variations
-* SKU matching
-* Import preview
+= 0.9.7 =
+* Removed per-field "Update on re-import" toggle from the mapping wizard and import editor; all mapped fields are now always updated when re-importing existing products
+* Updated readme to accurately describe which features are included in the free version
+* Removed decorative styling from the upgrade menu link
 
 == Upgrade Notice ==
 
-= 0.9.2 =
-Compliance and security improvements. Recommended update.
+= 0.9.7 =
+Readme and UI cleanup. Recommended update.

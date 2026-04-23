@@ -280,7 +280,7 @@ class Bfpi_Admin {
         add_submenu_page(
             'bfpi-import',
             __('Get PRO', 'bootflow-product-xml-csv-importer'),
-            '<span style="color:#f0c33c;">' . esc_html__('Get PRO', 'bootflow-product-xml-csv-importer') . ' ★</span>',
+            __('Get PRO', 'bootflow-product-xml-csv-importer'),
             'manage_options',
             'bfpi-get-pro',
             array($this, 'redirect_to_pro_page')
