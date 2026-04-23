@@ -2633,12 +2633,6 @@ $ai_providers = array(
                                             
                                             <!-- All fields are always updated on re-import -->
                                             <input type="hidden" name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" value="1">
-                                            
-                                            <div class="field-actions">
-                                                <button type="button" class="button button-small clear-mapping" title="<?php esc_html_e('Clear Mapping', 'bootflow-product-xml-csv-importer'); ?>">
-                                                    <span class="dashicons dashicons-no-alt"></span>
-                                                </button>
-                                            </div>
                                         </div>
                                         <?php endif; ?>
                                     <?php endforeach; ?>

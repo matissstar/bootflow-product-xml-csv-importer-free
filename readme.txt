@@ -4,7 +4,7 @@ Tags: woocommerce, import, xml, csv, products
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.9.7
+Stable tag: 0.9.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,9 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 
 == Changelog ==
 
+= 0.9.8 =
+* Removed per-field "Clear Mapping" (X) button from the mapping wizard and import editor; mapping fields can be cleared by editing the source field directly
+
 = 0.9.7 =
 * Removed per-field "Update on re-import" toggle from the mapping wizard and import editor; all mapped fields are now always updated when re-importing existing products
 * Updated readme to accurately describe which features are included in the free version
@@ -93,5 +96,5 @@ Yes. The plugin is compatible with WooCommerce High-Performance Order Storage.
 
 == Upgrade Notice ==
 
-= 0.9.7 =
-Readme and UI cleanup. Recommended update.
+= 0.9.8 =
+UI cleanup. Recommended update.

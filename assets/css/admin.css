@@ -732,16 +732,6 @@
     background: #005a87;
 }
 
-.clear-mapping {
-    background: #dc3545;
-    color: white;
-    border: none;
-}
-
-.clear-mapping:hover {
-    background: #c82333;
-}
-
 /* Custom Fields */
 .custom-fields-section .section-toggle {
     background: #e7f3ff;

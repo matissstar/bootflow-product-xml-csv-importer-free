@@ -230,14 +230,6 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
             configDiv.slideToggle(200);
         });
 
-        // Clear mapping buttons
-        $(document).on('click', '.clear-mapping', function() {
-            var row = $(this).closest('.field-mapping-row');
-            row.find('.field-source-select').val('');
-            row.find('.processing-mode-select').val('direct').trigger('change');
-            row.find('textarea, input[type="text"]').val('');
-        });
-
         // Quick actions
         $('#clear-all-mapping').on('click', clearAllMapping);
         $('#test-mapping').on('click', testMapping);

@@ -865,16 +865,6 @@ if (!empty($import['file_path']) && file_exists($import['file_path'])) {
                                             <?php endif; ?>
                                         </div>
                                     </div>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <div class="field-actions">
-                                        <button type="button" class="button button-small clear-mapping" title="<?php esc_html_e('Clear Mapping', 'bootflow-product-xml-csv-importer'); ?>">
-                                            <span class="dashicons dashicons-no-alt"></span>
-                                        </button>
-                                    </div>
                                 </div>
                                 <?php endif; ?>
                             <?php endforeach; ?>
@@ -1638,34 +1628,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 configDiv.style.display = 'block';
             } else {
                 configDiv.style.display = 'none';
-            }
-        });
-    });
-    
-    // Handle clear mapping button
-    document.querySelectorAll('.clear-mapping').forEach(btn => {
-        btn.addEventListener('click', function(e) {
-            e.preventDefault();
-            if (confirm('<?php echo esc_js(__('Clear this field mapping?', 'bootflow-product-xml-csv-importer')); ?>')) {
-                const row = this.closest('.field-mapping-row');
-                if (!row) return;
-                
-                // Support both old select and new textarea UI
-                const sourceSelect = row.querySelector('.field-source-select');
-                const sourceTextarea = row.querySelector('.field-mapping-textarea');
-                const modeSelect = row.querySelector('.processing-mode-select');
-                const configDiv = row.querySelector('.processing-config');
-                
-                if (sourceSelect) sourceSelect.value = '';
-                if (sourceTextarea) {
-                    sourceTextarea.value = '';
-                    sourceTextarea.dispatchEvent(new Event('input')); // Trigger input to update preview
-                }
-                if (modeSelect) modeSelect.value = 'direct';
-                if (configDiv) configDiv.style.display = 'none';
-                
-                // Clear all config inputs
-                row.querySelectorAll('textarea:not(.field-mapping-textarea)').forEach(ta => ta.value = '');
             }
         });
     });
