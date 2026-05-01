@@ -1630,76 +1630,141 @@ class Bfpi_Importer {
         // Check if pricing engine is enabled
         if (empty($pricing_config) || empty($pricing_config['enabled'])) {
             return $processed_data;
-        }        
-        // Get base price from configured source field
-        $base_price_field = $pricing_config['base_price'] ?? 'price';
-        $base_price = 0;
-        
-        // Try to get base price from raw data
-        if (isset($raw_data[$base_price_field])) {
-            $base_price = floatval(str_replace(',', '.', $raw_data[$base_price_field]));
-        } elseif (isset($processed_data['regular_price'])) {
-            $base_price = floatval(str_replace(',', '.', $processed_data['regular_price']));
         }
         
-        if ($base_price <= 0) {            return $processed_data;
-        }        
-        // Find matching rule
-        $matched_rule = null;
         $rules = $pricing_config['rules'] ?? array();
+        // Backward compat: if a legacy default_rule is present and rules has no default, inject it.
+        $has_default = false;
+        foreach ($rules as $r) { if (!empty($r['is_default'])) { $has_default = true; break; } }
+        if (!$has_default && !empty($pricing_config['default_rule'])) {
+            $legacy_default = $pricing_config['default_rule'];
+            $legacy_default['is_default'] = true;
+            $legacy_default['enabled'] = true;
+            $rules[] = $legacy_default;
+        }
         
-        foreach ($rules as $rule) {
+        // --- Regular price (rules with apply_to in: both/regular/unset) ---
+        $regular_field = trim($pricing_config['base_price'] ?? 'price', '{}');
+        $regular_base = $this->resolve_pricing_base_price($regular_field, $raw_data, $processed_data, 'regular_price');
+        if ($regular_base > 0) {
+            $regular_final = $this->compute_pricing_engine_output($regular_base, $raw_data, $rules, 'regular');
+            if ($regular_final !== null) {
+                $processed_data['regular_price'] = number_format($regular_final, 2, '.', '');
+            }
+        }
+        
+        // --- Sale price (optional, rules with apply_to in: both/sale) ---
+        $sale_field = trim($pricing_config['sale_price'] ?? '', '{}');
+        if ($sale_field !== '') {
+            $sale_base = $this->resolve_pricing_base_price($sale_field, $raw_data, $processed_data, null);
+            if ($sale_base > 0) {
+                $sale_final = $this->compute_pricing_engine_output($sale_base, $raw_data, $rules, 'sale');
+                if ($sale_final !== null) {
+                    $processed_data['sale_price'] = number_format($sale_final, 2, '.', '');
+                }
+            }
+        }
+        
+        return $processed_data;
+    }
+    
+    /**
+     * Resolve a base price value from raw data with fallback to processed data.
+     */
+    private function resolve_pricing_base_price($field, $raw_data, $processed_data, $fallback_key) {
+        $val = 0;
+        if ($field !== '' && isset($raw_data[$field])) {
+            $val = floatval(str_replace(',', '.', $raw_data[$field]));
+        } elseif ($fallback_key && isset($processed_data[$fallback_key])) {
+            $val = floatval(str_replace(',', '.', $processed_data[$fallback_key]));
+        }
+        return $val;
+    }
+    
+    /**
+     * Compute the engine output (regular or sale) for a given base price.
+     *
+     * @param float  $base_price  Source base price
+     * @param array  $raw_data    Raw product fields
+     * @param array  $rules       Full rules list (from config)
+     * @param string $output_type 'regular' or 'sale'
+     */
+    private function compute_pricing_engine_output($base_price, $raw_data, $rules, $output_type) {
+        // Filter rules to those that target this output (default = both for backward compat)
+        $applicable = array();
+        foreach ($rules as $r) {
+            $apply_to = isset($r['apply_to']) && $r['apply_to'] !== '' ? $r['apply_to'] : 'both';
+            if ($apply_to === 'both' || $apply_to === $output_type) {
+                $applicable[] = $r;
+            }
+        }
+        
+        if (empty($applicable)) {
+            return null;
+        }
+        
+        // Find first matching conditional rule
+        $matched_rule = null;
+        foreach ($applicable as $rule) {
+            if (!empty($rule['is_default'])) {
+                continue;
+            }
             if (empty($rule['enabled'])) {
                 continue;
             }
-            
             if ($this->check_pricing_rule_conditions($rule, $base_price, $raw_data)) {
-                $matched_rule = $rule;                break; // First matching rule wins
+                $matched_rule = $rule;
+                break;
             }
         }
         
-        // Use default rule if no rule matched
+        // Fall back to default rule (must also be applicable to this output)
         if (!$matched_rule) {
-            $matched_rule = $pricing_config['default_rule'] ?? array(
-                'markup_percent' => 0,
-                'fixed_amount' => 0,
-                'rounding' => 'none'
-            );        }
-        
-        // Calculate final price
-        $markup_percent = floatval($matched_rule['markup_percent'] ?? 0);
-        $fixed_amount = floatval($matched_rule['fixed_amount'] ?? 0);
-        $rounding = $matched_rule['rounding'] ?? 'none';
-        $min_price = !empty($matched_rule['min_price']) ? floatval($matched_rule['min_price']) : null;
-        $max_price = !empty($matched_rule['max_price']) ? floatval($matched_rule['max_price']) : null;
-        
-        // If rule uses "inherit" rounding, get from default rule
-        if ($rounding === 'inherit' && isset($pricing_config['default_rule']['rounding'])) {
-            $rounding = $pricing_config['default_rule']['rounding'];
+            foreach ($applicable as $r) {
+                if (!empty($r['is_default'])) {
+                    $matched_rule = $r;
+                    break;
+                }
+            }
         }
         
-        // Apply markup: price * (1 + markup%/100) + fixed
-        $final_price = $base_price * (1 + $markup_percent / 100) + $fixed_amount;
+        if (!$matched_rule) {
+            return null;
+        }
         
-        // Apply rounding
+        $markup_percent = floatval($matched_rule['markup_percent'] ?? 0);
+        $fixed_amount   = floatval($matched_rule['fixed_amount'] ?? 0);
+        $rounding       = $matched_rule['rounding'] ?? 'none';
+        $min_price      = !empty($matched_rule['min_price']) ? floatval($matched_rule['min_price']) : null;
+        $max_price      = !empty($matched_rule['max_price']) ? floatval($matched_rule['max_price']) : null;
+        
+        // Resolve "inherit" rounding from the (applicable) default rule
+        if ($rounding === 'inherit') {
+            foreach ($applicable as $r) {
+                if (!empty($r['is_default'])) {
+                    $rounding = $r['rounding'] ?? 'none';
+                    break;
+                }
+            }
+            if ($rounding === 'inherit') {
+                $rounding = 'none';
+            }
+        }
+        
+        $final_price = $base_price * (1 + $markup_percent / 100) + $fixed_amount;
         $final_price = $this->apply_pricing_rounding($final_price, $rounding);
         
-        // Apply min/max constraints
         if ($min_price !== null && $final_price < $min_price) {
             $final_price = $min_price;
         }
         if ($max_price !== null && $final_price > $max_price) {
             $final_price = $max_price;
         }
-        
-        // Ensure price is not negative
         if ($final_price < 0) {
             $final_price = 0;
-        }        
-        // Update regular_price in processed data
-        $processed_data['regular_price'] = number_format($final_price, 2, '.', '');
+        }
         
-        return $processed_data;
+        return $final_price;
     }
     
     /**

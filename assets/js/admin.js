@@ -6868,17 +6868,21 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
      */
     function populatePricingEngineFields() {
         var $select = $('#pricing_engine_base_price');
+        var $saleSelect = $('#pricing_engine_sale_price');
         if (!$select.length) return;
         
         // Clear existing options
         $select.find('option:not(:first)').remove();
+        if ($saleSelect.length) $saleSelect.find('option:not(:first)').remove();
         
         // Add fields from the parsed XML structure
         if (window.allKnownFieldsOrder && window.allKnownFieldsOrder.length > 0) {
             $.each(window.allKnownFieldsOrder, function(i, field) {
                 // Highlight likely price fields
-                var isLikelyPrice = /price|cost|wholesale|base|pvp|retail/i.test(field);
-                $select.append('<option value="{' + field + '}" ' + (isLikelyPrice ? 'style="background: #fff3e0;"' : '') + '>' + field + '</option>');
+                var isLikelyPrice = /price|cost|wholesale|base|pvp|retail|sale|akcija|atlaide/i.test(field);
+                var opt = '<option value="{' + field + '}" ' + (isLikelyPrice ? 'style="background: #fff3e0;"' : '') + '>' + field + '</option>';
+                $select.append(opt);
+                if ($saleSelect.length) $saleSelect.append(opt);
             });
         }
         
@@ -6988,6 +6992,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
         var config = {
             enabled: $('#pricing_engine_enabled').is(':checked'),
             base_price: $('#pricing_engine_base_price').val(),
+            sale_price: $('#pricing_engine_sale_price').val() || '',
             rules: []
         };
         
@@ -7007,6 +7012,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
                 rounding: $rule.find('select[name$="[rounding]"]').val() || 'none',
                 min_price: parseFloat($rule.find('input[name$="[min_price]"]').val()) || null,
                 max_price: parseFloat($rule.find('input[name$="[max_price]"]').val()) || null,
+                apply_to: $rule.find('select[name$="[apply_to]"]').val() || 'both',
                 conditions: [],
                 condition_logic: $rule.find('select[name$="[condition_logic]"]').val() || 'AND'
             };
@@ -7077,6 +7083,10 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
             $('#pricing_engine_base_price').val(config.base_price);
         }
         
+        if (config.sale_price) {
+            $('#pricing_engine_sale_price').val(config.sale_price);
+        }
+        
         // Restore rules
         if (config.rules && config.rules.length > 0) {
             config.rules.forEach(function(rule) {
@@ -7088,6 +7098,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
                     $defaultRule.find('select[name$="[rounding]"]').val(rule.rounding || 'none');
                     if (rule.min_price) $defaultRule.find('input[name$="[min_price]"]').val(rule.min_price);
                     if (rule.max_price) $defaultRule.find('input[name$="[max_price]"]').val(rule.max_price);
+                    $defaultRule.find('select[name$="[apply_to]"]').val(rule.apply_to || 'both');
                 } else {
                     // Add and restore conditional rules
                     addPricingRule();
@@ -7100,6 +7111,7 @@ window.populateFieldSelectorsForRowGlobal = function($row) {
                     $newRule.find('select[name$="[rounding]"]').val(rule.rounding || 'inherit');
                     if (rule.min_price) $newRule.find('input[name$="[min_price]"]').val(rule.min_price);
                     if (rule.max_price) $newRule.find('input[name$="[max_price]"]').val(rule.max_price);
+                    $newRule.find('select[name$="[apply_to]"]').val(rule.apply_to || 'both');
                     $newRule.find('select[name$="[condition_logic]"]').val(rule.condition_logic || 'AND');
                     
                     // Restore conditions

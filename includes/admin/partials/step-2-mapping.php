@@ -18,9 +18,8 @@ if (!defined('ABSPATH')) {
 $can_variable_products = Bfpi_Features::is_available('variable_products');
 $can_import_filters = Bfpi_Features::is_available('import_filters');
 // Legacy compatibility
+$can_selective_update = true;
 $can_filters_advanced = $can_import_filters;
-// Note: per-field selective update is not provided in this plugin.
-// All mapped fields are always updated on re-import (update_on_sync forced to 1).
 // Note: No product count limits - both FREE and PRO have unlimited products
 
 // Get parameters from URL
@@ -499,18 +498,34 @@ $ai_providers = array(
                                                     </div>
                                                 </div>
                                                 
-                                                <!-- Base Price Source -->
+                                                <!-- Base Price Source (Regular) + optional Sale Price Source -->
                                                 <div style="margin-bottom: 20px; padding: 20px; background: #fff; border: 2px solid #e0e0e0; border-radius: 8px;">
-                                                    <label style="font-weight: 600; display: block; margin-bottom: 12px; color: #333; font-size: 14px;">
-                                                        <span class="dashicons dashicons-tag" style="color: #ff9800;"></span>
-                                                        <?php esc_html_e('Base Price Source (from XML):', 'bootflow-product-xml-csv-importer'); ?>
-                                                    </label>
-                                                    <select id="pricing_engine_base_price" name="pricing_engine_base_price" class="bfpi-field-select" style="width: 100%; max-width: 400px; padding: 10px;">
-                                                        <option value=""><?php esc_html_e('-- Select XML field with base price --', 'bootflow-product-xml-csv-importer'); ?></option>
-                                                    </select>
-                                                    <p class="description" style="margin-top: 8px; color: #666;">
-                                                        <?php esc_html_e('Select the XML field that contains the supplier/wholesale price', 'bootflow-product-xml-csv-importer'); ?>
-                                                    </p>
+                                                    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                                                        <div style="flex: 1; min-width: 280px;">
+                                                            <label style="font-weight: 600; display: block; margin-bottom: 12px; color: #333; font-size: 14px;">
+                                                                <span class="dashicons dashicons-tag" style="color: #ff9800;"></span>
+                                                                <?php esc_html_e('Base Price Source (Regular Price, from XML):', 'bootflow-product-xml-csv-importer'); ?>
+                                                            </label>
+                                                            <select id="pricing_engine_base_price" name="pricing_engine_base_price" class="bfpi-field-select" style="width: 100%; padding: 10px;">
+                                                                <option value=""><?php esc_html_e('-- Select XML field with base price --', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                            </select>
+                                                            <p class="description" style="margin-top: 8px; color: #666;">
+                                                                <?php esc_html_e('XML field used to calculate the Regular Price.', 'bootflow-product-xml-csv-importer'); ?>
+                                                            </p>
+                                                        </div>
+                                                        <div style="flex: 1; min-width: 280px;">
+                                                            <label style="font-weight: 600; display: block; margin-bottom: 12px; color: #333; font-size: 14px;">
+                                                                <span class="dashicons dashicons-tag" style="color: #e91e63;"></span>
+                                                                <?php esc_html_e('Sale Price Source (optional, from XML):', 'bootflow-product-xml-csv-importer'); ?>
+                                                            </label>
+                                                            <select id="pricing_engine_sale_price" name="pricing_engine_sale_price" class="bfpi-field-select" style="width: 100%; padding: 10px;">
+                                                                <option value=""><?php esc_html_e('-- None (do not calculate Sale Price) --', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                            </select>
+                                                            <p class="description" style="margin-top: 8px; color: #666;">
+                                                                <?php esc_html_e('Optional. If set, Sale Price is calculated using rules whose "Apply to" includes Sale.', 'bootflow-product-xml-csv-importer'); ?>
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 
                                                 <!-- ═══════════════════════════════════════════════════════════════ -->
@@ -598,6 +613,16 @@ $ai_providers = array(
                                                                     </label>
                                                                     <input type="number" name="pricing_rule[default][max_price]" value="" min="0" step="0.01" placeholder="—"
                                                                            style="width: 70px; padding: 8px; border: 2px solid #81c784; border-radius: 4px;">
+                                                                </div>
+                                                                <div>
+                                                                    <label style="font-size: 12px; color: #558b2f; display: block; margin-bottom: 4px;">
+                                                                        <?php esc_html_e('Apply to', 'bootflow-product-xml-csv-importer'); ?>
+                                                                    </label>
+                                                                    <select name="pricing_rule[default][apply_to]" style="padding: 8px; border: 2px solid #81c784; border-radius: 4px; min-width: 130px;">
+                                                                        <option value="both"><?php esc_html_e('Both prices', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                                        <option value="regular"><?php esc_html_e('Regular only', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                                        <option value="sale"><?php esc_html_e('Sale only', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                                    </select>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -775,6 +800,16 @@ $ai_providers = array(
                                                                     </label>
                                                                     <input type="number" name="pricing_rule[{id}][max_price]" value="" min="0" step="0.01" placeholder="—"
                                                                            style="width: 70px; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                                                                </div>
+                                                                <div>
+                                                                    <label style="font-size: 12px; color: #666; display: block; margin-bottom: 4px;">
+                                                                        <?php esc_html_e('Apply to', 'bootflow-product-xml-csv-importer'); ?>
+                                                                    </label>
+                                                                    <select name="pricing_rule[{id}][apply_to]" style="padding: 8px; border: 1px solid #ccc; border-radius: 4px; min-width: 130px;">
+                                                                        <option value="both"><?php esc_html_e('Both prices', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                                        <option value="regular"><?php esc_html_e('Regular only', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                                        <option value="sale"><?php esc_html_e('Sale only', 'bootflow-product-xml-csv-importer'); ?></option>
+                                                                    </select>
                                                                 </div>
                                                             </div>
                                                             
@@ -2025,8 +2060,17 @@ $ai_providers = array(
                                                         </div>
                                                     </div>
                                                     
-                                                    <!-- All fields are always updated on re-import -->
+                                                    <!-- Update on Sync for categories -->
+                                                    <?php if ($can_selective_update): ?>
+                                                    <div class="update-on-sync-wrapper" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
+                                                        <label>
+                                                            <input type="checkbox" name="field_mapping[categories][update_on_sync]" value="1" checked>
+                                                            <span><?php esc_html_e('Update categories on re-import?', 'bootflow-product-xml-csv-importer'); ?></span>
+                                                        </label>
+                                                    </div>
+                                                    <?php else: ?>
                                                     <input type="hidden" name="field_mapping[categories][update_on_sync]" value="1">
+                                                    <?php endif; ?>
                                                 </div>
                                             </div>
 
@@ -2134,8 +2178,17 @@ $ai_providers = array(
                                                         </div>
                                                     </div>
                                                     
-                                                    <!-- All fields are always updated on re-import -->
+                                                    <!-- Update on Sync for tags -->
+                                                    <?php if ($can_selective_update): ?>
+                                                    <div class="update-on-sync-wrapper" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
+                                                        <label>
+                                                            <input type="checkbox" name="field_mapping[tags][update_on_sync]" value="1" checked>
+                                                            <span><?php esc_html_e('Update tags on re-import?', 'bootflow-product-xml-csv-importer'); ?></span>
+                                                        </label>
+                                                    </div>
+                                                    <?php else: ?>
                                                     <input type="hidden" name="field_mapping[tags][update_on_sync]" value="1">
+                                                    <?php endif; ?>
                                                 </div>
                                             </div>
 
@@ -2228,8 +2281,17 @@ $ai_providers = array(
                                                         </div>
                                                     </div>
                                                     
-                                                    <!-- All fields are always updated on re-import -->
+                                                    <!-- Update on Sync for brand -->
+                                                    <?php if ($can_selective_update): ?>
+                                                    <div class="update-on-sync-wrapper" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
+                                                        <label>
+                                                            <input type="checkbox" name="field_mapping[brand][update_on_sync]" value="1" checked>
+                                                            <span><?php esc_html_e('Update brand on re-import?', 'bootflow-product-xml-csv-importer'); ?></span>
+                                                        </label>
+                                                    </div>
+                                                    <?php else: ?>
                                                     <input type="hidden" name="field_mapping[brand][update_on_sync]" value="1">
+                                                    <?php endif; ?>
                                                 </div>
                                             </div>
 
@@ -2631,8 +2693,31 @@ $ai_providers = array(
                                             
                                             
                                             
-                                            <!-- All fields are always updated on re-import -->
+                                            <!-- Update on Sync Checkbox -->
+                                            <?php if ($can_selective_update): ?>
+                                            <div class="update-on-sync-wrapper">
+                                                <label>
+                                                    <input type="checkbox" 
+                                                           name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" 
+                                                           value="1" 
+                                                           checked>
+                                                    <span>
+                                                        <?php esc_html_e('Update this field on re-import?', 'bootflow-product-xml-csv-importer'); ?>
+                                                    </span>
+                                                </label>
+                                                <p class="description">
+                                                    <?php esc_html_e('Uncheck to prevent this field from being updated when re-importing existing products', 'bootflow-product-xml-csv-importer'); ?>
+                                                </p>
+                                            </div>
+                                            <?php else: ?>
                                             <input type="hidden" name="field_mapping[<?php echo esc_attr($field_key); ?>][update_on_sync]" value="1">
+                                            <?php endif; ?>
+                                            
+                                            <div class="field-actions">
+                                                <button type="button" class="button button-small clear-mapping" title="<?php esc_html_e('Clear Mapping', 'bootflow-product-xml-csv-importer'); ?>">
+                                                    <span class="dashicons dashicons-no-alt"></span>
+                                                </button>
+                                            </div>
                                         </div>
                                         <?php endif; ?>
                                     <?php endforeach; ?>
@@ -2813,8 +2898,25 @@ $ai_providers = array(
         <!-- Processing Config Panels for Custom Fields -->
         
         
-        <!-- All fields are always updated on re-import -->
+        <!-- Update on Sync Checkbox -->
+        <?php if ($can_selective_update): ?>
+        <div class="update-on-sync-wrapper">
+            <label>
+                <input type="checkbox" 
+                       name="custom_fields[{index}][update_on_sync]" 
+                       value="1" 
+                       checked>
+                <span>
+                    <?php esc_html_e('Update this field on re-import?', 'bootflow-product-xml-csv-importer'); ?>
+                </span>
+            </label>
+            <p class="description">
+                <?php esc_html_e('Uncheck to prevent this field from being updated when re-importing existing products', 'bootflow-product-xml-csv-importer'); ?>
+            </p>
+        </div>
+        <?php else: ?>
         <input type="hidden" name="custom_fields[{index}][update_on_sync]" value="1">
+        <?php endif; ?>
         
         <div class="field-actions">
             <button type="button" class="button button-small remove-custom-field" title="<?php esc_html_e('Remove Custom Field', 'bootflow-product-xml-csv-importer'); ?>">
